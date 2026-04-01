@@ -1,0 +1,204 @@
+------------- 20-08-18-26-369059 Format reward -------------
+Content: woman[[59, 170, 366, 542]]
+Has format: False
+Content: woman[[60, 175, 431, 507]]
+Has format: False
+Content: the man with a yellow jacket and red visor of to the side[[775, 344, 977, 977]]
+Has format: False
+Content: the man with a yellow jacket and red visor of to the side[[848, 339, 993, 989]]
+Has format: False
+Content: all brown horse[[546, 364, 756, 946]]
+Has format: False
+Content: all brown horse[[546, 363, 755, 960]]
+Has format: False
+Content: a man in a black jacket on a green motorcycle sitting next to a brick building[[403, 296, 555, 735]]
+Has format: False
+Content: a man in a black jacket on a green motorcycle sitting next to a brick building[[385, 307, 548, 712]]
+Has format: False
+------------- 20-08-18-31-869245 Format reward -------------
+Content: yellow bike[[372, 449, 901, 944]]
+Has format: False
+Content: yellow bike[[347, 449, 884, 945]]
+Has format: False
+Content: horse on left side of another horse[[591, 412, 835, 743]]
+Has format: False
+Content: horse on left side of another horse[[574, 351, 985, 796]]
+Has format: False
+Content: top fire truck[[367, 95, 630, 266]]
+Has format: False
+Content: top fire truck[[379, 91, 574, 268]]
+Has format: False
+Content: the orange sled behind the couple that is leaning on the tree[[256, 298, 371, 724]]
+Has format: False
+Content: the orange sled behind the couple that is leaning on the tree[[281, 265, 405, 718]]
+Has format: False
+------------- 20-08-18-36-908495 Format reward -------------
+Content: man with bue shirt[[708, 646, 913, 1000]]
+Has format: False
+Content: man with bue shirt[[755, 651, 913, 987]]
+Has format: False
+Content: red shirt[[9, 204, 410, 983]]
+Has format: False
+Content: red shirt[[0, 207, 406, 998]]
+Has format: False
+Content: blond girl cutie[[554, 385, 874, 728]]
+Has format: False
+Content: blond girl cutie[[579, 378, 863, 987]]
+Has format: False
+Content: far right one cut off[[874, 208, 1000, 1000]]
+Has format: False
+Content: far right one cut off[[849, 195, 1000, 990]]
+Has format: False
+------------- 20-08-18-41-948974 Format reward -------------
+Content: the man[[241, 44, 657, 713]]
+Has format: False
+Content: the man[[188, 40, 989, 926]]
+Has format: False
+Content: guy wearing blue shirt[[747, 115, 967, 565]]
+Has format: False
+Content: guy wearing blue shirt[[721, 113, 966, 574]]
+Has format: False
+Content: front child[[123, 116, 682, 817]]
+Has format: False
+Content: front child[[141, 115, 682, 807]]
+Has format: False
+Content: orange not in bowl and not smooth[[384, 326, 487, 507]]
+Has format: False
+Content: orange not in bowl and not smooth[[301, 239, 439, 493]]
+Has format: False
+------------- 20-08-18-47-039042 Format reward -------------
+Content: pizza on right[[323, 354, 1000, 989]]
+Has format: False
+Content: pizza on right[[334, 368, 1000, 989]]
+Has format: False
+Content: bird with chest facing us[[455, 281, 956, 764]]
+Has format: False
+Content: bird with chest facing us[[443, 273, 956, 772]]
+Has format: False
+Content: a man in a ties wears a glow necklace[[92, 40, 620, 987]]
+Has format: False
+Content: a man in a ties wears a glow necklace[[81, 17, 607, 987]]
+Has format: False
+Content: gray car in background[[588, 721, 861, 952]]
+Has format: False
+Content: gray car in background[[634, 723, 875, 946]]
+Has format: False
+------------- 20-08-18-51-678126 Format reward -------------
+Content: center man[[344, 108, 611, 910]]
+Has format: False
+Content: center man[[366, 110, 607, 866]]
+Has format: False
+Content: child red[[185, 407, 503, 946]]
+Has format: False
+Content: child red[[391, 402, 535, 897]]
+Has format: False
+Content: leftmost girl[[125, 60, 347, 868]]
+Has format: False
+Content: leftmost girl[[167, 40, 377, 761]]
+Has format: False
+Content: top pizza[[468, 112, 992, 583]]
+Has format: False
+Content: top pizza[[375, 136, 992, 582]]
+Has format: False
+------------- 20-08-18-56-482181 Format reward -------------
+Content: guy in sunglasses[[588, 5, 759, 875]]
+Has format: False
+Content: guy in sunglasses[[235, 48, 751, 945]]
+Has format: False
+Content: a catcher squatting down behind home plate[[235, 535, 502, 916]]
+Has format: False
+Content: a catcher squatting down behind home plate[[318, 532, 453, 820]]
+Has format: False
+Content: closest dessert[[488, 528, 684, 823]]
+Has format: False
+Content: closest dessert[[485, 523, 701, 813]]
+Has format: False
+Content: red[[477, 197, 823, 812]]
+Has format: False
+Content: red[[433, 200, 808, 757]]
+Has format: False
+------------- 20-08-19-01-108890 Format reward -------------
+Content: man without ball in hand[[379, 163, 763, 997]]
+Has format: False
+Content: man without ball in hand[[86, 198, 483, 987]]
+Has format: False
+Content: girl[[91, 159, 414, 700]]
+Has format: False
+Content: girl[[73, 154, 429, 703]]
+Has format: False
+Content: brown bear not holding cup[[523, 202, 926, 799]]
+Has format: False
+Content: brown bear not holding cup[[527, 205, 764, 603]]
+Has format: False
+Content: reflection of dog[[136, 276, 723, 595]]
+Has format: False
+Content: reflection of dog[[130, 275, 737, 609]]
+Has format: False
+------------- 20-08-19-05-839115 Format reward -------------
+Content: right sandwich in the front[[266, 559, 730, 834]]
+Has format: False
+Content: right sandwich in the front[[534, 571, 859, 875]]
+Has format: False
+Content: man sitting[[5, 113, 503, 987]]
+Has format: False
+Content: man sitting[[0, 103, 521, 1000]]
+Has format: False
+Content: a brown color cow showing back to white color cow[[381, 161, 998, 697]]
+Has format: False
+Content: a brown color cow showing back to white color cow[[429, 163, 788, 726]]
+Has format: False
+Content: bowl of strawberries[[38, 147, 342, 493]]
+Has format: False
+Content: bowl of strawberries[[37, 144, 346, 503]]
+Has format: False
+------------- 20-08-19-10-053140 Format reward -------------
+Content: glass of brown stuff above plate[[430, 3, 865, 453]]
+Has format: False
+Content: glass of brown stuff above plate[[466, 5, 853, 406]]
+Has format: False
+Content: right photo woman forefront[[581, 63, 838, 929]]
+Has format: False
+Content: right photo woman forefront[[592, 71, 816, 883]]
+Has format: False
+Content: pizza slice output [132, 585, 253, 780]
+Has format: False
+Content: pizza slice output [363, 395, 639, 597]
+Has format: False
+Content: guy squatting in middle[[449, 415, 656, 858]]
+Has format: False
+Content: guy squatting in middle[[473, 396, 646, 830]]
+Has format: False
+------------- 20-08-19-14-405318 Format reward -------------
+Content: bigh brocoli[[403, 0, 772, 328]]
+Has format: False
+Content: bigh brocoli[[365, 0, 697, 358]]
+Has format: False
+Content: ymca black shirt[[564, 166, 1000, 987]]
+Has format: False
+Content: ymca black shirt output [793, 181, 999, 989]
+Has format: False
+Content: white baseball player with full beard[[131, 85, 478, 943]]
+Has format: False
+Content: white baseball player with full beard[[134, 54, 428, 931]]
+Has format: False
+Content: person in plaid behind man with bananas[[703, 512, 986, 988]]
+Has format: False
+Content: person in plaid behind man with bananas[[680, 187, 912, 984]]
+Has format: False
+------------- 20-08-19-19-377699 Format reward -------------
+Content: pink shirt thats yellow[[727, 568, 960, 1000]]
+Has format: False
+Content: pink shirt thats yellow[[667, 596, 959, 1000]]
+Has format: False
+Content: plane bottom right side corner of pic[[786, 583, 1000, 989]]
+Has format: False
+Content: plane bottom right side corner of pic[[775, 669, 980, 987]]
+Has format: False
+Content: dots umbrella[[211, 270, 523, 762]]
+Has format: False
+Content: dots umbrella[[207, 273, 498, 780]]
+Has format: False
+Content: a giraffe that is mostly obscured by another giraffe and a tree[[250, 255, 653, 914]]
+Has format: False
+Content: a giraffe that is mostly obscured by another giraffe and a tree[[601, 595, 1000, 999]]
+Has format: False

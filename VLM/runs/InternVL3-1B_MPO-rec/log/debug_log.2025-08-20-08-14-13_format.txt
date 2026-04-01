@@ -1,0 +1,181 @@
+------------- 20-08-14-55-935169 Format reward -------------
+Content: woman[[59, 170, 366, 542]]
+Has format: False
+Content: woman[[60, 175, 431, 507]]
+Has format: False
+Content: the man with a yellow jacket and red visor of to the side[[775, 344, 977, 977]]
+Has format: False
+Content: the man with a yellow jacket and red visor of to the side[[848, 339, 993, 989]]
+Has format: False
+Content: all brown horse[[546, 364, 756, 946]]
+Has format: False
+Content: all brown horse[[541, 363, 755, 960]]
+Has format: False
+Content: a man in a black jacket on a green motorcycle sitting next to a brick building[[403, 292, 555, 735]]
+Has format: False
+Content: There is no text describing the region that contains the man in a black jacket  on a green motorcycle sitting next to a brick building. I can only describe the objects, but no text would be provided here.
+Has format: False
+------------- 20-08-15-01-366281 Format reward -------------
+Content: yellow bike[[21, 198, 1000, 945]]
+Has format: False
+Content: yellow bike[[366, 449, 879, 938]]
+Has format: False
+Content: horse on left side of another horse[[250, 320, 607, 807]]
+Has format: False
+Content: horse on left side of another horse[[452, 321, 686, 798]]
+Has format: False
+Content: top fire truck[[366, 92, 626, 621]]
+Has format: False
+Content: top fire truck[[352, 396, 998, 630]]
+Has format: False
+Content: the orange sled behind the couple that is leaning on the tree[[278, 289, 423, 721]]
+Has format: False
+Content: the orange sled behind the couple that is leaning on the tree[[248, 290, 386, 721]]
+Has format: False
+------------- 20-08-15-11-095572 Format reward -------------
+Content: man with bue shirt[[723, 6, 913, 492]]
+Has format: False
+Content: Based on the images provided, here are the bounding boxes for the specified bounding boxes:
+
+1. Top-left corner:
+   - Coordinates: (170, 50) to (280, 280)
+
+2. Bottom-left corner:
+   - Coordinates: (415, 50) to (630, 630)
+
+3. Bottom-right corner:
+   - Coordinates: (862, 50) to (963, 625)
+
+These coordinates are based on the given resolution and the size of the images in the collage.
+Has format: False
+Content: red shirt[[3, 219, 401, 986]]
+Has format: False
+Content: red shirt[[0, 208, 419, 995]]
+Has format: False
+Content: blond girl cutie[[533, 380, 878, 989]]
+Has format: False
+Content: blond girl cutie[[627, 376, 896, 1000]]
+Has format: False
+Content: far right one cut off[[857, 85, 1000, 987]]
+Has format: False
+Content: far right one cut off[[848, 202, 999, 989]]
+Has format: False
+------------- 20-08-15-16-340681 Format reward -------------
+Content: the man[[225, 47, 649, 796]]
+Has format: False
+Content: the man[[202, 43, 649, 721]]
+Has format: False
+Content: guy wearing blue shirt[[735, 122, 973, 573]]
+Has format: False
+Content: guy wearing blue shirt[[731, 122, 964, 575]]
+Has format: False
+Content: front child[[133, 117, 643, 811]]
+Has format: False
+Content: front child[[139, 120, 674, 811]]
+Has format: False
+Content: orange not in bowl and not smooth[[597, 534, 778, 590]]
+Has format: False
+Content: orange not in bowl and not smooth[[271, 426, 451, 685]]
+Has format: False
+------------- 20-08-15-21-541920 Format reward -------------
+Content: pizza on right[[367, 363, 1000, 988]]
+Has format: False
+Content: pizza on right[[348, 357, 1000, 989]]
+Has format: False
+Content: bird with chest facing us[[31, 279, 290, 693]]
+Has format: False
+Content: bird with chest facing us[[458, 272, 956, 762]]
+Has format: False
+Content: a man in a ties wears a glow necklace[[109, 103, 548, 930]]
+Has format: False
+Content: a man in a ties wears a glow necklace[[76, 20, 603, 1000]]
+Has format: False
+Content: gray car in background[[592, 708, 885, 940]]
+Has format: False
+Content: gray car in background[[588, 720, 882, 946]]
+Has format: False
+------------- 20-08-15-26-100023 Format reward -------------
+Content: center man[[331, 105, 645, 891]]
+Has format: False
+Content: center man[[345, 101, 628, 980]]
+Has format: False
+Content: child red[[292, 407, 556, 974]]
+Has format: False
+Content: child red[[336, 409, 533, 934]]
+Has format: False
+Content: leftmost girl[[212, 16, 368, 729]]
+Has format: False
+Content: leftmost girl[[135, 23, 372, 829]]
+Has format: False
+Content: top pizza[[0, 3, 1000, 933]]
+Has format: False
+Content: top pizza[[373, 113, 991, 581]]
+Has format: False
+------------- 20-08-15-31-012743 Format reward -------------
+Content: guy in sunglasses[[184, 70, 464, 937]]
+Has format: False
+Content: guy in sunglasses[[573, 0, 749, 874]]
+Has format: False
+Content: a catcher squatting down behind home plate[[228, 535, 466, 908]]
+Has format: False
+Content: a catcher squatting down behind home plate[[253, 523, 479, 908]]
+Has format: False
+Content: closest dessert[[390, 518, 584, 748]]
+Has format: False
+Content: closest dessert[[488, 524, 665, 812]]
+Has format: False
+Content: red[[463, 194, 824, 820]]
+Has format: False
+Content: red[[494, 198, 816, 820]]
+Has format: False
+------------- 20-08-15-35-724927 Format reward -------------
+Content: man without ball in hand[[694, 148, 967, 885]]
+Has format: False
+Content: man without ball in hand[[404, 155, 735, 989]]
+Has format: False
+Content: girl[[103, 158, 485, 717]]
+Has format: False
+Content: girl[[73, 159, 434, 690]]
+Has format: False
+Content: brown bear not holding cup[[624, 226, 908, 440]]
+Has format: False
+Content: brown bear not holding cup[[601, 222, 929, 696]]
+Has format: False
+Content: reflection of dog[[133, 280, 735, 638]]
+Has format: False
+Content: reflection of dog[[91, 273, 722, 482]]
+Has format: False
+------------- 20-08-15-40-481764 Format reward -------------
+Content: right sandwich in the front[[565, 570, 881, 901]]
+Has format: False
+Content: right sandwich in the front[[563, 580, 879, 821]]
+Has format: False
+Content: man sitting[[0, 112, 487, 980]]
+Has format: False
+Content: man sitting[[0, 0, 493, 984]]
+Has format: False
+Content: a brown color cow showing back to white color cow[[362, 122, 992, 704]]
+Has format: False
+Content: a brown color cow showing back to white color cow[[356, 119, 969, 707]]
+Has format: False
+Content: bowl of strawberries[[45, 154, 359, 459]]
+Has format: False
+Content: bowl of strawberries[[51, 133, 319, 508]]
+Has format: False
+------------- 20-08-15-44-774053 Format reward -------------
+Content: glass of brown stuff above plate[[508, 4, 894, 375]]
+Has format: False
+Content: glass of brown stuff above plate[[474, 0, 822, 452]]
+Has format: False
+Content: right photo woman forefront[[605, 59, 875, 938]]
+Has format: False
+Content: right photo woman forefront[[592, 64, 855, 928]]
+Has format: False
+Content: pizza slice[[108, 377, 1000, 905]]
+Has format: False
+Content: pizza slice[[276, 376, 767, 611]]
+Has format: False
+Content: guy squatting in middle[[441, 419, 679, 839]]
+Has format: False
+Content: guy squatting in middle[[441, 397, 665, 837]]
+Has format: False

@@ -1,0 +1,884 @@
+------------- 20-17-00-57-005954 Format reward -------------
+Content: foreground tennis player on left[[59, 166, 304, 917]]
+Has format: False
+Content: foreground tennis player on left[[52, 161, 298, 932]]
+Has format: False
+Content: bike left[[13, 296, 348, 612]]
+Has format: False
+Content: bike left[[43, 316, 364, 618]]
+Has format: False
+Content: zebra on right[[285, 242, 902, 989]]
+Has format: False
+Content: zebra on right[[308, 243, 912, 1000]]
+Has format: False
+Content: left side[[0, 2, 397, 1000]]
+Has format: False
+Content: left side[[0, 0, 473, 987]]
+Has format: False
+------------- 20-17-01-02-545795 Format reward -------------
+Content: black truck[[35, 493, 230, 767]]
+Has format: False
+Content: black truck[[188, 414, 828, 804]]
+Has format: False
+Content: catcher[[0, 325, 228, 992]]
+Has format: False
+Content: catcher[[0, 329, 228, 986]]
+Has format: False
+Content: left most hotdog[[12, 50, 496, 1000]]
+Has format: False
+Content: left most hotdog[[18, 126, 839, 981]]
+Has format: False
+Content: the train on the left side but still near the middle[[155, 446, 570, 689]]
+Has format: False
+Content: the train on the left side but still near the middle[[404, 396, 745, 647]]
+Has format: False
+------------- 20-17-01-07-448720 Format reward -------------
+Content: right dounut[[650, 587, 981, 963]]
+Has format: False
+Content: right dounut[[605, 592, 991, 969]]
+Has format: False
+Content: hands bottom left[[0, 793, 473, 1000]]
+Has format: False
+Content: hands bottom left[[3, 828, 459, 1000]]
+Has format: False
+Content: girl in orange shirt[[512, 75, 826, 843]]
+Has format: False
+Content: girl in orange shirt[[497, 75, 843, 835]]
+Has format: False
+Content: yellow shirt[[0, 535, 222, 1000]]
+Has format: False
+Content: yellow shirt[[0, 547, 304, 997]]
+Has format: False
+------------- 20-17-01-12-572400 Format reward -------------
+Content: black screen behind boy[[603, 553, 1000, 719]]
+Has format: False
+Content: black screen behind boy[[3, 163, 574, 658]]
+Has format: False
+Content: main girl[[67, 88, 781, 988]]
+Has format: False
+Content: main girl[[69, 91, 724, 989]]
+Has format: False
+Content: red motorcycle[[53, 210, 423, 989]]
+Has format: False
+Content: red motorcycle[[4, 209, 427, 982]]
+Has format: False
+Content: closest bus[[92, 215, 700, 670]]
+Has format: False
+Content: closest bus[[91, 213, 687, 651]]
+Has format: False
+------------- 20-17-01-17-513446 Format reward -------------
+Content: middle bowl on right[[569, 292, 764, 564]]
+Has format: False
+Content: middle bowl on right[[571, 284, 785, 568]]
+Has format: False
+Content: soup cup way right[[737, 582, 993, 894]]
+Has format: False
+Content: soup cup way right[[725, 585, 982, 924]]
+Has format: False
+Content: guy on left with beard and guitar[[0, 94, 578, 984]]
+Has format: False
+Content: guy on left with beard and guitar[[0, 88, 539, 989]]
+Has format: False
+Content: player on left[[44, 137, 497, 931]]
+Has format: False
+Content: player on left[[44, 145, 407, 929]]
+Has format: False
+------------- 20-17-01-22-524425 Format reward -------------
+Content: right zebra[[646, 298, 1000, 989]]
+Has format: False
+Content: right zebra[[526, 157, 1000, 990]]
+Has format: False
+Content: front elephant[[143, 183, 533, 984]]
+Has format: False
+Content: front elephant[[141, 193, 515, 999]]
+Has format: False
+Content: bottom cellphone[[333, 547, 707, 872]]
+Has format: False
+Content: bottom cellphone[[328, 541, 718, 872]]
+Has format: False
+Content: guy on the left[[75, 63, 320, 634]]
+Has format: False
+Content: guy on the left[[51, 60, 322, 848]]
+Has format: False
+------------- 20-17-01-27-460055 Format reward -------------
+Content: brown and white horse front[[41, 239, 375, 984]]
+Has format: False
+Content: brown and white horse front[[86, 260, 387, 877]]
+Has format: False
+Content: very front girl[[167, 336, 564, 987]]
+Has format: False
+Content: very front girl[[168, 338, 547, 984]]
+Has format: False
+Content: cat on right[[584, 111, 776, 888]]
+Has format: False
+Content: cat on right[[510, 116, 748, 860]]
+Has format: False
+Content: middle giraffe of the three[[79, 609, 424, 981]]
+Has format: False
+Content: middle giraffe of the three[[174, 31, 990, 989]]
+Has format: False
+------------- 20-17-01-32-298438 Format reward -------------
+Content: player running[[680, 270, 944, 926]]
+Has format: False
+Content: player running[[685, 270, 931, 934]]
+Has format: False
+Content: horse on left[[214, 202, 552, 948]]
+Has format: False
+Content: horse on left[[184, 194, 536, 944]]
+Has format: False
+Content: man yellow shirt[[405, 195, 619, 705]]
+Has format: False
+Content: man yellow shirt[[356, 192, 573, 751]]
+Has format: False
+Content: blue at bottom of pic[[0, 791, 1000, 1000]]
+Has format: False
+Content: blue at bottom of pic[[57, 846, 1000, 987]]
+Has format: False
+------------- 20-17-01-37-241511 Format reward -------------
+Content: girl in black[[5, 277, 456, 911]]
+Has format: False
+Content: girl in black[[8, 280, 454, 913]]
+Has format: False
+Content: apple macbook in the middle[[213, 606, 565, 978]]
+Has format: False
+Content: apple macbook in the middle[[425, 846, 638, 967]]
+Has format: False
+Content: couch lower left[[5, 786, 515, 987]]
+Has format: False
+Content: couch lower left[[2, 670, 384, 984]]
+Has format: False
+Content: laptop[[207, 421, 809, 1000]]
+Has format: False
+Content: laptop[[382, 0, 898, 935]]
+Has format: False
+------------- 20-17-01-42-128260 Format reward -------------
+Content: person in white[[3, 31, 449, 971]]
+Has format: False
+Content: person in white[[0, 44, 483, 1000]]
+Has format: False
+Content: bottom right container[[614, 483, 924, 987]]
+Has format: False
+Content: bottom right container[[591, 482, 926, 989]]
+Has format: False
+Content: couch on right[[564, 209, 982, 499]]
+Has format: False
+Content: couch on right[[537, 208, 980, 490]]
+Has format: False
+Content: catcher[[305, 462, 518, 863]]
+Has format: False
+Content: catcher[[298, 467, 530, 863]]
+Has format: False
+------------- 20-17-01-46-674339 Format reward -------------
+Content: blond bottom left[[0, 585, 183, 987]]
+Has format: False
+Content: blond bottom left[[0, 578, 217, 985]]
+Has format: False
+Content: white bus[[788, 368, 1000, 930]]
+Has format: False
+Content: white bus[[858, 338, 1000, 928]]
+Has format: False
+Content: batter 2ns up on left[[0, 507, 460, 840]]
+Has format: False
+Content: batter 2ns up on left[[5, 507, 465, 839]]
+Has format: False
+Content: goat left[[0, 450, 220, 1000]]
+Has format: False
+Content: goat left[[3, 441, 241, 989]]
+Has format: False
+------------- 20-17-01-50-867216 Format reward -------------
+Content: center of picture person checked shirt[[431, 499, 597, 1000]]
+Has format: False
+Content: center of picture person checked shirt[[419, 478, 606, 1000]]
+Has format: False
+Content: left animal[[206, 454, 404, 902]]
+Has format: False
+Content: left animal[[241, 446, 403, 879]]
+Has format: False
+Content: guy in white[[4, 54, 444, 515]]
+Has format: False
+Content: guy in white[[0, 56, 408, 520]]
+Has format: False
+Content: right boy red skateboard[[629, 241, 792, 659]]
+Has format: False
+Content: right boy red skateboard[[526, 331, 796, 859]]
+Has format: False
+------------- 20-17-01-55-868271 Format reward -------------
+Content: man holding kid[[565, 51, 960, 875]]
+Has format: False
+Content: man holding kid[[580, 67, 965, 890]]
+Has format: False
+Content: person on left edge[[10, 78, 126, 743]]
+Has format: False
+Content: person on left edge[[0, 77, 126, 735]]
+Has format: False
+Content: tea cup on the right[[582, 198, 888, 453]]
+Has format: False
+Content: tea cup on the right[[571, 215, 877, 442]]
+Has format: False
+Content: white car left corner[[0, 592, 257, 1000]]
+Has format: False
+Content: white car left corner[[0, 622, 254, 987]]
+Has format: False
+------------- 20-17-02-00-611149 Format reward -------------
+Content: right dude[[530, 27, 963, 614]]
+Has format: False
+Content: right dude[[549, 25, 969, 613]]
+Has format: False
+Content: boy[[203, 139, 844, 773]]
+Has format: False
+Content: boy[[204, 137, 736, 789]]
+Has format: False
+Content: right sandwich[[540, 121, 760, 465]]
+Has format: False
+Content: right sandwich[[528, 125, 790, 441]]
+Has format: False
+Content: woman on right[[736, 217, 975, 946]]
+Has format: False
+Content: woman on right[[719, 284, 971, 940]]
+Has format: False
+------------- 20-17-02-05-537641 Format reward -------------
+Content: left guy[[3, 3, 420, 510]]
+Has format: False
+Content: left guy[[0, 53, 427, 522]]
+Has format: False
+Content: white vehicle right top[[519, 0, 1000, 462]]
+Has format: False
+Content: white vehicle right top[[486, 0, 1000, 445]]
+Has format: False
+Content: left woman[[3, 239, 416, 938]]
+Has format: False
+Content: left woman[[2, 291, 248, 820]]
+Has format: False
+Content: food on the right[[560, 579, 1000, 822]]
+Has format: False
+Content: food on the right[[563, 583, 999, 822]]
+Has format: False
+------------- 20-17-02-10-577832 Format reward -------------
+Content: red haired guy on left[[0, 416, 290, 920]]
+Has format: False
+Content: red haired guy on left[[0, 420, 310, 921]]
+Has format: False
+Content: animal on left[[39, 393, 415, 820]]
+Has format: False
+Content: animal on left[[21, 191, 355, 823]]
+Has format: False
+Content: zebra on left output [85, 76, 563, 858]
+Has format: False
+Content: zebra on left[[51, 88, 607, 858]]
+Has format: False
+Content: bike on right[[760, 235, 1000, 685]]
+Has format: False
+Content: bike on right[[804, 241, 1000, 1000]]
+Has format: False
+------------- 20-17-02-15-442075 Format reward -------------
+Content: blue hat white shirt[[70, 103, 648, 1000]]
+Has format: False
+Content: blue hat white shirt[[160, 98, 651, 984]]
+Has format: False
+Content: right train[[511, 366, 885, 651]]
+Has format: False
+Content: right train[[517, 368, 895, 608]]
+Has format: False
+Content: adult zebra[[111, 98, 939, 920]]
+Has format: False
+Content: adult zebra[[116, 91, 932, 920]]
+Has format: False
+Content: bottom left output [2, 785, 292, 1000]
+Has format: False
+Content: bottom left output [5, 777, 233, 1000]
+Has format: False
+------------- 20-17-02-20-285724 Format reward -------------
+Content: middle person front[[417, 56, 616, 975]]
+Has format: False
+Content: middle person front[[419, 46, 608, 971]]
+Has format: False
+Content: left glass[[202, 717, 398, 989]]
+Has format: False
+Content: left glass[[141, 410, 356, 989]]
+Has format: False
+Content: bittom plate[[202, 615, 727, 978]]
+Has format: False
+Content: bittom plate[[126, 114, 393, 580]]
+Has format: False
+Content: left girafee[[44, 363, 340, 857]]
+Has format: False
+Content: left girafee[[52, 358, 451, 851]]
+Has format: False
+------------- 20-17-02-25-283403 Format reward -------------
+Content: right person[[665, 503, 897, 990]]
+Has format: False
+Content: right person[[678, 508, 908, 987]]
+Has format: False
+Content: guy on left[[142, 223, 370, 708]]
+Has format: False
+Content: guy on left[[131, 244, 412, 868]]
+Has format: False
+Content: man in black[[642, 5, 923, 985]]
+Has format: False
+Content: man in black[[652, 0, 934, 997]]
+Has format: False
+Content: giraffe on left[[223, 280, 583, 706]]
+Has format: False
+Content: giraffe on left[[224, 274, 599, 760]]
+Has format: False
+------------- 20-17-02-30-089624 Format reward -------------
+Content: bride[[128, 89, 399, 984]]
+Has format: False
+Content: bride[[112, 101, 385, 944]]
+Has format: False
+Content: left lady[[52, 135, 451, 990]]
+Has format: False
+Content: left lady[[53, 135, 464, 987]]
+Has format: False
+Content: left meter 68[[333, 56, 577, 872]]
+Has format: False
+Content: left meter 68[[341, 49, 568, 873]]
+Has format: False
+Content: man in green[[374, 284, 537, 839]]
+Has format: False
+Content: man in green[[337, 267, 513, 830]]
+Has format: False
+------------- 20-17-02-35-087808 Format reward -------------
+Content: middle man[[446, 307, 699, 929]]
+Has format: False
+Content: middle man[[450, 312, 702, 923]]
+Has format: False
+Content: the guy on the right[[498, 307, 769, 696]]
+Has format: False
+Content: the guy on the right[[510, 298, 778, 700]]
+Has format: False
+Content: coach dude is laying on[[0, 191, 840, 804]]
+Has format: False
+Content: coach dude is laying on[[623, 166, 984, 669]]
+Has format: False
+Content: right plant[[603, 139, 1000, 857]]
+Has format: False
+Content: right plant[[545, 133, 1000, 851]]
+Has format: False
+------------- 20-17-02-40-102608 Format reward -------------
+Content: woman with tattoos on her left forearm playing wii[[15, 274, 1000, 1000]]
+Has format: False
+Content: woman with tattoos on her left forearm playing wii[[9, 286, 1000, 984]]
+Has format: False
+Content: person red shirt with glasses[[0, 96, 382, 703]]
+Has format: False
+Content: person red shirt with glasses[[146, 0, 380, 454]]
+Has format: False
+Content: bride[[0, 2, 590, 990]]
+Has format: False
+Content: bride[[0, 16, 512, 987]]
+Has format: False
+Content: catcher[[727, 220, 901, 864]]
+Has format: False
+Content: catcher[[717, 232, 971, 871]]
+Has format: False
+------------- 20-17-02-45-168989 Format reward -------------
+Content: guy left[[0, 73, 500, 1000]]
+Has format: False
+Content: guy left[[0, 60, 542, 1000]]
+Has format: False
+Content: old man[[373, 120, 998, 981]]
+Has format: False
+Content: old man[[420, 124, 1000, 989]]
+Has format: False
+Content: woman feeding geraff[[176, 236, 476, 985]]
+Has format: False
+Content: woman feeding geraff[[149, 243, 567, 990]]
+Has format: False
+Content: cow in the middle of the 5[[368, 468, 546, 969]]
+Has format: False
+Content: cow in the middle of the 5[[403, 425, 643, 941]]
+Has format: False
+------------- 20-17-02-50-096503 Format reward -------------
+Content: kid on right[[767, 139, 998, 999]]
+Has format: False
+Content: kid on right[[772, 145, 1000, 998]]
+Has format: False
+Content: umbrella lady[[466, 108, 624, 968]]
+Has format: False
+Content: umbrella lady[[428, 105, 602, 964]]
+Has format: False
+Content: bench on left[[64, 356, 504, 872]]
+Has format: False
+Content: bench on left[[37, 420, 497, 866]]
+Has format: False
+Content: top right corner of pic curly hair[[576, 0, 1000, 816]]
+Has format: False
+Content: top right corner of pic curly hair[[536, 2, 1000, 979]]
+Has format: False
+------------- 20-17-02-54-922243 Format reward -------------
+Content: food left[[0, 427, 353, 937]]
+Has format: False
+Content: food left[[0, 449, 370, 939]]
+Has format: False
+Content: a car sitting at an intersection[[431, 760, 644, 991]]
+Has format: False
+Content: a car sitting at an intersection[[430, 772, 645, 998]]
+Has format: False
+Content: red chair[[447, 705, 786, 998]]
+Has format: False
+Content: red chair[[437, 701, 772, 1000]]
+Has format: False
+Content: lamb right[[526, 278, 1000, 843]]
+Has format: False
+Content: lamb right[[538, 289, 1000, 844]]
+Has format: False
+------------- 20-17-02-59-229091 Format reward -------------
+Content: mug with dark coffee[[371, 699, 825, 988]]
+Has format: False
+Content: mug with dark coffee[[375, 695, 833, 987]]
+Has format: False
+Content: girl in middle[[288, 491, 538, 1000]]
+Has format: False
+Content: girl in middle[[553, 405, 997, 1000]]
+Has format: False
+Content: right giraffe[[463, 85, 1000, 1000]]
+Has format: False
+Content: right giraffe[[492, 84, 1000, 995]]
+Has format: False
+Content: left chair[[2, 372, 421, 984]]
+Has format: False
+Content: left chair[[84, 408, 546, 1000]]
+Has format: False
+------------- 20-17-03-03-615663 Format reward -------------
+Content: white bus[[884, 344, 1000, 936]]
+Has format: False
+Content: white bus[[823, 342, 1000, 997]]
+Has format: False
+Content: goat left[[0, 456, 227, 980]]
+Has format: False
+Content: goat left[[0, 442, 237, 1000]]
+Has format: False
+Content: umbrella lady[[446, 101, 610, 971]]
+Has format: False
+Content: umbrella lady[[474, 104, 639, 964]]
+Has format: False
+Content: laptop[[205, 143, 906, 1000]]
+Has format: False
+Content: laptop[[218, 143, 862, 1000]]
+Has format: False
+------------- 20-17-03-09-524595 Format reward -------------
+Content: left woman[[0, 290, 205, 868]]
+Has format: False
+Content: left woman[[0, 294, 203, 838]]
+Has format: False
+Content: the train on the left side but still near the middle[[160, 421, 407, 679]]
+Has format: False
+Content: the train on the left side but still near the middle[[164, 450, 650, 699]]
+Has format: False
+Content: left most hotdog output [13, 2, 997, 987] left most hotdog output [12, 2, 997, 987]
+Has format: False
+Content: left most hotdog[[86, 15, 962, 989]]
+Has format: False
+Content: bike on right[[765, 231, 1000, 622]]
+Has format: False
+Content: bike on right[[767, 587, 1000, 982]]
+Has format: False
+------------- 20-17-03-14-783764 Format reward -------------
+Content: red haired guy on left[[0, 417, 310, 928]]
+Has format: False
+Content: red haired guy on left[[0, 411, 307, 921]]
+Has format: False
+Content: right sandwich[[554, 121, 784, 421]]
+Has format: False
+Content: right sandwich[[573, 127, 754, 420]]
+Has format: False
+Content: left glass[[99, 4, 274, 802]]
+Has format: False
+Content: left glass[[157, 380, 369, 982]]
+Has format: False
+Content: foreground tennis player on left[[52, 161, 274, 944]]
+Has format: False
+Content: foreground tennis player on left[[37, 152, 273, 952]]
+Has format: False
+------------- 20-17-03-19-633766 Format reward -------------
+Content: bench on left[[25, 418, 460, 800]]
+Has format: False
+Content: bench on left[[23, 358, 540, 858]]
+Has format: False
+Content: tea cup on the right[[534, 164, 912, 452]]
+Has format: False
+Content: tea cup on the right[[575, 192, 910, 445]]
+Has format: False
+Content: bride[[2, 5, 633, 989]]
+Has format: False
+Content: bride[[3, 8, 533, 973]]
+Has format: False
+Content: right giraffe[[518, 85, 1000, 984]]
+Has format: False
+Content: right giraffe[[419, 150, 1000, 1000]]
+Has format: False
+------------- 20-17-03-24-682247 Format reward -------------
+Content: coach dude is laying on[[538, 561, 998, 984]]
+Has format: False
+Content: coach dude is laying on[[2, 32, 981, 719]]
+Has format: False
+Content: bottom right container[[586, 483, 954, 988]]
+Has format: False
+Content: bottom right container[[593, 483, 952, 987]]
+Has format: False
+Content: food on the right[[569, 571, 1000, 827]]
+Has format: False
+Content: food on the right[[580, 579, 1000, 827]]
+Has format: False
+Content: left chair[[91, 361, 420, 984]]
+Has format: False
+Content: left chair[[103, 386, 644, 1000]]
+Has format: False
+------------- 20-17-03-30-865548 Format reward -------------
+Content: left side[[0, 4, 388, 990]]
+Has format: False
+Content: left side[[45, 2, 139, 978]]
+Has format: False
+Content: man in black[[661, 0, 933, 998]]
+Has format: False
+Content: man in black[[651, 5, 941, 984]]
+Has format: False
+Content: black screen behind boy[[0, 0, 296, 243]]
+Has format: False
+Content: black screen behind boy[[1, 162, 672, 425]]
+Has format: False
+Content: blond bottom left[[0, 579, 188, 990]]
+Has format: False
+Content: blond bottom left[[0, 584, 205, 1000]]
+Has format: False
+------------- 20-17-03-35-738479 Format reward -------------
+Content: soup cup way right[[740, 582, 995, 915]]
+Has format: False
+Content: soup cup way right[[715, 586, 986, 914]]
+Has format: False
+Content: person in white[[2, 40, 466, 989]]
+Has format: False
+Content: person in white[[0, 41, 461, 982]]
+Has format: False
+Content: horse on left[[173, 190, 545, 987]]
+Has format: False
+Content: horse on left[[320, 184, 693, 874]]
+Has format: False
+Content: left lady[[54, 131, 751, 986]]
+Has format: False
+Content: left lady[[59, 133, 482, 996]]
+Has format: False
+------------- 20-17-03-40-473468 Format reward -------------
+Content: left girafee[[27, 359, 361, 866]]
+Has format: False
+Content: left girafee[[39, 366, 362, 852]]
+Has format: False
+Content: player on left[[46, 136, 356, 936]]
+Has format: False
+Content: player on left[[45, 138, 383, 936]]
+Has format: False
+Content: white vehicle right top[[524, 7, 993, 439]]
+Has format: False
+Content: white vehicle right top[[503, 0, 1000, 462]]
+Has format: False
+Content: middle bowl on right[[582, 295, 833, 654]]
+Has format: False
+Content: middle bowl on right[[552, 291, 783, 564]]
+Has format: False
+------------- 20-17-03-45-216201 Format reward -------------
+Content: girl in black[[272, 384, 505, 957]]
+Has format: False
+Content: girl in black[[3, 278, 447, 909]]
+Has format: False
+Content: couch lower left[[0, 634, 464, 1000]]
+Has format: False
+Content: couch lower left[[4, 667, 542, 987]]
+Has format: False
+Content: man yellow shirt[[410, 191, 617, 992]]
+Has format: False
+Content: man yellow shirt[[386, 184, 582, 1000]]
+Has format: False
+Content: man holding kid[[623, 66, 969, 981]]
+Has format: False
+Content: man holding kid[[620, 45, 962, 893]]
+Has format: False
+------------- 20-17-03-50-019679 Format reward -------------
+Content: adult zebra[[102, 96, 938, 945]]
+Has format: False
+Content: adult zebra[[209, 108, 928, 748]]
+Has format: False
+Content: couch on right[[552, 199, 989, 512]]
+Has format: False
+Content: couch on right[[537, 211, 983, 494]]
+Has format: False
+Content: lamb right[[512, 280, 996, 852]]
+Has format: False
+Content: lamb right[[512, 280, 1000, 850]]
+Has format: False
+Content: woman on right[[730, 241, 972, 938]]
+Has format: False
+Content: woman on right[[737, 230, 975, 943]]
+Has format: False
+------------- 20-17-03-55-091814 Format reward -------------
+Content: hands bottom left[[3, 812, 508, 986]]
+Has format: False
+Content: hands bottom left[[0, 841, 467, 1000]]
+Has format: False
+Content: kid on right[[782, 138, 1000, 984]]
+Has format: False
+Content: kid on right[[805, 135, 999, 984]]
+Has format: False
+Content: cow in the middle of the 5[[400, 423, 622, 953]]
+Has format: False
+Content: cow in the middle of the 5[[393, 422, 619, 951]]
+Has format: False
+Content: a car sitting at an intersection[[429, 768, 657, 989]]
+Has format: False
+Content: a car sitting at an intersection[[414, 774, 645, 986]]
+Has format: False
+------------- 20-17-04-00-013781 Format reward -------------
+Content: closest bus[[74, 208, 699, 670]]
+Has format: False
+Content: closest bus[[61, 215, 701, 666]]
+Has format: False
+Content: left meter 68[[340, 60, 560, 864]]
+Has format: False
+Content: left meter 68[[315, 57, 570, 787]]
+Has format: False
+Content: guy left[[412, 349, 558, 685]]
+Has format: False
+Content: guy left[[1, 67, 547, 989]]
+Has format: False
+Content: front elephant[[121, 184, 508, 947]]
+Has format: False
+Content: front elephant[[130, 188, 489, 989]]
+Has format: False
+------------- 20-17-04-04-916884 Format reward -------------
+Content: mug with dark coffee[[427, 704, 803, 1000]]
+Has format: False
+Content: mug with dark coffee[[364, 695, 823, 1000]]
+Has format: False
+Content: very front girl[[156, 340, 581, 989]]
+Has format: False
+Content: very front girl[[164, 341, 566, 987]]
+Has format: False
+Content: right plant[[391, 127, 1000, 863]]
+Has format: False
+Content: right plant[[595, 387, 939, 863]]
+Has format: False
+Content: player running[[677, 254, 927, 927]]
+Has format: False
+Content: player running[[692, 275, 935, 942]]
+Has format: False
+------------- 20-17-04-09-576683 Format reward -------------
+Content: giraffe on left[[222, 275, 600, 772]]
+Has format: False
+Content: giraffe on left[[245, 265, 613, 688]]
+Has format: False
+Content: cat on right[[419, 157, 772, 921]]
+Has format: False
+Content: cat on right[[495, 116, 745, 856]]
+Has format: False
+Content: batter 2ns up on left[[0, 508, 451, 832]]
+Has format: False
+Content: batter 2ns up on left[[545, 5, 705, 291]]
+Has format: False
+Content: blue hat white shirt[[274, 84, 838, 1000]]
+Has format: False
+Content: blue hat white shirt[[187, 328, 587, 647]]
+Has format: False
+------------- 20-17-04-13-592529 Format reward -------------
+Content: black truck[[190, 422, 847, 800]]
+Has format: False
+Content: black truck[[216, 398, 877, 799]]
+Has format: False
+Content: red chair[[463, 722, 758, 1000]]
+Has format: False
+Content: red chair[[446, 712, 775, 1000]]
+Has format: False
+Content: main girl[[94, 75, 820, 989]]
+Has format: False
+Content: main girl[[69, 76, 751, 1000]]
+Has format: False
+Content: middle giraffe of the three[[57, 600, 377, 958]]
+Has format: False
+Content: middle giraffe of the three[[94, 602, 384, 957]]
+Has format: False
+------------- 20-17-04-17-774389 Format reward -------------
+Content: man in green[[353, 262, 531, 831]]
+Has format: False
+Content: man in green[[321, 258, 522, 840]]
+Has format: False
+Content: bottom cellphone[[322, 545, 719, 872]]
+Has format: False
+Content: bottom cellphone[[312, 540, 716, 882]]
+Has format: False
+Content: white car left corner[[3, 610, 230, 1000]]
+Has format: False
+Content: white car left corner[[0, 595, 220, 1000]]
+Has format: False
+Content: zebra on right[[288, 254, 801, 989]]
+Has format: False
+Content: zebra on right[[241, 115, 868, 989]]
+Has format: False
+------------- 20-17-04-22-603901 Format reward -------------
+Content: right dude[[518, 21, 951, 600]]
+Has format: False
+Content: right dude[[317, 42, 966, 733]]
+Has format: False
+Content: center of picture person checked shirt[[381, 494, 592, 969]]
+Has format: False
+Content: center of picture person checked shirt[[412, 477, 602, 990]]
+Has format: False
+Content: left guy[[3, 48, 412, 512]]
+Has format: False
+Content: left guy[[0, 48, 414, 532]]
+Has format: False
+Content: old man[[291, 119, 1000, 1000]]
+Has format: False
+Content: old man[[430, 125, 999, 982]]
+Has format: False
+------------- 20-17-04-27-504135 Format reward -------------
+Content: catcher[[709, 227, 899, 857]]
+Has format: False
+Content: catcher[[727, 227, 899, 861]]
+Has format: False
+Content: top right corner of pic curly hair[[583, 2, 1000, 804]]
+Has format: False
+Content: top right corner of pic curly hair[[594, 0, 999, 861]]
+Has format: False
+Content: catcher[[0, 307, 204, 1000]]
+Has format: False
+Content: catcher[[0, 334, 228, 1000]]
+Has format: False
+Content: right zebra[[648, 204, 1000, 989]]
+Has format: False
+Content: right zebra[[354, 26, 1000, 1000]]
+Has format: False
+------------- 20-17-04-32-190114 Format reward -------------
+Content: bittom plate[[178, 602, 719, 956]]
+Has format: False
+Content: bittom plate[[140, 11, 411, 581]]
+Has format: False
+Content: left animal[[348, 457, 474, 924]]
+Has format: False
+Content: left animal[[201, 448, 393, 934]]
+Has format: False
+Content: right train[[642, 395, 867, 565]]
+Has format: False
+Content: right train[[471, 394, 835, 596]]
+Has format: False
+Content: zebra on left[[25, 20, 602, 888]]
+Has format: False
+Content: zebra on left[[70, 82, 639, 857]]
+Has format: False
+------------- 20-17-04-36-885345 Format reward -------------
+Content: right dounut[[642, 587, 982, 955]]
+Has format: False
+Content: right dounut[[643, 593, 988, 962]]
+Has format: False
+Content: apple macbook in the middle[[250, 606, 615, 962]]
+Has format: False
+Content: apple macbook in the middle[[260, 642, 544, 898]]
+Has format: False
+Content: guy in white[[0, 48, 417, 521]]
+Has format: False
+Content: guy in white[[0, 45, 400, 521]]
+Has format: False
+Content: bride[[110, 94, 402, 937]]
+Has format: False
+Content: bride[[99, 100, 396, 928]]
+Has format: False
+------------- 20-17-04-41-696490 Format reward -------------
+Content: girl in orange shirt[[525, 77, 825, 824]]
+Has format: False
+Content: girl in orange shirt[[503, 73, 846, 834]]
+Has format: False
+Content: bike left[[36, 317, 336, 602]]
+Has format: False
+Content: bike left[[39, 295, 317, 609]]
+Has format: False
+Content: person red shirt with glasses[[2, 112, 294, 637]]
+Has format: False
+Content: person red shirt with glasses[[0, 107, 314, 662]]
+Has format: False
+Content: person on left edge[[2, 76, 104, 731]]
+Has format: False
+Content: person on left edge[[0, 76, 98, 739]]
+Has format: False
+------------- 20-17-04-46-366572 Format reward -------------
+Content: right person[[660, 510, 904, 997]]
+Has format: False
+Content: right person[[668, 494, 912, 986]]
+Has format: False
+Content: girl in middle[[419, 72, 662, 647]]
+Has format: False
+Content: girl in middle[[307, 481, 518, 988]]
+Has format: False
+Content: guy on left with beard and guitar[[0, 99, 483, 1000]]
+Has format: False
+Content: guy on left with beard and guitar[[1, 94, 426, 990]]
+Has format: False
+Content: guy on left[[169, 174, 427, 729]]
+Has format: False
+Content: guy on left[[141, 233, 433, 870]]
+Has format: False
+------------- 20-17-04-50-956678 Format reward -------------
+Content: catcher[[295, 460, 524, 865]]
+Has format: False
+Content: catcher[[293, 465, 523, 868]]
+Has format: False
+Content: animal on left[[38, 125, 369, 812]]
+Has format: False
+Content: animal on left[[22, 310, 370, 823]]
+Has format: False
+Content: middle person front[[406, 38, 582, 957]]
+Has format: False
+Content: middle person front[[400, 52, 593, 970]]
+Has format: False
+Content: the guy on the right[[508, 298, 768, 699]]
+Has format: False
+Content: the guy on the right[[507, 302, 766, 704]]
+Has format: False
+------------- 20-17-04-55-818158 Format reward -------------
+Content: boy[[25, 131, 780, 714]]
+Has format: False
+Content: boy[[194, 139, 846, 778]]
+Has format: False
+Content: yellow shirt[[0, 540, 320, 977]]
+Has format: False
+Content: yellow shirt[[0, 544, 162, 956]]
+Has format: False
+Content: red motorcycle[[4, 256, 280, 990]]
+Has format: False
+Content: red motorcycle[[68, 218, 421, 1000]]
+Has format: False
+Content: woman with tattoos on her left forearm playing wii[[13, 278, 1000, 984]]
+Has format: False
+Content: woman with tattoos on her left forearm playing wii[[0, 284, 1000, 1000]]
+Has format: False
+------------- 20-17-05-00-572914 Format reward -------------
+Content: food left[[0, 530, 284, 932]]
+Has format: False
+Content: food left[[2, 165, 298, 881]]
+Has format: False
+Content: guy on the left[[39, 70, 310, 802]]
+Has format: False
+Content: guy on the left[[41, 61, 300, 797]]
+Has format: False
+Content: right boy red skateboard[[533, 319, 821, 828]]
+Has format: False
+Content: right boy red skateboard[[829, 213, 1000, 867]]
+Has format: False
+Content: middle man[[464, 308, 673, 930]]
+Has format: False
+Content: middle man[[441, 312, 702, 928]]
+Has format: False
+------------- 20-17-05-05-261639 Format reward -------------
+Content: woman feeding geraff[[169, 239, 434, 991]]
+Has format: False
+Content: woman feeding geraff[[166, 237, 467, 981]]
+Has format: False
+Content: blue at bottom of pic[[51, 849, 1000, 984]]
+Has format: False
+Content: blue at bottom of pic[[0, 483, 1000, 1000]]
+Has format: False
+Content: bottom left output [0, 480, 305, 1000]
+Has format: False
+Content: bottom left output [3, 782, 246, 989]
+Has format: False
+Content: brown and white horse front[[24, 253, 444, 1000]]
+Has format: False
+Content: brown and white horse front[[11, 250, 624, 989]]
+Has format: False

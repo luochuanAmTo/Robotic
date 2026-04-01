@@ -1,0 +1,672 @@
+------------- 20-08-18-26-368042 Accuracy reward: 0.6631876494890193 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000223603.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>woman</ref>
+Content: woman[[59, 170, 366, 542]]
+Solution: <answer> [61, 166, 413, 450] </answer>
+Pred BBox: [59, 170, 366, 542]
+GT   BBox: [61, 166, 413, 450]
+------------- 20-08-18-26-368293 Accuracy reward: 0.7661864809244895 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000223603.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>woman</ref>
+Content: woman[[60, 175, 431, 507]]
+Solution: <answer> [61, 166, 413, 450] </answer>
+Pred BBox: [60, 175, 431, 507]
+GT   BBox: [61, 166, 413, 450]
+------------- 20-08-18-26-368350 Accuracy reward: 0.9095253990410875 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000096589.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the man with a yellow jacket and red visor of to the side</ref>
+Content: the man with a yellow jacket and red visor of to the side[[775, 344, 977, 977]]
+Solution: <answer> [787, 346, 979, 991] </answer>
+Pred BBox: [775, 344, 977, 977]
+GT   BBox: [787, 346, 979, 991]
+------------- 20-08-18-26-368393 Accuracy reward: 0.6292760184375864 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000096589.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the man with a yellow jacket and red visor of to the side</ref>
+Content: the man with a yellow jacket and red visor of to the side[[848, 339, 993, 989]]
+Solution: <answer> [787, 346, 979, 991] </answer>
+Pred BBox: [848, 339, 993, 989]
+GT   BBox: [787, 346, 979, 991]
+------------- 20-08-18-26-368431 Accuracy reward: 0.0 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000148860.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>all brown horse</ref>
+Content: all brown horse[[546, 364, 756, 946]]
+Solution: <answer> [170, 318, 506, 793] </answer>
+Pred BBox: [546, 364, 756, 946]
+GT   BBox: [170, 318, 506, 793]
+------------- 20-08-18-26-368468 Accuracy reward: 0.0 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000148860.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>all brown horse</ref>
+Content: all brown horse[[546, 363, 755, 960]]
+Solution: <answer> [170, 318, 506, 793] </answer>
+Pred BBox: [546, 363, 755, 960]
+GT   BBox: [170, 318, 506, 793]
+------------- 20-08-18-26-368506 Accuracy reward: 0.7244719891189981 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000115741.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a man in a black jacket on a green motorcycle sitting next to a brick building</ref>
+Content: a man in a black jacket on a green motorcycle sitting next to a brick building[[403, 296, 555, 735]]
+Solution: <answer> [377, 298, 534, 729] </answer>
+Pred BBox: [403, 296, 555, 735]
+GT   BBox: [377, 298, 534, 729]
+------------- 20-08-18-26-368545 Accuracy reward: 0.8228452213752949 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000115741.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a man in a black jacket on a green motorcycle sitting next to a brick building</ref>
+Content: a man in a black jacket on a green motorcycle sitting next to a brick building[[385, 307, 548, 712]]
+Solution: <answer> [377, 298, 534, 729] </answer>
+Pred BBox: [385, 307, 548, 712]
+GT   BBox: [377, 298, 534, 729]
+------------- 20-08-18-31-868676 Accuracy reward: 0.9167701587042674 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000265943.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>yellow bike</ref>
+Content: yellow bike[[372, 449, 901, 944]]
+Solution: <answer> [360, 445, 884, 932] </answer>
+Pred BBox: [372, 449, 901, 944]
+GT   BBox: [360, 445, 884, 932]
+------------- 20-08-18-31-868839 Accuracy reward: 0.9427971152699964 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000265943.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>yellow bike</ref>
+Content: yellow bike[[347, 449, 884, 945]]
+Solution: <answer> [360, 445, 884, 932] </answer>
+Pred BBox: [347, 449, 884, 945]
+GT   BBox: [360, 445, 884, 932]
+------------- 20-08-18-31-868890 Accuracy reward: 0.020219996823444608 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000301187.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>horse on left side of another horse</ref>
+Content: horse on left side of another horse[[591, 412, 835, 743]]
+Solution: <answer> [256, 320, 606, 805] </answer>
+Pred BBox: [591, 412, 835, 743]
+GT   BBox: [256, 320, 606, 805]
+------------- 20-08-18-31-868930 Accuracy reward: 0.042079756504779776 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000301187.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>horse on left side of another horse</ref>
+Content: horse on left side of another horse[[574, 351, 985, 796]]
+Solution: <answer> [256, 320, 606, 805] </answer>
+Pred BBox: [574, 351, 985, 796]
+GT   BBox: [256, 320, 606, 805]
+------------- 20-08-18-31-868967 Accuracy reward: 0.7355885109801821 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000544921.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>top fire truck</ref>
+Content: top fire truck[[367, 95, 630, 266]]
+Solution: <answer> [310, 87, 624, 274] </answer>
+Pred BBox: [367, 95, 630, 266]
+GT   BBox: [310, 87, 624, 274]
+------------- 20-08-18-31-869002 Accuracy reward: 0.5878095302973535 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000544921.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>top fire truck</ref>
+Content: top fire truck[[379, 91, 574, 268]]
+Solution: <answer> [310, 87, 624, 274] </answer>
+Pred BBox: [379, 91, 574, 268]
+GT   BBox: [310, 87, 624, 274]
+------------- 20-08-18-31-869038 Accuracy reward: 0.5408020190689848 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000552646.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the orange sled behind the couple that is leaning on the tree</ref>
+Content: the orange sled behind the couple that is leaning on the tree[[256, 298, 371, 724]]
+Solution: <answer> [276, 311, 426, 717] </answer>
+Pred BBox: [256, 298, 371, 724]
+GT   BBox: [276, 311, 426, 717]
+------------- 20-08-18-31-869084 Accuracy reward: 0.7544658913799305 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000552646.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the orange sled behind the couple that is leaning on the tree</ref>
+Content: the orange sled behind the couple that is leaning on the tree[[281, 265, 405, 718]]
+Solution: <answer> [276, 311, 426, 717] </answer>
+Pred BBox: [281, 265, 405, 718]
+GT   BBox: [276, 311, 426, 717]
+------------- 20-08-18-36-907860 Accuracy reward: 0.7740937915916386 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000466054.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man with bue shirt</ref>
+Content: man with bue shirt[[708, 646, 913, 1000]]
+Solution: <answer> [738, 650, 925, 989] </answer>
+Pred BBox: [708, 646, 913, 1000]
+GT   BBox: [738, 650, 925, 989]
+------------- 20-08-18-36-908045 Accuracy reward: 0.8374426198476173 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000466054.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man with bue shirt</ref>
+Content: man with bue shirt[[755, 651, 913, 987]]
+Solution: <answer> [738, 650, 925, 989] </answer>
+Pred BBox: [755, 651, 913, 987]
+GT   BBox: [738, 650, 925, 989]
+------------- 20-08-18-36-908108 Accuracy reward: 0.947578708353347 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000083456.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>red shirt</ref>
+Content: red shirt[[9, 204, 410, 983]]
+Solution: <answer> [3, 195, 400, 981] </answer>
+Pred BBox: [9, 204, 410, 983]
+GT   BBox: [3, 195, 400, 981]
+------------- 20-08-18-36-908152 Accuracy reward: 0.9428308428707312 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000083456.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>red shirt</ref>
+Content: red shirt[[0, 207, 406, 998]]
+Solution: <answer> [3, 195, 400, 981] </answer>
+Pred BBox: [0, 207, 406, 998]
+GT   BBox: [3, 195, 400, 981]
+------------- 20-08-18-36-908189 Accuracy reward: 0.4685792349726776 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000362879.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>blond girl cutie</ref>
+Content: blond girl cutie[[554, 385, 874, 728]]
+Solution: <answer> [501, 379, 885, 989] </answer>
+Pred BBox: [554, 385, 874, 728]
+GT   BBox: [501, 379, 885, 989]
+------------- 20-08-18-36-908225 Accuracy reward: 0.7362657979567123 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000362879.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>blond girl cutie</ref>
+Content: blond girl cutie[[579, 378, 863, 987]]
+Solution: <answer> [501, 379, 885, 989] </answer>
+Pred BBox: [579, 378, 863, 987]
+GT   BBox: [501, 379, 885, 989]
+------------- 20-08-18-36-908260 Accuracy reward: 0.8710732068227719 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000047134.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>far right one cut off</ref>
+Content: far right one cut off[[874, 208, 1000, 1000]]
+Solution: <answer> [884, 206, 997, 979] </answer>
+Pred BBox: [874, 208, 1000, 1000]
+GT   BBox: [884, 206, 997, 979]
+------------- 20-08-18-36-908296 Accuracy reward: 0.7276354700320713 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000047134.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>far right one cut off</ref>
+Content: far right one cut off[[849, 195, 1000, 990]]
+Solution: <answer> [884, 206, 997, 979] </answer>
+Pred BBox: [849, 195, 1000, 990]
+GT   BBox: [884, 206, 997, 979]
+------------- 20-08-18-41-948367 Accuracy reward: 0.8938863912315821 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000553308.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the man</ref>
+Content: the man[[241, 44, 657, 713]]
+Solution: <answer> [204, 40, 650, 710] </answer>
+Pred BBox: [241, 44, 657, 713]
+GT   BBox: [204, 40, 650, 710]
+------------- 20-08-18-41-948537 Accuracy reward: 0.42105945446295967 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000553308.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>the man</ref>
+Content: the man[[188, 40, 989, 926]]
+Solution: <answer> [204, 40, 650, 710] </answer>
+Pred BBox: [188, 40, 989, 926]
+GT   BBox: [204, 40, 650, 710]
+------------- 20-08-18-41-948589 Accuracy reward: 0.956115107913669 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000035004.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy wearing blue shirt</ref>
+Content: guy wearing blue shirt[[747, 115, 967, 565]]
+Solution: <answer> [751, 122, 967, 570] </answer>
+Pred BBox: [747, 115, 967, 565]
+GT   BBox: [751, 122, 967, 570]
+------------- 20-08-18-41-948637 Accuracy reward: 0.8494351503179208 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000035004.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy wearing blue shirt</ref>
+Content: guy wearing blue shirt[[721, 113, 966, 574]]
+Solution: <answer> [751, 122, 967, 570] </answer>
+Pred BBox: [721, 113, 966, 574]
+GT   BBox: [751, 122, 967, 570]
+------------- 20-08-18-41-948674 Accuracy reward: 0.9670570281657432 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000408625.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>front child</ref>
+Content: front child[[123, 116, 682, 817]]
+Solution: <answer> [130, 116, 680, 805] </answer>
+Pred BBox: [123, 116, 682, 817]
+GT   BBox: [130, 116, 680, 805]
+------------- 20-08-18-41-948709 Accuracy reward: 0.9723001117944449 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000408625.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>front child</ref>
+Content: front child[[141, 115, 682, 807]]
+Solution: <answer> [130, 116, 680, 805] </answer>
+Pred BBox: [141, 115, 682, 807]
+GT   BBox: [130, 116, 680, 805]
+------------- 20-08-18-41-948743 Accuracy reward: 0.07884738590819018 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000119923.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>orange not in bowl and not smooth</ref>
+Content: orange not in bowl and not smooth[[384, 326, 487, 507]]
+Solution: <answer> [241, 423, 447, 684] </answer>
+Pred BBox: [384, 326, 487, 507]
+GT   BBox: [241, 423, 447, 684]
+------------- 20-08-18-41-948778 Accuracy reward: 0.12203441218828166 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000119923.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>orange not in bowl and not smooth</ref>
+Content: orange not in bowl and not smooth[[301, 239, 439, 493]]
+Solution: <answer> [241, 423, 447, 684] </answer>
+Pred BBox: [301, 239, 439, 493]
+GT   BBox: [241, 423, 447, 684]
+------------- 20-08-18-47-038509 Accuracy reward: 0.9536468207352958 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000412830.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pizza on right</ref>
+Content: pizza on right[[323, 354, 1000, 989]]
+Solution: <answer> [341, 362, 998, 986] </answer>
+Pred BBox: [323, 354, 1000, 989]
+GT   BBox: [341, 362, 998, 986]
+------------- 20-08-18-47-038637 Accuracy reward: 0.9724521469218831 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000412830.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pizza on right</ref>
+Content: pizza on right[[334, 368, 1000, 989]]
+Solution: <answer> [341, 362, 998, 986] </answer>
+Pred BBox: [334, 368, 1000, 989]
+GT   BBox: [341, 362, 998, 986]
+------------- 20-08-18-47-038688 Accuracy reward: 0.0 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000063017.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bird with chest facing us</ref>
+Content: bird with chest facing us[[455, 281, 956, 764]]
+Solution: <answer> [35, 303, 220, 703] </answer>
+Pred BBox: [455, 281, 956, 764]
+GT   BBox: [35, 303, 220, 703]
+------------- 20-08-18-47-038726 Accuracy reward: 0.0 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000063017.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bird with chest facing us</ref>
+Content: bird with chest facing us[[443, 273, 956, 772]]
+Solution: <answer> [35, 303, 220, 703] </answer>
+Pred BBox: [443, 273, 956, 772]
+GT   BBox: [35, 303, 220, 703]
+------------- 20-08-18-47-038762 Accuracy reward: 0.958937684469734 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000550089.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a man in a ties wears a glow necklace</ref>
+Content: a man in a ties wears a glow necklace[[92, 40, 620, 987]]
+Solution: <answer> [83, 18, 620, 989] </answer>
+Pred BBox: [92, 40, 620, 987]
+GT   BBox: [83, 18, 620, 989]
+------------- 20-08-18-47-038808 Accuracy reward: 0.9692016087315873 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000550089.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a man in a ties wears a glow necklace</ref>
+Content: a man in a ties wears a glow necklace[[81, 17, 607, 987]]
+Solution: <answer> [83, 18, 620, 989] </answer>
+Pred BBox: [81, 17, 607, 987]
+GT   BBox: [83, 18, 620, 989]
+------------- 20-08-18-47-038843 Accuracy reward: 0.8651665794522937 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000367389.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>gray car in background</ref>
+Content: gray car in background[[588, 721, 861, 952]]
+Solution: <answer> [607, 727, 855, 947] </answer>
+Pred BBox: [588, 721, 861, 952]
+GT   BBox: [607, 727, 855, 947]
+------------- 20-08-18-47-038878 Accuracy reward: 0.8079427083333334 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000367389.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>gray car in background</ref>
+Content: gray car in background[[634, 723, 875, 946]]
+Solution: <answer> [607, 727, 855, 947] </answer>
+Pred BBox: [634, 723, 875, 946]
+GT   BBox: [607, 727, 855, 947]
+------------- 20-08-18-51-677520 Accuracy reward: 0.5228774448758333 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000338746.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>center man</ref>
+Content: center man[[344, 108, 611, 910]]
+Solution: <answer> [117, 107, 627, 910] </answer>
+Pred BBox: [344, 108, 611, 910]
+GT   BBox: [117, 107, 627, 910]
+------------- 20-08-18-51-677687 Accuracy reward: 0.4448904842136107 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000338746.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>center man</ref>
+Content: center man[[366, 110, 607, 866]]
+Solution: <answer> [117, 107, 627, 910] </answer>
+Pred BBox: [366, 110, 607, 866]
+GT   BBox: [117, 107, 627, 910]
+------------- 20-08-18-51-677739 Accuracy reward: 0.5059260569609058 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000481861.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>child red</ref>
+Content: child red[[185, 407, 503, 946]]
+Solution: <answer> [316, 421, 543, 941] </answer>
+Pred BBox: [185, 407, 503, 946]
+GT   BBox: [316, 421, 543, 941]
+------------- 20-08-18-51-677778 Accuracy reward: 0.5675299728422866 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000481861.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>child red</ref>
+Content: child red[[391, 402, 535, 897]]
+Solution: <answer> [316, 421, 543, 941] </answer>
+Pred BBox: [391, 402, 535, 897]
+GT   BBox: [316, 421, 543, 941]
+------------- 20-08-18-51-677817 Accuracy reward: 0.6423131986962747 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000526523.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>leftmost girl</ref>
+Content: leftmost girl[[125, 60, 347, 868]]
+Solution: <answer> [166, 42, 367, 759] </answer>
+Pred BBox: [125, 60, 347, 868]
+GT   BBox: [166, 42, 367, 759]
+------------- 20-08-18-51-677853 Accuracy reward: 0.9426334575716342 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000526523.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>leftmost girl</ref>
+Content: leftmost girl[[167, 40, 377, 761]]
+Solution: <answer> [166, 42, 367, 759] </answer>
+Pred BBox: [167, 40, 377, 761]
+GT   BBox: [166, 42, 367, 759]
+------------- 20-08-18-51-677899 Accuracy reward: 0.7831834137779728 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000313148.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>top pizza</ref>
+Content: top pizza[[468, 112, 992, 583]]
+Solution: <answer> [368, 146, 995, 582] </answer>
+Pred BBox: [468, 112, 992, 583]
+GT   BBox: [368, 146, 995, 582]
+------------- 20-08-18-51-677936 Accuracy reward: 0.962331241816972 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000313148.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>top pizza</ref>
+Content: top pizza[[375, 136, 992, 582]]
+Solution: <answer> [368, 146, 995, 582] </answer>
+Pred BBox: [375, 136, 992, 582]
+GT   BBox: [368, 146, 995, 582]
+------------- 20-08-18-56-481510 Accuracy reward: 0.8393940684929005 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000319351.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy in sunglasses</ref>
+Content: guy in sunglasses[[588, 5, 759, 875]]
+Solution: <answer> [571, 0, 748, 867] </answer>
+Pred BBox: [588, 5, 759, 875]
+GT   BBox: [571, 0, 748, 867]
+------------- 20-08-18-56-481643 Accuracy reward: 0.30754983579011685 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000319351.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy in sunglasses</ref>
+Content: guy in sunglasses[[235, 48, 751, 945]]
+Solution: <answer> [571, 0, 748, 867] </answer>
+Pred BBox: [235, 48, 751, 945]
+GT   BBox: [571, 0, 748, 867]
+------------- 20-08-18-56-481712 Accuracy reward: 0.8325303253599365 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000461027.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a catcher squatting down behind home plate</ref>
+Content: a catcher squatting down behind home plate[[235, 535, 502, 916]]
+Solution: <answer> [224, 539, 470, 914] </answer>
+Pred BBox: [235, 535, 502, 916]
+GT   BBox: [224, 539, 470, 914]
+------------- 20-08-18-56-481768 Accuracy reward: 0.40704973442781267 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000461027.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a catcher squatting down behind home plate</ref>
+Content: a catcher squatting down behind home plate[[318, 532, 453, 820]]
+Solution: <answer> [224, 539, 470, 914] </answer>
+Pred BBox: [318, 532, 453, 820]
+GT   BBox: [224, 539, 470, 914]
+------------- 20-08-18-56-481819 Accuracy reward: 0.8774180411321523 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000502911.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>closest dessert</ref>
+Content: closest dessert[[488, 528, 684, 823]]
+Solution: <answer> [498, 528, 688, 806] </answer>
+Pred BBox: [488, 528, 684, 823]
+GT   BBox: [498, 528, 688, 806]
+------------- 20-08-18-56-481870 Accuracy reward: 0.8432311621966795 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000502911.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>closest dessert</ref>
+Content: closest dessert[[485, 523, 701, 813]]
+Solution: <answer> [498, 528, 688, 806] </answer>
+Pred BBox: [485, 523, 701, 813]
+GT   BBox: [498, 528, 688, 806]
+------------- 20-08-18-56-481920 Accuracy reward: 0.9664014387705052 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000529126.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>red</ref>
+Content: red[[477, 197, 823, 812]]
+Solution: <answer> [473, 194, 827, 816] </answer>
+Pred BBox: [477, 197, 823, 812]
+GT   BBox: [473, 194, 827, 816]
+------------- 20-08-18-56-481981 Accuracy reward: 0.7695654684329478 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000529126.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>red</ref>
+Content: red[[433, 200, 808, 757]]
+Solution: <answer> [473, 194, 827, 816] </answer>
+Pred BBox: [433, 200, 808, 757]
+GT   BBox: [473, 194, 827, 816]
+------------- 20-08-19-01-108228 Accuracy reward: 0.1914379499627617 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000317997.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man without ball in hand</ref>
+Content: man without ball in hand[[379, 163, 763, 997]]
+Solution: <answer> [102, 183, 508, 990] </answer>
+Pred BBox: [379, 163, 763, 997]
+GT   BBox: [102, 183, 508, 990]
+------------- 20-08-19-01-108363 Accuracy reward: 0.883452945636649 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000317997.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man without ball in hand</ref>
+Content: man without ball in hand[[86, 198, 483, 987]]
+Solution: <answer> [102, 183, 508, 990] </answer>
+Pred BBox: [86, 198, 483, 987]
+GT   BBox: [102, 183, 508, 990]
+------------- 20-08-19-01-108428 Accuracy reward: 0.922600933252181 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000485419.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>girl</ref>
+Content: girl[[91, 159, 414, 700]]
+Solution: <answer> [79, 152, 421, 694] </answer>
+Pred BBox: [91, 159, 414, 700]
+GT   BBox: [79, 152, 421, 694]
+------------- 20-08-19-01-108480 Accuracy reward: 0.9416299559471366 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000485419.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>girl</ref>
+Content: girl[[73, 154, 429, 703]]
+Solution: <answer> [79, 152, 421, 694] </answer>
+Pred BBox: [73, 154, 429, 703]
+GT   BBox: [79, 152, 421, 694]
+------------- 20-08-19-01-108531 Accuracy reward: 0.8150186510120467 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000112732.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>brown bear not holding cup</ref>
+Content: brown bear not holding cup[[523, 202, 926, 799]]
+Solution: <answer> [587, 204, 923, 813] </answer>
+Pred BBox: [523, 202, 926, 799]
+GT   BBox: [587, 204, 923, 813]
+------------- 20-08-19-01-108584 Accuracy reward: 0.3082921961978784 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000112732.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>brown bear not holding cup</ref>
+Content: brown bear not holding cup[[527, 205, 764, 603]]
+Solution: <answer> [587, 204, 923, 813] </answer>
+Pred BBox: [527, 205, 764, 603]
+GT   BBox: [587, 204, 923, 813]
+------------- 20-08-19-01-108635 Accuracy reward: 0.9195365144093294 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000169229.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>reflection of dog</ref>
+Content: reflection of dog[[136, 276, 723, 595]]
+Solution: <answer> [108, 280, 731, 599] </answer>
+Pred BBox: [136, 276, 723, 595]
+GT   BBox: [108, 280, 731, 599]
+------------- 20-08-19-01-108685 Accuracy reward: 0.914009611167261 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000169229.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>reflection of dog</ref>
+Content: reflection of dog[[130, 275, 737, 609]]
+Solution: <answer> [108, 280, 731, 599] </answer>
+Pred BBox: [130, 275, 737, 609]
+GT   BBox: [108, 280, 731, 599]
+------------- 20-08-19-05-838546 Accuracy reward: 0.24354763022055373 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000564729.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>right sandwich in the front</ref>
+Content: right sandwich in the front[[266, 559, 730, 834]]
+Solution: <answer> [557, 570, 877, 900] </answer>
+Pred BBox: [266, 559, 730, 834]
+GT   BBox: [557, 570, 877, 900]
+------------- 20-08-19-05-838688 Accuracy reward: 0.8154042916015347 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000564729.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>right sandwich in the front</ref>
+Content: right sandwich in the front[[534, 571, 859, 875]]
+Solution: <answer> [557, 570, 877, 900] </answer>
+Pred BBox: [534, 571, 859, 875]
+GT   BBox: [557, 570, 877, 900]
+------------- 20-08-19-05-838755 Accuracy reward: 0.8758501895570563 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000534980.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man sitting</ref>
+Content: man sitting[[5, 113, 503, 987]]
+Solution: <answer> [1, 111, 567, 989] </answer>
+Pred BBox: [5, 113, 503, 987]
+GT   BBox: [1, 111, 567, 989]
+------------- 20-08-19-05-838796 Accuracy reward: 0.8992269437195333 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000534980.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>man sitting</ref>
+Content: man sitting[[0, 103, 521, 1000]]
+Solution: <answer> [1, 111, 567, 989] </answer>
+Pred BBox: [0, 103, 521, 1000]
+GT   BBox: [1, 111, 567, 989]
+------------- 20-08-19-05-838835 Accuracy reward: 0.18264194586398763 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000456979.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a brown color cow showing back to white color cow</ref>
+Content: a brown color cow showing back to white color cow[[381, 161, 998, 697]]
+Solution: <answer> [294, 176, 568, 529] </answer>
+Pred BBox: [381, 161, 998, 697]
+GT   BBox: [294, 176, 568, 529]
+------------- 20-08-19-05-838873 Accuracy reward: 0.1964471598097465 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000456979.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a brown color cow showing back to white color cow</ref>
+Content: a brown color cow showing back to white color cow[[429, 163, 788, 726]]
+Solution: <answer> [294, 176, 568, 529] </answer>
+Pred BBox: [429, 163, 788, 726]
+GT   BBox: [294, 176, 568, 529]
+------------- 20-08-19-05-838908 Accuracy reward: 0.9905769485998142 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000450914.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bowl of strawberries</ref>
+Content: bowl of strawberries[[38, 147, 342, 493]]
+Solution: <answer> [38, 146, 340, 493] </answer>
+Pred BBox: [38, 147, 342, 493]
+GT   BBox: [38, 146, 340, 493]
+------------- 20-08-19-05-838944 Accuracy reward: 0.9446773219388629 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000450914.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bowl of strawberries</ref>
+Content: bowl of strawberries[[37, 144, 346, 503]]
+Solution: <answer> [38, 146, 340, 493] </answer>
+Pred BBox: [37, 144, 346, 503]
+GT   BBox: [38, 146, 340, 493]
+------------- 20-08-19-10-052539 Accuracy reward: 0.7762679503584994 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000316224.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>glass of brown stuff above plate</ref>
+Content: glass of brown stuff above plate[[430, 3, 865, 453]]
+Solution: <answer> [466, 0, 860, 391] </answer>
+Pred BBox: [430, 3, 865, 453]
+GT   BBox: [466, 0, 860, 391]
+------------- 20-08-19-10-052691 Accuracy reward: 0.9344609937507429 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000316224.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>glass of brown stuff above plate</ref>
+Content: glass of brown stuff above plate[[466, 5, 853, 406]]
+Solution: <answer> [466, 0, 860, 391] </answer>
+Pred BBox: [466, 5, 853, 406]
+GT   BBox: [466, 0, 860, 391]
+------------- 20-08-19-10-052752 Accuracy reward: 0.842765125373821 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000123038.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>right photo woman forefront</ref>
+Content: right photo woman forefront[[581, 63, 838, 929]]
+Solution: <answer> [600, 59, 861, 925] </answer>
+Pred BBox: [581, 63, 838, 929]
+GT   BBox: [600, 59, 861, 925]
+------------- 20-08-19-10-052795 Accuracy reward: 0.7543028186580194 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000123038.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>right photo woman forefront</ref>
+Content: right photo woman forefront[[592, 71, 816, 883]]
+Solution: <answer> [600, 59, 861, 925] </answer>
+Pred BBox: [592, 71, 816, 883]
+GT   BBox: [600, 59, 861, 925]
+------------- 20-08-19-10-052833 Accuracy reward: 0.0 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000382971.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pizza slice</ref>
+Content: pizza slice output [132, 585, 253, 780]
+Solution: <answer> [178, 377, 636, 555] </answer>
+Pred BBox: [132, 585, 253, 780]
+GT   BBox: [178, 377, 636, 555]
+------------- 20-08-19-10-052870 Accuracy reward: 0.4666866105389119 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000382971.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pizza slice</ref>
+Content: pizza slice output [363, 395, 639, 597]
+Solution: <answer> [178, 377, 636, 555] </answer>
+Pred BBox: [363, 395, 639, 597]
+GT   BBox: [178, 377, 636, 555]
+------------- 20-08-19-10-052908 Accuracy reward: 0.8461279186158152 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000320308.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy squatting in middle</ref>
+Content: guy squatting in middle[[449, 415, 656, 858]]
+Solution: <answer> [469, 402, 663, 861] </answer>
+Pred BBox: [449, 415, 656, 858]
+GT   BBox: [469, 402, 663, 861]
+------------- 20-08-19-10-052944 Accuracy reward: 0.8219439634119267 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000320308.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>guy squatting in middle</ref>
+Content: guy squatting in middle[[473, 396, 646, 830]]
+Solution: <answer> [469, 402, 663, 861] </answer>
+Pred BBox: [473, 396, 646, 830]
+GT   BBox: [469, 402, 663, 861]
+------------- 20-08-19-14-404723 Accuracy reward: 0.308826557930722 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000187757.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bigh brocoli</ref>
+Content: bigh brocoli[[403, 0, 772, 328]]
+Solution: <answer> [404, 2, 1000, 652] </answer>
+Pred BBox: [403, 0, 772, 328]
+GT   BBox: [404, 2, 1000, 652]
+------------- 20-08-19-14-404890 Accuracy reward: 0.2595062047827082 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000187757.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>bigh brocoli</ref>
+Content: bigh brocoli[[365, 0, 697, 358]]
+Solution: <answer> [404, 2, 1000, 652] </answer>
+Pred BBox: [365, 0, 697, 358]
+GT   BBox: [404, 2, 1000, 652]
+------------- 20-08-19-14-404940 Accuracy reward: 0.875419678692899 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000021676.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>ymca black shirt</ref>
+Content: ymca black shirt[[564, 166, 1000, 987]]
+Solution: <answer> [610, 159, 1000, 1000] </answer>
+Pred BBox: [564, 166, 1000, 987]
+GT   BBox: [610, 159, 1000, 1000]
+------------- 20-08-19-14-404990 Accuracy reward: 0.5074788865514193 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000021676.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>ymca black shirt</ref>
+Content: ymca black shirt output [793, 181, 999, 989]
+Solution: <answer> [610, 159, 1000, 1000] </answer>
+Pred BBox: [793, 181, 999, 989]
+GT   BBox: [610, 159, 1000, 1000]
+------------- 20-08-19-14-405029 Accuracy reward: 0.7013385968400027 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000024551.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>white baseball player with full beard</ref>
+Content: white baseball player with full beard[[131, 85, 478, 943]]
+Solution: <answer> [130, 76, 618, 939] </answer>
+Pred BBox: [131, 85, 478, 943]
+GT   BBox: [130, 76, 618, 939]
+------------- 20-08-19-14-405067 Accuracy reward: 0.5878459912256906 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000024551.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>white baseball player with full beard</ref>
+Content: white baseball player with full beard[[134, 54, 428, 931]]
+Solution: <answer> [130, 76, 618, 939] </answer>
+Pred BBox: [134, 54, 428, 931]
+GT   BBox: [130, 76, 618, 939]
+------------- 20-08-19-14-405104 Accuracy reward: 0.6826617572824183 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000016123.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>person in plaid behind man with bananas</ref>
+Content: person in plaid behind man with bananas[[703, 512, 986, 988]]
+Solution: <answer> [709, 544, 918, 984] </answer>
+Pred BBox: [703, 512, 986, 988]
+GT   BBox: [709, 544, 918, 984]
+------------- 20-08-19-14-405140 Accuracy reward: 0.47626157061809493 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000016123.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>person in plaid behind man with bananas</ref>
+Content: person in plaid behind man with bananas[[680, 187, 912, 984]]
+Solution: <answer> [709, 544, 918, 984] </answer>
+Pred BBox: [680, 187, 912, 984]
+GT   BBox: [709, 544, 918, 984]
+------------- 20-08-19-19-377125 Accuracy reward: 0.7215023061717549 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000482161.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pink shirt thats yellow</ref>
+Content: pink shirt thats yellow[[727, 568, 960, 1000]]
+Solution: <answer> [672, 595, 946, 1000] </answer>
+Pred BBox: [727, 568, 960, 1000]
+GT   BBox: [672, 595, 946, 1000]
+------------- 20-08-19-19-377268 Accuracy reward: 0.9361817289964649 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000482161.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>pink shirt thats yellow</ref>
+Content: pink shirt thats yellow[[667, 596, 959, 1000]]
+Solution: <answer> [672, 595, 946, 1000] </answer>
+Pred BBox: [667, 596, 959, 1000]
+GT   BBox: [672, 595, 946, 1000]
+------------- 20-08-19-19-377320 Accuracy reward: 0.9708029197080292 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000001107.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>plane bottom right side corner of pic</ref>
+Content: plane bottom right side corner of pic[[786, 583, 1000, 989]]
+Solution: <answer> [786, 578, 1000, 982] </answer>
+Pred BBox: [786, 583, 1000, 989]
+GT   BBox: [786, 578, 1000, 982]
+------------- 20-08-19-19-377361 Accuracy reward: 0.6678324754740222 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000001107.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>plane bottom right side corner of pic</ref>
+Content: plane bottom right side corner of pic[[775, 669, 980, 987]]
+Solution: <answer> [786, 578, 1000, 982] </answer>
+Pred BBox: [775, 669, 980, 987]
+GT   BBox: [786, 578, 1000, 982]
+------------- 20-08-19-19-377407 Accuracy reward: 0.9249632172633644 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000203882.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>dots umbrella</ref>
+Content: dots umbrella[[211, 270, 523, 762]]
+Solution: <answer> [201, 269, 510, 763] </answer>
+Pred BBox: [211, 270, 523, 762]
+GT   BBox: [201, 269, 510, 763]
+------------- 20-08-19-19-377447 Accuracy reward: 0.9047990710247282 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000203882.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>dots umbrella</ref>
+Content: dots umbrella[[207, 273, 498, 780]]
+Solution: <answer> [201, 269, 510, 763] </answer>
+Pred BBox: [207, 273, 498, 780]
+GT   BBox: [201, 269, 510, 763]
+------------- 20-08-19-19-377485 Accuracy reward: 0.34502987834036836 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000157168.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a giraffe that is mostly obscured by another giraffe and a tree</ref>
+Content: a giraffe that is mostly obscured by another giraffe and a tree[[250, 255, 653, 914]]
+Solution: <answer> [376, 496, 625, 864] </answer>
+Pred BBox: [250, 255, 653, 914]
+GT   BBox: [376, 496, 625, 864]
+------------- 20-08-19-19-377524 Accuracy reward: 0.026204276459987335 -------------
+image_path: ['/hy-tmp/dataset/train2014/COCO_train2014_000000157168.jpg']
+problem: Please provide the bounding box coordinate of the region this sentence describes: <ref>a giraffe that is mostly obscured by another giraffe and a tree</ref>
+Content: a giraffe that is mostly obscured by another giraffe and a tree[[601, 595, 1000, 999]]
+Solution: <answer> [376, 496, 625, 864] </answer>
+Pred BBox: [601, 595, 1000, 999]
+GT   BBox: [376, 496, 625, 864]
