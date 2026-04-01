@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 2,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000208612.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left most chair</ref>",
+            "ground_truth": [
+                1,
+                143,
+                175,
+                507
+            ],
+            "model_output": [
+                "left most chair[[0, 144, 207, 663]]\n<answer>left most chair[[0, 144, 207, 663]]\n<answer>woman[[245, 67, 588, 770]]\n<answer>woman[[245, 67, 588, 770]]\n[[245, 67, 588, 770]]\n</answer>\n<answer>woman[[245, 67, 588, 770]]\n</answer>\n</body></div>\n</div>\n</body></div>\n</body></div>\n</div>\n</body></div>\n</div>\n</body></div>\n</div>\n</html>\n\n```\nwoman[[245, 67, ",
+                "left most chair[[0, 148, 216, 668]]\n<answer>left most chair[[0, 148, 216, 668]]\n<answer>woman[[252, 67, 578, 791]]\n<answer>woman[[252, 67, 578, 791]]\n</answer><issue>\n</issue>",
+                "left most chair[[0, 146, 195, 675]]\n<answer><sep>left most chair[[3, 182, 386, 708]]\n</sep>><answer>\n<answer>\n\n####\n<answer> the woman is sitting on a green metal chair with a blue backrest. The chair is placed on a tiled pavement. The woman is wearing a maroon tank top and light-colored shorts. She has her legs crossed and her feet are bare. She is also holding a mobile phone to her ear. A green metal railing is visible in the background behind the chair. There is a yellow and green pole in front of her on the pavement.\n<answer> The woman is sitting on a green metal chair with a blue backrest. The chair is placed on a tiled pavement. The woman is wearing a maroon tank top and light-colored shorts. She has her legs crossed and her feet are bare. She is also holding a mobile phone to her ear. A green",
+                "left most chair[[0, 146, 196, 656]]\n<answer>left most chair[[0, 146, 196, 656]]\n<answer>woman[[244, 67, 582, 771]]\n<answer>woman[[244, 67, 582, 771]]\n<answer>cell phone[[460, 151, 524, 265]]\n<pre>yards of the image: <answer>[cX=478][cY=898][rX=531][rY=997]]\n[[220, 511, 713, 1000]]\n[[220, 511, 713, 1000]]",
+                "left most chair[[2, 144, 218, 642]]\n[[0, 187, 699, 871]]\nDNAImage\nwoman[[250, 65, 576, 784]]\n[[236, 127, 734, 874]]\n[[235, 182, 693, 871]]\n[[240, 515, 699, 1000]]\n[[240, 515, 699, 1000]]\n[[236, 182, 693, 871]]\n[[240, 515, 699, 1000]]\n[[235,",
+                "left most chair[[0, 145, 207, 656]]\n<answer>\nHere is the bounding box coordinate for the region described by \"this sentence\":\n\nthis sentence[[0, 145, 207, 656]]\n<answer>\nHere is the bounding box coordinate for the region described by \"[[217, 510, 696, 981]]\":\n\n[[217, 510, 696, 981]]\n<answer>\nHere is the bounding box coordinate for the region described by \"[0, 149, 200, 573]\":\n\n[0, 149, 200, 573]]\n<answer>\nHere is the bounding box coordinate for the region described by \"[0, 149, 200, 573 582]]\":\n\n[0, 149, 200, 573 ",
+                "left most chair[[2, 145, 201, 665]]\n[[185, 187, 697, 919]]\nDBean\n[[415, 63, 575, 485]]\n[[251, 497, 701, 872]]\n[[240, 515, 694, 1000]]\n[[252, 409, 701, 937]]\n[[255, 833, 702, 999]]\n[[256, 837, 662, 999]]\n[[254, 816, 660, 999]]\n[[",
+                "left most chair[[0, 145, 203, 671]]\n><answer>[[0, 145, 203, 671]]\n><image><answer>woman[[249, 70, 577, 779]]\n><image><answer>woman[[249, 70, 577, 779]]\n><image><answer>woman[[249, 70, 577, 779]]\n><image><answer>woman[[249, 70, 577, 779]]\n><image><answer>woman[[249, 70, 577, 779]]\n><image><answer>woman[[249, 70, 577, 779]]"
+            ],
+            "iou_scores": [
+                0.5869692492124118,
+                0.5518685396236417,
+                0.605862438149252,
+                0.625126888397922,
+                0.5809074510892188,
+                0.5935265017667845,
+                0.6010749592091371,
+                0.5879805089334055
+            ],
+            "iou_var": 0.0003935483014670578,
+            "mean_iou": 0.5916645670477216,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000105685.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman</ref>",
+            "ground_truth": [
+                202,
+                192,
+                793,
+                740
+            ],
+            "model_output": [
+                "woman[[307, 204, 670, 746]]\n[[101, 370, 782, 843]]\nCould you explain the text in the image: \nwoman[[307, 204, 670, 746]]\n[[712, 81, 1000, 600]]\n[[151, 443, 689, 643]]\n[[133, 899, 459, 1000], [171, 901, 396, 999], [852, 554, 1000, 964]]\n[[904, 547, 1000, 804]]\n[[38, 607, 4",
+                "woman[[297, 202, 672, 733]]\nchild[[140, 371, 786, 874]]\n hence the final answer is <answer>[x1,y1,x2,y2]</answer>\n[[101, 446, 553, 706]]\nTherefore, the bounding box coordinate of the region describing the child is: <b> [101, 446, 553, 706] </b>\n[[133, 78, 1000, 1000]]\nTherefore, the bounding box coordinate of the region describing the woman is: <b> [101, 446, 553, 706] </b>\nTherefore, the bounding box coordinate of the region describing the young girl is: <b> [141, 893,",
+                "woman[[295, 202, 666, 744]]\nDNA[[174, 368, 786, 866]]\nDNA[[76, 430, 774, 862]]\nDNA[[853, 547, 1000, 963]]\nDNA[[150, 898, 455, 999]]\n\nI\n[[853, 547, 1000, 963]]\n\nI\n[[174, 368, 786, ",
+                "woman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 738]]\n then\n then\nwoman[[144, 206, 663, 738]]\n then\nwoman[[144, 206, 663, 7",
+                "woman[[137, 202, 660, 735]]\n[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219, 369, 788, 845]]\nMore less: woman[[219",
+                "woman[[306, 205, 654, 739]]\nSuddenly, I found it difficult to accurately determine the exact coordinates of the bounding box for the region described. I will try to estimate as follows:\n\n1. The woman is standing and appears to be in the center of the image.\n2. She is holding a young boy and seems to be assisting him in handling some food.\n\nBased on these observations, the bounding box coordinates can be estimated as follows:\n\n- The top-left corner of the bounding box: (250, 360)\n- The bottom-right corner of the bounding box: (820, 810)\n\nSo, the bounding box coordinates would be:\n\nwoman[[306, 205, 654, 739]]\nwoman[[306, 205, 654, 739]][[113, 372, 781, 857]]\n",
+                "woman[[145, 205, 663, 857]]\nboy[[155, 367, 776, 867]]\n[[128, 407, 530, 629]]\n anyway, so the woman is holding the boy in her left arm. The young boy is looking at the food in the container, and the woman is pointing at it. The woman is wearing a Krispy Kreme hat and a red shirt. The boy is wearing a blue shirt with a cartoon character on it. The woman is wearing glasses and a red shirt. The man next to them is wearing a Krispy Kreme hat and a red jacket. There are two children, one of whom is wearing a Krispy Kreme hat and a pink dress. The woman is wearing a black backpack. The young boy is wearing gloves. There are two donuts in the container, and there are some ingredients on the counter. The woman is wearing a white Krispy Kreme hat and a red shirt. The man",
+                "woman[[154, 208, 660, 763]]\n[[68, 439, 778, 869]]\n thus the bounding box coordinates are: [154, 208, 660, 763]]\n[[699, 77, 1000, 604]]\n[[897, 546, 1000, 800]]\n[[179, 901, 451, 1000]]\n[[134, 396, 800, 634]]\n[[119, 597, 511, 812]]\n[[93, 604, 449, 957]]\n[[125, "
+            ],
+            "iou_scores": [
+                0.5967501518190684,
+                0.0,
+                0.6134832427647594,
+                0.691388234232812,
+                0.6809069685060235,
+                0.5737893215754567,
+                0.5943456017196466,
+                0.6748688518233336
+            ],
+            "iou_var": 0.04548577157540145,
+            "mean_iou": 0.5531915465551376,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000495528.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>glass of milk</ref>",
+            "ground_truth": [
+                105,
+                35,
+                295,
+                331
+            ],
+            "model_output": [
+                "glass of milk[[112, 43, 306, 333]]\nplate[[61, 274, 904, 1000]]\n[[639, 0, 935, 346]]\n[[90, 265, 999, 989]]\n[[93, 43, 309, 331]]\n[[639, 0, 935, 346]];;;;;",
+                "glass of milk[[118, 46, 309, 326]]\nplate[[66, 267, 906, 989]]\n[[0, 0, 999, 379]]\n```\nplate[[66, 267, 906, 989]]\n```\n```[[667, 0, 942, 351]]\n```\n```[[92, 343, 844, 778]]\n```\n```[[92, 343, 844, 778]]\n```\n```[[92, 343, 844, 778]]\n[[667,",
+                "glass of milk[[119, 49, 302, 335]]\nwhite plate[[58, 262, 913, 984]]\nsandwich[[101, 342, 855, 779]]\n8139241044118913271501166617961895198919931977184",
+                "glass of milk[[115, 44, 305, 335]]\nplate[[62, 264, 913, 1000]]\nsandwich[[96, 339, 853, 789]]\n[[724, 0, 954, 345]]\n[[617, 0, 786, 111]]\n[[630, 1, 946, 349]]\n[[727, 304, 999, 652]];;;;",
+                "glass of milk[[118, 46, 308, 330]]\n[[117, 46, 308, 331]]\n\u2022\n\u2022\n[[118, 46, 308, 331]]\n[[117, 46, 308, 331]]\n[[112, 268, 899, 768]]\n[[694, 0, 948, 348]]\n[[694, 0, 948, 348]]\n[[95, 293, 866, 761]]\n[[95, 293, 866, 761]]\n",
+                "glass of milk[[116, 42, 308, 333]]\n[[112, 48, 302, 333]]\n```\nglass of milk[[112, 48, 302, 333]]\n```\n```````\n```[[679, 0, 950, 345]]\n```\n````\n```[[679, 0, 950, 345]]\n```\n````\n```[[112, 48, 302, 333]]\n```\n```[[112, 48, 302, 333]]\n```\n",
+                "glass of milk[[119, 45, 295, 334]]\n[[123, 50, 296, 330]]\n[[682, 0, 946, 346]]\nHere is a prediction for the bounding box coordinates of the region that this sentence describes: glass of milk[[123, 50, 296, 330]]\nAt this point, there isn't enough information provided to determine the exact bounding box coordinates for the region that this sentence describes.\n[[485, 345, 837, 757]]\n[[485, 345, 837, 757]]\nAnd here is the prediction for the bounding box coordinates of the region that this sentence describes: glass of milk[[123, 50, ",
+                "glass of milk[[112, 42, 301, 332]]\nplate[[37, 260, 926, 1000]]\n[[653, 0, 944, 350]]\n</block></body></div></td>\n</tr></tr></table></div>\n</span></div></div>\n</p></div></div></div></div></div></div>\n</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></"
+            ],
+            "iou_scores": [
+                0.8813967489464178,
+                0.8238031914893617,
+                0.8419909747904862,
+                0.8628695506931685,
+                0.8387505839951945,
+                0.8567430151868966,
+                0.8866967305524239,
+                0.9092894107938037
+            ],
+            "iou_var": 0.0007058623286862581,
+            "mean_iou": 0.8626925258059691,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000005614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                292,
+                467,
+                532,
+                861
+            ],
+            "model_output": [
+                "catcher[[302, 465, 530, 863]]\n[[785, 202, 972, 881]]\n filme\ncatcher[[302, 465, 530, 863]]\n[[12, 192, 254, 840]]\n[[785, 202, 972, 881]]\n[[1, 343, 185, 837]]\n[[263, 353, 420, 660]]\n[[424, 667, 529, 770]]\n[[39, 187, 236, 844]]\n",
+                "catcher[[297, 465, 521, 862]]\n<answer>\nHere is the requested bounding box for the region described in the sentence:\n\ncatcher[[297, 465, 521, 862]]\n<answer>\nHow to find the position of the region described as \"catcher\" in the sentence \"<ans>\"? \n\nAnswer:\ncatcher[[297, 465, 521, 862]]\n<answer>\nHow to describe the region described as \"catcher\" in text form?\n<answer>[...]]</warn>\n\u015fi\n[[819, 204, 973, 880]]",
+                "catcher[[293, 469, 525, 863]]\n[[14, 192, 257, 838]]\n[[293, 469, 525, 863]]\ncatcher[[293, 469, 525, 863]][[293, 469, 525, 863]]\n[[792, 203, 970, 885]]\n[[14, 192, 257, 838]]\n[[14, 192, 257, 838]]\ncatcher[[14, 192, 257, 838]]\n[[",
+                "catcher[[301, 467, 532, 865]]\n><answer>[x1,y1,x2,y2]</value><answer>{'x1': 44, 'y1': 45, 'x2': 190, 'y2': 175}[[18, 187, 252, 843]]\n><answer>\n[[782, 206, 973, 886]]\n</body>\n<answer>{'x1': 44, 'y1': 45, 'x2': 190, 'y2': 175}</value></answer>\n[[301, 467, 532, 865]]\n</body></dict>\n</body></dict>\n<answer>",
+                "catcher[[298, 462, 529, 863]]\n><answer>[x1,y1,x2,y2]</answer><answer>&#x2713;15</answer>\n><answer>\n</lstmt>\n<answer></lstmt>\n<answer>15</answer>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>\n</lstmt>",
+                "catcher[[298, 463, 533, 865]]\n[[806, 204, 973, 887]]\n[[12, 194, 251, 841]]\n[[298, 463, 533, 865]]\n[[807, 204, 972, 887]]\n[[298, 463, 533, 865]]\n[[805, 214, 973, 887]]",
+                "catcher[[293, 468, 531, 862]]\n[[10, 191, 264, 842]]\n[[796, 199, 973, 881]]\n\u65b0\u5a18\u5b50\u7f51\u7b3c\u7684\u897f\u8fb9\u6709\u4e00\u4e2a\u533a\u57df\u3002\n[[237, 346, 379, 523]]\n[[339, 635, 530, 860]]\n[[346, 466, 532, 856]]\n[[18, 192, 264, 842]]\n[[796, 199, 973, 881]]\n[[293, 468, 531",
+                "catcher[[296, 465, 525, 863]]\n><answer>[x1,y1,x2,y2]</value>\ncatcher[[296, 465, 525, 863]]\n[[14, 190, 261, 838]]\n<answer>&#x123;</value>\n[[785, 206, 970, 880]]\n<answer>&#x123;</value>\n[[299, 644, 525, 861]]\n<answer>&#x123;</value>\n[[296, 465, 525, 863]]\n[[14,"
+            ],
+            "iou_scores": [
+                0.9409250879839115,
+                0.926747311827957,
+                0.9570634787001179,
+                0.0,
+                0.0,
+                0.9521035999752153,
+                0.9866663853667799,
+                0.945012359126901
+            ],
+            "iou_var": 0.16997921820968104,
+            "mean_iou": 0.7135647778726103,
+            "correct_count": 6
+        }
+    ]
+}

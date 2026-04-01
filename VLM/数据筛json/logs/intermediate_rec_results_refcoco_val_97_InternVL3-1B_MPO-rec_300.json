@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 97,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000013352.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>dark shrub in back</ref>",
+            "ground_truth": [
+                197,
+                73,
+                645,
+                347
+            ],
+            "model_output": [
+                "dark shrub in back[[231, 76, 628, 319]]\n><answer>[x1,y1,x2,y2]</guide>\n><answer>\n[[65, 370, 544, 923]]\n[[65, 370, 544, 923]]\n><answer>\n[[65, 370, 544, 923]][[65, 370, 544, 923]]\n><answer>\n[[65, 370, 544, 923]][[65, 370, 544, 923]]",
+                "dark shrub in back[[216, 56, 633, 311]]\n<answer>\ndark shrub in back[[216, 56, 633, 311]]\n<answer>\n\n<answer>\n\n####\n\nv<answer>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>\n</v>",
+                "dark shrub in back[[217, 72, 629, 341]]\n<answer>\ndark shrub in back[[217, 72, 629, 341]]\n<image>\ndark shrub in back[[217, 72, 629, 341]]\n<answer>\n`\ndark shrub in back[[217, 72, 629, 341]]\n<image>\n<answer>\n[[62, 373, 555, 921]]\n[[62, 373, 555, 921]]\n[[62, 373, 555, 921]]",
+                "dark shrub in back[[219, 59, 639, 322]]\n[[61, 371, 564, 930]]\nWould you suggest adding more lighting for the fire hydrant?\nmore lighting for the fire hydrant[[716, 106, 998, 505]]\n[[716, 106, 998, 505]]\nfire hydrant[[68, 370, 568, 922]]\n[[716, 106, 998, 505]]\n[[389, 342, 453, 387]]\n[[0, 328, 239, 507]]\n[[0, 690, 1",
+                "dark shrub in back[[219, 76, 634, 340]]\n[[70, 370, 552, 922]]\n\u5bc2\u7136\u65e0\u4e8b\u5730\u7ad9\u7740\uff0c\u9762\u65e0\u8868\u60c5\uff0c\u7a7f\u7740\u4e00\u8eab\u9ed1\u8272\u7684\u897f\u88c5\uff0c\u624b\u63d2\u5728\u53e3\u888b\u91cc\uff0c\u5fae\u7b11\u7740\u770b\u7740\u955c\u5934\u3002\ndark shrub in back[[219, 76, 634, 340]]\n351, 118, 1000, 249\n351, 118, 1000, 249\n351, 118, 1000, 249\ndark shrub in back[[219, 76, 634, 340]]\n351, 118, 1000, 249\n351, 118, ",
+                "dark shrub in back[[222, 79, 621, 324]]\n<answer>\ndark shrub in back[[222, 79, 621, 324]]\n</answer>\n\n<answer>dark shrub in back[[222, 79, 621, 324]]\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n",
+                "dark shrub in back[[225, 67, 631, 336]]\n<answer>\ndark shrub in back[[225, 67, 631, 336]]\n<answer>\n\n<answer>\n\n####\n\n####\n############################",
+                "dark shrub in back[[220, 65, 619, 324]]\n<answer>\ndark shrub in back[[220, 65, 619, 324]]\n<image>\ndark shrub in back[[220, 65, 619, 324]]\n<answer>\n\n</answer>\n<image>\n<image>\n[[67, 367, 556, 928]]\n</image><image>\n</image><image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image"
+            ],
+            "iou_scores": [
+                0.7859016553701773,
+                0.7643656472146703,
+                0.8964957292715404,
+                0.8130169786678276,
+                0.8925312825860271,
+                0.7963617700729927,
+                0.8529411764705882,
+                0.7951867496665185
+            ],
+            "iou_var": 0.002188664970651526,
+            "mean_iou": 0.8246001236650429,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000494552.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white chair on left foreground</ref>",
+            "ground_truth": [
+                0,
+                473,
+                375,
+                712
+            ],
+            "model_output": [
+                "white chair on left foreground[[0, 473, 363, 713]]\n><answer>\n[[420, 510, 993, 987]]\n><answer>\n</answer>\n<answer>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n</look>\n",
+                "white chair on left foreground[[0, 474, 355, 709]]\n<answer>white chair[[421, 510, 990, 989]]\n would provide a better bounding box for the bird's location. Here is the output based on the best bounding box I can make with the given image: <answer>[x1,y1,x2,y2]</answer>\n<answer>white chair[[421, 510, 990, 989]]\n would provide a better bounding box for the bird's location. Here is the output based on the best bounding box I can make with the given image: <answer>[x1,y1,x2,y2]</answer>\n would provide a better bounding box for the bird's location. Here is the output based on the best bounding box I can make with the given image: <answer>[x1,y1,x2,y2]</answer>\n would provide a better bounding box for the bird's location. Here is the output based on the best bounding",
+                "white chair on left foreground[[0, 475, 359, 703]]\n\n\n```markdown\n1/10\n```\n\n```markdown\n[[422, 508, 992, 989]]\n```markdown\n1/10\n```\n```markdown\nwhite chair on left foreground[[0, 475, 359, 703]]\n```markdown\n1/10\n```\n```markdown\nwhite chair on left foreground[[0, 475, 359, 703]]\n```markdown\n1/10\n```\n```markdown\nwhite chair on left foreground[[0, 475, 359, 703]]\n```markdown\n1/10\n```\n```markdown\nwhite chair on left foreground[[3, 474, 363, 705]]\n```markdown\n1/10\n```\n```markdown\n",
+                "white chair on left foreground[[0, 474, 359, 752]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awhite chair[[414, 510, 992, 989]]\n<image>\nwhite chair[[414, 510, 992, 989]][[414, 510, 992, 989]]\n<answer>\n\n</image>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response>\n</response",
+                "white chair on left foreground[[0, 472, 359, 725]]\n<answer>white chair[[424, 510, 992, 988]]\nI'm sorry, but I can't provide the specific coordinates for the bird in the given bounding box. However, I can describe it for you.\n<answer>*Heineken*[[105, 894, 288, 997]]\n</answer>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</",
+                "white chair on left foreground[[0, 476, 363, 708]]\n><answer>[[0, 476, 363, 708]]\n><image><answer></answer>\n><answer>\nwhite chair[[415, 506, 993, 989]]\n><answer>\nwhite chair[[415, 506, 993, 989]]\n><image><answer></answer>\n><answer>\nbird[[670, 440, 735, 540]]\n><answer>\nbird[[134, 396, 186, 488]]\n><image><answer></image>\n><answer>\nbird[[134, 396, 186, 488]]",
+                "white chair on left foreground[[0, 474, 363, 725]]\n<answer>white chair on left foreground[[434, 510, 991, 989]]\n</answer><image>\nwhite chair[[434, 510, 991, 989]]\n</image><image>\n<answer>white chair[[434, 510, 991, 989]]\n</image><image>\n<answer>white chair[[0, 474, 363, 725]]\n</answer><image>\n<answer>white chair[[434, 510, 991, 989]]\n</image><image>\n<answer>white chair[[4",
+                "white chair on left foreground[[0, 477, 362, 705]]\n\n\n```markdown\n1 / 1\n```[[409, 510, 992, 988]]\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 /"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.9132719665271967,
+                0.8216762032985526,
+                0.0,
+                0.9396485355648535,
+                0.0,
+                0.9209037656903766
+            ],
+            "iou_var": 0.2030334536588155,
+            "mean_iou": 0.4494375588851224,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000175112.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>batter</ref>",
+            "ground_truth": [
+                355,
+                349,
+                677,
+                948
+            ],
+            "model_output": [
+                "batter[[362, 357, 679, 948]]\n[[0, 607, 202, 1000]]\n```\n[[362, 357, 679, 948]]\n```\n```[[0, 607, 202, 1000]]\n```\n```[[345, 287, 696, 947]]\n```\n``````[[345, 287, 696, 947]]\n```[[3, 605, 202, 1000",
+                "batter[[356, 355, 681, 948]]\n[[0, 607, 209, 1000]]\n\u6751\u6c11\u540d\uff1aAthletics\n[[356, 355, 681, 948]]\n[[3, 603, 207, 989]]\n[[357, 357, 682, 948]]\n[[0, 603, 208, 999]]\n[[0, 607, 209, 1000]]",
+                "batter[[358, 357, 677, 944]]\n[[0, 605, 201, 1000]]\n`[[358, 356, 677, 944]]\n`[[0, 605, 201, 1000]]\n`[[358, 357, 677, 944]]\n`[[355, 356, 677, 946]]\n`[[3, 0, 997, 996]][[0, 605, 201, 1000]]\n[[0, 605, 20",
+                "batter[[358, 356, 676, 943]]\ncatcher[[0, 608, 208, 1000]]\n[[356, 363, 676, 949]]\n[[353, 286, 714, 951]]\n[[353, 286, 714, 951]]\n[[0, 608, 208, 1000]]\n[[356, 363, 676, 949]]\n[[353, 286, 714, 951]]\n[[0, 608, 208, 1000]]\n[[353",
+                "batter[[362, 357, 674, 944]]\n[[1, 602, 206, 1000]]\nbatter[[362, 357, 674, 944]]\n[[1, 602, 206, 1000]]\n[[2, 6, 999, 987]]\n[[362, 359, 674, 945]]\n[[629, 286, 746, 584]]\n[[198, 770, 274, 878]]\n[[192, 768, 251, 878]]",
+                "batter[[361, 359, 680, 948]]\ncatcher[[2, 606, 209, 1000]]\n[[361, 357, 680, 946]]\n[[2, 606, 209, 1000]]\n[[360, 282, 718, 942]]\n[[360, 282, 718, 942]]\n[[2, 603, 211, 989]]\n[[2, 606, 209, 1000]]\n[[361, 359, 680, 948]]\n[[360,",
+                "batter[[362, 355, 683, 948]]\n[[0, 608, 204, 1000]]\nMrs.\n[[361, 356, 685, 944]]\n[[0, 609, 205, 1000]]\n[[0, 608, 204, 1000]]\n[[362, 355, 683, 944]]\n[[361, 355, 685, 944]]\n[[0, 609, 204, 1000]]\n[[0, 608, 204, 1000]]\n",
+                "batter[[364, 360, 673, 944]]\n[[0, 602, 214, 1000]]\n[[365, 354, 677, 944]]\nHere is the task: Based on the given information, provide a summary of the image.\n[[0, 602, 214, 1000]]\nHere is a summary of the image's content: - A baseball player in a green and gold uniform is preparing to hit a ball. He is wearing a helmet, gloves, and a batting helmet. - A catcher is crouched behind the batter, wearing protective gear and a mask. - The batter is holding a black bat and is in a ready stance.\n[[364, 354, 677, 944]]\nHere is the summary of the image's content: - A"
+            ],
+            "iou_scores": [
+                0.9593167061733484,
+                0.9749193341869398,
+                0.9708364873132239,
+                0.9677931127448439,
+                0.9495328653345638,
+                0.956222867271186,
+                0.950920401555723,
+                0.9355965947386431
+            ],
+            "iou_var": 0.0001469249892848959,
+            "mean_iou": 0.958142296164809,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000549366.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>zbra front</ref>",
+            "ground_truth": [
+                263,
+                362,
+                890,
+                912
+            ],
+            "model_output": [
+                "zbra front[[256, 354, 893, 925]]\n[[0, 417, 169, 857]]\n[[378, 285, 989, 581]]\n353, 282, 998, 551\n[[376, 283, 770, 371]]\n[[0, 418, 166, 854]]\n[[604, 291, 989, 570]]\n[[256, 355, 895, 937]]\n[[1, 424, 162, 740]]\n[[376, 28",
+                "zbra front[[264, 358, 892, 925]]\n[[0, 421, 176, 857]]\n\u2022\n\u2022[[390, 285, 992, 578]]\n\u2022[[1, 423, 152, 773]]\n\u2022[[608, 293, 989, 572]]\n[[261, 359, 892, 936]]\n[[0, 421, 176, 857]]",
+                "zbra front[[258, 356, 895, 928]]\n[[0, 423, 178, 868]]\n`[[377, 284, 989, 577]]\n`[[611, 292, 988, 573]]\n`[[285, 292, 640, 440]]\n`[[2, 421, 179, 859]]\n[[0, 425, 182, 842]]\n[[365, 423, 905, 918]]\n[[1, 425, 184, 852]]\n",
+                "zbra front[[267, 362, 896, 930]]\n[[0, 423, 185, 868]]\n\u5bc2\u7136\u65e0\u95fb\u7684\u52a8\u7269\u7684\u4e0a\u534a\u8eab\uff0c\u56fe\u7247\u63cf\u8ff0\u4e2d\u6ca1\u6709\u63d0\u5230\n[[382, 286, 988, 582]]\n[[605, 292, 984, 572]]\n[[291, 357, 901, 916]]\n[[1, 422, 166, 854]]\n[[292, 285, 603, 415]]\n[[0, 421, 187, 861]]\n[[384, 283",
+                "zbra front[[261, 354, 897, 930]]\n[[0, 422, 171, 856]]\n[[373, 288, 989, 581]]\n342x302",
+                "zbra front[[264, 356, 895, 930]]\nzbra back[[378, 284, 987, 527]]\n[[0, 418, 172, 858]]\n```\nzbra back[[622, 287, 988, 576]]\n```\n```[[1, 425, 172, 852]]\n```\n```[[359, 286, 661, 414]]\n```\n```[[377, 284, 991, 529]]\n```\n```[[264, 358, 896, 921",
+                "zbra front[[262, 358, 896, 935]]\n[[0, 420, 185, 863]]\n305, 288, 992, 797\n[[384, 285, 986, 516]]\n[[611, 288, 987, 572]]\n[[0, 421, 184, 862]]\n[[387, 285, 623, 412]]\n[[600, 356, 986, 511]]\n[[260, 363, 903, 939]]",
+                "zbra front[[261, 363, 895, 935]]\nzbra rear[[622, 289, 987, 576]]\n'''\n[[380, 284, 672, 406]]\n'''\n[[0, 422, 162, 859]]\n[[1, 421, 146, 778]]\n[[261, 363, 895, 935]]\n[[380, 284, 672, 406]]\n[[622, 289, 987, 576]]\n[[0, 422, "
+            ],
+            "iou_scores": [
+                0.9481011857794445,
+                0.9654371806878915,
+                0.946443666223886,
+                0.9532035874838652,
+                0.94134892557652,
+                0.9491542244668416,
+                0.9426818800605765,
+                0.947554882664648
+            ],
+            "iou_var": 4.9412504392613635e-05,
+            "mean_iou": 0.9492406916179592,
+            "correct_count": 8
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 100,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000081283.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>ffarthest snd on front plte</ref>",
+            "ground_truth": [
+                337,
+                431,
+                613,
+                706
+            ],
+            "model_output": [
+                "ffarthest snd on front plte[[0, 342, 1000, 987]]\nperson[[207, 2, 846, 353]]\n[[0, 435, 106, 745]]\n${\\displaystyle0.5} by {\\displaystyle430}}\n[[423, 242, 612, 382]]\n\n[[0, 435, 106, 745]]\n\n[[375, 588, 717, 908]]\n\n[[220, 105, 480, 342]]\n\n[[423, 242, 612, 382]]",
+                "ffarthest snd on front plte[[2, 342, 1000, 987]]\n[[189, 326, 382, 560]]\nDNA - It is a female name. The number is not used to identify a person. It is not used to distinguish a person from another person. It is not used to identify or distinguish any object. It is not used to describe the shape of an object. It is not used to distinguish any object from another object. It is not used to identify or distinguish any object from another object. It is not used to describe the shape of an object. It is not used to distinguish any object from another object. It is not used to identify or distinguish any object from another object. It is not used to describe the shape of an object. It is not used to distinguish any object from another object. It is not used to identify or distinguish any object from another object. It is not used to describe the shape of an object. It is not used to distinguish any object from another object. It is not used to identify or distinguish any object from another object",
+                "ffarthest snd on front plte[[1, 337, 1000, 989]]\n[[1, 337, 1000, 989]]\n[[1, 337, 1000, 989]]\n[[171, 43, 847, 358]]\n[[0, 0, 999, 753]]\n[[274, 592, 721, 907]]\n[[389, 425, 622, 663]]\n[[272, 439, 601, 665]]\n[[253, 323, 391, 561]]\n[[507, ",
+                "ffarthest snd on front plte[[187, 439, 955, 989]]\n; description of the region {185, 666, 247, 796} tags.\n licking the plate of food on the table.\nffarthest snd on front plte[[187, 439, 955, 989]]\n[[187, 439, 955, 989]]\n[[0, 0, 999, 998]]\n[[187, 439, 955, 989]]\n[[187, 439, 955, 989]]\n[[187,",
+                "ffarthest snd on front plte[[3, 342, 1000, 985]]\nAnonymous person[[188, 0, 851, 354]]\nAnonymous man[[188, 0, 851, 354]]\nperson eating[[188, 0, 851, 354]]\nperson eating[[216, 5, 851, 351]]\nperson eating[[216, 5, 851, 351]]\nperson eating[[216, 5, 851, 351]]",
+                "ffarthest snd on front plte[[248, 427, 648, 907]]\nman[[206, 0, 846, 366]]\n[[0, 0, 999, 982]]\n\u2022 what is the name of the person eating the sandwich?\n[[324, 589, 724, 908]]\n[[165, 67, 351, 379]]\n[[632, 557, 846, 786]]\n[[376, 582, 721, 899]]\n[[0, 338, 998, 1000]]\n[[391, 426, 59",
+                "ffarthest snd on front plte[[4, 344, 1000, 986]]\n[[244, 413, 672, 906]]\n\u52ab[[206, 0, 845, 364]]\n```\nffarthest snd on front plte[[206, 0, 845, 364]]\n```\n[[244, 413, 672, 906]]\n```\n```[[4, 344, 1000, 986]]\n```\n```[[244, 413, 672, 906]]\n```\n```[[206, 0, 845, 364]]",
+                "ffarthest snd on front plte[[2, 344, 1000, 986]]\nman[[202, 2, 857, 359]]\n[[0, 566, 128, 886]]\n</silhouette>\n[[167, 6, 860, 350]]\n[[0, 647, 114, 872]]\n[[0, 645, 116, 881]]\n[[120, 668, 230, 797]]\n[[627, 664, 855, 787]]\n[[288, 422, 606, 668]]\n"
+            ],
+            "iou_scores": [
+                0.11767441860465117,
+                0.1179102390828168,
+                0.11652757051530058,
+                0.17355301831336198,
+                0.11839562232576423,
+                0.3953125,
+                0.1186990954472094,
+                0.11846122150843744
+            ],
+            "iou_var": 0.008271146132726991,
+            "mean_iou": 0.1595667107246927,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000248052.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man right hands in the air like he just dont care</ref>",
+            "ground_truth": [
+                608,
+                296,
+                935,
+                869
+            ],
+            "model_output": [
+                "man right hands in the air like he just dont care[[661, 292, 944, 856]]\nPK\uff1b\uff1b\uff1b\uff1b\uff1b\uff1b\uff1b;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+                "man right hands in the air like he just dont care[[672, 296, 951, 857]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman right hands in the air like he just dont care[[672, 296, 951, 857]][[672, 296, 951, 857]]\n<answer>\n\nwoman[[2, 232, 323, 989]]\n[[143, 59, 364, 989]]\n[[362, 319, 504, 557]]\n[[408, 305, 665, 754]]\n[[3",
+                "man right hands in the air like he just dont care[[673, 296, 953, 868]]\nwoman[[2, 227, 326, 990]]\n[[2, 60, 366, 984]]\n anyway, the region names are too small, but it seems like they are not the main focus and are blurred, so I'll go with the bounding box around the main elements that can be clearly identified.\n[[367, 317, 471, 552]]\n[[471, 307, 665, 757]]\n\n[[359, 378, 447, 554]]\n\n[[603, 343, 715, 527]]\n\n",
+                "man right hands in the air like he just dont care[[659, 294, 948, 859]]\n<answer>\n\u526f\u4e3b\u5e2d\u63cf\u8ff0\uff1aman right hands in the air like he just dont care[[659, 294, 948, 859]][[657, 305, 945, 867]]\n<answer>\n\n<br><image\nman right hands in the air like he just dont care[[659, 294, 945, 859]]\n\n<answer>\n\n<br><image\nman right hands in the air like he just dont care[[657, 305, 945, 867]]\n\n<answer>\n\n",
+                "man right hands in the air like he just dont care[[664, 298, 947, 870]]\nPOW[[404, 309, 685, 761]]\nPOW[[149, 61, 358, 999]]\nPOW[[0, 235, 312, 989]]\nPOW[[864, 324, 1000, 668]]\n[[414, 363, 611, 527]]\nPOW[[364, 345, 476, 556]]\n",
+                "man right hands in the air like he just dont care[[658, 293, 952, 857]]\nwoman[[2, 238, 328, 987]]\n[[141, 58, 353, 989]]\n anyway, he just dont care, he just don't care. The man's expression is one of surprise or disbelief, his hands raised in the air.\nman[[401, 306, 688, 762]]\nwoman[[349, 321, 490, 558]]\n[[0, 234, 326, 986]]\n[[652, 292, 954, 865]]\n[[359, 35",
+                "man right hands in the air like he just dont care[[654, 297, 947, 875]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman right hands in the air like he just dont care[[654, 297, 947, 875]][[656, 297, 947, 875]]\n<answer>\n\n<br />",
+                "man right hands in the air like he just dont care[[665, 296, 946, 870]]\n materia"
+            ],
+            "iou_scores": [
+                0.792795399471952,
+                0.7514400525600086,
+                0.7581639828600626,
+                0.7957678677509884,
+                0.7955590058918491,
+                0.7856666161079934,
+                0.8200905134367044,
+                0.7976592508571576
+            ],
+            "iou_var": 0.00043624511148974716,
+            "mean_iou": 0.7871428361170895,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000340971.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>wire chair</ref>",
+            "ground_truth": [
+                708,
+                535,
+                926,
+                985
+            ],
+            "model_output": [
+                "wire chair[[689, 516, 918, 1000]]\n[[88, 821, 441, 999]]\n \u2022 wire chair[[88, 821, 441, 999]]\n \u2022 chair[[689, 516, 918, 1000]]\n \u2022 woman[[160, 153, 346, 585]]\n \u2022 woman[[100, 322, 298, 588]]\n \u2022 TV[[461, 174, 672, 471]]\n \u2022 blanket[[548, 729, 670, 875]]\n \u2022 TV[[462, 177, 670,",
+                "wire chair[[695, 512, 919, 1000]]\nwoman[[141, 156, 346, 583]]\n[[72, 327, 305, 589]]\n\u6829\u6829\u5982\u751f\n[[85, 821, 450, 999]]\n[[49, 513, 694, 1000]]\n[[724, 507, 861, 989]]\n[[861, 523, 925, 706]]\n[[912, 669, 999, 824]]\n[[91, 473, 20",
+                "wire chair[[699, 506, 920, 1000]]\nwire chair[[96, 821, 442, 989]]\n''''''[[449, 189, 661, 474]]\n'''[[81, 325, 371, 591]]\n'''[[42, 515, 683, 998]]\n'''[[694, 742, 864, 989]];\uff1b[[839, 671, 997, 810]]\n[[100, 483, 676, 986]]\n[[1",
+                "wire chair[[715, 515, 921, 997]]\nwoman[[145, 156, 352, 586]]\n[[68, 324, 318, 587]]\n[[83, 515, 687, 997]]\n[[83, 515, 687, 997]]\nchair[[715, 515, 921, 997]]\nwii[[459, 182, 686, 470]]\nartifact[[633, 342, 795, 436]]\nblanket[[540, 724, 661, 886]]",
+                "wire chair[[706, 515, 921, 987]]\n[[79, 823, 436, 998]]\nCheapo: \"wire chair\" in tags: <answer>[x1,y1,[x31,358]]\nImages: \nwire chair[[706, 515, 921, 987]]\nImages: \nwire chair[[79, 823, 436, 998]]\nImages: \nwire chair[[79, 823, 436, 998]]\nImages: \nwire chair[[706, 515, 921, 987]]\nImages: \nwire chair[[79, 823, 436, 998]][[79, 823, ",
+                "wire chair[[703, 505, 920, 1000]]\nwoman[[179, 153, 361, 581]]\n[[86, 324, 317, 593]]\n${{86, 324, 317, 593}}[[86, 324, 317, 593]]\n${[86, 324, 317, 593]}[[90, 819, 476, 1000]]\n[[703, 505, 920, 1000]]\n[[703, 505, 9",
+                "wire chair[[699, 493, 913, 1000]]\nwoman[[148, 154, 355, 585]]\n[[92, 325, 309, 589]]\nendif\n[[71, 516, 689, 990]]\n[[736, 510, 926, 1000]]\n[[84, 820, 437, 989]]\n[[867, 669, 997, 857]]\n[[394, 195, 666, 476]]\n[[394, 1",
+                "wire chair[[706, 508, 925, 988]]\nKnow the coordinates of the region? \nwire chair[[81, 821, 412, 988]]\n[[81, 821, 412, 988]]\nAnd the wire chair is in front of the television, right?\nwire chair[[706, 508, 925, 988]]\n[[706, 508, 925, 988]]\nAnd the wire chair is close to the sofa?\nwire chair[[81, 821, 412, 988]]\nAnd the wire chair is in front of the television, right?\nwire chair[[706, 508, 925, 988]]\nAnd the wire chair is close to"
+            ],
+            "iou_scores": [
+                0.8257890873501346,
+                0.844285180772172,
+                0.8527450524697427,
+                0.8854544759867039,
+                0.9240335486358816,
+                0.8663669799754802,
+                0.806747822436772,
+                0.9249786871270247
+            ],
+            "iou_var": 0.0016249042702534283,
+            "mean_iou": 0.866300104344239,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000204529.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second from left wine glass</ref>",
+            "ground_truth": [
+                466,
+                320,
+                617,
+                833
+            ],
+            "model_output": [
+                "second from left wine glass[[199, 408, 397, 988]]\n<answer>second from left wine glass[[199, 408, 397, 988]]\nThe bounding box for the region describing the wine glass: <answer>[x1,y1,...]</answer>\n<answer>second from left wine glass[[461, 324, 637, 835]]\nThe bounding box for the region describing the wine glass: <answer>[x1,y1,...]</answer>\n<answer>second from left wine glass[[461, 324, 637, 835]]\nThe bounding box for the region describing the wine glass: <answer>[x1,y1,...]</answer>\n<answer>second from left wine glass[[461, 324, 637, 835]]\nThe",
+                "second from left wine glass[[203, 409, 385, 990]]\n><answer>\n</body>\n</image>\n[[203, 409, 385, 990]]\n[[100, 0, 271, 798]]\n</body>\n```\n<img src=\"https://i.imgur.com/6K7pZjZ.jpg\" style=\"width:100%;height:100%;\">\n\n```\nsecond from left wine glass[[471, 326, 634, 836]]\n```\n```[[598, 274, 759, 733]]\n```\n```[[757, 248, 890, 644]]\n```\n```[[188, ",
+                "second from left wine glass[[202, 405, 398, 986]]\n><answer>\nuserAfter analyzing the image, what can be said about the wine and the setting?\nwine[[57, 0, 273, 800]]\nwine[[343, 0, 512, 732]]\nwine[[487, 324, 623, 835]]\nwine[[627, 279, 764, 727]]\nwine glass[[760, 247, 890, 644]]\nglass[[194, 415, 392, 989]]\nwine[[529, 0, 634, 331]]\nwine[[629, 0, 766, 301]]",
+                "second from left wine glass[[195, 409, 398, 987]]\n><answer>[x1,y1,x2,y2]</option>\nsecond from left wine glass[[195, 409, 398, 987]]\n><answer></tag>\n><tag>[[292, 0, 478, 732]][[471, 0, 612, 661]]\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>",
+                "second from left wine glass[[201, 408, 396, 988]]\n<answer>second from left wine glass[[201, 408, 396, 988]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "second from left wine glass[[200, 409, 393, 987]]\nDNA\nsecond from left wine glass[[200, 409, 393, 987]]\nMRI\nsecond from left wine glass[[468, 325, 636, 837]]\nMRI\nsecond from right wine glass[[617, 275, 767, 732]]\nMRI\nsecond from right wine glass[[764, 247, 894, 643]]\nMRI\nperson[[274, 0, 679, 436]]\nMRI\n",
+                "second from left wine glass[[201, 407, 399, 988]]\nIdentified as the region of interest: <image>\n\n[[461, 321, 631, 835]]\nThe bounding box coordinate of the region that this sentence describes: second from left wine glass[[461, 321, 631, 835]]\nThe bounding box coordinate of the region that this sentence describes: person[[276, 0, 724, 436]]\nThe bounding box coordinate of the region that this sentence describes: person[[276, 0, 724, 436]]\nThe bounding box coordinate of the region that this sentence describes: person[[276, 0, 724, 436]]\nThe bounding box coordinate of the region that this sentence describes: ",
+                "second from left wine glass[[204, 408, 398, 987]]\nSuddenly, I didn't capture the entire bounding box. Here is a more precise one: (<succesfully approximated> [204, 408, 398, 987], [204, 408, 398, 987])\n more accurately: (<succesfully approximated> [204, 408, 398, 987], [204, 408, 398, 987])\n more accurately: (<succesfully approximated> [204, 408, 398, 987], [204, 408, 398, 987])\n more accurately: (<succesfully approximated> [204, 408, 398, 987], [204, 408, 398, 987])\n more"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 75,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000078307.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left bike</ref>",
+            "ground_truth": [
+                1,
+                219,
+                290,
+                983
+            ],
+            "model_output": [
+                "far left bike[[0, 220, 165, 987]]\n<answer>far left bike[[0, 398, 169, 985]]\n<answer>far left bike[[0, 220, 165, 987]]\n<answer>far left bike[[0, 398, 169, 985]]\n[[695, 246, 1000, 989]]\n[[665, 223, 813, 798]]\n[[549, 334, 615, 693]]\n[[484, 395, 522, 540]]\n[[534, 399, 562, 533]]\n[[487, 398,",
+                "far left bike[[0, 225, 170, 991]]\n<answer>far left bike[[0, 393, 154, 987]]\n<answer>far left bike[[0, 225, 170, 991]]\n<answer>far left bike[[0, 393, 154, 987]]\n[[782, 274, 1000, 987]]\n[[103, 245, 470, 989]]\n[[616, 236, 854, 870]]\n[[514, 377, 581, 688]]\n[[501, 398, 544, 538]]\n[[541, 360,",
+                "far left bike[[0, 222, 158, 1000]]\n<answer>\nfar left bike[[0, 387, 158, 989]]\n</answer>\nuser\nwas the helmet in the image is in front of the motorcycle? yes\nhelmet[[695, 244, 1000, 989]]\n\nperson\nhelmet[[695, 244, 1000, 989]]\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</person>\n</",
+                "far left bike[[0, 220, 162, 989]]\n><answer>[x1,y1,x2,y2]</answer>[[671, 252, 997, 989]]\n><answer>[x1,y1,x2,y2]</answer>\n[[542, 370, 588, 540]]\n<answer>far left bike[[0, 385, 165, 986]]\n</answer>\n<answer>far left bike[[0, 220, 162, 989]]\n</answer>\n<answer>far left bike[[0, 385, 165, 986]]\n</answer>\n<image><image>",
+                "far left bike[[0, 218, 162, 989]]\n<answer>\nHere is the reconstructed text of the image, in the same order they appear in the image:  \nfar left bike[[0, 218, 162, 989]]\n<answer>\nIf you could only give me 3 words that describe the image, what would you say?\nfar left bike[[0, 225, 160, 984]]\n</answer>\nuser\nare there any helmets on the motorcycles?\nhelmets[[705, 241, 1000, 989]]\n<answer>\nHere is the reconstructed text of the image, in the same order they appear in the image:  \nhelmets[[705, 241, 1000, 989]]\n<answer>\nIf you could only give me 3 words that describe the image",
+                "far left bike[[0, 222, 154, 989]]\n<answer>far left bike[[0, 410, 164, 984]]\n<answer>far left bike[[0, 222, 154, 989]]\n<answer>far left bike[[0, 410, 164, 984]]\n<answer>far left bike[[0, 222, 154, 989]]\n<answer>far left bike[[0, 222, 154, 989]]\n[[0, 222, 154, 989]]\n[[704, 254, 1000, 987]]\n[[590, 222, 856,",
+                "far left bike[[0, 220, 169, 998]]\n><answer>\nuserIt looks like there are two helmets in the image. Which one is closer to the camera? Hondas[[0, 220, 169, 998]]\n><answer>Hondas[[0, 220, 169, 998]]\n><answer>Hondas[[84, 233, 448, 989]]\n><answer>Hondas[[808, 272, 1000, 989]]\n><answer>Hondas[[650, 240, 1000, 989]]\n><answer>Hondas[[573, 343, 657, 690]]",
+                "far left bike[[0, 218, 173, 997]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <center></center> tags: \nthis sentence describes[[0, 218, 173, 997]]\n<answer>\nhere is the entire bounding box coordinate of the region described as \"this sentence describes\" in <center></center> tags: \nthis sentence describes[[0, 218, 173, 997]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <pred>in</pred> tags: \nthis sentence describes[[0, 218, 173, 997]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <pred>in</pred> tags: \nthis sentence describes[[758, 263, 10"
+            ],
+            "iou_scores": [
+                0.5631021649813922,
+                0.5746700521277264,
+                0.42085094899703157,
+                0.0,
+                0.5523453707778386,
+                0.5233390716510623,
+                0.5720099601060269,
+                0.5862372019361602
+            ],
+            "iou_var": 0.03454374015539205,
+            "mean_iou": 0.4740693463221548,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000012382.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>zebra in front</ref>",
+            "ground_truth": [
+                441,
+                101,
+                886,
+                608
+            ],
+            "model_output": [
+                "zebra in front[[437, 118, 885, 611]]\n</div>: zebra in front[[203, 335, 483, 592]]\n</div>: zebra in front[[203, 335, 483, 592]]\n</div>: zebra in front[[203, 335, 483, 592]]\n</div>: zebra[[437, 118, 885, 611]]\n</div>: zebra[[437, 118, 885, 611]]\n</div>: zebra[[203, 335, 483, 592]]\n</div>: zebra[[203, 335, 483, ",
+                "zebra in front[[435, 120, 890, 612]]\n</script>\n[[209, 336, 483, 589]]\n```\n[[435, 122, 893, 612]]\n```\n```[[209, 336, 483, 589]]\n```\n```[[435, 120, 890, 612]]\n```\n```[[433, 124, 894, 602]]\n```\n```[[209, 336, 483, 589]]\n```\n```[[435, 120,",
+                "zebra in front[[439, 121, 884, 613]]\n<image>\nAnswer\nzebra in front[[208, 337, 490, 595]]\nI'm sorry, there is no region in the image that I can see with the given description.\n<image>\nAnswer\nzebra in front[[208, 337, 490, 595]]\nWhat is the zebra in front of? The zebra in the background is.\nI'm sorry, but I can't provide the bounding box coordinates for the zebra in front.\n<image>\nAnswer\nzebra in front[[208, 337, 490, 595]]\nWhat is the zebra in front of? The zebra in the background is.\nI'm sorry, but I can't provide the bounding box coordinates for the zebra in front.\n<image>\nAnswer\n",
+                "zebra in front[[435, 119, 886, 609]]\nAnonymous: I'm sorry, but I can't provide specific bounding box coordinates for this image. However, I can describe the scene for you.\nuser\nWhat are the animals in the image?\nzebras[[435, 120, 889, 610]]\nAnonymous: The image shows a zebra and a zebra calf in a grassy area with trees and logs in the background. The zebra calf is walking next to the adult zebra, which appears to be an adult as well. The scene suggests they are in a natural habitat, likely a savanna or a similar environment. The adult zebra has a striped pattern typical of its species, and the calf is following closely behind.",
+                "zebra in front[[441, 121, 887, 605]]\n<image>\nAnswer\nzebra in front[[206, 336, 485, 597]]\nI'm sorry, there is no region in the image that describes a zebra in front.\n<image>\nAnswer\nzebra in front[[206, 336, 485, 597]]\nI'm sorry, there is no region in the image that describes a zebra in front.\n<image>\nAnswer\nzebra in front[[206, 336, 485, 597]]\nI'm sorry, there is no region in the image that describes a zebra in front.\nI'm sorry, there is no region in the image that describes a zebra in front.\n<image>\nAnswer\nzebra in front[[206, 336, 48",
+                "zebra in front[[439, 119, 881, 612]]\n</script>\n```\nzebra in front[[202, 335, 480, 593]]\n```\n```````\n```````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n````\n```",
+                "zebra in front[[436, 125, 881, 613]]\n[[205, 336, 488, 589]]\n```\n[[436, 122, 884, 611]]\n```\n```[[199, 336, 487, 589]]\n```\n``````",
+                "zebra in front[[433, 121, 886, 611]]\n[[205, 337, 480, 597]]\n`[[438, 118, 887, 607]]\n`[[207, 337, 482, 597]]\n`[[433, 121, 886, 611]]\n`[[207, 337, 482, 597]]\n`[[433, 121, 886, 611]]\n`[[207, 337, 482, 597]]\n`[[438, 121, 886,"
+            ],
+            "iou_scores": [
+                0.9503798286730241,
+                0.934765297118137,
+                0.9428662581835028,
+                0.9502401746724891,
+                0.9525915638724629,
+                0.9421924058836667,
+                0.9229766997459339,
+                0.9386884393814701
+            ],
+            "iou_var": 8.450911683981799e-05,
+            "mean_iou": 0.9418375834413357,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000016465.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>player white uniform</ref>",
+            "ground_truth": [
+                334,
+                157,
+                819,
+                902
+            ],
+            "model_output": [
+                "player white uniform[[322, 155, 821, 897]]\n[[290, 96, 471, 833]]\nDB\nplayer white uniform[[322, 155, 821, 897]]\nDB\nDB[[290, 96, 471, 833]]\nDBplayer white uniform[[322, 155, 821, 897]]\nDBplayer white uniform[[322, 155, 821, 897]]\nDBball[[612, 230, 711, 338]]\n[[592,",
+                "player white uniform[[330, 148, 813, 896]]\n\n[[282, 90, 472, 843]]\n'''player white uniform[[330, 148, 813, 896]]\n[[330, 148, 813, 896]]\n[[282, 90, 472, 843]]\n[[282, 90, 472, 843]]\n[[464, 153, 812, 895]]\n[[330, 148, 813, 896]]\n[[282, 90, 472, 843]]",
+                "player white uniform[[330, 156, 816, 899]]\n[[287, 95, 465, 835]]\n3[[417, 135, 814, 896]]\n[[289, 81, 465, 797]]\n[[435, 0, 915, 457]]\n[[332, 231, 776, 746]]\n[[287, 81, 465, 797]]\n[[417, 135, 816, 896]]\n[[330, 156, 816, 8",
+                "player white uniform[[331, 150, 818, 902]]\n\nI'm sorry, but I can't assist with that.\n\nI'm here to help with sports-related queries. If you have any other questions, such as gameplay tips, team formations, or player stats, feel free to ask!\n\n[[292, 94, 443, 842]]\n[[331, 150, 817, 902]]\n[[398, 553, 797, 892]]\n[[251, 85, 438, 738]]\n[[418, 492, 816, 739]]\n",
+                "player white uniform[[324, 156, 816, 893]]\n[[283, 94, 472, 852]]\n[[283, 94, 472, 852]]\n[[324, 156, 816, 893]]\n[[360, 504, 812, 901]]\n[[594, 232, 692, 338]]\n[[796, 463, 1000, 584]]\n[[45, 303, 103, 363]]\n[[511, 4, 1000, 435]]\n[[25",
+                "player white uniform[[335, 155, 822, 899]]\n[[297, 86, 463, 838]]\n \u2022 player white uniform[[335, 155, 822, 899]]\n \u2022 player white uniform[[335, 155, 822, 899]]\n \u2022 soccer[[615, 229, 708, 337]]\n \u2022 soccer[[615, 229, 708, 337]]\uff1b[297, 86, 463, 838]]\n \u2022 ball[[615, 229, 708, 337]]\n \u2022 ball[[615, 2",
+                "player white uniform[[332, 151, 819, 892]]\n\n[[297, 93, 475, 840]]\nMore tags:\n[[584, 233, 691, 336]]\n[[696, 600, 1000, 702]]\n[[621, 694, 654, 740]]\n[[543, 653, 564, 710]]\n[[543, 653, 564, 710]]\n[[507, 672, 523, 714]]\n[[507, 672, 523, 714]]\n",
+                "player white uniform[[325, 155, 821, 897]]\n[[284, 92, 473, 843]]\n[[325, 155, 821, 897]]\n[[321, 163, 811, 889]]\n[[284, 92, 473, 843]]\n[[100, 0, 348, 394]]\n[[458, 0, 1000, 371]]\n[[18, 304, 134, 367]]\n[[102, 305, 148, 363]]\n[[169, 306"
+            ],
+            "iou_scores": [
+                0.963016826632822,
+                0.9602661761993121,
+                0.9804402117446454,
+                0.9825898100384501,
+                0.9609266016030251,
+                0.9851944311089774,
+                0.9747290938075069,
+                0.9688033968854685
+            ],
+            "iou_var": 8.951756557819862e-05,
+            "mean_iou": 0.9719958185025259,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000128106.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in back</ref>",
+            "ground_truth": [
+                512,
+                3,
+                813,
+                509
+            ],
+            "model_output": [
+                "man in back[[511, 0, 809, 497]]\nboy[[383, 369, 729, 645]]\n[[382, 369, 727, 648]]\n</answer>\n[[382, 367, 726, 736]]\n</coordinate>\n[[382, 367, 726, 736]]\n[[385, 564, 687, 743]]\n[[0, 184, 999, 474]]\n[[0, 184, 999, 474]]\n[[382, 369, 729,",
+                "man in back[[521, 0, 809, 499]]\n[[385, 369, 725, 713]]\nComments on the image: man[[521, 0, 809, 499]]\nComments on the image: man[[521, 0, 809, 499]]\nComments on the image: boy[[385, 368, 725, 714]]\nComments on the image: boy[[385, 368, 725, 714]]\nComments on the image: boy[[385, 368, 725, 714]]\nComments on the image: boy[[385, 368, 725, 714]]\nComments on the image:",
+                "man in back[[520, 0, 807, 499]]\n[[373, 366, 727, 690]]\n \u2022\n \u2022 man[[520, 0, 807, 499]]\n \u2022 man[[373, 366, 727, 690]]\n \u2022 man[[373, 366, 727, 690]]\n \u2022 water[[2, 185, 1000, 987]]\n \u2022 water[[2, 185, 1000, 987]]\n \u2022 water[[2, 185, 1000, 987]]",
+                "man in back[[508, 2, 815, 499]]\n<answer>\nhere you can see the bounding box coordinates for the region that this text describes: man in back[[508, 2, 815, 499]]\n<answer>\nIf you have to provide the coordinates of the region that contains the text 'water' then respond:water[[1, 184, 1000, 525]]\n<answer>\nIf you have to provide the coordinates of the region that contains the text 'water' then respond:water[[1, 184, 1000, 525]]\n<image>\n<answer>\nboy[[385, 367, 732, 696]]\n</answer>\n<image>\n<answer>\nboy[[385, 367, 732,",
+                "man in back[[517, 0, 807, 499]]\n[[384, 366, 731, 692]]\n[[384, 366, 731, 692]]\nHere is your translated task: What is the boy on the yellow board doing?\nboy on the yellow board[[384, 366, 731, 692]]\nAnd the answer is: <answer>\n[[384, 366, 731, 692]]\n[[384, 366, 731, 692]]\n[[378, 562, 686, 753]]\n[[517, 0, 807, 4",
+                "man in back[[522, 4, 814, 499]]\n<answer>\n\u4eba\u90fd\u5728\u505a\u4ec0\u4e48\uff1f</cite></option>\n<issue>what is the man doing?</cite></offer>\nman in back[[522, 4, 814, 499]]\n}</offer>\n</issue>\n><issue>what is the man doing?</cite></offer>\nman in back[[522, 4, 814, 499]]\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>\n</offer>",
+                "man in back[[521, 0, 807, 499]]\n[[380, 372, 727, 694]]\n[[380, 373, 727, 697]]\n[[384, 561, 687, 736]]\n[[537, 258, 799, 462]]\n[[0, 193, 998, 517]]\n[[384, 561, 687, 736]]\n[[537, 258, 799, 462]]\n[[380, 373, 727, 697]]\n[[384, 561, 6",
+                "man in back[[511, 0, 804, 467]]\n[[386, 366, 730, 725]]\n[[508, 0, 804, 465]]\n[[386, 370, 731, 723]]\n[[0, 185, 1000, 986]]\n[[386, 370, 731, 723]]\n[[511, 0, 804, 467]]\n[[508, 0, 804, 465]]\n[[386, 366, 730, 725]]\n"
+            ],
+            "iou_scores": [
+                0.9546111103881739,
+                0.9326108245740028,
+                0.9293907956674741,
+                0.9595536959553695,
+                0.939050503995404,
+                0.9426967101000648,
+                0.9261706406205114,
+                0.8818020293005486
+            ],
+            "iou_var": 0.0004979223802755841,
+            "mean_iou": 0.9332357888251936,
+            "correct_count": 8
+        }
+    ]
+}

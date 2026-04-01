@@ -1,0 +1,139 @@
+{
+    "accuracy": 25.0,
+    "processed_count": 4,
+    "batch_num": 92,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000259443.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in blue</ref>",
+            "ground_truth": [
+                326,
+                53,
+                654,
+                988
+            ],
+            "model_output": [
+                "man in blue[[443, 55, 663, 990]]\n<offer>\nwhere is the man in white holding the tennis racket?<br>;<br/> \nman in white[[287, 74, 502, 1000]]\n</offer><offer>\nman in white[[287, 74, 502, 1000]]\n</offer><offer>\nman[[287, 74, 502, 1000]]\n</offer><offer>\nman[[443, 55, 663, 990]]\n</offer><offer>\nman[[443, 55, 663, 990]]\n</offer><offer>\ntennis racket[[297, 441, 568, 6",
+                "man in blue[[447, 56, 666, 989]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[287, 76, 531, 984]]\n\u5750\u6807\uff1a[[447, 56, 666, 989]][[287, 76, 531, 984]]\n[[447, 56, 666, 989]]\n<answer>\n[[2, 404, 164, 535]]\n[[552, 611, 633, 800]]\n[[302, 435, 547, 612]]\n[[693, 45",
+                "man in blue[[445, 56, 665, 992]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[288, 72, 487, 986]]\n</answer><question>What is the man in the blue shirt holding?<br/></question><answer>the man in the blue shirt[[445, 56, 665, 992]]\n</answer><apex>According to the image, what object is the man in the white shirt holding?<br/></apache>\n</apex><answer>the man in the white shirt[[288, 72, 487, 986]]\n</answer></body></article>\n</body></article><question>What is the time displayed on the date in the image?<br/></question>\n</body></body>",
+                "man in blue[[446, 55, 664, 992]]\n<answer>\n\u76c3<answer>[x1,y1,x2,y2]</pl\n<issue> Please describe the region containing the text '01 07 2013' <sep>01 07 2013[[736, 849, 885, 937]]</div></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></",
+                "man in blue[[446, 53, 666, 992]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>01.07.2013</block>\n<image>\n\n\n</block>\n</answer>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</block>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</",
+                "man in blue[[444, 59, 662, 990]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u7537\u4eba\u548c\u53f3\u8fb9\u7684\u7537\u4eba\u5728\u7f51\u7684\u53e6\u4e00\u8fb9\u3002\u4ed6\u4eec\u7ad9\u5f97\u5f88\u8fd1\uff0c\u5de6\u8fb9\u7684\u7537\u4eba\u7684\u624b\u642d\u5728\u53f3\u8fb9\u7537\u4eba\u7684\u80a9\u8180\u4e0a\u3002\u7537\u4eba\u5de6\u8fb9\u7684\u7f51\u7403\u62cd\u548c\u53f3\u8fb9\u7537\u4eba\u7684\u7f51\u7403\u62cd\u90fd\u5728\u4ed6\u4eec\u624b\u4e2d\u3002\u80cc\u666f\u4e2d\u6709\u4e00\u6392\u957f\u6905\u548c\u4e00\u4e9b\u7eff\u8272\u690d\u7269\u3002\u8fd9\u5f20\u7167\u7247\u662f\u57282013\u5e741\u67087\u65e5\u62cd\u6444\u7684\u3002</cite></mark>\n\u4eba\u540d\uff1a<br>man[[287, 76, 515, 991]]\nild name\uff1a<br>man[[444, 59, 662, 990]]\n<answer>man[[287, 76, 515, 991]]\n<answer>man[[444, 59, 662, 990]]\n<pre>man[[444, ",
+                "man in blue[[444, 55, 664, 989]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u7537\u4eba\nman[[289, 73, 515, 1000]]\n<answer>\n<question>What is the man in the blue shirt holding?<br>/<answer>\n<answer>the man in the blue shirt[[444, 55, 664, 989]]\n</answer><question>What is the man in the white shirt holding?<br>[[304, 437, 580, 795]]<br>/<answer>\n\n</question><answer>the man in the white shirt[[289, 73, 515, 1000]]\n</answer><question>What is the date of the image?<br>What is the year written in the image?<br>What is",
+                "man in blue[[448, 59, 667, 986]]\n><answer>\nuser\nWhat is the man in the blue shirt holding a tennis racket in his left hand?\nman in the blue shirt[[448, 59, 667, 986]]\n<answer>\nuser\nWhat is the man wearing white shorts and a blue shirt with a logo on it? He is holding a tennis racket in his left hand.\nman wearing white shorts and a blue shirt with a logo on it[[288, 79, 509, 989]]\n<answer>\nuser\nWhat is the man wearing white shorts and a blue shirt with a logo on it? He is holding a tennis racket in his left hand.\nman wearing white shorts and a blue shirt with a logo on it[[288, 79, 509, 989]]\n<answer>"
+            ],
+            "iou_scores": [
+                0.6239378543786864,
+                0.6065209395032114,
+                0.43101589867960116,
+                0.6124172404869952,
+                0.0,
+                0.6202233045512926,
+                0.5038208636929092,
+                0.5991321835654517
+            ],
+            "iou_var": 0.0397997627375214,
+            "mean_iou": 0.49963353560726853,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000052109.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman in center</ref>",
+            "ground_truth": [
+                269,
+                247,
+                460,
+                880
+            ],
+            "model_output": [
+                "woman in center[[274, 243, 464, 881]]\nboy[[621, 206, 754, 788]]\n[[29, 82, 334, 987]]\nn\u00edme snippet about the tennis player's racket: 'racket[[361, 554, 453, 803]]'\n[[637, 480, 727, 566]]\n[[38, 824, 283, 982]]\n[[357, 556, 412, 701]]\n[[27, 82, 334, 987]]\n[[29, 82, 3",
+                "woman in center[[276, 243, 466, 885]]\n[[35, 84, 326, 981]]\n\u5bc2\u7136\u65e0\u8bed\nwoman[[276, 243, 466, 885]]\nwoman[[35, 84, 326, 981]]\nshort sleeve T-shirt[[617, 209, 754, 792]]\nbaseball cap[[261, 234, 447, 869]]\ntrunks[[273, 544, 440, 800]]\nfootwear[[220, 911, 289, 985], [233, 926, 277, 982], [671, 72",
+                "woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272, 240, 460, 878]]\n again the sentence describes: woman in center[[272,",
+                "woman in center[[278, 235, 461, 880]]\nKnow the coordinates of the region described by [x1,y1,x2,y2] in this HTML coordinate string?\n[[28, 83, 323, 981]]\nWould the word 'fan' come from the description of the image?\nfan[[626, 206, 749, 792]]\n[[16, 82, 323, 987]]\n[[277, 553, 454, 880]]\n[[272, 81, 460, 866]]\n[[619, 483, 733, 570]]\n[[2",
+                "woman in center[[274, 241, 465, 881]]\n[[30, 83, 317, 987]]\n</solution>\n\n'\nwoman in center[[274, 241, 465, 881]]\n</solution>\n</body>\n\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>",
+                "woman in center[[274, 241, 463, 881]]\n[[27, 82, 325, 978]]\n</solution>\n[[644, 206, 751, 790]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "woman in center[[283, 242, 463, 881]]\n[[27, 83, 321, 982]]\n\u5bc2\u7136\u7684\u9e1f\nwoman[[27, 83, 321, 982]]\n[[634, 209, 745, 790]]\ntennis racket[[633, 481, 728, 569]]\n[[311, 556, 424, 810]]\n[[19, 557, 105, 590]]\n[[32, 874, 193, 986]]\n[[178, 82, 321, 863]]\n",
+                "woman in center[[279, 241, 462, 880]]\n[[34, 81, 321, 984]]\nNC\n[[631, 204, 746, 791]]\n[[294, 77, 463, 871]]\n[[34, 81, 321, 984]]\n[[631, 204, 746, 791]]\n[[34, 81, 321, 984]]\n[[294, 77, 463, 871]]\n[[631, 204, 746, 791]]\n[[34, 81, 32"
+            ],
+            "iou_scores": [
+                0.9465610805161394,
+                0.9213755132069202,
+                0.9706183163010661,
+                0.9310930074677529,
+                0.9388620868386428,
+                0.9485438066465257,
+                0.9044171066014433,
+                0.9294701744992577
+            ],
+            "iou_var": 0.00034406169809842564,
+            "mean_iou": 0.9363676365097185,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000549347.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white shirt not facing us</ref>",
+            "ground_truth": [
+                624,
+                412,
+                920,
+                817
+            ],
+            "model_output": [
+                "white shirt not facing us[[591, 413, 913, 961]]\nImages:\nwhite shirt[[233, 402, 497, 821]]\nImages:\nwhite shirt[[637, 403, 903, 989]]\nImages:\nman[[102, 288, 233, 678]]\nImages:\nman[[234, 265, 480, 448]]\nImages:\nman[[226, 402, 496, 823]]\nImages:\nwoman[[503, 267, 625, 448]]\nImages:\nwoman[[656, 325, 994, 728]]\nImages:\nwoman[[817, 384, 993",
+                "white shirt not facing us[[224, 407, 498, 819]]\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: woman wearing a black top.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: woman in black top.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object: man in sunglasses sitting on the left side of the table.\nIdentify and describe the object:",
+                "white shirt not facing us[[229, 405, 498, 816]]\nI'm sorry, but I can't provide the specific coordinates for the bounding box of the region described.\n\uff1bI'm sorry, but I can't provide the specific coordinates for the bounding box of the region described.\n[[593, 405, 914, 986]]\n[[564, 714, 924, 1000]]\n[[152, 461, 796, 841]]\n[[120, 497, 262, 958]]\n[[0, 289, 211, 666]]\n[[214, 266, 471",
+                "white shirt not facing us[[219, 403, 494, 821]]\nImages: \nwhite shirt[[604, 413, 913, 979]]\nImages: \nwhite shirt[[10, 385, 246, 831]]\nImages: \nwhite shirt[[219, 403, 494, 821]][[219, 403, 494, 821]]\nImages: \nwhite shirt[[219, 403, 494, 821]]\nImages: \nwhite shirt[[10, 385, 246, 831]][[219, 403, 494, 821",
+                "white shirt not facing us[[591, 412, 907, 989]]\nI'm sorry, but I can't provide the bounding box coordinates for the region where the white shirt not facing us is.\n\uff1bI'm sorry, but I can't provide the bounding box coordinates for the region where the white shirt not facing us is.\n;I can't provide the bounding box coordinates for the region where the white shirt not facing us is.\n[[223, 401, 487, 821]][[223, 401, 487, 821]]\n[[156, 461, 790, 847]]\n[[10, ",
+                "white shirt not facing us[[221, 401, 487, 819]]\nISO[[592, 415, 911, 975]]\nANO[[1, 400, 244, 999]]\n237[[136, 465, 769, 835]]\n[[598, 722, 933, 999]]\n504[[573, 331, 619, 452]]\n[[138, 229, 213, 400]]\n[[333, 270, 47",
+                "white shirt not facing us[[222, 402, 487, 819]]\n<answer>\n\u526f\u4e3b\u5e2d\u5728\u56fe\u7247\u4e2d\u7684\u4f4d\u7f6e\u662f\uff1a<answer>[b][222, 402, 487, 819]]\n<answer>\n<answer>[[572, 413, 913, 987]]\n[[616, 329, 999, 839]]\n<answer>\n\n```markdown\nDistrict 1\nBbox_top_left 2\nBbox_right 9\n```\n[[147, 462, 772, 831]][[2, 0, 1000, 1000",
+                "white shirt not facing us[[593, 413, 913, 982]]\nI'm sorry, but I can't provide the coordinates for specific parts of the image. However, I can describe the scene based on the visible elements.\nwoman's white[[646, 324, 816, 671]]\nwoman's hair[[646, 324, 816, 671]]\nwhat is the position of the man in the image?\nman[[224, 403, 493, 823]]\nwhat is the position of the woman in the image?\nwoman[[463, 271, 603, 450]]\nwhat is the position of the man in the image?\nman[[224, 403, 493, 823]]\nwhat is the position of the woman in"
+            ],
+            "iou_scores": [
+                0.6501614879162491,
+                0.0,
+                0.0,
+                0.0,
+                0.6109639279945841,
+                0.0,
+                0.0,
+                0.6304183494956912
+            ],
+            "iou_var": 0.09327149375060964,
+            "mean_iou": 0.23644297067581554,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000116824.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left most sheep</ref>",
+            "ground_truth": [
+                1,
+                21,
+                476,
+                991
+            ],
+            "model_output": [
+                "left most sheep[[3, 178, 363, 989]]\n<answer>left most sheep[[230, 17, 1000, 879]]\n</answer><answer>left most sheep[[230, 17, 1000, 879]]\n</answer></body>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "left most sheep[[0, 194, 389, 989]]\n[[228, 162, 896, 989]]\nThe bounding box coordinates for the sheep in the middle are: <answer>[x1,y1,[x2,x3]]\n[x1,y1,[x2,x3]]\nThe bounding box coordinates for the sheep in the right are: <answer>[x1,y1,[x2,x3]]\nThe bounding box coordinates for the sheep in the left are: <answer>[x1,y1,[x2,x3]]\nThe bounding box coordinates for the sheep in the background are: <answer>[x1,y1,[x2,x3]]\nThe bounding box coordinates for the sheep in the left are: <answer>[x1,y1,[x2,x3]]",
+                "left most sheep[[0, 20, 466, 989]]\n><answer>[x1,y1,x2,y2]</answer>[[224, 148, 885, 989]]\n><answer>[x2, 31, 574, 252]</answer>\n[[224, 14, 998, 888]]\n[[199, 24, 1000, 888]]\n><answer>[x1,y1,x2,y2]</answer>[[280, 162, 906, 988]]\n><answer>[x3, 541, 1000, 988]</answer>",
+                "left most sheep[[0, 215, 368, 990]]\n[[232, 16, 998, 989]]\n3",
+                "left most sheep[[0, 20, 415, 991]]\n><answer>[x1,y1,x2,y2]</answer>\n<answer>&#x1;- 415, 18, 882, 982</answer>\n<answer>&#x1;- 415, 18, 882, 982</answer>",
+                "left most sheep[[0, 218, 360, 989]]\n><answer>[x1,y1,x2,y2]</answer>\natur[[223, 157, 891, 989]]\natur\n",
+                "left most sheep[[2, 199, 351, 987]]\n><answer>[[2, 199, 351, 987]]]</answer>",
+                "left most sheep[[0, 196, 327, 990]]\n><answer>[[0, 196, 327, 990]]\n><answer>left[[221, 14, 1000, 989]]\n</answer>\nuserAre the sheep in the image visible from a distance or zoomed in?</p>\n<br><image>\nsheep[[221, 14, 1000, 989]]\n</answer>\n<issue>[0, 14, 430, 829]</issue>\n</answer>\n</p>\n<issue>[194, 21, 586, 172]</issue>\n</p>\n<issue>[880, 137, 997, 885]</issue>\n</p>\n\n</p>\n</p>\n"
+            ],
+            "iou_scores": [
+                0.23107391764157204,
+                0.6683205321257949,
+                0.0,
+                0.6162721412707871,
+                0.0,
+                0.0,
+                0.5968790016277808,
+                0.5608219368034251
+            ],
+            "iou_var": 0.08215786063913666,
+            "mean_iou": 0.33417094118366997,
+            "correct_count": 4
+        }
+    ]
+}

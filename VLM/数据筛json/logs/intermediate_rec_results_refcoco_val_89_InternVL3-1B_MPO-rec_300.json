@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 89,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000157194.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white shirt</ref>",
+            "ground_truth": [
+                78,
+                303,
+                593,
+                988
+            ],
+            "model_output": [
+                "white shirt[[132, 309, 583, 989]]\n[[374, 125, 634, 712]]\nwhite shirt[[132, 309, 583, 989]]\n[[374, 125, 634, 712]]\n[[90, 301, 571, 989]]\n[[902, 172, 964, 219]][[371, 663, 712, 788]]\n[[374, 125, 634, 712]]\n[[90, 301, 571, 989]]\n",
+                "white shirt[[136, 303, 585, 1000]]\n[[378, 122, 634, 705]]\nwhite shirt[[136, 303, 585, 1000]]\n[[378, 122, 634, 705]]\n[[133, 315, 584, 990]]\n[[136, 303, 585, 1000]]\n[[378, 122, 634, 705]]\n[[133, 303, 584, 1000]]\n[[136, 303, 585,",
+                "white shirt[[130, 306, 589, 990]]\n[[382, 121, 641, 708]]\n[[130, 306, 589, 990]]\n[[130, 306, 589, 990]]\n[[131, 120, 644, 989]]\n[[382, 121, 641, 708]]\n[[382, 121, 641, 708]]\n[[130, 306, 589, 990]]\n[[131, 120, 644, 989]]\n",
+                "white shirt[[138, 306, 580, 989]]\n[[381, 121, 645, 709]]\nwhite shirt[[138, 306, 580, 989]]\nwhite shirt[[138, 306, 580, 989]]\nskateboard[[519, 682, 722, 787]]\nskateboard[[519, 682, 722, 787]]\n[[501, 693, 725, 814]]\n[[849, 170, 926, 216]]\n[[9",
+                "white shirt[[142, 303, 587, 989]]\n[[389, 123, 641, 706]]\nwhite shirt[[142, 303, 587, 989]]\n[[389, 123, 641, 706]]\n[[143, 303, 587, 989]]\n[[389, 123, 641, 706]]\n[[143, 303, 587, 989]]\n[[389, 123, 641, 706]]\n[[143, 303, 587, 989]]\n[[3",
+                "white shirt[[131, 306, 581, 987]]\n[[391, 124, 637, 702]]\n[[131, 306, 581, 987]]\n[[391, 124, 637, 702]]\n[[139, 116, 572, 697]]\n[[139, 116, 572, 697]]\n[[131, 306, 581, 987]]\n[[391, 124, 637, 702]]\n[[139, 116, 572, 697]]\n[[391, ",
+                "white shirt[[134, 305, 588, 990]]\n[[376, 117, 638, 707]]\n[[134, 305, 588, 990]]\n[[134, 305, 588, 990]]\n[[376, 117, 638, 707]]\n[[387, 178, 541, 706]]\n[[151, 167, 379, 230]]\n[[830, 171, 930, 215]]\n[[929, 182, 983, 226]]",
+                "white shirt[[130, 308, 589, 988]]\n[[387, 117, 643, 707]]\nwhite shirt[[130, 308, 589, 988]]\nwhite shirt[[130, 308, 589, 988]]\nhandwear[[387, 117, 643, 707]]\nhandwear[[387, 117, 643, 707]]\nhandwear[[387, 117, 643, 707]]\nhandwear[[387, 117, 643, "
+            ],
+            "iou_scores": [
+                0.8669492053246364,
+                0.858729126124139,
+                0.8850556838840463,
+                0.8534243821786607,
+                0.8629890719664798,
+                0.8686840053858692,
+                0.8767229411648284,
+                0.8847565728864006
+            ],
+            "iou_var": 0.00011883751960604759,
+            "mean_iou": 0.8696638736143825,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000276666.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left girafee</ref>",
+            "ground_truth": [
+                33,
+                366,
+                366,
+                860
+            ],
+            "model_output": [
+                "left girafee[[36, 367, 371, 854]]\n[[436, 253, 758, 847]]\nThe rest of the text in the image:\nleft girafee[[36, 367, 371, 854]]\n[[436, 253, 758, 847]]\n[[36, 367, 371, 854]]\nThe rest of the text in the image: \n<nooutput>\n[[436, 253, 758, 847]]\nThe rest of the text in the image: \n<nooutput>\n[[436, 253, 758, 847]]\n[[36, 367",
+                "left girafee[[31, 364, 370, 857]]\n[[442, 252, 761, 840]]\n \u2022\n \u2022left giraffe[[31, 364, 370, 857]]\n \u2022\n \u2022[[442, 252, 761, 840]]\n \u2022\n \u2022[[33, 367, 374, 855]]\n \u2022\n \u2022[[376, 52, 402, 140]]\n \u2022[[408, 51, 436, 137]]\n \u2022\n \u2022[[499, 57, 537, 148]]\n",
+                "left girafee[[31, 363, 371, 861]]\n[[440, 253, 757, 842]]\nA picture of a giraffe eating from a tree trunk in a field with a fence and a stone wall.\nleft girafee[[31, 363, 371, 861]]\n[[440, 253, 757, 842]]\nleft girafee[[31, 363, 371, 861]]\n[[440, 253, 757, 842]]\n[[440, 253, 757, 842]]\n[[171, 67, 199, ",
+                "left girafee[[34, 365, 369, 855]]\n[[438, 261, 758, 841]]\n\u2022 what is the giraffe eating?\n \u2022 what is the giraffe doing?\n \u2022 what is the giraffe doing near the tree?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n \u2022 what is the giraffe doing? standing?\n \u2022 what is the giraffe doing? eating?\n\u2022 what is the giraffe doing?",
+                "left girafee[[32, 364, 365, 861]]\n[[436, 257, 761, 842]]\n`[[33, 361, 364, 855]]\n``\n```markdown\n-\n```[[436, 257, 761, 842]]\n```\n```[[33, 361, 364, 855]]\n```\n```[[436, 257, 761, 842]]\n```\n```[[33, 361, 364, 855]]\n```\n```[[33, 361, 364, 855",
+                "left girafee[[36, 362, 365, 861]]\n[[442, 253, 760, 844]]\nHere is the location of the answer tag: `<answer>[785, 52, 811, 140]]>`\n[[785, 52, 811, 140]]\nHere is the location of the answer tag: `<answer>[875, 63, 921, 148]]>`\n[[875, 63, 921, 148]]\nHere is the location of the answer tag: `<answer>[812, 56, 836, 140]</answer>`\n[[812, 56, 836, 140]]",
+                "left girafee[[28, 363, 366, 857]]\n[[437, 246, 760, 840]]\nB[[448, 50, 479, 140]]\nB[[275, 54, 306, 135]]\nB[[22, 55, 42, 135]]\nB[[199, 56, 224, 137]]\nB[[228, 55, 253, 133]]\nB[[315, 50, 343, 136]]\nB[[5",
+                "left girafee[[36, 360, 367, 857]]\n[[442, 262, 755, 839]]\nResults:\n[[36, 360, 367, 857]]\nThus, the bounding box coordinates for the giraffe on the left are <answer>[x1,y1,[x2,y2]]>\n[[442, 262, 755, 839]]\n[[36, 360, 367, 857]]\nIf the giraffe on the right is eating something, what will the bounding box coordinates for its head and neck? <answer>[x1,y1,[x2,y2]]>\nAnswers:\nhead and neck[[36, 360, 367, 857]]\nIf the giraffe on the right is eating something"
+            ],
+            "iou_scores": [
+                0.9626985030280885,
+                0.9725027657828057,
+                0.9715450035435861,
+                0.976212237829517,
+                0.9880297599325281,
+                0.0,
+                0.9734001702674866,
+                0.9703615424694123
+            ],
+            "iou_var": 0.10370626492237175,
+            "mean_iou": 0.851843747856678,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000456545.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person skate black</ref>",
+            "ground_truth": [
+                420,
+                503,
+                677,
+                818
+            ],
+            "model_output": [
+                "person skate black[[417, 503, 638, 846]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aperson skate black[[417, 503, 638, 846]]\n<issue> What is the person in the black shirt doing?[[555, 365, 742, 769]]\n<img src=\"https://imgur.com/a/4N6gXg6\" style=\"max-width: 100%; height: 100%; width: 100%;\"></img>\n<answer>\n<issue> Where does the person in the orange tank top and black shorts stand?[[112, 373, 282, 811]]\n</issue></td></tr></dt></dt></dd></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></",
+                "person skate black[[437, 507, 636, 846]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aperson skate black[[437, 507, 636, 846]]\n<issue> what is the bounding box for the person with the bicycle? (in <box> tags)\nperson skate black[[561, 370, 718, 779]]\n<answer>person skate black[[561, 370, 718, 779]]\n<issue> what is the bounding box for the person walking on the street? (in <box> tags)\nperson walking on the street[[108, 371, 274, 812]]\n[[108, 371, 274, 812]]\n[[887, 352, ",
+                "person skate black[[414, 509, 628, 838]]\n<answer>\nperson skate black[[414, 509, 628, 838]]\nAnd the bounding box for the region that this sentence describes: stop sign[[592, 69, 782, 247]]\n<issue> stop sign[[592, 69, 782, 247]]\nAnd the bounding box for the region that this sentence describes: person[[539, 369, 735, 776]]\nAnd the bounding box for the region that this sentence describes: person[[112, 366, 272, 816]]\nAnd the bounding box for the region that this sentence describes: person[[112, 366, 272, 816",
+                "person skate black[[424, 507, 621, 849]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aperson skate black[[424, 507, 621, 849]]\n<issue> what is the bounding box for the region that describes the person on the bicycle?<mark>[x1,y1,x2,y2]</mark> tags\nperson on the bicycle[[544, 371, 735, 775]]\n<answer>person on the bicycle[[544, 371, 735, 775]]\n<issue> what is the bounding box for the region that describes the person in the orange shirt?<mark>[x1,y1,x2,y2]</mark> tags\nperson in the orange shirt[[113, 373, 274, 819]]\n[[509, 366, 6",
+                "person skate black[[428, 506, 622, 845]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aperson skate black[[428, 506, 622, 845]]\n<issue> What is the person in the orange shirt doing?[[110, 369, 276, 814]]\n\u5c31\u53ef\u4ee5\uff1aperson skate black[[428, 506, 622, 845]]\n</issue></sub><issue> What is the person in the blue shirt doing?[[653, 327, 857, 666]]\n\u5c31\u53ef\u4ee5\uff1aperson skate black[[523, 369, 725, 774]]\n</issue></sub><issue> What is the person in the blue shorts and white shirt doing?[[65",
+                "person skate black[[413, 502, 631, 847]]\n[[539, 363, 742, 779]]\n pronto[[110, 373, 279, 814]]\nperson[[274, 333, 392, 594]]\n[[278, 375, 364, 598]]\n[[514, 368, 664, 580]]\n[[867, 345, 999, 780]]\n[[936, 357, 1000, 779]]\n[[672, 327, 855, 667]]\n",
+                "person skate black[[426, 508, 638, 838]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aperson skate black[[426, 508, 638, 838]]\n<image>\n\nittex of the region described as \"person skate black\" in the bounding box <answer>[x1,y1,x2,x3]</answer>\n\nittex of the region described as \"person skate black\" in the bounding box <answer>[x1,y1,x2,x3]</answer>\n\nittex of the region described as \"person skate black\" in the bounding box <answer>[x1,y1,x2,x3]</answer>\n\nittex of the region described as \"person skate black\" in the bounding box <answer>[x1,y1,x2,x3]</answer>\n\nittex of the region described as \"person skate black\" in the bounding box <answer>[x1,y1,x2,x3]</answer>\n\nittex of the region described as \"person skate black\"",
+                "person skate black[[421, 509, 634, 849]]\nAnother image: person skate black[[421, 509, 634, 849]]\nAnother image: person skate black[[515, 366, 724, 776]]\nAnother image: person skate black[[515, 366, 724, 776]]\nAnother image: person skate black[[515, 366, 724, 776]]\nAnother image: person skate black[[421, 509, 634, 849]]\nAnother image: person skate black[[421, 509, 634, 849]]\nAnother image: person skate black[[421, 509, 634, 849"
+            ],
+            "iou_scores": [
+                0.7795613477431659,
+                0.7152565095288176,
+                0.7380036514370357,
+                0.7037168914107188,
+                0.7022380007657234,
+                0.7409698996655518,
+                0.7714067726979282,
+                0.7516960186390735
+            ],
+            "iou_var": 0.0007513890301427528,
+            "mean_iou": 0.7378561364860019,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000504878.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>unit person is touching</ref>",
+            "ground_truth": [
+                294,
+                220,
+                434,
+                579
+            ],
+            "model_output": [
+                "unit person is touching[[281, 255, 446, 867]]\n[[162, 367, 351, 923]]\n```\nunit person is touching[[281, 255, 446, 867]]\n```\n```\n```\n```\n```\n```\n```\n```\n[[910, 2, 1000, 929]]\n```\n```\n```\n[[162, 367, 351, 923]]\n```\n```\n```\n```\n[[360, 149, 544, 457]]\n```\n```\n```\n```\n[[544, 20, 879, 912]]",
+                "unit person is touching[[275, 255, 438, 866]]\n[[156, 371, 351, 920]]\nInteresting image. How many doors are visible in the image?\n\u8bdd\u8bf4\u5230\u8fd9\u91cc\uff0c\u5979\u8f6c\u8fc7\u8eab\u53bb\uff0c\u9762\u5411\u51b0\u7bb1\u3002\u5979\u8eab\u7a7f\u6df1\u8272\u4e0a\u8863\u548c\u84dd\u8272\u725b\u4ed4\u88e4\uff0c\u811a\u4e0a\u7a7f\u7740\u4e00\u53cc\u6d45\u8272\u978b\u5b50\u3002\u5979\u7684\u5de6\u624b\u63e1\u7740\u51b0\u7bb1\u95e8\uff0c\u4f3c\u4e4e\u5728\u89e6\u6478\u6216\u68c0\u67e5\u67d0\u4ef6\u7269\u54c1\u3002\u80cc\u666f\u4e2d\uff0c\u4e00\u6392\u767d\u8272\u7684\u51b0\u7bb1\u6574\u9f50\u5730\u6392\u5217\u7740\uff0c\u4ece\u5de6\u5230\u53f3\u4f9d\u6b21\u662f\uff1a\u4e00\u4e2a\u767d\u8272\u7684\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u9ed1\u8272\u7684\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3001\u4e00\u4e2a\u767d\u8272\u7684\u53cc\u5f00\u95e8\u51b0\u7bb1\u3002\n\u5979[[156, 371, 351,",
+                "unit person is touching[[272, 254, 436, 872]]\nDNA[[162, 369, 348, 920]]\n880, 836, 1000, 998</div></cite>\n872, 667, 1000, 923</cite></div></cite>\n868, 635, 1000, 792</cite></div></cite>\n848, 607, 1000, 740</cite></div></cite>\n842, 583, 1000, 718</cite></div></cite>\n",
+                "unit person is touching[[281, 253, 433, 863]]\n[[166, 362, 350, 921]]\n \u2022\n \u2022unit person[[166, 362, 350, 921]]\n \u2022\n \u2022[[121, 281, 224, 833]]\n \u2022\n \u2022[[677, 23, 908, 926]]\n \u2022\n \u2022[[247, 43, 484, 598]]\n \u2022\n \u2022[[472, 146, 565, 444]]\n \u2022\n \u2022[[397, 150, 56",
+                "unit person is touching[[276, 254, 440, 870]]\n[[170, 368, 350, 921]]\n \u2022 unit person[[170, 368, 350, 921]]\n \u2022 refrigerator[[0, 130, 185, 814]]\n \u2022 refrigerator[[104, 287, 235, 832]]\n \u2022 refrigerator[[283, 140, 397, 400]]\n \u2022 refrigerator[[395, 148, 556, 457]]\n \u2022 refrigerator[[556, 22, 911, 921]]\n \u2022 refrigerator[[92, 2",
+                "unit person is touching[[267, 253, 434, 867]]\n[[165, 366, 352, 922]]\n```\nunit person is touching[[267, 253, 434, 867]]\n```\n```[[165, 366, 352, 922]]\n```\n```[[320, 46, 477, 256]]\n```\n```[[507, 14, 772, 378]]\n```\n```[[773, 62, 923, 418]]\n```\n[[925, 208, 999, 937]]\n```\n",
+                "unit person is touching[[276, 257, 434, 874]]\n[[172, 368, 351, 923]]\n \u2022 refrigerator[[246, 140, 374, 388]]\n \u2022 refrigerator[[66, 131, 174, 581]]\n \u2022 refrigerator[[0, 131, 143, 799]]\n \u2022 refrigerator[[513, 20, 903, 921]]\n \u2022 refrigerator[[901, 208, 1000, 934]]\n \u2022 refrigerator[[118, 583, 205, 828]]\n \u2022 refrigerator[[248,",
+                "unit person is touching[[276, 247, 437, 873]]\n[[172, 371, 351, 920]]\n \u2022 refrigerator[[822, 2, 1000, 931]]\n \u2022 refrigerator[[557, 21, 843, 910]]\n \u2022 refrigerator[[1, 130, 168, 811]]\n \u2022 refrigerator[[94, 283, 230, 831]]\n \u2022 refrigerator[[321, 150, 567, 448]]\n \u2022 refrigerator[[244, 138, 365, 387]]\n \u2022 refrigerator[[17, 28"
+            ],
+            "iou_scores": [
+                0.42840952021156026,
+                0.43409606385116706,
+                0.4287922195416164,
+                0.46396903733131284,
+                0.4301217575436739,
+                0.4259131376098845,
+                0.4390937603490932,
+                0.44450394965858886
+            ],
+            "iou_var": 0.00013846203128057395,
+            "mean_iou": 0.4368624307621122,
+            "correct_count": 0
+        }
+    ]
+}

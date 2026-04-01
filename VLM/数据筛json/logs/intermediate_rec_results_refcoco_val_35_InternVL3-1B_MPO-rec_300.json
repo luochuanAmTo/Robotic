@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 35,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000453686.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>one standing in white shirt</ref>",
+            "ground_truth": [
+                671,
+                24,
+                1000,
+                981
+            ],
+            "model_output": [
+                "one standing in white shirt[[662, 30, 994, 989]]\n[[39, 238, 580, 989]]\n[[395, 536, 680, 965]]\nsource\none standing in white shirt[[662, 30, 994, 989]]\nsource\none standing in white shirt[[662, 30, 994, 989]]\n[[395, 536, 680, 965]]\nsource\none standing in white shirt[[662, 30, 994, 989]]\nsource\none standing in white shirt[[662, 30, 994, 989]]\n[[395, ",
+                "one standing in white shirt[[669, 28, 998, 989]]\n[[387, 535, 644, 964]]\n[[49, 234, 577, 1000]]\n[[493, 622, 689, 939]]\nwoman[[669, 32, 978, 984]]\nman[[387, 535, 644, 964]]\nwoman[[493, 622, 689, 939]]\nbaby[[490, 620, 688, 939]]\nman[[387, 535, 644, 964]]\ncardboard[[0, 0",
+                "one standing in white shirt[[672, 36, 997, 989]]\n[[365, 537, 674, 969]]\n[[49, 240, 579, 1000]]\n[[521, 615, 689, 946]]\n[[709, 23, 944, 989]]\n[[97, 726, 707, 998]]\n[[40, 725, 107, 1000]]\n[[919, 562, 989, 748]]\n[[558, 649, 687, 822]]",
+                "one standing in white shirt[[669, 26, 992, 989]]\n[[393, 537, 655, 964]]\nx2006[[707, 24, 992, 987]][[49, 236, 583, 984]]\n[[483, 615, 693, 944]]\n[[22, 723, 792, 1000]]\n[[262, 806, 517, 900]]\n[[0, 727, 105, 987]]\n[[22, 723, 792, 1000]]",
+                "one standing in white shirt[[678, 34, 996, 987]]\n[[40, 237, 573, 987]]\n[[393, 537, 685, 963]]\nHere are some common sense facts that can be extracted from the raw image:\nman[[40, 237, 573, 987]]\nbaby[[472, 616, 697, 941]]\nartifact[[530, 142, 687, 658]]\nman[[393, 537, 685, 963]]\nleather[[529, 645, 691, 961]]\nlong sleeve T-shirt[[678,",
+                "one standing in white shirt[[670, 29, 992, 987]]\n[[38, 239, 586, 987]]\n[[389, 537, 657, 966]]\n[[512, 616, 685, 936]]\n[[41, 536, 617, 1000]]\n[[665, 32, 930, 989]]\n[[422, 621, 700, 882]]\n[[389, 802, 470, 879]]\n[[561, 641, 683, 824]]\n[[423, 5",
+                "one standing in white shirt[[671, 30, 994, 989]]\n[[39, 238, 587, 987]]\nMore tags:\n[[599, 366, 656, 662]]\none standing in white shirt[[671, 30, 994, 989]]\n[[394, 536, 651, 964]]\n[[427, 618, 683, 947]]\nAnd\n[[40, 717, 1000, 1000]]\n[[53, 537, 588, 989]]\nAnd\nbaby[[",
+                "one standing in white shirt[[674, 29, 999, 988]]\n[[40, 235, 582, 1000]]\n[[387, 537, 660, 962]]\n[[498, 619, 684, 945]]\n[[55, 541, 420, 989]]\n[[662, 27, 933, 989]][[951, 565, 997, 753]]\n[[419, 620, 681, 953]]\n[[419, 620, 681, 953]]\n[[3"
+            ],
+            "iou_scores": [
+                0.9420519646208766,
+                0.9757037612205729,
+                0.9674660500924547,
+                0.9599432592133322,
+                0.9507041586558952,
+                0.9617765636359631,
+                0.9676660250695414,
+                0.9756312908352464
+            ],
+            "iou_var": 0.00012029158899966654,
+            "mean_iou": 0.9626178841679853,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000450735.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>cow in the middle of the 5</ref>",
+            "ground_truth": [
+                391,
+                410,
+                618,
+                944
+            ],
+            "model_output": [
+                "cow in the middle of the 5[[394, 423, 626, 947]]\nAnonymous\ncow[[127, 456, 414, 936]]\ncow[[576, 481, 761, 940]]\nman[[576, 317, 704, 624]]\nman[[787, 316, 948, 602]]\nperson[[834, 315, 950, 556]]\nhat[[286, 362, 368, 476]]\ntrunks[[343, 455, 415, 508]]\nclothing[[285, 445, 365, 499]]\n",
+                "cow in the middle of the 5[[383, 426, 606, 951]]\nI'm sorry, but I can't provide the requested information.\n>\n[[723, 433, 950, 937]]\nHere is the updated bounding box coordinates for the region described: <answer>[x1,y1,x2,y2]</answer>\n[[570, 484, 766, 935]]\nHere is the updated bounding box coordinates for the region described: <answer>[x1,y1,x2,y2]</answer> \n[[124, 472, 427, 944]]\nHere is the updated bounding box coordinates for the region described: <answer>[x1,y1,x2,y2]</answer> \n[[126, 476, 43",
+                "cow in the middle of the 5[[384, 424, 615, 946]]\n[[789, 440, 950, 944]]\nThe bounding box coordinates for the region describing the group of people: group of people[[520, 314, 709, 511]]\n[[273, 363, 367, 488]]\nThe bounding box coordinates for the region describing the cow on the right: cow[[498, 472, 753, 941]]\nThe bounding box coordinates for the region describing the man on the right: man[[838, 317, 952, 556]]\n\nHere is the image and the corresponding attribute {\n\t\"caption\": \"a group of people\",\n\t\"boundingBox\": \"[",
+                "cow in the middle of the 5[[400, 420, 628, 949]]\nSuddenly, I'm getting too technical. The bounding box coordinate of the region that this sentence describes: cow in the middle of the 5[[566, 482, 766, 943]]\nI kept the coordinates the same.\nI kept the coordinates the same.\nI kept the coordinates the same.\nI kept the coordinates the same.\n",
+                "cow in the middle of the 5[[404, 427, 633, 949]]\n[[571, 483, 766, 937]]\nThe bounding box coordinates for the region describing the man in the hat on the left are: <answer>[x1,y1,[x2,x3]]<answer>[x1,y1,[181, 469, 405, 945]]\nman[[563, 319, 710, 637]]\nThe bounding box coordinates for the man in the hat on the right are: <answer>[x1,y1,[581, 465, 827, 942]]\nThe bounding box coordinates for the man in the hat on the left are: <answer>[x1,y1,[307, 358, 377, 473]]\nThe bounding box",
+                "cow in the middle of the 5[[403, 424, 625, 951]]\n[[752, 437, 952, 926]]\nThus, the bounding box coordinates for the region with the described content are: <b>[[752, 437, 952, 926]]>\n[[565, 480, 765, 939]]\nThus, the bounding box coordinates for the region with the described content are: <b>[[565, 480, 765, 939]]>\nThus, the bounding box coordinates for the region with the described content are: <b>[[565, 480, 765, 939]]>\nThus, the bounding box coordinates for the region with the described content are: <b>[[403, 424, 625, 951",
+                "cow in the middle of the 5[[388, 416, 618, 946]]\n[[573, 479, 767, 939]]\nNIKE\ncow[[735, 440, 951, 930]]\n[[124, 446, 408, 938]]\n[[126, 456, 438, 935]]\n[[121, 392, 378, 938]]\n[[556, 314, 677, 500]]\n[[660, 432, 780, 586]]\n[[758, ",
+                "cow in the middle of the 5[[387, 421, 620, 946]]\n[[582, 480, 772, 938]]\nNIK\ncow[[737, 440, 951, 928]]\n[[128, 459, 399, 946]]\n[[117, 433, 216, 941]]\n[[147, 476, 368, 948]]\n[[486, 423, 644, 641]]\n[[664, 429, 810, 621]]\n[[84"
+            ],
+            "iou_scores": [
+                0.9256198347107438,
+                0.0,
+                0.9294605809128631,
+                0.895249141836079,
+                0.8502897370079466,
+                0.8844097079391197,
+                0.972367801917866,
+                0.9511223982951723
+            ],
+            "iou_var": 0.09297580083113471,
+            "mean_iou": 0.8010649003274738,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000080590.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>cup n middle</ref>",
+            "ground_truth": [
+                311,
+                188,
+                576,
+                1000
+            ],
+            "model_output": [
+                "cup n middle[[314, 181, 557, 987]]\n[[0, 189, 238, 1000]]\n[[570, 205, 830, 989]]\n[[2, 190, 245, 1000]]\n[[297, 0, 561, 712]]\n[[608, 0, 782, 693]]\n[[762, 0, 951, 643]]\n[[85, 0, 327, 735]]\n[[326, 0, 563, 712]]\n[[607, 0, 783, 693]]",
+                "cup n middle[[309, 183, 564, 989]]\n[[0, 187, 235, 1000]]\n[[575, 203, 836, 989]]\n[[135, 2, 366, 735]]\n[[546, 3, 764, 715]]\n[[655, 3, 956, 642]]\n[[299, 2, 553, 717]]\n[[0, 193, 234, 989]]\n[[572, 202, 836, 987]]\n[[307, 183, 567, 9",
+                "cup n middle[[313, 181, 565, 1000]]\n[[0, 186, 239, 1000]]\n \u2022 glass[[569, 204, 831, 989]]\n \u2022 wine[[721, 0, 950, 644]]\n \u2022 wine[[128, 6, 343, 732]]\n \u2022 wine[[342, 0, 566, 717]]\n[[565, 5, 755, 682]]\n \u2022 wine[[722, 5, 959, 641]]\n \u2022 wine[[127, 2, 350, 730]]\n \u2022 wine",
+                "cup n middle[[314, 184, 552, 989]]\n[[0, 189, 245, 987]]\n[[555, 203, 830, 987]]\n[[2, 184, 246, 987]]\n[[646, 3, 950, 644]]\n[[920, 502, 996, 986]]\n[[328, 0, 556, 717]]\n[[588, 4, 752, 682]]\n[[329, 184, 554, 989]]\n[[2, 184, 245, 987",
+                "cup n middle[[313, 187, 560, 1000]]\n[[0, 188, 234, 1000]]\n[[572, 203, 830, 986]]\nThe image contains 13 images. cup n middle[[313, 187, 560, 1000]]\nThe image contains 13 images. glass[[0, 192, 237, 989]]\nThe image contains 13 images. glass[[573, 15, 775, 693]]\nThe image contains 13 images. glass[[0, 192, 237, 989]]\nThe image contains 13 images. wine[[135, 0, 34",
+                "cup n middle[[313, 184, 567, 1000]]\n[[0, 187, 246, 984]]\n[[561, 201, 841, 989]]\n[[2, 195, 242, 607]]\n[[134, 2, 359, 732]]\n[[552, 0, 772, 713]]\n[[698, 0, 953, 641]]\n[[321, 0, 571, 723]]\n[[553, 0, 695, 630]]",
+                "cup n middle[[311, 184, 559, 1000]]\nIdentified as cup[[0, 195, 232, 984]]\nThe output is: <answer>[x1,y1,x2,y2]</guide>\n[[579, 201, 830, 986]]\nThe other answer: <answer>[x2,y1,x3,x99]</guide>\n[[0, 188, 232, 988]]\nThe other answer: <answer>[x3,y1,x5,x99]</guide>\n[[310, 185, 559, 989]]\nThe other answer:",
+                "cup n middle[[318, 186, 565, 989]]\n[[0, 192, 245, 1000]]\n</div></div>\n[[588, 205, 845, 989]]\n[[0, 185, 241, 1000]]\n[[2, 192, 245, 1000]]\n[[318, 186, 565, 989]]\n[[0, 185, 241, 1000]]\n[[588, 205, 845, 989]]\n[[318, 186, 565, 989]]"
+            ],
+            "iou_scores": [
+                0.8952236479912947,
+                0.9293579201768345,
+                0.9432111512648426,
+                0.8820443062572872,
+                0.931006791163596,
+                0.9539861977094858,
+                0.9315545028958422,
+                0.9173428415107987
+            ],
+            "iou_var": 0.0005034043986047527,
+            "mean_iou": 0.9229659198712477,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000128136.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left elephant cut off</ref>",
+            "ground_truth": [
+                0,
+                32,
+                242,
+                964
+            ],
+            "model_output": [
+                "far left elephant cut off[[0, 34, 251, 998]]\n><answer>\nimagen0<answer>[u]([0, 34, 251, 998])\n><answer>\nfar left elephant cut off[[0, 37, 247, 600]]\n><answer>\n[[126, 185, 519, 989]]\n><answer>\n[[692, 130, 998, 578]]\n><answer>\n[90, 258, 546, 845]]\n><answer>\n[[542, 404, 822, 6",
+                "far left elephant cut off[[0, 38, 254, 989]]\n<answer>\nhere is the bounding box coordinates for the region described in the sentence: elephant[[131, 192, 523, 987]][[437, 142, 665, 905]][[136, 266, 388, 771]][[703, 135, 999, 582]]\n<answer>\nHow many elephants are there in this image?<br>\nelephant[[703, 135, 999, 582]]\n<answer>\nHow many elephants are there in this image?<br>\nelephant[[703, 135, 999, 582]]\n<answer>\nWhat is the position of the elephant in the image?<br>\nelephant",
+                "far left elephant cut off[[2, 31, 247, 989]]\n><answer>\nvgood<br/>\n[[132, 134, 649, 988]]\n</code></pre><p>\n</div></div></div>\n</div></div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div>\n</div>\n</div></div",
+                "far left elephant cut off[[0, 33, 252, 990]]\n><answer>\nuserAre all the elephants in the image? or are there more than three elephants?\n><answer>Yes, there are more than three elephants in the image. The description mentions three elephants, but there are also two elephants visible in the foreground and one in the background. So, the total number of elephants in the image is four.\n",
+                "far left elephant cut off[[0, 37, 241, 987]]\n><answer>\n</body>\n}</paternal>:\n</code></div></p>\n</body></div></p></div></p></div></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p",
+                "far left elephant cut off[[0, 39, 244, 991]]\n<answer>\nhere is the bounding box coordinate of the region described above item(s): far left elephant[[0, 39, 244, 991]]\n<answer>\nIf any of the following descriptions of an element in the image are not accurate, please provide: far right elephant[[699, 135, 1000, 575]]\n<answer>\nHere is the bounding box coordinate of the region described above item(s): far right elephant[[699, 135, 1000, 575]]\n<image>\nfar right elephant[[699, 135, 1000, 575]]\n<answer>\nHere is the bounding box coordinate of the region described above item(s): far right elephant[[699, 135, ",
+                "far left elephant cut off[[2, 30, 262, 988]]\n<answer>far left elephant cut off[[2, 35, 230, 789]]\n</answer><answer>far left elephant cut off[[2, 35, 230, 789]]\n<image><image>\n<image>\n<image>\n<image>\n[[131, 189, 531, 985]]\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>\n</image><image>",
+                "far left elephant cut off[[0, 34, 247, 988]]\n><answer>\nv\n[[131, 136, 654, 989]]\n<answer>\n[[691, 133, 999, 576]]\n[[122, 276, 383, 774]]\n[[2, 30, 234, 987]]\n[[288, 143, 662, 899]]\n[[0, 288, 205, 746]]\n[[123, 264, 296, 695]][["
+            ],
+            "iou_scores": [
+                0.9282815284102158,
+                0.9221665308675506,
+                0.9454969692358416,
+                0.9332908047024515,
+                0.9667657635436004,
+                0.9566975237411425,
+                0.7622104777781719,
+                0.9531513370206927
+            ],
+            "iou_var": 0.003802773190215407,
+            "mean_iou": 0.9210076169124584,
+            "correct_count": 8
+        }
+    ]
+}

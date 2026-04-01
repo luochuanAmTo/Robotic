@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 101,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000010870.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>laptop</ref>",
+            "ground_truth": [
+                198,
+                140,
+                895,
+                983
+            ],
+            "model_output": [
+                "laptop[[198, 142, 881, 989]]\n[[253, 34, 551, 530]]\n\u8a55\u5206\n[[0, 396, 130, 743]]\n density\n[[0, 441, 135, 735]]\n[[220, 513, 772, 881]]\n[[841, 137, 939, 505]]\n[[178, 231, 275, 596]]\n[[279, 338, 466, 531]]\n[[267, 517, 746,",
+                "laptop[[205, 139, 886, 989]]\n[[209, 344, 525, 527]]\n[[205, 344, 525, 527]]\n[[209, 344, 525, 527]]\n[[0, 391, 128, 739]]\nlaptop[[205, 139, 886, 989]]\nlaptop[[209, 344, 525, 527]]\nlamp[[324, 0, 478, 486]]\nchair[[108, 158, 266, 445]]\nchair[[871,",
+                "laptop[[203, 139, 883, 989]]\nAI-generated text: The sentence describes a region around the laptop. Please find the bounding box coordinates of the region that contains the text \"Park\". The bounding box should be centered horizontally and vertically within the box. The exact coordinates provided are not sufficient to determine the exact location of the text. Please provide more details or context for a precise answer.\n",
+                "laptop[[203, 137, 877, 989]]\n<answer></answer>\n<image>\nlaptop[[255, 42, 552, 535]]\n</image>\n<answer>\n<answer>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</",
+                "laptop[[206, 139, 884, 988]]\n[[206, 139, 884, 988]]\n[[246, 339, 491, 533]]\n[[247, 41, 558, 533]]\nglass[[0, 396, 120, 738]]\nlaptop[[206, 139, 884, 988]]\nlaptop[[206, 139, 884, 988]]\nblanket[[0, 273, 1000, 999]]\nchair[[847, 569, 1000, 998]]\nbottle[[177, ",
+                "laptop[[205, 141, 879, 989]]\n<answer></answer>\n[[239, 42, 541, 532]]\n<answer>\n</answer>[[1, 398, 193, 740]]\n<answer>\n</answer>[[0, 665, 304, 1000]]\n<answer>\n</answer>[[833, 569, 1000, 990]]\n<answer>",
+                "laptop[[207, 139, 884, 989]]\n<answer><list><text>nikon</text><value>0.64</value></list></code></mini>\n<answer><list><text>Nikon</text><value>0.64</value></list></code></mini>\n1. <list><text>Nikon</text><value>0.84</value></list></code></mini>\n1. <list><text>Nikon</text><value>0.84</value></list></code></mini>\n2. <list><text>Nokia</text><value>0.65</value></list></code></mini>\n3. <list><text>Nikon</text><value>0.84</value></list></code></mini>\n[[229, 348, 5",
+                "laptop[[201, 140, 882, 989]]\nA lot\n[[248, 42, 539, 531]]\n[[192, 502, 766, 990]]\n[[0, 392, 127, 747]]\n[[0, 351, 112, 597]]\n[[159, 234, 252, 595]]\n[[190, 269, 333, 530]]\n[[331, 44, 499, 467]]\n[[762, 119, 917, 51"
+            ],
+            "iou_scores": [
+                0.9708181432523928,
+                0.9691814470792014,
+                0.9677697098412881,
+                0.0,
+                0.9660519336960545,
+                0.0,
+                0.9635342979183198,
+                0.9702969794999468
+            ],
+            "iou_var": 0.17567577559047937,
+            "mean_iou": 0.7259565639109005,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000471096.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right hhead</ref>",
+            "ground_truth": [
+                555,
+                283,
+                992,
+                658
+            ],
+            "model_output": [
+                "right hhead[[550, 286, 993, 669]]\n[[218, 322, 566, 604]]\n[[30, 374, 226, 637]]\n\u8a3a[[534, 286, 985, 667]]\n[[26, 311, 548, 594]]\n[[531, 371, 595, 570]]\n[[26, 368, 226, 644]]\n[[23, 74, 999, 463]]\n[[532, 79, 995, 315]]",
+                "right hhead[[557, 281, 993, 667]]\n[[223, 315, 564, 600]]\n[[22, 373, 212, 641]]\n[[518, 284, 996, 662]]\n[[21, 314, 566, 595]]\n[[518, 284, 996, 662]]\n[[21, 373, 212, 641]]\n[[223, 315, 564, 600]]\n[[557, 281, 993, 667]]\n[[22,",
+                "right hhead[[544, 286, 997, 663]]\nKnow the image in terms of its structure and design layout?\n\u00a0right hhead[[544, 286, 997, 663]]\nI'm providing you with a description of the image. Could you please specify what you need help with?\n powerhouse\n2\n3\n4\n5\n6\n\n7\n8\n9\n\n>\n<\n0\n\n<answer>[[235, 319, 564, 600]]\n2\n[[29",
+                "right hhead[[542, 284, 991, 667]]\n<answer><sep>coordinates>: <sep></sep>\nright hhead[[231, 320, 569, 604]]\n[[25, 375, 228, 638]]\n{'left': [], 'right': [557, 289, 998, 670], 'top': [0, 0, 1000, 372], 'bottom': [0, 391, 1000, 987]]\n[[25, 375, 228, 638]]\n{'left': [], 'right': [557, 289, 998, 670], 'top': [0, 0, 1000, 372], 'bottom': [0",
+                "right hhead[[553, 286, 993, 666]]\n[[232, 316, 574, 606]]\nAny idea what the elephant is doing?\nelephant[[553, 286, 993, 666]]\n[[27, 370, 233, 641]]\nelephant[[27, 370, 233, 641]]\nelephant[[556, 369, 599, 604]]\nelephant[[580, 365, 660, 605]]\nelephant[[239, 314, 565, 600]]\nelephant[[553, 286, 993,",
+                "right hhead[[552, 287, 996, 667]]\n<answer><sep>coordinates>: <sep></sep>\n[[216, 317, 559, 600]]\n[[27, 372, 221, 635]]\n{\n[[214, 322, 561, 600]]\n{\n[[555, 370, 597, 567]]\n{\n[[593, 357, 1000, 664]]\n\n[[550, 287, 999, 667]]\n[[27, 372, 221, 635]]\n[[216, ",
+                "right hhead[[547, 284, 993, 665]]\n[[237, 317, 561, 603]]\n[[28, 371, 221, 633]]\nendif\nif the sentence is true, then describe the bounding box coordinates of the region that this sentence describes: right hhead[[547, 284, 993, 665]]\n[[547, 284, 993, 665]]\nendif\nif the sentence is true, then describe the bounding box coordinates of the region that this sentence describes: elephant[[28, 371, 221, 633]]\n[[28, 371, 221, 633]]\nendif\nif the",
+                "right hhead[[545, 285, 998, 671]]\n[[221, 323, 557, 602]]\nI'm sorry, but I can't provide the specific bounding box coordinates for the region described.\n[[25, 371, 223, 639]]\n[[219, 318, 556, 598]]\n[[25, 371, 223, 639]]\n[[219, 318, 556, 598]]\n[[545, 285, 998, 671]]\n[[25, 371, 223, 639]]\n[[219, 318, 556,"
+            ],
+            "iou_scores": [
+                0.9507778687565798,
+                0.9649740307371958,
+                0.9446342653929294,
+                0.9437775642732292,
+                0.9647085353478408,
+                0.9510699955416853,
+                0.9593515023802117,
+                0.9275544579245669
+            ],
+            "iou_var": 0.00013690163546009766,
+            "mean_iou": 0.9508560275442799,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000233064.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>cake in back left pink rim</ref>",
+            "ground_truth": [
+                156,
+                224,
+                444,
+                472
+            ],
+            "model_output": [
+                "cake in back left pink rim[[164, 218, 450, 506]]\ncake in back left pink rim[[164, 218, 450, 506]]\n[[152, 419, 493, 912]]\n[[558, 407, 998, 898]]\n[[563, 260, 696, 443]]\ncake[[550, 255, 670, 439]]\ncake[[568, 237, 738, 446]]\ncake[[555, 416, 995, 899]]\nbutter[[164, 419, 4",
+                "cake in back left pink rim[[159, 223, 447, 505]]\ncake in back left pink rim[[159, 223, 447, 505]]\ncake[[153, 416, 500, 923]]\n\nMore Cake Tags: cake[[558, 405, 996, 895]]\nAnd here are the tags: cake[[558, 405, 996, 895]]\n\n[[558, 405, 996, 895]]\nAnd here are the tags: cake[[558, 405, 996, 895]]\n\n[[153, ",
+                "cake in back left pink rim[[154, 223, 451, 512]]\ncake in back left chocolate[[154, 223, 451, 512]]\n[[563, 411, 995, 906]]\n[[154, 425, 501, 920], [562, 406, 996, 892], [151, 424, 476, 917], [554, 255, 674, 437], [689, 236, 836, 360]]\n[[719, 157, 849, 359]]\n[[151, 223, 451, 512",
+                "cake in back left pink rim[[160, 220, 440, 512]]\ncake in back left pink rim[[160, 220, 440, 512]]\n[[147, 425, 495, 912]]\ncake[[552, 408, 997, 903]]\n[[552, 408, 997, 903]]\n[[559, 413, 997, 892]]\n[[658, 233, 833, 358]]\nbowl[[559, 413, 997, 892]]\n[[147, 425,",
+                "cake in back left pink rim[[160, 218, 444, 488]]\nImages: \n<img src=\"https://via.placeholder.com/800x400\" style=\"width:100%;height:100%;\">\n\n```markdown\n| x1 | y1 | x2 | y2 |\n|-----|-----|-----|-----|\n| 160 | 155 | 450 | 245 |\n| 170 | 210 | 420 | 295 |\n| 180 | 280 | 420 | 310 |\n| 190 | 300 | 405 | 320 |\n| 200 | 305 | 400 | 330 |\n| 210 | 310 | 410 | 325 |\n| 220 | 310 | 420 | 330 |\n| 230 | 315 | 420 | ",
+                "cake in back left pink rim[[157, 219, 445, 513]]\ncake in back left pink rim[[157, 219, 445, 513]]\n[[159, 424, 499, 917]]\ncake[[567, 410, 996, 901]]\n[[567, 410, 996, 901]]\ncake[[543, 152, 662, 326]]\ncake[[604, 247, 796, 441]]\nchocolate cake[[692, 233, 836, 357]]\nbutter[[157, 424,",
+                "cake in back left pink rim[[156, 225, 445, 493]]\ncake in back left chocolate[[468, 156, 565, 323]]\n<img id=\"image\" src=\"https://www.bakepots.com.au/images/bakepots/3214430-20120925031321.jpg\" style=\"width: 100%; height: auto;\">\n[[544, 409, 999, 899]]\nHere are the tags for the bounding box: <pred>cake in front</pred>[[149, 422, 505, 923]]\nHere are the tags for the bounding box: <pred>the cake on the left</pred>[[149, 422, 505, 923]]\nHere are",
+                "cake in back left pink rim[[164, 221, 445, 501]]\nImages [152, 419, 499, 923]]\nImages [163, 421, 526, 918]]\nImages [525, 406, 991, 899]]\nImages [495, 408, 995, 903]]\nImages [563, 258, 695, 442]]\nImages [663, 222, 827, 361]]\nImages [489, 164, 568, 323]]\nImages [736, 496, 833, 636]]"
+            ],
+            "iou_scores": [
+                0.8232169954476479,
+                0.862371888726208,
+                0.8321275034077802,
+                0.8291937332823844,
+                0.906787516737048,
+                0.8381535562882713,
+                0.9150501672240803,
+                0.8608549042943568
+            ],
+            "iou_var": 0.0010954211729766795,
+            "mean_iou": 0.8584695331759722,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000062057.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second red bus</ref>",
+            "ground_truth": [
+                274,
+                389,
+                495,
+                816
+            ],
+            "model_output": [
+                "second red bus[[282, 386, 498, 826]]\n<answer>second red bus[[218, 400, 391, 814]]\n</answer>><answer>second red bus[[464, 306, 901, 874]]\n</answer>><answer>second red bus[[187, 431, 280, 811]]\n</answer>><answer>second red bus[[15, 531, 182, 844]]\n</answer>><answer>second red bus[[3, 538, 152, 843]]\n</answer>><answer>second red bus[[393, 402, 502, 822]]\n</answer>",
+                "second red bus[[292, 395, 517, 836]]\nanother region of the sentence: second red bus[[172, 428, 347, 810]]\nanother region of the sentence: second red bus[[478, 309, 902, 870]]\nanother region of the sentence: person[[780, 596, 847, 728]]\nanother region of the sentence: person[[780, 596, 847, 728]]\nanother region of the sentence: person[[780, 596, 847, 728]]\nanother region of the sentence: person[[780, 596, 847, 728]]\nanother region of the sentence: person[[646, 60",
+                "second red bus[[300, 397, 488, 825]]\n<answer>\nsecond red bus[[200, 434, 374, 812]]\n</answer><image>\nsecond red bus[[197, 438, 298, 810]]\n</image><image>\nsecond red bus[[467, 308, 901, 871]]\n</image><image>\nsecond red bus[[467, 308, 901, 871]]\n</image>[[495, 615, 545, 744]]\n</image>[[345, 675, 43",
+                "second red bus[[207, 397, 493, 816]]\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[x1,y1,x2,x3]</answer>\nAnother bounding box: <answer>[",
+                "second red bus[[202, 393, 472, 817]]\nImages: \nsecond red bus[[202, 393, 472, 817]]\nImages: \nsecond red bus[[202, 393, 472, 817]]\nImages: \nsecond red bus[[463, 314, 902, 871]]\nImages: \nsecond red bus[[463, 314, 902, 871]]\nImages: \nsecond red bus[[202, 393, 472, 817]]\nImages: \nsecond red bus[[202, 393, 472, 817]][[2, 535, 184, 80",
+                "second red bus[[301, 395, 524, 831]]\nImages[<image>]\n",
+                "second red bus[[221, 395, 475, 816]]\n<answer>second red bus[[221, 395, 475, 816]]\n<answer>second red bus[[467, 311, 902, 873]]\nI'm sorry, but I can't provide the bounding box coordinates for the flag as it's not an object in the image.\nuser\ncan you describe the objects that are in the image?\n<answer>the bus[[467, 311, 902, 873]]\n</answer><answer>the bus[[467, 311, 902, 873]]\nI'm sorry, but I can't provide the bounding box coordinates for the flag as it's not an object in the image.\n<answer>the bus[[2",
+                "second red bus[[206, 401, 470, 825]]\nImages: \nsecond red bus[[464, 310, 902, 871]]\nImages: \nsecond red bus[[179, 446, 321, 804]]\nImages: \nsecond red bus[[179, 446, 321, 804]]\nImages: \nsecond red bus[[179, 446, 321, 804]]\nImages: \nsecond red bus[[179, 446, 321, 804]][[323, 397, 474, 825]]\nImages: \nsecond red bus[[323, 397, 474, 825"
+            ],
+            "iou_scores": [
+                0.41205944653809834,
+                0.7903800090632486,
+                0.3089775133031985,
+                0.0,
+                0.6695338668030985,
+                0.7430245358029858,
+                0.7252399725745629,
+                0.6509126701503645
+            ],
+            "iou_var": 0.06607430177090441,
+            "mean_iou": 0.5375160017794446,
+            "correct_count": 5
+        }
+    ]
+}

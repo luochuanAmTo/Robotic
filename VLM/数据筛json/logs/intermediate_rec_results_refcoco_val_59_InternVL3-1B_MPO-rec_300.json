@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 59,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000427169.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left side</ref>",
+            "ground_truth": [
+                1,
+                0,
+                395,
+                979
+            ],
+            "model_output": [
+                "left side[[0, 5, 395, 1000]]\n<answer>\nleft side[[0, 6, 429, 982]]\n</answer>\n<question>What is the man in the middle of the image?</question>\n</answer></body>\n\n</body>\n</spec>",
+                "left side[[3, 2, 392, 989]]\n<answer>left side[[3, 2, 392, 989]]\n<answer>\n><answer>man[[595, 105, 925, 861]]\n><answer>&lt;/answer>\n<answer>man[[595, 105, 925, 861]]\n&gt;<answer><answer>man[[595, 105, 925, 861]]\n&lt;&lt;\n everybody<sep>man[[595, 105, 925, 861]]\n&gt;<answer>man[[595, 105, 925,",
+                "left side[[0, 12, 396, 1000]]\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: left side[[0, 12, 396, 1000]]\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: man[[599, 101, 930, 870]]\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: man[[599, 101, 930, 870]]<answer>\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: classroom[[379, 569, 855, 989]]<answer>\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: classroom[[379",
+                "left side[[3, 5, 403, 989]]\n<answer>\nleft side[[3, 5, 403, 989]]\n<questioning>What is the man in the image doing in the classroom?</questioning>\n}</body>\nman[[588, 101, 927, 868]]\n</body>\nman[[588, 101, 927, 868]]\n</image>\n</body>\n</image>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "left side[[2, 2, 400, 989]]\n<answer>[[589, 103, 926, 864]]\n<answer><answer>bounding box coordinates of the region that this text describes: 'this sentence describes a man' <answer>[x1,y1,x2,y2]</br> </br></cite>tions]</cite> </cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></",
+                "left side[[0, 2, 403, 989]]\n<answer>[[594, 96, 927, 862]]\n<answer>\nffff</answer>\n<question>What is the man in the foreground?</question>\n</answer><question>What is the man in the foreground doing?</question>\n</answer><question>What can be inferred about the man's position in the classroom setting?</question>\n</answer>",
+                "left side[[0, 5, 415, 984]]\n<answer>{' [0, 5, 415, 984], [0, 4, 415, 984], [615, 96, 927, 860]][[615, 96, 927, 860]]\n<answer>\n</answer>[[333, 758, 578, 997]]\n<answer>\n</answer>[[614, 395, 836, 519]]\n<answer>\n</answer>",
+                "left side[[2, 12, 364, 985]]\n<answer>left side[[2, 12, 364, 985]]\n<answer>this[[588, 103, 929, 866]]\n</answer>\n<question>What is the man in the background?<br> - speaking at a lecture hall?<br> - holding a tablet or laptop?<br> - wearing a striped shirt?<br> - standing behind a podium?<br> - holding a marker or pen?<br> - in front of a chalkboard?<br> - wearing a blue shirt?<br> - in a classroom?<br> - looking at a camera?</question>\n\u5f29\u4e00\u56de\u7b54\uff1a</blue>It appears that the man in the background is speaking at a lecture hall, as he is standing behind a podium and gesturing with his right hand, holding a marker or pen in his left hand. He is wearing a striped shirt and is in front of a chalkboard. In the foreground, there is"
+            ],
+            "iou_scores": [
+                0.9104515185195741,
+                0.9754553201100571,
+                0.9621744752207204,
+                0.9604797770163866,
+                0.9730607134982805,
+                0.0,
+                0.939990937036901,
+                0.9024382698544463
+            ],
+            "iou_var": 0.09860058021583731,
+            "mean_iou": 0.8280063764070458,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000079111.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>top bowl</ref>",
+            "ground_truth": [
+                104,
+                53,
+                629,
+                892
+            ],
+            "model_output": [
+                "top bowl[[88, 65, 638, 959]]\n<answer>Alice in the kitchen. The image shows a wooden bowl containing green apples, a wooden spoon, and several wooden chopsticks on a rough asphalt surface. The apples are fresh and green, and the wooden utensils are resting on the bowl.\n<answer>top bowl[[88, 65, 638, 959]]\n<answer>\n<answer>top bowl[[88, 65, 638, 959]]\n<answer>top bowl[[88, 65, 638, 959]][[88, 65, 638, 959]]\n<answer>top bowl[[88, 65, 638, 959]]\n",
+                "top bowl[[70, 67, 637, 962]]\n[[354, 128, 886, 972]]\n[[41, 67, 968, 965]]\n[[413, 376, 494, 616]]\n[[284, 391, 485, 633]]\n[[317, 451, 506, 642]]\n[[461, 453, 544, 618]]\n[[218, 281, 336, 636]]\n[[198, 453, 318, 727]]\n[[318, 55",
+                "top bowl[[85, 66, 656, 893]]\n<answer>Alice in the hat is standing on a hill covered with green leaves, and a little girl wearing a red shirt is playing in the snow.\ntop bowl[[85, 66, 656, 893]]\n<answer>Claudius is standing on a hill covered with green leaves, and a little girl wearing a red shirt is playing in the snow.[[85, 66, 656, 893]]\n<answer>Claudius is standing on a hill covered with green leaves, and a little girl wearing a red shirt is playing in the snow.[[85, 66, 656, 893]]\n<answer>Claudius is standing on a hill covered with green leaves, and a little girl wearing a red shirt is playing in the snow.[[85, 66, 656, 893]]\n",
+                "top bowl[[86, 66, 646, 953]]\n[[336, 129, 953, 966]]\ntop bowl[[82, 64, 646, 962]]\ngreen apple[[212, 281, 640, 785]]\n[[212, 281, 640, 785]]\n[[82, 64, 646, 962]]\n[[336, 129, 953, 966]]\n[[86, 66, 646, 953]][[336, 129, 953",
+                "top bowl[[257, 129, 685, 565]]\n[[60, 68, 652, 961]]\nHere is the refined bounding box coordinates for the region described in the sentence: top bowl[[257, 129, 685, 565]]\n[[60, 68, 652, 961]]\nHere is the refined bounding box coordinates for the region described in the sentence: apples[[207, 278, 533, 782]]\n[[207, 278, 533, 782]]\nHere is the refined bounding box coordinates for the region described in the sentence: apples[[207, 278, 533, 782]]\n[[",
+                "top bowl[[78, 68, 645, 892]]\n[[342, 130, 962, 902]]\n[[340, 133, 962, 951]]\n[[48, 64, 636, 966]];[[48, 64, 636, 966]]\n[[340, 133, 962, 951]]\n[[342, 130, 962, 902]]\n[[78, 68, 645, 892]]\n[[48, 64, 636, 966]]",
+                "top bowl[[81, 65, 637, 964]]\nDNA\n[[75, 26, 637, 964]]\n<answer>\u3010answer\u3011</title>\n[[320, 126, 745, 905]]\n[[70, 25, 460, 962]]\n[[461, 197, 947, 924]]\n[[230, 283, 340, 526]]\n[[344, 384, 478, 622]]\n[[345, 551, 484, 78",
+                "top bowl[[67, 61, 652, 964]]\n[[319, 132, 864, 963]]\n[[45, 64, 651, 959]]\nHere is your translated sentence from Chinese to English:\ntop bowl[[67, 61, 652, 964]]\n[[45, 64, 651, 959]]\nHere is your translated sentence from Chinese to English:\ntop bowl[[67, 61, 652, 964]]\n[[45, 64, 651, 959]]\nHere is your translated sentence from Chinese to English:\ntop bowl[[67, 61, 652, 964]]\n[["
+            ],
+            "iou_scores": [
+                0.8718373493975904,
+                0.8413216398123597,
+                0.9052442165822621,
+                0.8611941335928268,
+                0.34888178089057437,
+                0.9105777306281219,
+                0.8578092400581653,
+                0.8193650167619799
+            ],
+            "iou_var": 0.030138526615227652,
+            "mean_iou": 0.802028888465485,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000446670.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front chair left side</ref>",
+            "ground_truth": [
+                242,
+                569,
+                608,
+                1000
+            ],
+            "model_output": [
+                "front chair left side[[256, 573, 562, 988]]\n[[106, 532, 280, 945]]\nthumbnail image of the chair: <image>\n[[535, 537, 845, 979]]\n[[259, 516, 596, 854]]\n[[389, 725, 707, 988]]\n[[520, 725, 787, 979]]\n[[186, 275, 450, 581]]\n[[448, 503, 647, 603]]\n[[651, 69",
+                "front chair left side[[262, 573, 604, 989]]\n[[593, 538, 840, 979]]\nWikimedia: banana[[383, 577, 535, 646]]\nWikimedia: banana[[383, 577, 535, 646]]\nWikimedia: banana[[386, 578, 536, 632]]\nWikimedia: banana[[386, 578, 536, 632]]\nWikimedia: banana[[386, 578, 536, 632]]\nWikimedia: banana[[383, 577, 535, 646]]\nWikimedia: banana[[",
+                "front chair left side[[264, 574, 621, 998]]\n[[592, 537, 847, 987]]\nNC\n[[255, 555, 561, 988]]\nbanana[[388, 577, 545, 646]]\n[[395, 730, 765, 987]]\n[[102, 531, 271, 943]]\n[[102, 531, 271, 943]]\n[[255, 555, 621, 998]]\n[[592, 537, 847, ",
+                "front chair left side[[254, 575, 582, 998]]\n[[556, 536, 842, 984]]\nThe given context about the region 'front chair left side' might refer to the chair's bounding box, which is [254, 575, 582, 998].\n[[279, 564, 653, 998]]\nThe given context about the region 'front chair right side' might refer to the chair's bounding box, which is [556, 536, 842, 984].\nThe given context about the region 'front chair left side' might refer to the chair's bounding box, which is [254, 575, 582, 998].\nThe given context about the region 'front chair right side' might refer to the chair's bounding box, which is [556, ",
+                "front chair left side[[263, 578, 598, 986]]\n[[102, 533, 281, 946]]\nIFF front chair[[102, 533, 281, 946]]\nIF front chair[[102, 533, 281, 946]]\nIF banana[[379, 573, 488, 638]]\nIF banana[[379, 573, 488, 638]]\nIF banana[[395, 572, 527, 645]]\nIF chair[[554, 539, 838, 986]]\nIF chair[[554, 539, 83",
+                "front chair left side[[251, 579, 570, 989]]\n[[100, 533, 286, 948]]\n[[541, 540, 840, 989]]\n{{256, 519, 617, 987}}\n[[365, 732, 694, 989]]\n[[455, 505, 653, 609]]\n[[112, 298, 457, 578]]\n[[359, 575, 530, 639]]\n[[128, 571, 223, 685]]\n[[565, ",
+                "front chair left side[[263, 574, 589, 987]]\n[[102, 533, 268, 946]]\n[[524, 500, 682, 978]]\n[[261, 572, 574, 989]]\n[[600, 539, 840, 987]]\n[[102, 533, 268, 946]]\n[[263, 574, 589, 987]]\n[[102, 533, 268, 946]]\n[[524, 500, 682, 978]]\n[[261, 574, ",
+                "front chair left side[[267, 576, 618, 984]]\n[[102, 534, 271, 947]]\n[[267, 576, 618, 984]]\n anyway, the bounding box for the table in the room is chairs[[526, 535, 839, 978]]\n[[102, 534, 271, 947]]\n[[267, 576, 618, 984]]\n anyway, the bounding box for the shelf is chairs[[483, 499, 653, 611]]\n anyway, the bounding box for the bookshelf is chairs[[483, 499, 653, "
+            ],
+            "iou_scores": [
+                0.805028336693165,
+                0.9019055950705565,
+                0.8934079800071053,
+                0.8795405271766004,
+                0.866456201742041,
+                0.8291176955358615,
+                0.8535113410165709,
+                0.8597382373660598
+            ],
+            "iou_var": 0.000912998045227049,
+            "mean_iou": 0.8610882393259951,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000428109.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>banana right above free</ref>",
+            "ground_truth": [
+                2,
+                195,
+                705,
+                498
+            ],
+            "model_output": [
+                "banana right above free[[75, 6, 703, 325]]\n<answer>[[386, 604, 739, 852]]\n<answer>banana[[0, 197, 693, 499]]\n</div></div></div></div></div></div>\n248, 99, 998, 998]",
+                "banana right above free[[1, 207, 691, 499]]\n[[410, 602, 741, 836]]\nDNA\n[[107, 335, 826, 945]]\n[[887, 635, 1000, 800]]\n[[592, 525, 998, 699]]\n[[741, 172, 998, 396]]\n[[223, 11, 720, 267]]\n[[0, 215, 439, 678]]\n[[2, 632, 168, ",
+                "banana right above free[[1, 6, 721, 326]]\n<answer> <answer> <center><ul> <b> [121, 337, 824, 941]</b> </ul> </center> </answer> </section>\n</section>\n[[1, 324, 808, 943]]\n</section>\n</section>\n</section>",
+                "banana right above free[[662, 162, 1000, 379]]\n<answer> <answer> <center><div> <b> FREE!</b> </a>!</div> </center> </answer> </object>\n<answer> <answer> <center><div> <b> have a banana </b> <i> musical instrument </i> </div> </center> </answer> </object> </answer>",
+                "banana right above free[[257, 5, 734, 265]]\n<answer>\u3010answer\u3011<come back to start typing\u3011\n<answer>\u3010answer\u3011\n<!---<answer>\u3010answer\u3011-->\u3010comments see attachment\u3011<come back to start typing\u3011\n\n<!---\u3010answer\u3011-->\u3010comments see attachment\u3011<come back to start typing\u3011\n<answer>\u3010answer\u3011<come back to start typing\u3011<come back to finish typing>\n<br/>bd<come back to finish typing>\n<cce>\u3010answer\u3011<come back to start typing> </ce>\n[[114, 337, 824, 944]]\n<answer>\u3010answer\u3011<come back to start typing> </ce> <come back to finish typing> </ce>\n<answer>",
+                "banana right above free[[127, 2, 741, 331]]\n<answer> <boxed answer=\" <box><img src=\"image_path\" /> </box> </answer>\n<answer>\nbanana right above free[[195, 192, 700, 498]]\nbanana[[0, 5, 633, 335]]\nbanana[[631, 175, 1000, 398]]\nbanana[[663, 371, 1000, 696]]\nbanana[[625, 513, 1000, 705]]\nbanana[[0, 613, 208, 826]]\nbanana[[0, 522, 263, 677]]\nbanana[[3, 219, 3",
+                "banana right above free[[256, 9, 736, 280]]\n<answer>[[0, 68, 677, 499]]\n<answer>banana[[678, 169, 1000, 421]]\n<answer>banana[[691, 512, 1000, 699]]\n</answer>\n<answer>banana[[736, 30, 998, 245]]\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer>\n</answer",
+                "banana right above free[[1, 692, 178, 984]]\n<offer>\nHere's the detailed analysis of the region specified by the text \"have a banana\u266a\":\n\n1. **Text**: \"have a banana\u266a\"\n2. **Placement**: The text is positioned centrally on the blackboard sign, just below the word \"FREE!\" and to the right of the musical note.\n\n### Breakdown:\n- **Font**: The text is in a casual handwritten font, which adds a friendly and approachable vibe.\n- **Placement**: The text is centered on the blackboard sign, making it prominent and easily readable.\n- **Background**: The background of the sign is plain, ensuring that the text stands out clearly.\n\n### Contextual Significance:\nThis text likely serves as an incentive or offer for customers. By offering a free banana, the store is engaging customers and encouraging them to purchase bananas. The musical note symbol could be a playful twist on the idea of a free banana, perhaps implying that bananas are a musical instrument.\n\n### Conclusion:\nThe text \"have a banana\u266a\" effectively communicates the offer of a free banana to customers, using a catchy phrase to attract attention and create a"
+            ],
+            "iou_scores": [
+                0.24612527547399615,
+                0.936954997897098,
+                0.17296637030741524,
+                0.0,
+                0.10259463668216273,
+                0.0,
+                0.6811347083134901,
+                0.0
+            ],
+            "iou_var": 0.10881495933759507,
+            "mean_iou": 0.2674719985842703,
+            "correct_count": 2
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 17,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000112040.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white bus</ref>",
+            "ground_truth": [
+                833,
+                352,
+                997,
+                871
+            ],
+            "model_output": [
+                "white bus[[840, 346, 1000, 916]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>white bus[[840, 346, 1000, 916]]\n<issue>coordinates of the region described by the parenthesis <answer>[x1,y1,x2,y2]</answer>\n<answer>white bus[[840, 346, 1000, 916]]\n</issue>\n<issue>coordinates of the region described by the parenthesis <answer>[x1,y1,x2,y2]</answer>\n<answer>white bus[[852, 351, 1000, 917]]\n</issue>\n<issue>coordinates of the region described by the parenthesis <answer>[x1,y1,x2,y2]</answer>\n<answer>white bus[[852",
+                "white bus[[846, 343, 1000, 919]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awhite bus[[846, 343, 1000, 919]]\n<issuealoc>\nwhite bus[[846, 343, 1000, 919]]\n</issuealoc>\n\nwhite truck[[837, 360, 1000, 884]]\n<issuealoc>\ngreen[[205, 422, 845, 803]]\n</issuealoc>\n\nblue[[3, 486, 220, 766]]\n</issuealoc>\nRate the image:How many banners are hanging on the building? \nbanners[[373, 96, 452, 359]]\n</issuealoc",
+                "white bus[[841, 346, 1000, 918]]\nKnow the output: <answer>[x1,y1,x2,y2]</answer>\n[[191, 422, 840, 806]]\n[[841, 348, 998, 921]]\n[[191, 422, 841, 806]]\n[[1, 480, 218, 766]]\n[[842, 345, 998, 893]]\n[[191, 422, 840, 806]]\n[[841, 348, ",
+                "white bus[[840, 345, 1000, 923]]\nKnow the name of the truck brand?\ntruck brand name[[184, 422, 851, 803]]\nThis object is blurry, so I can't identify the brand.\nI'm sorry, but I can't provide the bounding box coordinates for the region that contains the brand name of the truck.\n[[840, 345, 1000, 923]]\nuser\nWhat is the object that is blue in color?\nblue[[12, 488, 203, 768]]\nThis object is blurry, so I can't identify the brand.\nI can't provide the bounding box coordinates for the region that contains the brand name of the truck.\n[[184, 422, 851,",
+                "white bus[[842, 352, 1000, 907]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awhite bus[[842, 352, 1000, 907]]\n<question>What is the dominant color scheme of the trucks in the image?<list>truck[[195, 424, 843, 802]]<sep>color scheme[[845, 351, 1000, 922]]<sep>truck[[3, 486, 212, 766]]<sep>color scheme[[3, 486, 212, 766]]<sep>truck[[3, 486, 212, 766]]<sep>truck[[842, 352, 1000, 907]]<sep>",
+                "white bus[[834, 348, 1000, 921]]\nKnow the context or background of this image: \"Kreis\"\n\n\n\n\nKreis[[834, 348, 1000, 921]]\nI'm sorry, I can't provide the bounding box coordinates for the region described by the text \"Kreis\" in the image.\n\n\nKreis[[834, 348, 1000, 921]]\nI'm sorry, I can't provide the bounding box coordinates for the region described by the text \"Kreis\" in the image.\n\n\nKreis[[193, 421, 842, 803]]\n[[193, 421, 842, 803]]\n",
+                "white bus[[843, 352, 1000, 920]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awhite bus[[843, 352, 1000, 920]]\n<question>\ncamra[[194, 419, 836, 802]]\n</question>\n<question>\ncamra[[1, 483, 214, 769]]\n</question>\n</body>\n</html>\n",
+                "white bus[[843, 352, 1000, 915]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>white bus[[843, 352, 1000, 915]]\n<issue>Is there any text visible on the trucks?<issue> white bus[[843, 352, 1000, 915]]\n</issue></assistant>"
+            ],
+            "iou_scores": [
+                0.8592262187213312,
+                0.8210390671653519,
+                0.0,
+                0.8477833383621363,
+                0.8709845064475266,
+                0.8845635057561404,
+                0.846978784731789,
+                0.854083628086898
+            ],
+            "iou_var": 0.08024899416131127,
+            "mean_iou": 0.7480823811588967,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000238231.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bike left</ref>",
+            "ground_truth": [
+                32,
+                302,
+                323,
+                606
+            ],
+            "model_output": [
+                "bike left[[42, 302, 304, 600]]\n[[239, 287, 788, 799]]\n\u2022\n[[659, 321, 973, 626]]\n```\nbike[[659, 321, 973, 626]]\n```\n```[[163, 300, 312, 598]]\n```\n```[[165, 301, 276, 596]]\n```\n``````\n```[[0, 375, 101, 612]]\n```\n```[[336, 184, 605, 726]]",
+                "bike left[[58, 300, 314, 600]]\n[[236, 297, 787, 798]]\n\u2022\n[[674, 317, 972, 627]]\n\u2022 man[[335, 189, 602, 729]]\n\u2022 helmet[[450, 187, 549, 486]]\n\u2022 bicycle[[674, 317, 972, 627]]\n\u2022 bicycle[[22, 305, 307, 599]]\n\u2022 window[[688, 0, 916, 131]]\n\u2022 person[[54, 112, 212, 6",
+                "bike left[[39, 296, 334, 604]]\n[[253, 294, 794, 795]]\nUntil then, the name of the model of the motorcycle is not available.\nbicycle[[671, 318, 973, 624]]\nbicycle[[16, 302, 294, 600]]\n[[169, 319, 354, 606]]\n[[12, 319, 193, 603]]\n[[39, 296, 333, 604]]\n[[394, 187, 594, 735]]\n[[531, 437, 7",
+                "bike left[[45, 304, 325, 603]]\n[[232, 297, 783, 798]]\n```\nbike left[[232, 297, 783, 798]]\n```\n[[680, 317, 973, 627]]\n```\n```[[10, 300, 333, 600]]\n```\n```[[354, 189, 596, 740]]\n```\n```[[10, 367, 102, 610]]\n```\n```[[654, 309, 969, 623]]\n[[658",
+                "bike left[[40, 303, 327, 602]]\n[[249, 293, 786, 799]]\nIf the sentence was \"What is the man riding on the motorcycle?\", then the answer is: <answer>The man is riding a black and red motorcycle.</answer>\n[[249, 293, 786, 799]]\n[[12, 313, 824, 624]]\nHere is the location of the man on the motorcycle: \n<answer>Top left corner of the image</answer>\n[[112, 121, 236, 595]]\nHere is the location of the man on the motorcycle: \n<answer>Centered in the image</answer>\n[[297, 185, 591, 735]]\nHere",
+                "bike left[[44, 306, 311, 607]]\n[[260, 291, 777, 798]]\nMore tags:\n[[624, 314, 971, 627]]\n\nMore tags:\n[[44, 306, 311, 607]]\n\n[[260, 291, 777, 798]]\n\n[[1, 112, 91, 603]]\n\n[[91, 112, 212, 592]]\n\n[[283, 185, 599, 733]]\n\n[[568, 426, 782, 671]]",
+                "bike left[[58, 300, 331, 602]]\n[[262, 295, 792, 795]]\n\u2022\n[[655, 320, 972, 624]]\n\u2022 bicycle[[655, 320, 972, 624]]\n\u2022 motorcycle[[262, 295, 792, 795]]\n\u2022 man[[334, 186, 599, 736]]\n\u2022 person[[96, 116, 234, 600]]\n\u2022 hat[[77, 96, 166, 305]]\n[[9, 377, 92, 60",
+                "bike left[[40, 302, 316, 604]]\n[[254, 296, 789, 795]]\n\u2022\n[[668, 315, 971, 627]]\n\u2022 motorcycle[[254, 296, 789, 795]]\n\u2022 motorcycle[[254, 296, 789, 795]]\n\u2022 person[[340, 184, 605, 751]]\n\u2022 person[[94, 114, 223, 603]]\n\u2022 bicycle[[40, 302, 316, 604]]\n\u2022 bicycle[[668, 315, 971"
+            ],
+            "iou_scores": [
+                0.8825737022969795,
+                0.8573997482467182,
+                0.9167557398777203,
+                0.9333048887291999,
+                0.0,
+                0.9027284714474084,
+                0.8697079094191007,
+                0.9422137818773738
+            ],
+            "iou_var": 0.08950208726034745,
+            "mean_iou": 0.7880855302368126,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000228000.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right man</ref>",
+            "ground_truth": [
+                366,
+                156,
+                938,
+                986
+            ],
+            "model_output": [
+                "right man[[367, 153, 938, 988]]\nDNA[[37, 130, 437, 864]]\nDNA[[376, 326, 963, 987]]\nDNA[[37, 130, 437, 864]]\nDNA[[376, 326, 963, 987]]\nDNA[[37, 130, 437, 864]]\nDNA[[376, 326, 963,",
+                "right man[[366, 152, 944, 987]]\nRO[[37, 124, 423, 867]]\nRO[[376, 333, 951, 985]]\n;[[376, 333, 951, 985]]\n;[[37, 124, 423, 867]]\n[[402, 180, 976, 984]]\n[[376, 333, 951, 985]]\n;[[37, ",
+                "right man[[368, 155, 944, 987]]\n[[41, 123, 425, 864]]\n\u52ab[[400, 335, 956, 984]]\n[[400, 335, 956, 984]]\n[[37, 176, 472, 810]]\n[[400, 335, 956, 984]]\n[[37, 176, 472, 810]]\n[[400, 335, 956, 984]]\n[[400, 335, 956, 984]]\n[[37, 176, 4",
+                "right man[[387, 152, 936, 987]]\n[[39, 126, 431, 863]]\nNIKE STATE\nright man[[387, 152, 936, 987]]\n[[39, 126, 431, 863]]\n[[365, 329, 964, 987]]\n[[419, 427, 776, 694]]\n[[143, 185, 402, 446]]\n[[141, 390, 476, 817]]\n[[38, 125, 432, 866]]\n",
+                "right man[[368, 157, 939, 987]]\n[[31, 126, 431, 864]]\n`dog[[370, 425, 765, 699]]\n`man[[368, 157, 939, 987]]\n`footwear[[384, 518, 559, 639]]\n`[[373, 331, 645, 626]]\n`[[22, 179, 502, 646]]\n`[[368, 157, 939, 987]]\n`[[370, ",
+                "right man[[375, 153, 935, 987]]\n[[33, 126, 437, 866]]\n```\nright man[[375, 153, 935, 987]]\n```\n```[[33, 126, 437, 866]]\n```\n```[[375, 153, 935, 987]]\n```\n```[[33, 126, 437, 866]]\n```\n```[[376, 326, 964, 984]]\n```\n```[[333, 238, 972, 975]]\n",
+                "right man[[382, 153, 942, 987]]\n[[33, 124, 434, 862]]\n\u2022\n\u2022[[382, 153, 942, 987]]\n\u2022[[33, 124, 434, 862]]\n\u2022[[382, 153, 942, 987]]\n\u2022 right man[[382, 153, 942, 987]]\n\u2022 right man[[382, 153, 942, 987]]\n\u2022 chair[[383, 245, 971, 970]]\n\u2022 chair[[103, ",
+                "right man[[373, 153, 941, 987]]\n[[35, 124, 427, 867]]\n'''[[357, 328, 971, 989]]\n[[360, 413, 491, 640]]\n[[357, 327, 972, 987]]\n[[357, 417, 778, 695]]\n[[363, 509, 971, 967]]\n[[10, 174, 531, 665]]\n[[357, 328, 971, 987]]\n[[357,"
+            ],
+            "iou_scores": [
+                0.9922845806769051,
+                0.9836935126287218,
+                0.9837967776548581,
+                0.9542727301284804,
+                0.9923765120967742,
+                0.9744234800838575,
+                0.9607761492338441,
+                0.9779530449072201
+            ],
+            "iou_var": 0.00016834306643471325,
+            "mean_iou": 0.9774470984263327,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000316238.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>black woman on the far right not sitting</ref>",
+            "ground_truth": [
+                408,
+                203,
+                747,
+                780
+            ],
+            "model_output": [
+                "black woman on the far right not sitting[[449, 208, 752, 828]]\n<answer>black woman on the far right[[742, 420, 1000, 879]]\n</answer><issue> where is the woman in red shirt and black pants?<issue></i>\n</issue><issue> where is the woman in blue uniform?<issue></i>\n</issue><issue> what is the woman in blue uniform standing behind?<issue></i>\n</issue><issue> what is the woman in red shirt holding?<issue></i>\n</issue><issue> where are the cookies?<issue></i>\n</issue><issue> what is on the table?<issue></i>\n</issue><issue> what is the woman in blue uniform sitting on?<issue></i>\n</issue><issue> how many women are there in the image?<issue",
+                "black woman on the far right not sitting[[824, 421, 1000, 883]]\nImages:\nblack woman[[462, 206, 752, 824]]\nImages:\nblack woman[[403, 142, 594, 834]]\nImages:\nwoman[[108, 148, 396, 938]]\nImages:\nwoman[[0, 211, 415, 987]]\nImages:\nwoman[[108, 148, 396, 938]]\nImages:\nwoman[[824, 421, 1000, 883]]\nImages:\nwoman[[462, 206, 752, 824]]\nImages:\nwoman[[403, 142, ",
+                "black woman on the far right not sitting[[822, 420, 1000, 892]]\n<answer>black woman on the far right[[449, 208, 757, 822]]\nAnother person in uniform <answer>[x1,y1,x2,y3]</answer>\nperson[[115, 145, 413, 935]]\nAnother person in uniform <answer>[x1,y1,x2,y3]</answer>\ncake[[375, 799, 1000, 1000]]\nAnother person in uniform <answer>[x1,y1,x2,y3]</answer>\nwoman[[351, 147, 575, 831]]\nAnother person in uniform <answer>[x1,y1,x2,y3]</answer>\nwoman[[85, 198, 424, 980]]\nAnother person",
+                "black woman on the far right not sitting[[826, 419, 1000, 885]]\n\n\n<answer>black woman on the far right not sitting[[438, 207, 754, 822]]\nwould you describe the woman on the far left?<answer>[c] The woman on the far left is wearing a red long-sleeve shirt and is standing close to the others, smiling, and appears to be one of the participants in the celebration. She is positioned to the left of the group and is close to the table where the cake is being cut.\n<answer>woman on the far left[[2, 211, 438, 987]]\n</answer><answer>woman on the far left[[2, 211, 438, 987]]\n</answer><answer>woman[[115, 148, 397, 942",
+                "black woman on the far right not sitting[[477, 206, 750, 853]]\n<answer>black woman[[358, 143, 598, 836]]\n\u90a3\u5c31\u8ba9\u6211\u5177\u4f53\u5316\u4e00\u4e0b<answer>[x1,y1][x2,y2]</structure>\n<answer>black woman[[103, 147, 392, 946]]\nI <ans>want</ans> a bounding box around the region <code>[x1,y1][x2,x3]</code> of the third person <answer>[x1,y1][x2,x3]</structure>\n<answer>black woman[[103, 147, 392, 946]]\nI <ans>want</ans> a bounding box around the person on the left[[0, 209, 453, 990]]\n</answer: black woman",
+                "black woman on the far right not sitting[[447, 208, 748, 829]]\n<answer>black woman on the far right[[748, 419, 1000, 895]]\nI'm sorry, but I can't provide the bounding box coordinates for the woman in the red sweater as she is not in the frame.\n<answer>black woman on the far left[[114, 147, 395, 946]]\n</answer><issue>what is the area around the women posing for the photo?[[259, 709, 316, 828]]\n</issue><answer>area around the women posing for the photo[[34, 63, 1000, 990]]\n</issue><issue>what is the area around the women posing for the photo?[[34, ",
+                "black woman on the far right not sitting[[478, 208, 752, 842]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a\u9ed1\u5973\u4eba[[478, 208, 752, 842]]\n<answer>\nif you could hypothetically create a story, what would your story be about? what happened at the reception? <ans>\n<answer>Based on the image, it looks like a friendly and happy reunion for military personnel. The group is gathered around a cake, celebrating a special occasion. They seem to be enjoying each other's company and the camaraderie. It could be a post-deployment celebration, a team-building activity, or a special event honoring their service. The presence of the military uniformed individuals suggests that it might be a reunion or a commemoration of a significant event, such as a ceremony or a victory celebration. The cake with a map and the team names further emphasize the connection to their service. It's a heartwarming moment that highlights the bonds and camaraderie within the military community.</ans>\n<hr",
+                "black woman on the far right not sitting[[457, 204, 751, 825]]\n<answer>black woman on the far right[[744, 418, 1000, 882]]\n</body><p><br>`woman[[113, 148, 400, 935]]\n</body><br>`woman[[1, 210, 422, 986]]\n</body><br>`woman[[339, 144, 588, 831]]\n</body><br>`woman[[113, 148, 400, 935]]\n</body><br>`woman[[457, 204, 751, 825]]"
+            ],
+            "iou_scores": [
+                0.005765073264472736,
+                0.0,
+                0.7955605132106469,
+                0.8316986556185001,
+                0.7133585572647684,
+                0.0,
+                0.7141670263772273,
+                0.7911450858920985
+            ],
+            "iou_var": 0.1393817160241974,
+            "mean_iou": 0.48146186395346424,
+            "correct_count": 5
+        }
+    ]
+}

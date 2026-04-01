@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 37,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000546242.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bench on left</ref>",
+            "ground_truth": [
+                25,
+                414,
+                506,
+                856
+            ],
+            "model_output": [
+                "bench on left[[29, 357, 524, 860]]\n><answer>[x1,y1,x2,y2]</select>[[491, 356, 964, 857]]\n[[29, 357, 524, 860]]\n```\nbench[[29, 357, 524, 860]]\n```\n```[[491, 356, 964, 857]]\n```\n```[[29, 357, 524, 860]]\n```\n```[[491, 356, 964, 857]]\n",
+                "bench on left[[34, 417, 512, 858]]\n><answer>[[34, 417, 512, 858]]]</answer>",
+                "bench on left[[28, 421, 505, 858]]\n[[488, 354, 961, 855]]\n[[28, 421, 505, 858]]\n\u0148[[28, 421, 505, 858]]\n[[489, 355, 961, 855]]\n[[28, 421, 505, 858]]\n[[487, 357, 962, 858]]\n[[28, 421, 505, 858]]\n[[28, 421, 505, 858]]\n",
+                "bench on left[[27, 357, 522, 863]]\nKnow the context or background?\n\n\nbench on left[[27, 357, 522, 863]]\n\n\n\n\n\n[[495, 357, 964, 857]]\n\n[[495, 355, 962, 857]]\n\n[[483, 264, 568, 318]]\n\n[[557, 238, 576, 280]]\n\n[[571, 236, 597, 280]]\n\n[[447,",
+                "bench on left[[28, 358, 528, 862]]\n><answer>[[28, 358, 528, 862]]][[484, 358, 965, 858]]\n[[493, 248, 551, 311]]\n*Answer:*\n[[493, 248, 551, 311]]\n*Image description:* A lone bench on a train platform at night. The bench is empty and positioned near a set of train tracks. There are lights along the platform, and the platform appears to be empty.\n[[28, 358, 528, 862]]\n*Answer:*\n[[28, 358, 528, 862]]\n*Image description:* An",
+                "bench on left[[29, 354, 527, 863]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a\nbench on left[[29, 354, 527, 863]][[492, 354, 961, 857]]\n<answer>\n\n<answer>\n[[489, 231, 554, 310]]\n\n&lt;/answer&gt;<answer>bench on left[[29, 354, 527, 863]]\n</answer>[[492, 354, 961, 857]]\n\n[[489",
+                "bench on left[[26, 358, 516, 863]]\n<answer>&#x123;</answer>\n</pre><answer>bench[[483, 355, 960, 861]]\n</pre><answer>\n</body>\n</style></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div",
+                "bench on left[[29, 416, 508, 859]]\n><answer>[[29, 416, 508, 859]]][[481, 355, 961, 856]]\n><answer>[[[481, 355, 961, 856]]]\n><answer>&#x2713;<answer>[0, 243, 1000, 431]</answer>\n[[481, 355, 961, 856]]\n[[29, 416, 508, 859]]\n[[481, 355, 961, 856]]\n"
+            ],
+            "iou_scores": [
+                0.8408034998584264,
+                0.9584443457667259,
+                0.9716186854970125,
+                0.8423100487758302,
+                0.8340083528733726,
+                0.8259902056807051,
+                0.0,
+                0.9765539575374909
+            ],
+            "iou_var": 0.09102416755623738,
+            "mean_iou": 0.7812161369986954,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000177516.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bigger one</ref>",
+            "ground_truth": [
+                439,
+                77,
+                771,
+                405
+            ],
+            "model_output": [
+                "bigger one[[374, 178, 767, 429]]\n<answer><sep>bigger one[[453, 129, 795, 377]]\nDNA<sep>bigger one[[353, 355, 695, 699]]\nDNA<sep>broccoli[[450, 122, 792, 371]]\nDNA<sep>broccoli[[370, 117, 497, 236]]\nDNA<sep>broccoli[[370, 178, 767, 429]]\nDNA<sep>broccoli[[453, 129, 795, 377]]\nDNA<sep>broccoli[[353, 355, 695, ",
+                "bigger one[[362, 129, 766, 402]]\n[[49, 30, 961, 961]]\n[[49, 30, 961, 961]]\n[[362, 129, 766, 402]]\n[[49, 30, 961, 961]]\n[[362, 129, 766, 402]]\n[[49, 30, 961, 961]]\n[[362, 129, 766, 402]]\n[[49, 30, 961, 961]]\n[[",
+                "bigger one[[361, 128, 767, 413]]\n<answer><sep>[[362, 195, 756, 701]]\n\u65b0\u6d6a\u5fae\u535a\u7684\u5fae\u535a\u5185\u5bb9\uff08\u672a\u547d\u540d\uff09\n<answer>bigger one[[361, 128, 767, 413]]\n[[362, 195, 756, 701]]\n[[41, 28, 967, 960]]\n[[363, 127, 766, 414]]\n[[362, 195, 756, 701]]\n</select>\nNew search result for the bounding box of the region described: bigger one[[361, 1",
+                "bigger one[[373, 184, 755, 414]]\n[[51, 35, 963, 958]]\n[[51, 35, 963, 958]]\n[[51, 35, 963, 958]]\n[[373, 184, 755, 414]]\n[[51, 35, 963, 958]]\n[[51, 35, 963, 958]]",
+                "bigger one[[365, 192, 758, 468]]\n[[42, 32, 961, 961]]\n</div></section>\n</div>\n[[365, 192, 758, 468]]\n[[42, 32, 961, 961]]\n[[365, 192, 758, 468]]\n[[42, 32, 961, 961]]\n[[365, 192, 758, 468]]\n[[42, 32, 961, 961]]",
+                "bigger one[[390, 182, 754, 456]]\nKnow the context or your main task?\n\uff1b\nAnswers with brief most accurate descriptions on what the image is about\n pudding of pasta and broccoli, topped with grated cheese, in a bowl.\n;\nI'm sorry, but I can't provide the specific coordinates of the region described in the image. However, I can describe the content of the image.\n;\nI'm sorry, but I can't provide the specific coordinates of the region described in the image. However, I can describe the content of the image.\n[[33, 30, 968, 959]]\n[[33, 30, 968, 959]]\n",
+                "bigger one[[379, 183, 765, 421]]\nAnswers:\nbigger one[[379, 183, 765, 421]][[52, 36, 967, 958]]\n[[52, 36, 967, 958]]\n[[52, 36, 967, 958]]",
+                "bigger one[[363, 129, 748, 412]]\nKnow the image for the exact position of <answer> [363, 129, 748, 412]\n[[38, 30, 963, 958]]\n3\n[[38, 30, 963, 958]]\n3[[38, 30, 963, 958]]\n3[[38, 30, 963, 958]]\n3[[38, 30, 963, 958]]\n"
+            ],
+            "iou_scores": [
+                0.5594704056866767,
+                0.6871387116389694,
+                0.6792971962616823,
+                0.5502363693665301,
+                0.45474745176251696,
+                0.5075982570617182,
+                0.563679980061063,
+                0.6433275249496481
+            ],
+            "iou_var": 0.005981141343199382,
+            "mean_iou": 0.5806869870986006,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000027237.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right person</ref>",
+            "ground_truth": [
+                669,
+                508,
+                900,
+                998
+            ],
+            "model_output": [
+                "right person[[661, 502, 906, 987]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nright person[[661, 502, 906, 987]]\n<issue>\nright person[[661, 502, 906, 987]]\n<answer>\nright person[[378, 606, 573, 988]]\n</issue>\n<issue>\nright person[[378, 606, 573, 988]]\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n",
+                "right person[[667, 502, 909, 988]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nright person[[667, 502, 909, 988]]\n<issue>\nright person[[667, 502, 909, 988]]\n<answer>\nchild[[386, 607, 577, 990]]\n<issue>\nchild[[386, 607, 577, 990]]\n[[383, 600, 576, 984]]\n[[0, 546, 70, 856]]\n[[665, 504, 909, 988]]\n",
+                "right person[[667, 508, 907, 989]]\n[[378, 605, 578, 998]]\n[[0, 543, 68, 856]]\nendif\n[[109, 585, 153, 647]]\n[[157, 587, 185, 632]]\n[[167, 598, 189, 627]]\n[[519, 201, 547, 226]]\n[[615, 212, 640, 232]]\n[[449, 283, 553, 357]]\n[[449",
+                "right person[[672, 506, 903, 1000]]\n<answer>\nHere is the location of the region described by the sentence noted with [x1, y1, x2, y2] tags: \nright person[[672, 506, 903, 1000]]\n<image>\n<answer>\n\u8fd8\u6709\u4ec0\u4e48\u533a\u57df\u9700\u8981\u66f4\u4ed4\u7ec6\u7684\u68c0\u67e5\uff1f<answer>\n</answer>",
+                "right person[[664, 503, 906, 988]]\n><answer>\nimagenzo<answer>\n[[383, 607, 582, 997]]\n[[0, 545, 67, 855]]\n</image>\n</answer>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>",
+                "right person[[664, 505, 907, 989]]\n><answer>[[664, 505, 907, 989]]]</answer>\n[[385, 607, 584, 999]]\n[[0, 544, 60, 855]]\n[[699, 505, 908, 987]]\n[[385, 607, 584, 999]]\n[[0, 544, 60, 855]]\n[[408, 282, 536, 356]]\n[[588, 211, 622, 230]]",
+                "right person[[664, 501, 908, 1000]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nright person[[664, 501, 908, 1000]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nkite[[421, 282, 557, 358]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nkite[[421, 282, 557, 358]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nboy[[389, 605, 581, 1000]]\n</answer>\nMultiplying the coordinates of the regions described by the sentence: \nboy[[389, 60",
+                "right person[[664, 503, 909, 987]]\n[[386, 607, 586, 988]]\nIFF the sentence describes the bounding box coordinates of the region that is not mentioned, then provide the answer in <answer> </answer> \n<answer>[x1,y1,x2,y2]</answer> \nnot mentioned[[0, 546, 60, 855]]\n[[0, 546, 60, 855]]\nIf the sentence describes the bounding box coordinates of the region that is not mentioned, then provide the answer in <answer> </answer> \n<answer>[x1,y1,x2,y2]</answer> \nnot mentioned[[111, 585, 147, 649]]\n[[111, 585, 147, 649]]\nIf the sentence describes the"
+            ],
+            "iou_scores": [
+                0.9116968508478487,
+                0.9246009906439185,
+                0.9454726469762337,
+                0.9665697674418605,
+                0.0,
+                0.9283154121863799,
+                0.9296461776011038,
+                0.0
+            ],
+            "iou_var": 0.1639297191444859,
+            "mean_iou": 0.7007877307121682,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000560525.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front top magazine</ref>",
+            "ground_truth": [
+                273,
+                631,
+                746,
+                903
+            ],
+            "model_output": [
+                "front top magazine[[503, 461, 759, 714]]\nI'm sorry, but I can't provide the bounding box coordinates for the region described.\n[[0, 553, 171, 837]]\nThe region describes a book lying on the bed. Here is the book: <answer>[x1,y1,x2,x3]</answer>\n[[154, 426, 464, 751]]\nThe region describes a book lying on the bed. Here is the book: <answer>[x1,y1,+x2,x3]</answer>\nThe region describes a comic book lying on the bed. Here is the comic book: <answer>[x1,y1,+x2,x3]</answer>\nThe region describes a comic book lying on the bed. Here is the comic book: <answer>[x1,y1,+x2,x3]</answer>\nThe region describes a magazine lying",
+                "front top magazine[[510, 461, 753, 703]]\n[[449, 474, 761, 698]]\nHere are the bounding boxes for the region that you can see: \n<answer>[x1,y1,x2,y2]</answer> \n[[158, 431, 456, 754]]\nHere are the bounding boxes for the region that you can see: \n<answer>[x1,y1,x2,y2]</answer> \nperson[[650, 1, 1000, 707]]\nHere are the bounding boxes for the region that you can see: \n<answer>[x1,y1,x2,y2]</answer> \nperson[[650, 1, 1000, 707]]\nHere are the bounding boxes for the region that you can see: \n<answer>[x1,y1,x2,y2]</answer> \nperson",
+                "front top magazine[[502, 454, 764, 706]]\nAI[[434, 461, 762, 697]]\nAI[[652, 0, 1000, 720]]\nAI[[3, 554, 190, 837]]\n[[200, 747, 661, 926]]\n[[214, 433, 487, 756]]\n[[206, 432, 493, 707]]\n",
+                "front top magazine[[499, 454, 760, 702]]\nbook[[219, 761, 719, 928]]\n[[551, 500, 763, 689]]\n[[0, 555, 172, 835]]\n\n\n\n[[616, 0, 998, 706]]\nHere is the image description for the region specified in the sentence:\n\nbook[[0, 555, 172, 835]]\n[[143, 432, 430, 751]]\n\n\n\nbook[[499, 500, 763, 689]]\n\n",
+                "front top magazine[[499, 454, 757, 697]]\nRODE'S END\nman[[637, 2, 1000, 712]]\nbed[[0, 375, 678, 1000]]\nblanket[[0, 375, 678, 1000]]\nbook[[0, 552, 164, 834]]\nclothing[[596, 594, 1000, 996]]\nmobile device[[694, 31, 1000, 698]]\npillow[[386, 115, 702, 452]]\nblanket[[0, 372, 680, 987]]\nwindow[[0",
+                "front top magazine[[508, 460, 764, 704]]\nReply: \nfront top magazine[[508, 460, 764, 704]]\nReply: \nfront top magazine[[508, 460, 764, 704]]\nReply: \nfront top magazine[[147, 433, 473, 752]]\nReply: \nfront top magazine[[147, 433, 473, 752]]\nReply: \nfront top magazine[[147, 433, 473, 752]]\nReply: \nfront top magazine[[147, 433, 473, 752]]\nReply: \nfront top magazine[[147, 433, 473, 752]]\nReply: \n",
+                "front top magazine[[514, 454, 759, 707]]\nbook[[0, 551, 184, 832]]\n[[155, 427, 457, 749]]\n</select>\n[[492, 500, 745, 702]]\n[[529, 555, 753, 710]]\n[[533, 648, 758, 921]]\n[[274, 752, 561, 937]]\n[[324, 845, 529, 940]]\n[[313, 643, 654, 803]]\n",
+                "front top magazine[[508, 456, 756, 700]]\nKnow the bounding box coordinates for? \nfront top magazine[[270, 475, 509, 676]]\nKnow the bounding box coordinates for? \nfront top magazine[[508, 456, 756, 700]]\nKnow the bounding box coordinates for? \nfront top magazine[[270, 475, 509, 676]]\n[[476, 505, 757, 697]]\n\nI'm sorry, but I can't provide the bounding box coordinates for the region mentioned in the input sentence.\n[[3, 556, 178, 832]]\n\nI'm sorry, but I can't"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.10375326000680349,
+                0.09972874146274886,
+                0.09312874183081211,
+                0.0999965466830891,
+                0.10191377327191072,
+                0.09506442985655239
+            ],
+            "iou_var": 0.0018454410677089471,
+            "mean_iou": 0.07419818663898958,
+            "correct_count": 0
+        }
+    ]
+}

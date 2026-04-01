@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 53,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000304603.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man</ref>",
+            "ground_truth": [
+                314,
+                32,
+                738,
+                800
+            ],
+            "model_output": [
+                "man[[324, 31, 692, 802]]\n[[0, 249, 500, 964]]\n[[0, 247, 506, 969]]\n[[92, 2, 304, 243]]\n[[301, 0, 658, 794]]\n[[574, 95, 780, 542]]\n[[773, 521, 999, 671]]\n[[787, 476, 855, 568]]\n[[862, 297, 903, 469]]\n[[974, 389, 1000, 485",
+                "man[[323, 31, 692, 807]]\n<answer>\nHere is the requested information for the bounding box of the region in the image: \n\n```markdown\n<select>\n    <option value=\"1\">x1,y1</option>\n    <option value=\"2\">x2,y2</option>\n</select>\n```\n\nAnswer:\nman[[323, 31, 692, 807]]\n<answer>\nHere is the requested information for the region in the image: \n\n```markdown\nman[[323, 31, 692, 807]]\n```\n<answer>\nHere is the requested information for the region in the image:\n\n```markdown\nman[[323, 31, 692, 807]]\n```\n<answer>\nHere is the requested information for the region in the image:\n\n```markdown\nman[[93, 252, 498, 96",
+                "man[[326, 32, 698, 806]]\n<answer>\nhere is the bounding box for the region described by the sentence: man[[326, 32, 698, 806]]\n<answer>\nwhere is the child? \nchild[[86, 251, 498, 966]]\n<answer>\nwhere is the dog crate? \ndog crate[[563, 98, 778, 541]]\n<answer>\nwhere is the man sitting? \nman[[326, 32, 698, 806]]\n<answer>\nwhere is the dog? \ndog[[286, 0, 640, 646]]\n</select>\nI'm sorry, but I can't provide the bounding box coordinates for the dog crate.\n<answer",
+                "man[[327, 25, 694, 802]]\n<answer>\nhere you are the bounding box coordinates of the region that regions describes the man in the image: <b>x1</b>: <0 16</td>: <b>y1</b>: 150\n<b>x2</b>: 0 240\n<b>y2</b>: 0 338</td>: <b>x3</b>: 0 349\n<b>width</b>: 107\n<b>height</b>: 155</td>: <b>x4</b>: 105 240\n<b>y4</b>: 155 241</b>x5</b>y6</b>x7</b>y8</td>: <b>x8</b>: 248 167\n</b></td>: <b>x9</b>: 0 349\n</b></td>: <b>x10</b>: 105 240\n</b></td>: <",
+                "man[[328, 29, 699, 803]]\nAnother question: What is the boy holding?\nboy[[86, 247, 502, 963]]\nAnother question: What is the man holding?\nman[[328, 29, 699, 803]]\nThe final answer is <answer>[x1,y1,[x2,x3]][[0, 11, 299, 584]]\nAnother question: What is the boy holding?\nboy[[86, 247, 502, 963]]\nAnother question: What is the man holding?\nman[[328, 29, 699, 803]]\nThe final answer is <answer>[x1,y1,[x2,x3]][[557, 148, 785, 544]]\n",
+                "man[[326, 25, 700, 804]]\n<answer>\nHere is the requested bounding box for the region described in the sentence:\n\nman[[326, 25, 700, 804]]\n<answer>\nWhere should I describe the bounding box for the region in the image? (in <box> tags)\nman[[326, 25, 700, 804]]\n<answer>\nThe bounding box for the region in the image is too small. Could you please specify the exact part of the image you'd like me to describe? I'll draw a precise box around it for you.\nuser<answer>\n<answer>\nI'm sorry, but I can't provide the coordinates for that image. However, I can describe the scene for you. The man and the young boy are sitting on the floor in a living room, playing with Wii controllers. The man is wearing a red shirt and has a beard. There's a cage in the background, a book",
+                "man[[322, 30, 703, 803]]\n[[0, 244, 488, 974]]\n[[322, 31, 703, 802]]\n[[2, 4, 719, 554]]\n[[707, 0, 777, 87]]\n[[770, 473, 852, 570]]\n[[896, 305, 930, 525]]\n[[941, 337, 989, 475]]\n[[887, 302, 925, 468]]\n[[708, 686, 759, 757]]",
+                "man[[326, 32, 697, 800]]\n[[81, 255, 501, 971]]\n[[299, 0, 648, 799]]\n${\\displaystyle}101{:}00932197530175901043344194908333493030542232225000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "iou_scores": [
+                0.8649919200822682,
+                0.8624643926667154,
+                0.8713856965083083,
+                0.8568744584796388,
+                0.8690591658583899,
+                0.8710704602936806,
+                0.893358612920067,
+                0.875
+            ],
+            "iou_var": 0.00010331401801410173,
+            "mean_iou": 0.8705255883511336,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000040455.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second from right</ref>",
+            "ground_truth": [
+                497,
+                346,
+                779,
+                779
+            ],
+            "model_output": [
+                "second from right[[526, 349, 816, 785]]\n[[292, 329, 592, 819]]\n\u4e0d\u59a8\u770b\u770b\u8fd9\u4e2a\u56fe\u50cf\u7684\u6807\u7b7e\u3002\n[[70, 295, 340, 814]]\n would be happy to help.\n[[345, 285, 598, 796]]\nI find it.\n[[595, 302, 831, 771]]\nI find it.\n[[290, 329, 564, 825]]\nI find it.\n[[70, 295, 340, 814]]\n[[345, 285, 598, ",
+                "second from right[[523, 345, 819, 780]]\n[[292, 326, 587, 823]]\nIdentify the first person in the image and tell me their gender.\nfirst person[[96, 297, 346, 819]]\n[[323, 284, 595, 802]]\nI'm unable to identify the gender of the person in the image.\n[[587, 285, 661, 534]]\n[[633, 304, 825, 772]]\n[[325, 324, 586, 838]]\n[[505, 285, 665, 543]]\n",
+                "second from right[[527, 348, 817, 783]]\nsecond from left[[298, 329, 591, 819]]\n koje\nfisher[[623, 305, 838, 774]]\nsecond from left[[305, 285, 593, 799]]\nchick[[98, 298, 333, 818]]\nchick[[306, 325, 592, 808]]\nchick[[526, 285, 703, 783]]\nfeather[[306, 325, 592, 808]]\nfeather[[526, 345, ",
+                "second from right[[533, 352, 816, 778]]\nsecond from left[[296, 327, 585, 820]]\nDNA of the bird is described as: second from left[[292, 328, 594, 802]]\nDNA of the bird is described as: head[[519, 286, 694, 602]]\nDNA of the bird is described as: head[[326, 285, 567, 791]]\nsecond from left[[326, 285, 567, 791]]\nDNA of the bird is described as: head[[62, 297, 345, 819]]\nDNA of the bird is described as: head",
+                "second from right[[494, 344, 823, 777]]\nsecond from left[[295, 333, 585, 815]]\n${\\text{second from left}}\n${\\text{second from left}}\n[[92, 298, 340, 815]]\n${\\text{first from left}}\n${\\text{first from left}}\n[[553, 282, 743, 549]]\n${\\text{third from right}}\n${\\text{third from right}}\n[[329, 284, 618, 798]]\n${\\text{fourth from right}}\n${\\text{fourth from right}}\n[[650, 311, 844",
+                "second from right[[528, 344, 824, 785]]\nImages: \nsecond from right[[314, 326, 584, 803]]\nImages: \nsecond from right[[509, 284, 684, 773]]\nImages: \nsecond from left[[284, 327, 555, 804]]\nImages: \nsecond from left[[103, 298, 347, 822]]\nImages: \nsecond from right[[319, 282, 583, 799]]\nImages: \nsecond from right[[319, 282, 583, 799]]\nImages: \nsecond from right[[319, 282, 583, 799]]",
+                "second from right[[542, 352, 816, 785]]\nsecond from left[[293, 328, 593, 811]]\n clich\u00e9 image keyword missing\n[[87, 296, 340, 822]]\n```json\n{\n  \"boundingBox\": {\n    \"x\": 585,\n    \"y\": 576,\n    \"width\": 139,\n    \"height\": 204\n  }\n}\n```\n[[87, 296, 340, 822]]\n```json\n{\n  \"boundingBox\": {\n    \"x\": 354,\n    \"y\": 576,\n    \"width\": 139,\n    \"height\": 204\n  }\n}\n```\n```json\n{\n  \"boundingBox\": {\n    \"x\": 468,\n    \"y\":",
+                "second from right[[515, 346, 816, 778]]\nAnswers:\nsecond from right[[306, 328, 593, 807]]\nAnswers:\nsecond from left[[306, 328, 593, 807]]\nAnswers:\nsecond from left[[306, 328, 593, 807]][[515, 286, 661, 787]]\nAnswers:\nsecond from left[[515, 286, 661, 787]]\nAnswers:\nsecond from left[[515, 286, 661, 787]]\nAnswers:\nsecond from right[[306, 328, 593, 807]]\nAnswers:\n"
+            ],
+            "iou_scores": [
+                0.7784281175763473,
+                0.791669642474539,
+                0.7777777777777778,
+                0.7601183740969623,
+                0.8498192573118633,
+                0.7549580088775276,
+                0.7251861353359752,
+                0.8258961546817293
+            ],
+            "iou_var": 0.0013850739977723987,
+            "mean_iou": 0.7829816835165901,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000337452.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right boy red skateboard</ref>",
+            "ground_truth": [
+                865,
+                219,
+                1000,
+                874
+            ],
+            "model_output": [
+                "right boy red skateboard[[875, 222, 1000, 855]]\n[[565, 338, 797, 857]]\nHere is the reformatted text:\ngrindl[[90, 264, 998, 632]]\nThe given information already contains the bounding box coordinates of the region describing the grindl.\ngrindl[[90, 264, 998, 632]]\n[[201, 333, 312, 693]]\nHere is the reformatted text: grindl[[90, 264, 998, 632]]\nThe given information already contains the bounding box coordinates of the region describing grindl.\nThe given information already contains the bounding box coordinates of the region describing grindl.",
+                "right boy red skateboard[[849, 221, 1000, 859]]\n[[576, 337, 800, 861]]\nHere is the image and its detail breakdown:\n\n**Image Content:**\n\nThe image shows a group of skateboarders gathered at a skate park. The background features a green wall with a sign that reads \"GRINDBLADE\". There are various individuals present, some standing and some sitting on the edge of a concrete skate ramp. \n\n- The skateboarders are wearing casual attire suitable for skateboarding, including helmets, knee pads, and various types of shorts and t-shirts.\n- One young boy in the foreground is wearing a white t-shirt and a white helmet, holding onto a skateboard. He is bent over, seemingly preparing to skate.\n- To his right, another boy in a white t-shirt and dark shorts is holding a skateboard.\n- In the background, there are several other skateboarders, including a man holding a camera, and a few spectators.\n- A red skateboard is visible in the background on the right side of the image.\n\n**Description:**\n\n- The",
+                "right boy red skateboard[[859, 220, 1000, 861]]\n[[565, 341, 797, 862]]\n2\n[[497, 321, 561, 731]]\n3[[220, 527, 333, 704]]\n4\n823skateboard[[586, 786, 807, 902]]\n5[[914, 538, 980, 852]]\n23\nskateboard[[323, 587, 505, 735]]",
+                "right boy red skateboard[[852, 216, 1000, 865]]\n[[577, 335, 791, 865]]\nHere is the image and its corresponding box coordinates: \nbox[[577, 335, 791, 865]]\n[[860, 519, 914, 771]]\nThe coordinates of the region described as 'this sentence describes a group of people around the skate park' are: \nthis sentence describes a group of people around the skate park[[212, 323, 320, 694]]\nThe coordinates of the region described as 'this sentence describes a group of people around the skate park' are: \nthis sentence describes a group of people around the skate park[[212, 323, 320, 694]]\nThe coordinates of the region described",
+                "right boy red skateboard[[855, 222, 1000, 861]]\n<answer>right boy[[855, 222, 1000, 861]]\n\u5199\u51fa\u5355\u8bcd\uff1agrind[[266, 213, 424, 732]]\n elsewhere;;;[[558, 336, 793, 863]]\n elsewhere;[[560, 203, 692, 738]]\n elsewhere[[201, 314, 298, 692]]\n elsewhere[[218, 523, 336, 704]]\n elsewhere[[",
+                "right boy red skateboard[[877, 226, 1000, 866]]\n[[574, 336, 797, 865]]\nHere is the broken sentence for you to arrange:\n[[574, 336, 797, 865]]\nAnd the bounding box coordinates for the boy wearing white helmet and gray pants: <answer>[x1,y1],[x2,y2]</answer>\n[[209, 325, 311, 693]]\nHere is the broken sentence for you to arrange: boy[[524, 297, 666, 734]]\nHere is the broken sentence for you to arrange: boy[[524, 297, 666, 734]]\nAnd the bounding box coordinates for the boy wearing red shirt:",
+                "right boy red skateboard[[856, 220, 1000, 859]]\n[[572, 343, 798, 860]]\nHere is the updated ground-level text from my 3D model: \n\n```\nright boy[[572, 343, 798, 860]]\n```\nright boy red skateboard[[856, 220, 1000, 859]]\nman[[597, 195, 712, 693]]\n[[584, 224, 667, 732]]\n[[482, 323, 566, 710]]\n[[220, 326, 321, 694]]\n[[208, 26",
+                "right boy red skateboard[[868, 221, 1000, 867]]\n[[584, 340, 799, 857]]\nHere is the refined bounding box coordinates for the region found in the image:\n afterwards, I will provide the refined bounding box coordinates for the region found in the image:\nright boy red skateboard[[911, 542, 984, 860]]\n\nMore the region of the sentence: skateboard[[596, 781, 804, 901]]\nAnd the refined bounding box coordinates for the region according to the abstract image are:\n[[596, 781, 804, 901]]\nHere is the refined bounding box coordinates for the region found in the image:\n[[430, 587, 512,"
+            ],
+            "iou_scores": [
+                0.8948261238337574,
+                0.8732371518660084,
+                0.9378352895275872,
+                0.8966041925833016,
+                0.9098243948742287,
+                0.0,
+                0.9159977064220184,
+                0.964342663273961
+            ],
+            "iou_var": 0.09190065839521734,
+            "mean_iou": 0.7990834402976079,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000330284.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>full elephant on left</ref>",
+            "ground_truth": [
+                233,
+                570,
+                493,
+                845
+            ],
+            "model_output": [
+                "full elephant on left[[235, 565, 491, 843]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1afull elephant on right[[454, 525, 705, 840]]\n<answer>\n\n<answer>\n\n####\n\n   ####\n    ####\n    !!\n    ****\n    ***\n    *.*####\n    #######\n    *****\n    ***\n####\n    ****\n    *.*\n***\n    *\n*.*\n*.*\n***\n    *\n    *\n    *\n    *\n*****\n    *****",
+                "full elephant on left[[242, 566, 484, 845]]\n<answer>full elephant on left[[0, 503, 70, 884]]\n<answer>full elephant on right[[463, 527, 703, 843]]\n</answer><answer>full elephant[[463, 527, 703, 843]]\n<image>\nfull elephant[[463, 527, 703, 843]]\n<answer>\n<answer>\nfull elephant[[242, 566, 484, 845]]\n</answer><answer>\n</image>\n</image>",
+                "full elephant on left[[235, 562, 493, 843]]\n<answer>\nbdd coordinate of the region described as \"<answer>\" in the image: full elephant on left[[0, 502, 75, 887]]\n<answer>\n\n```json\n{\"bdd coordinate of the region described as 'full elephant on left'\": \"100, 497, 88, 878\"}\n```\n<answer>\n\n```json\n{\"bdd coordinate of the region described as 'full elephant on left'\": \"558, 496, 650, 878\"}\n```\n<answer>\n\n```json\n{\"bdd coordinate of the region described as 'full elephant on left'\": \"403, 494, 493, 843\"}\n```\n```json\n{\"bdd coordinate of the region described as 'full elephant on left'\": \"",
+                "full elephant on left[[240, 570, 491, 845]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1afull elephant on left[[0, 513, 74, 887]]\n<question>What is the object that the water is coming from?<br>\n=> Answer with: <answer>Rock formation with a waterfall</answer>\n<answer>\n<question>: What object is the water coming from?<br>\n=> Answer with: <answer>Rock formation with a waterfall</answer>\n<answer>The image shows three elephants standing near a rock formation with a waterfall. The water is coming from the rock formation, which has a waterfall cascading down into the water. The elephants are standing on a dirt ground in an enclosure, and there is a metal fence in the background. There are trees and a structure visible behind the elephants.\n<answer>The water is coming from the rock formation, which",
+                "full elephant on left[[245, 570, 491, 842]]\n><answer>[[245, 570, 491, 842]]\nDB:\nDB:\n",
+                "full elephant on left[[236, 570, 494, 846]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1afull elephant[[448, 522, 707, 841]]\n<answer>\n\n<answer>\n</select><answer>\n</select><answer>\n</select><answer>\n</select><answer>",
+                "full elephant on left[[236, 565, 492, 847]]\n><answer>[x1,y1,x2,y2]</answer>\nMore tags: full elephant[[461, 525, 705, 842]]\nMore tags: elephant[[461, 525, 705, 842]]\nMore tags: elephant[[236, 565, 492, 847]]\nMore tags: elephant[[461, 525, 705, 842]]\nMore tags: elephant[[236, 565, 492, 847]]\nMore tags: elephant[[461, 525, 705, 842]]\nMore tags: elephant[[4",
+                "full elephant on left[[238, 570, 480, 845]]\n<answer>\nfull elephant on left[[0, 510, 62, 887]]\n<answer>\n\n<answer>\n\n####\n<answer>\n\n</livelines>\n</livelines>>\n</body>\n</html>\n</body>>\n</html>\n</body>>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>"
+            ],
+            "iou_scores": [
+                0.9602638087386645,
+                0.0,
+                0.9574520145723452,
+                0.0,
+                0.9358321678321678,
+                0.9811475296044868,
+                0.0,
+                0.9307692307692308
+            ],
+            "iou_var": 0.21310972968542105,
+            "mean_iou": 0.5956830939396119,
+            "correct_count": 5
+        }
+    ]
+}

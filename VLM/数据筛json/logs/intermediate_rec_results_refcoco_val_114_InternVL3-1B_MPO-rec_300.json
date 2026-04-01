@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 114,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000402041.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>animal on left</ref>",
+            "ground_truth": [
+                33,
+                193,
+                335,
+                822
+            ],
+            "model_output": [
+                "animal on left[[31, 192, 350, 818]]\n<answer>\nanimal on left[[282, 221, 622, 824]]\nanimal[[282, 300, 627, 823]]\nanimal[[512, 300, 926, 823]]\nperson[[592, 203, 706, 645]]\nperson[[411, 115, 501, 448]]\nperson[[534, 603, 599, 866]]\nperson[[776, 857, 820, 964]]\nperson[[730, 857, 780, 951]]\nperson[[6",
+                "animal on left[[31, 197, 355, 819]]\n<answer>\nhere is the bounding box coordinates for the region describing the person on the elephant in the middle: \nperson on the elephant[[339, 114, 462, 444]]\n<answer>\nhere is the bounding box coordinates for the region describing the person on the elephant in the right: \nperson on the elephant[[681, 207, 765, 696]]\n<answer>\nhere is the bounding box coordinates for the region describing the man in the middle: \nman[[504, 609, 576, 867]]\n<answer>\nhere is the bounding box coordinates for the region describing the person on the elephant in the left: \nperson[[108, 135, 254, 454]]\n\u505a\u5b8c\u8fd9\u4e9b\u6807\u8bb0\u540e\uff0c\u53ef\u4ee5\u5f97\u51fa\u7ed3\u8bba\uff1a\u8be5\u53e5\u5b50",
+                "animal on left[[29, 207, 351, 824]]\n<answer>\nhere is the bounding box for the region described by \"animal on left\": \n<input><summary>boundingBox (250, 207, 446, 825)</summary>\n<answer>\nhere is the bounding box for the region described by \"animal on right\": \n<input><summary>boundingBox (462, 299, 929, 824)</summary>\n</code></li>\n</ol>\n<answer>\n<input><summary>boundingBox (379, 608, 427, 930)</summary> </answer>\n<answer>\n<input><summary>boundingBox (525, 608, 575, 930)</summary> </answer>\n<answer>\n<input><summary>boundingBox (430, 609, 483, 929)</summary> </answer",
+                "animal on left[[22, 190, 359, 819]]\n<answer>\nhere is the bounding box for the region described by \"animal on left\": \n<input>animal on left[[222, 219, 621, 820]]\n</input>\n<answer>\nhere is the bounding box for the region described by \"animal on right\": \n<input>animal on right[[516, 303, 927, 820]]\n</input>\n<answer>\nhere is the bounding box for the region described by \"man in the center\": \n<input>man in the center[[505, 610, 584, 870]]\n</input>\n<answer>\nhere is the bounding box for the region described by \"man in the center\": \n<input>man in the center[[505, 610, 584, 870]]\n</",
+                "animal on left[[22, 201, 366, 822]]\n<answer>\nHere is the reconstructed text from the image, one sentence per line:\n\n\"animal on left[[22, 201, 366, 822]]\"\n<answer>\nanimal on left[[264, 213, 622, 823]]\n<answer>\nanimal on left[[657, 296, 930, 820]]\n<answer>\nanimal on left[[32, 134, 325, 818]]\n<answer>\nanimal on left[[32, 134, 325, 818]]\n<answer>\nanimal on left[[32, 134, 325, 818]]\n<answer>\nanimal on right[[",
+                "animal on left[[28, 193, 356, 819]]\n<answer>\nanimal on left[[28, 193, 356, 819]]\n<answer>\n\n<answer>\n\n</answer>\n<p>[x1,y1,x2,y2]</p>\n<answer>\n</answer>",
+                "animal on left[[27, 191, 347, 823]]\nImages: \nanimal[[262, 218, 622, 823]]\nanimal[[503, 298, 930, 821]]\nImages: \nanimal[[27, 191, 347, 823]]\nanimal[[262, 218, 622, 823]]\nanimal[[503, 298, 930, 821]]\nImages: \nanimal[[262, 218, 622, 823]]\nImages: \nanimal[[503, 298, 930, 821]]\nImages: \nanimal[[27, 191, 347, 823]]\nImages:",
+                "animal on left[[26, 198, 347, 820]]\n<answer><list><option>answer</option></list><src><image><img src=\"https://i.pinimg.com/originals/6b/43/7b/6b437b9536671d64b82510d5f10f2d51.jpg\"/></src></image>\natab\nanimal on left[[26, 198, 347, 820]]\n</answer><src><image><img src=\"https://i.pinimg.com/originals/6b/43/7b/6b437b9536671d64b82510d5f10f2d51.jpg\"/></src></image>\n</answer><src><image><img src=\"https://i.pinimg.com/originals/6b/43/7b/6b437b9536671d64b82"
+            ],
+            "iou_scores": [
+                0.9395127972842481,
+                0.9224226829435971,
+                0.2019813686435275,
+                0.8880725670451289,
+                0.8680892427328273,
+                0.9166868702541773,
+                0.939270174050633,
+                0.9309531361509793
+            ],
+            "iou_var": 0.0561594403618533,
+            "mean_iou": 0.8258736048881398,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000553284.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man on left</ref>",
+            "ground_truth": [
+                108,
+                277,
+                424,
+                637
+            ],
+            "model_output": [
+                "man on left[[133, 280, 410, 711]]\n[[667, 298, 849, 740]]\nWikimedia: man[[667, 298, 849, 740]]\nWikimedia: man[[345, 263, 537, 436]]\nWikimedia: man[[345, 263, 537, 436]]\nWikimedia: man[[133, 280, 410, 711]]\nWikimedia: man[[667, 298, 849, 740]]\nWikimedia: man[[345, 263, 537, 436]]\nWikimedia: man[[3",
+                "man on left[[131, 286, 405, 714]]\n\u5f29[[654, 299, 847, 743]]\nman on right[[697, 304, 843, 739]]\nman[[320, 266, 532, 436]]\nperson[[131, 286, 405, 714]]\n[[654, 299, 847, 743]]\n[[422, 27",
+                "man on left[[134, 286, 415, 711]]\n[[674, 297, 844, 737]]\n\u52ab\u6848[[112, 436, 916, 750]]\n[[112, 436, 916, 750]]\n[[112, 436, 916, 750]]\nBounding box for the region that this name describes: man[[674, 297, 844, 737]]\n[[674, 297, 844, 737]]\n[[303, 263, 535, 652]]\nBounding box for the region that this name describes: man[[303",
+                "man on left[[136, 285, 410, 709]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman on left[[136, 285, 410, 709]]\n<answer>\n\n<answer>\n<answer>\n</answer>\n</postage-station><answer>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage-station>\n</postage",
+                "man on left[[131, 285, 398, 712]]\n[[128, 421, 1000, 751]]\n[[667, 297, 848, 743]]\nHere is your best effort: \"man on left of the image\" is described as \"[object]\". Find the bounding box that captures this region.\nman on left of the image[[128, 421, 1000, 751]]\n[[128, 421, 1000, 751]]\nHere is your best effort: \"man on right of the image\" is described as \"[object]\". Find the bounding box that captures this region.\nman on right of the image[[667, 297, 848, 743]]\n[[679, ",
+                "man on left[[130, 285, 411, 707]]\n[[674, 301, 850, 741]]\nRNA\n[[123, 440, 911, 751]]\n[[701, 231, 781, 313]]\n[[638, 271, 757, 430]]\n[[437, 271, 586, 427]]\n[[362, 261, 533, 432]]\n[[323, 278, 457, 447]]\n[[392, 254, 545, 441]]\n",
+                "man on left[[123, 282, 396, 710]]\n[[672, 299, 849, 739]]\nNIKE\n[[148, 445, 631, 747]]\n[[719, 402, 842, 499]]\n[[620, 265, 746, 439]]\n[[352, 272, 516, 439]]\n[[434, 269, 582, 431]]\n[[296, 235, 492, 441]]\n[[291, 222, 413, 373]]",
+                "man on left[[126, 285, 415, 653]]\n[[666, 304, 847, 740]]\nDNAI tags of the region: <answer>[x1,y1,x2,y2]</answer>\nman on left[[126, 285, 415, 653]]\nDNAI tags of the region: <answer>[x1,y1,x2,y2]</answer>\n[[348, 266, 513, 445]]\nDNAI tags of the region: <answer>[x1,y1,x2,y2]</answer>\nDNAI tags of the region: <answer>[x1,y1,x2,y2]</answer>\nDNAI tags of the region: man[[348, 266, 513, 445]]\nDNAI tags of the"
+            ],
+            "iou_scores": [
+                0.7365594601439021,
+                0.713150128283083,
+                0.7330216864604545,
+                0.7225218746254345,
+                0.7025002803004822,
+                0.7413025556471559,
+                0.7249287525525661,
+                0.0
+            ],
+            "iou_var": 0.05760678435515121,
+            "mean_iou": 0.6342480922516348,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000432372.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>third dog front left</ref>",
+            "ground_truth": [
+                163,
+                528,
+                617,
+                800
+            ],
+            "model_output": [
+                "third dog front left[[81, 508, 626, 775]]\nAI:\n[[15, 434, 483, 632]]\nAI: Where would you look for the dog in the image?\nAI:\nPlease describe the bounding box coordinates that capture the dog in the image: dog[[816, 490, 1000, 790]]\nAI: <answer>[x1,y1,x2,y3]</answer>\n[[551, 362, 1000, 592]]\nAI:\nThe bounding box coordinates for the dog in the image are: dog[[551, 362, 1000, 592]]\nAI: <answer>[x1,y1,x2,y3]</answer>\n[[612, 460, 999, 846",
+                "third dog front left[[104, 508, 666, 779]]\n<answer>third dog front left[[104, 508, 666, 779]]\n<answer>third dog front right[[566, 361, 1000, 590]]\n</answer>\nuserFor which region of the image do you think the person is located?<i> [i] left, [i] right</i> tags</i> <answer>[i] right</i></label>\n<answer>person[[802, 0, 1000, 292]]\n</answer>\n</body&gt;\n</body></div>\n</div>\n</body></div>\n</body></div>\n</body></div>\n</div>\n</body></div>\n</div>\n</body></div>\n</div>\n</html>\n</html",
+                "third dog front left[[13, 433, 492, 625]]\n><answer>[[13, 433, 492, 625]]]</answer>\n><answer>&#x1209;23&#x1236;22&#x1235;43&#x1234;43&#x1232;55&#x1231;55&#x122f;55&#x122b;62&#x122a;55&#x1227;62&#x1224;76&#x1220;56&#x121f;62&#x1204;63&#x1200;61&#x1201;59&#x1204;71&#x1206;62&#x1202;62&#x1207;62&#x1206;62&#x",
+                "third dog front left[[112, 510, 651, 787]]\n<answer>\nthird dog front left[[112, 510, 651, 787]]\n<answer>\n\n[[14, 431, 519, 735]]\n\n<answer>\n\n[[595, 355, 1000, 595]]\n\n<answer>\n\n</answer>[[14, 209, 837, 460]]\n</body>\n</selection>\n</selection>[[648, 448, 1000, 850]]\n</body>",
+                "third dog front left[[12, 437, 484, 628]]\nthird dog front left[[110, 514, 661, 784]]\n<img id=\"image2\" src=\"https://www.robblum.com/images/156355/201311281640356.jpg\" width=\"300\" height=\"300\" style=\"float: left;\">\n\n[[624, 406, 1000, 594], [578, 361, 997, 588], [589, 309, 921, 417], [559, 336, 901, 454], [374, 208, 799, 379], [346, 225, 841, 372], [30, 422,",
+                "third dog front left[[73, 509, 656, 739]]\n[[168, 525, 714, 936]]\nThe rest of the bounding boxes:\n[[626, 354, 1000, 595]]\nThe rest of the bounding boxes:\n[[588, 404, 996, 594]]\nThe rest of the bounding boxes:\n[[519, 301, 912, 492]]\nThe rest of the bounding boxes:\n[[327, 208, 823, 375]]\nThe rest of the bounding boxes:\n[[2, 209, 788, 436]]\nThe rest of the bounding boxes:\n[[7, 3",
+                "third dog front left[[111, 512, 676, 783]]\n<answer>\n\n</body>\n</body>>\n</select><answer>\n</body></body>",
+                "third dog front left[[16, 431, 491, 622]]\n><answer>[[[16, 431, 491, 622]]\n><answer>third dog front[[520, 358, 1000, 592]]\nIKEA\n><answer>third dog front[[228, 515, 686, 779]]\n><answer>third dog[[478, 310, 892, 491]]\n><answer>third dog[[326, 209, 805, 374]]\n[[635, 425, 998, 589]]\n</code></pre><att\n[[154, 590, 704,"
+            ],
+            "iou_scores": [
+                0.0,
+                0.7041325786598779,
+                0.17387206267741073,
+                0.757617344802036,
+                0.17682053541919135,
+                0.5921104682786926,
+                0.7198149633470743,
+                0.1681308314383715
+            ],
+            "iou_var": 0.0841514448927171,
+            "mean_iou": 0.41156234807783176,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000320137.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right dude</ref>",
+            "ground_truth": [
+                468,
+                36,
+                964,
+                609
+            ],
+            "model_output": [
+                "right dude[[521, 29, 965, 600]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" from person in the middle: \nthis sentence describes[[41, 113, 545, 793]]\n\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" from the first person: \nthis sentence describes[[41, 113, 545, 793]]\n\nMore details: \nthis sentence describes[[521, 29, 965, 600]]\n\n</more details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details>\n</More details",
+                "right dude[[534, 26, 967, 612]]\n<answer>\nhere is the bounding box coordinate of the region described above (if any): right[[37, 115, 541, 799]]\n<answer>\nHere is the bounding box coordinate of the region described above (if any): man[[534, 26, 967, 612]]\n<answer>\nHere is the bounding box coordinate of the region described above (if any): flower[[0, 717, 308, 997]]\n<answer>\nHere is the bounding box coordinate of the region described above (if any): dinner table[[254, 479, 1000, 989]]\n<answer>\nHere is the bounding box coordinate of the region described above (if any): man[[534, 26",
+                "right dude[[535, 29, 964, 605]]\n another person right[[33, 106, 517, 794]]\n another person young man[[33, 106, 517, 794]]\nanother person young man[[33, 106, 517, 794]]\nanother person man[[535, 29, 964, 605]]\nanother person man[[535, 29, 964, 605]][[532, 440, 655, 623]]",
+                "right dude[[522, 30, 965, 606]]\nAnother question: What is the person on the left wearing?  \nPlease limit the answer to the provided sentence and the image.\nperson[[35, 110, 536, 793]]\nThe man on the left is wearing a <answer>blue sweater</code> shirt and a blue collared shirt.\nThe man on the right is wearing a <answer>white shirt</code> and glasses.\nThe man sitting on the right is wearing a <answer>white shirt</code> and glasses.\nThe bowl on the table is <answer>[x=431, y=648, 463, 744]</answer> .\nThe bowl on the table is <answer>[x=431, y=648, 463, 744]</answer> .\nThe bowl is on the table in front of the man on the right.\nThe bowl is on the table in front of the man on the right.\nThe",
+                "right dude[[522, 36, 963, 613]]\n<answer>\nHere is the requested information about the bounding box coordinates: \n\nBounding box coordinates for the region: \n<code>[522, 36, 963, 613]</code>\n<answer>\nHere is the requested information about the bounding box coordinates: \n\nBounding box coordinates for the region: \n<code>[362, 736, 643, 985]</code>\n</textarea>",
+                "right dude[[524, 29, 964, 600]]\n<answer>\nhere is the bounding box coordinate of the region described above (if any): right dude[[524, 29, 964, 600]]\n<answer>\nThe second person is located at [355, 37, 966, 787] <answer>[x1,y1,x2,y2]</answer>\n<answer>\nsecond person[[355, 37, 966, 787]]\n<answer>\nThe first person is located at [36, 105, 518, 798] <answer>[x1,y1,x2,y2]</answer>\n<answer>\nfirst person[[36, 105, 518, 798]]\n<answer>\nThe region described by the coordinates [640, 733, 7",
+                "right dude[[532, 25, 968, 612]]\n<answer>right dude[[532, 25, 968, 612]]\n\u5c31\u77e5\u9053\u4e86<answer>[d10]\n<answer>right dude[[532, 25, 968, 612]]\n<answer>person[[36, 115, 516, 793]]\n[[493, 392, 967, 612]]\n[[4, 236, 1000, 1000]][[493, 392, 967, 612]]\n[[37, 115, 516, 793]]\n",
+                "right dude[[530, 27, 964, 615]]\n<answer>\nhere is the bounding box coordinate of the region described in the sentence \"<answer>\":\nright dude[[530, 27, 964, 615]]\n<answer>\nWhere is the man in the grey sweater and the man in the white shirt?<answer>\nman in the grey sweater and the man in the white shirt[[39, 101, 540, 796]]\n<answer>\nWhere is the chair?<answer>\nchair[[447, 115, 624, 463]]\nHere is the bounding box coordinate of the region described in the sentence \"<answer>\":\nchair[[447, 115, 624, 463]]\n<answer>\nWhat is in front of the man?<answer>\nin front of the man[[827, 202,"
+            ],
+            "iou_scores": [
+                0.8679032930387661,
+                0.8450863641976155,
+                0.8499012920814314,
+                0.0,
+                0.8836284671226554,
+                0.8638021776057475,
+                0.8459761315634783,
+                0.855406269993602
+            ],
+            "iou_var": 0.08081689385291572,
+            "mean_iou": 0.7514629994504121,
+            "correct_count": 7
+        }
+    ]
+}

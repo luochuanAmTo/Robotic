@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 87,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000002964.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left bottle with cowboy on it</ref>",
+            "ground_truth": [
+                229,
+                30,
+                377,
+                965
+            ],
+            "model_output": [
+                "left bottle with cowboy on it[[234, 25, 378, 967]]\n<answer>left bottle with cowboy on it[[234, 25, 378, 967]]\n<answer>left bottle with cowboy on it[[234, 25, 378, 967]]\n<issue>\n</issue>\n<issue> left bottle with cowboy on it[[234, 25, 378, 967]]\n<issue> left bottle with cowboy on it[[234, 25, 378, 967]]\n</issue>\n<issue> left bottle with cowboy on it[[234, 25, 378, 967]]\n</issue>\n<issue> left bottle",
+                "left bottle with cowboy on it[[234, 31, 378, 973]]\nThe velvet devil[[371, 30, 526, 950]]\nMRI The velvet devil[[502, 25, 652, 961]]\nrelieving[[626, 0, 781, 953]]\ntoaster[[765, 323, 1000, 974]]\nbottle[[631, 0, 786, 960]]\nbowl[[0, 235, 264, 807]]\nbottle[[424, 32, 568, 951]]\nwall socket[[688, 132, 785, 376]]",
+                "left bottle with cowboy on it[[238, 33, 380, 964]]\n><answer>[x1,y1,x2,y2]</answer>\nGreat! Can you describe the wine bottles in the image?\nwine bottles[[526, 21, 673, 964]]\n[[378, 30, 527, 952], [461, 19, 606, 960], [622, 0, 773, 960]]\n<answer>wine bottles[[526, 21, 673, 964]]\n<answer>wine bottles[[378, 30, 527, 952]]\n<image>\n<answer>\nuserOn which bottle is the number 4 printed?\nsherlock\nthe",
+                "left bottle with cowboy on it[[234, 27, 379, 965]]\n[[379, 26, 520, 952]]\n[[503, 23, 650, 964]]\nrelieving[[643, 2, 784, 964]]\ntoaster[[763, 319, 1000, 967]]\nbottle[[644, 0, 782, 958]]\nkitchen sink[[0, 245, 262, 810]]\nbottle[[236, 30, 377, 965]]\nbottle[[378, 28, 520, 947]]\nartifact[[5",
+                "left bottle with cowboy on it[[236, 29, 376, 975]]\n<answer>left bottle with cowboy on it[[236, 29, 376, 975]]\n<answer>left bottle with cowboy on it[[236, 29, 376, 975]]\n<issue> what is the bounding box for the region that this sentence describes: The Velvet Devil[[365, 31, 530, 953]]\niable\n<answer>The Velvet Devil[[365, 31, 530, 953]]\n<issue> what is the bounding box for the region that this sentence describes: Relax[[623, 1, 775, 962]]\niable\n<answer>Relax[[623, ",
+                "left bottle with cowboy on it[[242, 30, 374, 966]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>left bottle[[242, 30, 374, 966]]\n><answer>left bottle[[451, 27, 612, 957]]\nReply\n><answer>left bottle[[451, 27, 612, 957]]\n><answer>left bottle[[242, 30, 374, 966]]\nReply\n><answer>left bottle[[242, 30, 374, 966]]\nReply\n><answer>left bottle[[451, 27, 612, 957]]",
+                "left bottle with cowboy on it[[241, 30, 382, 964]]\n><answer>[x1,y1,x2,y2]</value>\n><answer>&#x1176;Wily Jack</answer>\n><answer>[x1,y1,x2,y2]</value>\n><answer>&#x1176;THE VELVET DEVIL MERLOT</answer>\n><answer>[x1,y1,x2,y2]</value>\n><answer>&#x1176;14 HANDS</answer>\n<img src=\"https://i.imgur.com/6H5ZoO5.jpg\" alt=\"Riesling Relax\">\n)<answer>[x1,y1,x2,y2]</value>",
+                "left bottle with cowboy on it[[238, 29, 383, 973]]\n><answer>[x1,y1,x2,y2]</answer>"
+            ],
+            "iou_scores": [
+                0.9528373823250643,
+                0.9508493158486752,
+                0.0,
+                0.950385613249458,
+                0.9355345911949685,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.2244164030316817,
+            "mean_iou": 0.47370086282727075,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000279762.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman on couch</ref>",
+            "ground_truth": [
+                180,
+                349,
+                755,
+                656
+            ],
+            "model_output": [
+                "woman on couch[[392, 349, 762, 659]]\n><answer>[[392, 349, 762, 659]]]</answer>\n><image</div>\nwoman on couch[[2, 355, 755, 883]]\n><image</div>\nwoman[[2, 355, 755, 883]]\n><image</div>\nman[[2, 493, 832, 966]]\n><image</div>\nman[[431, 0, 866, 400]]\n><image</div>\nlamp[[265, 70, 365, 348]]\n[[0, 501, 367, 792]]\n",
+                "woman on couch[[251, 346, 760, 665]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nwoman on couch[[251, 346, 760, 665]]\n<answer>\nWhere to place the bounding box for the region described by the sentence \"this man is sitting on the sofa\"?\nthis man is sitting on the sofa[[0, 493, 824, 966]]\n<answer>\nWhere to place the bounding box for the region described by the sentence \"the man sitting on the sofa\"?\nthe man sitting on the sofa[[0, 493, 824, 966]]\n<answer>\nWhere to place the bounding box for the region described by the sentence \"the man is sitting on the sofa\"?\nthe man is sitting on the sofa[[0, 493, 824, 966]]",
+                "woman on couch[[189, 346, 762, 661]]\n[[0, 488, 833, 967]]\n\u8a55\u8ad6\nwoman on couch[[0, 488, 833, 967]]\n\u8a55\u8ad6\nwoman on couch[[189, 346, 762, 661]]\n[[0, 349, 765, 872]]\nimage\n[[420, 2, 855, 400]]\nimage\nimage\n[[467, 0, 865, 403]]\nimage\nimage\n[[13, 334, 999, 1000]]\nimage\nimage[[1",
+                "woman on couch[[252, 346, 755, 662]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u7537\u4eba\u5750\u7684\u6c99\u53d1\u4e0a\uff0c\u9760\u5728\u6c99\u53d1\u6276\u624b\u4e0a\uff0c\u7a7f\u7740\u767d\u8272\u6761\u7eb9\u886c\u886b\uff0c\u6234\u7740\u773c\u955c\uff0c\u624b\u91cc\u62ff\u7740\u4e00\u53f0\u7b14\u8bb0\u672c\u7535\u8111\u3002\u4ed6\u7684\u8868\u60c5\u653e\u677e\uff0c\u770b\u8d77\u6765\u6b63\u5728\u4f7f\u7528\u7535\u8111\u3002\n<answer>\n<answer>\u5973\u4eba[[252, 346, 755, 662]]\n<answer>\u5973\u4eba[[2, 488, 837, 967]]\n<answer>\u5979[[2, 488, 837, 967]]\n<answer>\u5979[[252, 346, 755, 662]]\n<answer>\u5979[[252, 346, 755, 662]]\n[[3, 486",
+                "woman on couch[[204, 352, 765, 668]]\n[[0, 487, 828, 965]]\n\u8a55\u8ad6\nwoman on couch[[204, 352, 765, 668]][[0, 487, 828, 965]]\n[[0, 348, 788, 872]]\nman[[2, 0, 851, 964]]\n[[431, 0, 851, 405]]\n[[204, 352, 765, 668]]\n[[0, 487, 828, 965]]",
+                "woman on couch[[223, 352, 757, 659]]\n[[12, 489, 825, 966]]\nMore tags:\n[[403, 22, 855, 400]]\n\nMore tags:\n[[248, 529, 435, 588]]\n\nMore tags:\n[[0, 501, 362, 784]]\n\nMore tags:\n[[220, 338, 998, 1000]]\n\nMore tags:\n[[237, 71, 354, 159]]\n\nMore tags:\n[[237, 71, 354, 159]]\n",
+                "woman on couch[[292, 346, 755, 654]]\n[[0, 489, 827, 965]]\n\u5c31\u5f88\u6709\u8da3\uff01\n[[0, 346, 787, 869]]\n[[0, 34, 866, 870]]\n[[0, 337, 1000, 1000]]\n[[123, 534, 826, 737]]\n[[2, 503, 368, 783]]\n[[1, 0, 858, 412]]\n[[0, 335, 1000, 1000]]\n[[349",
+                "woman on couch[[197, 350, 765, 667]]\n><answer>[[405, 23, 845, 405]]\n><answer>woman on couch[[15, 489, 827, 964]]\n><answer>woman[[15, 489, 827, 964]]\n><answer>laptop[[0, 503, 365, 788]]\n><answer>laptop[[0, 504, 372, 786]]\n><answer>couch[[309, 333, 1000, 989]]\n[[3, 447, 1000, 1000]]\n[[0,"
+            ],
+            "iou_scores": [
+                0.6198604992657856,
+                0.8401459536944529,
+                0.9481823440177236,
+                0.852909661312772,
+                0.8991234426748687,
+                0.9048479592693093,
+                0.7937261823128028,
+                0.918824966502182
+            ],
+            "iou_var": 0.009496494781927402,
+            "mean_iou": 0.8472026261312371,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000532505.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>plaid couch on the right</ref>",
+            "ground_truth": [
+                559,
+                227,
+                977,
+                494
+            ],
+            "model_output": [
+                "plaid couch on the right[[571, 205, 982, 489]]\nwoman[[332, 317, 677, 816]]\n[[447, 242, 573, 561]]\n[[332, 316, 678, 815]]\n[[127, 304, 572, 907]]\n[[571, 205, 982, 489]]\n[[552, 308, 603, 453]]\n[[565, 418, 620, 488]]\n[[796, 601, 871, 658]]\n",
+                "plaid couch on the right[[564, 209, 984, 491]]\nAIr\n[[134, 302, 582, 907]]\n[[562, 214, 983, 488]]\n[[4, 302, 137, 597]]\n[[135, 313, 585, 909]]\n[[4, 307, 122, 595]][[4, 302, 137, 597]]\n[[135, 313, 585, 909]]\n[[562,",
+                "plaid couch on the right[[564, 207, 984, 490]]\nwoman[[339, 322, 677, 816]]\n[[435, 242, 569, 515]]\n hence the ground cover is <answer>[0, 432, 141, 607]</answer>\n[[132, 301, 559, 907]]\n[[0, 298, 143, 605]]\n[[0, 269, 133, 594]]\n[[564, 209, 987, 494]]\n[[132, 301, 559, 907]]",
+                "plaid couch on the right[[560, 213, 984, 488]]\n[[134, 303, 592, 907]]\n${\\displaystyle{{134, 303, 592, 907}}\n${\\displaystyle{{134, 303, 592, 907}};<answer>\n[[0, 297, 151, 607]]\n${\\displaystyle{{0, 297, 151, 607}}\n${\\displaystyle{{0, 297, 151, 607}}\uff1b\n${\\displaystyle{{0, 297, 151, 607}}\n",
+                "plaid couch on the right[[565, 211, 984, 489]]\nwoman[[327, 317, 674, 823]]\n[[443, 243, 564, 501]]\n hence, the full coordinates of the region of interest are: <answer>[x1,y1],[x2,y2]</answer>\n[[0, 298, 148, 606]]\n</div></div></div>\n[[0, 298, 148, 606]]\n</div></div></div>\n</div></div>\n</div>[[666, 344, 804, 512]]\n</div></div>\n</div>",
+                "plaid couch on the right[[567, 206, 982, 487]]\n[[130, 301, 606, 910]]\n```\nplaid couch on the right[[567, 206, 982, 487]]\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n\n\n\n\n*The scene is set in a cozy living room at night, featuring two women seated on a navy blue sofa. The room is well-lit by a lamp and a window with vertical blinds. One woman, wearing a white sweater, is actively engaged in playing a video game with a white remote controller.",
+                "plaid couch on the right[[565, 213, 982, 485]]\nAnonymous: plaid couch[[565, 213, 982, 485]]\nAnonymous: woman[[345, 320, 675, 818]]\nAnonymous: woman[[429, 243, 561, 503]]\nAnonymous: woman[[345, 320, 675, 818]]\nAnonymous: woman[[429, 243, 561, 503]]\nAnonymous: woman[[345, 320, 675, 818]]\nAnonymous: woman[[429, 243, 561, 503]]\n",
+                "plaid couch on the right[[567, 211, 985, 488]]\n[[128, 306, 596, 911]]\n\u2022 the woman is playing a video game with a Wii remote.\n\u2022 the woman is standing on the left side of the image.\n\u2022 the woman is sitting on the dark blue sofa.\n\u2022 the woman is standing on the right side of the image.\n\u2022 the woman is sitting on the plaid couch.\n\u2022 the woman is sitting on the dark blue sofa.\n\u2022 the woman is sitting on the white chair.\n\u2022 the woman is sitting on the white chair.\n\u2022 the woman is sitting on the plaid couch.\n\u2022 the woman is sitting on the dark blue sofa.[[422, 241, 582, 595]]"
+            ],
+            "iou_scores": [
+                0.8722019055740501,
+                0.9009866627001835,
+                0.0,
+                0.9117693873618778,
+                0.0,
+                0.8764933687438847,
+                0.8952448329880236,
+                0.8889202704723298
+            ],
+            "iou_var": 0.14897098196020658,
+            "mean_iou": 0.6682020534800437,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000218984.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front flower vase</ref>",
+            "ground_truth": [
+                500,
+                294,
+                770,
+                864
+            ],
+            "model_output": [
+                "front flower vase[[483, 286, 780, 869]]\nPROBLEM: Why is there a light source on the shelf?\n\nAnswer: The light source on the shelf is providing illumination to highlight the details of the vases.\nuser\ncan you describe the objects in the image? \n\nthe objects[[0, 211, 67, 861]]\nSPIKEYETTE\nthe[[634, 378, 997, 751]]\nthe[[0, 0, 1000, 987]]\n[[291, 52, 564, 749]]\n[[0, 471, 302, 850]]\n[[0, 0, 1000, 987]]\n",
+                "front flower vase[[483, 287, 784, 870]]\n[[668, 381, 996, 748]]\n[[295, 54, 562, 749]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1a\n[[0, 471, 294, 852]]\n\n[[0, 213, 57, 566]]\n\n[[292, 557, 547, 761]]\n\n[[573, 376, 778, 566]]\n\n[[293, 552, 545, 766]]\n\n[[671, 380, ",
+                "front flower vase[[472, 286, 775, 871]]\nI'm sorry, but I can't provide the bounding box coordinates for the region that contains the vase with floral patterns on the right side of the image.\n; the sentence describes: front flower vase[[472, 286, 775, 871]]\n[[472, 286, 775, 871]]\n[[312, 55, 548, 751]]\n[[312, 55, 548, 751]]\n[[472, 286, 775, 871]]\n[[546, 364, 779, 866]]\n",
+                "front flower vase[[479, 283, 779, 872]]\n[[739, 378, 998, 747]]\n\ufffd[[297, 55, 548, 750]]\n[[0, 470, 298, 853]]\n[[478, 285, 777, 866]]\n[[299, 52, 547, 745]]\n[[0, 212, 56, 546]]\n[[737, 377, 998, 742]]\n[[297, 52, 547, 750]]\n```\n[[0,",
+                "front flower vase[[477, 287, 777, 870]]\nPROSPECTUS\nfront flower vase[[655, 381, 998, 748]]\n[[294, 53, 561, 753]]\nDNA[[2, 474, 295, 850]]\n[[487, 6, 774, 707]]\n[[0, 212, 52, 801]]\n[[541, 6, 776, 857]]\n[[583, 6, 1000, 732]]\n[[1, 2, 1000, 987]]\n[[0, 21",
+                "front flower vase[[482, 284, 776, 872]]\nAI",
+                "front flower vase[[484, 288, 781, 874]]\nAnonymous\nfront flower vase[[741, 378, 998, 749]]\n[[297, 52, 562, 751]]\nThe bounding box coordinates for the basket are: <br>\nbasket[[2, 472, 310, 852]]\nThe bounding box coordinates for the other vase are: <br>\nother vase[[339, 54, 566, 745]]\nThe bounding box coordinates for the flower-patterned vase are: <br>\nflower-patterned vase[[338, 57, 569, 753]]\nThe bounding box coordinates for the other vase are: <br>\nother vase[[337, 57, 566, 753]]\nThe bounding box coordinates for the",
+                "front flower vase[[481, 284, 776, 871]]\nSPIRIT\nfront flower vase[[708, 378, 997, 747]]\nuser\nwhat is the texture of the vase?\nuser\nwhat is the vase in the middle of the image?\n\u63cf\u8ff0\u5b83\u7684\u7279\u5f81\u3002\n kilometo\nvase[[303, 54, 558, 755]]\n[[525, 356, 775, 869]]\n</circle></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div"
+            ],
+            "iou_scores": [
+                0.8888195852175269,
+                0.8770080292677923,
+                0.8682406702208683,
+                0.8709677419354839,
+                0.8799313893653516,
+                0.8902540608079966,
+                0.884269314303444,
+                0.8887477261571334
+            ],
+            "iou_var": 6.225207212781567e-05,
+            "mean_iou": 0.8810298146594496,
+            "correct_count": 8
+        }
+    ]
+}

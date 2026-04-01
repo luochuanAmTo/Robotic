@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 91,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000133940.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>kid on right</ref>",
+            "ground_truth": [
+                766,
+                143,
+                1000,
+                989
+            ],
+            "model_output": [
+                "kid on right[[770, 140, 1000, 989]]\nKnow the context or basic information to answer the question properly.\nuser\nWhat is the woman blowing out the candles on her cake?\n[[14, 739, 712, 987]]\nRAPIDIN[[285, 0, 787, 918]]\nI'm sorry, but I can't provide the bounding box coordinates for the man and the boy based on the given image description.\n[[0, 16, 224, 837]]\nI'm sorry, but I can't answer that based on the given information.\n[[0, 16, 22",
+                "kid on right[[775, 141, 1000, 990]]\n[[25, 4, 803, 918]]\nMore image: <image>\n[[2, 740, 713, 1000]]\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore image: <image>\nMore",
+                "kid on right[[763, 134, 1000, 992]]\n<answer>\nHere is the requested bounding box for the region described by the sentence: woman[[35, 2, 806, 928]]\n<answer>\nThe region describing the object she is blowing out the candles in is: <object>woman[[35, 2, 806, 928]]\n<answer>\nThe bounding box for the man in the background: \nman[[2, 13, 226, 841]]\n<answer>\nThe region describing the boy in the background: \nboy[[763, 134, 1000, 992]]\n<answer>\nThe region describing the woman blowing out the candles: \nwoman[[35, 2, 806, 928]]\n<answer>\nThe region",
+                "kid on right[[776, 136, 998, 989]]\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted <answer>[x,b,y]</answer>:\n\nkid on right[[776, 136, 998, 989]]\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted <answer>[x1,b,y1,x2,y2]</answer>:\n\nkid on right[[776, 136, 998, 989]]\n</answer>\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted <answer>[x1,y1,y2,x3,x4]</answer>:\n\nkid on right[[776, 136, 998, 989]]\n</answer>\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted <answer>[x,i,y],[x,o,y]</answer>",
+                "kid on right[[770, 143, 1000, 997]]\nuser\nwhat is the name of the woman in the image?\nuser\nwhat is the name of the person blowing out the candles? a woman or a man?\nperson[[62, 2, 807, 912]]\n\u8709\u8763[[62, 2, 807, 912]]\n",
+                "kid on right[[764, 138, 1000, 998]]\n[[56, 41, 379, 839]]\n\u52ab[[6, 733, 706, 1000]]\n[[27, 2, 803, 920]]\n[[0, 11, 222, 835]]\n[[273, 2, 811, 919]]\n[[273, 2, 811, 919]]\n[[0, 11, 222, 835]]\n[[56, 41, 379, 839]]\n[[6, 733, 706, 1",
+                "kid on right[[771, 137, 999, 985]]\nI'm sorry, but I can't provide the specific coordinates for the bounding box of the person blowing candles. However, I can describe the scene and the objects present.\nx1,y1,x2,y2: 10 - 158, 46 - 737x1,y1,x2,y2: 157,-72,-106,228\nThe woman blowing candles is in the center of the image, with two lit candles in front of her. She is wearing glasses and a dark jacket over a green shirt. Behind her, there are two other individuals, one of whom is wearing a red sweater and the other a purple sweater.",
+                "kid on right[[771, 136, 1000, 982]]\nAI[[67, 45, 375, 835]]\nAI[[1, 10, 233, 843]]"
+            ],
+            "iou_scores": [
+                0.9794919810323477,
+                0.9582710343890173,
+                0.9735327963176065,
+                0.0,
+                0.973854377289744,
+                0.9753843121797399,
+                0.9630967431220275,
+                0.9627393306508591
+            ],
+            "iou_var": 0.10284876051839187,
+            "mean_iou": 0.8482963218726678,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000329141.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom right container</ref>",
+            "ground_truth": [
+                605,
+                477,
+                928,
+                984
+            ],
+            "model_output": [
+                "bottom right container[[589, 477, 933, 1000]]\nSuddenly, I'm confused. Could you please clarify?\n\nI'm sorry, but I can't provide the bounding box coordinates for that image.\n\n\nI'm sorry, but I can't provide the bounding box coordinates for that image.\n\nWhat is the food item that is not in a container but is placed on the tray?\n[[236, 521, 463, 993]]\nI'm not sure, but I can't see any food items in the tray.\n[[624, 1, 911, 459]]\n[[624, 1, 911, 459]]\n[[30, 0, 575, 460]]",
+                "bottom right container[[600, 480, 936, 1000]]\nKnow the context or background to confirm the image content please.\n\u00a0bottom right container[[600, 480, 936, 1000]]\n\n[[600, 480, 936, 1000]]\n\n[[28, 2, 593, 466]]\n\n[[577, 0, 907, 465]]\n\n[[25, 444, 627, 988]]\n\n[[600, 480, 936, 1000]]\n\n[[600, 480, 936, 1000]]",
+                "bottom right container[[602, 476, 933, 1000]]\n\u52ab\u592a\u533b\nbottom right container[[602, 476, 933, 1000]]\n-bowl[[565, 0, 917, 466]]\n--Bowl of carrots\n- carrot[[617, 806, 895, 984]]\n- apple[[32, 2, 565, 463]]\n- apple[[32, 2, 565, 463]]\n- honey mustard[[244, 519, 468, 984]]\n- carrot sticks[[61",
+                "bottom right container[[603, 479, 940, 1000]]\nHeinz English Mustard[[241, 513, 469, 985]]\nAlright, let's find the region of interests in the image: \"Heinz English Mustard\" bag. \nHeinz English Mustard[[241, 513, 469, 985]]\n[[241, 513, 469, 985]]\n[[603, 479, 940, 1000]]\n[[603, 479, 940, 1000]]\n[[603, 479, 940, 1000]]\n[[30, 4,",
+                "bottom right container[[604, 478, 939, 1000]]\n[[573, 0, 911, 471]]\n\u52ab<answer>[z]\n[[248, 519, 474, 984]]\n[[540, 484, 939, 1000]]\n[[652, 1, 912, 457]]\n[[2, 0, 602, 462]]\n[[604, 484, 939, 1000]]\n[[573, 0, 912, 471]]\n[[248, 519, 474, 984]]\n",
+                "bottom right container[[594, 479, 938, 1000]]\n\u52ab\nbottom right container[[594, 479, 938, 1000]][[594, 479, 938, 1000]]\n Zubereitingsbaum <answer>[x1,y1,x2,y2]</answer>\n Zubereitingsbaum <answer>[x1,y1,x2,y2]</answer>",
+                "bottom right container[[602, 480, 940, 1000]]\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of the tray.\nAnother image description: The red bell peppers are placed on the top right side of",
+                "bottom right container[[591, 476, 936, 1000]]\n\u52ab\nbottom right container[[591, 476, 936, 1000]][[593, 475, 938, 1000]]\n\u52ab\nbottom right container[[591, 476, 936, 1000]][[621, 0, 919, 471]]\n;[[621, 0, 919, 471]]\n[[622, 0, 919"
+            ],
+            "iou_scores": [
+                0.9102283338521054,
+                0.9265918754162185,
+                0.9441721823758678,
+                0.9256169739477821,
+                0.9329025703081744,
+                0.0,
+                0.9211391452449796,
+                0.9058579488881513
+            ],
+            "iou_var": 0.09346647381044235,
+            "mean_iou": 0.8083136287541599,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000150614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>boy on left</ref>",
+            "ground_truth": [
+                0,
+                272,
+                196,
+                985
+            ],
+            "model_output": [
+                "boy on left[[0, 270, 230, 987]]\n<answer>\nboy on left[[0, 270, 230, 987]]\n<answer>\n\n<answer>\n\n[[533, 243, 833, 998]]\n</answer>\n</div></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></",
+                "boy on left[[0, 265, 233, 986]]\n[[547, 247, 845, 989]]\n[[470, 595, 998, 695]]\n[[470, 595, 998, 695]]\n[[470, 595, 998, 695]]\n[[0, 265, 233, 986]]\n[[547, 247, 845, 989]]\n[[470, 595, 998, 695]]\n[[470, 595, 998, 695]]\n[[0, ",
+                "boy on left[[0, 261, 239, 1000]]\n<answer>\nboy on left[[0, 261, 239, 1000]]\n<issue> boy on left[[539, 244, 844, 1000]]\n<answer>\nboy on left[[539, 244, 844, 1000]]\n<issue> boy on left[[0, 261, 239, 1000]]\n<answer>\nboy on left[[0, 261, 239, 1000]]\n<issue> boy on left[[0, 261, 239, 1000]]\n<answer>\nboy on",
+                "boy on left[[0, 261, 242, 985]]\n<answer>\nboy on left[[0, 261, 242, 985]]\n<answer>\n\n<answer>\n\n[[538, 243, 842, 989]]\n\n[[417, 593, 977, 664]]\n\n[[420, 243, 844, 986]]\n<answer>\n\n[[538, 243, 842, 989]]\n\n[[0, 261, 242, 985]]\n[[417, 243, 8",
+                "boy on left[[0, 262, 236, 987]]\n[[535, 243, 843, 998]]\n[[473, 238, 843, 679]]\n[[0, 262, 236, 987]]\n[[473, 238, 843, 679]]\n[[0, 262, 236, 987]]\n[[473, 238, 843, 679]]\n[[471, 240, 844, 676]]\n[[0, 0, 999, 999]]\n[[473,",
+                "boy on left[[0, 266, 242, 991]]\n[[547, 247, 852, 995]]\n[[452, 246, 858, 746]]\n[[465, 592, 983, 679]]\n[[465, 592, 983, 679]]\n[[388, 604, 967, 668]]\n[[452, 592, 983, 679]]\n[[465, 592, 983, 679]]\n[[388, 604, 967, 668]]\n",
+                "boy on left[[0, 264, 233, 985]]\n[[532, 236, 840, 1000]]\n[[462, 594, 974, 686]]\n[[561, 592, 997, 707]]\n[[530, 237, 840, 1000]]\n[[0, 264, 233, 985]]\n[[561, 592, 997, 707]]\n[[462, 594, 974, 686]]\n[[532, 236, 840, 100",
+                "boy on left[[3, 263, 243, 989]]\n[[545, 243, 844, 1000]]\n[[478, 243, 843, 997]]\n[[478, 241, 841, 999]]\nbaseball bat[[455, 594, 981, 671]]\n[[456, 598, 978, 665]]\n[[456, 598, 978, 665]]\n[[477, 592, 985, 671]]\n[[456, 598, 978, 665]]"
+            ],
+            "iou_scores": [
+                0.8474198047419804,
+                0.8318679944997708,
+                0.7912309408281009,
+                0.7976119811880736,
+                0.8167621274108708,
+                0.7965118267312624,
+                0.8318679944997708,
+                0.7801892515548903
+            ],
+            "iou_var": 0.0004945107172555203,
+            "mean_iou": 0.8116827401818401,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000163506.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in blue jacket middle</ref>",
+            "ground_truth": [
+                498,
+                170,
+                631,
+                767
+            ],
+            "model_output": [
+                "man in blue jacket middle[[496, 165, 636, 765]]\n><answer>[x1,y1,x2,y2]</value>\n><answer></answer>\nuser<src>\nman in blue jacket[[496, 165, 636, 765]]\n[[347, 238, 536, 811]]\n${\\text{man in black jacket with skis}}\n</src><src></src>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>\n</dst>",
+                "man in blue jacket middle[[493, 176, 639, 769]]\nAI",
+                "man in blue jacket middle[[496, 177, 632, 773]]\nPROCESSED\n[[628, 183, 760, 827]]\nMore image: man[[377, 244, 541, 784]]\nMore image: skis[[343, 316, 405, 819]]\nMore image: skis[[2, 319, 1000, 856]]\nMore image: skis[[1, 317, 1000, 847]]\nMore image: skis[[343, 316, 405, 819]]\nMore image: skis[[2, 317, 1000, 847]]",
+                "man in blue jacket middle[[494, 172, 643, 767]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[612, 174, 760, 827]]\n</answer><question>What are the people wearing in the image?</question>\n</answer><Answer>Based on the image, the people are wearing winter sports gear, including jackets, pants, helmets, goggles, and skis. They are dressed appropriately for skiing in a snowy environment.</Answer>\n\n<question>What are the people standing next to each other in the image?</question> </question>\n</answer><Answer>Three people are standing next to each other in the image. They are dressed in winter sports gear, including jackets, pants, helmets, goggles, and skis. They appear to be posing for a photo while standing on a snow-covered ski slope.</Answer><question>What objects are visible in the image besides the people and skis?</question> </question>\n</",
+                "man in blue jacket middle[[492, 175, 638, 772]]\n<answer>\nman in blue jacket middle[[492, 175, 638, 772]]\nman[[361, 246, 542, 789]]\nskis[[367, 725, 485, 821]]\nskis[[1, 340, 403, 835]]\nhat[[121, 189, 181, 556]]\nouterwear[[549, 178, 662, 512]]\nglove[[493, 173, 580, 765]]\nboot[[629, 181, 763, 82",
+                "man in blue jacket middle[[499, 177, 653, 767]]\n[[363, 241, 525, 780]]\nAlright, let's find the region that contains the man in blue jacket middle. \nman in blue jacket middle[[499, 177, 653, 767]]\n[[363, 241, 525, 780]]\nThis appears to be the center of the image. The man in blue jacket middle is the one with the man on the left. The three skiers are in front of the man in blue jacket middle. The man on the right is the one with the skis crossed. The man in black is on the left. The three skiers are wearing the ski equipment. The man on the left is wearing a black jacket and blue pants. The man on the right is wearing a black helmet, a black jacket, and black pants. The skis are orange, black, and white.",
+                "man in blue jacket middle[[491, 174, 644, 775]]\nsource: image\n[[379, 241, 525, 776]]\nimage size: 1280x750 pixels\n[[0, 169, 998, 843]]\n[[0, 193, 850, 561]]\n[[529, 173, 613, 764]]\n[[624, 175, 753, 821]]\n[[130, 191, 186, 568]]\n[[37",
+                "man in blue jacket middle[[484, 175, 630, 763]]\n<answer to <answer>region description: region of interest </answer>\nobject tag: man[[358, 244, 542, 776]]\n\u621f\uff1a man[[358, 244, 542, 776]]\n<answer to <answer>region description: region of interest </answer>\n<answer to <answer>region description: region of interest </answer>\nwoman tag: woman[[124, 186, 199, 567]]\nwoman[[124, 186, 199, 567]]\nperson[[599, 175, 761, 823]]\nperson[[599, 175, "
+            ],
+            "iou_scores": [
+                0.0,
+                0.8995948544222669,
+                0.9571029553465793,
+                0.06837684642367306,
+                0.8964896899586687,
+                0.8430304932832509,
+                0.8527761258582472,
+                0.0
+            ],
+            "iou_var": 0.17759795065571787,
+            "mean_iou": 0.5646713706615858,
+            "correct_count": 5
+        }
+    ]
+}

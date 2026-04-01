@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 71,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000450457.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second zebra from center of pic</ref>",
+            "ground_truth": [
+                580,
+                228,
+                905,
+                833
+            ],
+            "model_output": [
+                "second zebra from center of pic[[407, 174, 916, 831]]\n><answer>[x1,y1,x2,y2]</guess]output: <answer>[fX:407,fY:174,fX+54,fY+459,fX+900,fY+459]</answer>\n><answer></tag>\nImplementing autocorrection: <tag>z</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</tag> <tag>zi</",
+                "second zebra from center of pic[[345, 141, 911, 830]]\n<answer>\nsecond zebra from center of pic[[345, 141, 911, 830]]\n<issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>",
+                "second zebra from center of pic[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]\nImages: \nsecond zebra[[395, 156, 915, 829]]",
+                "second zebra from center of pic[[330, 156, 916, 831]]\nIdentify the first chunk of text in the image: second zebra[[131, 148, 872, 833]]\nIdentify the first chunk of text in the image: zookeeper[[0, 385, 359, 865]]\nIdentify the first chunk of text in the image: zookeeper[[0, 385, 359, 865]]\nIdentify the first chunk of text in the image: zookeeper[[0, 385, 359, 865]]\nIdentify the first chunk of text in the image: zookeeper[[0, 385, 359, 865]]\nIdentify the first chunk of text in the image: zookeeper[[0, 385, 359,",
+                "second zebra from center of pic[[442, 168, 949, 827]]\n<answer>\nsecond zebra from center of pic[[442, 168, 949, 827]]\n<question>What animal is in the foreground?<br>the second zebra[[124, 148, 851, 831]]\n</question><answer>\nif I were to describe the image, what would you say?\nthe second zebra[[124, 148, 851, 831]]\n</answer><answer>\nI'm sorry, but I can't provide descriptions for this image.\n",
+                "second zebra from center of pic[[406, 165, 943, 830]]\n<image>\nAnswer: <answer>[x1,y1,x2,y2]</answer>\n<image>\nAnswer: <answer>[x1,y1,x2,y2]</answer>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div",
+                "second zebra from center of pic[[392, 139, 937, 828]]\n<answer>\nsecond zebra from center of pic[[392, 139, 937, 828]]\n<issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "second zebra from center of pic[[335, 144, 918, 828]]\n<image>\nAnswer: <image>[x1,y1,x2,y2]\n<image>\nAnswer: <image>[x1,y1,x2,y2]\n<image>\nAnswer: <image>[x1,y1,x2,y2]\n<image>\nAnswer: <image>[x1,y1,x2,y2]\n<answer><image><p>assistant</p></answer>\n<br><image><p>assistant</p></image>\n<br><image><p>assistant</p></image>\n[[126, 147, 816, 843]]\n[[819, 0, 998, 230]]\n</image><p>assistant</p"
+            ],
+            "iou_scores": [
+                0.0,
+                0.5004489076580321,
+                0.5560695780903034,
+                0.4946365471983847,
+                0.5792812657150593,
+                0.0,
+                0.5170630816959669,
+                0.0
+            ],
+            "iou_var": 0.06638652410187816,
+            "mean_iou": 0.33093742254471836,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000501842.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom left corner car</ref>",
+            "ground_truth": [
+                1,
+                798,
+                268,
+                1000
+            ],
+            "model_output": [
+                "bottom left corner car[[0, 786, 261, 1000]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \nbottom left corner car[[0, 786, 261, 1000]]\n<answer>\nWhere is the truck on the road?<pred>to the right of</pred> it is located in the bounding box coordinates? \ntruck on the road[[399, 531, 605, 899]]\n</answer><answer>\nWhat is the position of the truck?<pred>in front of</pred> it is located in the bounding box coordinates? \ntruck on the road[[399, 531, 605, 899]]\n</answer><answer>\nWhat is the position of the van?<pred>in front of</pred> it is located in the bounding box coordinates? \nvan[[215, 705, 41",
+                "bottom left corner car[[0, 793, 262, 1000]]\n><answer>\nishly, can you describe the main elements in the image? It appears to be a busy street scene with multiple vehicles and a house-like structure. There are large trucks, a camper van, a camper trailer, and several cars. The house-like structure has a roof and a chimney. There are trees and some buildings in the background. The sky looks overcast, and the street appears to be busy with traffic.\n",
+                "bottom left corner car[[0, 791, 270, 1000]]\n<answer>bottom left corner car[[0, 435, 271, 781]]\n    </div><div><answer>bottom left corner car[[0, 791, 270, 1000]]</div></answer>\n<answer>bottom left corner car[[479, 789, 987, 989]]\n</div><div><answer>bottom left corner car[[479, 789, 987, 989]]</div></answer>",
+                "bottom left corner car[[0, 793, 266, 1000]]\n[[485, 793, 989, 1000]]\nSo, the region bounding box of the described area is: <image>\n[[218, 709, 419, 920]]\nSo, the region bounding box of the second description is: <answer>[x1,y1,x2,y2]</answer>\n[[442, 521, 616, 903]]\nSo, the region bounding box of the third description is: <answer>[x1,y1,x2,y2]</answer>\n[[2, 731, 251, 854]]\nSo, the region bounding box of the fourth description is: <answer>[x1,y1,x2,y2]</answer>\n[[1, ",
+                "bottom left corner car[[0, 798, 267, 1000]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>&#x1209;QCS&#x27;s</answer>\n><answer>[x1,y1,x2,y2]</answer>\n<img src=\"https://www.pinterest.com/pin/397444073328818/140130541546914/5/1500x1500/pic_1240420014.jpg\" data-thumbnail=\"140130541546914\" style=\"max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: contain; display: block; text-indent: -20px;\"></image>\n",
+                "bottom left corner car[[0, 795, 261, 1000]]\n><answer>\n</body>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select> bottom left corner car[[0, 422, 262, 803]]\n\n</select> bottom left corner car[[0, 795, 261, 1000]]",
+                "bottom left corner car[[0, 792, 263, 1000]]\n><answer>\n><image>bottom left corner car[[0, 792, 263, 1000]]\n><answer>\n[[463, 788, 988, 1000]]\n[[511, 792, 999, 1000]]\n[[420, 533, 615, 907]]\n</code></mid>\n[[222, 704, 417, 919]]\n[[15, 565, 178, 783]]\n[[13, 558, 216, 790]]\n[[15,",
+                "bottom left corner car[[0, 791, 269, 999]]\n><answer>\nuser\nWhat is the truck on the left side of the image? It appears to be a camper van. Is there a signboard in the image? Yes, there is a signboard in the image. It is located near the right side of the truck. The truck is parked next to a small house. The truck has the letters \"QCS\" written on the side. The license plate of the truck is visible. The truck is towing a trailer. The truck is parked on the left side of the image. The trailer is parked next to the house. The house has a small roof. The sky is cloudy. The road is busy with cars in front of the truck. The road is made of concrete. The trees are on the right side of the image. The trees are tall and green. There are streetlights on the road. There is a billboard in the image. The billboard is on the right side of the road. The sky is cloudy. The sky is cloudy. The road is made of concrete. The cars are parked on the left side of the road"
+            ],
+            "iou_scores": [
+                0.9170915694628763,
+                0.9508711178443892,
+                0.0,
+                0.0,
+                0.0,
+                0.9563174857517435,
+                0.9499228201170262,
+                0.9546060940251516
+            ],
+            "iou_var": 0.20977221238931643,
+            "mean_iou": 0.5911011359001483,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000322517.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right</ref>",
+            "ground_truth": [
+                748,
+                559,
+                974,
+                988
+            ],
+            "model_output": [
+                "right[[737, 5, 1000, 382]]\n[[738, 554, 992, 1000]]\nIsn't it hard to put the text on the image?\ntext[[1, 176, 136, 778]]\n[[293, 2, 570, 371]]\n[[0, 1, 266, 473]]\n\n[[0, 213, 139, 794]]\n\n[[652, 253, 760, 511]]\n\n[[675, 455, 781, 551]]\n\n[[678, 254, 760, 471",
+                "right[[737, 556, 1000, 1000]]\n[[738, 546, 1000, 987]]\nIs the person in the background standing or sitting?  \nperson[[340, 0, 582, 336]]\n<image>:\n<answer>:<answer>[x1,y1,x2,y2]</answer>\n<question>What is the person taking the picture with their phone? What is the phone brand?\n<answer>: The person taking the picture with their phone is using a smartphone. The brand of the phone is not clearly visible in the image.\n<answer>:\n<question>: What do you think the people are having for dinner?\n<answer>: The people are having a meal consisting of meat on a plate with some greens, possibly salad, and some other food items on the table.\n<anatomy",
+                "right[[741, 5, 1000, 379]]\nPK[[741, 5, 1000, 380]]\n[[764, 555, 994, 984]]\n[[354, 0, 582, 329]]\n[[0, 0, 253, 464]]\n[[320, 613, 551, 1000]]\n[[349, 306, 446, 655]]\n[[10, 567, 227, 1000]]\n[[20, 733, 234, 1000]]",
+                "right[[743, 546, 991, 989]]\n[[365, 297, 462, 659]]\n thus the bounding box coordinates for the region are <box>[x1,y1,x2,y2]</box>\nright[[722, 0, 999, 385]]\n[[349, 0, 576, 330]]\n [[1, 0, 268, 452]]\n[[2, 573, 245, 988]]\n[[2, 698, 231, 1000]]\n[[361, 612, 999, 999]]\n[[342, 599,",
+                "right[[737, 5, 1000, 382]]\nAnother tag is not found in the sentence\nright[[737, 5, 1000, 382]]\nperson[[732, 5, 1000, 382]]\n[[343, 2, 574, 360]]\nvegetable[[433, 576, 728, 737]]\ncell phone[[759, 552, 999, 812]]\n[[401, 613, 573, 989]]\n[[411, 611, 534, 988]]\nbottle[[6",
+                "right[[745, 556, 992, 989]]\nAnother question about the image: If I were to describe the region \"right\" in the image, please provide the relevant information.\n",
+                "right[[734, 5, 1000, 378]]\nKnow the context or background for this image description\n### Summary of the image and its content\n\nCan you describe the objects in the image?\nThanks.\n[[347, 2, 575, 344]]\nWhat is the person holding the phone in?\nthe phone[[765, 556, 1000, 989]]\nWhat is the person taking a picture with?\nthe phone[[765, 556, 1000, 989]]\nWhat is on the table? Plates of food, wine glasses, candle, salt and pepper shakers, a phone, and a bowl of rice.\n\nI remember that there is a wine glass with a dark liquid.\na dark liquid[[0, 155, 169, 766]]\nWhat is the person taking a",
+                "right[[733, 566, 996, 1000]]\n[[345, 3, 571, 403]]\nDB\nperson[[721, 0, 998, 364]]\n[[345, 3, 571, 403]]\n[[0, 0, 252, 454]]\n[[348, 621, 486, 1000]]\n[[521, 468, 750, 578]]\n[[527, 407, 586, 548]]\n[[569, 181, 632, 428]]\n[[642, "
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.8824910798805796,
+                0.0,
+                0.9065272881973988,
+                0.0,
+                0.8241332826380008
+            ],
+            "iou_var": 0.17827596302025653,
+            "mean_iou": 0.3266439563394974,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000314065.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left animal</ref>",
+            "ground_truth": [
+                233,
+                443,
+                393,
+                895
+            ],
+            "model_output": [
+                "left animal[[221, 451, 400, 911]]\n[[422, 414, 590, 906]]\n[[527, 446, 797, 904]]\nHow many sheep are in the image?\n[[436, 421, 578, 799]]\nHow many sheep are in the image?\n[[567, 456, 794, 880]]\nHow many sheep are in the image?\n[[219, 474, 264, 550]]\nHow many sheep are in the image?\n[[266, 457, 364, 869]]\nHow many men are there?\n[[207, 156, 49",
+                "left animal[[213, 447, 400, 885]]\n[[437, 413, 605, 939]]\nThus, the bounding box coordinates for the region describing the region of interest in the image are: [198, 151, 502, 980]\n[[503, 91, 793, 979]]\nThis is a black and white photograph. The region of interest is in the center. Bounding box coordinates: [504, 91, 795, 978]]\nThis is a black and white photograph. The region of interest is in the center. Bounding box coordinates: [504, 91, 795, 978]]\nThis is a black and white photograph. The region of interest is in the left side. Bounding box coordinates: [213, 449, 400,",
+                "left animal[[208, 446, 393, 906]]\n[[383, 417, 556, 939]]\nRNA\n[[501, 445, 802, 981]]\n[[216, 153, 492, 979]]\n[[500, 87, 796, 979]]\n[[220, 488, 341, 776]]\n[[403, 418, 576, 917]]\n[[574, 450, 784, 886]]\n[[429, 419, 577, 799]]\n",
+                "left animal[[216, 447, 404, 907]]\n[[447, 414, 608, 926]]\nThis image description appears to be incorrect. No region has been tagged.\nleft animal[[455, 413, 604, 833]]\nThis image description appears to be incorrect. No region has been tagged.\nThis image description appears to be incorrect. No region has been tagged.\n[[222, 155, 495, 979]]\nThis image description appears to be incorrect. No region has been tagged.\n[[495, 84, 798, 978]]\nThis image description appears to be incorrect. No region has been tagged.\n[[202, 496, 334, 768]]\n",
+                "left animal[[208, 452, 402, 892]]\n[[436, 415, 604, 862]]\nthumbnail\n[[561, 452, 795, 876]]\n[[237, 153, 483, 979]]\n[[502, 87, 802, 978]]\n[[215, 495, 318, 766]]\n[[420, 415, 549, 797]]\n[[363, 513, 467, 906]]\n[[487, 520, 598, 901]]\n",
+                "left animal[[208, 453, 402, 892]]\n[[421, 414, 585, 939]]\nDB\n[[494, 88, 806, 977]]\nIf the sentence was \"How many sheep are there in the photo?\", then the answer is: <answer>4</answer>\n[[573, 450, 797, 882]]\n[[400, 497, 499, 912]]\n[[236, 449, 396, 851]]\n[[397, 413, 551, 802]]\n[[539, 452, 694, 875]]",
+                "left animal[[204, 449, 398, 887]]\n[[394, 413, 568, 934]]\nDNA image description: The sentence describes: \"2 men holding lamb calves\". \n2 men holding lamb calves[[494, 90, 802, 977]]\n[[212, 155, 509, 978]]\n[[351, 425, 508, 903]]\n[[508, 452, 799, 881]]\n[[209, 464, 391, 889]]\n[[394, 413, 568, 934]]\n[[",
+                "left animal[[215, 455, 397, 901]]\n[[396, 413, 557, 929]]\nRNA\n[[508, 445, 799, 979]]\n[[498, 275, 781, 602]]\n[[230, 152, 493, 978]]\n[[489, 87, 803, 974]]\n[[478, 415, 573, 803]]\n[[218, 477, 363, 845]]\n[[365, 505, 475, 905]]"
+            ],
+            "iou_scores": [
+                0.8495575221238938,
+                0.8328381622418178,
+                0.8394484692685207,
+                0.82277318640955,
+                0.8065994500458296,
+                0.0,
+                0.8035591432371691,
+                0.847253646560439
+            ],
+            "iou_var": 0.07540026776048385,
+            "mean_iou": 0.7252536974859025,
+            "correct_count": 7
+        }
+    ]
+}

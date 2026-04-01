@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 52,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000388421.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>little boy</ref>",
+            "ground_truth": [
+                491,
+                409,
+                961,
+                912
+            ],
+            "model_output": [
+                "little boy[[500, 415, 980, 921]]\n[[188, 130, 694, 924]]\n[[883, 153, 1000, 831]]\n\u4ece\u6b64\u53e5\u63cf\u8ff0\u7684\u56fe\u50cf\u4e2d\u63d0\u53d6\u6587\u5b57\uff1a\nlittle boy[[500, 415, 980, 921]]\n[[1, 56, 339, 982]]\n[[207, 133, 674, 911]]\n[[2, 555, 999, 1000]]\n[[921, 405, 1000, 831]]\n[[10, 920, ",
+                "little boy[[499, 413, 974, 921]]\n[[177, 133, 693, 912]]\n[[892, 146, 1000, 831]]\n[[1, 62, 345, 981]]\n[[503, 415, 972, 923]]\n[[564, 177, 628, 281]]\n[[15, 919, 680, 986]][[615, 776, 972, 830]]\n[[691, 776, 974, 823]]",
+                "little boy[[485, 413, 977, 915]]\n[[0, 53, 351, 933]]\n[[182, 135, 692, 912]]\n{{743, 410, 963, 589]}\n[[914, 151, 1000, 833]]\n[[620, 416, 979, 912]]\n[[23, 923, 688, 988]]\n[[770, 781, 965, 817]]\n[[933, 752, 1000, 864]]\n[[0,",
+                "little boy[[493, 413, 975, 918]]\n[[175, 132, 684, 921]]\n[[889, 154, 1000, 828]]\n clich\u00e9[[1, 62, 349, 989]]\n[[221, 130, 674, 921]]\n[[534, 415, 977, 920]]\n[[611, 896, 1000, 1000]]\n[[10, 917, 552, 998]]",
+                "little boy[[501, 410, 977, 919]]\n[[183, 136, 684, 913]]\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest of the man's face is not visible.\nThe rest",
+                "little boy[[502, 415, 977, 924]]\n[[175, 131, 690, 925]]\n[[889, 148, 1000, 833]]\nHere is a rough estimation of the bounding box coordinates for the regions described in the image:\n<image>:\n[[175, 131, 690, 925]]\n[[3, 62, 335, 925]]\n[[502, 415, 977, 924]]\n[[889, 148, 1000, 833]]\n[[175, 131, 690, 925]]\n[[3, 6",
+                "little boy[[493, 411, 963, 919]]\n[[178, 133, 696, 921]]\n[[879, 152, 1000, 833]]\n[[0, 56, 350, 932]]\n[[523, 181, 1000, 840]]\n[[278, 224, 692, 660]]\n[[0, 6, 341, 922]]\n[[333, 130, 675, 896]]\n[[510, 410, 977, 925]]\n[[554, 918, ",
+                "little boy[[486, 412, 968, 918]]\n[[197, 135, 698, 924]]\n[[891, 149, 1000, 834]]\n[[2, 59, 360, 940]]\n[[482, 413, 967, 920]]\n[[930, 407, 999, 829]]"
+            ],
+            "iou_scores": [
+                0.9158342427040488,
+                0.932702733319308,
+                0.9424022759418799,
+                0.9482069771974274,
+                0.9319783350956921,
+                0.9122657580919932,
+                0.9741007552907744,
+                0.9580027883996054
+            ],
+            "iou_var": 0.000378539794914965,
+            "mean_iou": 0.9394367332550911,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000139728.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>rim of plate with all the food</ref>",
+            "ground_truth": [
+                320,
+                441,
+                1000,
+                953
+            ],
+            "model_output": [
+                "rim of plate with all the food[[304, 438, 1000, 847]]\nbowl[[0, 443, 375, 946]]\n[[304, 438, 1000, 847]]\n[[305, 129, 999, 796]]\n[[304, 438, 1000, 847]]\n[[305, 129, 999, 796]]\n[[0, 443, 375, 946]]\n[[305, 438, 1000, 847]]\n[[304, 129, 999, 796",
+                "rim of plate with all the food[[2, 363, 1000, 989]]\nmacaroni[[0, 439, 365, 939]]\n[[329, 137, 999, 801]]\n[[329, 137, 999, 801]]\n[[0, 439, 365, 939]]\n[[329, 137, 999, 801]]\n[[0, 439, 365, 939]]\n[[329, 137, 999, 801]]\n[[329, 137, 999, 801]]\n",
+                "rim of plate with all the food[[308, 442, 1000, 842]]\nmacaroni salad[[0, 439, 372, 948]]\n[[308, 442, 1000, 842]]\n[[313, 138, 998, 795]]\n[[0, 390, 364, 625]]\n[[307, 437, 1000, 843]]\n[[313, 137, 998, 792]]\n[[307, 440, 1000, 840]]\n[[313, 137, 998, 7",
+                "rim of plate with all the food[[298, 426, 1000, 987]]\n<answer>\nrim of plate with all the food[[298, 426, 1000, 987]][[2, 372, 1000, 988]]\n<answer>\n\n[[317, 142, 996, 824]]\n[[2, 443, 372, 939]]\n\n<answer>\n\n</answer>[[0, 0, 428, 442]]\n\n[[317, 142, 996, 824]]",
+                "rim of plate with all the food[[2, 365, 1000, 987]]\nmacaroni[[0, 440, 373, 937]]\n[[342, 145, 999, 798]]\n[[2, 442, 373, 941]]\n[[2, 440, 374, 946]]\n[[340, 143, 998, 799]]\n[[2, 442, 373, 941]]\n[[0, 440, 373, 937]]\n[[342, 145, 999, 798]]",
+                "rim of plate with all the food[[311, 433, 1000, 904]]\n[[0, 441, 363, 945]]\nrim of plate with all the food[[311, 433, 1000, 904]]\nsalad[[0, 441, 363, 945]]\n[[314, 145, 995, 793]]\n[[0, 440, 367, 945]]\n[[311, 433, 1000, 904]]\n[[0, 441, 363, 945]]\n[[314, 145, 9",
+                "rim of plate with all the food[[309, 443, 1000, 987]]\nmacaroni[[0, 441, 372, 938]]\n[[343, 141, 999, 796]]\n[[0, 441, 372, 938]]\n[[344, 141, 999, 796]]\n[[309, 443, 1000, 987]]\n[[343, 141, 999, 796]]\n[[0, 441, 372, 938]]\n[[343, 141, 999, 796]]",
+                "rim of plate with all the food[[2, 373, 999, 989]]\n[[0, 440, 361, 935]]\nrim of plate with all the food[[333, 435, 1000, 839]]\ntexas toast[[342, 140, 998, 743]]\n[[403, 0, 634, 265]]\n[[403, 0, 634, 265]]\n[[0, 443, 364, 957]]\n[[333, 433, 1000, 838]]\n[[0, 440, 361, 935"
+            ],
+            "iou_scores": [
+                0.7738882784293499,
+                0.5572806955764564,
+                0.7706255666364461,
+                0.8840542173875507,
+                0.5608644942618356,
+                0.8798370216773466,
+                0.9192501802451334,
+                0.5655903062486172
+            ],
+            "iou_var": 0.02130104100840227,
+            "mean_iou": 0.738923845057842,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000524925.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second plane</ref>",
+            "ground_truth": [
+                278,
+                293,
+                786,
+                469
+            ],
+            "model_output": [
+                "second plane[[283, 281, 787, 506]]\nAI",
+                "second plane[[283, 286, 795, 494]]\n><answer>[[283, 286, 795, 494]]]</answer>\n><answer></cite>\n><answer>[[[4, 418, 999, 908]]]</answer>\n><answer></cite>\n[[4, 418, 999, 908]]\n><answer>[[[4, 418, 999, 908]]]</answer>\n><answer></cite>\n[[283, 286, 795, 494]]\n[[4, 418, 999, 908]]\n[[91, 421, 995, 899]]\n[[90, 4",
+                "second plane[[285, 288, 794, 497]]\nMore bounding boxes of the region: airplane[[0, 420, 998, 902]]\nMore bounding boxes of the region: airplane[[0, 420, 998, 902]]\nMore bounding boxes of the region: car[[795, 341, 883, 432]]\nMore bounding boxes of the region: car[[795, 341, 883, 432]][[795, 341, 883, 432]]\nMore bounding boxes of the region: car[[795, 341, 883, 432]]",
+                "second plane[[278, 281, 794, 507]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asecond plane[[278, 281, 794, 507]]\n<answer>\n<answer>\n[[0, 416, 1000, 913]]\n[[1, 284, 998, 868]]\n<answer>\n<answer>[[781, 338, 874, 430]]\n[[847, 343, 884, 423]]\n[[289, 285, 788, 498]]\n[[288",
+                "second plane[[280, 288, 806, 506]]\n[[0, 420, 1000, 890]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane[[280, 288, 806, 506]]\nMore like this:second plane",
+                "second plane[[277, 285, 798, 505]]\n><answer>[x1,y1,x2,y2]</zipbbox>[[0, 418, 1000, 913]]\n><answer></answer>\n[[3, 417, 997, 899]]\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n</zipbbox>\n",
+                "second plane[[275, 282, 787, 506]]\n[[0, 420, 1000, 919]]\nThe rest of the text in the image: N6594Q, N249CT, N177XY\n[[0, 420, 1000, 919]]\n[[275, 282, 787, 506]]\n[[0, 420, 1000, 919]]\n[[275, 282, 787, 506]]\n[[0, 420, 1000, 919]]\n[[788, 334, 879, 433]]\n",
+                "second plane[[274, 284, 802, 504]]\nAnother question: What is the airplane in the foreground of the image?\n\u00a0N6594Q[[2, 416, 1000, 904]]\nAlso, what is the airplane in the foreground of the image?\nThis is a question: What is the color of the airplane in the foreground?\nAnswer: The airplane in the foreground is silver.\n[11, 286, 999, 738]\u00a0N6594Q[[2, 416, 1000, 904]]\n[11, 286, 999, 738]\u00a0N6594Q[["
+            ],
+            "iou_scores": [
+                0.7746587329366469,
+                0.8244672925048427,
+                0.8193805581110088,
+                0.7666872470329972,
+                0.7742653451573639,
+                0.046388540734109224,
+                0.7795758928571429,
+                0.7696969696969697
+            ],
+            "iou_var": 0.06042830513244947,
+            "mean_iou": 0.6943900723788852,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000150614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left player</ref>",
+            "ground_truth": [
+                0,
+                272,
+                196,
+                985
+            ],
+            "model_output": [
+                "left player[[0, 261, 237, 985]]\n[[551, 242, 843, 994]]\n[[445, 244, 843, 997]]\n[[0, 261, 238, 991]]\n[[446, 240, 842, 997]]\n[[436, 584, 984, 660]]\n[[449, 596, 984, 672]]\n[[434, 600, 985, 661]]\n[[446, 600, 985, 661]]\n[[0",
+                "left player[[0, 267, 226, 984]]\n[[538, 239, 844, 987]]\nMrs skulls[[538, 239, 844, 987]]\n[[0, 267, 226, 984]]\n[[537, 237, 843, 987]]\n[[2, 263, 228, 792]]\n[[449, 584, 987, 671]]\n\n[[449, 584, 987, 671]]\n[[0, 267, ",
+                "left player[[0, 258, 238, 997]]\n[[541, 247, 841, 998]]\n[[430, 251, 849, 698]]\n[[518, 584, 979, 694]]\n[[383, 592, 998, 656]]\n[[524, 603, 998, 668]]\n[[534, 602, 998, 659]]\n[[516, 589, 988, 659]]\n[[431, 600, 989, 661]]\n[[43",
+                "left player[[0, 270, 245, 989]]\n[[532, 247, 847, 997]]\n[[456, 244, 842, 671]]\n[[449, 583, 998, 658]]\n[[0, 270, 243, 988]]\n[[531, 242, 845, 691]]\n[[454, 593, 987, 674]][[456, 584, 989, 667]]\n[[449, 581, 987, 657]]",
+                "left player[[0, 267, 237, 999]]\n[[539, 245, 840, 987]]\n[[458, 248, 847, 657]]\n[[0, 267, 237, 999]]\n[[459, 244, 847, 659]]\n[[483, 599, 985, 670]]\n[[488, 597, 985, 670]]\n[[481, 597, 985, 670]]\n[[0, 267, 237, 999]]\n[[45",
+                "left player[[0, 259, 234, 988]]\n[[537, 241, 848, 998]]\n[[438, 251, 843, 809]]\n[[422, 588, 992, 692]]\n[[422, 592, 990, 697]]\n[[433, 597, 995, 696]]\n[[422, 592, 990, 697]]\n[[422, 597, 990, 696]]\n[[438, 588, 992, 692]]\n",
+                "left player[[0, 272, 236, 989]]\n[[547, 246, 847, 1000]]\n[[464, 245, 846, 998]]\n[[503, 587, 977, 685]]\n[[500, 589, 978, 689]]\n[[503, 589, 978, 689]]\n[[464, 245, 847, 1000]]\n[[547, 246, 847, 1000]]\n[[500, 589, 978, 689]]",
+                "left player[[0, 259, 236, 984]]\n[[533, 247, 845, 1000]]\nDNA of the person says: left player[[0, 259, 236, 984]]\n[[533, 247, 845, 1000]]\n[[444, 598, 969, 690]]\n[[461, 600, 965, 699]]\n[[441, 243, 852, 634]]\n[[0, 261, 242, 787]]\n[[441, 600, 969, "
+            ],
+            "iou_scores": [
+                0.8144392381751637,
+                0.8601683945808011,
+                0.7945554405794795,
+                0.7933240611961057,
+                0.8055382628945609,
+                0.8192231484412554,
+                0.8258752334349809,
+                0.8146833551279656
+            ],
+            "iou_var": 0.00039330451941356416,
+            "mean_iou": 0.8159758918037892,
+            "correct_count": 8
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 49,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000253049.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>lower right click the light donut middle</ref>",
+            "ground_truth": [
+                587,
+                661,
+                859,
+                986
+            ],
+            "model_output": [
+                "lower right click the light donut middle[[461, 628, 708, 986]]\nNIKE\n[[10, 511, 390, 985]]\nRIKEN[[372, 52, 574, 407]]\n[[691, 38, 888, 395]]\n[[558, 380, 828, 740]]\n[[782, 738, 999, 982]]\n[[825, 364, 986, 753]]\n[[351, 45",
+                "lower right click the light donut middle[[443, 629, 661, 985]]\n<answer>\nlower right click the light donut middle[[679, 637, 871, 981]]\n<answer>\nlower right click the light donut middle[[847, 673, 998, 983]]\n<issue>\n</issue>\n</issue></div></div>\n```\ni'm sorry, but I can't provide the coordinates for the bounding boxes of specific elements in the image. However, I can describe the items in the image if you need it.\n",
+                "lower right click the light donut middle[[799, 738, 1000, 984]]\n<br><image>\nlower right click the light donut middle[[500, 644, 853, 984]]\nlower right click the light donut middle[[862, 368, 985, 754]]\nlower right click the light donut middle[[796, 39, 976, 398]]\nlower right click the light donut middle[[597, 382, 864, 742]]\nlower right click the light donut middle[[875, 368, 1000, 731]]\nlower right click the light donut middle[[597, 382, 864, 742]]\nlower right click",
+                "lower right click the light donut middle[[765, 742, 998, 984]]\n[[763, 370, 886, 743]]\n<img><div><p>GREENBUSH</p><p>BAKERY</p><p>TM</p><p>KOSHER DONUTS</p><p>donuts</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p>10</p><p",
+                "lower right click the light donut middle[[456, 628, 850, 987]]\nlower right click the dark donut[[836, 742, 982, 984]]\nlower right click the dark donut[[836, 365, 999, 757]]\nlower left[[22, 514, 376, 987]]\nGreenbush Bakery[[32, 36, 446, 479]]\nKOSHER DONUTS[[495, 34, 753, 411]]\nKOSHER DONUTS[[504, 387, 824, 736]]\nbrown[[813, 369, 984, 748]]\ncoconut soaked don",
+                "lower right click the light donut middle[[482, 629, 870, 984]]\n[[19, 512, 366, 985]]\n<img src=\"https://i.imgur.com/0qLJkXp.jpg\" alt=\"Greenbush Bakery Kosher Donuts\" width=\"1500\" height=\"482\" style=\"width: 100%; height: auto;\">\n\n[[492, 42, 727, 400], [678, 39, 896, 402], [777, 38, 999, 417]]\n<br>\n<img src=\"https://i.imgur.com/0qLJkXp.jpg\" alt=\"Greenbush Bakery Kosher Donuts\" width=\"1500\" height=\"482\" style=\"width: 100%; height: auto;\">\n\n[[566, 37, 779,",
+                "lower right click the light donut middle[[772, 731, 1000, 985]]\n<answer>[[437, 44, 751, 410]]\n<img><answer>lower right click the light donut middle[[772, 731, 1000, 985]][[437, 44, 751, 410]]\n'<answer>lower right click the light donut middle[[772, 731, 1000, 985]]\n</image>\n<answer>lower right click the light donut middle[[772, 731, 1000, 985]]\n</image>\n</answer><br><answer>lower right click the light donut middle",
+                "lower right click the light donut middle[[484, 639, 860, 984]]\n\u52ab\nlower right click the light donut middle[[837, 746, 984, 983]]\nThe second item is [600, 382, 849, 743]]\nThe third item is [512, 36, 722, 404]]\nThe fourth item is [620, 35, 888, 393]\nThe first item is [20, 516, 387, 981]]\n"
+            ],
+            "iou_scores": [
+                0.28599792001512714,
+                0.16880702940182493,
+                0.11991615618348146,
+                0.18640095707894264,
+                0.5920510351801954,
+                0.6353301900436782,
+                0.0,
+                0.6744457409568262
+            ],
+            "iou_var": 0.06025619619844268,
+            "mean_iou": 0.3328686286075095,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000297363.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>ugly kid in back</ref>",
+            "ground_truth": [
+                485,
+                186,
+                751,
+                618
+            ],
+            "model_output": [
+                "ugly kid in back[[464, 179, 744, 618]]\n<answer>\nHere is the answer based on the bounding coordinates given:\n\nugly kid in back[[464, 179, 744, 618]]\n<answer>\nHere is the answer based on the bounding coordinates of the region that this text describes: \"the man on the right\" tags: <b>x1</b><br>,[y1]</b> to <b>x2</b><br>,[y2]</b> </p>\nthe man on the right[[615, 193, 998, 989]]\n<answer>\nHere is the answer based on the bounding coordinates given:\n\nthe man on the right[[615, 193, 998, 989]]\n<answer>\nHere is the answer based on the bounding coordinates provided:\n\nthe man on the right[[615, 1",
+                "ugly kid in back[[464, 182, 751, 618]]\nAI\n[[608, 195, 999, 989]]\n[[2, 285, 348, 989]]\n[[343, 722, 554, 870]]\n[[3, 2, 323, 194]]\n[[563, 569, 696, 715]]\n[[654, 554, 732, 620]]\n[[238, 541, 433, 734]]\n[[266",
+                "ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back[[465, 184, 755, 620]]\nAnother request: ugly kid in back",
+                "ugly kid in back[[464, 180, 754, 616]]\nImages: \nugly kid in back[[464, 180, 754, 616]]\nImages: \nugly kid in back[[464, 180, 754, 616]]\nImages: \nugly kid in back[[464, 180, 754, 616]]\nImages: \nugly kid in back[[464, 180, 754, 616]]\nImages: \nugly kid in back[[464, 180, 754, 616]]",
+                "ugly kid in back[[466, 182, 756, 620]]\nAI",
+                "ugly kid in back[[452, 180, 753, 621]]\n<answer>\n}</citeof>\nugly kid in back[[452, 180, 753, 621]]\n</citeof>\nugly kid in back[[452, 180, 753, 621]]\n</citeof>\nsauteing[[599, 192, 1000, 989]]\n</citeof>\nsauteing[[3, 283, 342, 987]]\n</citeof></citeof>\n</citeof>\nsauteing[[3, 283, 342, 987]]\n</citeof></citeof>\n</citeof>\nsauteing[[3, 283, ",
+                "ugly kid in back[[454, 180, 750, 622]]\n<answer>\nAnother question: What is the woman in the white top smiling at?\n</body> \nwoman in the white top[[2, 277, 339, 989]]\n</body> \n</body>\n\n<circle> </circle>\n\n<circles> <circle> </circle> <circle> </circle> <circle> </circle>\n</body> \n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html",
+                "ugly kid in back[[452, 181, 752, 625]]\n<answer>ugly kid in back[[452, 181, 752, 625]]\nAnother person:person[[0, 282, 336, 989]]\nAnother person:person[[614, 195, 998, 989]]\n<issue> Isaiah the kid in the back[[0, 0, 323, 235]]\nAnd the guy:Isaiah the kid[[0, 0, 336, 235]]\nAnd the guy:Isaiah the kid[[452, 181, 752, 625]]\nAnd the guy:Isaiah the kid[[452, 181, 752, 625"
+            ],
+            "iou_scores": [
+                0.8883948421520675,
+                0.9183262474826583,
+                0.9088263207845618,
+                0.9008285291245314,
+                0.9046764289088333,
+                0.8656858092074039,
+                0.8721355436372501,
+                0.8627027027027027
+            ],
+            "iou_var": 0.00039339853333244927,
+            "mean_iou": 0.8901970530000012,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000304150.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>lady leaning</ref>",
+            "ground_truth": [
+                126,
+                246,
+                417,
+                636
+            ],
+            "model_output": [
+                "lady leaning[[149, 225, 428, 629]]\nDNA;[[408, 227, 667, 790]]\nDNA[[457, 0, 521, 254]]\nDNA;[[576, 19, 700, 368]]\nDNA[[14, 12, 200, 389]]\nDNA;[[665, 21, 808, 431]]\nDNA[[28, 409, 311, 664]]\nDNA[[123",
+                "lady leaning[[173, 224, 414, 637]]\nISO[[405, 229, 670, 793]]\nRD[[783, 29, 860, 228]]\nRDman[[413, 2, 503, 652]]\nRD[[620, 20, 725, 428]]\nRD[[11, 14, 221, 394]]\nRD[[25, 10, 234, 383]]\nRD[[536,",
+                "lady leaning[[178, 227, 406, 629]]\nISO[[411, 231, 668, 782]]\nuser\nImage description: A group of people sitting around a table in a conference room.\n[[0, 0, 999, 899]]\n[[411, 231, 668, 782]]\n[[13, 12, 233, 399]]\n[[568, 19, 705, 420]]\n[[741, 25, 845, 244]]\n[[857, 652, 9",
+                "lady leaning[[119, 224, 409, 641]]\nImages: \nlady[[119, 224, 409, 641]]\nImages: \nlady[[11, 11, 236, 381]]\nImages: \nlady[[119, 224, 409, 641]]\nImages: \nlady[[11, 11, 236, 381]]\nImages: \nlady[[119, 224, 409, 641]]\nImages: \nlady[[11, 11, 236, 381]]\nImages: \nlady[[11, 11, 236, 381]]\nImages: \nlady[[11, 11, 2",
+                "lady leaning[[113, 225, 406, 639]]\n<answer>lady leaning[[12, 15, 244, 402]]\n\u5c31\u53ef\u4ee5\u63cf\u8ff0\u4e3a<answer>[i]</body>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select> ",
+                "lady leaning[[103, 223, 399, 572]]\n another lady[[11, 9, 247, 396]]\n another woman[[179, 135, 445, 628]]\n another woman[[432, 230, 666, 790]]\n another person[[590, 18, 724, 428]]\n another person[[349, 1, 438, 245]]\n another person[[29, 9, 227, 388]]\n another lady[[34, 10, 213, 384]]\n another woman[[733, 29, 844, 430]]\n another woman",
+                "lady leaning[[171, 229, 408, 637]]\nSPIKE\n[[397, 232, 662, 786]]\nHere are the steps I used:\nI will start by identifying the region of interest in the given text \"this sentence describes: lady leaning[[171, 229, 408, 637]]\" using theBoundingBox algorithm.\n[[19, 12, 245, 394]]\nHere are the steps I used:\nI will start by identifying the region of interest in the given text \"this sentence describes: lady leaning[[171, 229, 408, 637]]\" using theBoundingBox algorithm. The coordinates are [171, 229, 408, 637].\nHere are the steps I used:\nI will start by identifying the region of interest in",
+                "lady leaning[[122, 227, 411, 629]]\nImages:\nlady[[13, 10, 254, 399]]\nlady[[128, 14, 264, 312]]\nlady[[257, 134, 462, 626]]\nman[[424, 229, 666, 794]]\nman[[539, 18, 702, 375]]\nperson[[769, 29, 849, 222]]\nperson[[645, 29, 791, 426]]\nwoman[[324, 137, 471, 325]]\nwoman[[32, 9, "
+            ],
+            "iou_scores": [
+                0.8307084702416601,
+                0.7896129644720372,
+                0.7411519071141213,
+                0.8897218863361548,
+                0.8694821326199121,
+                0.6964067732949388,
+                0.7849281565270559,
+                0.9057529063254587
+            ],
+            "iou_var": 0.004760313675186264,
+            "mean_iou": 0.8134706496164174,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000002823.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left red bike</ref>",
+            "ground_truth": [
+                0,
+                12,
+                389,
+                701
+            ],
+            "model_output": [
+                "far left red bike[[0, 1, 419, 722]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes: region of the region\" in <box> tags: <box> <box><label>region</label> </box> </answer>\n<answer>\nthis sentence describes: region of the region'[[228, 116, 828, 988]]\n</box></answer><answer>\nthis sentence describes: region of the region'[[784, 253, 1000, 989]]\n</box></answer>",
+                "far left red bike[[0, 2, 408, 803]]\nAPIAs the bounding box coordinates are given relative to the image, the coordinates for the region describing the region of interest are as follows:\nfar left red bike[[0, 2, 408, 803]][[0, 2, 408, 803]]\nAPIAs the bounding box coordinates are given relative to the image, the coordinates for the region of interest are as follows:\nfar left red bike[[0, 2, 408, 803]][[0, 2, 408, 803]][[251, 103, 820, 985]]\nAPIAs the bounding box coordinates are given relative to the image, the coordinates for the region of interest are as follows:\n[2",
+                "far left red bike[[0, 0, 406, 716]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> tags: \n&lt;box><image&gt;</image&gt;\n\nI'll adjust the coordinates accordingly:\nthis sentence describes[[242, 107, 824, 988]]\n<answer>\nHere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> tags: \n&lt;box><image&gt;</image&gt;\n\nI'll adjust the coordinates:\nthis sentence describes[[819, 236, 1000, 620]]\n<answer>\nHere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> tags: \n&lt;box><image&gt;</image&gt;\n\nI'll adjust the coordinates:\nthis sentence describes[[819, 236, 1000, 620]]\n<answer",
+                "far left red bike[[0, 0, 393, 735]]\n<answer>far left red bike[[0, 0, 393, 735]]\uff1b\uff1b<answer>[[243, 109, 830, 988]][[243, 109, 830, 988]]\nuserFor which bike do you think the word BRE is visible?\nword BRE[[784, 247, 1000, 622]]\n<answer>word BRE[[784, 247, 1000, 622]]\uff1b;\uff1b\uff1b[[802, 0, ",
+                "far left red bike[[0, 2, 401, 717]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> tags: \n<box> <image> <circle center=x=0.5513 center=y=0.438 center=z=0.488 center=h=0.4956 center=w=0.5716> </circle> </box> </answer>\nperson\nthis sentence describes[[827, 0, 1000, 622]]\nI'm sorry, but I can't provide the bounding box coordinates for the people in the image.\n<answer>\nthis sentence describes[[420, 0, 509, 315]]\nthis sentence describes[[420, 0, 509, 315]]\nthis sentence describes[[591, 0, 747, 212]]\n",
+                "far left red bike[[0, 4, 373, 857]]\n<answer>\nfar left red bike[[0, 4, 373, 857]]\uff1b</code></pre><br><pre>far left red bike[[0, 4, 373, 857]]\uff1b</pre><br><pre>far left red bike[[0, 4, 373, 857]];</code></pre></body>\n<answer>\nfar left red bike[[0, 4, 373, 857]];</code></li></li></div><li><span>far left red bike[[0, 4, 373, 857]]",
+                "far left red bike[[0, 0, 424, 714]]\n<answer>far left red bike[[0, 0, 424, 714]]\uff1b\uff1b<answer><si</si></si></answer>\n<answer>far left red bike[[0, 0, 424, 714]];[[0, 0, 424, 714]];</answer><answer>far left red bike[[0, 0, 424, 714]];<answer>far left red bike[[0, 0, 424, 714]]",
+                "far left red bike[[0, 0, 427, 807]]\n<answer>far left red bike[[0, 0, 427, 807]]\uff1b<answer>'\n<answer>far left red bike[[0, 0, 427, 807]];<comment>far left red bike[[0, 0, 427, 807]];<hr>\n<answer>far left red bike[[0, 0, 427, 807]];<hr>\n[[245, 116, 819, 987]]\n</answer>\n</comment>\n</comment>\n</style>\n"
+            ],
+            "iou_scores": [
+                0.0,
+                0.8201176225796186,
+                0.9219975507058921,
+                0.9278738467397137,
+                0.0,
+                0.7806879247128584,
+                0.885329131652661,
+                0.777799059169039
+            ],
+            "iou_var": 0.13912494835834116,
+            "mean_iou": 0.6392256419449729,
+            "correct_count": 6
+        }
+    ]
+}

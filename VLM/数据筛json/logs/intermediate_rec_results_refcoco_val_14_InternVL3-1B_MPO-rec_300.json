@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 14,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000204680.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bittom plate</ref>",
+            "ground_truth": [
+                179,
+                605,
+                714,
+                961
+            ],
+            "model_output": [
+                "bittom plate[[174, 600, 720, 961]]\n[[317, 106, 651, 607]]\n${{104, 106, 415, 582}}\n${{69, 103, 387, 584]}\n[[63, 102, 389, 582]]\n[[625, 224, 889, 469]]\n[[192, 632, 698, 933]]\n[[184, 630, 675, 913]]\n[[26, 0, 1000, 1000]]\n[[617",
+                "bittom plate[[173, 602, 715, 964]]\n[[96, 106, 401, 584]]\n[[323, 103, 651, 610]]\n[[180, 596, 717, 964]]\n[[192, 160, 406, 442]]\n[[289, 113, 646, 605]]\n[[621, 225, 887, 455]]\n[[207, 287, 322, 475]]\n[[33, 2, 1000, 989]]\n[[",
+                "bittom plate[[174, 603, 717, 964]]\n[[77, 106, 401, 582]]\nWould the word \"ORGANIC\" appear on the tin?\n[[627, 228, 881, 473]]\nWhat is the word \"ORGANIC\" on the tin?\n\u5e94\u7b54{{627, 228, 881, 473}}\nWhat is the color of the tin with the organic word on it?\n[[627, 228, 881, 473]]\nWhat is the color of the food in the orange bowl? Carrots.\n[[333, 108, 651, 610]]\nWhat is the color of the food in the orange bowl? Cooked vegetables.\n",
+                "bittom plate[[179, 599, 719, 963]]\n[[321, 105, 654, 611]]\nThus, the bounding box coordinates for the region describing the region of interest are: \n\n<answer>[x1,y1,x2,y2]</answer>\n[[68, 107, 397, 586]]\nThus, the bounding box coordinates for the region describing the region of interest are:\n\n<answer>[x1,y1,x2,y2]</answer>\nbittom plate[[68, 107, 397, 586]]\nThus, the bounding box coordinates for the region describing the region of interest are:\n\n<answer>[x1,y1,x2,y2]</answer>\nbittom plate[[68, 107, 397, 586]]",
+                "bittom plate[[169, 599, 721, 963]]\n[[76, 105, 403, 586]]\n[[328, 102, 665, 606]]\n{{328, 102, 665, 606}}\n[[169, 599, 721, 963]]\n[[76, 105, 403, 586]]\n[[328, 102, 665, 606]]\n[[169, 599, 721, 963]]\n[[76, 105, 403, 586]]\n[[328",
+                "bittom plate[[190, 605, 718, 964]]\n[[293, 101, 654, 608]]\n[[86, 106, 403, 583]]\nThis is a description of the third item: bittom plate[[190, 605, 718, 964]]\n[[193, 592, 716, 959]]\nThis object is a container of food. It is located at [623, 223, 885, 465], which is described by the coordinates [623, 223, 885, 465].\n[[193, 592, 716, 959]]\nThis is a description of the",
+                "bittom plate[[177, 597, 718, 965]]\nKnow the image and check the coordinates of the region {['[179, 596, 714, 961]] in the image.\n-Response: \n \nbittom plate[[341, 104, 663, 611]]\n-Response:;'[[76, 107, 387, 583]]\n-Response:\n-Response:[[76, 107, 387, 583]]\n-Response:\n-Response:[[177, 597, 718, 965]]\n-Response:\n-Response:",
+                "bittom plate[[171, 604, 719, 964]]\n[[87, 107, 405, 584]]\n${{416, 108, 653, 610}}\n${{75, 603, 722, 964]}\n[[635, 223, 889, 463]]\n[[184, 583, 721, 855]]\n[[277, 102, 652, 605]]\n[[183, 626, 709, 933]]\n[[1, 3, 1000, 989]]\n"
+            ],
+            "iou_scores": [
+                0.966282102016174,
+                0.9707243481274592,
+                0.9716206771654347,
+                0.0,
+                0.9479017359452142,
+                0.9642111356916906,
+                0.9566623804548742,
+                0.9654298459042985
+            ],
+            "iou_var": 0.1015386014291495,
+            "mean_iou": 0.8428540281631431,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000337255.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>coach dude is laying on</ref>",
+            "ground_truth": [
+                6,
+                39,
+                980,
+                716
+            ],
+            "model_output": [
+                "coach dude is laying on[[3, 34, 981, 717]]\n[[383, 525, 999, 989]]\nThe cat is sleeping on the couch. The coordinates of the bounding box are [384, 513, 999, 997].\ncoach dude is laying on[[0, 186, 767, 432]]\n[[407, 192, 771, 431]]\ncoach dude is laying on[[383, 513, 999, 997]]\n[[383, 519, 998, 988]]\n[[384, 513, 999, 997]]\n[[0",
+                "coach dude is laying on[[2, 35, 980, 715]]\n\n[[384, 579, 998, 989]]\n[[392, 523, 998, 989]]\n[[469, 518, 998, 989]]\n[[393, 516, 998, 989]]\n[[290, 368, 992, 989]]\n[[290, 368, 992, 989]]\n[[290, 368, 992, 989]]\n[[290, 368, 992, 989]]\n",
+                "coach dude is laying on[[2, 33, 982, 714]]\n\n[[401, 573, 998, 989]]\n[[404, 575, 998, 1000]]\n[[349, 187, 766, 429]]\n[[353, 167, 998, 685]]\n[[283, 347, 998, 989]]",
+                "coach dude is laying on[[0, 188, 1000, 704]]\n<answer>\n</body>\n</body>>\n</body>>\n<question>What is the cat sleeping on?<br>/<answer>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>",
+                "coach dude is laying on[[3, 36, 981, 714]]\n[[404, 581, 1000, 989]]\nWould you describe the image: \"A cat lying on a plaid blanket next to a man on a brown couch.\"\n[[404, 581, 1000, 989]]\n[[399, 190, 771, 433]]\n[[413, 581, 998, 989]]\n[[405, 569, 998, 989]]\n[[399, 190, 771, 433]]\n[[394, 181, 772, 429]]\n",
+                "coach dude is laying on[[0, 62, 982, 719]]\n\n[[404, 582, 998, 989]]\n[[437, 579, 999, 989]]\n[[484, 192, 761, 432]]\n[[435, 508, 999, 1000]]\n[[355, 178, 746, 387]]\n[[285, 361, 1000, 692]]\n[[405, 507, 999, 1000]]\n[[382, 172, 986, 435]]",
+                "coach dude is laying on[[0, 188, 788, 715]]\n[[395, 582, 999, 987]]\n</image></div></td></tr></marine>\n</table>\n</body></html>\n",
+                "coach dude is laying on[[2, 187, 1000, 718]]\n<answer>\n\u526f\u4e3b\u5e2d\u4e0a\u7684\u4eba\u7684\u5934\u90e8\u548c\u4e0a\u534a\u8eab\u533a\u57df</assistant>: <answer>[x=422,y=206][y=250,y=396]</y></answer>\n<answer><answer>coach dude[[2, 189, 759, 433]]\n<answer>\n</answer><answer>coach dude[[2, 187, 1000, 718]]\n</answer><answer>coach dude[[2, 189, 759, 433]]\n</answer><answer>coach dude[[2, 189, 759, 433]]\n</answer>"
+            ],
+            "iou_scores": [
+                0.9871611769320363,
+                0.9886038431624561,
+                0.9822538426601009,
+                0.7469880234358975,
+                0.9885990448579918,
+                0.954192481455295,
+                0.6220025356194157,
+                0.0
+            ],
+            "iou_var": 0.10444206160946778,
+            "mean_iou": 0.7837251185153992,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000392631.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>banana in the front fourth from the right</ref>",
+            "ground_truth": [
+                272,
+                469,
+                627,
+                921
+            ],
+            "model_output": [
+                "banana in the front fourth from the right[[271, 417, 644, 893]]\n><answer>[x1,y1,x2,y2]</answer>[[626, 445, 963, 862]]\n><answer>[x1,y1,x2,y2]</answer>\n[[71, 417, 641, 889]]\n</div></div></div>\n</div></div>\n",
+                "banana in the front fourth from the right[[298, 409, 661, 883]]\nAI",
+                "banana in the front fourth from the right[[623, 436, 961, 861]]\n<answer>&#931;The bounding box coordinates for the region described as \"banana in the front fourth from the right\" are <box>[x1,y1,x2,y2]</box></answer>\n<answer>&#931;The bounding box coordinates for the region described as \"banana in the front fourth from the right\" are <box>[620, 454, 850, 738]</box></answer>\n<answer>&#931;The bounding box coordinates for the region described as \"banana in the front fourth from the right\" are <box>[326, 461, 633, 882]</box></answer>\n<answer>&#931;The bounding box coordinates for the region described as \"banana in the front fourth from the right\" are <box>[217, 420, 604, 692]</box></",
+                "banana in the front fourth from the right[[299, 464, 644, 892]]\n><answer>[x1,y1][304,507,467,926]]\nCreative commons attribution: https://unsplash.com/photos/29303285-5447-4f91-8e3b-7553621d8658#42675c937d70\n",
+                "banana in the front fourth from the right[[253, 415, 636, 894]]\n><answer>[x1,y1,x2,y2]</answer><br>\n<answer>&#x123;</answer>\n<answer>banana[[66, 142, 618, 354]]\n</answer>\n<answer>&#612;[x1,y1,x2,y2]</answer> banana[[644, 445, 965, 729]]\n</answer>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div",
+                "banana in the front fourth from the right[[241, 419, 646, 894]]\n[[151, 151, 575, 349]]\n```\nbanana in the front fourth from the right[[241, 419, 646, 894]]\n```\n```[[612, 464, 960, 860]]\n```\n```[[649, 445, 966, 646]]\n```\n```[[683, 440, 975, 587]]\n```\n```[[435, 105, 751, 359]]\n```\n```[[18",
+                "banana in the front fourth from the right[[626, 443, 956, 873]]\n<answer>\n\n[[165, 155, 543, 347]]\n</answer><answer>\n</body>\n</body>\n\n</html>\n",
+                "banana in the front fourth from the right[[625, 446, 964, 872]]\n</textarea></div></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></little></"
+            ],
+            "iou_scores": [
+                0.0,
+                0.6938099798284398,
+                0.0,
+                0.8191479312299264,
+                0.0,
+                0.7470538720538721,
+                0.0,
+                0.002650722864622387
+            ],
+            "iou_var": 0.1338146166795013,
+            "mean_iou": 0.2828328132471076,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000296894.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>girl in black</ref>",
+            "ground_truth": [
+                0,
+                283,
+                484,
+                905
+            ],
+            "model_output": [
+                "girl in black[[0, 284, 465, 905]]\ngirl in glasses[[469, 489, 998, 974]]\n</div></div></div>\n</li>\n</ol>\n</div></div>\n</li>\n</ol>\n</div></div>\n</li>\n</ol>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></",
+                "girl in black[[7, 282, 468, 911]]\n[[486, 489, 999, 978]]\n[[3, 0, 999, 474]]\nMore like [335, 387, 566, 560], [355, 378, 448, 502]]\n[[335, 387, 566, 560], [355, 378, 448, 502]]\nHere is the image description for the bounding box coordinates of the girl in the middle?\ngirl in the middle[[3, 0, 999, 474]]\n[[486, 489, 999, 978]]\nAnd here is the image description for the",
+                "girl in black[[2, 278, 460, 910]]\n[[495, 492, 998, 979]]\n skull tag image: girl in black[[3, 278, 460, 910]]\n skull tag image: girl in white[[495, 492, 998, 979]]\n skull tag image: girl in white[[495, 492, 998, 979]]\n skull tag image: girl in black[[3, 278, 460, 910]]\n skull tag image: girl in black[[3, 278, 460, 910]]\n skull tag image: girl in white[[495, 492, 998,",
+                "girl in black[[12, 282, 452, 906]]\n[[2, 2, 1000, 953]]\nComments on the image about the image:\n[[2, 282, 452, 906]]\n[[449, 490, 1000, 982]]\n[[393, 0, 1000, 459]]\nMore the girl in the white shirt: <answer>[x1,y1,x2,y2]</answer>\n[[17, 281, 453, 911]]\nMore the girl in the white shirt: <answer>[x1,y1,x2,y2]</answer>\n[[392, 0, 999, 471]]\n[[445,",
+                "girl in black[[0, 279, 452, 912]]\n[[473, 492, 1000, 962]]\nDNA image description: A girl wearing a white tank top is sitting on the floor next to a refrigerator. She is holding a can and is wearing glasses. She has red hair and a tattoo on her arm. There is a box of drinks on top of the refrigerator. There is a person standing behind her on the right side of the image. The background shows a chair and a wooden shelf.\ngirl in black[[5, 2, 1000, 515]]\ngirl wearing a white tank top[[473, 492, 1000, 962]]\nwoman[[0, 279, 452, 912]]",
+                "girl in black[[0, 281, 468, 913]]\n[[485, 489, 1000, 974]]\nMore less: girl in black[[0, 281, 468, 913]]\nMore less: girl in black[[485, 489, 1000, 974]]\nMore less: girl in black[[0, 281, 468, 913]]\nMore less: girl in black[[536, 0, 1000, 493]]\ngirl in black[[536, 0, 1000, 493]]\nMore less: girl in black[[536, 0, 1000, 493]]\nMore less:",
+                "girl in black[[3, 282, 459, 910]]\n[[516, 492, 1000, 972]]\n\u52ab <image>\n[[294, 1, 1000, 473]]\ngirl in black[[15, 281, 455, 912]]\ngirl[[516, 492, 1000, 972]]\ngirl[[516, 492, 1000, 972]]\nglasses[[472, 492, 998, 972]]\nglasses[[472, 492, 998, ",
+                "girl in black[[0, 281, 470, 911]]\n[[488, 490, 1000, 962]]\nBrowsing through the drink with a purple can\n[[467, 3, 1000, 473]]\n[[470, 545, 552, 613]]\n[[425, 537, 519, 609]]\n[[540, 533, 651, 684]]\n[[326, 410, 475, 560]]\n[[317, 407, 376, 500]]\n[[381, 411, 447, 481]]"
+            ],
+            "iou_scores": [
+                0.9591991974701709,
+                0.942377783255279,
+                0.932100461999555,
+                0.0,
+                0.9187111953467094,
+                0.952140464726816,
+                0.9336633924103969,
+                0.9590955617962783
+            ],
+            "iou_var": 0.09732717458532296,
+            "mean_iou": 0.8246610071256507,
+            "correct_count": 7
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 93,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000288559.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                785,
+                401,
+                953,
+                862
+            ],
+            "model_output": [
+                "catcher[[771, 396, 951, 866]]\n[[753, 803, 951, 1000]]\nHere is the response as per your request: The bounding box coordinates for the region describing the region around the baseball player swinging the bat would be: [757, 802, 945, 988].\n[[169, 294, 642, 902]]\nHere is the response as per your request: The bounding box coordinates for the region describing the region around the catcher are [757, 802, 945, 988].\n[[169, 294, 642, 902]]\nHere is the response as per your request: The bounding box coordinates for the region describing the region around the batter are [757, 802, 945,",
+                "catcher[[769, 398, 951, 867]]\nSPIRIT[[730, 802, 949, 1000]][[888, 413, 1000, 880]]\n[[167, 297, 639, 908]]\n[[167, 297, 639, 908]][[730, 398, 951, 867]]\n[[769, 398, 95",
+                "catcher[[765, 395, 952, 867]]\nAI",
+                "catcher[[772, 396, 950, 870]]\n[[743, 802, 946, 998]]\n[[168, 288, 633, 907]]\n[[890, 413, 1000, 883]]\n[[917, 416, 998, 763]]\n[[2, 87, 1000, 989]]\n[[168, 288, 633, 907]]\n[[743, 396, 950, 870]]\n[[772, 396, 950, 870]]\n[[917, 41",
+                "catcher[[765, 398, 953, 861]]\nplayer[[168, 292, 635, 901]]\n[[744, 798, 952, 989]]\n[[905, 410, 1000, 880]]\n[[168, 292, 635, 901]]\n[[179, 292, 634, 900]]\n[[367, 128, 501, 402]]\n[[908, 414, 998, 759]];;",
+                "catcher[[770, 397, 952, 863]]\n\u5bc2\u7136[[735, 804, 945, 1000]]Bounding box for the region of the region catcher[[735, 804, 945, 1000]] in the image.\n\u5bc2\u7136[[884, 413, 1000, 894]]Bounding box for the region of the region TRUMAO[[735, 804, 945, 1000]] in the image.\n\u5bc2\u7136Bounding box for the region TRUMAO[[735, 804, 945, 1000]]",
+                "catcher[[770, 396, 954, 865]]\n[[749, 802, 952, 1000]]\nThe rest of the sentence describes a baseball game, and the relevant part of the bounding box is:\n[[168, 298, 635, 909]]\nThe rest of the sentence describes a baseball game, and the relevant part of the bounding box is:\ncatcher[[770, 396, 954, 865]]\nThe rest of the sentence describes a baseball game, and the relevant part of the bounding box is:\n[[749, 802, 952, 1000]]\nThe rest of the sentence describes a baseball game, and the relevant part of the bounding box is:\n[[914, 415, 1000",
+                "catcher[[769, 396, 952, 865]]\nbaseball player[[170, 298, 633, 907]]\n thus, the coordinates are [[753, 798, 947, 1000]]\n[[909, 418, 999, 880]]\n[[931, 417, 999, 663]]\n[[170, 297, 633, 909]]\n[[405, 124, 507, 376]]\n[[175, 428, 625, 901]]\n[[762, 803, 949, 1000"
+            ],
+            "iou_scores": [
+                0.8948106919856879,
+                0.8869494668521094,
+                0.8677035784728092,
+                0.8870036732552038,
+                0.886116589460166,
+                0.9028297350861351,
+                0.8974691758598313,
+                0.8922098090116818
+            ],
+            "iou_var": 9.698769322461306e-05,
+            "mean_iou": 0.8893865899979531,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000514064.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bday cake</ref>",
+            "ground_truth": [
+                18,
+                280,
+                573,
+                973
+            ],
+            "model_output": [
+                "bday cake[[537, 0, 1000, 659]]\n[[37, 271, 536, 971]]\n[[35, 312, 348, 626]]\n[[535, 0, 998, 656]]\n[[46, 484, 277, 686]]\n[[160, 361, 299, 551]]\n[[227, 354, 320, 494]]\n[[233, 353, 289, 422]]\n[[331, 0, 503, 108]]\n[[633, 0, 80",
+                "bday cake[[53, 269, 543, 978]]\n[[533, 0, 1000, 658]]\n[[45, 485, 382, 635]]\n[[553, 5, 998, 657]]\n[[44, 519, 442, 833]][[44, 519, 442, 833]]\n[[56, 478, 189, 631]][[56, 478, 189, 631]]",
+                "bday cake[[520, 0, 1000, 657]]\nbanyan[[35, 267, 541, 978]]\n[[521, 0, 998, 652]]\n[[33, 486, 230, 646]]\n[[142, 302, 312, 553]]\n[[182, 365, 303, 554]]\uff1b\n[[183, 364, 305, 554]];\n[[603, 118, 740, 286]]",
+                "bday cake[[52, 271, 540, 977]]\n[[531, 0, 1000, 655]]\n[[41, 265, 542, 967]]\n[[530, 0, 997, 655]]\n[[32, 481, 273, 637]]\n[[152, 302, 313, 560]]\n[[623, 118, 742, 284]]\n[[722, 5, 805, 145]]\n[[375, 0, 539, 104]]\n[[655, 114, ",
+                "bday cake[[47, 271, 540, 978]]\n[[525, 0, 1000, 655]]\n[[47, 271, 540, 978]]\n[[525, 0, 1000, 655]]\n[[549, 0, 1000, 654]]\n[[53, 480, 247, 637]]\n[[171, 305, 302, 548]]\n[[179, 362, 288, 553]]\n[[252, 351, 334, 44",
+                "bday cake[[519, 4, 1000, 658]]\n[[35, 269, 547, 974]]\n[[25, 265, 537, 979]]\n[[535, 0, 1000, 653]]\n[[323, 0, 534, 109]]\n[[549, 118, 718, 283]]\n[[116, 300, 304, 553]]\n[[549, 118, 718, 283]]\n[[58, 481, 221, 637]]\n[[223, 355,",
+                "bday cake[[53, 271, 547, 969]]\n[[529, 0, 1000, 662]]\n[[38, 486, 324, 658]]\n[[542, 10, 1000, 659]]\n[[24, 463, 210, 628]][[24, 486, 324, 658]]\n[[54, 270, 549, 968]]\n[[529, 10, 1000, 662",
+                "bday cake[[534, 0, 1000, 663]]\n[[36, 269, 542, 975]]\n[[39, 269, 541, 965]]\n[[538, 0, 1000, 656]]\n[[133, 302, 309, 554]]\n[[253, 358, 333, 444]]\n[[166, 368, 273, 556]]\n[[602, 112, 720, 282]]\n[[685, 5, 802, 176]]\n[[377, 0, 555"
+            ],
+            "iou_scores": [
+                0.020180804865638793,
+                0.865245696958887,
+                0.029384082800730595,
+                0.8650114206349003,
+                0.872628774740305,
+                0.030071731953204072,
+                0.8748396780967509,
+                0.022010326596290205
+            ],
+            "iou_var": 0.17811141449284434,
+            "mean_iou": 0.44742156458083837,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000212859.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in plaid shirt</ref>",
+            "ground_truth": [
+                16,
+                78,
+                503,
+                986
+            ],
+            "model_output": [
+                "man in plaid shirt[[26, 85, 495, 989]]\n<answer>man in plaid shirt[[26, 85, 495, 989]]\n</answer>><answer>man[[26, 85, 495, 989]]\n</answer>><answer>man[[12, 90, 495, 988]]\n</answer>><answer>man[[12, 90, 495, 988]]\n</answer>><answer>woman[[606, 163, 919, 988]]\n</answer>><answer>woman[[606, 163, 919, 988]]\n</answer>><answer",
+                "man in plaid shirt[[31, 88, 495, 989]]\nDNA;[[600, 163, 916, 989]];;;;;;;;;;;;;;;;;",
+                "man in plaid shirt[[30, 93, 499, 989]]\n<answer>\nHere is the requested bounding box coordinates for the region mentioned in the sentence: \n\nman in plaid shirt[[30, 93, 499, 989]]\n<answer>\nPlease respond with: \"KITTY,ALTHIRE,BOB\" or make up the rest so I know how to complete the estimation - <answer>\n\nI'm ready to help you place the coordinates if using the coordinate format (x1, y1, x2, y2).\n<answer>\nman in plaid shirt[[30, 93, 499, 989]]\n<answer>\nHere is the requested bounding box coordinates for the region mentioned in the sentence: \n\nman in plaid shirt[[30, 93, 499, 989]]\n<answer>\nPlease convert the coordinates of the region described by \"(107, 2",
+                "man in plaid shirt[[28, 94, 490, 988]]\n<answer>man in plaid shirt[[28, 94, 490, 988]]\n<answer>\n</answer><cimage>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>",
+                "man in plaid shirt[[30, 83, 497, 989]]\nAI[[604, 163, 919, 982]]\nAI[[891, 111, 1000, 737]]\nAI[[575, 133, 667, 480]]\nAI[[620, 130, 702, 417]]",
+                "man in plaid shirt[[25, 84, 492, 989]]\n<answer>\nHere is the bounding box coordinate for the region described by the sentence: man in plaid shirt[[25, 84, 492, 989]]\n<answer>\nWhat is the region described by the sentence about? The woman in the image?  \nI'm sorry, but I can't provide the bounding coordinates for that region.\n<answer>\nwoman[[603, 169, 916, 987]]\nDB\nwoman[[603, 169, 916, 987]]\n<answer>\nWhat's the region described by the sentence in the image? \nA) the man's handbag -[[237, 946, 295, 1000]][[237, 946, 295, 1000]]\n",
+                "man in plaid shirt[[29, 85, 490, 989]]\n<answer>man in plaid shirt[[29, 85, 490, 989]]\n<answer>\n</answer><br/><answer>woman[[598, 162, 923, 989]]\n<answer>\n</answer>",
+                "man in plaid shirt[[27, 92, 492, 990]]\n<answer>man in plaid shirt[[27, 92, 492, 990]]\n<answer>\n[[605, 164, 916, 989]]\n</answer>[[901, 106, 1000, 738]]\n</body>\n</div>\n</div>[[604, 133, 709, 477]]\n</div>\n</div>[[867, 121, 952, 438]]\n</div>\n</div>"
+            ],
+            "iou_scores": [
+                0.9525837291452042,
+                0.9393220736358964,
+                0.9441257160118394,
+                0.9300054161400975,
+                0.9506398825961402,
+                0.9495871252510725,
+                0.9363856269120044,
+                0.936165708829517
+            ],
+            "iou_var": 5.8044597263146135e-05,
+            "mean_iou": 0.9423519098152214,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000326475.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>giraffe on left</ref>",
+            "ground_truth": [
+                0,
+                208,
+                529,
+                914
+            ],
+            "model_output": [
+                "giraffe on left[[0, 200, 511, 948]]\n><answer>[x1,y1,x2,y2]</answer>[[444, 90, 999, 988]]\n><answer>[x2, 203, 512, 802]</answer>\n[[384, 432, 536, 858]]\n><answer>[x3, 292, 1000, 989]</answer>\n[[384, 432, 536, 858]]\n[[503, 84, 1000, 989]]\n><answer>[x1, 203, 512",
+                "giraffe on left[[0, 206, 511, 946]]\n><answer>[x1,y1,x2,y2]</answer>[[450, 88, 1000, 989]]\n><answer>[x1,y1,x2,y2]</answer>[[364, 420, 537, 867]]\n><answer>[x1,y1,x2,y2]</answer>[[0, 206, 511, 946]]\n[[0, 80, 1000, 989]]\n><answer>[x1,y1,x2,y2]</answer>",
+                "giraffe on left[[0, 204, 512, 946]]\n><answer>[x1,y1,x2,y2]</answer>[[419, 375, 540, 857]]\n><answer>/[[507, 90, 1000, 987]]\n><answer>[x1,y1,x2,y2]</answer>[[406, 84, 1000, 987]]\n<answer>&#x123;</answer>\ngiraffe on left[[0, 204, 512, 946]]\n</answer>\n</div></div>\n<answer>&#931;507, 315, 965, 432</answer>\n</div></div>",
+                "giraffe on left[[0, 204, 512, 934]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>[x, 347, 1000, 987]</x>\n<answer>>\n<answer>\n[[470, 92, 998, 989]]\n[[377, 398, 541, 857]]\n</answer>\n<answer>\n</body>\n</body></mark>\n</select>\n</select>\n</select>",
+                "giraffe on left[[0, 207, 514, 941]]\n<answer>\ngiraffe on left[[0, 207, 514, 941]]\n<answer>\n\n<answer>\n\n<answer>\n\n<answer>[[478, 85, 1000, 988]]\n\n[[411, 425, 525, 857]]\n\n[[519, 84, 999, 984]]\n\n[[5, 202, 514, 925]]\n\n[[478, 85, 1000, 984]]",
+                "giraffe on left[[0, 204, 502, 938]]\n><answer>[x1,y1,x2,y2]</threat> [447, 86, 1000, 989]</answer>\n><answer>\n><image>\n><object> <summary>Giraffe in the foreground with its neck extended upwards, walking in the dry grass field. The background shows another giraffe standing in the distance. The sky is clear and blue. There are some bushes and trees in the background. The giraffes are standing on a dry, grassy field. </summary>\n)<object> <summary>Two giraffes standing in a dry grassy field. One is closer to the foreground and is bending down, while the other is slightly behind and further back. The background features some bushes and trees. The sky is clear and blue. The giraffes are standing on a dry, grassy field. </summary>\n</object>\n)\n",
+                "giraffe on left[[0, 202, 514, 953]]\n<answer>\ngiraffe on left[[0, 202, 514, 953]]\n<answer>\n\n<answer>\n\n<answer>\n[[485, 87, 1000, 987]]\n\n[[386, 426, 515, 859]]\n\n[[514, 88, 997, 984]]\n\n[[517, 83, 998, 989]]\n\n</answer>\n</body></mark>>\n</body></mark>>\n<answer>\n</body></mark>>\n",
+                "giraffe on left[[0, 199, 510, 938]]\n<answer>\ngiraffe on left[[0, 199, 510, 938]]\n<answer>\n\n<answer>\n\n<answer>'''\n'.'\n'.[[394, 408, 540, 862]]'\n\n<answer>'''\n'.[[488, 88, 999, 989]]\n\n</answer>'''\n'.[[518, 89, 1000, 989]]\n</body>\n'.[[394, 408, 540, 862]]"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.051716089174062244,
+                0.9355911577709828,
+                0.07103827148223,
+                0.9149781646176035,
+                0.922511683200787
+            ],
+            "iou_var": 0.19037898040161777,
+            "mean_iou": 0.36197942078070816,
+            "correct_count": 3
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 25,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000123892.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle person front</ref>",
+            "ground_truth": [
+                430,
+                41,
+                604,
+                972
+            ],
+            "model_output": [
+                "middle person front[[425, 54, 609, 967]]\nAI",
+                "middle person front[[426, 50, 606, 971]]\n[[612, 85, 851, 944]]\nMaterials and structure of the image: snow[[343, 635, 996, 984]]\nImage content: A group of people standing in the snow with skis.\nImages:\nmiddle person front[[426, 50, 606, 971]]\nImages:\nImages:[[612, 85, 851, 944]]\nImages:\nImages:middle person front[[426, 50, 606, 971]]\nImages:middle person front[[336, 119, 445, 76",
+                "middle person front[[425, 55, 608, 972]]\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with striped stripe on left leg and white stripe on right leg.\n another person in black jacket and pants with",
+                "middle person front[[434, 47, 613, 969]]\n[[628, 87, 859, 939]]\nWould be the ski slope or the ski resort?\nski slope or the ski resort[[0, 397, 1000, 988]]\n[[781, 145, 937, 475]]\nman[[379, 119, 470, 769]]\nman[[454, 43, 628, 978]]\nperson[[680, 107, 855, 940]]\nhat[[460, 48, 578, 427]]\nski[[599, 786, 902, 10",
+                "middle person front[[422, 54, 609, 973]]\n[[608, 87, 853, 946]]\nMore description: person[[110, 73, 252, 875]]\nMore description: person[[339, 114, 445, 770]]\nMore description: person[[255, 161, 319, 422]]\nMore description: person[[539, 63, 665, 766]]\nMore description: person[[595, 107, 853, 942]]\nMore description: person[[413, 46, 582, 972]]\nperson",
+                "middle person front[[423, 56, 617, 971]]\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses\n another person wearing a hat with stripes and glasses",
+                "middle person front[[435, 54, 618, 973]]\nDNA",
+                "middle person front[[425, 55, 612, 966]]\n again output in <answer>[x1,y1,x2,y2]</answer>\n at the end\n at the end\n again in <answer>[x1,y1,x2,y2]</answer>"
+            ],
+            "iou_scores": [
+                0.9283443584768939,
+                0.9566260744985673,
+                0.9372147526828667,
+                0.9204190449345829,
+                0.9173936765930563,
+                0.8830576724683018,
+                0.8863788286512521,
+                0.0
+            ],
+            "iou_var": 0.0927956865690582,
+            "mean_iou": 0.8036793010381902,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000077650.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman on left</ref>",
+            "ground_truth": [
+                541,
+                302,
+                689,
+                961
+            ],
+            "model_output": [
+                "woman on left[[546, 307, 692, 966]]\nMore tags:\nwoman on right[[700, 324, 822, 978]]\nMore tags:\n[[879, 184, 918, 304]]\nMore tags:\n[[101, 188, 148, 369]]\nMore tags:\n[[577, 173, 797, 267]]\nMore tags:\n[[517, 196, 858, 347]]\nMore tags:\n[[40, 139, 188, 367]]\nMore tags:\n[[680, 159, 724, 2",
+                "woman on left[[536, 312, 684, 969]]\n[[713, 326, 824, 978]]\nDNAImage tags: woman[[536, 312, 684, 969]]\nDNAImage tags: woman[[536, 312, 684, 969]]\nDNAImage tags: woman[[713, 326, 824, 978]]\nDNAImage tags: woman[[536, 312, 684, 969]]\nDNAImage tags: woman[[713, 326, 824, 978]]\nDNAImage tags: woman[[713, 326, 824, 978]]\nDNAImage tags:",
+                "woman on left[[537, 315, 682, 963]]\nKnow the body part? woman[[693, 322, 828, 979]]\nHow many people are there? woman[[693, 322, 828, 979]]\nWhere is the umbrella of the woman on the right? woman[[693, 322, 828, 979]]\nWhere is the umbrella of the woman on the left? woman[[537, 315, 682, 963]]\nHow many people are there? woman[[537, 315, 682, 963]]\nHow many people are there? woman[[693, 322, 828, 979]]\nWhat is the name of the first person? woman",
+                "woman on left[[542, 312, 679, 964]]\nImages: \nwoman[[699, 325, 830, 979]]\nImages: \nwoman[[542, 312, 679, 964]]\nImages: \nwoman[[699, 325, 830, 979]]\nImages: \nwoman[[542, 312, 679, 964]]\nImages: \nwoman[[699, 325, 830, 979]]\nImages: \nwoman[[542, 312, 679, 964]]\nImages: \nwoman[[699, 325, 830, 979]]\nImages: \nwoman[[542, 312,",
+                "woman on left[[539, 313, 686, 969]]\nwoman on right[[699, 320, 821, 975]]\nAlright, let's find the region that contains the text 'New York Yankees' on the umbrella. \nNew York Yankees[[539, 313, 686, 969]]\n[[699, 320, 821, 975]]\nHere are the bounding boxes for the region that contains the text 'New York Yankees' on the umbrella. \nNew York Yankees[[539, 313, 686, 969]]\nHere are the bounding boxes for the region that contains the text 'New York Yankees' on the umbrella. \nNew York Yankees[[699, 320, 821, 975]]\nHere are the bounding",
+                "woman on left[[548, 317, 693, 966]]\nAI\n[[705, 325, 834, 978]]\nThe woman on the left is standing on the left side of the image. The bounding box coordinates are: [548, 317, 693, 966].\nThe woman on the right is standing on the right side of the image. The bounding box coordinates are: [705, 325, 834, 978].\nThe woman on the left is facing towards the right side of the image. The bounding box coordinates are: [548, 317, 693, 966].\nThe woman on the right is facing towards the left side of the image. The bounding box coordinates are: [705, 325, 834, 978].\nThe woman on the left is facing",
+                "woman on left[[543, 316, 679, 963]]\n[[713, 324, 823, 975]]\nThe rest of the sentence: \"The woman with the umbrella\".\nwoman with the umbrella[[543, 316, 679, 963]]\nThe rest of the sentence: \"standing on the street\".\nThe rest of the sentence: \"crosswalk\"\nThe rest of the sentence: \"on the street\"\nThe rest of the sentence: \"on the wet pavement\"\nThe rest of the sentence: \"with her purse\"\nThe rest of the sentence: \"on the wet pavement\"\nThe rest of the sentence: \"on the pavement\"\nThe rest of the sentence: \"on the street\"\nThe rest of the sentence: \"on the street\"\nThe rest of the sentence: \"on the pavement\"[[713, ",
+                "woman on left[[539, 313, 678, 969]]\nMore tags:\n[[700, 322, 824, 979]]\nMore tags:\n[[748, 195, 779, 325]]\nMore tags:\n[[635, 162, 690, 219]]\nMore tags:\n[[678, 161, 727, 219]]\nMore tags:\n[[670, 162, 717, 219]]\nMore tags:\n[[635, 157, 685, 212]]\nMore tags:\n[[680, 159, 723, 211]]"
+            ],
+            "iou_scores": [
+                0.9331297892720306,
+                0.9102205745334,
+                0.9071768619405215,
+                0.9078035183729312,
+                0.9395624175032998,
+                0.9005385141769063,
+                0.8968958324812891,
+                0.8882929757854713
+            ],
+            "iou_var": 0.00026907028825674415,
+            "mean_iou": 0.9104525605082312,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000156125.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person in back</ref>",
+            "ground_truth": [
+                780,
+                174,
+                988,
+                469
+            ],
+            "model_output": [
+                "person in back[[796, 190, 992, 465]]\n[[113, 150, 990, 731]]\nMore tags:\n[[29, 624, 988, 926]]\n\n[[29, 624, 988, 926]]\n\n[[29, 624, 988, 926]]\n\n[[29, 624, 988, 926]]\n\n[[29, 624, 988, 926]]\n\n[[367, 628, 969, 789]]\n\n[[367, 628, 969, 78",
+                "person in back[[785, 189, 996, 469]]\n[[114, 148, 983, 723]]\nMore tags:\n[[15, 722, 985, 926]]\n\n[[15, 722, 985, 926]]\n\n[[15, 722, 985, 926]]\n\n[[274, 143, 991, 748]]\n\n[[274, 143, 991, 748]]\n\n[[15, 722, 985, 926]]\n\n[[15, 722, 985, 926",
+                "person in back[[789, 191, 984, 467]]\n[[106, 150, 987, 734]]\n`[[359, 339, 978, 737]]\n`[[17, 680, 997, 920]]\n`[[27, 719, 977, 877]]\n[[27, 823, 802, 922]]\n[[374, 624, 968, 793]]\n`[[17, 680, 997, 920]]\n[[35",
+                "person in back[[791, 192, 981, 467]]\n[[110, 147, 986, 747]]\n[[10, 625, 990, 926]]\n[[418, 333, 981, 722]]\n[[247, 733, 624, 792]]\n[[18, 735, 898, 922]]\n[[44, 619, 987, 788]][[44, 619, 987, 788]]\n[[44, 619, 987, 788]]",
+                "person in back[[797, 188, 982, 462]]\n[[111, 144, 988, 725]]\n[[28, 629, 992, 924]]\n[[28, 716, 998, 923]]\n[[269, 632, 978, 797]]\n[[42, 398, 361, 763]]\n[[27, 712, 998, 927]]\n[[42, 629, 992, 924]][[28, 716, 998, 923]]",
+                "person in back[[788, 187, 984, 461]]\n[[111, 148, 985, 739]]\n[[33, 627, 987, 919]]\n[[299, 726, 771, 793]]\n[[262, 728, 657, 810]]\n[[397, 626, 992, 799]]\n[[29, 627, 990, 921]]\n[[0, 644, 351, 762]]",
+                "person in back[[791, 184, 993, 456]]\n[[110, 153, 982, 729]]\n[[12, 622, 993, 918]]\n[[341, 337, 984, 746]]\n[[29, 730, 755, 920]]\n[[426, 728, 612, 791]]\n[[304, 711, 598, 792]][[31, 622, 999, 922]]\n[[34, 730, 755, 920]]",
+                "person in back[[782, 191, 998, 464]]\n[[108, 152, 991, 746]]\n[[354, 361, 990, 745]]\n[[24, 624, 990, 927]]\n[[24, 726, 990, 927]]\n[[28, 719, 996, 920]]\n[[24, 719, 990, 927]][[24, 719, 990, 927]]\n[[24, 719, 990, 927]]"
+            ],
+            "iou_scores": [
+                0.8453410182516811,
+                0.8937106918238994,
+                0.8771186440677966,
+                0.8515319426336375,
+                0.8261082138200783,
+                0.8752281616688397,
+                0.8543367346938775,
+                0.8774847870182556
+            ],
+            "iou_var": 0.0004224999283877757,
+            "mean_iou": 0.8626075242472582,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000252768.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person with phone</ref>",
+            "ground_truth": [
+                3,
+                2,
+                355,
+                961
+            ],
+            "model_output": [
+                "person with phone[[0, 2, 360, 987]]\n<answer>\n\n><answer>\n\n####\n</answer></div></div></div></div>\n</body>\n\n</html>\n</body></html></html>",
+                "person with phone[[0, 2, 363, 987]]\n<answer>\n</answer>",
+                "person with phone[[0, 2, 366, 987]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u63cf\u8ff0\u533a\u57df\u7684bounding box coordinates\uff1a<pred>person</pred>\uff1a<pred>[0, 5, 367, 987]</pred>\n<answer>\n\n\u2022 woman[[351, 445, 977, 990]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "person with phone[[0, 0, 361, 971]]\n<answer>\nperson with phone[[0, 0, 361, 971]]\n<answer>\nperson[[360, 454, 976, 1000]]\nAnother person's hand is also on the ground, resting on the woman's upper arm. She is wearing a pink shirt and blue jeans. She is laying on the grass. She is smiling and wearing glasses. She is not wearing a hat. She is not holding anything. She is also wearing a black belt. She is sitting on the grass. There is a gray blanket under her. She has long brown hair. She is not wearing any other clothing items. The woman is not wearing a cap. She is not holding any object. There is a dark jacket lying next to her. She is not wearing any shoes. There is another person's leg visible on the right side of the image, who is not wearing any clothes. The person is sitting on the grass. There is a brown baseball field in the background. The",
+                "person with phone[[0, 2, 358, 988]]\n<answer>\nperson with phone[[0, 2, 358, 988]]\n<answer>\nwoman[[355, 452, 974, 989]]\n<answer>\nwoman[[355, 452, 974, 989]]\n<answer>\nwoman[[355, 452, 974, 989]]\n<answer>\nwoman[[344, 599, 973, 984]]\n<answer>\nwoman[[344, 599, 973, 984]]\n[[913, 0, 1000, 535]]\n[[922,",
+                "person with phone[[0, 5, 353, 966]]\n<answer>\n</answer>[[361, 443, 976, 988]]\n</body>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n",
+                "person with phone[[0, 2, 354, 989]]\n<answer>\nAnother question: What is the person lying on the grass holding?\n<answer>Answer: a pink shirt</answer>\nAnother question: What is the person lying on the grass wearing?\nAnswer: a pink shirt and blue jeans\n<answer>Answer: a pink shirt and blue jeans</answer>\nAnother question: What are the people sitting on the grass?\nAnswer: the grass<answer>Answer: the grass</answer>\nAnother question: What is the person on the right side of the image, sitting on the grass?\nAnswer: a person wearing shorts<answer>Answer: a person wearing shorts</answer>\nAnother question: What is the person lying on the grass holding?\nAnswer: a pink shirt\n<answer>Answer: a pink shirt</answer>\n<answer>Answer: a pink shirt</answer><answer",
+                "person with phone[[0, 2, 359, 987]]\n<answer>\nperson with phone[[0, 2, 359, 987]]\n<answer>\nperson[[365, 454, 976, 984]]\n<answer>\nperson[[365, 454, 976, 984]]\n<answer>\nperson[[920, 0, 1000, 534]]\n<answer>\nperson[[365, 454, 976, 984]]\n<answer>\nperson[[920, 0, 1000, 534]]\n<answer>\nperson[[365, 454, 976, 984]]\n<"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.931005671600498,
+                0.963018962659508,
+                0.9563157954378052,
+                0.0,
+                0.0,
+                0.9546201377204021
+            ],
+            "iou_var": 0.22628762199853866,
+            "mean_iou": 0.47562007092727665,
+            "correct_count": 4
+        }
+    ]
+}

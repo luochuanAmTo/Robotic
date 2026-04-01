@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 78,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000140850.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left case</ref>",
+            "ground_truth": [
+                0,
+                614,
+                312,
+                876
+            ],
+            "model_output": [
+                "far left case[[0, 612, 314, 872]]\n[[279, 512, 630, 908]]\n[[509, 430, 984, 934]]\n[[2, 604, 285, 867]]\n[[556, 226, 998, 456]]\n[[524, 238, 995, 454]]\n[[519, 492, 992, 933]]\n[[525, 519, 996, 930]]\n[[281, 513, 631, 903]]",
+                "far left case[[10, 615, 315, 870]]\n[[282, 512, 629, 909]]\n[[515, 427, 992, 941]]\n[[3, 611, 293, 869]]\n[[499, 52, 998, 323]]\n[[550, 432, 993, 932]]\n[[3, 512, 310, 634]]\n[[282, 512, 628, 898]][[10, 614, 318, 865]]\n",
+                "far left case[[12, 610, 309, 872]]\n[[275, 513, 640, 906]]\n[[522, 429, 992, 941]]\n[[321, 431, 648, 908]]\n[[1, 613, 278, 869]][[582, 232, 1000, 456]]\n[[457, 25, 998, 292]][[2, 256, 1000, 967]]\n[[279, 507, 647, 903]]",
+                "far left case[[10, 611, 314, 873]]\n[[272, 512, 638, 906]]\n[[508, 423, 991, 926]]\n[[3, 614, 305, 867]]\n[[503, 441, 998, 928]]\n[[289, 514, 619, 908]]",
+                "far left case[[7, 615, 302, 869]]\n[[276, 514, 636, 907]]\n[[522, 430, 988, 935]]\n[[575, 225, 1000, 457]]\n[[370, 436, 640, 614]]\n[[276, 514, 636, 907]]\n[[274, 513, 645, 899]]\n[[522, 430, 988, 934]]\n[[370, 436, 640, 614]]",
+                "far left case[[10, 611, 307, 870]]\n[[278, 512, 634, 909]]\n[[534, 424, 992, 930]]\n[[502, 422, 992, 926]]\n[[4, 615, 293, 875]]\n[[306, 505, 618, 903]]\n[[479, 523, 721, 905]]\n[[527, 506, 990, 929]]\n[[186, 261, 524, 327]]\n[[151, 264",
+                "far left case[[0, 614, 310, 872]]\n[[269, 514, 635, 907]]\n[[513, 431, 991, 927]]\n[[4, 613, 277, 867]]\n[[283, 517, 622, 897]]\n[[555, 518, 992, 919]]\n[[558, 517, 992, 919]][[3, 2, 999, 289]]\n[[558, 517, 992, 919]][[3, 2, 9",
+                "far left case[[10, 610, 314, 869]]\n[[278, 508, 640, 911]]\n[[519, 427, 989, 930]]\n[[295, 510, 641, 907]]\n[[533, 55, 998, 283]]\n[[3, 611, 310, 865]]\n[[518, 233, 983, 519]]\n[[627, 261, 1000, 453]]\n[[0, 265, 1000, 986]]"
+            ],
+            "iou_scores": [
+                0.9711417816813049,
+                0.9333527251572555,
+                0.9239618000289394,
+                0.9404140717051002,
+                0.9166422000391466,
+                0.9200943909965511,
+                0.9784204345273048,
+                0.9226069246435845
+            ],
+            "iou_var": 0.0004961913681677706,
+            "mean_iou": 0.9383292910973984,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000376806.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle bowl on right</ref>",
+            "ground_truth": [
+                573,
+                286,
+                785,
+                560
+            ],
+            "model_output": [
+                "middle bowl on right[[584, 287, 784, 567]]\nWould you order this meal?\n\u5982\u4f55\u770b\u5f85\u8fd9\u9053\u83dc\u7684\u70f9\u996a\u65b9\u6cd5\uff1f\n\n\n\u8fd9\u9053\u83dc[[65, 2, 997, 976]]\n;\n[[10, 6, 580, 623]]\n[[584, 287, 784, 567]]\n\n[[10, 6, 580, 623]]\n[[584, 287, 784, 567]]\n\n[[326, 320, 538, 607]]\n\n[[326, 320",
+                "middle bowl on right[[572, 288, 786, 564]]\nane;\nane;\nane;\nane;\naneith;\nane;\naneith;\nane;\n[[3, 601, 258, 973]]\n[[2, 3, 584, 631]]\n[[583, 582, 750, 820]]\n[[251, 320, 533, 6",
+                "middle bowl on right[[577, 287, 785, 564]]\nA:\nI'm sorry, but I can't provide the coordinates for the region where the dish is described as \"middle bowl on right\".\n; I'm sorry, but I can't provide the coordinates for the region where the dish is described as \"middle bowl on right\".\n; what about this one?\n[[328, 320, 531, 609]]\n[[10, 0, 544, 626]]\n[[575, 582, 751, 824]]\n\n[[1, 605, 263, 977]]\n\n[[553, 0, 998, 3",
+                "middle bowl on right[[578, 288, 787, 565]]\nAI\n",
+                "middle bowl on right[[577, 287, 777, 565]]\n[[334, 319, 536, 609]]\nWould you suggest using the term \"cherry\" to describe the object in the middle of the tray?\ncherry[[334, 319, 536, 609]]\n[[0, 597, 257, 974]]\n[[613, 584, 748, 825]]\ncherry[[336, 630, 487, 814]]\ncherry[[160, 10, 319, 294]]\ncherry[[708, 0, 852, 256]]\ncherry[[319",
+                "middle bowl on right[[579, 288, 783, 563]]\nrice[[5, 601, 276, 974]]\n[[0, 312, 320, 608]]\n{{432, 627, 514, 807}}\n[[112, 39, 317, 297]]\n[[307, 322, 531, 608]]\n[[438, 67, 541, 293]]\n[[623, 583, 748, 822]]\n[[544, 589, 698, 817]]\n[[673, 0, 888, 263]]\n[[543",
+                "middle bowl on right[[576, 289, 781, 568]]\n<answer><sep>middle bowl on right[[335, 319, 543, 608]]\n</answer>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</",
+                "middle bowl on right[[576, 288, 787, 564]]\nImages: \nbowl[[312, 322, 534, 607]]\nImages: \nbowl[[0, 600, 263, 974]]\nImages: \nbowl[[101, 317, 324, 597]]\nImages: \nbowl[[4, 600, 263, 973]]\nImages: \nbowl[[499, 584, 738, 827]]\nImages: \nbowl[[312, 322, 534, 607]]\nImages: \nbowl[[101, 317, 324, 597]]\nImages: \nbowl[[4, 6"
+            ],
+            "iou_scores": [
+                0.9178321678321678,
+                0.9693383539537386,
+                0.9637474541751527,
+                0.9434790622853025,
+                0.9240454914703493,
+                0.9452810902896082,
+                0.0,
+                0.9558141098930661
+            ],
+            "iou_var": 0.09808833526179471,
+            "mean_iou": 0.8274422162374232,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000011292.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman white scarf</ref>",
+            "ground_truth": [
+                59,
+                306,
+                296,
+                981
+            ],
+            "model_output": [
+                "woman white scarf[[49, 304, 305, 987]]\n[[234, 271, 860, 988]]\nNS[[492, 156, 902, 998]]\n[[598, 224, 660, 391]]\n[[869, 366, 888, 514]]\n[[889, 511, 1000, 1000]]\n[[15, 310, 223, 1000]]\n[[186, 267, 821, 989]]\n[[0, 309, 85, 984",
+                "woman white scarf[[50, 303, 319, 989]]\n<answer>\nwoman white scarf[[50, 303, 319, 989]]\n<issue>\n<answer>\n\n           [[233, 267, 916, 999]]\n           \n           [[471, 156, 915, 987]]\n           \n           [[95, 300, 1000, 999]]\n           \n           [[4, 311, 105, 987]]\n           \n           [[25, 315, 140, 680]]\n           \n           [[525, 224, ",
+                "woman white scarf[[53, 302, 318, 987]]\n<answer>\nwoman white scarf[[53, 302, 318, 987]]\n<issue>\n<issue-line>woman white scarf[[53, 302, 318, 987]]\n[[219, 273, 876, 989]]\n[[219, 273, 876, 989]]\n[[487, 159, 912, 998]]\n<answer>\n\n<issue> <issue>[[487, 159, 912, 998]]\nif any\n[[219, 273, 876,",
+                "woman white scarf[[47, 304, 320, 986]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awoman white scarf[[47, 304, 320, 986]]\n<issue>\n<issue resource resource=image</issue>\n<issue resource resource=image</issue>\n<issue resource resource=image</issue>",
+                "woman white scarf[[49, 304, 306, 987]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awoman white scarf[[49, 304, 306, 987]]\n<issue>\n<answer>\u56fe\u7247\u4e2d\u8fd9\u4f4d\u7a7f\u7740\u68d5\u8272\u683c\u5b50\u886c\u886b\u7684\u7537\u5b50\u6b63\u5728\u505a\u4ec0\u4e48\uff1f<sep>\u5750\u7740\u7684\u5973\u5b50<sep>\u7a7f\u9ed1\u8272\u4e0a\u8863\u548c\u7ea2\u8272\u77ed\u88e4\u7684\u5973\u5b50<sep>\u5728\u4ea4\u8c08\u7684\u5973\u4eba<sep>\u7ad9\u7acb\u5728\u573a\u7684\u5176\u4ed6\u7537\u5b50\u548c\u80cc\u666f\u4e2d\u7684\u7269\u4f53<caps>EXIT</caps> <sep>\u706f\u548c\u80cc\u666f\u4e2d\u7684\u67dc\u53f0<caps>PADCA</caps> <sep>\u5496\u5561\u676f\u548c\u6905\u5b50<caps>BAR</caps></sep>\n</issue>\n</issue>\n<issue>\nAnswer: \u7a7f\u9ed1\u8272\u4e0a\u8863\u548c\u7ea2\u8272\u77ed\u88e4\u7684\u5973\u5b50[[49, 304, 306, 987]]\n</issue>>\n</issue>\n</issue>",
+                "woman white scarf[[47, 307, 320, 989]]\n[[1, 308, 95, 987]]\nIK\n[[239, 270, 798, 987]]\n[[488, 159, 916, 998]]\n[[346, 361, 487, 677]]\n[[270, 266, 486, 999]]\n[[481, 221, 594, 422]]\n[[783, 356, 872, 600]]\n[[756, 554, 969, 999]]\n[[",
+                "woman white scarf[[47, 308, 300, 986]]\n<answer>\nwoman white scarf[[47, 308, 300, 986]]\n<issue>\n<issue hit count>\ntoastie\nwoman white scarf[[47, 308, 300, 986]]\n<issue> woman white scarf[[47, 308, 300, 986]]\n</issue>\n<issue> woman white scarf[[47, 308, 300, 986]]\n</issue> \n<issue> woman white scarf[[47, 308, 300, 986]]\n<issue> woman white scarf[[47, 30",
+                "woman white scarf[[48, 308, 302, 984]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awoman white scarf[[48, 308, 302, 984]]\n<issue>\n<issue\u540d\u5bb6> woman white scarf[[48, 308, 302, 984]]\n</select>\n</issue>\n<issue> woman white scarf[[48, 308, 302, 984]]\n"
+            ],
+            "iou_scores": [
+                0.9149375457540263,
+                0.8669134143301506,
+                0.8812835697562319,
+                0.8592214237375527,
+                0.9113774774826099,
+                0.8568577911523793,
+                0.9272882656620622,
+                0.9263727073145234
+            ],
+            "iou_var": 0.0007966798202394507,
+            "mean_iou": 0.893031524398692,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000185229.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy closest to us</ref>",
+            "ground_truth": [
+                144,
+                293,
+                974,
+                978
+            ],
+            "model_output": [
+                "guy closest to us[[151, 292, 995, 963]]\n[[148, 265, 998, 962]]\n`[[644, 189, 844, 507]]\n`[[331, 286, 515, 608]]\n`[[517, 351, 664, 695]]\n`[[206, 319, 357, 625]]\n`[[25, 208, 235, 733]]\n`[[138, 280, 487, 601]]\n`[[37, 289, 131,",
+                "guy closest to us[[156, 292, 1000, 963]]\n[[156, 292, 1000, 963]]\nStock image\nI'm sorry, but I can't generate that image.\nuser\nwhat is the man in white hard hat and black shirt with safety vest? the man in orange hard hat and black shirt with safety vest?\n[[33, 208, 244, 727]]\nI'm sorry, but I can't generate that image.\n[[660, 188, 851, 567]]\nI'm sorry, but I can't generate that image.\n[[674, 287, 834, 590]]\nI'm sorry, but I can't generate that image.\n[[341",
+                "guy closest to us[[155, 292, 998, 966]]\n[[160, 354, 685, 842]]\n[[46, 207, 256, 735]]\n{{464, 349, 623, 565}}\n{{320, 350, 586, 692}}\n{{309, 329, 471, 619}}\n{{403, 393, 537, 688}}\n{{660, 190, 818, 520}}\n[[656, 293, 812, 536]]\n{{485, 398, 596, 493}}\n",
+                "guy closest to us[[154, 292, 1000, 967]]\n[[156, 293, 998, 969]]\nMore text: OLNMSTED LOCKS & DAM\nMore text: OLNMSTED LOCKS & DAM\nMore text: OLNMSTED LOCKS & DAM\nMore text: OLNMSTED LOCKS & DAM[[37, 27, 998, 434]][[689, 190, 857, 508]]\nMore text: OLNMSTED LOCKS & DAM\nMore text: OLNMSTED LOCKS & DAM\nMore text: OLNMSTED LOCKS & DAM[[783, 0, 1",
+                "guy closest to us[[159, 296, 999, 964]]\n[[621, 189, 843, 522]]\nWikimedia: guy[[621, 189, 843, 522]]\nWikimedia: guy[[20, 209, 276, 733]]\nWikimedia: guy[[204, 350, 644, 782]]\nWikimedia: guy[[159, 296, 999, 964]]\nWikimedia: guy[[159, 296, 999, 964]]\nWikimedia: guy[[621, 189, 843, 522]]\n",
+                "guy closest to us[[156, 295, 983, 963]]\n[[156, 295, 983, 963]]\nThe rest of the sentence about the location: \"olmsted locks & dam\"\n[[31, 205, 245, 730]]\nThe rest of the sentence about the sky: \"overcast\"\nThe rest of the sentence about the men: \"guy wearing yellow hard hat\"\nThe rest of the sentence about the equipment: \"guy in scuba diving suit\"\nThe rest of the sentence about the environment: \"dirt road\"\nThe rest of the sentence about the people: \"guy in white hard hat\"\nThe rest of the sentence about the construction: \"building under construction\"\nThe rest of the sentence about the surroundings: \"red crane\"\nThe rest of the sentence about the water: \"water body\"\n[[65",
+                "guy closest to us[[156, 291, 1000, 966]]\n[[200, 353, 648, 839]]\nThe rest of the sentence about the location was not relevant to the image.\n[[588, 187, 817, 566]]\nThe rest of the sentence about the location was not relevant to the image.\n[[12, 206, 255, 736]]\nThe rest of the sentence about the location was not relevant to the image.\n[[303, 322, 457, 621]]\nThe rest of the sentence about the location was not relevant to the image.\n[[420, 356, 596, 689]]\nThe rest of the sentence about the location was not relevant",
+                "guy closest to us[[147, 295, 990, 964]]\n[[147, 295, 990, 964]]\nMore details: guy[[615, 189, 825, 554]]\nMore details: guy[[30, 211, 272, 734]]\nMore details: guy[[276, 323, 438, 623]]\nMore details: guy[[395, 350, 623, 696]]\n[[147, 295, 990, 964]]\nMore details: guy[[615, 189, 825, 554]]\nMore details: "
+            ],
+            "iou_scores": [
+                0.9450625916937463,
+                0.9339586308438449,
+                0.9413230409276827,
+                0.941661555237511,
+                0.9302349423323366,
+                0.9510270432085658,
+                0.9366688445152245,
+                0.9551302192129877
+            ],
+            "iou_var": 6.19043785881255e-05,
+            "mean_iou": 0.9418833584964874,
+            "correct_count": 8
+        }
+    ]
+}

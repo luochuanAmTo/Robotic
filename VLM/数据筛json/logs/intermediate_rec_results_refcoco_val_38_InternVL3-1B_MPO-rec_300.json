@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 38,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000385401.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>laptop being used</ref>",
+            "ground_truth": [
+                451,
+                438,
+                743,
+                890
+            ],
+            "model_output": [
+                "laptop being used[[459, 440, 753, 894]]\n[[106, 439, 407, 832]]\nThe rest of the text in the image: \nlaptop[[674, 398, 858, 697]]\n[[106, 439, 407, 832]]\nThe rest of the text in the image: \nhand[[421, 704, 744, 1000]]\nThe rest of the text in the image: \nhand[[576, 744, 996, 989]]\n[[0, 240, 312, 989]]\nThe rest of the text in the image: \nperson[[365, 697, 7",
+                "laptop being used[[454, 443, 751, 892]]\n[[107, 441, 402, 837]]\n[[746, 398, 865, 696]]\n[[430, 700, 806, 982]]\n[[3, 240, 256, 984]]\n[[2, 244, 137, 998]]\n[[0, 247, 127, 983]]\n[[369, 692, 998, 1000]]\n[[107, 725, 408, 836]]\n[[107, 613, 408",
+                "laptop being used[[464, 441, 764, 897]]\n[[104, 442, 421, 838]]\nThe rest of the sentence about the laptop: \"The laptop on the right is black and appears to be a laptop computer.\"\n[[680, 398, 853, 697]]\nThe rest of the sentence about the laptop: \"The screen of the laptop is black and appears to be a laptop computer.\"\nThe rest of the sentence about the keyboard: \"The keyboard of the laptop is black and appears to be a laptop computer.\"\nThe rest of the sentence about the keyboard: \"The keyboard of the laptop is black and appears to be a laptop computer.\"\nThe rest of the sentence about the mouse: \"The mouse is black and appears to be a laptop computer.\"\nThe rest of the sentence about the mouse: \"The mouse is black and appears to be a laptop computer.\"\nThe rest of the sentence about the hands",
+                "laptop being used[[458, 440, 761, 897]]\n[[106, 443, 401, 837]]\nThe rest of the sentence about the laptop was not relevant to the image.\n[[711, 396, 850, 695]]\nThe rest of the sentence about the laptop was not relevant to the image.\nThe rest of the sentence was not relevant to the image.\n[[115, 684, 387, 841]]\nThe rest of the sentence about the laptop was not relevant to the image.\nThe rest of the sentence was not relevant to the image.\n[[413, 706, 794, 987]]\nThe rest of the sentence about the laptop was not relevant to the image.\nThe rest of the sentence was not relevant to the image.",
+                "laptop being used[[458, 436, 755, 899]]\n[[103, 442, 412, 836]]\nThe given context about the region's coordinates is missing. Please try again.\n[[716, 400, 855, 699]]\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing. Please try again.\nThe given context about the region's coordinates is missing.",
+                "laptop being used[[457, 443, 758, 898]]\n[[104, 443, 408, 830]]\nHere is the updated room description for reference: \nA man wearing glasses and a beard is sitting next to a wooden desk. On the desk, there are two laptops, an old-fashioned laptop, and a brown bag. The man is holding a keyboard. The laptop on the right has a screen and is open. There are several cables connected to the laptops and the brown bag. A black speaker is also on the desk. The wall is plain and white. The room appears to be a small room with a simple setup.\nman[[3, 239, 273, 1000]]\n[[418, 704, 777, 984]]\nHere is the updated room description for reference: \nA man wearing glasses and a beard is sitting next to",
+                "laptop being used[[454, 437, 758, 892]]\n[[105, 444, 419, 831]]\nThe rest of the sentence about the laptop being used was not relevant to the bounding box coordinates.\n[[702, 398, 857, 694]]\nThe rest of the sentence about the laptop being used was not relevant to the bounding box coordinates.\n</script>[[418, 702, 696, 990]]\nThe rest of the sentence about the laptop being used was not relevant to the bounding box coordinates.\nThe rest of the sentence about the laptop being used was not relevant to the bounding box coordinates.\n[[398, 700, 517, 835]]\nThe rest of the sentence about the laptop being",
+                "laptop being used[[456, 439, 752, 905]]\n[[104, 444, 405, 835]]\n3"
+            ],
+            "iou_scores": [
+                0.9283742554118843,
+                0.948800622824155,
+                0.8728895640116227,
+                0.9018670229598116,
+                0.9157277412475564,
+                0.906057534887347,
+                0.9352215126435465,
+                0.9213712691215307
+            ],
+            "iou_var": 0.00047297885828513105,
+            "mean_iou": 0.9162886903884317,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000286116.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>apple macbook in the middle</ref>",
+            "ground_truth": [
+                244,
+                597,
+                644,
+                953
+            ],
+            "model_output": [
+                "apple macbook in the middle[[253, 607, 619, 967]]\n again this time, the coordinates of the region matching the sentence are: apple macbook[[2, 575, 152, 833]]\n again, the coordinates of the region matching the sentence are: apple macbook[[2, 575, 152, 833]]\n again, the coordinates of the region matching the sentence are: woman[[622, 265, 923, 987]]\n again, the coordinates of the region matching the sentence are: woman[[622, 265, 923, 987]]\n again, the coordinates of the region matching the sentence are: woman[[147, 342, 617, 901]]\n again, the coordinates of the region matching the sentence are: woman[[147,",
+                "apple macbook in the middle[[254, 607, 599, 971]]\n<answer>\napple macbook in the middle[[254, 607, 599, 971]]\n<answer>\n\n<answer>\n\n####\n<answer>\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list>:\n</list",
+                "apple macbook in the middle[[252, 600, 604, 963]]\nA detailed mind map for the object {'name': 'laptop', 'description': 'two laptops on the table', 'bounding box': {'x': 326, 'y': 948}}\nAnother object {'name': 'laptop', 'description': 'two laptops on the table', 'bounding box': {'x': 84, 'y': 943, 'width': 337, 'height': 341}}\nAnother object {'name': 'can', 'description': 'red soda can', 'bounding box': {'x': 719, 'y': 809, 'width': 788, 'height': 177}}\nAnother object {'name': 'glass', 'description': 'two glasses on the table', 'bounding box': {'x': 769, 'y': 809, 'width': 737, 'height': 177}}\nAnother object {'name': 'water bottle', 'description':",
+                "apple macbook in the middle[[252, 609, 593, 969]]\nA great way to use a laptop is to use the right hand.\napple macbook[[834, 654, 1000, 999]]\n[[251, 583, 595, 961]]\napple macbook[[0, 576, 129, 861]]\nwoman[[165, 340, 615, 908]]\nwoman[[625, 267, 918, 987]]\nshirt[[745, 544, 915, 715]]\n",
+                "apple macbook in the middle[[246, 604, 613, 967]]\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response\n again the same as the previous response",
+                "apple macbook in the middle[[252, 606, 597, 969]]\n<answer>\napple macbook in the middle[[252, 606, 597, 969]]\n<answer>\n\n<answer>\n\n<br><answer>apple[[0, 575, 161, 829]]\n<answer><br><answer>apple[[0, 575, 161, 829]]\n\n</select><br><answer>apple[[0, 575, 161, 829]]",
+                "apple macbook in the middle[[256, 605, 622, 971]]\n<answer>apple macbook[[913, 648, 999, 989]]\nHere is the updated problem description for better understanding:\n\nSentence: \"Describe the bounding box coordinates of the region that contains the 'apple macbook in the middle' region.\"\nAnswer: <answer>[x1,y1,x2,y2]</answer>\n<answer>apple macbook[[913, 648, 999, 989]]\n<answer>apple macbook[[256, 605, 622, 971]]\n<image>\napple macbook[[913, 648, 999, 989]]\n<answer>apple macbook[[2, 574, 144, 847]]",
+                "apple macbook in the middle[[252, 607, 624, 971]]\nAnother question: What is on the table in front of the two women?\non the table in front of the two women[[0, 612, 1000, 1000]]\nAnother question: What is on the table in front of the two women?\non the table in front of the two women[[0, 612, 1000, 1000]]\nAnother question: What is the person on the left using on the laptop?\nthe person on the left[[157, 343, 605, 907]]\nAnother question: What are the two women doing in the image?\ntwo women[[613, 269, 919, 983]]\nAnother question: Where is the woman on the left using a laptop?\nwoman on the left[[157, "
+            ],
+            "iou_scores": [
+                0.8584094791355983,
+                0.8032433887356167,
+                0.8515350877192982,
+                0.7933665187750244,
+                0.8681356667434831,
+                0.8093226068144943,
+                0.0,
+                0.8632827171755111
+            ],
+            "iou_var": 0.07708385620922246,
+            "mean_iou": 0.7309119331373783,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000545214.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left guy</ref>",
+            "ground_truth": [
+                0,
+                57,
+                415,
+                504
+            ],
+            "model_output": [
+                "left guy[[0, 51, 418, 515]]\n[[185, 119, 976, 767]]\n[[185, 119, 976, 767]]\n${\\displaystyle}[[173, 656, 442, 769]]\n[[207, 797, 394, 873]]\n[[688, 531, 815, 602]]\n[[171, 51, 421, 266]]\n[[0, 0, 1000, 355]]\n[[173, 656, 442, 769]]\n[[207",
+                "left guy[[3, 45, 423, 517]]\n[[176, 115, 980, 782]]\nMore less: left guy[[3, 45, 423, 517]]\nMore less: left guy[[3, 45, 423, 517]]\nMore less: left guy[[3, 45, 423, 517]]\nMore less: left guy[[3, 45, 423, 517]]\nMore less: left guy[[3, 45, 423, 517]]\nMore less: left guy[[3, 45, 423, 517]]\n[[181, 185, 443, 451",
+                "left guy[[0, 47, 428, 521]]\n\nI'm sorry, but I can't assist with this request.\n[[173, 117, 981, 801]]\n[[173, 117, 981, 801]]\n[[173, 117, 981, 801]]\n[[185, 184, 433, 448]]\n[[185, 184, 433, 448]]",
+                "left guy[[0, 53, 416, 520]]\n[[177, 123, 984, 782]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "left guy[[0, 47, 421, 521]]\n[[171, 112, 987, 768]]\n filme\nguy[[171, 112, 987, 768]]\n[[171, 112, 987, 768]]\n[[201, 178, 429, 330]]\n[[201, 178, 429, 330]]\n[[192, 719, 451, 773]]\n[[458, 713, 521, 761]]\n[[675, 531, 818, 600]]\n[[838,",
+                "left guy[[0, 50, 413, 522]]\n<answer>\n\n<answer>\n\n####\n\n*End of explanation:*\n*Explanation of the answer*: The region bounding box for the region described by the sentence \"this sentence describes: the region is a region\" is [507, 116, 975, 739]. The bounding box coordinates are calculated based on the coordinates of the person in the middle and the person on the right. The person on the left is wearing a black hat, a white and black jacket, and black pants. The person on the right is wearing a red hat, a blue jacket, black pants, and a harness. The person in the middle is holding a tool and wearing a black and white jacket, black pants, and gloves. The bounding box coordinates are as described above.\n<answer>\n*Explanation of the answer*: The region described by the sentence \"this sentence describes: the region is a region\" is [507, 116, 975",
+                "left guy[[0, 52, 428, 514]]\n<answer><meso>bounding box coordinates</meso>\n</answer>\n<answer>left guy[[0, 52, 428, 514]]\n</answer>\n<answer>left guy[[0, 52, 428, 514]]\n</answer>\n<answer>left guy[[179, 117, 975, 788]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "left guy[[0, 53, 418, 520]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aleft guy[[0, 53, 418, 520]]\n<object>left guy[[0, 53, 418, 520]]\n<answer>\n[[173, 121, 981, 800]]\n</object>\n</sink</answer>\n<answer>left guy[[0, 53, 418, 520]]\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>\n</sink>"
+            ],
+            "iou_scores": [
+                0.9564479871308365,
+                0.9227531678867227,
+                0.9143942978824086,
+                0.9548725498270466,
+                0.9295980035479119,
+                0.9427105142215186,
+                0.0,
+                0.950303781646056
+            ],
+            "iou_var": 0.09658880955361132,
+            "mean_iou": 0.8213850377678126,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000081128.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white striped shirt</ref>",
+            "ground_truth": [
+                372,
+                375,
+                490,
+                988
+            ],
+            "model_output": [
+                "white striped shirt[[357, 373, 493, 989]]\n<image>\nwhite striped shirt[[357, 373, 493, 989]]\ndog[[719, 736, 792, 898]]\nwoman[[243, 396, 407, 998]]\numbrella[[126, 265, 447, 471]]\nperson[[357, 373, 493, 989]]\numbrella[[287, 166, 515, 313]]\nshort sleeve T-shirt[[383, 510, 490, 983]]\nJeans[[391, 512, 494, 983]]",
+                "white striped shirt[[350, 374, 491, 985]]\n again\n again['340, 375, 433, 986]]\n again['350, 374, 491, 985]]\n again['340, 375, 433, 986']\n again['350, 374, 491, 985']",
+                "white striped shirt[[356, 376, 482, 986]]\n[[239, 394, 406, 996]]\nRNA\n[[423, 505, 536, 977]]\n[[223, 343, 362, 989]]\n[[338, 307, 455, 996]]\n[[689, 738, 786, 893]]\n[[822, 651, 946, 873]]\n[[415, 505, 472, 695]]\n[[293, 166, 522,",
+                "white striped shirt[[353, 379, 484, 988]]\n[[240, 402, 408, 1000]]\n3[[406, 497, 455, 984]]\n4\ndog[[726, 736, 804, 894]]\n5\nwoman[[240, 402, 408, 1000]]\n6\nperson[[240, 402, 408, 1000]]\n7\numbrella[[123, 168, 520, 463]]\n8\n",
+                "white striped shirt[[360, 375, 488, 984]]\nAI[[240, 393, 408, 989]]\nAI",
+                "white striped shirt[[357, 376, 491, 987]]\n[[240, 395, 404, 989]]\nHow far back is the dog from the camera? dog[[722, 735, 796, 899]]\nWhat is the man in the background wearing? striped shirt[[357, 376, 491, 987]]\nWhat is the woman holding in her left hand? umbrella[[121, 275, 438, 468]]\nWhere is the black bag on the woman? umbrella[[121, 275, 438, 468]]\nWhat is the dog's fur color? brown[[722, 735, 796, 899]]\nWho is in the background?",
+                "white striped shirt[[355, 382, 488, 987]]\nImages: \nred umbrella[[124, 166, 523, 464]]\nImages: \nred umbrella[[124, 282, 433, 465]]\nImages: \nred umbrella[[124, 282, 433, 465]]\nImages: \nred umbrella[[124, 282, 433, 465]]\nImages: \nred umbrella[[124, 282, 433, 465]]\nImages: \nred umbrella[[124, 282, 433, 465]]\nImages: \nred umbrella[[124, 282, 433, 465]]",
+                "white striped shirt[[348, 372, 487, 984]]\n[[237, 398, 400, 989]]\n${{237, 398, 400, 989}}\n${{348, 372, 487, 984}}\ndog[[728, 738, 809, 896]]\nperson[[348, 372, 487, 984]]\n${{348, 372, 487, 984}}\n[[217, 403, 390, 989]]\n[[217, 403, 390, 989]]\n[["
+            ],
+            "iou_scores": [
+                0.8634215049656226,
+                0.8320906305993874,
+                0.8173557141813044,
+                0.8129193731005303,
+                0.8870194118681098,
+                0.8780660090123006,
+                0.8494414117817936,
+                0.8016184600592902
+            ],
+            "iou_var": 0.0008774060808729824,
+            "mean_iou": 0.8427415644460424,
+            "correct_count": 8
+        }
+    ]
+}

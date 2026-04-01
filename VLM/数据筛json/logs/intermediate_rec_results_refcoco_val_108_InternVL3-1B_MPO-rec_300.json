@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 108,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000453002.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman on right</ref>",
+            "ground_truth": [
+                738,
+                232,
+                965,
+                948
+            ],
+            "model_output": [
+                "woman on right[[735, 239, 976, 944]]\n[[560, 207, 758, 943]]\nWikimedia: woman[[377, 320, 550, 957]]\nWikimedia: woman[[377, 320, 550, 957]]\nWikimedia: woman[[377, 320, 550, 957]]\nWikimedia: woman[[377, 320, 550, 957]]\n[[735, 239, 976, 944]]\nWikimedia: woman[[735, 239, 976, 944]]\n[[560",
+                "woman on right[[732, 244, 975, 943]]\n[[568, 213, 752, 944]]\nDNA image description: A black and white photograph featuring three people standing in front of a bus. The man is dressed in a suit and tie, and the woman to his right is wearing a hat and coat. The bus in the background has a large front window and a dark-colored side panel.\nuser\nWhat is the woman standing in front of the bus?\nuser\nWhat is the woman standing next to the man?\nuser\nWhat are the names of the people in the image?\nuser\nWhat is the man in the middle wearing? What is the tie on his neck?\n[[552, 209, 756, 946]]\n</answer>\n</code></midwrd>\n</body></vision>\n",
+                "woman on right[[730, 241, 974, 945]]\n<answer>woman on right[[368, 322, 552, 951]]\n<answer>woman[[368, 322, 552, 951]]\n<answer>man[[527, 205, 756, 951]]\n<answer>woman[[368, 322, 552, 951]]\n<answer>woman[[368, 322, 552, 951]]\n<answer>clothing[[730, 241, 974, 945]]\n<answer>clothing[[368, 322, 552,",
+                "woman on right[[728, 235, 977, 946]]\n<answer>\nwoman on right[[366, 321, 548, 958]]\n<answer>\nwoman on right[[366, 321, 548, 958]]\n<answer>\nwoman on right[[366, 321, 548, 958]]\nwoman[[366, 321, 548, 958]]\nshirt[[524, 215, 750, 946]]\nSuit[[527, 327, 751, 896]]\nouterwear[[728, 235, 977, 946]]\nlamp[[42",
+                "woman on right[[734, 241, 973, 943]]\n[[563, 212, 762, 946]]\nWould you describe the image: 'The man is wearing a suit and tie?'.\n[[374, 319, 545, 946]]\n\u4ece\u6b64\u56fe\u7247\u4e2d\u53ef\u4ee5\u83b7\u53d6\u4ee5\u4e0b\u4fe1\u606f\uff1a'The bus is black and white?'\u3002\n[[415, 20, 972, 951]]\n\u4ece\u6b64\u56fe\u7247\u4e2d\u53ef\u4ee5\u83b7\u53d6\u4ee5\u4e0b\u4fe1\u606f\uff1a'The woman is wearing a hat?'\u3002\n[[717, 240, 832, 638]]\n\u4ece\u6b64\u56fe\u7247\u4e2d\u53ef\u4ee5\u83b7\u53d6\u4ee5\u4e0b\u4fe1\u606f\uff1a'The bus has a round shape?'\u3002\n[[21, 185, 385, 944]]\n\u4ece\u6b64\u56fe\u7247\u4e2d\u53ef\u4ee5\u83b7\u53d6\u4ee5\u4e0b\u4fe1\u606f\uff1a",
+                "woman on right[[735, 242, 976, 946]]\n<answer>\nHere is the bounding box coordinates for the region described by \"this sentence\":\n\nCoordinates:\n[[379, 324, 561, 954]]\n</answer>\n</div></div></div>\n<answer>\nHere is the bounding box coordinates for the region described by \"[[735, 242, 976, 946]]\" in the HTML tag:\n\n```html\n<div style=\"borders: none;\">\n    <div style=\"width: 285px; height: 285px; border: 1px solid #000; background: #000;\">\n        <img src=\"https://example.com/bus-photo.jpg\" alt=\"Bus photo\">\n    </div>\n</div>\n```\n\nThis will create the bounding box around the specified region in the image.\n<image>\nwoman on right[[735, 242, 976, 94",
+                "woman on right[[735, 240, 976, 944]]\n<answer>woman on right[[373, 321, 548, 962]]\nI'm sorry, but I can't provide the coordinates for the woman on the right.\n<answer>woman on right[[373, 321, 548, 962]]\nI'm sorry, but I can't provide the coordinates for the woman on the right.\n<answer>woman[[373, 321, 548, 962]]\nI can't provide the coordinates for the woman on the left.\n<answer>woman[[373, 321, 548, 962]]\nI can't provide the coordinates for the woman on the left.\n<answer>woman[[735, 240, ",
+                "woman on right[[731, 235, 975, 943]]\n[[534, 209, 758, 944]]\n[[371, 318, 551, 951]]\n[[40, 146, 343, 943]]\n[[431, 18, 969, 887]]\n[[384, 285, 550, 963]]\n[[708, 237, 972, 944]]\n[[580, 212, 748, 945]]\n[[370, 282, 553, 964]]\n[[721"
+            ],
+            "iou_scores": [
+                0.9282664934281505,
+                0.9134046374542356,
+                0.9158051575931232,
+                0.9058392358032036,
+                0.9321345843374903,
+                0.0,
+                0.9270250829524097,
+                0.920649832729939
+            ],
+            "iou_var": 0.09273056434285386,
+            "mean_iou": 0.805390628037319,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000078307.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red motorcycle</ref>",
+            "ground_truth": [
+                95,
+                228,
+                450,
+                1000
+            ],
+            "model_output": [
+                "red motorcycle[[62, 236, 456, 1000]]\n><answer>[x1,y1,x2,y2]</warn>\n><answer>red motorcycle[[62, 236, 456, 1000]]\n><answer>red motorcycle[[0, 220, 1000, 988]]\n><answer>red motorcycle[[62, 236, 456, 1000]]\n><image_coords>\n><caption>Motorcycle scene</caption>\n><footer>Motorcycles parked on a city street</footer>\n><source>\u8377\u5170\u8bed</source>\n><markdown>Source</markdown>\n><decorative</decorative>\n[[0, 0, 737, 141]]\n</decorative>\n",
+                "red motorcycle[[87, 233, 463, 989]]\n<image>\nPlease break down the structure of your response: <list-of-words>: red motorcycle output the detailed cox: red motorcycle[[87, 233, 463, 989]]\n<image>\nPlease break down the structure of your response: red motorcycle output the detailed cox: red motorcycle[[87, 233, 463, 989]]\n<image>\nPlease break down the structure of your response: red motorcycle output the detailed cox: red motorcycle[[87, 233, 463, 989]]\n<image>\nPlease break down the structure of your response: red motorcycle output the detailed cox: red motorcycle[[87, 233, 463, 989]]",
+                "red motorcycle[[91, 244, 459, 989]]\n[[0, 225, 167, 989]]\n><answer>[x1,y1,x2,y2]</answer>\n[[723, 247, 1000, 999]]\nThe rest of the text is too small to be read accurately.\n[[602, 229, 750, 730]]\nThe rest of the text is too small to be read accurately.\n[[562, 348, 641, 688]]\nThe rest of the text is too small to be read accurately.\n[[653, 232, 836, 644]]\nThe rest of the text is too small to be read accurately.\n><answer>[x1,y1,x2,y",
+                "red motorcycle[[88, 242, 461, 1000]]\n<answer>\nHere is the bounding box coordinates for the region described as \"this sentence describes\": red motorcycle[[88, 242, 461, 1000]]\n<answer>\nWhere is the region that this sentence describes located within the image: motorcycle[[716, 251, 1000, 989]]<sep>motorcycle[[634, 235, 1000, 989]]\n</answer><answer>\nThis region describes a motorcycle: motorcycle[[634, 235, 1000, 989]]<sep>motorcycle[[716, 251, 1000, 989]]\n</answer><answer>\nThis region describes a region near the ground: motorcycle",
+                "red motorcycle[[76, 227, 452, 1000]]\nImages: \nred motorcycle[[76, 227, 452, 1000]]\nImages: \nred motorcycle[[76, 227, 452, 1000]]\nImages: \nred motorcycle[[76, 227, 452, 1000]]\nImages: \nred motorcycle[[76, 227, 452, 1000]][[0, 227, 169, 1000]]\nImages: \nred motorcycle[[0, 227, 169, 1000]]\nImages: \nred motorcycle[[0, 227, 169, 1000]]\nImages: \nred motorcycle",
+                "red motorcycle[[63, 227, 462, 1000]]\n again\n again\n again\n again\n again\n again\n again\n again\n again\n again\n[[722, 256, 1000, 987]]\nred motorcycle[[63, 227, 462, 1000]]\n again\n again\n again\n again\n again\n again\n again\n again\n again\n[[722, 256, 1000, 987]]\n[[661, 225, 791, 780]]\n\n[[721, 255, 1000, 989]]",
+                "red motorcycle[[84, 225, 462, 984]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ared motorcycle[[84, 225, 462, 984]]\n<answer>\n\n<answer>\n\n[[716, 262, 1000, 998]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "red motorcycle[[90, 227, 476, 987]]\n<answer><boxed>...</box>\n alo"
+            ],
+            "iou_scores": [
+                0.8925938602495919,
+                0.9256525578058606,
+                0.0,
+                0.9353015599366015,
+                0.9429275274558917,
+                0.8885733090812412,
+                0.9172813091714459,
+                0.9042537125597785
+            ],
+            "iou_var": 0.09194506665594834,
+            "mean_iou": 0.8008229795325514,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000301373.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red vehicle in middle</ref>",
+            "ground_truth": [
+                306,
+                1,
+                656,
+                739
+            ],
+            "model_output": [
+                "red vehicle in middle[[407, 496, 656, 743]]\nISO[[143, 557, 396, 809]]\nano[[0, 353, 145, 907]]\nanoman[[793, 567, 827, 698]]\nano[[825, 575, 852, 665]]\nano[[859, 564, 879, 649]]\nano[[942, 580, 1000, 943]]\n\n[[828, 564, 852,",
+                "red vehicle in middle[[145, 557, 412, 813]]\n\u52ab  red vehicle[[398, 497, 665, 740]]\n\u52ab  fire truck[[398, 497, 665, 740]]\n\u52ab  fire truck[[0, 347, 172, 898]]\nuser\nHow many people are in the fire station?\nuser\nCan you explain the layout of the vehicles in the image?\n\npeople[[791, 569, 824, 696]]\n[[826, 570, 852, 649]]\n[[920, 577, 999, 947]]\nperson[[",
+                "red vehicle in middle[[407, 495, 660, 735]]\n materia\n",
+                "red vehicle in middle[[146, 553, 411, 809]]\nKnow the bounding box coordinates for? fire truck[[399, 497, 674, 736]]\nKnow the bounding box coordinates for? fire truck[[399, 497, 674, 736]]\nThis is the first answer.\nThis is an image of a fire truck in the middle of a street. The fire truck is parked on the side of the road. The fire truck is facing left. The scene is active, with multiple people around and other vehicles nearby. The fire truck is equipped with an extended ladder. The road is lined with trees and buildings. The fire truck is connected to a yellow hose. The scene is likely a firefighting operation. The number of people in the image is unknown. The image is taken from a street-level perspective. The sky is cloudy. The color of the fire truck is red. The number of fire trucks in the image is unknown. The image is taken from a street-level perspective. The color of the buildings",
+                "red vehicle in middle[[404, 496, 663, 742]]\nAnonymous word: Boston[[0, 349, 165, 921]]\nAnonymous word: Boston[[144, 555, 405, 812]]\nAnonymous word: fire truck[[405, 492, 671, 743]]\nAnonymous word: Boston[[689, 536, 797, 663]]\nAnonymous word: Boston[[150, 566, 406, 809]]\nAnonymous word: Boston[[434, 550, 663, 732]]\nAnonymous word: Boston[[899, 583, 999, 937]]\nAnonymous word: Boston[[8",
+                "red vehicle in middle[[411, 495, 653, 738]]\nImages[DET]\nred vehicle[[0, 356, 171, 921]]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\n[[141, 564, 408, 812]]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET]\nImages[DET",
+                "red vehicle in middle[[144, 559, 412, 809]]\nAnonymous: Describe the region given the input \"this sentence describes a region\". <answer>[x1,y1,x2,y3]</answer>\n\n\nthis sentence describes a region[[0, 352, 158, 913]]\nReply: The region is red. \n\nThe input sentence is about a fire truck. The output should be the coordinates of the bounding box for the region that matches this description. \n\nHere are the coordinates of the bounding box for the region:\n\nbounding box[[0, 352, 158, 913]]\nReply: The region is red. \n\nThis input sentence describes a fire truck. The output should be the coordinates of the bounding box for the region that matches this description. \n\nHere are the coordinates of the bounding box for the region:\n\nbounding box[[388, 498, 654, 739]]\nReply: The region is red. \n\nThis input sentence describes",
+                "red vehicle in middle[[401, 499, 665, 739]]\n[[147, 559, 408, 813]]\nMore description: red vehicle[[401, 497, 665, 737]]\n[[0, 352, 166, 918]]\nred vehicle[[0, 472, 176, 881]]\nfire truck[[147, 559, 408, 813]]\nfire truck[[401, 497, 665, 737]]\nperson[[819, 569, 849, 697]]\nperson[[841, 576, 871, 672]]\n"
+            ],
+            "iou_scores": [
+                0.23335107367641614,
+                0.06276678813118168,
+                0.23050219856514695,
+                0.0636965526238544,
+                0.23482042196811082,
+                0.22766550522648082,
+                0.0,
+                0.2349689011748445
+            ],
+            "iou_var": 0.008808636793831304,
+            "mean_iou": 0.1609714301707544,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000519626.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>the bottom pizza slice</ref>",
+            "ground_truth": [
+                0,
+                22,
+                999,
+                988
+            ],
+            "model_output": [
+                "the bottom pizza slice[[30, 481, 549, 989]]\nAcerca\n",
+                "the bottom pizza slice[[32, 474, 550, 989]]\nIdentifying \"the green leaf\" tag in the coordinate is difficult and may not be exact due to the close positioning of the object.\nthe green leaf[[644, 562, 1000, 990]]\n",
+                "the bottom pizza slice[[32, 473, 557, 989]]\n[[200, 178, 643, 574]]\n[[537, 155, 844, 529]]\n({'[x1,y1,x2,y2]': '[32, 473, 557, 989]]</answer>\nthe bottom pizza slice[[677, 547, 1000, 987]]\n[[336, 42, 683, 285]]\n{'[x1,y1,x2,y2]': '[0, 3, 242, 416]]\n{'[x1,y1,x2,y2]': '0, 3, 242,",
+                "the bottom pizza slice[[30, 473, 553, 987]]\n[[2, 37, 226, 412]]\n[[202, 178, 654, 571]]\n anyways, the image you're describing is of pizza slices on a plate. the sentence is describing the pizza slices, not the plate itself.\n[[581, 557, 1000, 990]]\n[[529, 161, 848, 526]]\n[[292, 44, 721, 295]]\n[[18, 460, 540, 986]]\n[[2, 0, 161, 383]]\n[[168, ",
+                "the bottom pizza slice[[24, 465, 547, 989]]\n[[641, 554, 1000, 989]]\n[[297, 37, 852, 530]]\n anyway, the text in the image is not present.\n[[337, 179, 627, 575]]\n[[615, 163, 842, 463]]\n[[1, 3, 232, 415]]\n[[2, 496, 535, 989]]\n[[536, 157, 843, 529]]\n[[654, 559, 999, 987]]",
+                "the bottom pizza slice[[32, 478, 552, 989]]\n[[635, 552, 999, 989]]\nHow far is the farthest point from the center in the image?\nfarthest point from the center[[292, 33, 840, 531]]\nHow many pieces of pizza are there?\npieces of pizza[[2, 31, 998, 989]]\nWhat is the shape of the pizza slices?\npizza slices[[2, 31, 998, 989]]\nWhat is the color of the pizza on the plate?\npizza slices[[2, 31, 998, 989]]\nWhat is the texture of the pizza?\npizza[[635, 552, 999, 989]]",
+                "the bottom pizza slice[[32, 473, 551, 989]]\nthe bottom pizza slice[[32, 473, 551, 989]]\nthe bottom pizza slice[[211, 175, 639, 573]]\n\n[[530, 161, 846, 532]]\n\n[[273, 38, 622, 297]]\nThe bounding box for the region that this sentence describes: the bottom pizza slice[[682, 567, 997, 998]]\n\n[[649, 556, 998, 822]]\nThe bounding box for the region that this sentence describes: the bottom pizza slice[[2",
+                "the bottom pizza slice[[28, 472, 550, 987]]\n[[2, 2, 225, 403]]\n vuelta pizza[[287, 37, 850, 535]]\n source\npizza[[211, 186, 649, 576]]\n source[[594, 548, 999, 989]]\n source[[10, 4, 1000, 989]]\n source[[641, 549, 1000, 989]]\n source[[594, 548, 999, "
+            ],
+            "iou_scores": [
+                0.27252051415095807,
+                0.2757510729613734,
+                0.2800191391722308,
+                0.27856220609843796,
+                0.28328622753498756,
+                0.27466097183585797,
+                0.27682064060698897,
+                0.27857049596180034
+            ],
+            "iou_var": 9.808974614751506e-06,
+            "mean_iou": 0.2775239085403294,
+            "correct_count": 0
+        }
+    ]
+}

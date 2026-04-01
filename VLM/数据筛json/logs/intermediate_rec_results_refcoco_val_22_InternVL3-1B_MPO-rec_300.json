@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 22,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000326350.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy in khakis on left</ref>",
+            "ground_truth": [
+                199,
+                373,
+                330,
+                952
+            ],
+            "model_output": [
+                "guy in khakis on left[[71, 261, 242, 813]]\n<answer>guy in khakis on left[[71, 261, 242, 813]][[199, 373, 352, 944]]\n<answer>guy in khakis on left[[252, 419, 384, 944]]\n</answer>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "guy in khakis on left[[67, 262, 236, 805]]\n<answer>guy in khakis on left[[67, 262, 236, 805]][[197, 361, 366, 942]]\n<answer>guy in khakis on left[[197, 361, 366, 942]]\n[[303, 426, 516, 1000]]\n[[355, 375, 482, 902]]\n[[501, 336, 626, 924]]\n[[555, 415, 778, 1000]]\n",
+                "guy in khakis on left[[66, 263, 223, 811]]\n<answer>guy in khakis on left[[66, 263, 223, 811]][[200, 364, 354, 943]]\n<answer>guy in khakis on left[[200, 364, 354, 943]]\n[[319, 425, 521, 987]]\n[[522, 415, 773, 989]]\n[[739, 226, 824, 780]]\nperson[[790, 249, 1000, 855]]\n",
+                "guy in khakis on left[[69, 261, 236, 814]]\n<answer>guy in khakis on left[[69, 261, 236, 814]][[658, 224, 812, 781]]\n</answer>><answer>guy in khakis on left[[212, 367, 360, 943]]\n</answer>><answer>guy in khakis on left[[212, 367, 360, 943]]\n</answer>><answer>guy in khakis[[342, 423, 522, 1000]]\n</answer>><answer>guy in khakis[[504, ",
+                "guy in khakis on left[[67, 262, 240, 809]]\n<answer>guy in khakis on left[[67, 262, 240, 809]][[218, 361, 363, 940]]\n<answer>guy in khakis on left[[218, 361, 363, 940]]\n[[114, 359, 352, 940]]\n[[326, 417, 507, 999]]\n[[424, 336, 602, 919]]\n[[595, 418, 778, 988]]\n",
+                "guy in khakis on left[[72, 260, 234, 807]]\n<answer>guy in khakis on left[[72, 260, 234, 807]]\uff1b\n'''<answer>'''\n<answer>guy in khakis on left[[205, 367, 353, 944]]\n</answer>\n<answer>guy in khakis on left[[340, 423, 515, 1000]]\n</answer>\n</table>\nAnswers:\nguy in khakis on left[[340, 423, 515, 1000]]\n</table>\nAnswers:\nguy in khakis on left[[205, 367, 353, 944]]",
+                "guy in khakis on left[[67, 264, 239, 811]]\n<answer>guy in khakis on left[[67, 264, 239, 811]][[205, 364, 351, 944]]\n</script><answer>guy in khakis on left[[205, 364, 351, 944]]\n</script>[[298, 426, 511, 998]]\n</script>[[501, 413, 773, 988]]\n</script>[[747, 225, 830, 780]]\n</",
+                "guy in khakis on left[[71, 263, 238, 811]]\n<answer>guy in khakis on left[[71, 263, 238, 811]][[201, 364, 346, 946]]\n</answer>><answer>guy in khakis on left[[201, 364, 346, 946]]\n</answer>><answer>guy in khakis on left[[684, 227, 814, 779]]\n</answer>><answer>guy in khakis on left[[344, 426, 521, 1000]]\n</answer>><answer>guy in khakis on left[["
+            ],
+            "iou_scores": [
+                0.1250322162819437,
+                0.10541310541310542,
+                0.06944435269169535,
+                0.10743137810024822,
+                0.11713978663730963,
+                0.1017598628017123,
+                0.11495082440474237,
+                0.11366555099379172
+            ],
+            "iou_var": 0.00024700527891364317,
+            "mean_iou": 0.10685463466556859,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000137724.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man on left in brown shirt</ref>",
+            "ground_truth": [
+                128,
+                324,
+                324,
+                953
+            ],
+            "model_output": [
+                "man on left in brown shirt[[145, 322, 320, 644]]\n<answer>man on left in brown shirt[[145, 322, 320, 644]]<answer>\n<answer>man on left in brown shirt[[145, 322, 320, 644]]\n[[557, 335, 967, 999]]\n</answer>\n<answer>man on left in maroon shirt[[145, 322, 320, 644]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "man on left in brown shirt[[135, 325, 315, 649]]\n<answer>man on left in brown shirt[[135, 325, 315, 649]]\n<answer>man on right[[555, 342, 941, 987]]\n</answer><issue> what is the relation between the objects <issue> (A) and (B) ?\n<answer>Based on the image, the person on the left is sitting at a table with a laptop, and the person on the right is also sitting at a table with a laptop. Both individuals are using laptops and seem to be focused on their work. So, the relationship between the objects is that they are all engaged in similar activities, possibly studying or working. The laptops are placed on the tables in front of each individual, indicating a shared workspace. The person on the left appears to be using a desktop laptop, while the person on the right is using a laptop, possibly a notebook or",
+                "man on left in brown shirt[[139, 325, 320, 646]]\n<answer>man on left in brown shirt[[139, 325, 320, 646]][[139, 325, 320, 646]]\n<answer>\n</answer>[[553, 342, 965, 1000]]\n</answer>\n<answer>man on left[[139, 325, 320, 646]]\n</answer>\n</body></div>\n</div>\n</body></div>\n</body></div>\n</body></div>\n</html>\n\n</body></div>",
+                "man on left in brown shirt[[134, 321, 322, 652]]\n<answer>man on left in brown shirt[[134, 321, 322, 652]]\n<answer>\n<answer>\n[[553, 343, 961, 1000]]\n</answer>[[250, 643, 519, 999]]\n</answer>[[340, 455, 450, 643]]\n</answer>[[635, 446, 780, 620]]\n</answer>[[663, 505, 791, 644]]\n</answer>",
+                "man on left in brown shirt[[137, 320, 323, 647]]\n<answer>man on left in brown shirt[[137, 320, 323, 647]]\n<answer>\n\u753b\u50cf\u304b\u3089\u306f\u5c11\u3057\u96e3\u89e3\u306a\u90e8\u5206\u304c\u3042\u308b\u304c<answer>\u300cman on left in blue shirt\u300d</body>\u306e\u533a\u753b\u3092\u542b\u3080\u30a8\u30ea\u30a2\u306e\u8a73\u7d30\u306f\u898b\u306a\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002</answer>\n",
+                "man on left in brown shirt[[139, 320, 315, 647]]\n<answer>man on left in brown shirt[[139, 320, 315, 647]]\n<answer>man on left[[139, 320, 315, 647]]\n<answer>man[[559, 345, 963, 998]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "man on left in brown shirt[[137, 327, 321, 646]]\n><answer>[[137, 327, 321, 646]]\n><answer>&#x1176;&#x1176;man on the right in blue shirt[[304, 324, 425, 548]]\n</answer>\nuser<sep>man[[544, 342, 951, 989]]\n</answer>\n><answer>&#x1176;&#x1176;man on the right in a jacket[[544, 342, 951, 989]]\n</answer>\n</body></div>\nman[[544, 342, 951, 989]]\n</body></div>\nclothing[[88",
+                "man on left in brown shirt[[132, 323, 320, 645]]\n<answer>man on left in brown shirt[[132, 323, 320, 645]]<answer>\n<answer>man on left in brown shirt[[132, 323, 320, 645]]\n[[163, 405, 361, 566]]\n\n\n\n[[541, 339, 958, 1000]]\n\n\n\n\n\n<answer>\n\n</image>\n</div>\n</div></yo[[541, 339, 958, 1000]]\n</yo></yo>\n</yo></"
+            ],
+            "iou_scores": [
+                0.45294983580568454,
+                0.4730540864994647,
+                0.4712777002692969,
+                0.49790065241263487,
+                0.4843906214725707,
+                0.4584959834822725,
+                0.47610395509555176,
+                0.4887585849423351
+            ],
+            "iou_var": 0.00019728765912463346,
+            "mean_iou": 0.4753664274974764,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000046609.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>baby</ref>",
+            "ground_truth": [
+                158,
+                97,
+                684,
+                911
+            ],
+            "model_output": [
+                "baby[[158, 99, 690, 919]]\n[[0, 0, 608, 203]]\n \u2022\n \u2022[[149, 103, 693, 915]]\n \u2022\n \u2022[[0, 625, 62, 998]]\n \u2022\n \u2022[[149, 103, 693, 915]]\n \u2022\n \u2022[[0, 0, 608, 203]]\n \u2022\n \u2022[[0, 625, 62, 998]]\n \u2022\n \u2022[[149, 103, 693, 915]]\n \u2022\n \u2022",
+                "baby[[158, 102, 687, 915]]\n[[0, 0, 615, 214]]\n \u2022\n \u2022 baby[[158, 102, 687, 915]]\n \u2022 baby[[158, 102, 687, 915]]\n \u2022 baby[[158, 102, 687, 915]]';[0, 627, 76, 988]]\n \u2022 baby[[158, 102, 687, 915]];[0, 0, 615, 214]];[0, 627, 7",
+                "baby[[160, 103, 684, 918]]\n[[0, 0, 608, 213]]\n \u2022\n \u2022[[0, 623, 80, 998]]\n \u2022\n \u2022[[160, 103, 684, 918]]\n \u2022\n \u2022[[3, 252, 1000, 999]]\n \u2022[251, 557, 337, 742]\n \u2022\n \u2022[563, 833, 741, 899]\n \u2022[160, 103, 684, 918]\n \u2022\n \u2022[66,",
+                "baby[[160, 102, 688, 919]]\n[[2, 0, 586, 214]]\n[[160, 102, 688, 919]]\n${\\displaystyle}160{\\rophs}[[160, 102, 688, 919]];<answer>[[160, 102, 688, 919]]\n[[1, 624, 72, 989]]\n[[0, 624, 62, 998]]\n[[0, 0, 586, 221]]\n[[0, 0, 586, 221]]",
+                "baby[[159, 105, 689, 912]]\n[[0, 0, 608, 212]]\n[[0, 625, 70, 989]]\n${\\displaystyle\\text{bounding box coordinates of the baby elephant}}\n[[159, 105, 689, 912]]\n[[0, 625, 70, 989]]\n[[0, 0, 608, 212]]\n[[0, 625, 70, 989]]\n[[0, 0, 608, 212]]\n[[159, 105, 689, 912]]\n[[0,",
+                "baby[[158, 97, 685, 920]]\n[[0, 0, 617, 251]]\n \u2022 baby[[158, 97, 685, 920]][[158, 97, 685, 920]]\n \u2022 baby[[158, 97, 685, 920]][[0, 629, 70, 987]]\n \u2022 baby[[158, 97, 685, 920]][[0, 0, 617, 251]]\n \u2022 baby[[158, 97, 685, 920]]",
+                "baby[[157, 103, 689, 915]]\n[[0, 0, 612, 206]]\n```\n[[0, 623, 76, 997]]\n```\n```[[157, 103, 689, 915]]\n```\n```[[0, 0, 612, 206]]\n```\n```[[0, 623, 76, 997]]\n```\n```[[665, 521, 998, 590]]\n```\n```[[157, 103, 689, 915]]\n```\n```",
+                "baby[[160, 99, 689, 915]]\n[[0, 0, 616, 213]]\n```\n:[160, 99, 689, 915]]\n```\n```[[0, 0, 616, 213]]\n```\n```[[0, 0, 616, 213]]\n`````````\n`````````\n``````\n```\n````\n```````````````"
+            ],
+            "iou_scores": [
+                0.976720360765804,
+                0.9834229628825047,
+                0.9804553622705126,
+                0.9731236111876297,
+                0.9778750427524242,
+                0.9871876160019921,
+                0.9767155398262628,
+                0.979619652806557
+            ],
+            "iou_var": 1.6762222146733307e-05,
+            "mean_iou": 0.9793900185617109,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000051550.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left one</ref>",
+            "ground_truth": [
+                147,
+                125,
+                667,
+                883
+            ],
+            "model_output": [
+                "left one[[153, 123, 705, 1000]]\n[[563, 173, 1000, 982]]\n\u2022 left one[[153, 123, 705, 1000]]\n\u2022 left one[[153, 123, 705, 1000]]\n\u2022 left one[[153, 123, 705, 1000]]\n\u2022 left one[[153, 123, 705, 1000]]\n\n\nleft one[[153, 123, 705, 1000]]\n\u2022 left one[[153, 123, 705, 1000]]\n\u2022",
+                "left one[[152, 125, 687, 1000]]\n[[566, 170, 1000, 986]]\n \u2022\n \u2022[[142, 123, 689, 1000]]\n \u2022 \n \u2022[[563, 172, 1000, 990]]\n \u2022 \n \u2022[[542, 171, 998, 987]]\n \u2022 \n \u2022 [[141, 125, 687, 1000]]\n \u2022 \n \u2022 [[563, 172, 1000, 990]]\n \u2022 \n \u2022 [[541, 17",
+                "left one[[153, 129, 692, 1000]]\n[[576, 171, 998, 987]]\n```\n:\n```\n```[[576, 171, 998, 987]]\n```\n```[[153, 129, 692, 1000]]\n```\n```[[576, 171, 998, 987]]\n```\n```[[151, 126, 661, 999]]\n```\n```[[575, 172, 998, 987]]\n```\n```[[151, 129, 692, 10",
+                "left one[[155, 127, 695, 1000]]\n[[572, 171, 1000, 989]]\n\u2022 giraffe[[572, 171, 1000, 989]]\n\u2022 giraffe[[155, 127, 695, 1000]]\n\u2022 giraffe[[155, 127, 695, 1000]]\n\u2022 giraffe[[572, 171, 1000, 989]]\n\u2022 giraffe[[572, 171, 1000, 989]]\n\u2022 giraffe[[155, 127, 695, 1000]]\n",
+                "left one[[150, 129, 693, 984]]\n[[564, 171, 998, 987]]\nIdentify the last one: left one[[150, 129, 693, 984]]\nIdentify the second one: left one[[564, 171, 998, 987]]\nIdentify the last one: left one[[150, 129, 693, 984]]\nIdentify the second one: left one[[564, 171, 998, 987]]\nIdentify the last one: left one[[150, 129, 693, 984]]\nIdentify the second one: left one[[564, 171, ",
+                "left one[[155, 130, 686, 1000]]\n[[568, 166, 998, 987]]\n\u2022\n[[155, 130, 686, 1000]]\n\u2022 left one[[155, 130, 686, 1000]]\n\u2022 left one[[568, 166, 998, 987]]\n\u2022 left one[[568, 166, 998, 987]]\n\u2022 left one[[155, 130, 686, 1000]]\n\u2022 left one[[155, 130, 686, 1000]]\n\u2022 left one[[568",
+                "left one[[150, 126, 695, 1000]]\n[[569, 174, 1000, 987]]\nMore description: left one[[150, 126, 695, 1000]]\nMore description: left one[[150, 126, 695, 1000]]\nMore description: left one[[150, 126, 695, 1000]]\nMore description: left one[[150, 126, 695, 1000]]\nMore description: left one[[150, 126, 695, 1000]]\nMore description: left one[[150, 126, 695, 1000]]",
+                "left one[[147, 130, 684, 1000]]\n[[565, 175, 998, 989]]\n\u2022\n\u2022\n[[147, 130, 684, 1000]]\n\u2022[[565, 175, 998, 989]]\n\u2022[[568, 169, 998, 987]]\n\u2022 left one[[147, 130, 684, 1000]]\n\u2022 left one[[147, 130, 684, 1000]]\n\u2022 left one[[147, 130, 684, 1000]]\n\u2022 left one"
+            ],
+            "iou_scores": [
+                0.7973199741329208,
+                0.8272040515770849,
+                0.8140684306818492,
+                0.8089143755172328,
+                0.831865507770904,
+                0.8192539641389393,
+                0.8168479361163464,
+                0.8334787883948147
+            ],
+            "iou_var": 0.0001302577696009206,
+            "mean_iou": 0.8186191285412615,
+            "correct_count": 8
+        }
+    ]
+}

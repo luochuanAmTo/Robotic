@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 83,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000326350.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in suit in front</ref>",
+            "ground_truth": [
+                314,
+                422,
+                522,
+                1000
+            ],
+            "model_output": [
+                "man in suit in front[[188, 359, 362, 944]]\n<answer>man in suit[[350, 417, 511, 989]]\nAnother tag: man[[350, 417, 511, 989]]\nAnother tag: man[[417, 333, 598, 919]]\nAnother tag: man[[636, 413, 792, 1000]]\nAnother tag: man[[753, 228, 840, 781]]\nAnother tag: man[[843, 246, 1000, 853]]\nAnother tag: man[[128, 255, 240, 803]]\nAnother tag",
+                "man in suit in front[[144, 362, 356, 942]]\n<answer>man in suit[[124, 261, 240, 804]]\nAnother one <answer>[x1,y1,x2,x3]</answer>\nanother one[[753, 227, 845, 780]]\nAnother one <answer>[x1,y1,x2,x3]</answer>\nbaseball player[[400, 339, 607, 920]]\nAnother one <answer>[x1,y1,x2,x3]</answer>\nbaseball player[[535, 417, 781, 1000]]\nAnother one <answer>[x1,y1,x2,x3]</answer>\nbaseball player[[324, 424, 517, 1000]]\nAnother one <answer>[x1,y1",
+                "man in suit in front[[162, 366, 346, 944]]\n<answer>man in suit in front[[323, 427, 505, 989]]\n\u90fd\u4e0d\u6562\u7528*\uff08\u7b54\u6848\u5728\u4e0b\u9762\uff09\n<answer>\n<question>What is the man in the white pinstriped uniform holding in his hands?</question>\n<answer>\n<question>What are the players on the field wearing?</question>\n&lt;/Answers> practise <answer>\n practise <answer> practise <answer>\n practise <answer>",
+                "man in suit in front[[170, 366, 360, 946]]\n<answer>\nHere is the specified bounding box coordinates for the region in the image: \n\nBounding box coordinates:\n- Top-left corner: <center>170, 366, 360, 946</center>\n- Bottom-right corner: <center>391, 783, 1000, 999</center>\n\n<answer>\n<answer>\n[[322, 423, 513, 1000]]\n[[454, 339, 593, 921]]\n<answer>\n[[685, 227, 806, 780]]\n[[759, 230, 835, 7",
+                "man in suit in front[[316, 424, 524, 1000]]\n<answer>man in suit[[177, 371, 356, 942]]\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\nAnother tag <answer>[x1,y1,x2,y2]</answer>\n<answer>man",
+                "man in suit in front[[317, 420, 513, 988]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u5750\u6807\uff1a<answer>[215, 366, 354, 944]</cite>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "man in suit in front[[194, 367, 370, 944]]\n<answer>\nHere is the requested bounding box for the region described in the sentence:\n\nman in suit in front[[194, 367, 370, 944]]\n<issuealimage data-src=\"https://via.placeholder.com/150x150/000000/000000\" style=\"display:block; width:auto; height:150px; cursor:pointer;\" caption=\"placeholder image\">\nman in suit[[331, 426, 522, 989]]\n<answer>\nHere is the requested bounding box for the region described in the sentence:\n\nman in suit[[331, 426, 522, 989]]\n<issuealimage data-src=\"https://via.placeholder.com/150x150/000000/0000",
+                "man in suit in front[[294, 427, 524, 1000]]\n<answer>man in suit in front[[313, 420, 517, 1000]]\nI'm sorry, but I can't provide the coordinates for people in this image.\n<answer>man[[313, 420, 517, 1000]]\nI'm sorry, but I can't provide the coordinates for people in this image either.\n<answer>man[[72, 262, 227, 810]]\nI'm sorry, but I can't provide the coordinates for people in this image either.\n<answer>man[[176, 354, 349, 942]]\nI'm sorry, but I can't provide the coordinates for people in this image either.\nI'm sorry, but I can't"
+            ],
+            "iou_scores": [
+                0.12721493922562171,
+                0.0,
+                0.07959136997789129,
+                0.11682822799534703,
+                0.1088771791637794,
+                0.9197453074219009,
+                0.15181984377596808,
+                0.8972671836181586
+            ],
+            "iou_var": 0.12516049246334535,
+            "mean_iou": 0.3001680063973333,
+            "correct_count": 2
+        },
+        {
+            "image": "train2014/COCO_train2014_000000020513.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>glass in back</ref>",
+            "ground_truth": [
+                221,
+                2,
+                515,
+                294
+            ],
+            "model_output": [
+                "glass in back[[228, 0, 499, 292]]\n[[0, 0, 267, 433]]\n \u2022 glass[[228, 0, 499, 292]]\n \u2022 glass[[0, 0, 267, 433]]\n \u2022 glass[[0, 0, 267, 433]]\n \u2022 glass[[228, 0, 499, 292]]\n \u2022 glass[[0, 0, 267, 433]]\n \u2022 glass[[228, 0, 499, 292]]\n \u2022 glass[[0, 0, 267, 433]]\n \u2022 glass[[0, 0, 267, 433]]",
+                "glass in back[[233, 0, 501, 295]]\n[[0, 2, 278, 437]]\nMore tags should be placed here: glass[[233, 0, 501, 295]]\n[[3, 265, 1000, 989]]\n[[3, 2, 278, 437]]\n[[233, 0, 501, 295]]\n[[0, 2, 278, 437]]\n[[233, 0, 501, 295]]\n[[3, 2, 278, 437]]\n[[233, 0, 501, 295]]\n",
+                "glass in back[[221, 0, 503, 292]]\n[[2, 2, 268, 436]]\n```json\n{\n  \"boundingBox\": {\n    \"x\": 0,\n    \"y\": 0,\n    \"width\": 1,\n    \"height\": 1\n  }\n}\n```\nglass in back[[221, 0, 503, 292]]\n```\n```butter cookie[[282, 487, 536, 644]]\n```\n```[[442, 298, 683, 444]]\n```\n```butter cookie[[282, 487, 536, 644]]\n```\n```[[442, ",
+                "glass in back[[233, 0, 514, 291]]\n\u300d\n[[0, 2, 263, 435]]\n'''\n'''\n[[492, 300, 690, 439]]\n[[290, 487, 521, 647]]\n\n[[0, 272, 1000, 1000]]\n[[0, 2, 262, 435]]\n\n[[0, 2, 262, 435]]\n[[290, 487, 521, 647]]\n\n",
+                "glass in back[[237, 2, 503, 294]]\n[[0, 2, 275, 435]]\n''''''\n[[0, 262, 1000, 1000]]\n''''''\n[[0, 0, 298, 425]]\n[[439, 297, 689, 442]]\n[[273, 487, 532, 646]]\n[[534, 259, 1000, 645]]\n[[544, 2, 998, 98]]\n[[1, 0, 276, 434]]",
+                "glass in back[[237, 0, 494, 296]]\n[[0, 0, 254, 435]]\n[[2, 256, 281, 431]]\nAnother image or a caption?\nanother image[[237, 0, 494, 296]]\n[[2, 256, 281, 431]]\n[[0, 0, 254, 435]]\n[[2, 256, 281, 431]]\n[[321, 483, 526, 629]]\n[[281, 297, 694, 441]]\n[[522, 274, 695, 4",
+                "glass in back[[244, 0, 509, 286]]\n[[0, 2, 266, 438]]\n</select>\n</select>\n[[244, 0, 509, 286]]\n</select>\n[[0, 263, 999, 989]]\n</select>\n[[244, 0, 509, 286]]\n</select>\n</select>\n[[0, 2, 266, 438]]\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n",
+                "glass in back[[232, 2, 502, 291]]\n[[0, 2, 268, 437]]\n \u2022\n \u2022 glass in back[[232, 2, 502, 291]]\n \u2022 glass in back[[0, 2, 268, 437]]\n \u2022 glass[[0, 2, 268, 437]]\n \u2022 glass[[232, 2, 502, 291]]\n \u2022 glass[[0, 2, 268, 437]]\n \u2022 glass[[232, 2, 502, 291]]\n \u2022 glass[[0, 2, 268, 437]]\n \u2022 glass[[0, 2, 26"
+            ],
+            "iou_scores": [
+                0.909711772195856,
+                0.9031066795919309,
+                0.9463963338425219,
+                0.93981020715195,
+                0.9047619047619048,
+                0.8638058842488144,
+                0.8712866702169534,
+                0.9089320659770758
+            ],
+            "iou_var": 0.0007240783212589735,
+            "mean_iou": 0.9059764397483758,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000550134.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in striped shirt</ref>",
+            "ground_truth": [
+                89,
+                87,
+                491,
+                537
+            ],
+            "model_output": [
+                "man in striped shirt[[94, 85, 531, 540]]\n[[304, 116, 716, 639]]\n```\nman in striped shirt[[94, 85, 531, 540]]\n```\n``````\n```[[304, 116, 716, 639]]\n```\n```[[94, 85, 531, 540]]\n```[[304, 116, 716, 639]]\n```\n```[[94, 85, 531, 540]]\n```\n```[[548, 263, 1000, 999]]\n```",
+                "man in striped shirt[[91, 84, 521, 536]]\n[[326, 120, 721, 637]]\n```\nman in striped shirt[[91, 84, 521, 536]]\n```\n```[[326, 120, 721, 637]]\n```\n```[[395, 117, 728, 635]]\n```\n```[[608, 929, 1000, 1000]]\n[[211, 243, 996, 984]]\n[[210, 265, 996, 1000]]",
+                "man in striped shirt[[98, 81, 528, 539]]\n[[282, 117, 730, 631]]\nMore tags:\n[[229, 249, 890, 987]]\n\n[[229, 249, 890, 987]]\n\n[[229, 249, 890, 987]]\n\n[[84, 101, 733, 486]]\n\n[[229, 249, 890, 987]]\n\n[[84, 101, 733, 486]]\n\n[[282, 176, 362, 311]]",
+                "man in striped shirt[[96, 86, 527, 539]]\n[[312, 121, 714, 644]]\nMore tags:\n[[155, 250, 842, 991]]\n\n[[155, 250, 842, 991]]\n\n[[155, 250, 842, 991]]\n\n[[569, 448, 707, 516]]\n\n[[169, 280, 998, 1000]]\n\n[[470, 82, 997, 847]]\n\n[[92, 120, 390, 46",
+                "man in striped shirt[[96, 76, 520, 537]]\n[[323, 125, 720, 635]]\n[[176, 242, 994, 987]]\n[[176, 242, 994, 987]]\n[[173, 283, 997, 990]]\n[[98, 186, 416, 534]]",
+                "man in striped shirt[[94, 83, 515, 539]]\n[[306, 118, 734, 632]]\n```\nman in striped shirt[[94, 83, 515, 539]]\n```\n```[[306, 118, 734, 632]]\n```\n```[[577, 238, 730, 625]]\n```\n```[[190, 228, 860, 984]]\n```\n```[[628, 927, 877, 999]]\n[[813, 964, 873,",
+                "man in striped shirt[[96, 78, 489, 537]]\n[[294, 119, 720, 624]]\n3<answer>\n\n[[183, 222, 837, 1000]]\n\n[[183, 222, 837, 1000]]\n\n[[425, 287, 997, 1000]]\n\n[[294, 223, 837, 1000]]\n\n[[95, 125, 495, 534]]\n\n[[183, 222, 837, 100",
+                "man in striped shirt[[96, 86, 494, 535]]\n[[273, 114, 730, 629]]\n</solution>\n\n\n\n[[191, 272, 854, 987]]\n\n\n\n</solution>\n\n</body><p>man in striped shirt[[96, 86, 494, 535]]\n</solution>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</body></mark>\n</"
+            ],
+            "iou_scores": [
+                0.8884302658079917,
+                0.9179188388020034,
+                0.8798945221155281,
+                0.8959489498117373,
+                0.8949520174811443,
+                0.9198047635229063,
+                0.9588640023422632,
+                0.9688899595930838
+            ],
+            "iou_var": 0.0009450285170012671,
+            "mean_iou": 0.9155879149345822,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000365427.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman feeding geraff</ref>",
+            "ground_truth": [
+                141,
+                236,
+                557,
+                988
+            ],
+            "model_output": [
+                "woman feeding geraff[[150, 233, 547, 1000]]\n<answer>\nBased on these coordinates, the bounding box for the region describing the giraffe is:\n<code>[450, 18, 1000, 948]</code>\n<answer>\nBased on these coordinates, the bounding box for the region describing the woman is:\n<code>[0, 196, 205, 988]</code>",
+                "woman feeding geraff[[145, 230, 541, 1000]]\n><answer>[x1,y1,x2,x3]</answer>[[0, 198, 210, 989]]\n><answer>[x1,y1,x2,x3]</answer>\n[[457, 0, 1000, 942]]\nHere is the extracted tag coordinates:\n[[457, 0, 1000, 942]]\nHere is the extracted tag coordinates: woman feeding geraff[[145, 230, 541, 1000]]\n[[0, 198, 210, 98",
+                "woman feeding geraff[[154, 236, 561, 1000]]\n><answer>[[[154, 236, 561, 1000]]\n<issue> <coordinates>: <latex> <startx>[228]</startx> <endx>[228]</endx> <starty>[234]</starty> <endy>[234]</endy> <tag>[[154, 236, 561, 1000]]> </tag> </coordinate>\n<issue> <coordinates>: <latex> <startx>[309]</startx> <endx>[309]</endx> <starty>[305]</starty> <endy>[305]</endy> <tag>[[309, 236, 561, 1000]]> </tag> </coordinate>\n[[0",
+                "woman feeding geraff[[154, 234, 546, 1000]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \nwoman feeding geraff[[154, 234, 546, 1000]]\n\n<answer>\n\n[[2, 202, 217, 989]]\n<answer>\nHere is the updated bounding box coordinates for the region described by the sentence: \nwoman feeding geraff[[154, 234, 546, 1000]]\n<answer>\n\n[[154, 234, 546, 1000]]\n[[0, 197, 209, 989]]\n[[444, 2, 1000, 939]]\n",
+                "woman feeding geraff[[152, 236, 545, 987]]\n<answer>\nWhat is the giraffe doing in the image?\n<answer>\noooooooooh noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo noooo no",
+                "woman feeding geraff[[151, 238, 552, 1000]]\n<answer>woman[[0, 195, 212, 987]]\n<answer>\n</image></div></div></div>\n</div></div>",
+                "woman feeding geraff[[156, 231, 554, 989]]\n><answer>[[[156, 231, 554, 989]]]</answer>",
+                "woman feeding geraff[[144, 231, 555, 987]]\n><answer>[[[144, 231, 555, 987]]]</answer>"
+            ],
+            "iou_scores": [
+                0.9364999200092852,
+                0.0,
+                0.9449121362916402,
+                0.92606182457904,
+                0.9434552731178396,
+                0.9468146730301847,
+                0.9494829008311655,
+                0.9802278277604347
+            ],
+            "iou_var": 0.09825219541334382,
+            "mean_iou": 0.8284318194524487,
+            "correct_count": 7
+        }
+    ]
+}

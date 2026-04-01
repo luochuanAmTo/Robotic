@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 33,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000528224.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in black bent over</ref>",
+            "ground_truth": [
+                342,
+                631,
+                591,
+                953
+            ],
+            "model_output": [
+                "man in black bent over[[354, 629, 578, 962]]\n<answer>\nman in black bent over[[354, 629, 578, 962]]\n<issue> What is the position of the man in the red helmet?[[445, 520, 586, 846]]\n}</div></issue> <answer>man in red helmet[[445, 520, 586, 846]]\n</issue> <answer>man in black bent over[[354, 629, 578, 962]]\n</issue> <answer>man in black bent over[[354, 629, 578, 962]]\n</issue> <answer>man in black[[784, 36, 922, 228]]",
+                "man in black bent over[[344, 630, 576, 957]]\n<answer>\nman in black bent over[[344, 630, 576, 957]]\n<issue> what is the bounding box for the region that this sentence describes: man[[348, 521, 603, 845]][[344, 630, 576, 957]]\n issuing a call or recording man[[770, 35, 930, 226]][[770, 35, 930, 226]]\n<answer>man[[770, 35, 930, 226]]\n<issue> what is the bounding box for the region that this sentence describes: pitcher[[185, 2",
+                "man in black bent over[[340, 631, 575, 955]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[340, 631, 575, 955]]\n<question>What is the position of the person in the black uniform?<br></question><answer>the person in the black uniform[[796, 36, 934, 226]]\n</answer><question>What is the position of the person in the red helmet?<br></question><answer>the person in the red helmet[[452, 517, 607, 846]]\n</answer><question>What is the position of the person in the gray uniform?<br></question><answer>the person in the gray uniform[[224, 675, 400, 919]]\n</answer><question>",
+                "man in black bent over[[352, 629, 573, 956]]\n\n\nman[[402, 521, 602, 841]]\n[[353, 630, 572, 955]]\n[[200, 206, 445, 437]]\n[[476, 393, 696, 580]]\n[[226, 724, 373, 922]]\n[[196, 363, 442, 658]]\n[[199, 203, 448, 437]]\n[[735, 32, 945",
+                "man in black bent over[[344, 629, 583, 962]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[344, 629, 583, 962]]\n\u5750\u6807\uff1a<br>/<answer>[x1,y1,x2,y2]</answer>\n<answer>man[[184, 206, 443, 439]]\n\u4e0b\u4e00\u4e18\uff1aman[[184, 206, 443, 439]]\n\u4e0b\u4e00\u4e18\uff1aman[[447, 520, 612, 846]]\n\u4e0b\u4e00\u4e18\uff1aman[[447, 520, 612, 846]]\n\u4e0b\u4e00\u4e18\uff1aumpire[[344, 629, 583, 962]]\n\u4e0b\u4e00\u4e18\uff1aumpire[[344, 6",
+                "man in black bent over[[334, 631, 576, 957]]\n<answer>\nman in black bent over[[334, 631, 576, 957]]\n<issue> what is the bounding box coordinates for the region that this sentence describes: man[[407, 519, 612, 840]][[407, 519, 612, 840]]\n<img src=\"https://i.imgur.com/3j6v7g6.png\" width=\"1000\" height=\"500\" />\n</issue>",
+                "man in black bent over[[352, 629, 579, 957]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>[x=402, 729, 460, 912]</x>\n<answer>\n<answer>man in black bent over[[352, 629, 579, 957]]<answer>\n<answer>man in black[[344, 632, 565, 960]]\n<answer>man[[430, 522, 607, 845]]\n[[185, 202, 447, 436]]\n[[632, 25, 941, 226]]\n[[334, 720,",
+                "man in black bent over[[343, 628, 582, 960]]\n<answer>\nman in black bent over[[343, 628, 582, 960]]\n<answer>\n\n[[191, 202, 451, 435]]\n\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>"
+            ],
+            "iou_scores": [
+                0.8727765542944266,
+                0.9184391059529371,
+                0.9229198445111451,
+                0.8754844186361231,
+                0.9293658748656515,
+                0.8999785002747187,
+                0.8964189354917832,
+                0.9320560023253561
+            ],
+            "iou_var": 0.00047861323252514017,
+            "mean_iou": 0.9059299045440177,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000212628.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>tea cup on the right</ref>",
+            "ground_truth": [
+                568,
+                204,
+                895,
+                450
+            ],
+            "model_output": [
+                "tea cup on the right[[571, 194, 884, 447]]\n[[301, 581, 723, 865]]\n[[0, 326, 234, 596]]\nHere is your first take:\n\ntea cup on the right[[571, 194, 884, 447]]\ntea cup on the right[[571, 194, 884, 447]]\nHere is your second take:\n\ntea cup on the right[[501, 204, 880, 452]]\n[[501, 204, 880, 452]]\nHere is your third take:\n\ntea cup on the right[[501, 204, 880",
+                "tea cup on the right[[563, 198, 892, 450]]\n<answer>tea cup on the right[[563, 198, 892, 450]]\n<answer>muffin[[287, 584, 718, 866]]\n</answer>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</",
+                "tea cup on the right[[562, 198, 882, 453]]\n[[582, 204, 887, 444]]\n</div></div></td></tr></td></tr></td></tbody></table></div></div></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></",
+                "tea cup on the right[[560, 193, 879, 449]]\n<answer>&#x123;</answer>\n<answer>Tidy up the crumbs on the table.\n<answer>\n</selector><answer>\n[[0, 322, 231, 603]]\n</selector><answer>Tidy up the crumbs on the table. </answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n</selector><answer>\n",
+                "tea cup on the right[[560, 196, 888, 448]]\n[[300, 581, 718, 867]]\n[[0, 327, 228, 597]]\n<img src=\"https://i.pinimg.com/564x/9a/71/31/9a7131211d8627b818c77e6499c51661.jpg\" width=\"338\" height=\"351\">\n\n\nr[[560, 196, 890, 451]]\n\n[[300, 581, 718, 867]]\n\n[[0, 327, 228, 597]]\n\n[[249,",
+                "tea cup on the right[[560, 191, 895, 449]]\n[[540, 591, 871, 868]]\n[[289, 585, 721, 864]]\n[[0, 328, 225, 600]]\n[[596, 18, 997, 232]]\n[[0, 115, 511, 309]]\n[[0, 327, 235, 600]]\n[[594, 18, 997, 231]]\n[[0, 127, 575, 346]]\n[[555, 313, 735,",
+                "tea cup on the right[[560, 196, 885, 447]]\n><answer>[x1,y1,x2,y2]</warn>\n><answer>tea cup[[294, 585, 724, 865]]\n</code></mid>\n</li>\n</ul>\n</midline></ui>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u>\n</midline></u",
+                "tea cup on the right[[564, 196, 886, 446]]\n[[592, 205, 874, 442]]\n\u2022\n[[293, 582, 715, 865]]\n\u2022 tea cup[[0, 326, 225, 606]]\n\u2022 orange[[411, 808, 872, 943]]\n\u2022 flower[[697, 15, 1000, 628]]\nmuffin[[296, 585, 722, 865]]\n\u2022 butter[[0, 326, 223, 604]]\n\n"
+            ],
+            "iou_scores": [
+                0.9101014693916623,
+                0.9528728211749515,
+                0.9109177103233567,
+                0.0,
+                0.91839375191136,
+                0.9234413361457865,
+                0.9063963476337279,
+                0.9162955730717024
+            ],
+            "iou_var": 0.09271379450108888,
+            "mean_iou": 0.8048023762065684,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000540436.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>lower right corner black area</ref>",
+            "ground_truth": [
+                579,
+                701,
+                1000,
+                998
+            ],
+            "model_output": [
+                "lower right corner black area[[539, 709, 1000, 1000]]\n[[1, 278, 1000, 1000]]\n</div></div></td></tr></td></tr></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></td></",
+                "lower right corner black area[[2, 700, 792, 987]]\n<answer>\n\n</body>\n</body>>\n</select><object>lower right corner black area[[2, 700, 792, 987]]<answer>\n</body>\n</body>>\n</select>[[0, 275, 1000, 989]]\n</select>\n</body>>\n</select>\n<question>What is the food in the image?</code>\n</select>\n</body>>\n</select>>\n</select>",
+                "lower right corner black area[[536, 715, 1000, 986]]\nsandwich[[2, 567, 748, 946]]\n[[0, 275, 1000, 989]]\n</div></div>\n</div>\n</div>\n</div>",
+                "lower right corner black area[[645, 697, 1000, 1000]]\n[[0, 276, 1000, 999]]\n```\nlower right corner black area[[645, 697, 1000, 1000]]\n```\n```[[0, 2, 334, 454]]\n```\n```[[0, 311, 1000, 989]]\n```\n```[[0, 445, 1000, 1000]]\n```\n```[[611, 0, 743, 112]]\n```\n```[[74",
+                "lower right corner black area[[506, 712, 1000, 1000]]\n[[0, 274, 1000, 986]]\n[[0, 1, 329, 454]]\n```markdown\n| x: 123 | y: 133 | width: 339 |\n| --- | --- | --- |\n|  |  |  |\n```\n[[0, 274, 1000, 986]]\n```markdown\nlower right corner black area[[506, 712, 1000, 1000]]\n```\n[[0, 274, 1000, 986]]\n```\n```markdown\nlower right corner black area[[506, 712, 1000, ",
+                "lower right corner black area[[346, 742, 743, 950]]\n[[0, 273, 1000, 1000]]\n[[0, 0, 329, 451]]\nHere is a prediction: \"what is in the background of the image?\"<br>*****\n[[548, 0, 735, 162]]\nHere is a prediction: \"who is in the background of the image?\"<br>*****\n[[713, 0, 1000, 113]]\nHere is a prediction: \"what is in the foreground of the image?\"<br>*****\n[[278, 438, 1000, 947]]\nHere is a prediction: \"where is the drink placed on the table?\"<br>",
+                "lower right corner black area[[630, 700, 1000, 1000]]\n[[0, 277, 1000, 1000]]\n</div></div></div>\n</pre><br/>\n</body><p><font>Image</font><font> description:</font><p>There is a sandwich with a chicken filling and lettuce in a white plate. There is also a salad with greens and carrots in the same white plate. In the background, there is a glass of beer, a camera, and two people sitting at a table. The setting appears to be outdoors.\n</body>\n</table>\n</div>\n</div>\n",
+                "lower right corner black area[[634, 704, 997, 987]]\n<answer>\nAnother word can be used to describe the image: salad[[0, 329, 1000, 986]]\nI'm sorry, but I can't provide the bounding box coordinates for the salad.\n\u015fi\nThe sentence you're describing: salad[[0, 329, 1000, 986]]\nI'm sorry, but I can't provide the bounding box coordinates for the salad.\n<br />9\nI'm sorry, but I can't provide the bounding box coordinates for the salad.\n[[2, 275, 1000, 987]]\n[[0, "
+            ],
+            "iou_scores": [
+                0.884743199121576,
+                0.20944888928619318,
+                0.8346696905406394,
+                0.8291066078463752,
+                0.8196292791842236,
+                0.19660981781084835,
+                0.8711265428428738,
+                0.8215888097123252
+            ],
+            "iou_var": 0.0773927705529382,
+            "mean_iou": 0.6833653545431319,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000547795.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>lady in black and white</ref>",
+            "ground_truth": [
+                186,
+                369,
+                461,
+                819
+            ],
+            "model_output": [
+                "lady in black and white[[199, 373, 453, 871]]\n<answer>\nlady in black and white[[110, 452, 247, 742]]\nlaptop[[92, 561, 352, 958]]\nman[[144, 40, 984, 989]]\nman[[144, 40, 984, 989]]\nglasses[[414, 296, 616, 786]]\nbracelet[[423, 800, 514, 913]]\nEyeglass Lens[[632, 167, 754, 261]]\nhat[[576, 38, 809, 25",
+                "lady in black and white[[163, 374, 443, 928]]\n again lady in black and white[[163, 374, 443, 928]]\n again lady[[163, 374, 443, 928]]\n again lady[[410, 293, 609, 781]]\n [[134, 39, 984, 989]]\n again lady[[410, 293, 609, 781]]\n again lady[[410, 293, 609, 781]]\n again laptop[[99, 668, 568, 957]]\n again ",
+                "lady in black and white[[117, 373, 438, 989]]\n again in the same tag order\n",
+                "lady in black and white[[117, 376, 443, 872]]\n><answer>[x1,y1,x2,y2]</answer>\nImages: \n<img src=\"https://i.imgur.com/9JG0D7G.jpg\" alt=\"Image\"></img>\n",
+                "lady in black and white[[108, 374, 451, 989]]\n again\n more tags on this location <answer>[x1,y1,x2,y2]</answer>\n again\n again\n again\n again\n again\n again\n again",
+                "lady in black and white[[88, 373, 442, 982]]\n><answer>[x1,y1,x2,y2]</value>\n<answer>&lt;/answer&gt;\nExpected result: A man with a black baseball cap and glasses sitting in a black shirt on a black chair in front of a laptop, with a woman wearing a white blouse sitting next to him, and a man with a beard sitting behind them.\nA man with a black baseball cap and glasses sitting in a black shirt on a black chair in front of a laptop, with a woman wearing a white blouse sitting next to him, and a man with a beard sitting behind them[[143, 36, 980, 984]]\n<answer>A man with a black baseball cap and glasses sitting in a black shirt on a black chair in front of a laptop, with a woman wearing a white blouse sitting next to him, and a man with a beard sitting behind them[[143, 36, 980, 984",
+                "lady in black and white[[102, 373, 448, 987]]\n><answer>[x1,y1,x2,y2]</answer>\nSkills: Image analysis, Image related to hispanic culture, Image related to Indian culture, Image related to African culture, Image related to Asian culture, Image related to African American culture, Image related to Chinese culture, Image related to Indian culture, Image related to Japanese culture, Image related to Australian culture, Image related to French culture, Image related to German culture, Image related to British culture, Image related to Italian culture, Image related to Russian culture, Image related to Mexican culture, Image related to South African culture, Image related to Nigerian culture, Image related to Burmese culture, Image related to Thai culture, Image related to Vietnamese culture, Image related to Chinese culture, Image related to Japanese culture, Image related to Korean culture, Image related to American culture\nSkills: Image analysis, Image related to hispanic culture, Image related to Indian culture, Image related to African culture, Image related to Asian culture, Image related to African American culture, Image related to Chinese culture, Image related to",
+                "lady in black and white[[73, 375, 451, 1000]]\non\n<p>lady in black and white[[73, 375, 451, 1000]]\nReply\n</body></cite>'\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</cite></option>\n</"
+            ],
+            "iou_scores": [
+                0.8271440879685743,
+                0.6952068326190693,
+                0.5375190105885391,
+                0.0,
+                0.0,
+                0.5070882927695861,
+                0.0,
+                0.48551621688536767
+            ],
+            "iou_var": 0.09807138451967728,
+            "mean_iou": 0.3815593051038921,
+            "correct_count": 4
+        }
+    ]
+}

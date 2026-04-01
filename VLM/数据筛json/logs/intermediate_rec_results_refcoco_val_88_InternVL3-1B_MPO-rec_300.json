@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 88,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000198704.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>car closest to us</ref>",
+            "ground_truth": [
+                1,
+                755,
+                222,
+                988
+            ],
+            "model_output": [
+                "car closest to us[[552, 603, 952, 823]]\nhorse[[466, 582, 556, 772]]\nman[[545, 618, 607, 713]]\nImages [0, 759, 231, 984]]\nImage with labels \"[[67, 507, 167, 695]]\" and \"[[125, 500, 260, 692]]\" in the left label\nImage with labels \"[[671, 610, 804, 661]]\" and \"[[658, 600, 952, 701]]\" in the center tag \"FRN\" and \"FMN\"\nImage with labels \"[[715, 603, 834, 655]]",
+                "car closest to us[[559, 607, 953, 820]]\nDNA\nman[[540, 623, 605, 751]]\nDNA[[466, 587, 545, 769]]\nDNA[[0, 758, 223, 1000]]\n[[559, 605, 955, 824]]\n[[465, 586, 546, 767]]\n[[1, 758, 224, 998]]\n[[2, 0, 528, 755]]",
+                "car closest to us[[554, 605, 953, 821]]\n[[520, 602, 952, 817]]\nWould you say the person is male or female?\nperson[[537, 622, 608, 767]]\nSource of image: Wikipedia, Google Images, or another similar platform\nperson[[537, 622, 608, 767]]\nImage tag: Post Office\nImagesize: Post Office[[0, 227, 1000, 762]]\nImage size: 0.0 cm\nPost Office[[0, 227, 1000, 762]]\nImage weight: 0.0 kg\nImagesize: 0.0 cm\nPost Office[[0, 227,",
+                "car closest to us[[556, 606, 951, 821]]\nAnswers:\ncar[[556, 606, 951, 821]]\nI'm sorry, there is no region in the image that matches the given description.\nuser\nCan you describe the person in the image?\nperson[[534, 623, 602, 770]]\nI'm sorry, but the person in the image is not clearly visible and does not provide any useful information.\n; caption[[0, 761, 230, 986]]\n[[0, 761, 230, 986]]\n[[556, 606, 951, 821]]\n[[534, 623, ",
+                "car closest to us[[552, 603, 953, 821]]\nUnknownMore information: Horses are a common sight in rural areas. In the image, there is a horse walking in front of a man wearing a high-visibility jacket. A silver car is driving on the road. The man is standing on the side of the road with the horse. There is a building in the background with a green door. The license plate of the car is visible. The street is lined with buildings and there are green plants growing on the rocks behind the building.\nUnknownMore information: A silver car is driving on the road. The license plate is visible. There is a building in the background with a green door. The license plate is visible. The street is lined with buildings and there are green plants growing on the rocks behind the building. There is a building in the background with a green door. The license plate is visible. The street is lined with buildings and there are green plants growing on the rocks behind the building. There is",
+                "car closest to us[[560, 600, 951, 823]]\n[[529, 600, 950, 821]]\nThe rest of the sentence about the region is: car[[0, 761, 230, 1000]]\n[[529, 600, 950, 821]]\nThe rest of the sentence about the region is: man[[550, 616, 605, 733]]\n[[550, 616, 605, 733]]\nThe rest of the sentence about the region is: horse[[469, 586, 562, 763]]\n[[466, 586, 564, 765]]\nThe",
+                "car closest to us[[560, 604, 951, 822]]\nA person in a green jacket is standing beside the horse.\nperson[[544, 615, 614, 761]]\nperson[[544, 615, 614, 761]]\nhorse[[459, 590, 556, 768]]\nwindow[[672, 333, 819, 458]]\nwindow[[102, 0, 196, 400]]\ndoor[[246, 557, 332, 752]]\nhouse[[430, 226, 999, 732]]\nmotorcycle[[869, 562, 972, 647]]",
+                "car closest to us[[566, 600, 953, 821]]\nSuddenly, I found it difficult to classify the bounding box coordinates precisely, but I can describe the area around the car. The bounding box coordinates should be placed around the car, including the left edge, the top, and the right edge.\n; Scene features a white building with a stone wall, green window shutters, and a green door. A man in a high-visibility jacket is standing next to a horse near the entrance of the building. There is a silver car parked on the street, and a black car is partially visible on the left side of the image. The building has a poster on the window that reads \"Crescent Post Office.\" There is a motorcycle parked in front of the building. The background shows a rocky hillside with green vegetation.\n\uff1b\n[[566, 600, 953, 821]]\nI'm sorry,"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000511580.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>soup top middle</ref>",
+            "ground_truth": [
+                316,
+                45,
+                793,
+                179
+            ],
+            "model_output": [
+                "soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195]]\n\u00a0soup top middle[[542, 44, 819, 195",
+                "soup top middle[[305, 48, 781, 209]]\nBRANDIMAGE\n\n[[706, 153, 999, 394]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 209]]\nsoup top middle[[305, 48, 781, 20",
+                "soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: soup top middle[[287, 46, 774, 208]]\n more like: ",
+                "soup top middle[[286, 47, 804, 206]]\n\u00a9 soup top middle[[286, 47, 804, 206]][[0, 106, 371, 407]]\nsoup top middle[[286, 47, 804, 206]]\nsoup top middle[[286, 47, 804, 206]]\nsoup top middle[[0, 106, 371, 407]]\nsoup top middle[[0, 106, 371, 407]]\nlemon[[0, 156, 281, 397]]\nlemon[[175, 347, 504, 453]]",
+                "soup top middle[[278, 45, 785, 208]]\n[[2, 141, 295, 402]]\n<img src=\"image.jpg\" width=\"1000\" height=\"453\" style=\"clear: none;\">\n\n```json\n{}\n```\n[[2, 141, 295, 402]]\n[[2, 141, 295, 402]]\n[[2, 141, 295, 402]]\n[[2, 141, 295, 402]]\nsoup top middle[[278, 45, 785, 208]]\nsoup top middle[[278, 45, 785, 208]]\nsoup top",
+                "soup top middle[[251, 47, 784, 202]]\n\u00a0\n\nCoordinates: \nsoup top middle[[251, 47, 784, 202]][[0, 144, 256, 406]]\n\u00a0\n\nCoordinates: \nsoup top middle[[251, 47, 784, 202]]\n\u00a0\n\nCoordinates: \nmarmalade[[742, 155, 1000, 402]]\n\u00a0\n\nCoordinates: \nmarmalade[[742, 155, 1000, 402]]\n\u00a0\n\nCoordinates: \nPROCESSOR LEMON MARMALADE[[198, 446, 632, 590]]\n\u00a0\n\nCoordinates: \nPROCESSOR LEMON MARMALADE",
+                "soup top middle[[266, 47, 799, 209]]\n-Bounding box: <answer>[x1,y1,x2,y2]</answer>\n",
+                "soup top middle[[554, 46, 811, 195]]\n[[255, 72, 783, 215]]\n[[746, 152, 1000, 400]]\nstrawberry[[195, 348, 498, 454]]\njuice[[0, 143, 318, 403]]\nlemon[[195, 347, 498, 454]]\nstrawberry[[195, 347, 498, 454]]\nlemon[[195, 347, 498, 454]]\nlemon[[195,"
+            ],
+            "iou_scores": [
+                0.46641982499202617,
+                0.7648890618917867,
+                0.7437788468582871,
+                0.7557251908396947,
+                0.7507316665273016,
+                0.7288601531436931,
+                0.0,
+                0.451366011586959
+            ],
+            "iou_var": 0.06362292239173936,
+            "mean_iou": 0.5827213444799686,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000358789.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>blurry guy in blue shirt with no head behind the kid to the right</ref>",
+            "ground_truth": [
+                504,
+                0,
+                900,
+                285
+            ],
+            "model_output": [
+                "blurry guy in blue shirt with no head behind the kid to the right[[0, 0, 222, 276]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[474, 2, 908, 289]]\nIFFiltered content: <answer>[x1,y1,x2,y2]</IFFiltered content>\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[474, 2, 908, 289]]\nIFFiltered content: <answer>[x1,y1,x2,y2]</IFFiltered content>\nIFFiltered content: <answer>[x2,y1,x3,y3]</answer>\nIFFiltered content: <answer>[x3,y1,x5,y5]</answer>\nIFFiltered content: <answer>[x5,y1,x6,y6]</answer>\nIFFiltered content: <answer>[x6,y1,x7,y6]</answer",
+                "blurry guy in blue shirt with no head behind the kid to the right[[0, 0, 234, 274]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[478, 0, 926, 287]]\n<I/O</I>\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[478, 0, 926, 287]]\n<image>\nblurry guy in blue shirt with no head behind the kid to the right[[478, 0, 926, 287]]\n<answer>\n<answer>\n[[211, 40, 757, 973]]\n</answer>\n<image>\n<image>\n<image>\n<answer>\n",
+                "blurry guy in blue shirt with no head behind the kid to the right[[481, 0, 920, 287]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[481, 0, 920, 287]][[0, 0, 230, 276]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ablurry guy in blue shirt with no head behind the kid to the right[[481, 0, 920, 287]]\n</answer>\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[481, 0, 920, 287]]\n</body>\n</answer><answer>\n</body>\n</body>\n</body>\n</body",
+                "blurry guy in blue shirt with no head behind the kid to the right[[476, 2, 914, 288]]\n<answer>\n\u76c3<answer>\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[476, 2, 914, 288]]\n<answer>kid[[216, 35, 762, 974]]\n</answer>\n</code></div>\n</pre><div><p>kid[[216, 35, 762, 974]]</p></div>\n</div><answer>kid[[216, 35, 762, 974]]</answer>\n</div><code></code>\n</div>\n</code></div>\n</pre><div><p>kid",
+                "blurry guy in blue shirt with no head behind the kid to the right[[443, 3, 942, 287]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[443, 3, 942, 287]][[2, 4, 243, 277]]\n<answer>\n</answer>[[206, 38, 761, 975]]\n</answer>\n</body[[0, 0, 208, 268]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "blurry guy in blue shirt with no head behind the kid to the right[[0, 0, 206, 278]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[488, 0, 943, 287]]\n</answer>\n<answer>this sentence[[219, 40, 767, 971]]\n</answer>\n<question>What is the player swinging at the ball? A baseball bat?</question>\n</answer>\n</body&gt;\n</body></dict>\n</body></dict>\n",
+                "blurry guy in blue shirt with no head behind the kid to the right[[481, 2, 906, 286]]\n<answer>\n\u0e1e\u0e23\u0e30\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48 [[0, 3, 212, 277]]\n<answer>\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[481, 2, 906, 286]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[481, 2, 906, 286]]\n<answer>blurry guy in blue shirt with no head behind the kid to the right[[0, 3, 212, 277]]\n<pre>blurry guy in blue shirt with no head behind the kid to the right[[0, 3, 212, 277]]",
+                "blurry guy in blue shirt with no head behind the kid to the right[[483, 1, 925, 288]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ablurry guy in blue shirt with no head behind the kid to the right[[483, 1, 925, 288]][[2, 0, 247, 274]]\n<answer>\n<answer>\n[[207, 36, 764, 975]]\n</answer>\n</body>\n</body>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n</iview>\n"
+            ],
+            "iou_scores": [
+                0.8940406860789789,
+                0.8777687904430065,
+                0.8957640503837515,
+                0.8890052356020942,
+                0.7814476851592678,
+                0.8642646552054217,
+                0.9224311065749186,
+                0.883803536345776
+            ],
+            "iou_var": 0.001522864457481122,
+            "mean_iou": 0.8760657182241519,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000111842.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>center player</ref>",
+            "ground_truth": [
+                212,
+                93,
+                564,
+                980
+            ],
+            "model_output": [
+                "center player[[216, 97, 556, 987]]\nROcenter player[[216, 97, 556, 987]][[802, 336, 999, 989]]\ntennis racket[[255, 608, 350, 944]]\n[[969, 768, 1000, 836]]\n[[907, 623, 999, 963]]\n[[250, 622, 347, 944]]",
+                "center player[[218, 98, 558, 989]]\n[[810, 336, 999, 987]]\n[[217, 98, 557, 985]]\n```\ncenter player[[217, 98, 557, 985]]\n```\n[[810, 336, 999, 987]]\n```\n```[[217, 98, 557, 985]]\n```\n```[[258, 567, 334, 942]]\n```\n```[[258, 567, 334, 942]]\n```\n```[[2",
+                "center player[[221, 97, 558, 986]]\n[[801, 336, 1000, 1000]]\nCreative question: If you were to draw this image, where would you place the bounding box around the tennis player?\n\nbounding box[[221, 97, 558, 986]]\n[[801, 336, 1000, 1000]]\nSource: Image[[221, 97, 558, 986]]\n[[259, 565, 339, 945]]\nI'm sorry, but I can't provide the bounding box coordinates for the region that the tennis player is walking in.\n[[801, 336, 1000, 10",
+                "center player[[222, 96, 557, 987]]\nAIr[[811, 330, 1000, 989]]",
+                "center player[[216, 96, 559, 984]]\n[[812, 330, 1000, 1000]]\n[[216, 96, 559, 984]]\n```\ncenter player[[216, 96, 559, 984]]\n```\n``````\n```[[812, 330, 1000, 1000]]\n``````\n```[[216, 96, 559, 984]]\n``````\n```[[227, 616, 371, 944]]\n``````\n```[[",
+                "center player[[218, 97, 556, 986]]\n[[815, 338, 1000, 1000]]\n[[218, 95, 554, 983]]\n[[201, 611, 359, 946]]\n[[363, 609, 627, 984]][[807, 340, 1000, 987]]\n[[201, 611, 359, 946]]\n[[363, 609, 627, 984]]\n[[201, 611, 359, 9",
+                "center player[[216, 92, 559, 984]]\n[[812, 338, 1000, 987]]\n[[216, 92, 559, 984]]\n[[188, 93, 554, 979]]\n[[946, 617, 998, 990]]\n[[3, 624, 999, 998]]\n[[294, 626, 366, 944]][[942, 617, 999, 998]]\n[[94, 0, 1000, 684]]\n[[",
+                "center player[[220, 97, 559, 984]]\n[[814, 336, 1000, 999]]\nDBX\n[[220, 97, 559, 986]]\n[[814, 336, 1000, 999]]\n[[278, 618, 351, 946]]\n[[278, 618, 351, 946]]\n[[276, 613, 351, 941]]\n[[256, 643, 325, 938]]\n[[252, 643, 337, 942]]"
+            ],
+            "iou_scores": [
+                0.9542790301458342,
+                0.9511424620342295,
+                0.9469364765183964,
+                0.9414150790446612,
+                0.9668873327465911,
+                0.9497282435752199,
+                0.9691086484954083,
+                0.9545793736845463
+            ],
+            "iou_var": 7.86145130650319e-05,
+            "mean_iou": 0.9542595807806109,
+            "correct_count": 8
+        }
+    ]
+}

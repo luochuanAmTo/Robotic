@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 30,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000498295.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>wine glass bottomright</ref>",
+            "ground_truth": [
+                733,
+                677,
+                997,
+                981
+            ],
+            "model_output": [
+                "wine glass bottomright[[753, 672, 998, 937]]\n<answer>\nwine glass bottomright[[739, 797, 1000, 1000]]\n<image>\n\nResting on the table are two lit candles. The woman is using a fork to eat something on a plate. There is a glass of red wine on the table. In the background, there is a candle on a table. The setting appears to be a cozy, intimate dining room. The woman is wearing a lace dress. The woman is looking down at the plate.\n<answer>\nResting on the table are two lit candles. The woman is using a fork to eat something on a plate. There is a glass of red wine on the table. In the background, there is a candle on a table. The setting appears to be a cozy, intimate dining room. The woman is wearing a lace dress. The woman is looking down at the plate.\n<answer>\n<image>\n",
+                "wine glass bottomright[[743, 670, 998, 944]]\n[[78, 658, 326, 828]]\n[[740, 797, 1000, 999]]\n[[174, 493, 455, 805]]\n[[455, 695, 574, 811]]\n[[30, 657, 319, 944]]\n[[304, 811, 454, 886]]\n[[454, 806, 612, 896]]\n[[636, 650, 852, 806]]\n[[1",
+                "wine glass bottomright[[758, 670, 1000, 935]]\n[[83, 656, 321, 989]]\n[[83, 553, 367, 829]]\n[[10, 808, 314, 986]]\n[[10, 808, 314, 986]]\n[[28, 2, 1000, 839]][[10, 808, 314, 986]]\n[[10, 808, 314, 986]]\n[[10, 808, 314, 986]]",
+                "wine glass bottomright[[754, 676, 1000, 929]]\n<answer>\nwine glass bottomright[[738, 813, 998, 984]]\n<issue> what is the shape of the woman's head? \nhead shape[[31, 5, 998, 843]]\n</issue><answer>\nwoman[[31, 5, 998, 843]]\n<issue> what is the shape of the plate? \nplate[[303, 760, 752, 930]]\n</issue>[[738, 813, 998, 984]]\n</issue>[[754, 676, 1000, 929]]",
+                "wine glass bottomright[[768, 672, 998, 942]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awine glass[[73, 658, 343, 989]]\n<question>What is the woman eating with a fork and knife?</question>\n<Answer>\n\nI'm sorry, but I can't provide the information you're looking for.\n#### I'm sorry, but I can't provide the information you're looking for.\n###\n</answer>",
+                "wine glass bottomright[[759, 667, 998, 957]]\n<answer>\nwine glass bottomright[[75, 660, 348, 987]]\n<answer>\nwoman[[27, 0, 1000, 850]]\n<answer>\nwoman[[27, 0, 1000, 850]]\n<answer>\ndining table[[5, 777, 998, 1000]]\n<answer>\nfork[[167, 497, 424, 815]]\n<answer>\nsandwich[[432, 800, 608, 893]]\n<answer>\nsandwich[[432, 800, 608, 8",
+                "wine glass bottomright[[756, 671, 1000, 931]]\n<answer>\n\nperson\n<br/>\n",
+                "wine glass bottomright[[756, 670, 1000, 941]]\n<answer>\n\nperson\nwine glass bottomright[[756, 670, 1000, 941]]\n<answer>\n\n[[102, 664, 332, 988]]\n\n[[170, 495, 483, 817]]\n\n[[14, 806, 996, 986]]\n\n[[764, 792, 998, 998]]\n\n[[911, 670, 1000, 836]]\n\n[[14, 806, 996, "
+            ],
+            "iou_scores": [
+                0.7761099081244418,
+                0.8239539291441901,
+                0.7453943232919105,
+                0.7535996455733589,
+                0.0,
+                0.8036080360803608,
+                0.7421498023811256,
+                0.7688143457876166
+            ],
+            "iou_var": 0.06612447298306365,
+            "mean_iou": 0.6767037487978755,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000290072.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>surf board laying down</ref>",
+            "ground_truth": [
+                16,
+                583,
+                940,
+                716
+            ],
+            "model_output": [
+                "surf board laying down[[16, 583, 945, 725]]\n><answer>[x1,y1,x2,y2]</warning>\n><answer>surf board[[531, 128, 750, 591]]\n</warning>\n</assistant>\n</body>\n</body>>\n</body>>\n",
+                "surf board laying down[[20, 586, 948, 726]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asurf board[[533, 130, 761, 588]]\n</answer><br/><br>",
+                "surf board laying down[[19, 583, 945, 724]]\n\u52ab\u76d7\u56fe\u7247\u4e2d\uff0c\u8fd9\u4e2a\u5973\u4eba\u6234\u7740\u4ec0\u4e48\uff1f\n\u52ab\u76d7\u56fe\u7247\u4e2d\u7684\u5973\u4eba\u6234\u7740\u4ec0\u4e48\uff1a<answer>[c]earring bracelets[[706, 222, 856, 590]]\n\u52ab\u76d7\u56fe\u7247\u4e2d\u7684\u5973\u4eba\u7a7f\u7740\u4ec0\u4e48\uff1a<answer>[c]lozen grey long sleeve shirt[[275, 617, 850, 852]]\n[[275, 617, 850, 852]]\n\u52ab\u76d7\u56fe\u7247\u4e2d\u7684\u5973\u4eba\u7a7f\u7740\u4ec0\u4e48\uff1a<answer>[c]lozen grey long sleeve shirt[[275, 617, 850, 852]][[275, 617, 850, 852]]\n\u52ab\u76d7\u56fe\u7247\u4e2d\u7684\u5973\u4eba\u6234\u7740\u4ec0\u4e48\uff1a<answer>[c]",
+                "surf board laying down[[22, 583, 952, 728]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asurf board[[514, 130, 756, 592]]\n<question>What is the woman lying on the sand?<br>1. What is she wearing?<br>2. What is she doing?<br>3. What is the surfboard behind her?<br>4. What is the person next to her?<br>5. What is the surfboard behind her?<br>6. What is the person next to her doing?<br>7. What is the location?<br>8. What is the location?<br>9. What is the location?<br>10. What is the location?<br>11. What is the location?<br>12. What is the location?<br>13. What is the location?<br>14. What is the location?<br>15. What is the location?<br>16. What is the location?<br>17. What is the location?<",
+                "surf board laying down[[19, 584, 949, 722]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asurf board laying down[[185, 142, 421, 611]]\n<question>What is the woman lying on the sand in the image?<br>1. What is she wearing?<br>2. What is she doing?<br>3. What is the surfboard next to her?<br>4. What is the background?<br>5. What is the background person doing?<br>6. What is the background person wearing?<br>7. What is the background person doing?</answer>\n<answer>woman lying on the sand[[284, 619, 855, 855]]\n\nwhat is she wearing?[[284, 619, 855, 855]]\n\nwhat is she doing?[[284, 619, 855, 855",
+                "surf board laying down[[19, 584, 948, 717]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asurf board laying down[[22, 142, 426, 623]]\n<issue> What is the woman lying on the sand?<br/> </issue>\n<answer>woman lying on the sand[[281, 618, 850, 855]]\n</issue>",
+                "surf board laying down[[16, 581, 952, 730]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asurf board laying down[[224, 142, 419, 613]]\n\u4e0b\u4e00\u6392\uff1asurf board[[524, 126, 762, 594]]\n\u4e0b\u4e00\u6392\uff1asurf board[[2, 581, 952, 730]]\n<answer>\n\ud83d\udc64\n",
+                "surf board laying down[[14, 587, 948, 724]]\n><answer>[[[14, 587, 948, 724]]]</answer>"
+            ],
+            "iou_scores": [
+                0.9315787079852635,
+                0.005040322580645161,
+                0.9353109609437636,
+                0.9000796178343949,
+                0.029114236368122378,
+                0.9735339574140954,
+                0.8811736362071932,
+                0.9053731751408997
+            ],
+            "iou_var": 0.15396539737853093,
+            "mean_iou": 0.6951505768092973,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000181054.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person in white</ref>",
+            "ground_truth": [
+                1,
+                37,
+                464,
+                985
+            ],
+            "model_output": [
+                "person in white[[0, 43, 475, 986]]\n<answer>\nHere is the reconstructed text and coordinates of the region in the image: \n- The sentence: \"the sentence is describing the region of interest\"\n- Coordinates: [0, 43, 475, 986]",
+                "person in white[[0, 42, 465, 998]]\n><image> person in white[[0, 42, 465, 998]]\n><image> person in white[[386, 437, 661, 1000]]\n<answer>person in white[[386, 437, 661, 1000]]\n<image> person in white[[0, 42, 465, 998]]\n<answer>\n<answer>\n[[386, 437, 661, 1000]][[0, 42, 465, 998]]\n[[386, 437, 661, ",
+                "person in white[[0, 44, 477, 990]]\n<answer>\nhere is the bounding box coordinate for the region describing the woman in the image: \nwoman in white[[383, 435, 663, 984]]\n<answer>\nif any region in the image is described, add it here: \nwoman in white[[383, 435, 663, 984]]\n<answer>\nhere is the bounding box coordinate for the region describing the man in the image: \nman[[0, 44, 477, 990]]\n<answer>\nhere is the bounding box coordinate for the region describing the woman in the image: \nwoman[[383, 435, 663, 984]]\n<image>\n<answer>\nwoman[[383, 435, 663, ",
+                "person in white[[0, 43, 495, 987]]\n<answer>person in white[[0, 43, 495, 987]]\n<answer>\n</answer><answer>\n</answer><answer>",
+                "person in white[[3, 42, 473, 989]]\n<answer><me>person in white[[3, 42, 473, 989]]\n<answer><me>person[[387, 435, 663, 984]]\n</me>",
+                "person in white[[0, 44, 472, 998]]\n<answer>\nHere is the extracted information from the image: \n- b. [296, 445, 650, 987] (bounding box coordinates of the woman)\n- b. [296, 445, 650, 987] (bounding box coordinates of the man)\n- b. [296, 445, 650, 987] (bounding box coordinates of the man)\n- b. [296, 445, 650, 987] (bounding box coordinates of the man)\n- b. [662, 208, 1000, 988] (bounding box coordinates of the woman)\n- b. [359, 608, 485, 987] (bounding box coordinates of the tie)\n- b. [662, 208, 1000, 988] (bounding box",
+                "person in white[[0, 42, 480, 991]]\n<answer>\nhere is the bounding box for the region describing the elderly woman: \nelderly woman[[394, 436, 663, 989]]\n<answer>\nhere is the bounding box for the region describing the man: \nman[[0, 42, 480, 991]]\n<answer>\nhere is the bounding box for the region describing the tie: \ntie[[254, 443, 472, 987]]\n</answer>\nAnswers:\ntie[[254, 443, 472, 987]]\n<answer>\nhere is the bounding box for the region describing the elderly woman: \nelderly woman[[394, 436, 663, 989]]\n<answer>\nhere is the",
+                "person in white[[2, 41, 466, 989]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \n1. The bounding box coordinates for the region are [390, 445, 651, 987].\n<answer>\nThe region described by \"the woman in glasses\" is:\n1. The bounding box coordinates for the region are [390, 445, 651, 987].\n<answer>\nThe region described by \"the man in white\" is:\n1. The bounding box coordinates for the region are [0, 3, 463, 987].\n"
+            ],
+            "iou_scores": [
+                0.9677015684386392,
+                0.977070861912701,
+                0.9586343163550672,
+                0.9278557114228457,
+                0.9675755801919024,
+                0.9606508073353633,
+                0.06996801098222853,
+                0.9852259481146141
+            ],
+            "iou_var": 0.08758002758909522,
+            "mean_iou": 0.8518353505941703,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000056677.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>kid sitting</ref>",
+            "ground_truth": [
+                132,
+                680,
+                445,
+                988
+            ],
+            "model_output": [
+                "kid sitting[[138, 678, 460, 989]]\n><answer>[x1,y1,x2,y2]</value></body>[[138, 678, 460, 989]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>/</answer>\n[[325, 342, 740, 1000]]\n[[225, 70, 456, 734]]\n[[587, 37, 873, 989]]\n[[199, 335, 739, 988]]\n[[137, 678, 460, 989]]\n[[22",
+                "kid sitting[[138, 678, 460, 991]]\n><answer>[x1,y1,x2,y2]</answer><answer>&#x1;y1</answer>\n><answer>[x2,5,983,981]</x2></answer>",
+                "kid sitting[[140, 684, 454, 987]]\n><answer>[x1,y1,x2,y2]</value>\n<comment>the girl with sunglasses is on the right side of the image. She is standing and smiling. The woman behind her is wearing a blue shirt with a leaf design. The person in front of her is sitting and eating a cake. There is also a table with some food items in the background. The setting is outdoors, and there are trees and a clear blue sky visible. The group appears to be enjoying a celebration. The bounding box coordinates are [140, 684, 454, 987] for the young girl sitting, and [442, 39, 868, 989] for the girl with sunglasses. The exact coordinates of the woman behind her are not provided, but it is clear that she is standing and observing the scene. The exact coordinates of the person in front of her are not provided, but it is clear that she is sitting and eating a cake. The exact coordinates of the table are not provided,",
+                "kid sitting[[144, 676, 463, 987]]\n<answer>\nHere is the bounding box coordinates for the region describing the object and its location: \nkid sitting[[144, 676, 463, 987]]\n<answer>\nWhere is the girl standing? \ngirl standing[[579, 37, 865, 1000]]\nRendering a list of bounding boxes for each relevant part in the image: \n[\"[144, 676, 463, 987]\" (the kid sitting)]\n<answer>\nWhere is the woman standing? \nwoman standing[[258, 69, 453, 733]]\nOutput: \n[\"[258, 69, 453, 733]\" (the elderly woman sitting)]\n<answer>\nWhere is the girl sitting? \ngirl[[14",
+                "kid sitting[[136, 676, 471, 987]]\n><answer>[x1,y1,x2,y2]</answer>Sure, here are the specified regions in the image:\n\n1. The elderly woman with the cake: \n   - Coordinates: [136, 344, 730, 987]\n\n2. The young girl sitting on a bench:\n   - Coordinates: [136, 676, 471, 987]\n\n3. The woman standing behind the elderly woman:\n   - Coordinates: [271, 73, 465, 742]\n\n4. The girl standing next to the woman:\n   - Coordinates: [552, 36, 869, 989]\n\nThese coordinates are approximate based on the provided image description.",
+                "kid sitting[[137, 679, 471, 989]]\n<answer>\nHere is the reconstructed text and coordinates for the bounding box of the region describing the elderly woman: \nelderly woman[[198, 345, 734, 1000]]\n</answer>\nuser\nis the woman standing behind the elderly woman? yes\nwoman standing behind the elderly woman[[258, 75, 451, 743]]\n<answer>\nHere is the reconstructed text and coordinates for the bounding box of the region describing the young girl: \nyoung girl[[137, 679, 471, 989]]\n</answer>\nuser\nnumber of women in the image is there? There are 2 women in the image. Are they standing? Yes\nwomen[[258, 75, 451, 743]]\n<answer>\n",
+                "kid sitting[[136, 673, 465, 1000]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [422, 343, 742, 989] tags:\nthis sentence[[422, 343, 742, 989]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [621, 39, 874, 989] tags:\nthis sentence[[621, 39, 874, 989]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [251, 74, 439, 728] tags:\n[this sentence][[251, 74, 439, 728]]\n<answer>\nHere is the requested bounding box for the region described by",
+                "kid sitting[[140, 672, 461, 988]]\n><answer>[[140, 672, 461, 988]]\nNG"
+            ],
+            "iou_scores": [
+                0.9271105010295126,
+                0.0,
+                0.932251263479638,
+                0.8953646105846559,
+                0.0,
+                0.20483134450523413,
+                0.87462206497266,
+                0.9041385948026949
+            ],
+            "iou_var": 0.16852908588337395,
+            "mean_iou": 0.5922897974217994,
+            "correct_count": 5
+        }
+    ]
+}

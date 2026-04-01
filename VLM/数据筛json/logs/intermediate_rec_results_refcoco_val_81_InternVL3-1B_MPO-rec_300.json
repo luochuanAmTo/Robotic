@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 81,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000264741.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom right corner couch cushion</ref>",
+            "ground_truth": [
+                0,
+                720,
+                219,
+                997
+            ],
+            "model_output": [
+                "bottom right corner couch cushion[[561, 292, 1000, 748]]\n<answer><sep>\n<answer>bottom right corner couch cushion[[2, 771, 238, 1000]]\n<answer>bottom right corner couch cushion[[2, 942, 286, 1000]]\n<answer>bottom right corner couch cushion[[2, 771, 238, 1000]]\n<answer>bottom right corner couch cushion[[2, 942, 286, 1000]]\n<answer>bottom right corner couch cushion[[561, 292, 1000, 748]]\n<answer>bottom right corner couch cushion[[2, 771, 238, 100",
+                "bottom right corner couch cushion[[0, 770, 251, 1000]]\n<answer> <boxed answer=\" <box><img src=\"data:image/png;base64,WF5d3tlciBoZW50LHlvdWIuY29tLCA5IHdvcmxKbWVudGVyOCAxLCAuIC9Ob2YtLCA2LCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC9KbWVudGVyOCAxLCAuIC",
+                "bottom right corner couch cushion[[625, 260, 1000, 744]]\n<answer> <boxed answer=\" <box><image> <box><image> <image> </box><answer>\n<li></image><image> <image> <image> </box><answer></answer>\n</box><answer></answer>\n</box><answer></image><image> <image> <image> <image> </box><answer></answer>\n[[12, 506, 234, 863]] <image> <image> <image> <image> </box><answer></answer>\n[[234, 205, 629, 663]] <image> <image> <image> <image> </box><answer></answer>\n",
+                "bottom right corner couch cushion[[525, 290, 998, 753]]\n<answer> <boxed answer=\"[[4, 513, 182, 988]]\"] </boxery>\n<answer> <boxed answer=\" [ [4, 513, 182, 988]]\"] </boxery>",
+                "bottom right corner couch cushion[[554, 279, 1000, 746]]\n<answer><sep><solution></solution></sep>\n<sep><answer>to the right of the man in the green shirt and gray shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the gray shirt and black shorts, sitting on the couch</solution></answer>\n<sep><answer>to the left of the man in the",
+                "bottom right corner couch cushion[[0, 768, 245, 988]]\n<answer><sep>\n<answer>bottom right corner couch cushion[[583, 281, 998, 751]]\n<answer>bottom right corner couch cushion[[0, 768, 245, 988]]\n<answer>bottom right corner couch cushion[[583, 281, 998, 751]]\n<answer>bottom right corner couch cushion[[0, 768, 245, 988]]\n<answer>bottom right corner couch cushion[[583, 281, 998, 751]]\n</select>\n   <answer>bottom right corner couch cushion[[0, 768, 245,",
+                "bottom right corner couch cushion[[566, 285, 1000, 746]]\n<answer><sep><answer>coordinates of the region described by \"[[654, 643, 911, 910]]\" on the image</answer>\n<sep><answer>x1 y1</answer><sep><answer>x2 y2</answer>\n</code></midline></div>\n<answer>bottom right corner couch cushion[[566, 285, 1000, 746]]\n<answer>bottom right corner couch cushion[[566, 285, 1000, 746]]\n</code></midline></div>\n<answer>bottom right corner couch cushion[[566, 285, 1000, 746]]\n</answer>\n<answer>bottom right corner couch cushion[[566,",
+                "bottom right corner couch cushion[[612, 243, 1000, 745]]\n<answer><sep><solution></solution></sep>\n<sep><text>man sitting on the right with a beard, wearing a green shirt, gray shorts, and a hat, resting his hand on his chin, holding a drink in his left hand, surrounded by various items including a hat and a bag, sitting on the right side of the wooden table.</text></solution></sep>\n<answer>\n<answer>man sitting on the right[[503, 225, 1000, 742]]\n</answer>"
+            ],
+            "iou_scores": [
+                0.0,
+                0.7238351776354106,
+                0.0,
+                0.0,
+                0.0,
+                0.7257882289140292,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.09850373937633115,
+            "mean_iou": 0.18120292581867997,
+            "correct_count": 2
+        },
+        {
+            "image": "train2014/COCO_train2014_000000501177.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy left</ref>",
+            "ground_truth": [
+                4,
+                137,
+                289,
+                620
+            ],
+            "model_output": [
+                "guy left[[0, 122, 289, 807]]\n<answer>\nguy left[[0, 122, 289, 807]]\n<issue>[x3, 31, 995, 984]</issue>\n<answer>guy left[[0, 122, 289, 807]]\n</issue></code></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</issue></div>\n</laptop>\n</laptop>\n</",
+                "guy left[[0, 122, 300, 800]]\n<answer to the above question>:\nloser\nguy left[[0, 122, 300, 800]]\n<answer to the above question>:\nAnswers:\nguy left[[0, 122, 300, 800]]\n<answer to the above question>:\nAnswers:\nguy left[[0, 122, 300, 800]]\n<answer to the above question>:\nAnswers:\nguy left[[0, 122, 300, 800]]\n<answer to the above question>:\nAnswers:\nguy left[[0, 122, 300, 800]]\n<answer to the above question>:\nAnswers:\nguy left[[0,",
+                "guy left[[0, 126, 289, 804]]\n<answer_to_the_question>\nwhere is the guy on the left in the image? \n</answer_to_the_question>\n<answer_for_image>{\"guy left\" : \"<box><left_top corner> [0, 126, 289, 804]</left_top_corner></box>\"}</answer_for_image>\n<answer_for_image>{\"guy on the left\" : \"<box><left top corner> [0, 126, 289, 804]</left top corner></box>\"}</answer_for_image>\n<answer_for_image>{\"guy on the left\" : \"<box><left top corner> [0, 126, 289, 804]</left top corner></box>\"}</answer_for_image>\n<answer_for_image>{\"guy on the right\" : \"<box><left top corner> [5, 13, ",
+                "guy left[[0, 117, 303, 803]]\n<answer_to_the_question>Answer: <answer> [132, 36, 999, 988]</answer> </cite></cite></div>\nCreative question for a graphic designer: \nImagine this image is a screenshot from a video game. How would you describe the boy in the hoodie and hat on the phone? What kind of atmosphere does it create?\nAnswer: The boy in the hoodie and hat appears to be relaxed and comfortable, likely enjoying a casual phone call during a ride. The hoodie and hat suggest it's a cool day, and the relaxed expression and posture indicate a laid-back and informal atmosphere. The presence of the smartphone and the person in the reflection might hint at a casual, everyday moment, possibly during a break or a casual conversation.",
+                "guy left[[0, 125, 288, 808]]\n<answer>[[36, 40, 1000, 987]]\n<answer>\nishly</code></cite>\n<question>Identify the region in the image that contains the text \u201cThe North Face\u201d written on it.</question>\nAnswers:\ntext \u2018The North Face\u2019[[36, 40, 1000, 987]]\n<answer>\n4.03, 52, 515, 107]\n<question>Identify the region in the image that contains the text \u201cThe North Face\u201d written on it.</question>\nAnswers:\nThe North Face[[36, 40, 1000, 987]]\n<answer>\n96, 547, 228, 696",
+                "guy left[[0, 122, 274, 984]]\n<answer> <boxed answer=\" [106, 44, 998, 983]\" </boxery><answer name>guy left[[0, 122, 274, 984]][[0, 122, 274, 984]]\n[[29, 37, 1000, 1000]]\n<answer name>guy left[[0, 122, 274, 984]]\n[[29, 37, 1000, 1000]][[29, 37, 1000, 1",
+                "guy left[[0, 122, 306, 802]]\n<answer to the above question>:\nAnswers>\nWhat is the background behind the boy?\n<answer>the background[[2, 119, 1000, 988]]\n</answer><answer>the background[[2, 119, 1000, 988]]\n</answer><answer>the boy[[30, 35, 1000, 986]]\n</answer><image>:\n</image><answer>the boy[[30, 35, 1000, 986]]\n</answer><answer>the boy[[30, 35, 1000, 986]]\n</answer>",
+                "guy left[[0, 123, 287, 804]]\n<answer> <answer> <center><ul> <b> [430, 36, 997, 906]</b> </ul> </center> </answer> </response>\n<answer> <center><ul> <b> [430, 36, 997, 906]</b> </ul> </center> </answer> </response>"
+            ],
+            "iou_scores": [
+                0.6953501881645745,
+                0.6767699115044248,
+                0.7025293199007869,
+                0.08547150160954364,
+                0.6956442361818984,
+                0.5357120850500959,
+                0.15872366136184912,
+                0.0
+            ],
+            "iou_var": 0.08287411939247694,
+            "mean_iou": 0.4437751129716466,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000522462.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>biggest cupake</ref>",
+            "ground_truth": [
+                113,
+                98,
+                879,
+                649
+            ],
+            "model_output": [
+                "biggest cupake[[112, 101, 879, 892]]\n[[839, 0, 1000, 377]]\nbiggest cupake[[112, 101, 879, 892]]\nbiggest cupake[[112, 101, 879, 892]]\nbig chocolate muffin[[83, 0, 999, 969]]\nbig chocolate muffin[[83, 0, 999, 969]]\nbig chocolate muffin[[83, 0, 999, 969]]\nbig chocolate muffin[[83, 0, 999, ",
+                "biggest cupake[[112, 97, 880, 892]]\n[[846, 1, 1000, 374]]\n'));[[317, 0, 682, 213]]\nraf[[0, 0, 255, 353]]\n[[0, 0, 311, 348]]\n[[112, 97, 880, 892]]\n[[846, 1, 1000, 374]]\n[[317, 0, 682, 213]]\n[[112, 97, 880, 89",
+                "biggest cupake[[114, 100, 881, 896]]\n\n[[836, 0, 1000, 378]]\n[[330, 0, 681, 199]]\n[[0, 0, 258, 354]]\n[[113, 96, 880, 893]]\n[[835, 0, 999, 374]]\n[[0, 1, 257, 353]][[0, 1, 257, 353]]\n[[330, 0, 681, 199]]\n[[330, 0",
+                "biggest cupake[[111, 96, 879, 892]]\n[[114, 0, 998, 900]]\n```\n:````[[111, 0, 998, 900]]\n````````````\n`````````\n``````\n``````\n``````\n``````\n``````\n``````\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n",
+                "biggest cupake[[113, 99, 880, 894]]\n[[113, 99, 880, 894]]\n[[844, 0, 1000, 374]]\n[[317, 0, 674, 187]]\n[[0, 0, 267, 354]];[[2, 560, 117, 827]]\n[[113, 99, 880, 894]]\n[[844, 0, 1000, 374]]",
+                "biggest cupake[[113, 102, 878, 893]]\n[[845, 0, 1000, 376]]\nWikimedia: biggest cupake[[113, 102, 878, 893]]\n[[309, 1, 688, 182]]\n[[0, 0, 264, 349]]\n[[0, 0, 1000, 989]]\n[[795, 0, 1000, 374]]\n[[579, 4, 718, 119]]\n[[62, 15, 259, 347]]",
+                "biggest cupake[[112, 103, 876, 887]]\n[[112, 103, 876, 887]]\n[[834, 0, 1000, 379]]\n[[326, 0, 668, 182]]\n[[0, 0, 258, 348]]\n[[84, 219, 481, 700]]\n[[829, 193, 999, 375]]",
+                "biggest cupake[[112, 101, 878, 893]]\n[[839, 0, 1000, 376]]\n[[293, 0, 675, 212]]\n```markdown\n|x1|y1|x2|y2|x3|y3|x4|y4|x5|y5|x6|y6|x7|y7|x8|y8|\n|:-------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|\n|483|157|505|509|540|634|583|684|731|822|926|1014|\n```\n[[0, 0, 255, 347]]"
+            ],
+            "iou_scores": [
+                0.689279879145149,
+                0.6912768605870021,
+                0.6855633164820205,
+                0.690408422319933,
+                0.6900550504396992,
+                0.6874275125425889,
+                0.6892251391361317,
+                0.6877893679924136
+            ],
+            "iou_var": 3.0050430993228557e-06,
+            "mean_iou": 0.6888781935806172,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000247126.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                737,
+                223,
+                896,
+                857
+            ],
+            "model_output": [
+                "catcher[[731, 227, 899, 857]]\nbaseball player[[252, 296, 408, 811]]\n[[903, 414, 976, 696]]\n[[0, 430, 42, 733]]\n[[453, 533, 505, 630]]\n[[246, 294, 402, 813]]\n[[697, 570, 816, 861]]",
+                "catcher[[728, 225, 899, 862]]\n\u5bc2\u7136\u65e0\u4e8b\u7684\u7537\u5b69\u6b63\u5728\u8dd1\u5411\u51fb\u7403\u624b\u7684\u68d2\u7403\u573a\u3002",
+                "catcher[[735, 225, 899, 864]]\nbaseball player[[251, 296, 412, 812]]\n[[0, 427, 45, 734]]\n nr\n[[197, 292, 408, 810]]\n[[760, 225, 899, 859]]\n[[912, 415, 975, 695]]\n[[464, 532, 510, 630]]\n[[0, 533, 123, 640]]\n[[0, 524, 178, 642]]\n[[",
+                "catcher[[730, 223, 902, 859]]\nrunner[[256, 295, 415, 813]]\n[[0, 428, 43, 733]]\n clich\u00e9ly predictinging the position of a person in the context of a question is a difficult task\n[[902, 415, 976, 697]]\n[[192, 292, 409, 809]]\n[[713, 570, 814, 861]]\n[[0, 535, 219, 644]]\n[[409, 474, 435, 513]]\n[[432,",
+                "catcher[[731, 225, 896, 859]]\nbaseball player[[245, 297, 414, 813]]\n[[869, 413, 979, 698]]\n[[731, 225, 896, 859]]\n[[245, 297, 414, 813]]\n[[1, 433, 39, 734]]\n[[923, 411, 973, 695]]\n[[425, 532, 486, 625]]\uff1b<answert>[376, 471, 407, 5",
+                "catcher[[727, 224, 896, 863]]\n[[246, 293, 412, 816]]\nPlease complete the sentence: The baseball player running is wearing a jersey with the word 'Canes' on it. \n\nThe output should be: <answer>image</answer>\nimage[[246, 293, 412, 816]]\n[[727, 224, 896, 863]]\nHere is the image: \ncatcher[[727, 224, 896, 863]]\nHere is the image: \ncatcher[[722, 221, 896, 859]]\nHere is the image: \ncatcher[[722, 221, 896, 8",
+                "catcher[[734, 223, 903, 857]]\n-Responsive to this keyword:\n-Responsive to this keyword:\n-Responsive to this keyword:\n-Responsive to this keyword:\n-Responsive to this keyword:",
+                "catcher[[738, 221, 900, 859]]\ncatcher[[246, 297, 412, 810]]\n[[906, 410, 979, 694]]\n[[1, 427, 36, 732]]\n[[248, 296, 393, 808]]\n[[404, 471, 432, 512]]\uff1b[[418, 534, 473, 628]]\uff1b[739, 566, 841, 665]]\n[[359, 471, 40"
+            ],
+            "iou_scores": [
+                0.9407753860024795,
+                0.9198407249759715,
+                0.9559906387350876,
+                0.9215116279069767,
+                0.9576852698993595,
+                0.0,
+                0.9408284023668639,
+                0.9632849312433888
+            ],
+            "iou_var": 0.09745513323325876,
+            "mean_iou": 0.824989622641266,
+            "correct_count": 7
+        }
+    ]
+}

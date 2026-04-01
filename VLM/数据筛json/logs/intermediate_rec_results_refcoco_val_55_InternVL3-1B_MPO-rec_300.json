@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 55,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000442542.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>top right green</ref>",
+            "ground_truth": [
+                495,
+                30,
+                749,
+                272
+            ],
+            "model_output": [
+                "top right green[[491, 35, 746, 274]]\nrice[[240, 407, 1000, 1000]]\n[[84, 0, 997, 985]]\n[[845, 1, 1000, 180]]\n[[843, 27, 1000, 178]]\n[[845, 27, 1000, 178]]\n[[843, 27, 1000, 178]]\n[[845, 27, 1000, 178]]\n[[845, 2",
+                "top right green[[498, 32, 745, 272]]\nrice[[223, 410, 1000, 988]]\n[[101, 0, 995, 984]]\n[[842, 0, 1000, 99]]\n[[2, 0, 1000, 1000]]\n[[106, 153, 255, 368]]\n[[271, 257, 468, 497]]\n[[296, 4, 411, 249]]\n[[530, 256, 790, 447]]",
+                "top right green[[473, 24, 756, 276]]\n[[111, 1, 618, 587]]\n \u2022 rice[[143, 402, 1000, 1000]]\n \u2022 broccoli[[248, 251, 488, 497]]\n \u2022 chicken[[63, 1, 699, 588]]\n \u2022 champorado[[578, 259, 786, 443]]\n \u2022 paper[[826, 0, 1000, 177]]\n \u2022 bowl[[3, 4, 1000, 987]]\n \u2022 dish[[585, 0, 1000, 459]]",
+                "top right green[[505, 33, 740, 271]]\n[[253, 257, 480, 499]]\n[[100, 2, 1000, 989]]\n[[808, 375, 885, 440]]\n[[803, 373, 863, 445]]\n[[799, 554, 961, 616]]\n[[739, 366, 785, 440]]\n[[741, 384, 783, 452]]\n[[783, 380, 809, 4",
+                "top right green[[503, 24, 752, 275]]\n[[101, 18, 444, 410]]\n \u2022\n[[101, 18, 444, 410]]\n \u2022\n \u2022[[227, 249, 472, 495]]\n \u2022\n \u2022[[519, 265, 792, 458]]\n \u2022\n \u2022[[726, 93, 763, 208]]\n \u2022\n \u2022[[506, 30, 721, 275]]\n \u2022\n \u2022[[227, 249, 472, 495]]\n \u2022\n \u2022[[227, 24",
+                "top right green[[489, 32, 751, 272]]\n[[93, 15, 395, 588]]\n[[91, 392, 1000, 1000]]\n[[889, 0, 1000, 178]]\n[[743, 36, 997, 425]]\n[[539, 253, 788, 455]]\n[[270, 265, 475, 496]]\n[[111, 158, 212, 342]]\n[[275, 24, 432, 295]]\n[[42",
+                "top right green[[474, 22, 745, 276]]\nAI",
+                "top right green[[504, 34, 743, 271]]\n[[197, 247, 480, 494]]\nThe rest of the text in the image:\nthe rest of the text[[842, 18, 998, 96]]\n[[0, 0, 1000, 1000]]\n[[622, 259, 792, 448]]\n[[797, 384, 960, 600]]\n[[320, 2, 441, 210]]\n[[112, 161, 227, 347]]\n[[327, 21,"
+            ],
+            "iou_scores": [
+                0.9453485045926961,
+                0.9644042428580725,
+                0.861910370744293,
+                0.9099043404698379,
+                0.9239078140762008,
+                0.9616962201047516,
+                0.8667373427695482,
+                0.9215038719333637
+            ],
+            "iou_var": 0.0013351248123391905,
+            "mean_iou": 0.9194265884435955,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000494552.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front left chair</ref>",
+            "ground_truth": [
+                0,
+                473,
+                375,
+                712
+            ],
+            "model_output": [
+                "front left chair[[0, 472, 358, 734]]\n[[421, 510, 990, 989]]\nThe rest of the text in the image: Heineken\n[[25, 523, 218, 768]]\nThe bird is perched on the right side of the table. The rest of the text in the image: Heineken\n[[694, 438, 762, 540]]\nThe bird is perched on the right side of the table. The rest of the text in the image: Heineken\n[[323, 233, 679, 382]]\nThe bird is perched on the right side of the table. The rest of the text in the image: Heineken\n[[304, 240, 358, 285]]\n",
+                "front left chair[[2, 476, 357, 721]]\n[[425, 510, 990, 987]]\nI'm sorry, but I can't provide the bounding box coordinates for the bird in the image.\n</solution>\n</solution>\n</solution>\n\n[[654, 439, 719, 535]]\n[[116, 902, 283, 1000]]\n[[1, 476, 357, 721]]\n[[425, 510, 990, 987]]\n[[2, 476, 357, 721]]\n[[425, 510, 9",
+                "front left chair[[0, 473, 363, 738]]\n><answer>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</",
+                "front left chair[[0, 473, 364, 705]]\n><answer>\n\u4eba\u90fd\n[[420, 511, 989, 984]]\n><answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "front left chair[[0, 474, 367, 763]]\n><answer>\nuser\nWhat is the small bird sitting on the table? \nthe small bird[[677, 437, 740, 539]]\nMRI\n\n[[121, 902, 296, 1000]]\n[[130, 764, 236, 904]]\n[[287, 242, 864, 401]]\n[[423, 511, 991, 996]]\n[[2, 651, 794, 982]]\n[[0, 475, 371, 763]]",
+                "front left chair[[0, 474, 361, 706]]\n><answer>[[0, 474, 361, 706]]\n\u52ab\u76d7\u672c\u624b\u518c[[422, 509, 989, 1000]]\nThe spout of the Heineken is located at <image>[[[83, 763, 225, 907]]\nThe spout of the Heineken is located at <image>[[[83, 763, 225, 907]]\nThe spout of the Heineken is located at <image>[[[83, 763, 225, 907]]\nThe spout of the Heineken is located at <image>[[[83, 763, 225, 907]]",
+                "front left chair[[0, 472, 368, 716]]\n[[419, 508, 994, 1000]]\n\u52ab\u6848\nfront left chair[[0, 472, 368, 716]]\n\u52ab\u6848\nfront left chair[[0, 472, 368, 716]]\n[[419, 508, 994, 1000]]\nThe bird is near the edge of the image. What can be inferred about the weather?\nweather[[568, 60, 941, 255]]\nThe bird is resting on the table. Is it safe for people to be around?\nsafe[[568, 60, 941, 255]]\nThe bird is sitting on the table. Is it safe for people to be around?",
+                "front left chair[[2, 478, 360, 725]]\nAI"
+            ],
+            "iou_scores": [
+                0.8743396110730746,
+                0.9026071967248438,
+                0.8757760213197662,
+                0.9422370990237099,
+                0.806206272728951,
+                0.9344714086471408,
+                0.9615918657409939,
+                0.8885541849192291
+            ],
+            "iou_var": 0.0021151086962216594,
+            "mean_iou": 0.8982229575222136,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000446093.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>blue hat white shirt</ref>",
+            "ground_truth": [
+                90,
+                92,
+                609,
+                986
+            ],
+            "model_output": [
+                "blue hat white shirt[[72, 99, 648, 1000]]\nKnow the coordinates of this image: blue hat white shirt[[72, 99, 648, 1000]]\nKnow the coordinates of this image: frisbee[[493, 97, 851, 1000]]\nKnow the coordinates of this image: frisbee[[613, 98, 803, 124]]\n[[610, 98, 800, 125]]\nMore coordinates of the image: frisbee[[613, 98, 803, 124]]\n[[603",
+                "blue hat white shirt[[83, 94, 634, 1000]]\n><answer>[[443, 97, 854, 1000]]]</answer>\n[[87, 98, 638, 915]]\n[[544, 103, 850, 999]]\n[[516, 804, 560, 889]]\n[[796, 830, 826, 899]]\n[[928, 849, 954, 889]]\n[[415, 821, 438, 888]]\n",
+                "blue hat white shirt[[76, 97, 646, 987]]\n><answer>[[440, 96, 850, 997]]\n",
+                "blue hat white shirt[[75, 102, 649, 1000]]\n<answer>\n}</citeoframe>\nblue hat white shirt[[75, 102, 649, 1000]]\n</citeoframe>\nblue hat white shirt[[75, 102, 649, 1000]]\n</cite oframe><issue>\nblue hat white shirt[[492, 103, 854, 987]]\n</issue><issue>\nblue hat white shirt[[492, 103, 854, 987]]\n</issue><issue>\nblue hat white shirt[[75, 102, 649, 1000]]\n</issue><issue>\nblue hat white shirt[[75, 102, 649",
+                "blue hat white shirt[[79, 97, 647, 1000]]\n><answer>[[475, 99, 856, 1000]]]</answer>\nCR\n[[43, 785, 209, 913]]\n[[565, 100, 850, 998]]\n[[633, 822, 714, 926]]\n[[122, 837, 334, 999]]\n[[382, 838, 426, 908]]\n[[467, 836, 503, 881]]\n",
+                "blue hat white shirt[[81, 99, 641, 1000]]\nPK[[507, 103, 862, 1000]]\n[[569, 83, 851, 997]]\n[[48, 781, 206, 905]]\n[[575, 821, 613, 894]]\n[[339, 842, 666, 938]]\n[[104, 831, 173, 909]]\n[[654, 822, 719, 924]]\n[[565, 830, 6",
+                "blue hat white shirt[[81, 98, 665, 1000]]\nDNA[[515, 102, 859, 1000]]\n[[58, 80, 619, 915]]\nfrisbee[[612, 100, 795, 120]]\n[[527, 836, 578, 878]]\nfootwear[[58, 784, 216, 909]]\n[[543, 936, 676, 1000]]\n[[2",
+                "blue hat white shirt[[83, 97, 639, 988]]\n><answer>[[425, 98, 851, 999]]\n[[80, 100, 842, 988]]\n```\n[[80, 100, 842, 988]]\n```\n```[[80, 100, 842, 988]]\n```[[80, 100, 842, 988]]\n```[[80, 100, 842, 988]]\n[[508, 98, 840, 999]]"
+            ],
+            "iou_scores": [
+                0.8808746118034707,
+                0.21463904180817256,
+                0.9048745329920866,
+                0.8812120420557696,
+                0.172656080905392,
+                0.9058625364772832,
+                0.8697634567696204,
+                0.9265046958679977
+            ],
+            "iou_var": 0.09258001914409121,
+            "mean_iou": 0.719548374834974,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000354791.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy with bat</ref>",
+            "ground_truth": [
+                175,
+                154,
+                566,
+                983
+            ],
+            "model_output": [
+                "guy with bat[[194, 146, 556, 917]]\n<answer>\n\n</body>\n</select>\n<answer>\n</body>",
+                "guy with bat[[196, 145, 554, 930]]\n<answer>\nawaharar\n=> [568, 679, 785, 986]",
+                "guy with bat[[197, 145, 542, 930]]\n<answer>\nansson\n<answer>\nousand\n<span>\n</answer><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span><span>\n</span>",
+                "guy with bat[[192, 142, 561, 925]]\n<answer>\nguy with bat[[192, 142, 561, 925]]\n<question>What is the player holding?<br>\nthe player[[192, 142, 561, 925]]\n<answer>\nophysik<br/>\n</solution>\n",
+                "guy with bat[[186, 153, 562, 925]]\n<answer>\n\n</answer><answer>\n</body></body>\n\n\n</body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></",
+                "guy with bat[[199, 155, 558, 933]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aguy with bat[[199, 155, 558, 933]]\n<issue>\n</issue>\n<question>What is the position of the bat in relation to the player?<br>answer details>\n</question>\n</answer>\n</issue>\n<issue> bat[[260, 7, 313, 799]]\n</issue>",
+                "guy with bat[[193, 146, 568, 948]]\n<answer>\nguy with bat[[193, 146, 568, 948]]\n<issue>\n</issue>\n<question>What is the player's helmet?<br></question> <answer>the player's helmet[[330, 146, 498, 462]]\n</issue>",
+                "guy with bat[[185, 145, 557, 936]]\n<answer>\nguy with bat[[185, 145, 557, 936]]\n<issue>\n<answer>\n\n</issue></backwards>\n[[554, 673, 762, 987]]\n\n</issue></backwards>\n[[185, 145, 557, 936]]\n[[554, 673, 762, 987]]\n[[185, 145, 557, 936]]"
+            ],
+            "iou_scores": [
+                0.8445762685951045,
+                0.8486288837094217,
+                0.0,
+                0.8658781922712872,
+                0.0,
+                0.8616735412893851,
+                0.9009360350686132,
+                0.8882917489854559
+            ],
+            "iou_var": 0.1416827286688353,
+            "mean_iou": 0.6512480837399084,
+            "correct_count": 6
+        }
+    ]
+}

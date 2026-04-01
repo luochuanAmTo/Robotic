@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 72,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000416355.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>foreground tennis player on left</ref>",
+            "ground_truth": [
+                52,
+                168,
+                280,
+                927
+            ],
+            "model_output": [
+                "foreground tennis player on left[[58, 164, 285, 930]]\n<answer>\nforeground tennis player on right[[550, 160, 783, 918]]\n<answer>\nwoman[[27, 160, 280, 923]]\n<answer>\nwoman[[27, 160, 280, 923]]\n[[272, 285, 464, 591]]\n[[27, 160, 280, 923]]\n[[550, 160, 783, 918]]\n[[550, 160, 783, 918]]\n[[27, 160, 280, 923",
+                "foreground tennis player on left[[52, 163, 281, 921]]\n<answer>\nforeground tennis player on left[[552, 164, 783, 919]]\n<answer>\nwoman[[552, 164, 783, 919]]\n[[706, 285, 971, 593]]\n[[37, 163, 281, 921]]\n[[373, 287, 483, 592]]\n[[38, 4, 995, 982]]\n[[479, 236, 664, 540]][[552, 164, 78",
+                "foreground tennis player on left[[52, 166, 284, 921]]\n><answer>\n\u5be5[[561, 164, 779, 920]]\n<answer>\n[[838, 285, 975, 593]]\n<answer>\n[[369, 289, 476, 592]]\n<answer>\n<answer>[[29, 162, 276, 919]]\n<answer>[[292, 289, 452, 593]]\n",
+                "foreground tennis player on left[[57, 165, 281, 924]]\n><answer>\n\u526f\u4e3b\u5e2d\uff1aforeground tennis player on left[[57, 165, 281, 924]]\n[[559, 164, 780, 919]]\n[[855, 286, 974, 595]]\n[[374, 288, 483, 589]]\n[[38, 161, 263, 920]]\n[[25, 182, 271, 922]]\n[[25, 182, 271, 922]]\n[[",
+                "foreground tennis player on left[[51, 164, 281, 932]]\n><answer>[x1,y1,x2,y2]</answer>[[563, 164, 781, 922]]\n><answer>[x1,y1,x2,y2]</answer>\n[[836, 285, 973, 594]]\n<answer>&#x12;\n</div>",
+                "foreground tennis player on left[[59, 167, 287, 920]]\n<answer>\nHere is the requested information about the bounding box coordinates for the region in the image: \n\n```markdown\n### Coordinates of the region:\n1. Top-left corner: [50, 166, 289, 916]\n2. Bottom-right corner: [666, 167, 982, 915]\n```\n\nSo the bounding box coordinates for the region are:\n1. Top-left corner: [50, 166, 289, 916]\n2. Bottom-right corner: [666, 167, 982, 915]\n```\n```\n```markdown\nforeground tennis player on left[[59, 167, 287, 920]]\n```\n``````\n``````",
+                "foreground tennis player on left[[59, 162, 286, 926]]\n><answer>[x1,y1,x2,y2]</answer>[[567, 160, 782, 920]]\n><answer>[x1,y1,x2,y2]</answer>\n[[838, 286, 972, 592]]\n><answer>/[x1,y1,x2,y2], [562, 236, 659, 485], [37, 236, 134, 467]]\n><answer>/[x1,y1,x2,y2], [567, 236, 659, 485], [37, 236, 134, 467]]\n",
+                "foreground tennis player on left[[58, 164, 288, 920]]\n><answer>\n}while (x1 <= 30 && x2 >= 30 && y1 <= 30 && y2 >= 30) {\n><answer>\n\ufeff\n><answer>\n</p>\n</div></td>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</"
+            ],
+            "iou_scores": [
+                0.9443049608823332,
+                0.981331809088311,
+                0.9725595939454365,
+                0.9662310866574966,
+                0.0,
+                0.9308181736714759,
+                0.0,
+                0.9275285019001267
+            ],
+            "iou_var": 0.17089528589859565,
+            "mean_iou": 0.7153467657681475,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000110761.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy second from right</ref>",
+            "ground_truth": [
+                685,
+                132,
+                813,
+                1000
+            ],
+            "model_output": [
+                "guy second from right[[498, 135, 746, 989]]\n<answer>guy second from right[[498, 135, 746, 989]]\n topleft from right: guy[[234, 168, 455, 987]]\n topleft from left: guy[[5, 208, 378, 989]]\n topleft from bottom: guy[[5, 208, 378, 989]]\n<image>\n<answer>guy[[5, 208, 378, 989]]\n</answer>\n<answer>guy[[5, 208, 378, 989]]\n</answer>\n</image>\n</image",
+                "guy second from right[[606, 11, 990, 1000]]\n<answer>guy second from right[[528, 174, 687, 1000]]\nIK\nguy[[221, 170, 470, 989]]\nIKMIKE\nguy[[2, 204, 377, 989]]\nIK[[439, 169, 663, 987]]\n<answer>guy[[627, 4, 990, 989]]\nIK[[539, 479, 627, 988]]\n</body>\n",
+                "guy second from right[[492, 168, 686, 989]]\n<answer>\nguy second from right[[579, 14, 989, 989]]\n</answer><issue> what is the object that the men are holding?[[452, 470, 493, 611]]\n</issue><answer>guy second from left[[212, 166, 461, 989]]\n</issue><issue> how many men are there in the group?[[212, 166, 461, 989]]\n</issue><answer>men[[212, 166, 461, 989]]\n</issue><issue> where is the website address?[[147, 3",
+                "guy second from right[[498, 145, 694, 989]]\n<answer>guy second from right[[586, 12, 989, 989]]\n<question>What are the men holding in the image?<br>1. Beer cans. 2. Glasses. 3. Other unidentified items?<br>4. A knife. 5. A spoon. 6. A fork.<br>7. A plate. 8. A bowl.<br>9. A cup. 10. A lamp.\n<answer>Beer cans.[[494, 477, 555, 668]]\n<answer>Other unidentified items?[[556, 555, 608, 655]]\n</question>\n</answer>\n</answer>\n</message>\n</message>\n</message>\n</message>\n",
+                "guy second from right[[580, 13, 992, 1000]]\n<answer>guy second from right[[443, 169, 673, 989]]\n</answer><image>\nguy second from right[[443, 169, 673, 989]]\n</image><image>\nguy[[2, 205, 386, 988]]\n</image>[[327, 171, 475, 989]]\n</image>[[580, 13, 992, 1000]]\n</image>[[443, 169, 673, 9",
+                "guy second from right[[613, 12, 990, 988]]\n<answer>guy second from right[[425, 171, 680, 1000]]\n</answer><image>\nguy second from right[[425, 171, 680, 1000]]\n</image><image>\nguy second from left[[220, 171, 454, 1000]]\n</image><image>\nguy second from left[[220, 171, 454, 1000]]\n</image>[[5, 206, 396, 987]]\n</image>[[613",
+                "guy second from right[[485, 164, 676, 989]]\nImages [1, 192, 381, 989]]\nImages [3, 379, 316, 747]]\nImages [3, 490, 354, 1000]][[541, 16, 988, 987]]\nImages [348, 360, 420, 689], [428, 302, 663, 989], [655, 128, 811, 986]]\nImages [487, 342, 580, 690]][[489, 381, 621, 98",
+                "guy second from right[[491, 172, 686, 989]]\n<answer>guy second from right[[616, 13, 989, 989]]\n\u5f29\u5b50<answer>[i]</su</answer>\n<answer>guy[[2, 206, 392, 1000]]\n}</div></div></div>\n</answer>"
+            ],
+            "iou_scores": [
+                0.19236933257509176,
+                0.292551398719245,
+                0.27344836697759983,
+                0.27761370049526873,
+                0.0,
+                0.0,
+                0.0,
+                0.3001619894050173
+            ],
+            "iou_var": 0.017671564390871163,
+            "mean_iou": 0.16701809852152785,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000398397.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>center of picture person checked shirt</ref>",
+            "ground_truth": [
+                416,
+                492,
+                581,
+                988
+            ],
+            "model_output": [
+                "center of picture person checked shirt[[419, 486, 598, 1000]]\n<answer>\n\u526f\u4e3b\u5e2d: center of picture person checked shirt[[419, 486, 598, 1000]]\n<answer>\n\n<answer>\n<answer>\n</answer>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook>\n</looklook",
+                "center of picture person checked shirt[[417, 480, 592, 1000]]\n<answer>\nHere is the relevant tag from the image: \ncenter of picture person checked shirt[[417, 480, 592, 1000]]\n<answer>\nWhere is the person in the plaid shirt holding a sheep? \nperson[[417, 480, 592, 1000]]\n\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n</solution>\n",
+                "center of picture person checked shirt[[407, 478, 595, 1000]]\n<answer>center of picture person checked shirt[[407, 478, 595, 1000]][[407, 478, 595, 1000]]\n<answer>center of picture person checked shirt[[255, 424, 361, 828]]\n</answer>\n<answer>center of picture person checked shirt[[255, 424, 361, 828]]\n<answer>center of picture person checked shirt[[255, 424, 361, 828]]\n</answer>\n</body&gt;\n</body></div>\n</div></dt>\n</div></div>",
+                "center of picture person checked shirt[[418, 474, 595, 1000]]\n<answer>\n\ufeff",
+                "center of picture person checked shirt[[418, 484, 593, 1000]]\n<answer>\n\ufeff\ufeff\n[[835, 537, 1000, 1000]]\n[[384, 482, 490, 1000]]\n</answer>\n[[175, 434, 328, 832]]\n<answer>\n\ufeff[[850, 399, 887, 580]]\n</answer>\n[[646, 421, 689, 64",
+                "center of picture person checked shirt[[417, 486, 594, 1000]]\nImages: \ncenter of picture person checked shirt[[417, 486, 594, 1000]]\nImages: \ncenter of picture person checked shirt[[417, 486, 594, 1000]]\nImages: \ncenter of picture person checked shirt[[417, 486, 594, 1000]]\nImages: \ncenter of picture person checked shirt[[250, 425, 358, 831]]\nImages: \ncenter of picture person checked shirt[[250, 425, 358, 831]]\nImages: \ncenter of picture person checked shirt[[250, 425, 358, 831]]\nImages: \ncenter of picture person checked shirt",
+                "center of picture person checked shirt[[413, 485, 603, 1000]]\n<answer>center of picture person checked shirt[[413, 485, 603, 1000]][[763, 396, 868, 742]]\n<answer>center of picture person[[413, 485, 603, 1000]]\n<answer>center of picture person[[409, 469, 559, 989]]\n[[248, 425, 349, 831]]\n[[156, 463, 214, 643]]\n[[124, 460, 175,",
+                "center of picture person checked shirt[[416, 482, 596, 1000]]\n<answer>\nUILayout\u00e4\u00e7\u00ef\u00e4\u00e4</ul>\n"
+            ],
+            "iou_scores": [
+                0.8594348300425696,
+                0.8890443298067675,
+                0.8339447297627782,
+                0.8592258805024763,
+                0.0,
+                0.8892581498567899,
+                0.8363822176801227,
+                0.8777348777348777
+            ],
+            "iou_var": 0.0819629788282306,
+            "mean_iou": 0.7556281269232977,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000399880.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>partial person far right</ref>",
+            "ground_truth": [
+                929,
+                148,
+                989,
+                959
+            ],
+            "model_output": [
+                "partial person far right[[845, 206, 989, 973]]\n-Bounding box coordinates: \n<code><list>\n  <item>x1: 845, y1: 206, x2: 989, y2: 974</item>\n</list>\n\ufeff\n[[642, 224, 836, 971]]\n</code></mid>\nNIKE\n[[345, 232, 546, 944]]\n[[502, 268, 660, 951]]\n[[275, 280, 435, 956]]",
+                "partial person far right[[858, 207, 990, 978]]\n[[858, 207, 990, 978]]\nMoreclothing tags of people in the group: clothing[[617, 225, 848, 966]]\nHere is the bounding box of the man in the group: man[[680, 220, 850, 969]]\nHere is the bounding box of the woman: woman[[275, 283, 435, 954]]\nHere is the bounding box of the woman: woman[[519, 271, 666, 948]]\nHere is the bounding box of the hat: hat[[710, 218, 837, 772]]\nHere is the bounding box",
+                "partial person far right[[857, 204, 989, 971]]\n[[653, 222, 846, 962]]\nWikimedia: photographic[[850, 203, 982, 975]]\nWikimedia: photographic[[748, 217, 868, 951]]\nWikimedia: photographic[[354, 225, 545, 942]]\nWikimedia: photographic[[277, 283, 430, 951]]\nWikimedia: photographic[[507, 269, 644, 945]]\nWikimedia: photographic[[335, 240, 519, 939]]\nWikimedia:",
+                "partial person far right[[849, 207, 988, 979]]\n[[666, 224, 844, 962]]\nI'm looking at the woman in the middle, can you describe her appearance?\nwoman in the middle[[519, 276, 656, 945]]\n[[401, 237, 551, 939]]\nwoman[[271, 283, 436, 955]]\nhat[[707, 220, 840, 770]]\nman[[846, 206, 989, 975]]\nman[[667, 221, 843, 967]]\ncoat[[647, 28",
+                "partial person far right[[847, 205, 988, 975]]\nA more specific bounding box for the region of interest: \"man[[655, 223, 852, 965]]\"\nman[[655, 223, 852, 965]]\nman[[316, 234, 537, 948]]\nwoman[[276, 279, 431, 951]]\nwoman[[276, 279, 431, 951]]\nperson[[481, 269, 665, 949]]\nperson[[563, 262, 692, 948]]\nperson[[721, 218, 863, 944]]",
+                "partial person far right[[857, 205, 989, 975]]\nAnonymous[[650, 223, 840, 966]]\nAnonymous[[287, 285, 436, 951]]\nPerson of interest: man[[381, 232, 543, 941]]\nPerson of interest: woman[[516, 267, 661, 946]]\nPerson of interest: hat[[705, 220, 844, 483]]\nPerson of interest: woman[[538, 274, 665, 947]]\nPerson of interest: man[[834, 206, 986, 964]]\nPerson of interest: woman[[288,",
+                "partial person far right[[844, 207, 989, 973]]\nI'm sorry, but I can't provide the requested information.\n",
+                "partial person far right[[841, 206, 984, 981]]\nI'm sorry, but I can't assist with that.\n\uff1b\n[[644, 223, 845, 963]]\n</answer></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small"
+            ],
+            "iou_scores": [
+                0.3965662523699178,
+                0.4284412032816773,
+                0.43306183319949526,
+                0.3975627240143369,
+                0.39457532108138793,
+                0.4306110793832096,
+                0.39368292470116045,
+                0.35076649445244346
+            ],
+            "iou_var": 0.0006587773383804269,
+            "mean_iou": 0.4031584790604536,
+            "correct_count": 0
+        }
+    ]
+}

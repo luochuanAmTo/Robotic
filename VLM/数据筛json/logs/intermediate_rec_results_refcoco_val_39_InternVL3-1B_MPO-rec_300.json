@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 39,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000211576.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>elephant on left</ref>",
+            "ground_truth": [
+                14,
+                10,
+                488,
+                747
+            ],
+            "model_output": [
+                "elephant on left[[19, 0, 263, 702]]\n><answer>[x1,y1,x2,y2]</warn></div>\n><image><div>\n</image>\n</div>",
+                "elephant on left[[12, 11, 242, 570]]\n><answer>[x1,y1,x2,y2]</guide>\n><answer> <l> [334, 75, 845, 960]</l> </answer>",
+                "elephant on left[[15, 1, 238, 603]]\n><answer>[x1,y1,x2,y2]</warn></cite>\n><answer> [334, 71, 844, 953], [298, 194, 527, 816], [741, 512, 883, 797], [859, 357, 1000, 804]]\n><answer> [334, 71, 844, 953], [298, 194, 527, 816], [741, 512, 883, 797], [859, 357, 1000, 804]]\n><answer> [334, 71, 844, 953], [298,",
+                "elephant on left[[12, 4, 208, 543]]\n><answer>[x1,y1,x2,y2]</warn></cite>\n><image-coordinates>[204, 72, 844, 975]</image-coordinates>\n><image-coordinates>[531, 503, 906, 810]</image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n><image-coordinates></image-coordinates>\n",
+                "elephant on left[[15, 0, 212, 565]]\n><answer>[x1,y1,x2,y2]</structure>\n[[332, 73, 842, 963]]\n<answer>&#x123;</answer>\n[[791, 508, 897, 804]]\n</answer>\n<object><details><summary>Elephant on left</summary>: This is an elephant partially visible on the left side of the image, with its trunk hanging down and its head partially obscured by the tree trunk. The elephant's skin is wrinkled and brown, typical of elephant skin.</details></object>\n</interface>\n<object><details><summary>Elephant in the group</summary>: This image shows a group of elephants in a grassy area with trees in the background. The elephants are standing close to each other, with one prominently in the foreground and another slightly behind it.",
+                "elephant on left[[15, 0, 242, 593]]\n><answer>[x1,y1,x2,y2]</answer>[[325, 72, 843, 963]]\n><answer> <l> [281, 194, 523, 821] </l> </answer>\n><answer>[x1,y1,x2,y2]</answer></body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "elephant on left[[12, 2, 261, 600]]\n><answer>[x1,y1,x2,y2]</warn></div>\n1. The elephant's trunk is slightly curled to the side.\n2. The elephant's head is turned to the right.\n3. The elephant's trunk is partially hanging down.\n4. The elephant's ears are visible and hanging down.\n5. The elephant's body is facing to the left.\n6. The elephant's legs are partially visible.\n7. The background shows trees and grass.\n8. The elephant is standing near a tree trunk.\n2. The elephant is facing towards the right.\n3. The elephant's head is turned to the left.\n4. The elephant's trunk is partially hanging down.\n5. The elephant's ears are visible and hanging down.\n6. The elephant's body is facing to the right.\n7. The elephant is standing near a tree trunk.\n8. The background shows trees and grass.\n3. The elephant's trunk is hanging down.\n4. The elephant's head is turned to the right.\n5. The elephant's trunk",
+                "elephant on left[[13, 0, 257, 751]]\n><answer>[x1,y1,x2,y2]</statement>\n Milk tags: elephant on left[[13, 0, 257, 751]]\n><answer> <skip> <comment> <p> The bounding box coordinates provided do not align with the visible elements in the image. The elephant on the left appears to be partially obscured by the tree trunk, and the rest of the elephant is not clearly visible within the given coordinates. The elephant on the right is partially visible and seems to be behind the tree trunk. The elephants are surrounded by green grass and trees, but the exact bounding box coordinates are not applicable here as they do not correspond to any visible elements in the image.</comment> </p> </answer>\n<answer>elephant on left[[330, 197, 524, 811]]\nThe bounding box should cover the entire elephant on the left. Please provide the coordinates if it's the entire elephant"
+            ],
+            "iou_scores": [
+                0.4799845357014936,
+                0.14824555748941748,
+                0.3763793422419559,
+                0.2941066044712441,
+                0.15061581964606485,
+                0.0,
+                0.41340671186633005,
+                0.5066352467248105
+            ],
+            "iou_var": 0.02863124692425251,
+            "mean_iou": 0.2961717272676646,
+            "correct_count": 1
+        },
+        {
+            "image": "train2014/COCO_train2014_000000046055.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>vase on left flowers</ref>",
+            "ground_truth": [
+                49,
+                378,
+                364,
+                706
+            ],
+            "model_output": [
+                "vase on left flowers[[68, 385, 372, 703]]\n[[411, 217, 847, 676]]\nMore like this:vase on left flowers[[68, 385, 372, 703]]\n[[411, 217, 847, 676]]\n[[399, 90, 1000, 615]]\n[[68, 385, 372, 703]]\n[[411, 217, 847, 676]]\n[[399, 90, 1000, 615]]\n[[450, 470, 712, 727]]",
+                "vase on left flowers[[75, 383, 384, 704]]\n[[411, 218, 855, 678]]\nDNA\n[[412, 92, 1000, 611]]\n[[67, 377, 382, 702]]\n[[391, 469, 709, 728]]\n[[681, 896, 868, 1000]]\n[[611, 953, 790, 1000]]\n[[644, 954, 798, 1000]]\n[[5",
+                "vase on left flowers[[74, 381, 379, 704]]\n[[400, 218, 845, 678]]\n</div></div></div>\n</select>\n</select>\n",
+                "vase on left flowers[[69, 383, 374, 702]]\n[[68, 385, 378, 703]]\n anyway, so the vase is in the center of the image and it's next to the flower vase.\nvase on left flowers[[68, 383, 378, 703]][[68, 385, 378, 703]]\nvase on left flowers[[68, 385, 378, 703]]\n[[392, 218, 848, 679]]\n\n[[392, 218, 848, 679]]\n\n[[415, 94, 99",
+                "vase on left flowers[[72, 384, 379, 703]]\nvase on left flowers[[72, 384, 379, 703]]\nvase on left flowers[[72, 384, 379, 703]]\nvase on left flowers[[72, 384, 379, 703]]\n[[402, 218, 844, 682]]\n[[402, 218, 844, 682]]\n[[415, 87, 998, 607]]\n[[415, 87, 998, 607]]\n[[406, 218,",
+                "vase on left flowers[[73, 384, 381, 705]]\n[[394, 217, 843, 677]]\nMore like this:vase on left flowers[[55, 383, 384, 705]]\n[[394, 217, 843, 677]]\n[[73, 384, 381, 705]]\n[[394, 217, 843, 677]]\n[[412, 94, 995, 628]]\n[[55, 383, 381, 705]]\n[[394, 217, 843, 677]]",
+                "vase on left flowers[[69, 386, 376, 706]]\n[[397, 217, 844, 677]]\nThe rest of the sentence about the region description of the vases: vase on left flowers[[69, 386, 376, 706]]\nThe rest of the sentence about the region description of the vase on the right: vase on left flowers[[69, 386, 376, 706]]\nThe rest of the sentence about the region description of the vase on the left: vase on left flowers[[69, 386, 376, 706]]\nThe rest of the sentence about the region description of the vases: vase on left flowers[[69, 386, 376, 706]]\nThe rest of the sentence about the region description of the vase on the",
+                "vase on left flowers[[69, 383, 373, 702]]\n[[411, 217, 844, 678]]\nThe rest of the sentence about the vase on the shelf was not relevant to the image.\n[[54, 383, 375, 701]]\n[[69, 383, 373, 702]]\nvase on left flowers[[69, 383, 373, 702]]\nvase on left flowers[[69, 383, 373, 702]]\n[[411, 217, 844, 678]]\nvase on left flowers[[69, 383, 373, 702]]\nvase"
+            ],
+            "iou_scores": [
+                0.8891407844026298,
+                0.8453526517222526,
+                0.8659917718300745,
+                0.8835320627171158,
+                0.8616437722584525,
+                0.8587385200915635,
+                0.8809257185516984,
+                0.8861862116375211
+            ],
+            "iou_var": 0.0002168114943078379,
+            "mean_iou": 0.8714389366514136,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000018290.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>umpcatcher</ref>",
+            "ground_truth": [
+                0,
+                555,
+                222,
+                1000
+            ],
+            "model_output": [
+                "umpcatcher[[0, 556, 245, 987]]\n<answer>umpcatcher[[0, 556, 245, 987]]\uff1b\uff1b\uff1b[[184, 347, 420, 956]]\n<answer>ball[[471, 590, 524, 637]]\n\u5199\u51fa\u5355\u8bcd\u7b54\u6848\uff1aball[[471, 590, 524, 637]]\n<answer>ball[[471, 590, 524, 637]]\n[[199, 341, 331, 469]]\n[[333, 54",
+                "umpcatcher[[0, 551, 222, 989]]\n[[176, 351, 416, 953]]\n[[176, 351, 416, 953]]\n[[0, 551, 222, 989]]\n[[176, 351, 416, 953]][[408, 321, 485, 488]]\n[[409, 324, 475, 488]]\n[[490, 343, 522, 416]]\n[[539, 338, 574, 408]]\n[[558, 35",
+                "umpcatcher[[0, 553, 225, 998]]\n[[177, 345, 425, 957]]\n[[177, 345, 425, 957]]\n[[425, 320, 486, 488]]\n[[411, 320, 450, 485]]\n[[486, 327, 515, 414]]\n[[511, 338, 535, 409]]\n[[534, 342, 556, 409]]\n[[557, 348, 576, 410]]\n[[584, 345,",
+                "umpcatcher[[0, 547, 235, 988]]\n<answer>umpcatcher[[0, 547, 235, 988]];<answer></answer>\n<answer>batter[[175, 346, 433, 957]]\n<answer>batter[[175, 346, 433, 957]]\n[[455, 323, 502, 489]]\n[[168, 309, 250, 516]]\n[[205, 330, 270, 468]]\n[[505, 339, 537, 418]]\n[[524,",
+                "umpcatcher[[0, 553, 237, 989]]\n[[177, 353, 419, 954]]\n[[177, 353, 419, 954]]\n[[0, 553, 237, 989]]\n[[177, 353, 419, 954]]\n[[416, 317, 462, 488]]\n[[463, 325, 499, 485]]\n[[493, 342, 519, 411]]\n*2*\n[[566, 355, 588, 410]]\n[[587",
+                "umpcatcher[[0, 557, 230, 989]]\n<answer>umpcatcher[[0, 557, 230, 989]];<answer>ball[[492, 592, 538, 634]]\n<answer>ball[[492, 592, 538, 634]]\n<answer>player[[176, 346, 415, 954]]\n[[434, 320, 498, 489]]\n[[174, 303, 238, 512]]\n[[145, 340, 212, 510]]\n[[213, 3",
+                "umpcatcher[[0, 549, 246, 986]]\n[[179, 351, 424, 962]]\n[[0, 549, 246, 986]]\n[[179, 351, 424, 962]]\n[[151, 308, 316, 519]]\n[[312, 321, 372, 468]]\nbaseball bat[[394, 552, 527, 690]]\n[[508, 591, 543, 633]]\n[[378, 569, 511, 631]]\n[[511, 59",
+                "umpcatcher[[0, 548, 233, 1000]]\n[[184, 350, 414, 955]]\n[[184, 350, 414, 955]]\n[[0, 548, 233, 1000]]\n[[184, 350, 414, 955]][[160, 309, 402, 515]]\n[[403, 320, 467, 487]]\n[[465, 326, 505, 483]]\n[[539, 338, 568, 414]]\n[[568, "
+            ],
+            "iou_scores": [
+                0.8802148974729308,
+                0.9665924276169265,
+                0.9778957730513379,
+                0.9042982530409506,
+                0.9108854728004991,
+                0.9379731236429787,
+                0.8650393273664225,
+                0.9380341068783471
+            ],
+            "iou_var": 0.0013811763257913353,
+            "mean_iou": 0.9226166727337992,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000523561.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>sub on left</ref>",
+            "ground_truth": [
+                0,
+                2,
+                584,
+                714
+            ],
+            "model_output": [
+                "sub on left[[3, 2, 576, 704]]\n[[195, 0, 1000, 984]]\n[[195, 0, 1000, 984]]\n[[222, 471, 917, 887]]\n[[0, 230, 343, 699]]\n[[221, 481, 899, 916]][[221, 481, 899, 916]]\n[[0, 0, 576, 703]]\n[[221, 471, 89",
+                "sub on left[[2, 0, 562, 701]]\n[[206, 0, 1000, 989]]\nsub on left[[2, 0, 562, 701]]\nsub on right[[206, 0, 1000, 989]]\n[[209, 0, 999, 988]]\n<br>[[206, 0, 1000, 989]]\n<br/><b>Answer</a> <mark>[x1,y1,x2,y2]</mark>[[2, 0, 562, 701]]\n[[206, 0, 1000, 989]]\n<br/><b>Answer</",
+                "sub on left[[2, 2, 565, 705]]\n[[194, 0, 1000, 989]]\n[[194, 0, 1000, 989]]\n[[234, 244, 1000, 989]]\n[[0, 133, 327, 701]]\n[[236, 5, 1000, 989]]\n[[0, 2, 565, 705]]\n[[194, 0, 1000, 989]]\n[[234, 5, 1000, 989]]\n",
+                "sub on left[[2, 1, 573, 705]]\n[[197, 0, 999, 1000]]\nsub on left[[197, 0, 999, 1000]]\nsub on right[[197, 0, 999, 1000]]\nsub sandwich[[197, 0, 999, 1000]]\nsub sandwich[[197, 0, 999, 1000]]\nsub sandwich[[197, 0, 999, 1000]]\nsub sandwich[[197, 0, 999, 1000]]\n",
+                "sub on left[[2, 0, 557, 707]]\n[[196, 0, 1000, 1000]]\n[[198, 2, 999, 982]]\n[[2, 2, 557, 715]]\n[[196, 2, 1000, 1000]]\n[[198, 2, 999, 1000]][[2, 2, 557, 707]]\n[[196, 2, 1000, 1000]]\n[[198, 2, 999, 1000]][[2",
+                "sub on left[[2, 2, 567, 705]]\n[[201, 0, 999, 989]]\n[[201, 0, 999, 989]]\nsub on left[[2, 2, 567, 705]]\n[[201, 0, 999, 989]]\n[[201, 0, 999, 989]]\n[[2, 2, 567, 705]][[201, 0, 999, 989]]\n[[201, 0, 999, 989]][[20",
+                "sub on left[[2, 0, 561, 708]]\n[[191, 0, 1000, 987]]\nsub on left[[191, 0, 1000, 987]]\n[[208, 2, 1000, 989]]\n[[208, 2, 1000, 989]]\n[[0, 0, 562, 715]]\n[[0, 1, 573, 699]]\n[[191, 0, 1000, 987]][[208, 2, 1000, 989]]\n",
+                "sub on left[[0, 0, 564, 712]]\n[[198, 2, 998, 989]]\n[[198, 2, 998, 989]]\n[[198, 2, 998, 989]]\n[[233, 471, 996, 987]][[233, 471, 996, 987]]\n[[198, 2, 998, 989]]\n[[198, 2, 998, 989]]\n[[233, 471, 996, 987]]\n[[198, 2, 998, 98"
+            ],
+            "iou_scores": [
+                0.9673839849161151,
+                0.9388671425282064,
+                0.9518551831614591,
+                0.9640567848042289,
+                0.938493900479231,
+                0.955236551485301,
+                0.94658044832896,
+                0.9604351747030719
+            ],
+            "iou_var": 0.00010524657398885824,
+            "mean_iou": 0.9528636463008217,
+            "correct_count": 8
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 40,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000359339.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>tall guy</ref>",
+            "ground_truth": [
+                401,
+                157,
+                667,
+                1000
+            ],
+            "model_output": [
+                "tall guy[[404, 158, 674, 911]]\nAnother answer is incorrect\nI will provide the bounding box coordinates for the region that this sentence describes: tall guy[[404, 158, 674, 911]]\n[[18, 275, 207, 637]]\nAnother answer is incorrect\nI will provide the bounding box coordinates for the region that this sentence describes: girl[[241, 394, 412, 902]]\nAnother answer is incorrect\nI will provide the bounding box coordinates for the region that this sentence describes: girl[[241, 394, 412, 902]][[241, 394, 412, 902]]\nAnother",
+                "tall guy[[394, 156, 672, 909]]\nSPIRITULUS[[21, 276, 204, 640]]\nSPIRITULUS[[23, 278, 174, 637]]\nSPIRITULUS[[19, 277, 179, 584]]\nSPIRITULUS[[237, 392, 414, 905]]\n[[499, 307, 679, 914]]\nSPIRITULUS[[211, 565, 378, 888]]",
+                "tall guy[[406, 154, 667, 908]]\nDNA[[26, 276, 208, 638]]\nDNA[[23, 278, 190, 639]]\nDNA[[256, 393, 409, 897]]\nDNA[[281, 560, 415, 903]]\n\n[[557, 316, 693, 639]]\nDNA[[413, 155, 668, 901]]\n",
+                "tall guy[[386, 154, 673, 909]]\ntall guy[[27, 275, 205, 639]]\n</answer></div></small></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></",
+                "tall guy[[405, 156, 673, 911]]\nRO\n[[21, 278, 203, 639]]\n[[241, 391, 412, 902]]\n[[241, 391, 412, 902]]\n[[27, 278, 187, 639]]\n[[499, 309, 713, 917]]\n[[467, 193, 540, 244]]\n[[642, 343, 709, 444]]\n[[637, 352, 752, 751]]\n",
+                "tall guy[[386, 157, 671, 897]]\n\u52ab\ntall guy[[15, 275, 211, 637]]\nuser\nwhat is the man in the middle?\nman in the middle[[386, 157, 671, 897]]\nwoman\nwoman[[240, 393, 415, 902]]\nskis[[236, 787, 391, 975]]\n[[490, 790, 584, 996]]\n[[198, 813, 384, 976]]\n[[34, 584, 218, ",
+                "tall guy[[408, 155, 677, 906]]\nRP[[21, 279, 206, 637]]\nRP[[233, 393, 416, 909]]\nRP[[31, 277, 195, 635]]\ntall guy[[408, 155, 677, 906]]\n[[875, 299, 943, 442]]\n[[589, 315, 680, 517]]\n[[475,",
+                "tall guy[[400, 157, 677, 911]]\nRO\ntall guy[[400, 157, 677, 911]]\n[[17, 280, 204, 636]]\n[[235, 394, 412, 895]]\n[[235, 394, 412, 895]]\n[[460, 305, 705, 923]]\n[[495, 388, 689, 998]]\n[[645, 337, 684, 470]]\n[[728, 367, 848, "
+            ],
+            "iou_scores": [
+                0.8628811942015345,
+                0.856521366789415,
+                0.8710786993213967,
+                0.830383866562055,
+                0.8625420250622189,
+                0.8260245574868442,
+                0.8352104914193209,
+                0.8625221474893778
+            ],
+            "iou_var": 0.0002673499546606814,
+            "mean_iou": 0.8508955435415204,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000204529.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left glass</ref>",
+            "ground_truth": [
+                186,
+                402,
+                384,
+                1000
+            ],
+            "model_output": [
+                "left glass[[187, 406, 397, 1000]]\n[[100, 0, 264, 799]]\n \u2022 glass[[450, 320, 628, 836]]\n \u2022 wine[[365, 0, 540, 735]]\n \u2022 wine[[521, 0, 624, 337]]\n \u2022 wine[[621, 0, 764, 336]]\n \u2022 wine[[671, 265, 846, 734]]\n \u2022 wine[[81, 0, 267, 801]]\n[[743, 249, 890, 644]]\n \u2022 ",
+                "left glass[[201, 406, 397, 987]]\n<answer>\nHere is the requested bounding box for the region described by the sentence: \nleft glass[[201, 406, 397, 987]]\n<answer>\nIf you could only choose one wine bottle, which one would you choose and why?  \nleft bottle[[69, 0, 276, 799]]\n<answer>\nIf you could only choose one wine glass, which one would you choose and why?  \nwine glass[[733, 247, 886, 645]]\n</answer>\nSAMPLE INPUT\nwine glass[[733, 247, 886, 645]]\nSAMPLE OUTPUT\nwine glass[[733, 247, 886, 645]]\nSample Answer\nwine glass[[73",
+                "left glass[[200, 406, 397, 984]]\n[[105, 0, 273, 799]]\n \u2022 chardonnay[[61, 0, 274, 799]]\n \u2022 chardonnay[[336, 0, 487, 730]]\n \u2022 wine[[463, 325, 617, 834]]\n \u2022 wine[[594, 275, 772, 730]]\n \u2022 stemware[[685, 247, 888, 645]]\n \u2022 stemware[[469, 322, 616, 836]]\n \u2022 stemware[[197, 406, 393, ",
+                "left glass[[204, 408, 399, 984]]\nISO[[120, 4, 276, 799]]\nano[[287, 4, 476, 733]]\nano[[475, 3, 616, 736]]\nano[[607, 275, 761, 732]]\nano[[736, 248, 887, 644]]\n\n;ano[[676, 0, 789, 321]]\nano[[611, 0, 769, 189]]\n\n",
+                "left glass[[201, 407, 393, 1000]]\nInventory wine[[69, 0, 274, 798]]\nwine[[316, 0, 493, 733]]\nwine[[494, 2, 632, 703]]\nwine[[615, 0, 753, 723]]\nchardonnay[[46, 0, 273, 802]]\nwine[[666, 251, 888, 728]]\nglass[[714, 249, 886, 645]]\nperson[[270, 0, 706, 445]]\nbottle[[666, 2,",
+                "left glass[[202, 405, 398, 988]]\n[[202, 405, 398, 988]]\n\u52ab\u6301\u00a0left glass[[202, 405, 398, 988]]</hideable>\n[[101, 0, 281, 797]]\n\u5c31\u628a<answer>[x3, 1, 999, 985]</answer>\n[[101, 0, 281, 797]]\n[[425, 321, 619, 838]]\nThe following region on the image is occupied by: <answer>[x4, 1, 999, 985]</answer>\n[[425, 3",
+                "left glass[[200, 405, 399, 987]]\n[[200, 405, 399, 987]]\n cribbed image description: a bottle of wine on a wooden table in front of two wine glasses and two wine bottles, one wine glass is filled with white wine and the other one is empty. the background shows a person sitting and some people standing. the person is wearing an orange shirt. the wine bottles are placed on the left side of the table, with one wine bottle being half filled and the other one almost empty, and the third bottle is almost empty. the two wine glasses are placed in front of the bottles, one filled with white wine and the other one is empty. the background includes a person sitting and some people standing, but their details are not clear. the person in the background is wearing an orange shirt. the wine bottles are placed on the left side of the table, with one wine bottle being half filled and the other one almost empty, and the third bottle is almost empty. the two wine glasses are placed in front of the bottles, one filled with white wine and the",
+                "left glass[[201, 409, 398, 988]]\nInventory glass[[472, 321, 642, 836]]\nInventory glass[[640, 276, 768, 726]]\nInventory wine[[354, 0, 534, 730]]\nInventory wine[[59, 0, 270, 800]]\nInventory wine[[501, 0, 636, 554]]\nInventory wine[[587, 0, 740, 340]]\n[[727, 2, 820, 2"
+            ],
+            "iou_scores": [
+                0.9277864992150706,
+                0.844121406511746,
+                0.8446131609460125,
+                0.8160952111079626,
+                0.8769849928479647,
+                0.11742625382234999,
+                0.8423238472792487,
+                0.8375385345032014
+            ],
+            "iou_var": 0.060602543084613554,
+            "mean_iou": 0.7633612382791946,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000365138.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left motorcycle</ref>",
+            "ground_truth": [
+                127,
+                73,
+                521,
+                956
+            ],
+            "model_output": [
+                "left motorcycle the region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image is too small. The region describing the bounding box of the region inside the image",
+                "left motorcycle[[123, 42, 522, 957]]\n[[495, 10, 900, 989]]\nMore description:left motorcycle[[123, 42, 522, 957]]\n[[495, 10, 900, 989]]\n[[123, 42, 522, 957]]\nleft motorcycle[[123, 42, 522, 957]]\n[[495, 10, 900, 989]]\n[[492, 9, 898, 988]]\nleft motorcycle[[492, 9, 898, 988]]\n[[123",
+                "left motorcycle the region describing its bounding box coordinates is <center><ulane<xl>93</xlath><yr>60</yr></ulane>[[123, 21, 552, 961]]\n\n\n<object>left motorcycle[[123, 21, 552, 961]]\n</object><answer>\nleft motorcycle[[123, 21, 552, 961]]\n</object><answer>\n</object><answer>left motorcycle[[123, 21, 552, 961]]\n</object><answer>\n</object><answer>left motorcycle[[123, 21, 552, 961]]\n</object><answer>\n</object><answer>left motorcycle[[495, 92, 898, 999]]\n</object><",
+                "left motorcycle[[123, 45, 572, 967]]\nSPIRIT OF THE COMMONWEALTH[[487, 15, 895, 987]]\nSPIRIT OF THE COMMONWEALTH[[123, 45, 572, 967]][[487, 15, 895, 987]][[123, 45, 572, 967]][[487, 15, 895, 987]][[",
+                "left motorcycle the region that describes the bounding box of the region that this sentence describes is: <answer>[x1,y1,x2,y2]</answer>\n\n\nleft motorcycle the region that describes the bounding box of the region that this sentence describes is: <answer>[x1,y1,x2,y2]</answer>\n\n\nleft motorcycle[[120, 43, 533, 959]]\n{{532, 14, 901, 627}}\n\n\n\nleft motorcycle[[120, 43, 533, 959]]\n\n",
+                "left motorcycle[[124, 62, 562, 964]]\n[[491, 15, 898, 987]]\nHere is the location of the bounding box: left motorcycle[[124, 62, 562, 964]]\nHere is the bounding box for the region describing the region of interest: [491, 15, 898, 987]<answer>[x1,y1,x2,y2]</usk850](\n[491, 15, 898, 987]]\nHere is the bounding box for the region describing the region of interest: [491, 15, 898, 987]<answer>[x1,y1,x2,y2]</usk850](\n[[485, 13, 905, 658]]",
+                "left motorcycle the region describing the bounding box of the motorcycle[[126, 42, 562, 965]]\nleft motorcycle[[126, 42, 562, 965]]\n[[490, 67, 901, 998]]\nThe rest of the text in the image: left motorcycle[[490, 67, 901, 998]]\n[[126, 42, 562, 965]]\n[[539, 14, 891, 591]]\nThe rest of the text in the image: left motorcycle[[126, 42, 562, 965]]\nThe rest of the text in the image: left motorcycle[[126, 42, 56",
+                "left motorcycle[[122, 57, 531, 967]]\n><answer>[x1,y1,x2,y2]</answer>\nleft motorcycle[[122, 57, 901, 967]]\n><answer>[x1,y1,x2,y2]</answer>[[498, 11, 899, 987]]\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div"
+            ],
+            "iou_scores": [
+                0.0,
+                0.9529342481887779,
+                0.8627238010216733,
+                0.8403876534501833,
+                0.0,
+                0.8805951260010733,
+                0.8645074398401702,
+                0.0
+            ],
+            "iou_var": 0.18252313445007717,
+            "mean_iou": 0.5501435335627347,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000099727.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>the train on the left side but still near the middle</ref>",
+            "ground_truth": [
+                152,
+                451,
+                559,
+                696
+            ],
+            "model_output": [
+                "the train on the left side but still near the middle[[154, 450, 591, 686]]\n[[549, 436, 902, 723]]\n</answer>\n<br>/\n</div>\n</body>\n</html>\n</body>\n</div>\n</body>\n</div>\n</body>\n</div>\n</body>\n</div>\n</body>\n</html>\n</div>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</",
+                "the train on the left side but still near the middle[[155, 447, 596, 689]]\n<answer>\n.sprites of a train on the left side but still near the middle</answer>\n<answer>the train on the left side but still near the middle[[155, 447, 596, 689]]\n<issue> what is the bounding box for the train on the right side? <answer>[i]</i>\n<answer>the train on the right side[[554, 441, 904, 706]]\n</issue></body>\n<question>What is the person standing on the platform in the foreground?<br></question> <question>What is the train in the middle that is moving?<br></question> <question>What is the person in the foreground wearing?<br></question> <answer>[i]The person standing on the platform in the foreground is wearing a white shirt",
+                "the train on the left side but still near the middle[[152, 445, 562, 688]]\n[[557, 427, 900, 731]]\nThe coordinates given in the bounding box tag are not accurate. Here is the revised coordinate based on the previous description: the train on the left side but still near the middle[[152, 445, 562, 688]]\n[[155, 455, 623, 693]]\nThe coordinates given in the bounding box tag are not accurate. Here is the revised coordinate based on the previous description: the train on the left side but still near the middle[[152, 445, 562, 688]]\nThe coordinates given in the bounding box tag are not accurate. Here is the revised coordinate based on the previous description: the train on the left side but still near the",
+                "the train on the left side but still near the middle[[154, 452, 570, 692]]\n<answer>\n\u76fe<answer>\n<answer>the train on the left side but still near the middle[[154, 452, 570, 692]]\n<answer>the train on the left side but still near the middle[[154, 452, 570, 692]]\n<answer>the train on the left side but still near the middle[[154, 452, 570, 692]]\n<answer>the train on the left side but still near the middle[[154, 452, 570, 692]]\n<answer>the train on the left side but still near the middle[[154, 452, 5",
+                "the train on the left side but still near the middle[[154, 445, 580, 689]]\n<answer>\nthe train on the left side but still near the middle[[154, 445, 580, 689]]\n<answer>\n\n<answer>\n\n####\n\nProblem: What are the people standing on the right side of the image?\nAnswer: The people are standing on a platform or fence, looking at the trains.\n<answer>\n</answer>",
+                "the train on the left side but still near the middle[[155, 446, 586, 694]]\n<answer>\nthe train on the left side but still near the middle[[155, 446, 586, 694]]\n<answer>\n<answer>[[554, 433, 904, 722]]\n[[897, 465, 999, 641]]\n[[941, 470, 1000, 643]]\n<answer>\n[[145, 453, 858, 692]]\n</answer>[[567, 452, 90",
+                "the train on the left side but still near the middle[[156, 454, 581, 686]]\n<answer>\n\u0e1e\u0e23\u0e30\u0e1e\u0e38\u0e17\u0e18\u0e28\u0e31\u0e01\u0e23\u0e32\u0e0a 2562</div><div style=\"font-size: 14px;\">- \u0e56</div>\n",
+                "the train on the left side but still near the middle[[154, 439, 577, 693]]\n<answer>\n\u76ea\ud854\udd19\ud854\udd19<answer>[d103]]:\n<answer>\n\ud83d\udc64<answer>"
+            ],
+            "iou_scores": [
+                0.8839345419421948,
+                0.0,
+                0.9375328032968528,
+                0.949636070538811,
+                0.8985820693769868,
+                0.9053868358679713,
+                0.8919756914299889,
+                0.8979632972046873
+            ],
+            "iou_var": 0.0908849189817122,
+            "mean_iou": 0.7956264137071866,
+            "correct_count": 7
+        }
+    ]
+}

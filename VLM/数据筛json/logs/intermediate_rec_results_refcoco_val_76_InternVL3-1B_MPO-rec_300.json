@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 76,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000215569.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left bottom chick</ref>",
+            "ground_truth": [
+                64,
+                420,
+                513,
+                1000
+            ],
+            "model_output": [
+                "left bottom chick[[63, 422, 507, 987]]\n again in the same coordinates[[619, 515, 972, 990]]\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\nleft bottom chick[[234, 369, 373, 730]]\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the",
+                "left bottom chick[[62, 426, 509, 987]]\n[[567, 517, 975, 989]]\nA group of women are sitting around the table. They are all looking in the same direction, likely at the camera. The woman on the left is wearing a dark green sleeveless top and has her hair tied back. She is gesturing with her right hand while holding a pen in her left hand. The woman next to her is wearing a black top and has her hands clasped. She is smiling and looking at the camera. The woman in the middle is wearing a striped tank top and has her hands resting on her lap. She is smiling and looking at the camera. The woman on the far right is wearing a sleeveless top and has long hair. She is looking at the camera with a serious expression. In the background, there are three other women seated at the table, one of whom is holding a wine glass. The table is covered with a white tablecloth and has several wine glasses, some filled with wine, arranged around it.\n",
+                "left bottom chick[[76, 416, 508, 989]]\n[[740, 515, 984, 987]]\nMore like this: left bottom chick[[73, 385, 350, 888]]\n[[73, 385, 350, 888]]\nsource: <image>\n[[733, 411, 802, 572]]\nsource: <image>\n[[408, 385, 567, 678]]\nsource: <image>\n[[566, 517, 972, 999]]\n[[493, 394, 607, 658]]\n[[",
+                "left bottom chick[[67, 421, 512, 989]]\n[[726, 512, 982, 990]]\nLiterate description: A woman in a black dress is sitting next to a woman in a black top on a round table.\n[[408, 383, 566, 673]]\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round table.\nAnd the woman in the middle, wearing a black top, is sitting on a round",
+                "left bottom chick[[58, 424, 509, 989]]\nKnow the text in the tag? No - no answer\nKnow the text in the tag? No - no answer\nKnow the text in the tag? No - no answer\nKnow the text in the tag? No - no answer\nKnow the text in the tag? No - no answer\n apologise, i don't understand the question.\n[[369, 648, 695, 987]]\n</answer></div></div></div>\n</body><p>1</p>\n</body></select></p>\n\n</body></html>\n\nI'm sorry, but I cannot fulfill that request.\n apologise, I can't help with that.\n",
+                "left bottom chick[[62, 416, 516, 989]]\nSPIRIT\nleft bottom chick[[62, 416, 516, 989]]\nSPIRIT\nleft bottom chick[[637, 519, 972, 989]]\nSPIRIT\nperson[[398, 382, 570, 675]]\nSPIRIT\nperson[[670, 412, 808, 656]]\nSPIRIT\nperson[[449, 387, 576, 644]]\nSPIRIT\nperson[[484, 390, 605, 655]]\nSPIRIT\nperson[[60, 392, 350, 881]]\nSPIRIT\nperson[[",
+                "left bottom chick[[67, 419, 516, 989]]\nDNA\n[[582, 511, 973, 998]]\n[[399, 381, 572, 665]]\n[[293, 370, 398, 735]]\n[[24, 384, 385, 934]]\n[[510, 389, 605, 649]]\n[[625, 408, 783, 600]]\n[[17, 448, 110, 788]]\n[[454, 572, 50",
+                "left bottom chick[[58, 422, 513, 990]]\nKnow the bounding box coordinates for this image element: woman[[664, 515, 972, 988]]\nAnother person: woman[[402, 381, 573, 671]]\nAnother person: woman[[557, 412, 799, 656]]\nAnother person: woman[[273, 371, 386, 735]]\nAnother person: woman[[333, 398, 441, 667]]\nAnother person: man[[518, 389, 606, 625]]\nAnother person: woman[[83, 394, 322, 886]]\nAnother person: "
+            ],
+            "iou_scores": [
+                0.9590397915589018,
+                0.9545120860129539,
+                0.9376687977783542,
+                0.9705859764995008,
+                0.9530533338387476,
+                0.9637846545018315,
+                0.9664782767655841,
+                0.9666600967296876
+            ],
+            "iou_var": 9.778119650431995e-05,
+            "mean_iou": 0.9589728767106952,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000578805.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>psn boy</ref>",
+            "ground_truth": [
+                53,
+                252,
+                300,
+                770
+            ],
+            "model_output": [
+                "psn boy[[39, 266, 339, 723]]\n then the other boy is boy[[576, 499, 975, 984]]\n and the last boy is boy[[296, 187, 486, 567]]\n and the girl is girl[[296, 187, 486, 567]]\n and the stuffed animal is stuffed animal[[15, 693, 242, 1000]]\n and the table is table[[192, 391, 750, 984]]\n and the paper plate is paper plate[[458, 668, 644, 826]]\n and the napkins are napkins[[27, 588, 158, 912",
+                "psn boy[[46, 261, 320, 740]]\n instead, the coordinates given are not feasible for a bounding box.\n\n\nI'm sorry, but I can't assist with that.\n\n\nIt seems like you're trying to describe the scene depicted in the image, but the request involves describing the region of interest, which appears to be a specific part of the image rather than a general description. If you have a different type of request, please let me know, and I'll be happy to help!\n\n\nI'm sorry, but I can't assist with that request.\n\n\n",
+                "psn boy[[45, 264, 327, 740]]\n[[290, 187, 488, 570]]\nendif\nendif\n[[574, 482, 974, 989]]\n[[414, 668, 638, 823]]\n[[480, 250, 953, 773]]\n[[32, 692, 222, 989]]\n[[315, 397, 543, 582]]\n[[273, 413, 733, 987]]\n[[0, 593, 52, 917]]",
+                "psn boy[[41, 265, 340, 728]]\n[[289, 187, 493, 567]]\nNIKE\npsn boy[[563, 497, 976, 989]]\n[[527, 248, 954, 788]]\n[[357, 426, 852, 1000]]\n[[14, 691, 223, 1000]]\n[[291, 425, 496, 581]]\n[[313, 182, 502, 568]]\n[[18, 100, 292, 272]]\n",
+                "psn boy[[44, 265, 330, 732]]\n then\npsn boy[[564, 498, 972, 989]]\n then\npsn boy[[288, 191, 489, 565]]\n then\npsn boy[[28, 265, 265, 701]]\n then\npsn boy[[288, 191, 489, 565]]\n then\npsn boy[[28, 265, 265, 701]]\n then\npsn boy[[28, 265, 265, 701]]\n then\npsn boy[[564, 248, 959, 755]]\n then\npsn boy[[564, ",
+                "psn boy[[47, 267, 324, 736]]\ngirl[[284, 184, 489, 571]]\nAlright, let's find the coordinates of the region that this sentence describes: girl[[284, 184, 489, 571]]\nAlright, I will provide the x and y coordinates of the bounding box containing the region of interest: girl[[284, 184, 489, 571]]\n[[597, 490, 974, 990]]\nIf we consider the region bounding box of the sentence \"PSN\" boy[[597, 490, 974, 990]]\nIf we consider the region bounding box of the sentence \"PSN\" boy[[597, 490,",
+                "psn boy[[40, 255, 331, 724]]\nAI",
+                "psn boy[[38, 265, 343, 735]]\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates\n again the same coordinates"
+            ],
+            "iou_scores": [
+                0.7418099850821794,
+                0.8398199873650437,
+                0.8130506341368962,
+                0.7522661193774586,
+                0.78920217023926,
+                0.8157038643533123,
+                0.7796570244040328,
+                0.747973660812082
+            ],
+            "iou_var": 0.0011361003460860068,
+            "mean_iou": 0.7849354307212831,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000312608.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right plant</ref>",
+            "ground_truth": [
+                597,
+                123,
+                1000,
+                858
+            ],
+            "model_output": [
+                "right plant[[406, 131, 1000, 862]]\n[[301, 384, 526, 738]]\n```\nright plant[[406, 131, 1000, 862]]\n```\n```[[622, 140, 1000, 674]]\n```\n```[[29, 160, 195, 527]]\n```\n``````[[38, 293, 116, 773]]\n```\n```[[369, 722, 634, 9",
+                "right plant[[589, 132, 1000, 859]]\n[[331, 363, 515, 738]]\n</answer></div></div></div></div></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></cite></",
+                "right plant[[610, 129, 997, 857]]\nAnonymous content tags: right plant[[339, 372, 628, 740]]\nAnonymous content tags: clock[[419, 124, 640, 307]]\nAnonymous content tags: clock[[412, 46, 625, 309]]\nAnonymous content tags: clock[[663, 372, 867, 553]]\nAnonymous content tags: clock[[663, 372, 867, 553]]\nAnonymous content tags: clock[[663, 372, 867, 553]]\n",
+                "right plant[[607, 136, 1000, 858]]\n[[329, 413, 551, 738]]\n\u52ab[[343, 379, 479, 625]]\n-\n[[343, 379, 479, 625]]\n-[[320, 381, 474, 504]]\n-[[320, 381, 474, 504]]\n-[[343, 379, 479, 625]]\n-[[343, 379, 474, 625]]\n- [[343, 379, 474, 625]]",
+                "right plant[[565, 122, 1000, 857]]\n[[334, 42, 999, 964]]\nMore closer to the camera: <answer>[x1,y1,x2,y2]</answer>\n[[286, 495, 521, 739]]\nThe clock is in front of a cylindrical structure. The coordinates of the clock in the image are: <answer>[x1,y1,x2,y2]</answer>\nThe clock is in front of a cylindrical structure. The coordinates of the clock in the image are: <answer>[x1,y1,x2,y2]</answer>\nThe clock is in front of a cylindrical structure. The coordinates of the clock in the image are: <answer>[x1,y1,x2,y2]</answer>\nThe clock is in front of a cylindrical structure. The coordinates of the clock in the image are: <answer>[x1,y1,x2,y2]</answer>\nThe",
+                "right plant[[421, 134, 1000, 857]]\nAnonymous tag <answer>[c]\n[[320, 42, 676, 965]]\n[[29, 154, 198, 533]]\n${\\displaystyle}[c]${\\displaystyle [c]}\n[[617, 372, 861, 548]]\n[[624, 530, 911, 861]]\n[[189, 367, 353, 510]]\n[[31, 282, 123, 762]]\n\n[[197, 0, 415, 691]]\n\n",
+                "right plant[[583, 143, 998, 858]]\n[[330, 460, 545, 739]]\n</answer></div></cite>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>\n</selector></mark>",
+                "right plant[[595, 141, 1000, 856]]\n[[327, 46, 998, 968]]\nMore tags: <past>[112, 381, 359, 511]]\nMore tags: <past>[360, 128, 623, 307]</past>\nMore tags: <past>[651, 370, 851, 551]</past>\nMore tags: <past>[618, 363, 916, 547]</past>\nMore tags: <past>[515, 397, 638, 513]</past>[[310, 378, 404, 504]]\nMore tags: <past>[238, 382, 355, 51"
+            ],
+            "iou_scores": [
+                0.6697657725209059,
+                0.9674430600745972,
+                0.9511520737327189,
+                0.9579379146199423,
+                0.0,
+                0.6880787242031583,
+                0.9363192528125663,
+                0.9681153090194365
+            ],
+            "iou_var": 0.0979542681250222,
+            "mean_iou": 0.7673515133729156,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000248579.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy on left with beard and guitar</ref>",
+            "ground_truth": [
+                0,
+                86,
+                612,
+                991
+            ],
+            "model_output": [
+                "guy on left with beard and guitar[[0, 90, 619, 989]]\n><answer>[x1,y1,x2,y2]</answer>[[407, 92, 827, 989]]\n><answer>[x1,y1,x2,y2]</answer>\n[[0, 84, 775, 989]]\n</div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "guy on left with beard and guitar[[0, 93, 645, 1000]]\n<answer>\nHere is the coordinates of the region described by the sentence after being an bounding box: \n\nguy on left with beard and guitar[[0, 93, 645, 1000]]\n<answer>\nThe region described by the sentence <answer>the other man with glasses and guitar</answer> is:\n\nthe other man with glasses and guitar[[418, 84, 824, 989]]\n<answer>\nHere is the coordinates of the region described by the sentence after being an bounding box:\n\nthe other man with glasses and guitar[[418, 84, 824, 989]]\n4. <answer>the woman singing in the background</answer> \n\nthe woman singing in the background[[800, 162, 928, 688]]\n8. <",
+                "guy on left with beard and guitar[[0, 89, 643, 986]]\n<answer>\nHere is the requested bounding box coordinates for the region described by \"this sentence\":\n\nthis sentence[[416, 83, 811, 987]]\n<answer>\nHere is the requested bounding box coordinates for the region described by \"[[416, 83, 811, 987]]\":\n\nthis sentence[[416, 83, 811, 987]]\n<answer>\nHere is the requested bounding box coordinates for the region described by \"[[416, 83, 811, 987]]\":\n\nthis sentence[[416, 83, 811, 987]]\n<answer>\nHere is the requested bounding box coordinates for the region described by \"[[0, 89, 643, 986]]\":\n\nthis sentence",
+                "guy on left with beard and guitar[[0, 90, 641, 989]]\n<answer>\nHere is the coordinates of the region described by the sentence after the given input: guy on left with beard and guitar[[0, 90, 641, 989]]\n<image>\nguy on left with beard and guitar[[0, 90, 641, 989]]\n<answer>\nHere is the coordinates of the region described by the sentence after the given input: guy on left with beard and guitar[[425, 85, 825, 989]]\n<image>\n<answer>\nlessly ending the text extraction<answer>\nguy on left with beard and guitar[[0, 90, 641, 989]]\n`",
+                "guy on left with beard and guitar[[0, 90, 619, 1000]]\n<answer>guy on left with beard and guitar[[0, 90, 619, 1000]]<answer>\n</body>\n</body>>\n</body>>\n<comment> <list>\n     list<list>\n     guy on left[[0, 90, 619, 1000]]\n     list<list>\n     guy[[412, 88, 815, 989]]\n     list<list>\n     woman[[783, 169, 934, 875]]\n     list<list>\n     woman[[371, 251, 462, 507]]\n     list<list>\n     woman[[",
+                "guy on left with beard and guitar[[0, 94, 647, 1000]]\n\n\n```markdown\n1 / 1\n```[[423, 265, 994, 767]]\n```markdown\n1 / 1\n```\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown\n1 / 1\n```\n```markdown",
+                "guy on left with beard and guitar[[0, 90, 613, 1000]]\n<answer>\nHere is the requested information about the bounding box coordinates for the region described:\n\nBounding box coordinates:\n- (191, 274, 818, 987)\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff\ufeff",
+                "guy on left with beard and guitar[[0, 83, 632, 989]]\n<answer>guy on left with beard and guitar[[0, 83, 632, 989]]\uff1b\n</answer>><answer>guy on left with beard and guitar[[406, 85, 821, 989]]\n</answer>><answer>guy on left with beard and guitar[[406, 85, 821, 989]]\n</answer>\n<answer>guy on left with beard and guitar[[406, 85, 821, 989]]\n</answer>\n</body></div>\n</div></body></div>\n</html>\n\n</html>\n</body></html>\n</html>\n</body></html>"
+            ],
+            "iou_scores": [
+                0.0,
+                0.9325927924534065,
+                0.9437771095833183,
+                0.9487128641165932,
+                0.9746773241323722,
+                0.928750520235908,
+                0.98417571277116,
+                0.9630892132669706
+            ],
+            "iou_var": 0.09980866902121902,
+            "mean_iou": 0.8344719420699661,
+            "correct_count": 7
+        }
+    ]
+}

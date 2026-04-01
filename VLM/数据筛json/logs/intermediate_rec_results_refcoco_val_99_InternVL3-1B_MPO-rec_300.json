@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 99,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000080521.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>skier on right</ref>",
+            "ground_truth": [
+                437,
+                253,
+                643,
+                885
+            ],
+            "model_output": [
+                "skier on right[[445, 260, 647, 880]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1askier[[297, 285, 446, 887]]\n</answer><answer>\n</answer>",
+                "skier on right[[454, 259, 644, 876]]\nAI-generated image\n blackmail[[297, 289, 450, 891]]\n[[455, 260, 643, 877]]\n[[180, 489, 548, 616]]\n[[571, 699, 644, 892]]\n[[198, 489, 536, 614]]\n[[559, 665, 645, 815]]\n[[0, 88, ",
+                "skier on right[[450, 262, 646, 876]]\n[[294, 286, 446, 889]]\nanol[[457, 260, 638, 873]]\nskier on right[[457, 260, 638, 873]]\n[[294, 286, 446, 889]]\n[[2, 484, 555, 616]]\n[[535, 463, 643, 700]]\n[[179, 488, 222, 583]]\n[[199, 488, 517, ",
+                "skier on right[[442, 259, 650, 877]]\n><answer>[[442, 259, 650, 877]]]\n<answer>skier on right[[442, 259, 650, 877]]\n<answer>skier[[299, 286, 449, 886]]\n<answer>skier[[299, 286, 449, 886]]\n<answer>skier[[442, 259, 650, 877]]\n<answer>skier[[442, 259, 650, 877]]\n<answer>skier[[299, 286, 44",
+                "skier on right[[449, 258, 649, 873]]\n[[298, 291, 446, 885]]\n```\nskier on right[[449, 258, 649, 873]]\n```\n```[[298, 291, 446, 885]]\n```\n```[[449, 258, 649, 873]]\n```\n```[[298, 291, 446, 885]]\n```\n```[[449, 258, 649, 873]]\n```\n```[[298, 291, 446, 88",
+                "skier on right[[442, 260, 643, 875]]\n[[299, 288, 441, 884]]\nThe full coordinates of the region described as \"skier on right\" are: <answer>[x1,y1,[x2,y3]]<come> [442, 261, 643, 875]</come>\nskier on right[[442, 260, 643, 875]]\nThe full coordinates of the region described as \"skier on left\" are: <answer>[x1,y1,[x2,y3]]<come> [299, 289, 442, 886]]\nThe full coordinates of the region described as \"skier on left\" are: <answer>[x1,y1,[x2,y3]]<come> [299, 289, 442",
+                "skier on right[[436, 262, 648, 874]]\n<answer>\n><answer>skier on right[[436, 262, 648, 874]]\n><answer>skier on left[[293, 284, 445, 886]]\n</answer><answer>\n</answer>",
+                "skier on right[[441, 263, 646, 873]]\n<answer>\nhere you to find the region of interest as described by the given sentence <answer>[x1,y1,x2,y2]</answer>\n<answer>\nx1[[292, 283, 443, 892]]\n</answer><br><answer>\nskier on left[[292, 283, 443, 892]]\n</answer><br><answer>\nskier on right[[441, 263, 646, 873]]\n</answer>\n<answer>\nskier on right[[441, 263, 646, 873]]\n</answer><br><answer>\nskier[[441, 26"
+            ],
+            "iou_scores": [
+                0.025175998881066718,
+                0.8914753572001927,
+                0.8975112471030189,
+                0.9234303215926493,
+                0.8911578853019824,
+                0.9494823030600958,
+                0.9417916691567562,
+                0.0
+            ],
+            "iou_var": 0.15342856371704283,
+            "mean_iou": 0.6900030977869702,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000385505.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy left</ref>",
+            "ground_truth": [
+                0,
+                74,
+                550,
+                989
+            ],
+            "model_output": [
+                "guy left[[0, 62, 564, 1000]]\n<answer>\nHere is the revised description for the bounding box coordinate of the region that this sentence describes: guy left[[0, 62, 564, 1000]]\n;'\n</answer>\nAnswers:\nguy left[[0, 62, 564, 1000]]\n[[575, 68, 994, 989]]\n</div>\n</answer>\nAnswers:\nguy left[[0, 62, 564, 1000]]\n[[0, 62, 564, 1000]]\n[[575, 68, 994, 989]]\n",
+                "guy left[[0, 73, 578, 989]]\n[[607, 66, 994, 987]]\n\u00b7[[497, 492, 661, 951]]\n\u00b7\n[[511, 285, 623, 644]]\n\u00b7\n[[387, 343, 484, 625]]\n\u00b7\n[[3, 61, 567, 991]]\n\n[[527, 76, 991, 1000]]\n\n[[509, 343, 585, 634]]\n\n[[467, 343, 535, ",
+                "guy left[[0, 69, 558, 989]]\n[[599, 61, 991, 989]]\n \u2022 guy[[484, 494, 675, 950]]\n \u2022 guy[[600, 61, 989, 989]]\n \u2022 man[[364, 286, 490, 635]]\n \u2022 handbag[[483, 460, 524, 624]]\n \u2022 water bottle[[455, 815, 534, 987]]\n \u2022 cell phone[[547, 664, 646, 753]]\n \u2022 bracelet[[459, 341, 522, ",
+                "guy left[[0, 65, 563, 988]]\n[[600, 68, 995, 989]]\n```\nguy left[[0, 65, 563, 988]]\n```\n```[[0, 65, 563, 988]]\n```\n```[[535, 492, 672, 946]]\n```\n```[[600, 68, 995, 989]]\n```\n```[[600, 68, 995, 989]]\n```\n```[[0, 65, 563, 988]]\n```\n```[[0, 6",
+                "guy left[[0, 69, 564, 989]]\n\u52ab\nguy right[[611, 72, 991, 1000]]\nBounding box for the region that describes the sidekick: <answer>[x1,y1,x2,y2]</answer>\n\u52ab\nsidekick[[481, 493, 670, 955]]\nBounding box for the region that describes the man in purple hoodie: <answer>[x1,y1,x2,y2]</answer>\nBounding box for the region that describes the woman in green cap: <answer>[x1,y1,x2,y2]</answer>\nBounding box for the region that describes the woman in white shirt: <answer>[x1,y1,x2,y2]</answer>\nBounding box for the region that describes the woman in black jacket: <answer>[x1,y1,x2,y2]</answer>\nBounding box for the region that describes the woman in black jacket: <answer>[x1,y1",
+                "guy left[[0, 69, 572, 1000]]\n[[601, 74, 991, 989]]\n```\nguy left[[475, 496, 678, 954]]\n```\n```[[567, 287, 645, 631]]\n```\n```[[0, 76, 532, 989]]\n```\n``````",
+                "guy left[[0, 73, 557, 989]]\n[[578, 55, 990, 1000]]\nHow many people are in the image?\n><answer>two people[[439, 493, 668, 950]]\nHow many people are visible in the image?\n><answer>There are four people visible in the image. One man on the left is interacting with the man on the right, and there are three other people in the background. Two of them are sitting at a table. One of them is wearing a green cap and a purple hoodie. Two other people are standing in the background. One is wearing a white shirt. One is wearing a black jacket. One is wearing a white shirt and black pants. Two are sitting at a table. One is wearing a black jacket. One is wearing a white shirt. One is wearing a white shirt and black pants. One is wearing a green cap and a purple hoodie. One is wearing a white shirt. One is wearing a black jacket",
+                "guy left[[0, 70, 558, 1000]]\n-Boundaries: \n<answer>From the left edge of the image to just before the center. </answer>\n\n\nguy left[[0, 70, 558, 1000]]\n=>Answer\nguy left[[0, 70, 558, 1000]]\uff1b[[543, 491, 696, 950]]\n=>Answer\nguy left[[543, 491, 696, 950]]\n=>Answer\nguy left[[605, 66, 994, 1000]]\n=>Answer\nguy left[[605, 66, 994, 10"
+            ],
+            "iou_scores": [
+                0.9512657079344917,
+                0.950518275638023,
+                0.9803062178588126,
+                0.9663609503286242,
+                0.0,
+                0.9450136329835578,
+                0.9863546917751836,
+                0.0
+            ],
+            "iou_var": 0.17417530042190996,
+            "mean_iou": 0.7224774345648366,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000013318.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>blue polo white hair</ref>",
+            "ground_truth": [
+                0,
+                296,
+                199,
+                1000
+            ],
+            "model_output": [
+                "blue polo white hair[[321, 319, 495, 837]]\n[[0, 297, 216, 1000]]\n\u6829\u6829\u5982\u751f\uff1a\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u573a\u666f\uff0c\u5305\u62ec\u80cc\u666f\u3001\u4eba\u7269\u3001\u73af\u5883\u548c\u6574\u4f53\u6c1b\u56f4\u3002\n\n[[537, 48, 868, 998]]\n[[148, 433, 414, 998]]\n[[508, 347, 587, 677]]\n[[556, 397, 599, 672]]\nThis image contains the text 'Police' and 'Police' which are not overlapping. The coordinates for the text 'Police' are (532, 72, 745, 259) and the coordinates for the text '",
+                "blue polo white hair[[325, 315, 498, 840]]\n[[2, 297, 203, 987]]\n[[95, 436, 409, 1000]]\n[[212, 392, 314, 503], [314, 393, 382, 457]]\n[[495, 396, 568, 678]]\n[[207, 324, 298, 478]]\n[[122, 452, 228, 982]]\n[[296, 399, 354, 456]]\n[[565, 348, 610, 430]]\n[[797, 371, ",
+                "blue polo white hair[[321, 317, 502, 838]]\n[[0, 299, 217, 998]]\n[[77, 431, 399, 1000]]\n[[343, 377, 484, 673], [477, 397, 564, 674], [544, 348, 601, 458]]\n[[108, 333, 245, 515]]\n[[215, 386, 309, 457]]\n[[221, 398, 264, 444]]\n[[262, 393, 305, 442]]\n[[242, 396, 311",
+                "blue polo white hair[[320, 315, 495, 842]]\n[[0, 296, 198, 998]]\n[[0, 429, 397, 1000]]\n[[32, 382, 137, 672]]\n[[127, 392, 260, 499]]\n[[242, 387, 309, 456]]\n[[134, 326, 239, 447]]\n[[236, 394, 307, 452]]\n[[295, 384, 345, 438]]\n[[483, 394, 551, 676]]\n[[548, 352,",
+                "blue polo white hair[[321, 316, 503, 840]]\n[[0, 298, 184, 998]]\n[[76, 431, 400, 998]]\n\u8a3a\u6240 Police[[321, 316, 503, 840]]\n[[740, 334, 806, 561]]\n[[841, 345, 938, 534]]\n[[572, 51, 866, 998]]\n[[91, 331, 239, 648]]\n[[169, 388, 252, 465]]\n",
+                "blue polo white hair[[325, 318, 501, 841]]\n[[0, 297, 193, 987]]\n[[84, 430, 399, 998]]\npolice sign[[562, 46, 858, 654]]\n[[543, 537, 851, 998]]\n[[175, 701, 370, 883]]\n[[352, 681, 479, 838]]\nwoman[[125, 433, 419, 987]]\nman[[445, 376, 562, 674]]\ncasual pants",
+                "blue polo white hair[[325, 318, 496, 839]]\n<issuearytags>\nblue polo white hair[[3, 297, 204, 989]]\nwoman[[114, 436, 401, 987]]\nwoman[[114, 436, 401, 987]]\nperson[[0, 347, 175, 989]]\nman[[0, 297, 204, 989]]\nman[[478, 388, 571, 675]]\npolice officer[[325, 318, 496, 839]]\npolice sign[[576, 51, 863, 603]]\nshirt[[3, 29",
+                "blue polo white hair[[322, 316, 504, 836]]\n[[0, 294, 210, 998]]\n[[77, 430, 401, 1000]]\n[[114, 330, 210, 476]]\n{'text': 'Krispy kreme DOUGHNUTS'}</citeid>\n{'text': 'Learning'}</citeid>\n{'text': 'the best'}</citeid>\n{'text': 'CASH CASHES'}</citeid>\n{'text': 'ON SALE'}</citeid>\n{'text': 'DOGS'}</citeid>\n{'text': 'WE WANT'}</citeid>\n{'text': 'THE'}</citeid>\n{'text': 'PRACTICAL'}</citeid>\n{'text': 'COOKING'}</citeid>\n{'text': 'A'}</citeid>\n{'text': 'TRO'}</citeid"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000243336.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red haired guy on left</ref>",
+            "ground_truth": [
+                0,
+                424,
+                313,
+                930
+            ],
+            "model_output": [
+                "red haired guy on left[[0, 418, 315, 921]]\n<answer>red haired guy on left[[0, 418, 315, 921]])\nDBody tags for the region described as 'red haired guy on left[[0, 418, 315, 921]];'\n[[472, 303, 871, 900]]\nThe first tag should be removed.\n[[472, 303, 871, 900]]\nThe first tag should be removed.\nThe second tag should be removed.\nThe first tag should be removed.\nThe third tag should be removed.\n<answer>\n[[472, 303",
+                "red haired guy on left[[3, 415, 304, 917]]\n><answer>[x1,y1,x2,y2]</threats>\n><answer>red haired guy[[486, 304, 871, 898]]\n<answer>red haired guy[[3, 415, 304, 917]]\n<answer>red haired guy[[3, 415, 304, 917]]\n<answer>red haired guy[[3, 415, 304, 917]]\n<answer>red haired guy[[3, 415, 304, 917]]\n[[0, 301,",
+                "red haired guy on left[[0, 413, 315, 921]]\n<answer>\nHere is the specified region: \nred haired guy on left[[0, 413, 315, 921]]\n<image>\n<answer>\nred haired guy on left[[0, 413, 315, 921]]\n<image>\n<image>\n<image>\n[[468, 306, 867, 900]]\n<answer>\nred haired guy on left[[0, 413, 315, 921]]\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n",
+                "red haired guy on left[[0, 416, 318, 919]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ared haired guy[[0, 416, 318, 919]]\n<answer>\n\n<answer>\n</code></li>\n\n</body></span>\n[[487, 304, 874, 901]]\n</body></span>\n</html>\n</div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div",
+                "red haired guy on left[[0, 418, 315, 917]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ared haired guy on left[[0, 418, 315, 917]]\n<issue> what is the relationship between the landmark and the person?[[484, 308, 864, 901]]\n<img src=\"https://i.imgur.com/7GvJ8iD.jpg\" width=\"300\" height=\"300\" style=\"float: left;\">\n\n[[484, 308, 864, 901]]\n<answer>\n<issue> what is the relationship between the landmark and the person?[[484, 308, 864, 901]]\n<img src=\"https://i.imgur.com/7GvJ8iD.jpg\" width=\"300\" height=\"300\" style=\"float: left;",
+                "red haired guy on left[[0, 413, 319, 918]]\n<answer>\nhere a bounding box for the region that i asked about <answer>[x1,y1,x2,y2]</answer>\n<answer>\nred haired guy on left[[0, 413, 319, 918]]\n<answer>\nif it's possible to describe the bounding box coordinates of the man <answer>[x1,y1,x2,y2]</answer>\n<answer>\nman[[487, 306, 871, 901]]\n<answer>\nhere a bounding box for the region that i asked about <answer>[x1,y1,x2,y2]</answer>\n<answer>\nman[[487, 306, 871, 901]]\n<image>\n<image>\n</image>\n\u2022\n\u2022\n\u2022",
+                "red haired guy on left[[0, 413, 317, 921]]\n<answer>\n\u8fd8\u6709\u4ec0\u4e48\u5417\uff1f<come on <answer> describe the region </answer>\n<answer>\n<answer>\u56fe\u7247\u4e2d\u6ca1\u6709\u663e\u793a\u4e00\u4e2a\u79c3\u5934\u7684\u4eba\uff0c\u6240\u4ee5\u65e0\u6cd5\u63d0\u4f9b\u63cf\u8ff0\u3002\u4e0d\u8fc7\uff0c\u56fe\u7247\u4e2d\u53ef\u4ee5\u770b\u5230\u4e00\u4e2a\u8d64\u88f8\u4e0a\u8eab\u3001\u7a7f\u7740\u683c\u5b50\u77ed\u88e4\u7684\u7537\u5b69\u548c\u4e00\u4e2a\u7a7f\u7740\u9ed1\u8272\u548c\u767d\u8272\u957f\u8896\u886c\u886b\u3001\u84dd\u8272\u77ed\u88e4\u7684\u6210\u5e74\u4eba\u3002\u4ed6\u4eec\u6b63\u8d70\u5411\u6d77\u6ee9\uff0c\u624b\u91cc\u62ff\u7740\u4e00\u5757\u84dd\u8272\u51b2\u6d6a\u677f\u3002\u80cc\u666f\u4e2d\u53ef\u4ee5\u770b\u5230\u6d77\u6d6a\u548c\u53e6\u4e00\u4e2a\u7a7f\u7740\u6551\u751f\u8863\u7684\u4eba\u3002\n[[473, 304, 871, 895]]",
+                "red haired guy on left[[0, 416, 308, 919]]\n<answer>\nHere is the bounding box coordinates for the region described by \"the red haired guy on left\": \n\n<answer>[x1,y1,x2,y2]</threats>\n<answer>\nHere is the bounding box coordinates for the region described by \"the red haired guy on left\": \n\n<answer>[x1,y1,x2,y2]</threats>\n</code></li>\n<li>\n  </li>\n</ul>\n<issue>\n  <li>man walking towards the camera</li>\n  <li>boy walking in the water</li>\n  <li>surfboard</li>\n  <li>red surfboard</li>\n  <li>man carrying surfboard</li>\n  <li>person in the background</li>\n  <li>sky</"
+            ],
+            "iou_scores": [
+                0.9646475921171758,
+                0.9211978620248685,
+                0.9553172804706547,
+                0.9482120234765632,
+                0.9569313009289692,
+                0.0,
+                0.0,
+                0.9478867459991793
+            ],
+            "iou_var": 0.169014432644692,
+            "mean_iou": 0.7117741006271763,
+            "correct_count": 6
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 96,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000094660.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>15</ref>",
+            "ground_truth": [
+                628,
+                4,
+                998,
+                988
+            ],
+            "model_output": [
+                "15[[630, 0, 1000, 987]]\n[[276, 129, 589, 925]]\nMore less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less less",
+                "15[[629, 10, 1000, 989]]\n[[259, 130, 592, 924]]\n[[2, 78, 338, 863]]\n filme\n15[[629, 10, 1000, 989]]\n[[0, 0, 100, 990]]\n[[25, 125, 175, 870]]\n[[34, 122, 142, 638]][[287, 640, 444, 868]]\n[[624, 472, 765, 688]]\n",
+                "15[[628, 0, 1000, 989]]\n[[255, 130, 589, 932]]\nMore of the bounding box 15[[628, 0, 1000, 989]]\n[[3, 71, 313, 872]]\n[[1, 0, 102, 986]]\n[[0, 0, 86, 987]]\n[[612, 445, 738, 692]]\n[[64, 128, 226, 840]]\n[[25, 126, 134, 842]]\n[[25, 639, ",
+                "15[[624, 0, 1000, 1000]]\n[[271, 127, 596, 922]]\nWikimedia: 15[[624, 0, 1000, 1000]]\n[[2, 6, 105, 987]]\n[[32, 78, 339, 857]]\n[[12, 129, 180, 854]]\n[[35, 183, 225, 855]]\n[[56, 123, 172, 486]][[171, 639, 366, 986]]\n",
+                "15[[632, 0, 999, 982]]\n[[269, 124, 592, 919]]\n[[0, 2, 116, 1000]]\n{{25, 126, 214, 866], [3, 125, 142, 857], [10, 76, 325, 857], [663, 422, 759, 645], [734, 452, 800, 657]]\n[[329, 645, 426, 872]]\n[[3, 638, 334, 1000]]\n[[269, 124, 592, 91",
+                "15[[628, 5, 1000, 989]]\n[[266, 130, 589, 932]]\n[[0, 0, 104, 1000]]\n[[1, 79, 320, 857], [46, 81, 331, 833]]\n[[664, 427, 769, 656]]\n[[644, 4, 997, 989]]\n[[30, 126, 199, 861]]\n[[1, 644, 343, 990]]",
+                "15[[637, 4, 1000, 987]]\n[[271, 130, 584, 930]]\nNC[[2, 72, 320, 849]]\n[[30, 124, 213, 845]]\n[[675, 425, 761, 646]]\n[[13, 637, 362, 1000]]\n[[14, 0, 106, 987]]\n[[536, 0, 1000, 988]]\n[[184, 639, 413, 999]]\n[[0, 0, 9",
+                "15[[630, 2, 1000, 987]]\n\u5bc2\u7136\u7684\u56fe\u50cf\n"
+            ],
+            "iou_scores": [
+                0.9842677796944979,
+                0.984921139607049,
+                0.9895952248931799,
+                0.9682978723404255,
+                0.9765964761026503,
+                0.9926095333744521,
+                0.9694491949099293,
+                0.9862535647489271
+            ],
+            "iou_var": 7.180977379964162e-05,
+            "mean_iou": 0.9814988482088889,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000451337.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>pale green chair</ref>",
+            "ground_truth": [
+                19,
+                623,
+                326,
+                984
+            ],
+            "model_output": [
+                "pale green chair[[22, 635, 306, 987]]\n[[385, 517, 561, 871]]\nRNA\n[[609, 489, 725, 759]]\n[[10, 378, 348, 670]]\n[[33, 375, 311, 529]]\n[[326, 383, 368, 502]]\n[[315, 395, 341, 523]]\n{'type': 'picture', 'content': 'picture[[528, 350, 585, 510]]}\n{'type': 'picture', 'content': 'picture",
+                "pale green chair[[19, 632, 307, 987]]\n[[389, 519, 545, 871]]\n[[27, 495, 426, 774]]\npotted plant[[534, 665, 812, 984]]\nbook[[222, 304, 241, 444]]\nfurniture[[556, 483, 724, 745]]\nblanket[[189, 636, 786, 810]]\nfloor cover[[349, 647, 786, 773]]\npillow[[23, 586, 303, 812]]\nlamp",
+                "pale green chair[[19, 635, 311, 989]]\n[[386, 519, 558, 872]]\nWikimedia: pale green chair[[19, 635, 311, 989]][[29, 515, 1000, 988]]\n[[386, 519, 558, 872]]\n[[29, 515, 1000, 988]]\npale green chair[[19, 635, 311, 989]]\n[[386, 519, 558, 872]]\npale green chair[[29, 515, 1",
+                "pale green chair[[17, 633, 308, 1000]]\n[[393, 517, 558, 872]]\n${answer}\npale green chair[[17, 633, 308, 1000]]\n[[393, 517, 558, 872]]\n[[613, 488, 727, 754]]\npotted plant[[539, 705, 825, 989]]\nfloor cover[[435, 701, 792, 998]]\narmchair[[29, 326, 344, 775]]\narmchair[[17, 326, 344,",
+                "pale green chair[[17, 634, 308, 989]]\n[[271, 516, 549, 873]]\n\u5bc2\u7136\u4e00\u53f6[[572, 492, 725, 753]]\npale green chair[[17, 634, 308, 989]]\n[[271, 516, 549, 873]]\npale green chair[[17, 634, 308, 989]]\nblanket[[297, 647, 801, 989]]\npot[[526, 572, 629, 596]]\nfloor cover[[469, 714",
+                "pale green chair[[20, 635, 315, 989]]\n\u5bc2\u7136\u7684\u623f\u95f4 - living room[[2, 6, 998, 984]]\n[[2, 6, 998, 984]]\n[[578, 483, 727, 757]]\n[[394, 520, 553, 872]]\n[[20, 635, 315, 989]]\n[[20, 635, ",
+                "pale green chair[[17, 634, 308, 986]]\n[[399, 520, 557, 872]]\n thereafter, it was about 5:44 AM.\n[[602, 486, 718, 752]]\n[[18, 632, 309, 989]]\n[[399, 520, 557, 872]]\n[[17, 634, 308, 986]]\n[[399, 520, 557, 872]]\n[[602, 486, 718, 752]]\n[[18, 632, 309, ",
+                "pale green chair[[20, 635, 302, 990]]\nKnow the bounding box coordinates for? pale green chair[[395, 521, 562, 871]][[395, 521, 562, 871]]\nKnow the bounding box coordinates for? pale green chair[[395, 521, 562, 871]]\nuser\nWhat is the size of the armchair? pale green[[20, 635, 302, 990]]\nuser\nWhat is the object that is being used to hold the book? A lamp?\nobject[[591, 489, 731, 757]]\nI want to identify the object's shape. pale green chair[[395,"
+            ],
+            "iou_scores": [
+                0.8875079468834786,
+                0.9076469903573251,
+                0.907567216151469,
+                0.8730817231139992,
+                0.8952753535961481,
+                0.9167690691172018,
+                0.9022469204078174,
+                0.87467894311183
+            ],
+            "iou_var": 0.00022387566599968293,
+            "mean_iou": 0.8955967703424086,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000035817.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman on right in teal green</ref>",
+            "ground_truth": [
+                647,
+                226,
+                846,
+                988
+            ],
+            "model_output": [
+                "woman on right in teal green[[647, 230, 843, 987]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: woman[[505, 220, 616, 914]]\n<issue>\nwoman[[505, 220, 616, 914]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: woman[[505, 220, 616, 914]][[849, 351, 1000, 989]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: person[[647, 230, 843, 987]][[849, 351, 1000, 989]]\n",
+                "woman on right in teal green[[651, 230, 845, 988]]\n<answer>\nwoman on right in teal green[[651, 230, 845, 988]]\n<issue>\n</issue>\n<issue-line>woman on right in teal green[[651, 230, 845, 988]]\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n</issue-line>\n",
+                "woman on right in teal green[[654, 234, 843, 989]]\n<answer>woman on right in teal green[[654, 234, 843, 989]]\nI'm sorry, but I can't provide the bounding box coordinates for the people in the image.\n<answer>\n<answer>\n-life is beautiful\n",
+                "woman on right in teal green[[638, 232, 844, 988]]\n<answer>\nHere is the requested bounding box for the region described:\n\nwoman on right in teal green[[638, 232, 844, 988]]\n<answer>\nHere is the requested bounding box for the region described:\n\nwoman on right[[846, 352, 1000, 984]]\n<answer>\nHere is the requested bounding box for the region described:\n\nwoman on right[[846, 352, 1000, 984]]\n<answer>\nHere is the requested bounding box for the region described:\n\nwoman[[404, 218, 581, 908]]\n<answer>\nHere is the requested bounding box for the region described:\n\nwoman[[404, 218, 581, ",
+                "woman on right in teal green[[659, 235, 843, 989]]\n<answer>\nwoman on right in teal green[[659, 235, 843, 989]]\n<issue>\n</issue>\n<issue net> woman on right in teal green[[659, 235, 843, 989]]\n<issue> woman[[410, 215, 580, 915]]\n</issue>\n<issue> woman[[410, 215, 580, 915]]\n</issue>\n<issue> woman[[528, 219, 679, 927]]\n</issue>\n<issue> woman[[528, 219, ",
+                "woman on right in teal green[[643, 231, 842, 984]]\n<answer>woman on right in teal green[[643, 231, 842, 984]]\nIK<answer>\nirus\nwoman on right in teal green[[643, 231, 842, 984]]\n<issue>\n</issue>\n<issue..\n</issue>\n<issue..</issue>\n</issue>\n<issue..</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</sep></dict>\n</sep>\n</sep>\n</sep>\n</sep>\n</sep>\n</",
+                "woman on right in teal green[[638, 234, 846, 989]]\n<answer>\nHere is the requested bounding box for the region described in the sentence:\n\nwoman on right in teal green[[638, 234, 846, 989]]\n<issue>Please specify the coordinates for the region described as 'woman on right in teal green' in <answer> <ceo></ceo> </answer>\n<answer>woman on right in teal green[[638, 234, 846, 989]]\nRate the sentiment of the following sentence or paragraph and provide an approximate word or phrase completion: 'The room was beautifully decorated with candles and candles on the shelves in the background. The guests were having a great time, as the birthday cake was already placed on the table. There were several people standing around, some smiling, while others were clapping and cheering for the birthday girl.' \n<issue>Answer: The room was beautifully decorated with candles and candles on the shelves in",
+                "woman on right in teal green[[653, 231, 842, 989]]\n<answer>woman on right[[824, 346, 1000, 989]]\n<image>\nwoman[[409, 221, 584, 910]]\n[[653, 231, 842, 989]]\n[[824, 346, 1000, 989]]\n[[600, 226, 827, 930]]\n[[438, 209, 581, 594]]\n[[159, 260, 296, 538]]\n[[250, 257, 350, 535]]\n[[13, 281, 145, 6"
+            ],
+            "iou_scores": [
+                0.9784618631213812,
+                0.9697569210883815,
+                0.9386077575134858,
+                0.9399780361267845,
+                0.9125950125805219,
+                0.9494665373423861,
+                0.9458747289323718,
+                0.9423422711375447
+            ],
+            "iou_var": 0.00035500812403345893,
+            "mean_iou": 0.9471353909803572,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000298793.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>boat on left</ref>",
+            "ground_truth": [
+                272,
+                487,
+                549,
+                819
+            ],
+            "model_output": [
+                "boat on left[[272, 494, 567, 823]]\n[[512, 499, 891, 813]]\n\u2022\n[[272, 494, 567, 823]]\n\u2022 [512, 499, 891, 813]]\n\u2022 [272, 494, 567, 823]]\n\u2022 [512, 499, 891, 813]]\n\u2022 [272, 494, 567, 823]]\n\u2022 [272, 494, 567, 823]]\uff1b[512, 499, 891, 813]]",
+                "boat on left[[277, 496, 552, 823]]\n[[509, 496, 889, 798]]\nIf the sentence was \"How many boats are there?\", how many would that be?\nHow many boats are there?[[277, 496, 552, 823]]\n[[509, 496, 889, 798]]\n[[278, 520, 552, 822]]\n[[506, 516, 887, 797]]\n[[278, 520, 552, 822]]\n[[509, 516, 887, 797]]\n[[278,",
+                "boat on left[[274, 495, 561, 824]]\nboat[[507, 496, 891, 806]]\n[[274, 495, 561, 824]]\n[[507, 496, 891, 806]]\n[[274, 495, 561, 824]]\n[[507, 496, 891, 806]]\n[[272, 494, 566, 819]]\n[[507, 496, 891, 806]]\n[[274, 495, 561, 824]]\n",
+                "boat on left[[271, 495, 562, 820]]\n[[508, 495, 886, 796]]\n\u52ab\u76d7\u56fe\u7247\u4e2d\u7684\u8239\u53ea\nboat[[271, 495, 562, 820]]\n[[508, 495, 886, 796]]\n[[276, 514, 570, 799]]\n[[503, 504, 889, 854]]\n[[276, 514, 570, 799]]\n[[503, 504, 889, 854]]\n[[501, 502, 895, 843]]",
+                "boat on left[[270, 493, 561, 820]]\n[[504, 510, 888, 806]]\n\u2022 boat[[270, 493, 561, 820]]\n\u2022 boat[[504, 510, 888, 806]]\n-boat[[504, 510, 888, 806]]\n- sun[[159, 88, 232, 218]]\nboat[[270, 493, 561, 820]]\n\u2022 sun[[159, 88, 232, 218]]\nboat[[504,",
+                "boat on left[[277, 494, 556, 826]]\n[[509, 497, 894, 795]]\n\u6df3\u6734\u7684\u81ea\u7136\u98ce\u5149\u4e2d\uff0c\u51e0\u8258\u5c0f\u8239\u9759\u9759\u5730\u505c\u6cca\u5728\u6e56\u8fb9\uff0c\u6e56\u9762\u4e0a\u5f25\u6f2b\u7740\u4e00\u5c42\u8584\u96fe\uff0c\u8fdc\u5904\u7684\u6811\u6728\u548c\u5c71\u4e18\u5728\u9633\u5149\u7684\u7167\u5c04\u4e0b\u663e\u5f97\u683c\u5916\u5b81\u9759\u548c\u7f8e\u4e3d\u3002\nboat[[509, 497, 894, 795]]\n[[277, 494, 556, 826]]\nThere is a small motor boat on the left and a larger boat on the right.\nboat[[277, 494, 556, 826]]\n[[505, 508, 892, 798]]\n[[278, 5",
+                "boat on left[[273, 497, 563, 820]]\n[[510, 499, 889, 800]]\nIf the given statement was \"The sun is shining brightly at the top of the image,\" what would that imply about the time of day?\nThe sun is shining brightly at the top of the image[[178, 0, 413, 313]]\n[[502, 508, 908, 846]]\n[[502, 508, 908, 846]]\n[[0, 336, 999, 1000]]\n[[510, 499, 889, 800]]\n[[273, 497, 563,",
+                "boat on left[[273, 495, 561, 825]]\n[[515, 499, 889, 793]]\n Innocent-looking boat moored on a wooden dock at the edge of a lake. The lake is calm, and there are two boats tethered to a dock, with a foggy background. The sun is setting, creating a serene atmosphere with trees and a clear sky.\nboat[[515, 499, 889, 793]]\n[[273, 495, 561, 825]]\n[[568, 515, 873, 773]]\n[[273, 495, 561, 825]]\n[[515, 499"
+            ],
+            "iou_scores": [
+                0.9093985494070348,
+                0.934310295321855,
+                0.9158469271331215,
+                0.9272349701935098,
+                0.9326888317375722,
+                0.9189953426480373,
+                0.9184597259254667,
+                0.9164172986267678
+            ],
+            "iou_var": 6.771347554872374e-05,
+            "mean_iou": 0.9216689926241707,
+            "correct_count": 8
+        }
+    ]
+}

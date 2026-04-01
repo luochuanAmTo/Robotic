@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 67,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000203034.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>dishwasher beside refrigerator</ref>",
+            "ground_truth": [
+                381,
+                646,
+                509,
+                1000
+            ],
+            "model_output": [
+                "dishwasher beside refrigerator[[375, 650, 499, 989]]\n[[760, 513, 891, 987]]\nThe region description of \"the region that this sentence describes\" is part of the image: \"white oven with black stove top\". Coordinates: [<answer>[662, 516, 888, 999]]\nThe region describing the \"white oven with black stove top\" is one of the following: \"to the right of the white stove\". Coordinates: [<answer>[662, 516, 888, 999]]\nThe region describing the \"white oven with black stove top\" is one of the following: \"next to the refrigerator\". Coordinates: [<answer>[375, 650, 499, 989]]\nThe region describing the \"white oven with black stove top\" is one of the following: \"on the left of the refrigerator\". Coordinates: [<answer>[375, 6",
+                "dishwasher beside refrigerator[[363, 649, 499, 996]]\n[[1, 401, 402, 1000]]\nCreative Commons License image description version 1.0 image license\n[[715, 517, 885, 998]]\n[[651, 176, 1000, 403]]\n[[892, 540, 1000, 679]]\n[[716, 519, 885, 998]]\n[[900, 542, 1000, 656]]\n[[649, 283, 735, 517]]\n[[102, 3",
+                "dishwasher beside refrigerator[[395, 647, 510, 987]]\n[[320, 392, 414, 751]]\n341, 214, 406, 292\n[[266, 252, 366, 408]]\n25, 134, 276, 237\n[[59, 334, 243, 535]]\n210, 137, 324, 234\n[132, 335, 238, 464]\n290, 130, 374, 224\n[[143, 265, 334, 406]]\n318, 127, 366, 222\n[[731, 181, 100",
+                "dishwasher beside refrigerator[[384, 647, 499, 988]]\n[[715, 517, 890, 989]]\nThe region bounding box for the region describe the stove in the sentence is <answer>[x1,y1,x2,y2]</answer>\ndishwasher beside refrigerator[[276, 400, 419, 744]]\nThe region bounding box for the region describe the microwave in the sentence is <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the region describe the wooden wall in the sentence is <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the region describe the refrigerator in the sentence is <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the region describe the cabinet in the sentence is <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the region describe",
+                "dishwasher beside refrigerator[[394, 644, 500, 990]]\n\u5bc2\u00a0oven[[685, 518, 893, 988]]\n\u5bc2[[855, 537, 1000, 987]]\n[[2, 399, 410, 988]]\n[[656, 184, 1000, 402]]\n[[250, 243, 367, 409]]\n\u5bc2[[112, 334, 227, 535]]\n[[220, 253, 344, 4",
+                "dishwasher beside refrigerator[[394, 649, 505, 990]]\n[[692, 515, 894, 998]]\nThe region description of \"beyond refrigerator shelf\" was not yet provided. Here is the completed response:\n\nbeyond refrigerator shelf[[14, 192, 363, 524]]\n[[14, 192, 363, 524]]\nThe given region describes a white microwave placed on a white cabinet. Here is the completed response:\n\nwhite microwave[[221, 250, 349, 410]]\nThe given region describes a shelf with three red mugs on it. Here is the completed response:\n\nshelf[[14, 192, 363, 524]]\nThe given region describes a white refrigerator with a black metal stand. Here is the completed response:\n\nwhite refrigerator",
+                "dishwasher beside refrigerator[[379, 651, 495, 989]]\n[[0, 401, 412, 987]]\nthumbnail of the image showing the region description of the region name 'dishwasher beside refrigerator' - <answer>[x1,y1,x2,y2]</answer>\ndishwasher beside refrigerator[[0, 401, 412, 987]]\n[[671, 515, 899, 999]]\nmicrowave[[199, 242, 340, 404]]\nmicrowave[[199, 242, 340, 404]]\nmicrowave[[199, 242, 340, 404]]\nmicrowave[[199, 242, ",
+                "dishwasher beside refrigerator[[387, 654, 499, 985]]\n[[39, 405, 394, 987]]\n soo\n[[697, 517, 891, 998]]\nIf the sentence was \"How tall is the oven?\", what would be the answer?\nHow tall is the oven?[[697, 517, 891, 998]]\nIf the sentence was \"Where is the microwave on the shelf?\" what is the answer?\nMicrowave on the shelf[[218, 251, 361, 408]]\nIf the sentence was \"How many teapots are on the shelf?\" what is the answer?\nHow many teapots are on the shelf?'[[122, 336, 245, 533]]\nIf the"
+            ],
+            "iou_scores": [
+                0.8448865796476999,
+                0.7941735521160634,
+                0.8490318058354508,
+                0.0,
+                0.8009840963008523,
+                0.8353416313559322,
+                0.0,
+                0.8181497175141242
+            ],
+            "iou_var": 0.12756481911105977,
+            "mean_iou": 0.6178209228462653,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000156939.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left chair</ref>",
+            "ground_truth": [
+                105,
+                364,
+                399,
+                990
+            ],
+            "model_output": [
+                "left chair[[104, 372, 419, 978]]\nMore tags:\n[[101, 409, 729, 1000]]\nMore tags:\nwoman[[101, 62, 657, 989]]\nMore tags:\nwoman[[0, 17, 170, 355]]\nMore tags:\nhandbag[[473, 266, 691, 434]]\nMore tags:\nwoman[[0, 17, 170, 355]]\nMore tags:\nperson[[780, 0, 869, 268]]\nMore tags:\nperson[[780, 0, 869, 268]]",
+                "left chair[[98, 365, 415, 985]]\n[[117, 356, 742, 989]]\n[[400, 351, 733, 987]]\n</cite></cite>\n</ol>\nHere is the revised requested coordinates for the region found in the image:\n\n**Image Content**: \nleft chair[[98, 365, 415, 985]]\nleft chair[[98, 365, 415, 985]]\n**Explanation**: I've marked the bounding box coordinates for the region described in the request. The region is located within the green metal folding chair on the left side of the image. The exact coordinates are:\n\n[117, 356, 415, 989]\n**Image Content**: \nleft chair[[98, 365, 415",
+                "left chair[[99, 374, 430, 985]]\n<answer>left chair[[922, 522, 999, 968]]\n</answer><answer>left chair[[427, 358, 723, 988]]\n</answer><issue>\n</issue><answer>left chair[[92, 374, 430, 985]]\n</issue>",
+                "left chair[[108, 372, 504, 989]]\nDNA[[108, 372, 739, 1000]]\n585736984",
+                "left chair[[103, 357, 440, 984]]\n[[103, 357, 737, 988]]\nTwitter: @\nwoman[[0, 25, 185, 349]]\n[[114, 63, 659, 980]]\n[[629, 215, 737, 352]]\n[[786, 0, 866, 270]]\n[[825, 462, 999, 971]]\n[[892, 516, 999, 975]]\n[[489, 12, 741, 368]]\n",
+                "left chair[[97, 369, 409, 982]]\n[[131, 354, 731, 1000]]\n```\nleft chair[[131, 354, 731, 1000]]\n```\n```[[131, 354, 731, 1000]]\n```\n```[[139, 362, 745, 999]]\n```\n```[[796, 514, 1000, 967]]\n```\n```[[817, 458, 998, 973]]\n```\n```[[634, 209",
+                "left chair[[98, 363, 735, 989]]\n[[91, 362, 736, 989]]\n</answer></div></small</pocalypse>\n</body>\n\n</select>\n</div>\n</select>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "left chair[[93, 369, 434, 985]]\n</div></div></div>\n"
+            ],
+            "iou_scores": [
+                0.9054429028815368,
+                0.9191947716637082,
+                0.0,
+                0.7215678236861459,
+                0.8555216062854648,
+                0.9238458462768738,
+                0.46046168958742634,
+                0.8502694886288944
+            ],
+            "iou_var": 0.09185087635623476,
+            "mean_iou": 0.7045380161262562,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000269160.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>gray car</ref>",
+            "ground_truth": [
+                0,
+                461,
+                313,
+                897
+            ],
+            "model_output": [
+                "gray car[[0, 456, 320, 888]]\nDRIVER[[676, 412, 998, 864]][[0, 462, 313, 888]][[0, 456, 320, 888]]\nfire hydrant[[433, 454, 506, 678]]\n[[679, 413, 997, 864]]",
+                "gray car[[0, 454, 326, 888]]\n><answer>[x1,y1,x2,y2]</threats>\n><answer>gray car[[681, 418, 999, 863]]\nPK\nPKPKPKPKPKPKPKPK",
+                "gray car[[0, 455, 328, 887]]\n[[663, 415, 1000, 863]]\nither[[447, 456, 515, 676]]\nThe first tag should be '[x1,y1,x2,y2]'\n[[449, 455, 516, 677]]\nThe second tag should be '[x1,y1,x2,y2]'\nThe third tag should be '[x1,y1,x2,y2]'\nThe fourth tag should be '[x1,y1,x2,y2]'\nThe fifth tag should be '[x1,y1,x2,y2]'\nThe sixth tag should be '[x1,y1,x2,y2]'\nThe seventh tag should be '[x1,y1,x2,y2]'\nThe eighth tag should be '[x",
+                "gray car[[2, 457, 320, 888]]\nDNA[[666, 422, 1000, 865]]\n[[464, 456, 518, 677]]\n;[[0, 454, 320, 888]]\n[[669, 421, 1000, 867]]\n;[[173, 369, 579, 616]]\n[[569, 402, 999, 566]]\n[[478, 456, 520, 679]]",
+                "gray car[[0, 457, 323, 886]]\n><answer>[x1,y1,x2,y2]</select>",
+                "gray car[[0, 457, 320, 885]]\n><answer>[x1,y1,x2,y2]</threats>\n><answer>gray car[[684, 422, 998, 862]]\nI'm sorry, I can't provide the bounding box coordinates for the region that includes the house. However, I can describe the house and its features.\nhouse[[33, 0, 929, 560]]\nI'm sorry, but I can't provide the bounding box coordinates for the region that includes the house.\nI need to describe the region that includes the house.\n435, 211, 594, 603\nhouse[[33, 0, 929, 560]]\nI'm sorry, but I can't provide the bounding box coordinates for the region that includes the house.\nI need to describe the region that includes the house.\nI'm sorry,",
+                "gray car[[0, 456, 323, 885]]\n</span></div></div></div>\ngray car[[672, 423, 999, 863]]\nittex of the region description for the blue car: gray car[[672, 423, 999, 863]]\n</span></div></div></div>\ngray car[[0, 456, 323, 885]]\n</span></div></div></div>\nwindow[[288, 230, 419, 409]]\nittex of the region description for the blue car: light blue car[[672, 423, 999, 863]]\nittex of the region description for the fire hydrant: fire hydrant[[441, 454, 50",
+                "gray car[[0, 459, 324, 888]]\n[[661, 412, 1000, 859]]\n \u2022 window[[277, 240, 384, 404]]\n \u2022 flower[[475, 213, 607, 468]]\n \u2022 air conditioner[[935, 13, 1000, 209]]\n \u2022 door[[357, 0, 454, 145]]\n \u2022 window[[572, 142, 644, 285]]\n \u2022 tire[[730, 685, 915, 865]]\n \u2022 house[[38, 88, 938, 606]]"
+            ],
+            "iou_scores": [
+                0.9474964021636644,
+                0.9261959376580897,
+                0.9206772264648613,
+                0.9436363507166255,
+                0.9367298077600169,
+                0.9431194746866028,
+                0.9324705072265199,
+                0.9424453329384471
+            ],
+            "iou_var": 7.797024561483534e-05,
+            "mean_iou": 0.9365963799518534,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000549347.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front left chair</ref>",
+            "ground_truth": [
+                209,
+                810,
+                522,
+                1000
+            ],
+            "model_output": [
+                "front left chair[[211, 792, 500, 987]]\n[[587, 718, 939, 987]]\nMore like this image description: A group of people are sitting around a table outside, enjoying a meal.\n[[131, 442, 793, 838]]\nHere is the image description for the bounding box: The region <answer>150 x 50 y</answer> is not specified in the image description.\n150 x 50 y[[131, 442, 793, 838]]\nHere is the image description for the bounding box: The region <answer>256 x 50 y</answer> is not specified in the image description.\n256 x 50 y[[131, 442, 793, 838]]\nHere is the image description",
+                "front left chair[[204, 797, 502, 984]]\n[[583, 718, 940, 1000]]\nAnother group of people: man[[226, 408, 485, 819]]\nAnother group of people: man[[1, 404, 252, 939]]\nAnother group of people: man[[606, 411, 918, 972]]\nAnother group of people: woman[[519, 272, 625, 450]]\nAnother group of people: woman[[714, 388, 1000, 715]]\nAnother group of people: woman[[666, 325, 786, 471]]",
+                "front left chair[[211, 795, 490, 1000]]\n[[592, 719, 935, 1000]]\nWould you happen to be a member of the family?\na member of the family[[607, 409, 909, 990]]\n[[100, 400, 427, 815]]\nman[[100, 400, 427, 815]]\nwoman[[289, 270, 479, 449]]\nwoman[[493, 272, 621, 449]]\nwoman[[670, 324, 812, 526]]\nshirt[[604, 378,",
+                "front left chair[[211, 797, 489, 989]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>front left chair[[172, 801, 486, 987]]\n</lock>[[585, 719, 937, 998]]\n</lock>[[571, 411, 919, 989]]\n</lock>[[674, 327, 1000, 990]]\n</lock>[[0, 394, 221, 985]]\n</lock>[[209, 407, 543, 833]]",
+                "front left chair[[206, 798, 501, 989]]\n\u52ab\nfront left chair[[119, 533, 209, 953]]\n\u52ab\nfront left chair[[206, 802, 501, 989]]\n\u52ab\nfront left chair[[119, 533, 209, 953]]\n[[573, 723, 932, 999]]\nman[[224, 408, 497, 827]]\n\u52ab\nman[[224, 408, 497, 827]]\n\u52ab\nman[[612, 41",
+                "front left chair[[211, 796, 497, 1000]]\n[[584, 719, 936, 1000]]\nHow many people are sitting at the table? 6[[603, 413, 917, 998]]\nHow many people are there? 6[[355, 273, 540, 450]]\nHow many people are there in the image? 6[[10, 292, 230, 727]]\nHow many flowers are on the table? 78[[132, 222, 738, 578]]\nHow many people are there in the image? 6[[10, 292, 230, 727]]\nHow many people are there? 6[[60",
+                "front left chair[[204, 797, 494, 989]]\n[[586, 721, 943, 987]]\nAnd the sentence about the region of interest: flower[[125, 225, 698, 530]]\nflower[[619, 234, 905, 470]]\n[[145, 457, 759, 845]]\n[[0, 0, 1000, 998]]\n[[121, 540, 214, 704]]\n[[461, 270, 591, 451]]\n[[586, 324, 10",
+                "front left chair[[212, 792, 488, 988]]\n again the sentence is describing the same region as before.\n another front left chair[[591, 722, 923, 987]]\n again the sentence is describing the same region as before.\n yet another front left chair[[179, 801, 475, 989]]\n yet another front left chair[[179, 801, 475, 989]]\n again the sentence is describing the same region as before.\n yet another front left chair[[0, 600, 95, 919]]\n yet another front left chair[[0, 600, 95, 919]]\n again the sentence is describing the same region as before.\n yet another front left chair[[113, 557, 23"
+            ],
+            "iou_scores": [
+                0.0,
+                0.7939390164138661,
+                0.8327704029534208,
+                0.0,
+                0.8225093238075755,
+                0.8560985600403315,
+                0.7954315116551025,
+                0.7624072752102796
+            ],
+            "iou_var": 0.12387028581743177,
+            "mean_iou": 0.607894511260072,
+            "correct_count": 6
+        }
+    ]
+}

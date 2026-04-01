@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 20,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000444010.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person red shirt with glasses</ref>",
+            "ground_truth": [
+                0,
+                105,
+                315,
+                637
+            ],
+            "model_output": [
+                "person red shirt with glasses[[0, 111, 324, 656]]\n[[431, 103, 750, 695]]\n anyway, it's a picture of a group of people having a meal together. It appears to be a social gathering, possibly in a restaurant or dining hall. The group is seated around a table with plates of food and glasses of wine. Two women are visible, one wearing glasses, and two men are present. The setting suggests a warm and convivial atmosphere. The individuals appear to be enjoying their meal and each other's company.\n[[669, 371, 998, 989]]\n[[366, 32, 712, 673]]\n\n[[2, 102, 327, 643]]\n\n[[505, 0, ",
+                "person red shirt with glasses[[2, 107, 332, 647]]\nAPIarcher[[414, 113, 753, 693]]\nAPIarcher[[679, 374, 1000, 1000]]\nAPIarcher[[0, 0, 1000, 767]]\nuser\nImage description: A group of people sitting at a dining table with a bottle of wine in front of them.\n[[682, 371, 1000, 984]]\nuser\nImage: A group of people sitting at a table with wine glasses, plates of food, and a bottle of wine. The group includes a woman in a red shirt and a man",
+                "person red shirt with glasses[[0, 108, 324, 647]]\nImages: \nperson[[416, 117, 754, 685]]\nImages: \nperson[[710, 369, 999, 999]]\nImages: \nperson[[653, 381, 1000, 989]]\nImages: \nperson[[2, 101, 321, 646]]\nImages: \nperson[[125, 0, 360, 478]]\nImages: \nperson[[125, 0, 360, 478]][[125, 0, 360, 478]]\nImages: \nperson[[416, 11",
+                "person red shirt with glasses[[0, 101, 331, 658]]\n\u7c2a\nperson red shirt with glasses[[147, 0, 352, 474]]\n3. person[[419, 106, 755, 685]]\n4. person[[675, 370, 1000, 987]]\n5. person[[703, 0, 1000, 360]]\n6. person[[359, 0, 773, 515]]\n7. person[[3, 109, 337, 669]]\n8. person[[354, 515, 580, 696]]\n9. person[[0, 0, 1000, ",
+                "person red shirt with glasses[[0, 105, 326, 645]]\n<answer>\nHere is the requested information for the bounding box: \n```json\n[\n[\"[object], [2, 3, 1000, 988]]\"\n]\n```\n<answer>\nperson red shirt with glasses[[0, 105, 326, 645]]\n```\n<answer>\nHere is the requested information for the bounding box: \n```json\n[\n[\"[object] at 147, 421, 280, 974\"],\n[\"[object] at 361, 421, 417, 975\"],\n[\"[object] at 75, 435, 185, 973\"]\n]\n```\n<answer>\nHere is the requested information for the bounding box: \n```json\n[\n[\"[object] at 147, 421, 280, 97",
+                "person red shirt with glasses[[2, 107, 331, 653]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>&#x1220;</answer>\n><answer>&#x1220;2304</answer>\n><answer>&#x1220;1030</answer>\n><answer>&#x1220;412</answer>\n><answer>&#x1220;1489</answer>\n><answer>&#x1220;1488</answer>\n><answer>&#x1220;602</answer>\n><answer>&#x1220;417</answer>\n><answer>&#x1220;610</answer>\n><answer>&#x1220;611</answer",
+                "person red shirt with glasses[[0, 109, 330, 655]]\n><answer>\nnutmeg\nperson red shirt with glasses[[146, 0, 367, 465]]\nNIKE\nwoman[[412, 109, 748, 694]]\nwoman[[412, 109, 748, 694]]\nman[[657, 364, 998, 987]]\npotato[[374, 715, 570, 901]]\ntable knife[[576, 634, 702, 847]]\nclothing[[853, 0, 999, 307]]\nclothing[[568, 0, 716,",
+                "person red shirt with glasses[[0, 108, 322, 657]]\n<answer>\nI'm sorry, but I can't provide the bounding box coordinates for people in images.\n<answer>\nperson red shirt with glasses[[0, 108, 322, 657]]\n</answer>\n<answer>\nperson red shirt with glasses[[148, 0, 367, 465]]\n</answer>\n</body><p>Image with a caption: \"Happy Meal at the Restaurant\" <br>\n<p>Image with a caption: \"Dinner in the kitchen\" <br>\n<p>Image with a caption: \"Older woman enjoying a meal\" <br>\n<p>Image with a caption: \"Happy Birthday\" <br>\n</body>\n<p>Image with a caption: \"Dinner scene\" <br>\n<p>Image with a caption: \"Older woman with glasses\" <br>\n<p>Image with a caption: \"Happy Meal at"
+            ],
+            "iou_scores": [
+                0.9283913262733232,
+                0.9221746622936239,
+                0.9490491567994259,
+                0.9089479136721864,
+                0.9519427402862985,
+                0.0,
+                0.9166666666666666,
+                0.9376107763204538
+            ],
+            "iou_var": 0.09493547673897605,
+            "mean_iou": 0.8143479052889973,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000550532.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left meter 68</ref>",
+            "ground_truth": [
+                335,
+                55,
+                565,
+                867
+            ],
+            "model_output": [
+                "left meter 68[[342, 60, 562, 867]]\n<answer>left meter 68[[566, 63, 767, 791]]\nI'm sorry, I can't provide the coordinates for that specific region.\n<answer>\n\n</answer>\n<hstep>Based on the image, which two green parking meters are being referred to? The left one and the right one.</step> \nAnswer: The left one and the right one.</step>\n</body><step>Based on the image, which of the two green parking meters is closer to the camera? The left one and the right one.</step> \nAnswer: The left one and the right one.</step>\n</body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body> </body>",
+                "left meter 68[[334, 58, 571, 874]]\n[[571, 59, 764, 788]]\nA parking meter is attached to a pole. The pole is attached to a building. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and 67 on it.\nThe parking meters are attached to a pole. The pole is green with two numbers 68 and",
+                "left meter 68[[335, 57, 563, 868]]\n><answer>[x1,y1,x2,y2]</waiting>\nleft meter 67[[568, 62, 764, 786]]\n[[340, 60, 564, 863]]\n[[561, 65, 765, 786]]\n[[0, 508, 231, 790]]\n[[0, 716, 184, 859]]\n[[112, 224, 191, 404]]\n[[186, 317, 246, 454]]\n",
+                "left meter 68[[341, 59, 564, 868]]\n<answer>\nHere is the bounding box coordinates for the region describing the region of interest: left meter 68[[341, 59, 564, 868]]\n<answer>\nHere is the bounding box coordinates for the region describing the region of interest: right meter 67[[573, 65, 768, 787]]\n<answer>\nHere is the bounding box coordinates for the region describing the region of interest: right meter 67[[573, 65, 768, 787]]\n<answer>\nHere is the bounding box coordinates for the region describing the region of interest: alarm[[277, 56, 517, 861]]\n<answer>\nHere is the bounding box coordinates for the region describing the region of interest: ",
+                "left meter 68[[335, 57, 562, 865]]\n><answer>[[335, 57, 562, 865]]]\n><answer>left meter 67[[562, 60, 768, 796]]\n rate: 68\n rate: 67\n rate: 67[[335, 57, 562, 865]]\n rate: 68[[562, 60, 768, 796]]",
+                "left meter 68[[342, 61, 562, 866]]\nMore tags: left meter 67[[572, 61, 767, 792]]\nMore tags: cat[[32, 576, 217, 789]][[21, 513, 170, 724]]\nMore tags: wall[[251, 0, 1000, 998]]\nMore tags: window[[0, 0, 252, 990]]\nMore tags: window[[857, 0, 1000, 987]][[857, 0, 1000, 987]]\nMore",
+                "left meter 68[[342, 58, 560, 864]]\n<answer>left meter 68[[563, 63, 769, 785]]\nAnother question: left meter 68[[342, 58, 560, 864]]\nAnother question: left meter 68[[342, 58, 560, 864]]\nAnother question: left meter 68[[563, 63, 769, 785]]\n<answer>\nuser\nWhat is the number on the green parking meter closest to the camera? 68<sep>What is the number on the green parking meter closest to the window? 67<sep>What is the number on the green parking meter closest to the door? 67<sep>What is the number on the green parking meter closest to the wall? 6",
+                "left meter 68[[334, 54, 553, 874]]\n<answer>\nleft meter 68[[334, 54, 553, 874]]\n<answer>\n\n</answer>\n<answer>\n\n</answer>"
+            ],
+            "iou_scores": [
+                0.0,
+                0.958718479817809,
+                0.9876569619440819,
+                0.9636384056304584,
+                0.9820946669522381,
+                0.9482758620689655,
+                0.9408224459198972,
+                0.9349897530159937
+            ],
+            "iou_var": 0.10098550980189007,
+            "mean_iou": 0.8395245719186805,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000183602.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>yellow shirt</ref>",
+            "ground_truth": [
+                0,
+                544,
+                342,
+                1000
+            ],
+            "model_output": [
+                "yellow shirt[[0, 546, 344, 987]]\n><answer>[x1,y1,x2,y2]</whitehectare>\n><image><description>yellow shirt[[0, 546, 344, 987]]\n><answer>looking at the camera</answer>\n><image><description>yellow shirt[[308, 592, 523, 933]]\n><answer>looking at the camera</answer>\n><image><description>yellow shirt[[0, 546, 344, 987]]\n><image><description>yellow shirt[[0, 546, 344, 987]]\n</script>\n</image>\n</script>\n</image>\n</script>\n</image>\n</script>\n</image>\n</script>\n</image>",
+                "yellow shirt[[0, 546, 324, 989]]\n<answer>yellow shirt[[0, 546, 324, 989]]\uff1b[[284, 594, 521, 936]]\n</answer><image>\n<answer>yellow shirt[[0, 546, 324, 989]]\n</image><strong>\n</strong><answer>yellow shirt[[0, 546, 324, 989]]\n</answer><strong>\n</strong>[[536, 615, 770, 936]]\n</strong>[[284, 594, 521, 9",
+                "yellow shirt[[0, 548, 333, 989]]\n<answer>yellow shirt[[0, 548, 333, 989]];[[280, 597, 532, 952]]\n</answer><br><answer>woman[[572, 612, 778, 935]]\n</answer><br><answer>woman[[572, 612, 778, 935]]\n</answer>[[280, 650, 532, 882]]\n</answer>[[280, 594, 533, 924]]\n</answer>",
+                "yellow shirt[[0, 551, 315, 988]]\n><answer>\n</body>\n</select>\n1\n<answer>Y</answer>\n[[293, 593, 522, 938]]\n[[566, 614, 772, 931]]\n</select>\n<answer>Y</answer>\n[[178, 693, 324, 869]]\n[[130, 753, 359, 847]]\n[[328, 748, 445, 884]]\n</select>\n[[279, 775, 356, 850]]\n",
+                "yellow shirt[[0, 545, 326, 989]]\n<answer>yellow shirt[[0, 545, 326, 989]]\uff1b\n'''\nyellow shirt[[284, 592, 535, 964]]\nyellow shirt[[284, 592, 535, 964]]\nwoman[[562, 611, 773, 931]]\nwoman[[284, 592, 535, 964]]\nperson[[197, 694, 323, 872]]\nwoman[[562, 611, 773, 931]]\nwoman[[197, 694, 323,",
+                "yellow shirt[[0, 549, 317, 987]]\n<answer>yellow shirt[[0, 549, 317, 987]]\n<answer>woman[[292, 592, 524, 945]]\n[[563, 611, 775, 935]]\n[[247, 699, 411, 877]]\n</select>\n333333",
+                "yellow shirt[[0, 548, 333, 989]]\n[[289, 594, 531, 955]]\nIdentify the female in the image and enclose the coordinates of the top of her head. \nfemale in the image[[571, 615, 772, 934]]\nAlso, identify the top of the woman's head bun. \ntop of the woman's head bun[[336, 594, 474, 884]]\nAnd the top of the person's head. \nperson[[2, 548, 277, 841]]\nAnd the top of the person's head.\nAnd the top of the person's hair.\nAnd the top of the person's hair.\nAnd the top of the person's head.\nAnd the top of the person's hair.\nAnd the top of the person's head.\nAnd the top",
+                "yellow shirt[[0, 546, 327, 987]]\n<answer>yellow shirt[[0, 546, 327, 987]]\n<answer>woman[[285, 595, 523, 930]]\nIKEU\nwoman[[570, 610, 780, 932]]\n<answer>woman[[285, 595, 523, 930]]\n<answer>woman[[285, 595, 523, 930]]\n<answer>woman[[2, 546, 327, 987]]\n[[0, 546, 327, 987]]\n[[285, 595"
+            ],
+            "iou_scores": [
+                0.9616664753816137,
+                0.9203601108033241,
+                0.9416551246537396,
+                0.0,
+                0.9281317328408741,
+                0.890312403816559,
+                0.9416551246537396,
+                0.9246883656509696
+            ],
+            "iou_var": 0.09492568929168838,
+            "mean_iou": 0.8135586672251025,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000013352.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>flowery bush behind hydrant to our left</ref>",
+            "ground_truth": [
+                0,
+                333,
+                280,
+                519
+            ],
+            "model_output": [
+                "flowery bush behind hydrant to our left[[0, 336, 256, 515]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aflowery bush behind hydrant to our left[[0, 336, 256, 515]]\n<issue> Answer this <answer>\n<answer>\n[[636, 108, 997, 499]]\n</answer>\n<issue> Answer the above <answer>\n</answer>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>\n</ishi>",
+                "flowery bush behind hydrant to our left[[0, 331, 257, 515]]\n<answer>\nflowery bush behind hydrant to our left[[0, 331, 257, 515]]\n<answer>\n\n<answer>\n\n####\n\nelse,\nthe hydrant is not visible in the image.\n<answer>\n\n</answer>\n[[67, 372, 548, 920]]\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div>\n</script></div",
+                "flowery bush behind hydrant to our left[[0, 332, 247, 519]]\n<answer>\nflowery bush behind hydrant to our left[[0, 332, 247, 519]]\n<issue>\n<answer>\n\n####\n\nif the fire hydrant is pink, what color is the sky?\n<answer>Based on the image, the sky appears to be clear and sunny. There are no visible clouds or blue sky, so it seems to be a sunny day. However, since the fire hydrant is pink, it's possible that the sky is not the main color in the image.\n<issue>\n<issue>\n\n####\n\nIf I'm driving past this fire hydrant, what color would I see in the distance?\n<answer>The fire hydrant is pink, and if you're driving past it, you would see the pink",
+                "flowery bush behind hydrant to our left[[0, 334, 272, 519]]\n<answer>\nflowery bush behind hydrant to our left[[0, 334, 272, 519]]\n<issue>\n</issue>\n<answer>\n<issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</Si</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n</Si>\n",
+                "flowery bush behind hydrant to our left[[0, 332, 258, 519]]\n<answer>\nflowery bush behind hydrant to our left[[0, 332, 258, 519]]\n<answer>\n\n<answer>\n\n<br><answer>flowery bush behind hydrant to our left[[0, 332, 258, 519]]\n<br><answer>flowery bush behind hydrant to our left[[230, 70, 629, 322]]\n<answer>\n</answer>\n</issue>\n<br><answer>flowery bush behind hydrant to our left[[230, 70, 629, 322]]\n</issue>\n</issue>\n</issue>\n",
+                "flowery bush behind hydrant to our left[[2, 334, 260, 506]]\n<answer>\nflowery bush behind hydrant to our left[[2, 334, 260, 506]]\n<issue>\n<answer>\nflowery bush behind hydrant to our left[[2, 334, 260, 506]]\n<answer>\n<issue>\n[[230, 65, 629, 333]]\n[[230, 65, 629, 333]]\n[[57, 364, 551, 934]]\n[[0, 0, 1000, 556]]\n[[0, 689, 997, 1",
+                "flowery bush behind hydrant to our left[[0, 334, 248, 514]]\n<answer>\nflowery bush behind hydrant to our left[[0, 334, 248, 514]]\n<issue>\n</issue>\n<answer>\nflowery bush behind hydrant to our left[[0, 334, 248, 514]]\n</issue>\n<issue> flowery bush behind hydrant to our left[[224, 79, 635, 347]]\n</issue>\n<answer>\nflowery bush behind hydrant to our left[[224, 79, 635, 347]]\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</issue>\n</",
+                "flowery bush behind hydrant to our left[[0, 331, 256, 516]]\n<answer>\nIEDUY NA WBBT IIEC IEIIEIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI IEIIEI"
+            ],
+            "iou_scores": [
+                0.8798771121351766,
+                0.8893409894664791,
+                0.8779788636841401,
+                0.9662058371735791,
+                0.9168863922962284,
+                0.852073732718894,
+                0.8571428571428571,
+                0.8907818679647095
+            ],
+            "iou_var": 0.0011603747514543723,
+            "mean_iou": 0.891285956572758,
+            "correct_count": 8
+        }
+    ]
+}

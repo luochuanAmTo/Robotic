@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 90,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000492293.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bus</ref>",
+            "ground_truth": [
+                259,
+                337,
+                779,
+                894
+            ],
+            "model_output": [
+                "bus[[274, 344, 787, 892]]\n[[0, 393, 234, 747]]\n[[274, 344, 787, 892]]\n[[276, 346, 791, 897]]\n[[787, 560, 998, 719]]\nbus[[0, 393, 234, 747]]\n[[276, 344, 787, 897]]\nbus[[274, 344, 787, 892]]\nbus[[276, 344, 787, 897]]\nbus[[274, ",
+                "bus[[266, 344, 785, 898]]\n[[0, 381, 235, 748]]\n[[266, 345, 786, 897]]\n[[1, 388, 231, 571]]\n[[245, 452, 339, 562]]\n[[244, 496, 333, 678]]\n[[248, 592, 327, 651]]\n[[263, 635, 274, 708]]\n[[244, 497, 339, 678]]\n[[248, 496, ",
+                "bus[[258, 336, 785, 902]]\n[[0, 393, 230, 745]]\n[[0, 380, 223, 574]]\n[[256, 431, 387, 566]]\n[[261, 466, 355, 559]]\nbus[[258, 336, 785, 902]]\n[[261, 466, 355, 559]]\nbus[[261, 466, 355, 559]]\nbus[[0, 393, 230, 745]]\nbus[[256, 4",
+                "bus[[267, 332, 779, 901]]\n[[0, 382, 234, 746]]\n[[267, 335, 782, 900]]\n[[240, 457, 377, 571]]\n[[777, 569, 905, 717]]\nbus[[770, 557, 998, 724]]\n[[0, 371, 230, 748]]\n[[268, 410, 783, 894]]\n[[242, 455, 375, 573]]",
+                "bus[[253, 340, 785, 893]]\n[[253, 342, 786, 902]]\n[[2, 383, 246, 744]]\n[[868, 547, 1000, 717]]\n[[93, 571, 236, 748]]\n[[242, 459, 326, 558]]\n[[322, 465, 398, 575]]\n[[258, 596, 321, 845]]\n[[325, 605, 376, 721]]\n[[305, 600, 32",
+                "bus[[261, 335, 789, 892]]\nKnow the coordinates of this bounding box?\nbus[[2, 376, 240, 748]]\nIf the sentence was \"The bus is parked on the...\", what would be the correct description of its location?\n apologise\nthe bus[[2, 376, 240, 748]]\nIf the sentence was \"The bus is parked next to the...\", what would be the correct description of its location?\nreply\nthe bus[[2, 376, 240, 748]]\nbus[[261, 335, 789, 892]]\nIf the sentence was \"The bus is parked on the...\", what would be the correct description of its location?\nreply\nbus[[261, 335, 7",
+                "bus[[267, 338, 785, 903]]\n[[0, 380, 234, 747]]\n[[267, 337, 788, 903]]\n[[268, 338, 785, 904]]\n[[797, 558, 950, 717]]\n[[184, 461, 330, 566]]\n[[226, 463, 324, 552]]\n[[225, 507, 324, 562]]\n[[236, 609, 272, 703]]\n[[225, 60",
+                "bus[[262, 335, 787, 901]]\n[[261, 340, 788, 900]]\n[[0, 379, 234, 747]]\n[[260, 348, 788, 899]]\n[[0, 375, 231, 749]]\n[[261, 348, 788, 899]]\n[[260, 348, 788, 899]]\n[[0, 375, 231, 749]]\n[[261, 348, 788, 899]]\n[[260, 348, 788"
+            ],
+            "iou_scores": [
+                0.9412156830734906,
+                0.9563888060308593,
+                0.9710274170080662,
+                0.9641630378925161,
+                0.9705814848317109,
+                0.9704434827812021,
+                0.9564370140909427,
+                0.9636839445688221
+            ],
+            "iou_var": 9.097913520622025e-05,
+            "mean_iou": 0.9617426087847012,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000544831.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right book page</ref>",
+            "ground_truth": [
+                471,
+                20,
+                989,
+                766
+            ],
+            "model_output": [
+                "right book page[[485, 19, 986, 756]]\n[[66, 99, 367, 892]]\nDB[[731, 121, 935, 689]]\n[[485, 19, 986, 756]]\n[[483, 22, 986, 742]]\n[[66, 99, 367, 892]]\n[[731, 121, 935, 689]]\n[[483, 22, 986, 756]]\n[[66, 99, 367, 892]]\n[[7",
+                "right book page[[487, 16, 986, 759]]\n[[68, 94, 360, 887]]\n[[487, 16, 986, 759]]\n[[68, 94, 360, 887]]\n[[38, 20, 483, 889]]\n[[487, 16, 986, 759]][[487, 16, 986, 759]]\n[[68, 94, 360, 887]]\n[[38, 20, 483, 889]]\n[[487, 16, 986",
+                "right book page[[465, 19, 984, 758]]\n[[64, 100, 359, 894]]\n[[465, 19, 984, 758]]\n[[64, 100, 359, 894]]\n[[664, 124, 933, 683]]\n[[664, 124, 933, 683]]\n[[64, 100, 359, 894]]\n[[64, 100, 359, 894]]\n[[664, 124, 933, 683]]",
+                "right book page[[472, 14, 984, 757]]\n[[65, 101, 363, 897]]\n[[472, 14, 984, 757]]\n[[648, 125, 984, 687]]\n[[65, 101, 363, 897]]\n[[472, 14, 984, 757]]\n[[472, 14, 984, 757]]\n[[648, 125, 984, 687]]\n[[65, 101, 363, 897]]\n[[648, 125",
+                "right book page[[484, 25, 985, 756]]\n[[72, 103, 359, 890]]\n${{72, 103, 359, 890}}\n${{72, 103, 359, 890}}\n[[484, 25, 985, 756]]\n${{484, 25, 985, 756}}\n${{484, 25, 985, 756}}\n${{484, 25, 985, 756}}\n[[748, 117, 970, 692]]\n[[748, 117, 970, 692]]",
+                "right book page[[485, 25, 987, 811]]\n<answer>right book page[[485, 25, 987, 811]]\n<answer>right book[[0, 2, 987, 982]]\n</body>>\nirs\nright book[[485, 25, 987, 811]]\n<answer>right book[[485, 25, 987, 811]]\n[[69, 101, 367, 892]]\n[[69, 101, 367, 892]]\n[[69, 101, 367, 892]]\n[[822, 117, 915, 69",
+                "right book page[[472, 27, 984, 765]]\n[[64, 104, 368, 891]]\n[[471, 17, 985, 765]]\n[[691, 119, 978, 683]]\n[[43, 2, 468, 960]]\n[[43, 2, 468, 960]]\n[[43, 2, 468, 960]]\n[[64, 104, 368, 891]]\n[[64, 104, 368, 891]]\n[[691, 119, 978, 68",
+                "right book page[[467, 26, 987, 766]]\n[[61, 101, 353, 895]]\n[[467, 26, 987, 766]]\n[[648, 116, 969, 693]]\n[[68, 105, 356, 896]]\n[[467, 26, 987, 766]]\n[[467, 26, 987, 766]]\n[[61, 101, 353, 895]]\n[[648, 116, 969, 693]]\n[[68, 105, 3"
+            ],
+            "iou_scores": [
+                0.9529810378648279,
+                0.9493774843984923,
+                0.9673433407856915,
+                0.968790757381258,
+                0.9477341186456468,
+                0.9094514177860143,
+                0.9778173424286025,
+                0.9806157354618016
+            ],
+            "iou_var": 0.0004572005580907881,
+            "mean_iou": 0.9567639043440419,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000128974.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person riding motorcycle in front on right</ref>",
+            "ground_truth": [
+                255,
+                253,
+                473,
+                813
+            ],
+            "model_output": [
+                "person riding motorcycle in front on right[[766, 325, 871, 679]]\n[[643, 312, 766, 686]]\nThus, the bounding box coordinates for the region are <answer>[x1,y1],[x2,y3]</answer>\n[[84, 261, 260, 538]]\nThus, the bounding box coordinates for the region are <answer>[x1,y1],[x2,y3]</answer>\n[[256, 265, 477, 865]]\nThus, the bounding box coordinates for the region are <answer>[x1,y1],[x2,y3]</answer>\n[[26, 523, 334, 913]]\nThus, the bounding box coordinates for the region are <answer>[x1,y1],[x2,y3]</answer>\nThis",
+                "person riding motorcycle in front on right[[722, 315, 860, 697]]\n[[835, 337, 920, 671]]\nDB \\| [70, 260, 295, 539]]\nDB \\| [275, 266, 478, 835]]\nDB \\| [571, 310, 701, 699]]\nDB \\| [51, 260, 237, 537]]\nDB \\| [33, 316, 126, 442]]\nDB \\| [894, 337, 992, 623]]\n[[348, 326, 417, 541]]\nDB \\| [443, 343, 5",
+                "person riding motorcycle in front on right[[745, 318, 864, 696]]\nperson[[569, 310, 704, 692]]\n[[290, 261, 485, 858]]\nperson[[56, 262, 282, 846]]\n[[725, 317, 873, 701]]\nperson[[895, 337, 997, 585]]\nmotorcycle[[887, 397, 999, 621]]\nmotorcycle[[64, 522, 354, 902]]\nhat[[356, 267, 485, 81",
+                "person riding motorcycle in front on right[[734, 317, 862, 685]]\nperson[[76, 258, 284, 553]]\n[[273, 264, 483, 853]]\n[[553, 311, 693, 699]]\n[[776, 334, 867, 681]]\n[[863, 334, 996, 618]]\n[[913, 331, 999, 621]]\n[[449, 462, 703, 704]]\n[[61, 487, 358, 911]]\n[[603, 4",
+                "person riding motorcycle in front on right[[740, 317, 863, 681]]\n[[855, 331, 993, 618]]\nMore like this:person[[56, 257, 291, 842]]\nI'm sorry, but I can't provide the bounding box coordinates for that.\nperson riding motorcycle in front on right[[740, 317, 863, 681]]\nAnd the next one:person[[56, 257, 291, 842]]\nAnd the last one:person[[292, 265, 485, 818]]\nI'm sorry, but I can't provide the bounding box coordinates for that.\nI'm sorry, but I can't provide the bounding box coordinates for that.\n",
+                "person riding motorcycle in front on right[[740, 316, 865, 684]]\n[[713, 314, 837, 678]]\nThe rest of the bounding boxes coordinates are:\n[[567, 310, 693, 692]]\nThe rest of the bounding boxes coordinates are:\n[[17, 261, 300, 899]]\nThe rest of the bounding boxes coordinates are:\n[[285, 260, 483, 857]]\nThe rest of the bounding boxes coordinates are:\n[[56, 256, 257, 849]]\n[[25, 313, 118, 437]]\nThe rest of the bounding boxes coordinates are",
+                "person riding motorcycle in front on right[[739, 316, 860, 685]]\n[[852, 335, 998, 624]]\nIFF the sentence describes a region on the image, then only the X-axis value is a.\n[[589, 467, 699, 704]]\nI'm sorry, but I can't provide the bounding box coordinates for this image.\n[[297, 266, 478, 847]]\nI can't provide the bounding box coordinates for this image.\n[[43, 261, 288, 899]]\nI'm sorry, but I can't provide the bounding box coordinates for this image.\n[[601, 308, 719, 686]]\nI can't provide the bounding box coordinates",
+                "person riding motorcycle in front on right[[745, 312, 862, 684]]\n[[822, 336, 905, 670]]\nDNA of the person riding motorcycle on the left <answer>[x1,y1,x2,y2]</answer>\n[[263, 265, 482, 847]]\n[[58, 262, 290, 893]]\n[[537, 311, 675, 698]]\n[[27, 311, 142, 443]]\n[[898, 336, 994, 620]]\n[[730, 417, 863"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000305224.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>the leg at very top of pic</ref>",
+            "ground_truth": [
+                361,
+                1,
+                753,
+                306
+            ],
+            "model_output": [
+                "the leg at very top of pic[[341, 0, 712, 286]]\n<answer>\nieting more details about the bounding box the leg at very top of pic[[341, 0, 712, 286]]\n<answer>\n\nthe leg at very top of pic[[341, 0, 712, 286]]\n[[62, 63, 726, 887]]\n\n[[62, 63, 726, 887]]\n</code></mid>\n</body></div></small>\n</body></div></small>\n</body></div></small>\n</div></small>\n</body></div></small>\n</div></small>\n</div></small>\n</div></small>\n</div></",
+                "the leg at very top of pic[[334, 0, 720, 288]]\n[[59, 62, 738, 893]]\n')); ARUSSCA[[598, 356, 971, 979]]\n[[12, 624, 974, 987]]\ncell phone[[523, 319, 616, 386]]\n\n[[286, 69, 524, 480]]\n\n[[2, 6, 207, 299]]\n\n[[272, 0, 546, 240]]\n\n[[300",
+                "the leg at very top of pic[[347, 0, 717, 290]]\n<answer>\n\u526f\u4e3b\u5e2d\u4e0a\u90e8\u7684\u533a\u57df\uff0c\u5de6\u4e0a\u89d2\uff1a[[0, 0, 147, 304]]\n<answer>\n\n</answer>",
+                "the leg at very top of pic[[374, 0, 703, 293]]\n[[54, 67, 730, 891]]\n```\nthe leg at very top of pic[[374, 0, 703, 293]]\n```\n```\n```\n```\n```\n```\n```\n```\n```\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n\n*The image depicts a person sitting on a pink bean bag chair, using a laptop. The individual is wearing a black and white striped sweater, black pants, and brown boots. A smartphone is placed on the bean bag next to them. To their right, there is a blue bag with text on it, and a black backpack is visible in the background. The setting appears to",
+                "the leg at very top of pic[[350, 2, 713, 288]]\n[[58, 57, 744, 888]]\n33\n[[628, 357, 971, 982]]\n4; <answer>[x1,y1,x2,y2]</answer>\n[[0, 626, 331, 988]]\n5[[0, 0, 187, 302]]\n6[[268, 0, 564, 237]]\n7&lt;answer&gt;&ltimage&gt;\n[[0, 626, 331, 988]]\n8&lt;answer&gt;&lt",
+                "the leg at very top of pic[[347, 0, 702, 292]]\n<answer>\n RIP\n",
+                "the leg at very top of pic[[374, 0, 721, 292]]\n[[75, 65, 740, 887]]\n'do not know' is the capital of which country?\ndo not know[[75, 65, 740, 887]]\nhandbag[[628, 363, 972, 982]]\n[[47, 218, 626, 978]]\n[[0, 0, 209, 308]]\n[[288, 0, 584, 250]]\n[[496, 324, 616, 388]]\n[[484",
+                "the leg at very top of pic[[353, 2, 721, 292]]\n<answer>\n</answer>[[56, 4, 666, 277]]\n</>[[62, 57, 742, 890]]\n</></></body></div>\n</body></div>\n</body></div>\n</body></div>\n</body></div>\n</html>\n\n</body></html>\n</html>\n</html>\n</html>\n</html>\n</html>"
+            ],
+            "iou_scores": [
+                0.7962604771115409,
+                0.8068679274834567,
+                0.0,
+                0.8013078764523851,
+                0.0,
+                0.8003209962174064,
+                0.8421276489279191,
+                0.0
+            ],
+            "iou_var": 0.15371173575256808,
+            "mean_iou": 0.5058606157740886,
+            "correct_count": 5
+        }
+    ]
+}

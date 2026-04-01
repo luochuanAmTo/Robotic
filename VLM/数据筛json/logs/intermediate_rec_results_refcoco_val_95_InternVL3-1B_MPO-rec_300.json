@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 95,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000289866.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy on left</ref>",
+            "ground_truth": [
+                140,
+                243,
+                441,
+                800
+            ],
+            "model_output": [
+                "guy on left[[144, 245, 435, 824]]\n[[540, 282, 863, 796]]\n\u52ab\u6848\uff1aguy on left[[144, 245, 435, 824]]\n\u52ab\u6848\uff1aguy on left[[144, 245, 435, 824]]\nguy on left[[144, 245, 435, 824]]\n[[540, 282, 863, 796]]\n\u52ab\u6848\uff1aguy on left[[144, 245, 435, 824]]\n[[569, 353, 1000, 990]]\n\u52ab\u6848\uff1a",
+                "guy on left[[141, 244, 443, 822]]\n[[147, 282, 464, 745]]\n\u52ab\u4fca[[147, 282, 464, 745]]\n[[549, 282, 863, 798]]\n[[640, 354, 1000, 990]]\n[[0, 512, 305, 998]]\n[[0, 623, 322, 998]]\n[[598, 357, 1000, 987]]\n[[0, 516, 424, 999]]\n[[4",
+                "guy on left[[144, 241, 439, 809]]\n<answer>guy on left[[144, 241, 439, 809]]\n<answer>woman[[531, 278, 866, 796]]\n<answer>woman[[531, 278, 866, 796]]\n<answer>handbag[[17, 514, 219, 751]]\nImages:\nImages:\n<answer>[[594, 358, 1000, 987]]\nImages:\nImages:[[144, 241, 439, 809]]\nImages:\n",
+                "guy on left[[142, 240, 441, 822]]\n<answer>\n</answer><p>\n</p>\n<answer>\n</answer><answer>guy on left[[142, 240, 441, 822]]\n</answer></body></td>\n</div></p>",
+                "guy on left[[141, 242, 435, 813]]\n[[541, 282, 863, 798]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia: guy[[141, 242, 435, 813]]\nWikimedia:",
+                "guy on left[[143, 239, 439, 815]]\nKnow the coordinates of the region in the image mentioned in the sentence \"guy on left\" coordinates: [143, 239, 439, 815]\nKnow the coordinates of the region in the image mentioned in the sentence \"guy on left\" coordinates: [143, 239, 439, 815]\nMore coordinates: [143, 239, 439, 815]\nMore coordinates: [1, 510, 306, 987]\nMore coordinates: [143, 239, 439, 815]\nMore coordinates: [632, 354, 1000, 984]\nMore coordinates: [632, 354, 1000, 984]\nMore coordinates: [361, 363, ",
+                "guy on left[[143, 244, 440, 812]]\nidentifying the region of the dog in the image: dog[[330, 468, 424, 592]]\nIdentifying the region of the woman in the image: woman[[536, 279, 861, 792]]\nIdentifying the region of the chair in the image: chair[[0, 517, 334, 987]]\nIdentifying the region of the plant in the image: plant[[271, 271, 389, 469]]\nIdentifying the region of the cat in the image: cat[[330, 468, 424, 592]]\nIdentifying the region of the wall in the image: wall[[4, 0, 1000, 795]]",
+                "guy on left[[142, 246, 432, 823]]\n<answer>\n}</div></div></small</answer>\n</div></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></"
+            ],
+            "iou_scores": [
+                0.9247828402265218,
+                0.9508987361256007,
+                0.9614574434471217,
+                0.0,
+                0.9533395818900525,
+                0.951471886704255,
+                0.9644377734039633,
+                0.0
+            ],
+            "iou_var": 0.16972113469503297,
+            "mean_iou": 0.7132985327246895,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000121903.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red truck</ref>",
+            "ground_truth": [
+                231,
+                213,
+                960,
+                561
+            ],
+            "model_output": [
+                "red truck[[246, 274, 965, 570]]\n[[57, 222, 218, 663]]\n[[240, 220, 978, 534]]\n[[240, 220, 978, 534]]\n[[220, 673, 999, 998]]\n[[220, 673, 999, 998]]\n[[57, 222, 218, 663]]\n[[240, 220, 978, 534]]\n[[220, 673, 999, 998]]\n[[24",
+                "red truck[[244, 272, 974, 573]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ared truck[[244, 272, 974, 573]]\n</answer>\n<answer>\nred truck[[244, 272, 974, 573]]\n<question>What is the road condition like in this image?</question>\n<answer>road condition[[242, 469, 1000, 1000]]\n</answer></body></style>\n\n</html>\n",
+                "red truck[[245, 275, 970, 568]]\n<answer>[[2, 664, 999, 1000]]\n<answer>\nffff</answer>[[71, 225, 224, 658]]\n<answer>\nffff</answer>[[667, 537, 795, 804]]\n<answer>\nffff</answer>[[371, 463, 484, 567]][[245, 225, 970, 568]]\n<answer>\nffff</answer>",
+                "red truck[[248, 271, 962, 570]]\n[[56, 218, 218, 665]]\n[[245, 222, 1000, 988]]\n[[637, 535, 769, 809]]\n[[263, 221, 729, 572]]\n[[245, 222, 1000, 988]]\n[[571, 535, 776, 807]]",
+                "red truck[[242, 267, 965, 567]]\n<answer>[[2, 658, 999, 1000]]\n<issue> what is the major body of water in the image?\n\ud83e\udd28 no major body of water in the image.\n<answer>no major body of water in the image.[[0, 343, 1000, 612]]\n[[2, 658, 999, 1000]]<issue> what is the weather like in the image?\nBBBBBBBBBBB[[242, 267, 965, 567]]\n[[2, 658, 999, 1000]]\n<answer>red truck[[242, 267, 965, 567]]",
+                "red truck[[251, 266, 964, 571]]\n[[58, 220, 220, 666]]\n[[231, 670, 1000, 1000]]\n[[197, 434, 977, 575]]\n[[580, 535, 790, 807]]\n[[199, 540, 998, 988]]\n[[231, 670, 1000, 1000]]\n[[197, 540, 998, 988]]",
+                "red truck[[243, 272, 970, 567]]\n<answer>\niable\n<answer>\n[[61, 218, 221, 659]]\n<answer>\n[[240, 219, 976, 563]]\n<answer>\n[[222, 665, 998, 1000]]\n<answer>\n\n</answer>\n[[649, 536, 790, 804]]\n[[243, 219, 976, 563]]\n[[222, 665, 998, 1000]]\n",
+                "red truck[[247, 275, 965, 572]]\n<answer>[[221, 675, 1000, 989]]\n<answer>\n <pastex>red truck[[247, 275, 965, 572]]</pastex>\n</answer>\n</body>\n\nI'm sorry, I can't provide the bounding box coordinates for the red truck.\n1<issue>attached to the truck[[675, 533, 789, 807]][[221, 675, 1000, 989]]\n</body></result>\n</body></result>\n<issue>attached to the truck[[247, 275, 965, 572]][[221, 675, 1000, 989]]\n"
+            ],
+            "iou_scores": [
+                0.7833316768476823,
+                0.776456108488619,
+                0.0,
+                0.7920275567898488,
+                0.8134566473988439,
+                0.7982954328592912,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.14738177892811355,
+            "mean_iou": 0.49544592779803565,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000431400.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man on motorcycle front middle but not motorcycle</ref>",
+            "ground_truth": [
+                341,
+                247,
+                664,
+                971
+            ],
+            "model_output": [
+                "man on motorcycle front middle but not motorcycle[[348, 244, 667, 968]]\n<answer>man[[348, 244, 667, 968]]\n<answer>person[[0, 175, 248, 844]]\n\u6444\u5f71\u68da\u4e2d\u7684\u4eba\u4eec\u7a7f\u7740\u4ec0\u4e48\uff1f\n\ufeff\u4eba[[0, 175, 248, 844]]\n<answer>person[[674, 152, 787, 647]]\n\u7167\u7247\u4e2d\u6469\u6258\u8f66\u7684\u6392\u5217\u65b9\u5f0f\u662f\u600e\u6837\u7684\uff1f\n\ufeff\u6469\u6258\u8f66[[415, 345, 719, 984]]\n<answer>\u6469\u6258\u8f66[[726, 386, 999, 919]]\n<answer>\u4eba[[715, ",
+                "man on motorcycle front middle but not motorcycle[[345, 246, 673, 972]]\n<answer>man[[757, 240, 1000, 882]]\n ent\u00e3o, based on this information, what are the coordinates of the region that contains the man on the motorcycle?\nthe man on the motorcycle[[757, 240, 1000, 882]]\n<answer>man[[0, 171, 238, 844]]\n<answer>man[[0, 171, 238, 844]]\n<answer>person[[499, 225, 688, 612]]\n<img src=\"https://i.imgur.com/6dV6WzJ.jpg\" width=\"255\" height=\"195\" alt=\"person\">\n</",
+                "man on motorcycle front middle but not motorcycle[[352, 243, 675, 968]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[755, 246, 995, 874]]\n<answer>[[689, 143, 788, 642]]\n<answer>\n\n[[1, 172, 235, 847]]\n</answer>\n</div></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>",
+                "man on motorcycle front middle but not motorcycle[[346, 246, 677, 971]]\n<answer>man[[0, 171, 254, 844]]\n<answer>man[[691, 240, 994, 876]]\nI'm sorry, but I cannot provide a bounding box for a person as it is not a specific shape. However, I can describe the motorcycle.\n<answer>man[[691, 240, 994, 876]]\n<answer>person[[691, 240, 994, 876]]\n<answer>person[[346, 246, 677, 971]]\nI'm sorry, but I cannot provide a bounding box for a person as it is not a specific shape. However, I can describe",
+                "man on motorcycle front middle but not motorcycle[[350, 243, 673, 969]]\n<answer>\nawahar[[731, 245, 996, 884]]\n<answer>\n<answer>man on motorcycle front middle but not motorcycle[[350, 243, 673, 969]]\n<answer>\n<answer>man[[1, 174, 252, 845]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "man on motorcycle front middle but not motorcycle[[357, 242, 674, 971]]\n<answer>man[[0, 173, 262, 847]]\n</answer>><image</p><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><",
+                "man on motorcycle front middle but not motorcycle[[353, 246, 664, 973]]\n<answer>man[[771, 246, 994, 874]]\n</answer>\nuser<sep>man[[771, 246, 994, 874]]\n</select>\nI'm sorry, but I can't provide the bounding box coordinates for the man on the motorcycle front middle but not motorcycle.\n</select>\nuser<sep>man[[353, 246, 664, 973]]\n</select>\n<issue> what is the name of the group in the image?\n</issue>\n</issue>\n<question>What is the man wearing in the image?<br>\n</question>\n</issue>\n<question>What is the group of people in the image?<br>\n</question",
+                "man on motorcycle front middle but not motorcycle[[344, 243, 676, 966]]\n<answer>\n\ufeff"
+            ],
+            "iou_scores": [
+                0.9614469219992235,
+                0.9582282262347318,
+                0.0,
+                0.9451425521870318,
+                0.0,
+                0.0,
+                0.0,
+                0.943693398083738
+            ],
+            "iou_var": 0.2266673240608727,
+            "mean_iou": 0.4760638873130907,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000169653.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>umpire</ref>",
+            "ground_truth": [
+                431,
+                206,
+                822,
+                919
+            ],
+            "model_output": [
+                "umpire[[466, 211, 819, 918]]\n[[466, 211, 819, 918]]\n[[547, 453, 726, 784]]\n[[350, 75, 546, 686]]\n[[534, 616, 657, 779]]\n[[350, 75, 546, 686]]\n[[376, 341, 446, 682]]\n[[547, 453, 726, 784]]\n[[466, 211, 8",
+                "umpire[[465, 208, 819, 915]]\ncatcher[[474, 437, 699, 781]]\n[[346, 71, 545, 683]]\n[[513, 492, 606, 778]]\n[[327, 352, 448, 654]]\n[[2, 0, 999, 999]]\n[[312, 417, 392, 648]]\n[[297, 398, 367, 625]]\n[[508, 265, 619, 462]]\n",
+                "umpire[[463, 211, 816, 918]]\numpire[[463, 211, 816, 918]]\n[[355, 74, 534, 680]]\n thus the bounding box coordinate of the umpire is : <answer>[x1,y1,x2,y3]</answer>\n[[531, 436, 688, 780]]\n[[355, 74, 534, 680]]\n[[531, 436, 688, 780]]\n[[355, 74, 534, 680]]\n[[531, 436, 688, 780]]\n[[",
+                "umpire[[457, 210, 819, 922]]\numpire[[457, 210, 819, 922]]\n[[539, 445, 735, 783]]\n[[334, 72, 534, 684]]\n[[381, 353, 461, 694]]\n[[283, 631, 348, 689]]\n[[341, 642, 382, 733]]\n[[295, 631, 354, 662]]\n[[0, 456, 999, 989]]\n[[3",
+                "umpire[[446, 209, 819, 918]]\n[[491, 430, 687, 778]]\numpire[[446, 209, 819, 918]]\n[[491, 430, 687, 778]]\n[[330, 73, 538, 690]]\n[[0, 0, 999, 989]]\n[[491, 430, 687, 778]]\n[[330, 73, 538, 690]]\n[[446, 209, 819, 918]]\n[[49",
+                "umpire[[449, 209, 816, 923]]\numpire[[449, 209, 816, 923]]\nDRIBBLEumpire[[449, 209, 816, 923]]\n[[368, 70, 547, 684]]\n[[521, 422, 696, 780]]\n[[615, 771, 742, 835]]\n[[315, 355, 437, 645]]\uff1b<answer>[x1,y1,x2,y2]</answer>\n[[",
+                "umpire[[451, 209, 815, 917]]\nbaseball bat[[309, 360, 404, 643]]\n[[486, 425, 607, 781]]\n[[453, 427, 550, 699]]\n[[557, 402, 654, 783]]\n[[349, 75, 533, 682]]\n[[502, 605, 674, 777]]\n[[2, 433, 1000, 989]];;",
+                "umpire[[467, 209, 819, 919]]\n[[467, 209, 819, 919]]\n[[357, 74, 534, 691]]\n hence RE stands for Real Madrid.\n[[467, 209, 819, 919]]\n[[494, 443, 692, 779]]\n[[321, 352, 439, 687]]\n[[0, 0, 1000, 1000]]\n[[357, 74, 534, 691]]\n[[467, 209,"
+            ],
+            "iou_scores": [
+                0.8952159923668229,
+                0.8977520150080888,
+                0.0,
+                0.9170647695886289,
+                0.948612361585893,
+                0.0,
+                0.9244179164439725,
+                0.8964678621006302
+            ],
+            "iou_var": 0.15666116071410285,
+            "mean_iou": 0.6849413646367546,
+            "correct_count": 6
+        }
+    ]
+}

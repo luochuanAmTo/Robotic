@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 43,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000105685.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>girl bottom left</ref>",
+            "ground_truth": [
+                58,
+                596,
+                503,
+                982
+            ],
+            "model_output": [
+                "girl bottom left[[126, 433, 762, 862]]\nImages: \ngirl bottom left[[145, 899, 476, 987]]\nImages: \ngirl bottom left[[126, 433, 762, 862]]\nImages: \ngirl bottom left[[145, 899, 476, 987]]\nImages: \ngirl bottom left[[126, 433, 762, 862]]\nImages: \ngirl bottom left[[145, 899, 476, 987]]\nImages: \ngirl bottom left[[126, 433, 762, 862]][[69, 602, 368, 9",
+                "girl bottom left[[135, 440, 777, 870]]\n[[89, 440, 814, 966]]\n\u5c31\u5f88\u6709\u8da3\uff01\u4f60\u521a\u63cf\u8ff0\u4e86\u6574\u4e2a\u573a\u666f\uff0c\u53ef\u4ee5\u544a\u8bc9\u6211\u8fd9\u4e2a\u56fe\u7247\u91cc\u7684\u4e3b\u8981\u4eba\u7269\u5417\uff1f\nuserFor those who might not be familiar, can you describe the objects in the image?\n[[645, 79, 1000, 564]]\n[[650, 74, 998, 626]]\n[[143, 199, 656, 819]]\n[[160, 450, 694, 636]]\n\n[[828, 554, 997, 800]]\n\n",
+                "girl bottom left[[118, 447, 778, 861]]\nKnow the context or basic information to name the object A: \u201ckreme doughnut\u201d in the image? \n\nThe object is a Krispy Kreme donut.\n",
+                "girl bottom left[[120, 443, 786, 866]]\n[[145, 372, 786, 637]]\n\u5bc2\u7136\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u5a74\u513f\uff1a\u5a74\u513f[[145, 372, 786, 637]]\n\u660f\u6697\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u5a74\u513f\uff1a\u5a74\u513f[[87, 444, 802, 966]]\n\u660f\u6697\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u5b69\u5b50\uff1a\u5b69\u5b50[[87, 444, 802, 966]]\n\u660f\u6697\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u5b69\u5b50\uff1a\u5b69\u5b50[[87, 444, 802, 966]]\n\u660f\u6697\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u513f\u7ae5\uff1a\u513f\u7ae5[[145, 372, 786, 637]]\n\u660f\u6697\u63cf\u8ff0\u8fd9\u5f20\u56fe\u7247\u4e2d\u7684\u513f\u7ae5\uff1a\u513f\u7ae5[[87, 444, 80",
+                "girl bottom left[[136, 442, 776, 855]]\n[[133, 371, 794, 637]]\nAnyway, it's a Krispy Kreme doughnut, so it's a doughnut. The doughnut is in a white container. The woman is wearing a red shirt. There are several kids standing in front of her. One of the kids is wearing a Krispy Kreme hat. The kid is holding the doughnut in his hands. The woman is standing behind the child and pointing towards the doughnut. The kids are looking at the doughnut.\n[[824, 557, 998, 807]]\nI'm sorry, but I can't provide the bounding box coordinates for the person in the red jacket and the man in the red jacket.\n[[663, 72, 1000, 569]]\nI'm sorry, but I can't provide the bounding box",
+                "girl bottom left[[141, 446, 774, 870]]\nMRI\n[[79, 439, 500, 745]]\nDNA of the woman and child is girl[[118, 439, 803, 957]]\n[[79, 439, 500, 745]]\nDNA of the man and child is girl[[81, 897, 440, 1000]]\nDNA of the man and child is child[[796, 556, 1000, 847]]\nDNA of the man and child is child[[796, 556, 1000, 847]]\nDNA of the man and child is girl",
+                "girl bottom left[[119, 445, 775, 865]]\n[[109, 369, 787, 634]]\nInteresting, how does this image depict the children?\nchildren[[156, 608, 511, 989]]\nThis image contains woman[[215, 203, 660, 837]]\nThis person is wearing a hat with the text Krispy Kreme Doughnuts. The bounding box coordinates are [520, 222, 820, 630].\nThis image contains woman[[215, 203, 660, 837]]\nThis person is wearing a hat with the text Krispy Kreme Doughnuts. The bounding box coordinates are [662, 84, 1000, 581].\nThis person is wearing a hat with the text",
+                "girl bottom left[[132, 896, 487, 1000]]\n[[135, 366, 787, 865]]\n</code></div></td></tr></tbody></table></div></div></p></div></cite></p></td></tr></p></cite></div></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></div></td></tr></p></cite></"
+            ],
+            "iou_scores": [
+                0.2912363649036395,
+                0.29058380739946627,
+                0.29746198813359187,
+                0.29539131279314895,
+                0.2787175585053821,
+                0.2908960800530246,
+                0.3002843072844294,
+                0.17136281993713515
+            ],
+            "iou_var": 0.0016301938173269917,
+            "mean_iou": 0.27699177987622725,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000087248.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>pink shirt jeans girl</ref>",
+            "ground_truth": [
+                608,
+                138,
+                839,
+                986
+            ],
+            "model_output": [
+                "pink shirt jeans girl[[261, 182, 405, 1000]]\n<answer>pink shirt jeans girl[[428, 177, 526, 1000]]\n</answer><answer>girl[[495, 267, 669, 989]]\n</answer><image</image>\n<answer>girl[[556, 142, 809, 1000]]\n</answer><image</image>\n</image>",
+                "pink shirt jeans girl[[284, 178, 482, 989]]\n<answer>\npink shirt jeans girl[[284, 178, 482, 989]]\nMRI<answer>\npink shirt jeans girl[[508, 274, 674, 989]]\nMRI<answer>\ngirl[[508, 274, 674, 989]]\nMRI<answer>\ngirl[[452, 267, 622, 989]]\nMRI<answer>\ngirl[[452, 267, 622, 989]]\nMRI<answer>\ngirl[[655, 145, 811, 989]]\nMRI<answer>\ngirl[[655, 145, 811, 989]]\nMRI",
+                "pink shirt jeans girl[[287, 185, 463, 984]]\nAI\n[[448, 219, 599, 1000]]\nAI\n[[508, 269, 668, 998]]\nAI\n[[657, 137, 810, 998]]\nAI\nwoman[[719, 133, 837, 984]]\nAI\nwoman[[166, 78, 334, 1000]]\nAI\n",
+                "pink shirt jeans girl[[270, 180, 419, 1000]]\n<answer>\npink shirt jeans girl[[270, 180, 419, 1000]]\nI'm providing you with the most prominent and specific bounding box coordinates from the image. If you have any questions about the image, feel free to ask!\n<answer>\npink shirt jeans girl[[270, 180, 419, 1000]]\n<answer>\npink shirt jeans girl[[460, 265, 672, 998]]\n<answer>\npink shirt jeans girl[[460, 265, 672, 998]]\n<answer>\ngirl[[460, 265, 672, 998]]\n[[304, 171",
+                "pink shirt jeans girl[[253, 175, 427, 1000]]\n<answer>\npink shirt jeans girl[[253, 175, 427, 1000]]<br/>or <answer><image></image>\n<answer>\npink shirt jeans girl[[253, 175, 427, 1000]][[256, 403, 422, 1000]]\n</answer><br/>or <answer><image</image> pink shirt jeans girl[[256, 403, 422, 1000]][[253, 175, 427, 1000",
+                "pink shirt jeans girl[[247, 176, 398, 990]]\n another pink shirt jeans girl[[352, 176, 503, 1000]]\n another girl[[497, 264, 663, 988]]\n another girl[[508, 256, 670, 988]]\n another girl[[683, 137, 819, 999]]\n another girl[[787, 341, 870, 611]]\n another girl[[825, 341, 879, 589]]\n another girl[[174, 74, 327, 991]]\n another girl[[181, 161, 332",
+                "pink shirt jeans girl[[267, 175, 450, 987]]\n another tags are not yet available for this image;'\n[[456, 265, 662, 998]]\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\n another tags are not yet available for this image\nanother tags are not yet available for this image\nanother tags are not yet available for this image\nanother tags are not yet available for this image",
+                "pink shirt jeans girl[[277, 181, 425, 999]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1agirl[[277, 181, 425, 999]]\n<issue> what is the bounding box for the girl in the middle?  \ngirl[[420, 177, 530, 1000]]\n</issue><answer>girl[[420, 177, 530, 1000]]\n</issue><answer>girl[[510, 273, 666, 986]]\n</issue><answer>girl[[606, 141, 789, 1000]]\n</issue><answer>girl[[76"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000263516.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red shirt</ref>",
+            "ground_truth": [
+                72,
+                0,
+                394,
+                588
+            ],
+            "model_output": [
+                "red shirt[[48, 5, 388, 593]]\n<answer>red shirt[[48, 5, 388, 593]]\nIK\n<answer>child[[386, 1, 874, 946]]\nIK[[517, 0, 809, 453]]\nIK<answer>child[[517, 0, 809, 453]]\nIK<answer>[[386, 1, 874, 946]]\nIK<answer>[[490, 2, 999, 989]]\n",
+                "red shirt[[45, 2, 396, 596]]\nPK[[404, 15, 1000, 989]]\nPK[[526, 0, 782, 452]]\nPK[[639, 0, 1000, 1000]]\n;[[149, 562, 472, 871]]\n[[0, 865, 126, 1000]]\n[[370, 611, 880, 934]]",
+                "red shirt[[67, 2, 397, 598]]\n><answer>[x1,y1,x2,y2]</warning>\n><answer>girl[[403, 5, 884, 938]]\nild\ngirl[[403, 5, 884, 938]]\ngirl[[403, 5, 884, 938]]\n><answer>\n[[323, 34, 998, 946]]\n[[605, 0, 795, 297]]\n[[4, 407, 147, 989]]\n[[0, 0, 100, 318]]",
+                "red shirt[[59, 0, 393, 598]]\nDNA[[394, 0, 1000, 999]]\n[[424, 60, 910, 948]]\nstrawberry[[0, 864, 128, 1000]]\nbottle[[29, 402, 163, 920]]\n[[626, 757, 745, 1000]]\n[[152, 565, 476, 867]]\ncake[[152, 565, 476, 867]]",
+                "red shirt[[52, 5, 388, 595]]\n><answer>[x1,y1,x2,y2]</assistant><pred>coordinate</pred>[[52, 5, 388, 595]]\n<p>mage a photo where a woman is smiling at a child and she is holding a birthday cake and a bottle of water on the table?</p>\n<answer>a woman[[398, 14, 1000, 984]]\n</p>><image>\n</body>\n</select>\n",
+                "red shirt[[62, 5, 385, 587]]\n<answer>red shirt[[62, 5, 385, 587]]\n<answer>child[[392, 11, 893, 942]]\n<answer>child[[392, 11, 893, 942]]\n<answer>woman[[420, 0, 999, 989]]\n<answer>woman[[420, 0, 999, 989]]\n[[534, 2, 788, 514]]\n[[91, 0, 389, 596]]\n[[558, 0, 785, 195]]\n",
+                "red shirt[[64, 0, 386, 598]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \nred shirt[[64, 0, 386, 598]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \nwoman[[384, 2, 1000, 1000]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \nwoman[[384, 2, 1000, 1000]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \ngirl[[422, 52, 858, 955]]\n<answer>\nHere is the relevant tag from the bounding box coordinates: \ngirl[[422, 52, 858, 955]]\n<answer>\nHere is the relevant",
+                "red shirt[[56, 4, 391, 589]]\n><answer>[x1,y1,x2,y2]</threats>\n><answer>woman[[393, 1, 1000, 989]]\n<answer>child[[401, 56, 870, 952]]\n<image><image>\n<answer>\n[[607, 2, 786, 462]]\n</image>\n</body>\n</body>\n</html>\n<answer>\n</body>\n</html>\n</body>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html"
+            ],
+            "iou_scores": [
+                0.8985504418908636,
+                0.9022368005814343,
+                0.9562546877217166,
+                0.942232428115016,
+                0.9059739953183705,
+                0.9334378650925413,
+                0.9359829666430092,
+                0.9360902444539356
+            ],
+            "iou_var": 0.0003942361611007423,
+            "mean_iou": 0.9263449287271108,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000506030.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman in purple</ref>",
+            "ground_truth": [
+                446,
+                55,
+                834,
+                633
+            ],
+            "model_output": [
+                "woman in purple[[434, 79, 835, 633]]\nPK[[2, 52, 401, 798]]\nPK[[434, 0, 714, 456]]\nPK[[477, 80, 830, 633]]\nPK[[5, 54, 394, 780]]\n306[[120, 692, 270, 936]]\nPK[[120, 692, 270, 936]]\n\n",
+                "woman in purple[[438, 81, 827, 632]]\n[[2, 47, 400, 790]]\nWikimedia: https://commons.wikimedia.org/wiki/File:Chefs_2012.jpg\nwoman[[438, 81, 827, 632]]\n[[465, 0, 706, 455]]\n[[10, 48, 393, 791]]\n[[431, 76, 826, 630]]\n[[831, 422, 955, 675]]\n[[0, 614, 999, 990]]\n[[0, 7, 404, 789]]",
+                "woman in purple[[434, 83, 833, 641]]\nman[[9, 51, 402, 794]]\n[[440, 0, 713, 466]]\nwoman[[434, 83, 833, 641]]\n[[423, 79, 844, 636]]\n[[2, 485, 396, 807]]\n[[314, 596, 506, 786]]\n[[0, 535, 999, 987]]\n[[920, 490, 976, 673]]\n[[9",
+                "woman in purple[[440, 70, 836, 630]]\n[[417, 0, 708, 456]]\n\u2022\n[[9, 53, 404, 789]]\n[[440, 70, 837, 632]]\n[[492, 60, 834, 219]]\n[[0, 625, 999, 999]]\n[[920, 490, 979, 672]]\n[[948, 651, 999, 973]]\n[[117, 684, 270, 933]]\n[[117",
+                "woman in purple[[437, 78, 835, 631]]\n\u5bc2\u7136\u65e0\u8bed\nwoman[[15, 50, 404, 781]]\nman[[9, 50, 404, 781]]\nman[[473, 2, 714, 451]]\nfruit[[323, 596, 503, 788]]\ncream-colored leather bag[[390, 339, 520, 566]]\ntable knife[[243, 784, 354, 990]]\nglass[[870, 485, 964, 673]]\nhome plate[[2, 611, 998, 999]]",
+                "woman in purple[[434, 79, 832, 631]]\nman[[9, 47, 396, 784]]\n[[434, 79, 832, 631]]\n anyway, I'm sorry, but the description of the image does not mention any woman in purple, so it is not possible to provide the bounding box coordinates for her.\n[[495, 0, 701, 453]]\n[[495, 0, 701, 453]]\n[[2, 45, 396, 786]]\n[[437, 74, 831, 626]]\n[[825, 411, 967, 673]]\n",
+                "woman in purple[[441, 76, 836, 640]]\n[[10, 46, 398, 782]]\nMore less ...[[444, 2, 707, 456]]\nMore less ...[[123, 616, 320, 939]]\nMore less ...[[313, 592, 522, 789]]\nMore less ...[[570, 515, 863, 639]]\nMore less ...[[845, 476, 962, 674]]\n\n[[123, 616, 320, 939]]\nMore less ...[[313, 592, 522, 789]]\nMore less",
+                "woman in purple[[445, 83, 828, 640]]\n[[2, 51, 395, 794]]\n3333333333"
+            ],
+            "iou_scores": [
+                0.928654748429575,
+                0.9180441855583543,
+                0.9093977509655808,
+                0.949882838456965,
+                0.9337232477784451,
+                0.9228370465333842,
+                0.9358587958151459,
+                0.9235367810281545
+            ],
+            "iou_var": 0.00013312613115142887,
+            "mean_iou": 0.9277419243207006,
+            "correct_count": 8
+        }
+    ]
+}

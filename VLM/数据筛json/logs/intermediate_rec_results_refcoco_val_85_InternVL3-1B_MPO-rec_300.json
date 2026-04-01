@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 85,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000253251.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>planter on left</ref>",
+            "ground_truth": [
+                3,
+                287,
+                315,
+                486
+            ],
+            "model_output": [
+                "planter on left[[1, 292, 325, 488]]\n<answer>planter on left[[238, 107, 466, 449]]\n</answer><image>\nplanter on left[[1, 292, 325, 488]]\n</image><image>\nplanter on left[[1, 292, 325, 488]]\n</image><image>\nplanter on left[[1, 292, 325, 488]]\n</image>",
+                "planter on left[[6, 290, 307, 487]]\n><answer>[x1,y1,x2,y2]</world>\n><answer>&#x1206;120&#x2777;</answer>\n><answer>[x1,y1,x2,y2]</world>\n",
+                "planter on left[[0, 287, 315, 494]]\n<answer>planter on left[[184, 90, 451, 446]]\n</answer><answer>ball[[308, 617, 418, 695]]\n</answer>ball[[308, 617, 418, 695]]\n</body>[[306, 620, 421, 695]]\n</image>\n</image>[[306, 620, 421, 695]]\n</image>\n</image>[[12, 301, 242, ",
+                "planter on left[[2, 290, 298, 492]]\n<answer>planter on left[[2, 290, 298, 492]]\n<answer>young boy[[359, 226, 671, 667]]\n</answer><issue>tags\nyoung boy[[359, 226, 671, 667]]\n</issue><issue>tags\nfence[[124, 0, 995, 375]]\n</issue><issue>tags\nfence[[124, 0, 995, 375]]\n</issue><issue>tags\nball[[308, 621, 413, 694]]\n</issue><issue>",
+                "planter on left[[5, 289, 325, 489]]\n<answer>planter on left[[254, 107, 462, 447]]\n<answer>boy[[361, 228, 668, 671]]\n<answer>boy[[361, 228, 668, 671]]\n<answer>ball[[308, 616, 417, 694]]\n<answer>ball[[308, 616, 417, 694]]\n<pre>and the bounding box coordinates of the boy <answer>[[[361, 227, 667, 672]]</pre>\n<answer>boy[[361, 2",
+                "planter on left[[6, 294, 296, 488]]\n<answer>>\n<question>What is the boy doing in the image?</answer>\n<answer>Based on the image, the boy is kicking a red soccer ball. He appears to be in a playful stance, with one foot on the ball and the other foot extended outward. This suggests that he is actively engaged in playing soccer.</statement>\n[[343, 228, 672, 670]]\n</answer></div></div></div>\n</body>\n</body>>\n</body></mark>\n</body></mark>\n</d",
+                "planter on left[[0, 292, 312, 492]]\n<answer>&#931;The bounding box coordinate of the region described as the boy's feet is [401, 575, 559, 675].</div>\n<answer>\n<answer>&#931;The bounding box coordinate of the region described as the boy kicking the ball is [322, 598, 426, 694].</div>\n<answer>\n<answer>&#931;The bounding box coordinate of the region described as the boy kicking the ball is [315, 620, 416, 696].</div>\n<answer>\n<answer>&#931;The bounding box coordinate of the region described as the boy kicking the ball is [370, 229, 668, 656].</div>\n<answer>",
+                "planter on left[[6, 292, 305, 492]]\n<answer>\nplanter on left[[271, 101, 474, 447]]\nMRI<answer>\nboy[[362, 225, 668, 671]]\n<image>\n<answer>\n endwhile\nboy[[362, 225, 668, 671]]\nendif\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image"
+            ],
+            "iou_scores": [
+                0.0977662826240301,
+                0.0,
+                0.1528049827233312,
+                0.902591320636903,
+                0.9392783536866713,
+                0.0,
+                0.92879055498745,
+                0.908017908017908
+            ],
+            "iou_var": 0.18588697928971545,
+            "mean_iou": 0.4911561753345367,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000057551.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left half</ref>",
+            "ground_truth": [
+                210,
+                215,
+                584,
+                808
+            ],
+            "model_output": [
+                "left half[[217, 218, 577, 807]]\n[[472, 113, 727, 712]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, 577, 807]]\n\u2022 left half[[217, 218, ",
+                "left half[[211, 215, 580, 801]]\n[[479, 117, 720, 709]]\n\u2022\n[[0, 0, 533, 615]]\n\u2022 left half[[211, 215, 580, 801]]\n\u2022 left half[[211, 215, 580, 801]]\n\u2022 left half[[211, 215, 580, 801]]\n\u2022 left half[[211, 215, 580, 801]]\n\u2022 left half[[211, 215, 580, 801]]\n\u2022 left half[[211, 215, 5",
+                "left half[[215, 215, 583, 802]]\n[[466, 110, 718, 711]]\n \u2022 left half[[215, 215, 583, 802]][[466, 110, 718, 711]]\n \u2022 left half[[215, 215, 583, 802]][[466, 110, 718, 711]]\n \u2022 left half[[215, 215, 583, 802]][[466, 110, 718, 711]]\n \u2022 left half[[2",
+                "left half[[211, 219, 583, 802]]\n[[482, 110, 721, 715]]\n \u2022 left half[[211, 219, 583, 802]]\n \u2022 left half[[211, 219, 583, 802]]</selected answer>\n \u2022 left half[[211, 219, 583, 802]]\n \u2022 left half[[211, 219, 583, 802]]\n \u2022 left half[[211, 219, 583, 802]]\n \u2022 left half[[211, 219, 583, 802]]\n \u2022 ",
+                "left half[[211, 217, 574, 807]]\n[[475, 108, 725, 710]]\nA person is sitting at the table with a green cloth over their shoulder. The table setting includes a glass, a fork, a knife, and a bowl.\n[[1, 1, 1000, 989]]\n[[1, 1, 1000, 989]]\n[[656, 0, 809, 281]]\n[[675, 48, 943, 157]]\n[[635, 530, 946, 796]]",
+                "left half[[217, 216, 577, 805]]\n[[476, 110, 720, 706]]\n\u2022\n[[627, 0, 797, 275]]\n\u2022 left half[[217, 216, 577, 805]]\n\u2022 left half[[627, 0, 797, 275]]\n\u2022 left half[[217, 216, 577, 805]]\n\u2022 left half[[627, 0, 797, 275]]\n\u2022 left half[[476, 110, 720, 706]]\n\u2022 left half[[217, 216, 57",
+                "left half[[211, 219, 578, 802]]\n[[464, 108, 720, 717]]\n\u2022\n[[0, 1, 1000, 987]]\n[[1, 1, 1000, 987]]\n[[212, 217, 575, 800]]\n[[477, 113, 720, 709]]\n[[609, 0, 804, 289]]\n[[660, 476, 949, 793]]",
+                "left half[[212, 216, 586, 802]]\n[[475, 107, 721, 714]]\nIf the sentence was \"What is the type of sandwich shown in the image?\", then the answer is: \"A deli-style sandwich with a golden-brown crust, filled with ham and cheese, and topped with a dark sauce.\"\n[[19, 0, 620, 305]]\nIf the sentence was \"What is the type of food shown in the image?\" then the answer is: \"A meal consisting of a deli-style sandwich and a side of rice and vegetables.\"\n[[522, 495, 947, 786]]\nIf the sentence was \"Where is the plate on the table?\" then the answer is: \"The plate is on the table in front of the person wearing a green cloth.\"\n[[4, 1"
+            ],
+            "iou_scores": [
+                0.9560739825594503,
+                0.9749844441839284,
+                0.9740014969654887,
+                0.9778791786529114,
+                0.9656780081341136,
+                0.9560739825594503,
+                0.964735641305426,
+                0.9777442880594204
+            ],
+            "iou_var": 7.207503650303623e-05,
+            "mean_iou": 0.9683963778025236,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000568873.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy far right</ref>",
+            "ground_truth": [
+                827,
+                399,
+                966,
+                988
+            ],
+            "model_output": [
+                "guy far right[[767, 42, 964, 989]]\n<answer>guy far right[[767, 42, 964, 989]]\n<answer>guy far left[[257, 43, 600, 987]]\nIX.[[424, 42, 606, 986]]\nIX.[[526, 409, 766, 824]]\n<answer>guy far left[[145, 445, 454, 886]]\n<answer>guy far left[[51, 452, 277, 988]]\n<answer>guy far left[[51, 452, 277, 988]]\n",
+                "guy far right[[798, 421, 962, 1000]]\n<answer>\nguy far right[[798, 421, 962, 1000]]\n<issuealength>[[798, 421, 962, 1000]]\n<answer>\nguy far right[[473, 33, 677, 783]]\n[[473, 33, 677, 783]]\n[[299, 40, 522, 989]]\n[[522, 366, 700, 694]]\n[[191, 516, 388, 781]]\n<issuealength>guy far left[[191, 516, ",
+                "guy far right[[792, 406, 966, 987]]\n<answer>guy far right[[792, 406, 966, 987]]\n<image>\n<answer>\n endwhile\nguy far right[[792, 406, 966, 987]]\n endwhile\n<answer>\n otherwise, I'll provide the bounding box for the person in the purple shirt standing in the middle of the group, facing away from the camera, and gesturing with his right hand raised. The coordinates for the top-left corner (x1, y1) and bottom-right corner (x2, y2) would be:\n\n[[368, 33, 625, 989]]\n<answer>\n\u015fi<answer>[[368, 33, 625, 9",
+                "guy far right[[798, 360, 963, 987]]\n<answer>guy far right[[798, 360, 963, 987]]\n\u52ab\nguy far left[[193, 420, 370, 804]]\nI <pred>on</pred>[[193, 420, 370, 804]][[36, 736, 321, 989]]\nI <pred>in front of</pred>[[193, 420, 370, 804]][[36, 736, 321, 989]]\nI <pred>in front of</pred>[[798, 360, 963, 987]][[193, 420, 370, 8",
+                "guy far right[[779, 353, 962, 986]]\n<answer> <lbrace><briar>[x1,y1,x2,y2]</briar> </lbrace>[[636, 289, 804, 629]]\n<answer> <lbrace><briar>[204, 225, 475, 679]</briar> </lbrace>[[474, 189, 635, 720]]\n</answer>",
+                "guy far right[[804, 415, 965, 989]]\n<answer>\ny1</code></result>\n<code></code><result><div>guy far right</div></result>\n<answer>guy far right[[804, 415, 965, 989]]\n</solution>\n</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div",
+                "guy far right[[794, 406, 963, 1000]]\n<answer>\noui, here is the bounding box coordinate for the region described: guy far right[[794, 406, 963, 1000]]\n<answer>\niii, here is the bounding box coordinate for the region described: guy far right[[794, 406, 963, 1000]]\n[ii, 133, 433, 867]]\n\u200b",
+                "guy far right[[784, 367, 965, 987]]\n<answer>\nguy far right[[784, 367, 965, 987]]\n<issue> guy far left[[225, 303, 393, 762]]\nImages: \nguy far left[[225, 303, 393, 762]]\nImages: \nguy far left[[225, 303, 393, 762]]\nImages: \nguy far left[[752, 312, 843, 760]]\nImages: \nguy far left[[752, 312, 843, 760]]\nImages: \nguy far right[[784, 367"
+            ],
+            "iou_scores": [
+                0.42981937497669614,
+                0.7632975010470473,
+                0.7901590904643563,
+                0.7590121300708063,
+                0.0,
+                0.8305132810284526,
+                0.7676834295136027,
+                0.7184254561874154
+            ],
+            "iou_var": 0.07049652932000688,
+            "mean_iou": 0.6323637829110471,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000395791.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>carrots</ref>",
+            "ground_truth": [
+                609,
+                528,
+                939,
+                927
+            ],
+            "model_output": [
+                "carrots[[608, 528, 942, 947]]\nA great tag: carrots[[608, 528, 942, 947]]\n[[608, 528, 942, 947]]\n[[608, 528, 942, 947]]\n[[9, 531, 608, 977]]\n[[608, 528, 942, 947]]\n[[9, 531, 608, 977]]\n[[591, 183, 997, 532]]\ncarrot[[64",
+                "carrots[[600, 522, 940, 932]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1acarrots[[600, 522, 940, 932]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1acarrots[[574, 592, 871, 906]]\n<issue>\n<issue>\n<issue>",
+                "carrots[[601, 527, 943, 946]]\n<answer>\n\u8bf4\u662fbest! \u6709\u4ec0\u4e48\u7279\u522b\u7684\u98df\u7269\u5417\uff1f<br>\uff08What special food are you particularly interested in?\uff09\n<answer>Based on the image, there doesn't appear to be any special food that is particularly interesting. The bento box contains a variety of colorful fruits and vegetables, including grapes, strawberries, kiwi slices, and carrots. The food is neatly arranged in individual compartments, which is a common feature of a bento box. The text on the card also suggests a positive and healthy approach to eating, which aligns with the bento box's theme. However, there's no specific food item that stands out as particularly special or noteworthy. So, the answer is: There doesn't appear to be any special food that is particularly interesting, but the bento box contains a variety of colorful fruits and vegetables.\n<answer>\n<answer>\u6839\u636e\u56fe\u7247\u5185\u5bb9\uff0c\u6ca1\u6709\u7279\u522b\u7a81\u51fa\u7684\u7279\u522b\u98df\u7269\u3002\u56fe\u7247\u5c55\u793a\u4e86\u4e00\u4e2a\u88c5\u6709\u5404\u79cd",
+                "carrots[[611, 524, 941, 935]]\n<answer>\nuser\n\nCould you describe the contents of the lunch box?\n\nPlease provide a detailed description with the bounding coordinates of the objects present in the text of your response (if any). \nSure, here's a detailed description of the contents of the lunch box:\n\nBento[[10, 211, 607, 944]]\ngrapes[[13, 534, 600, 935]]\nstrawberry[[22, 535, 600, 933]]\nkiwi fruit[[243, 566, 579, 922]]\nbanana[[362, 563, 633, 907]]\ncarrot[[633, 588, 943, 915]]\norange[[63",
+                "carrots[[601, 524, 944, 947]]\n<answer>\nsuspect AI bot missed the detail\ncarrots[[601, 524, 944, 947]]\n</div></div></div></div></div></div>\n<answer>carrots[[601, 524, 944, 947]]\n</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div",
+                "carrots[[594, 526, 954, 928]]\nKnow the context or background of the image?\nImage tag: carrots[[594, 526, 954, 928]]\nAgain, this time for description of the region in the image: carrots[[594, 526, 954, 928]]\nWhat is the function of the pink plastic container? bento box[[0, 173, 992, 982]]\nWhat is the function of the pink plastic container? bento box[[0, 173, 992, 982]]\nWhat is the function of the pink plastic container? bento box[[0, 173, 992, 982]]\nWhat is the function of the pink plastic container?",
+                "carrots[[601, 525, 947, 945]]\nDB[[3, 535, 607, 983]]\nDB[[13, 214, 587, 616]]\nDB[[579, 179, 942, 532]]\nDBfork[[842, 192, 941, 556]][[576, 532, 948, 946]]",
+                "carrots[[597, 524, 936, 944]]\n-Xcoordinate:[132, 349]--Ycoordinate:[338, 387]\n-Xcoordinate:[132, 530]--Ycoordinate:[338, 579]\n-Xcoordinate:[597, 530]--Ycoordinate:[935, 535]\n-Xcoordinate:[132, 709]--Ycoordinate:[338, 752]\n-Xcoordinate:[597, 709]--Ycoordinate:[935, 748]\n-Xcoordinate:[132, 783]--Ycoordinate:[339, 818]\n-Xcoordinate:[597, 784]--Ycoordinate:[934, 799]\n-Xcoordinate:[132, 857]--Ycoordinate:[339, 897]\n-Xcoordinate:[597,"
+            ],
+            "iou_scores": [
+                0.940862904263073,
+                0.9445480631276901,
+                0.918854415274463,
+                0.9592752220951711,
+                0.9075119409465914,
+                0.9098258706467661,
+                0.9060693641618497,
+                0.9087318999561211
+            ],
+            "iou_var": 0.0003753863604063541,
+            "mean_iou": 0.9244599600589657,
+            "correct_count": 8
+        }
+    ]
+}

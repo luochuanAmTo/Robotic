@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 0,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000326092.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>hands</ref>",
+            "ground_truth": [
+                669,
+                366,
+                1000,
+                792
+            ],
+            "model_output": [
+                "hands[[657, 361, 1000, 793]]\ncake[[394, 517, 816, 836]]\n[[404, 620, 822, 854]]\n[[38, 2, 795, 635]]\n[[42, 755, 372, 1000]]\n[[656, 812, 764, 989]]\n[[367, 880, 611, 1000]]\n[[26, 688, 346, 996]]\n[[600, 739, 999, 998]]\n[[",
+                "hands[[665, 353, 1000, 792]]\nAI\n[[46, 18, 794, 640]]\nAI\n[[713, 655, 998, 793]]\n[[379, 518, 819, 851]]\n[[363, 884, 606, 1000]]\n[[15, 761, 363, 989]]\n[[384, 880, 600, 1000]]\n[[503, 523,",
+                "hands[[639, 368, 1000, 801]]\ncake[[403, 518, 818, 841]]\n[[381, 885, 622, 1000]]\n[[2, 753, 343, 1000]]\n[[631, 703, 888, 989]]\n[[400, 522, 815, 830]]\n[[381, 884, 622, 998]]\n[[41, 6, 801, 641]]\n[[377, 559, 798, 75",
+                "hands[[652, 366, 1000, 790]]\ncake[[415, 515, 813, 848]]\n[[392, 652, 831, 886]]\n[[35, 19, 795, 644]]\n[[50, 757, 356, 999]]\n[[358, 884, 603, 999]];;;;;[[678, 867, 999, 989]]",
+                "hands[[652, 361, 1000, 800]]\n[[45, 21, 794, 640]]\n hence the bounding box coordinates: [453, 519, 819, 834]]\n hence the bounding box coordinates: [397, 661, 819, 879]]\n hence the bounding box coordinates: [253, 880, 592, 1000]]\n hence the bounding box coordinates: [68, 761, 363, 984]]\n hence the bounding box coordinates: [590, 697, 872, 984]]\n hence the bounding box coordinates: [37, 622, 349, 766]]\n hence the bounding box coordinates: [381, 554, 819, 69",
+                "hands[[665, 357, 1000, 794]]\nperson[[35, 19, 796, 643]]\n\u6829\u6829\u5982\u751f\u7684\u767d\u732b\u548c\u4e00\u53ea\u7c89\u7ea2\u8272\u7684\u5c0f\u72d7\u5728\u56fe\u7247\u7684\u53f3\u4e0b\u89d2\uff0c\u4f4d\u4e8e\u684c\u5b50\u4e0a\uff0c\u5177\u4f53\u4f4d\u7f6e\u662f\uff1a[[831, 654, 998, 804]][[352, 882, 616, 1000]]\n[[402, 517, 820, 858]]\n[[534, 384, 674, 579]]\n\n[[654, 371, 998, 585]]\n\n[[32, 760, 359,",
+                "hands[[663, 351, 1000, 787]]\nman[[37, 19, 803, 645]]\n[[699, 360, 1000, 800]]\n```\nman[[37, 19, 803, 645]]\n```\n```[[382, 517, 814, 853]]\n```\n```[[49, 761, 387, 1000]]\n[[325, 882, 595, 1000]]\n[[429, 525, 825, 868]]\n[[616",
+                "hands[[652, 365, 1000, 800]]\ncake[[403, 522, 823, 844]]\n[[395, 886, 634, 1000]]\nThis is a large cake with three layers and white frosting. The cake is on a silver cake stand. The man is cutting it with a knife. He is wearing a white chef's uniform and a white hat.\nThis is a large cake with three layers and white frosting. The cake is on a silver cake stand. The man is cutting it with a knife. He is wearing a white chef's uniform and a white hat.\nThis is a large cake with three layers and white frosting. The cake is on a silver cake stand. The man is cutting it with a knife. He is wearing a white chef's uniform and a white hat.\nThis is a large cake with three layers and white frosting. The cake is on a silver cake stand. The man is cutting it"
+            ],
+            "iou_scores": [
+                0.9516115970197603,
+                0.9588005303777242,
+                0.894053193183628,
+                0.9469011024599565,
+                0.9229832691854528,
+                0.963188633491581,
+                0.9378411301123247,
+                0.9314704716607214
+            ],
+            "iou_var": 0.0004412629090559324,
+            "mean_iou": 0.9383562409363936,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000307242.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>fully visible wine glass on right</ref>",
+            "ground_truth": [
+                686,
+                469,
+                883,
+                988
+            ],
+            "model_output": [
+                "fully visible wine glass on right[[696, 477, 880, 989]]\n[[148, 470, 320, 953]]\n[[696, 477, 880, 989]]\n[[148, 470, 320, 953]]\n[[89, 249, 292, 475]]\n[[697, 478, 881, 986]]",
+                "fully visible wine glass on right[[694, 482, 875, 989]]\n[[148, 467, 326, 948]]\n[[694, 482, 875, 989]]\n[[148, 467, 326, 948]]\n[[148, 467, 326, 948]]\n[[694, 482, 875, 989]]\n[[148, 467, 326, 948]]\n[[694, 482, 875, 989]]\n[[148, 467, 326, 948]]\n[[1",
+                "fully visible wine glass on right[[697, 478, 881, 989]]\n[[146, 466, 317, 948]]\n[[697, 478, 881, 989]]\n[[0, 810, 998, 989]]\n[[970, 485, 1000, 989]]\n[[149, 251, 288, 464]]\n[[655, 913, 708, 948]]\n[[92, 251, 322, 474]]\n[[146, 466, 317, 948]]",
+                "fully visible wine glass on right[[695, 478, 881, 999]]\n[[149, 468, 319, 945]]\n[[0, 813, 1000, 988]]\n[[695, 478, 881, 999]]\n[[898, 486, 999, 986]]\n[[149, 468, 319, 945]]\n[[104, 244, 286, 477]]",
+                "fully visible wine glass on right[[694, 479, 878, 984]]\n[[150, 469, 316, 955]]\n[[692, 477, 879, 989]]\n[[0, 805, 999, 1000]]\n[[135, 248, 295, 471]]\n[[260, 2, 998, 939]]\n[[0, 482, 999, 984]]\n[[135, 248, 295, 471]]\n[[260, 2, 998, 939]]",
+                "fully visible wine glass on right[[687, 480, 883, 989]]\n[[150, 468, 317, 946]]\n[[687, 480, 883, 989]]\n[[150, 468, 317, 946]]\n[[120, 247, 289, 466]]\n[[692, 469, 882, 992]]\n[[966, 487, 1000, 995]]\n[[150, 468, 317, 946]]\n[[687, 480, 883, 989]]\n[[",
+                "fully visible wine glass on right[[691, 475, 882, 987]]\n<answer>\nfully visible wine glass on right[[691, 475, 882, 987]]\n<question>What is the person pouring the wine into?<sep>What is the person doing with the wine bottle?<sep>What is the man doing?<sep>How many glasses are on the table?<sep>Where is the man?<sep>What is the man wearing?<sep>What is the man doing?<sep>What is the man doing?<sep>How is the setting?<sep>How is the setting?<sep>What is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How is the setting?<sep>How",
+                "fully visible wine glass on right[[692, 479, 883, 989]]\n<answer>A bounding box coordinate of the region where the person is pouring wine is <start>x: 290, y: 376, width: 300, height: 178></start>\n<answer>A bounding box coordinate of the region where the wine bottle is is <start>x: 212, y: 305, width: 255, height: 480></start>\n<answer>A bounding box coordinate of the person is <start>x: 161, y: 299, width: 260, height: 426></start>\n<answer>A bounding box coordinate of the wine bottle is <start>x: 212, y: 305, width: 255, height: 480></start>\n<answer>A bounding box coordinate of the wine glass is <start>x: 161, y"
+            ],
+            "iou_scores": [
+                0.9179610844796782,
+                0.894184956650785,
+                0.9161646831401876,
+                0.9095877801110376,
+                0.9088152734172511,
+                0.9719735647556107,
+                0.9564664573613841,
+                0.9490891696116524
+            ],
+            "iou_var": 0.0006600168212073068,
+            "mean_iou": 0.9280303711909483,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000296614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                0,
+                329,
+                223,
+                1000
+            ],
+            "model_output": [
+                "catcher[[0, 335, 226, 989]]\n<answer>catcher[[0, 335, 226, 989]];<comment>catcher[[715, 263, 936, 931]]\n<answer>bat[[184, 0, 387, 532]]\n[[114, 125, 572, 989]]\n[[692, 551, 734, 640]]\n[[114, 125, 572, 989]]\n[[715, 263, 936, 931]]\n[[0, 335, 226, 989",
+                "catcher[[0, 336, 228, 1000]]\n<answer>\nhere is the bounding box coordinate of the region described by the sentence: catcher[[0, 336, 228, 1000]]\n<answer>\nThis is the bounding box of the region described by the sentence: batter[[113, 18, 576, 989]][[113, 18, 576, 989]]\n<answer>\nThis is some text in the output: \"GV\" <answer>[z]780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780,z780",
+                "catcher[[0, 330, 238, 987]]\n<answer><boxed><zr0k</zr0k></zr0k></box&gt;\n&lt;/boxed&gt;\n&lt;answer&gt;<imgsrc>images/jessica-1208x64.jpg</img&gt;\n&lt;answer&gt;<imgsrc>https://i.pinimg.com/originals/4a/3f/6c/4a3f6c4f42497692630d116f1b2f3c6f.jpg</img&gt;\n&lt;/answer&gt;&lt;image&gt;\n&lt;image&gt;\n[[107, 17, 578, 987]]\n&lt;image&gt;\n[[664, 268, 934, 930]]\n&lt;image&gt;",
+                "catcher[[0, 330, 236, 1000]]\n<answer>\nHere is the detailed coordinates of the region described in the sentence: \n\ncatcher[[0, 330, 236, 1000]]\n<issue>\n<answer>Answer: <answer>catcher[[0, 330, 236, 1000]]\n<answer>catcher[[111, 15, 588, 987]]\n</issue>\n<issue> catcher[[111, 15, 588, 987]]\n<answer>Answer: <answer>catcher[[0, 330, 236, 1000]]\n</issue>\n<answer>\n<answer>```<sep>```<answer",
+                "catcher[[0, 333, 227, 989]]\n<answer><boxed>< ideally </ideal> <b> [151, 13, 569, 988] </b></ ideally> <b> [674, 271, 925, 933] </b></ ideally> <b> [0, 325, 198, 631] </b></ ideally>\n<question><image> \nWhat is the batter's position relative to the fielder? \nbatter[[108, 16, 573, 1000]]\n</question>\n</box>\n</box>\n</box>\n</box>\n</box>\n</box>\n</box>\n</box>\n</box>",
+                "catcher[[0, 333, 232, 986]]\n<answer>catcher[[0, 333, 232, 986]];<answer>catcher[[110, 18, 585, 1000]]\n<answer>catcher[[110, 18, 585, 1000]][[716, 271, 931, 933]]\n[[110, 18, 585, 1000]][[0, 333, 232, 986]]\n[[716, 271, 931, 933]]; <answer>[[110, 18, ",
+                "catcher[[0, 328, 222, 987]]\n<answer><boxed> [<position of player with helmet>] </position> </box>></answer>",
+                "catcher[[0, 335, 231, 1000]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box coordinates:\n\ncatcher[[0, 335, 231, 1000]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box coordinates:\n\nbatter[[118, 20, 576, 1000]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box coordinates:\n\nbatter[[118, 20, 576, 1000]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box coordinates:\n\nbatter[[118, 20, 576, 1000]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box"
+            ],
+            "iou_scores": [
+                0.9620501995448398,
+                0.9680882362555818,
+                0.9186333768057785,
+                0.9435844969465023,
+                0.9607965479419666,
+                0.9363963732235869,
+                0.0,
+                0.957032132323995
+            ],
+            "iou_var": 0.09884032539520084,
+            "mean_iou": 0.8308226703802813,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000504566.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>senator john kerry</ref>",
+            "ground_truth": [
+                375,
+                114,
+                636,
+                877
+            ],
+            "model_output": [
+                "senator john kerry[[346, 47, 561, 698]]\n\u5bc2\u7136\nsenator john kerry[[346, 47, 561, 698]]\n[[123, 503, 270, 742]]\nwoman[[201, 53, 345, 371]]\nwoman[[201, 53, 345, 371]]\nwoman[[396, 349, 562, 697]]\nwoman[[396, 349, 562, 697]]\ncashmere sweater[[724, 511, 859, 861]]\nshirt[[126, 65, 266, 367]]\n",
+                "senator john kerry[[425, 119, 647, 722]]\nsenator john kerry[[312, 103, 463, 685]]\n${\\text{woman in blue dress}}[[583, 195, 854, 987]]\n[[23, 268, 360, 665]]\nwoman[[23, 268, 360, 665]]\nwoman[[23, 268, 360, 665]][[312, 103, 463, 685]]\n[[425, 119, 647, 722]]\n[[583,",
+                "senator john kerry[[356, 50, 590, 693]]\n\u90a3\u9ebc\uff0c\u6211\u5011\u518d\u770b\u770b\u90a3\u5f35\u5716\u7247\uff0c\u6709\u6c92\u6709\u4ec0\u9ebc\u95dc\u65bc\u8a72\u5716\u7247\u7684\u5176\u4ed6\u4fe1\u606f\u5462\uff1f\n\u8a72\u5716\u7247\u7684\u5176\u4ed6\u4fe1\u606f[[729, 242, 998, 987]]\n\u8001\u5e74\u5973\u6027[[196, 279, 353, 731]]\n\u8001\u5e74\u5973\u6027[[196, 279, 353, 731]]\n\u5916\u5957[[190, 253, 328, 695]]\n\u5916\u5957[[190, 253, 328, 695]]\nman[[62, 236, 154, 634]]\nman[[62, 236, 154, 634]]\nwoman[[422, 2",
+                "senator john kerry[[331, 49, 545, 717]]\n[[199, 268, 331, 713]]\nImages [199, 268, 331, 713]]\nImages [331, 268, 545, 717]]\nImages [199, 268, 331, 713]]\nImages [331, 268, 545, 717]]\nImages [199, 268, 331, 713]]\nImages [199, 268, 331, 713]]\nImages [331, 268, 545, 717]]\nImages [199, 268, 331, 713]]\nImages [199",
+                "senator john kerry[[253, 50, 461, 688]]\nPROSPECTUS\nsenator john kerry[[253, 50, 461, 688]]\nwoman[[742, 266, 1000, 1000]]\nwoman[[321, 43, 460, 692]]\nperson[[321, 43, 460, 692]]\nwoman[[474, 44, 678, 685]]\nclothing[[656, 523, 824, 1000]]\nflower[[245, 717, 374, 1000]]\nscarf[[569, 583, 641, 728]]",
+                "senator john kerry[[343, 49, 581, 690]]\n[[459, 53, 676, 691]]\nDNA-binding protein associated with the N-myc protein and with the retinoblastoma protein (pRB) in the context of human retinoblastoma (pRB) protein) is associated with the retinoblastoma protein (pRB) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retinoblastoma (pRB protein) in the context of human retin",
+                "senator john kerry[[394, 42, 624, 752]]\n<answer>senator john kerry[[394, 42, 624, 752]]\n<issue>\n<issue> senator john kerry[[159, 56, 344, 679]]\n<issue> senator john kerry[[159, 56, 344, 679]]\n<issue> senator john kerry[[159, 56, 344, 679]]\n</issue>\n<issue> senator john kerry[[159, 56, 344, 679]]\n<issue> senator john kerry[[159, 5",
+                "senator john kerry[[398, 48, 671, 735]]\nROUNDED\uff1b\n[[770, 2, 999, 646]]\n'''senator john kerry[[125, 44, 360, 746]]\nROUNDED\uff1b\n[[184, 464, 355, 787]]\n[[464, 493, 622, 765]]\n[[184, 595, 463, 920]]\n[[464, 493, 622, 765]]\n[[184, 218, 465, 650]]"
+            ],
+            "iou_scores": [
+                0.4712865101265164,
+                0.6183082575227432,
+                0.5529717484008528,
+                0.4278648496358286,
+                0.1747503389584506,
+                0.509154884249823,
+                0.6802872468162242,
+                0.6186708860759493
+            ],
+            "iou_var": 0.02186664723801209,
+            "mean_iou": 0.5066618402232985,
+            "correct_count": 5
+        }
+    ]
+}

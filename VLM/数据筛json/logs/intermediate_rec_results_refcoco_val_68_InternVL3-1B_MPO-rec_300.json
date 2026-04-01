@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 68,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000026997.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>zebra front one</ref>",
+            "ground_truth": [
+                224,
+                176,
+                1000,
+                917
+            ],
+            "model_output": [
+                "zebra front one[[274, 110, 1000, 988]]\n[[25, 109, 997, 975]]\n```\n[[25, 109, 997, 975]]\n```\n```[[25, 109, 997, 975]]\n```\n```[[274, 110, 1000, 988]]\n```\n```[[25, 109, 997, 975]]\n```\n```[[274, 110, 1000, 988]]\n```[[25, 109",
+                "zebra front one[[271, 117, 1000, 981]]\n[[19, 109, 998, 988]]\n`[[19, 104, 998, 988]]\n`[[271, 117, 1000, 981]]\n`[[19, 109, 998, 988]]\n`[[19, 104, 998, 988]]\n`[[19, 109, 998, 988]]\n`[[271, 117, 1000, 981]]\n`[[19, 104, 9",
+                "zebra front one[[273, 116, 1000, 980]]\n><answer>[x1,y1,x2,y2]</answer>[[21, 108, 999, 982]]\n[[21, 108, 999, 982]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "zebra front one[[284, 188, 1000, 990]]\n[[22, 110, 999, 989]]\n```\n[[22, 110, 999, 989]]\n```\n```[[22, 110, 999, 989]]\n```\n```[[22, 110, 999, 989]]\n```\n```[[22, 110, 999, 989]]\n```[[22, 110, 999, 989]]",
+                "zebra front one[[285, 282, 1000, 979]]\n[[21, 115, 997, 990]]\n`zebra[[21, 115, 997, 990]]\n`[[295, 267, 994, 982]]\n`[[324, 252, 998, 988]]\n`[[21, 115, 997, 990]]\nzebra[[295, 267, 994, 982]]\n`[[324, 252, 998, 988]]",
+                "zebra front one[[279, 257, 1000, 977]]\n[[22, 111, 997, 985]]\n```\n[[22, 111, 997, 985]]\n```\n``````[[22, 111, 997, 985]]\n```\n```[[22, 111, 997, 985]]\n```[[279, 257, 1000, 977]]\n```[[22, 111, 997, 985]]\n```[[22, 111",
+                "zebra front one[[276, 112, 1000, 989]]\n[[20, 103, 997, 987]]\n\u2022\n\u2022\n[[20, 103, 997, 987]]\n\u2022[[20, 103, 997, 987]]\n\u2022[[20, 103, 997, 987]]\n\u2022 zebra[[20, 103, 997, 987]]\n\u2022 zebra[[20, 103, 997, 987]]\n\u2022 zebra[[20, 103, 997, 987]]\n\u2022 zebra[[20,",
+                "zebra front one[[276, 211, 1000, 989]]\n[[22, 109, 999, 987]]\n\u2022\n[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 999, 987]]\n\u2022 zebra[[22, 109, 9"
+            ],
+            "iou_scores": [
+                0.7976034800245523,
+                0.8127016938901702,
+                0.0,
+                0.832101568029792,
+                0.7330716594601402,
+                0.769656270015333,
+                0.7965849022985092,
+                0.8150345056318804
+            ],
+            "iou_var": 0.06974405882972783,
+            "mean_iou": 0.6945942599187971,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000503227.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>lower left doughnut</ref>",
+            "ground_truth": [
+                154,
+                688,
+                376,
+                952
+            ],
+            "model_output": [
+                "lower left doughnut[[124, 689, 386, 959]]\n[[124, 332, 336, 743]]\n[[124, 342, 329, 743]]\ndoughnut[[294, 373, 453, 724], [368, 629, 565, 905], [398, 378, 596, 629], [553, 533, 753, 805], [553, 320, 810, 567], [728, 434, 941, 736]]\nglazed donut[[368, 629, 565, 905], [294, 373, ",
+                "lower left doughnut[[153, 685, 393, 960]]\n[[362, 625, 571, 901]]\n[[108, 338, 325, 746]]\n[[406, 378, 594, 630], [576, 533, 762, 805], [702, 430, 942, 733]]\n[[244, 380, 421, 725], [309, 208, 452, 425], [523, 183, 649, 384], [625, 316, 814, 563], [617, 138, 804, 335], [593,",
+                "lower left doughnut[[126, 688, 385, 961]]\n[[141, 335, 330, 751]]\n\u6829\u6829\u5982\u751f\u5730\u8bf4\uff0c\u8fd9\u9053\u5de7\u514b\u529b\u5708\u5728\u56fe\u50cf\u4e2d\u7684\u4f4d\u7f6e\u662f\u600e\u6837\u7684\uff1f\n\u8fd9\u9053\u5de7\u514b\u529b\u5708\u5728[[415, 627, 584, 896]]\n\u6829\u6829\u5982\u751f\u5730\u8bf4\uff0c\u8fd9\u9053\u7cd6\u8863\u751c\u751c\u5708\u5728\u56fe\u50cf\u4e2d\u7684\u4f4d\u7f6e\u662f\u600e\u6837\u7684\uff1f\n\u8fd9\u9053\u7cd6\u8863\u751c\u751c\u5708\u5728[[334, 629, 586, 900]]\n\u6829\u6829\u5982\u751f\u5730\u8bf4\uff0c\u8fd9\u9053\u7cd6\u971c\u751c\u751c\u5708\u5728\u56fe\u50cf\u4e2d\u7684\u4f4d\u7f6e\u662f\u600e\u6837\u7684\uff1f\n\u8fd9\u9053\u7cd6\u971c\u751c\u751c\u5708\u5728[[552, 531, 760, 808]]\n\u6829\u6829\u5982\u751f\u5730\u8bf4\uff0c\u8fd9\u9053\u7cd6\u971c\u751c\u751c\u5708\u5728\u56fe\u50cf\u4e2d\u7684\u4f4d\u7f6e\u662f\u600e\u6837\u7684\uff1f\n\u8fd9\u9053\u7cd6\u971c\u751c\u751c\u5708\u5728[[6",
+                "lower left doughnut[[114, 688, 385, 961]]\n[[143, 336, 339, 745]]\n anyways, i'm going to try to guess based on the size and general presentation of these doughnuts. the doughnuts seem to have a variety of shapes, sizes, and toppings. the image shows glazed doughnuts, some with chocolate glaze, and others with nuts and other toppings. some doughnuts have a ring design, and others are round. the image does not provide a precise bounding box for the doughnut in the center of the box, but based on the shape and size, it seems to be a standard doughnut.\nuser\nWhat is the brown doughnut with a ring design on it?\n[[769, 430, 945, 733]]\n so i guess it's a standard doughnut.\nuser\nwhat is the doughnut in the box?\n[[",
+                "lower left doughnut[[132, 691, 388, 959]]\nIdentify the object in the image and give its name, identification number, category, created by, and or source.\nlower left doughnut[[132, 691, 388, 959]]\nIdentify the object in the image and give its name, identification number, category, created by, and or source.\nlower left doughnut[[145, 335, 320, 742]]\nIdentify the object in the image and give its name, identification number, category, created by, and or source.\nlower left doughnut[[145, 335, 320, 742]]\nIdentify the object in the image and give its name, identification number, category, created by, and or source.\nlower left doughnut[[145, 335, 320, 742]]\n",
+                "lower left doughnut[[133, 690, 393, 960]]\n[[129, 336, 327, 748]]\n anyway, this is a box with some donuts on it. the donuts are all glazed, and there are some with chocolate and sprinkles. how many donuts are in the box?\nthis is a box[[0, 2, 993, 989]]\n[[0, 2, 993, 989]]\n[[671, 136, 806, 332]]\n[[431, 180, 633, 385]]\n[[299, 208, 449, 424]]\n[[544, 535, 758, 80",
+                "lower left doughnut[[135, 688, 386, 960]]\n[[135, 335, 323, 548]]\n anyway, this is an image of donuts[[52, 137, 944, 923]].\n[[52, 137, 944, 923]]\n[[307, 626, 569, 901]]\n[[510, 536, 760, 806]]\n[[741, 432, 939, 735]]\n[[71, 253, 243, 535]]\n[[269, 376, 440, 726",
+                "lower left doughnut[[138, 687, 384, 964]]\n[[115, 334, 324, 746]]\n[[321, 375, 498, 649]]\nglazed donut[[353, 629, 574, 901]]\nglazed donut[[521, 533, 754, 803]]\ndonut[[523, 136, 795, 335]]\ndonut[[667, 321, 822, 566]]\nglaze[[269, 209, 443, 420]]\nbutter[[766, 430, 946, 738"
+            ],
+            "iou_scores": [
+                0.8227783884332459,
+                0.888,
+                0.8288854003139717,
+                0.7921819877539434,
+                0.8364177036117446,
+                0.8233395617462205,
+                0.8584485587063511,
+                0.8600862903935899
+            ],
+            "iou_var": 0.0007540917884121921,
+            "mean_iou": 0.8387672363698835,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000262086.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>hawaii shirt</ref>",
+            "ground_truth": [
+                112,
+                178,
+                285,
+                748
+            ],
+            "model_output": [
+                "hawaii shirt[[123, 196, 279, 754]]\nDNA",
+                "hawaii shirt[[125, 200, 274, 751]]\n\u7c2a\nhawaii shirt[[125, 200, 274, 751]][[366, 386, 468, 648]]\n44444444444",
+                "hawaii shirt[[121, 196, 279, 748]]\nadult[[342, 388, 472, 648]]\n[[147, 402, 323, 917]]\nadult[[147, 402, 323, 917]]\ngirl[[147, 402, 323, 917]]\nchild[[468, 434, 548, 624]]\nclothing[[468, 434, 548, 624]]\nfishing rod[[199, 300, 257, 525]]\nkite[[440, 666, 604, 714",
+                "hawaii shirt[[123, 196, 282, 749]]\nwoman[[355, 388, 485, 646]]\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.\n thereafter, one of the women kneels down to adjust the kite string while the other two stand nearby.",
+                "hawaii shirt[[121, 196, 272, 747]]\n[[202, 404, 320, 915]]\n</answer>\n</body>\n\nAnswer here:\n\nhawaii shirt[[121, 196, 272, 747]]\n</answer>\n[[202, 404, 320, 915]]\n</body>\n\nAnswer here:\n\nhawaii shirt[[202, 404, 320, 915]]\n</answer>\n</body>\n\nAnswer here:\n\nhawaii shirt[[339, 387, 467, 647]]\n</answer>\n</body>\n\nAnswer here:\n\nhawaii shirt[[339, 387, 467, 647]]\n</body>\n\nAnswer",
+                "hawaii shirt[[131, 200, 277, 747]]\n[[209, 402, 325, 916]]\n anyway, it's a beach with a lot of people flying kites.\n[[353, 387, 480, 645]]\n[[469, 432, 560, 622]]\n[[145, 194, 268, 748]]\n[[190, 198, 271, 474]]\n[[271, 392, 337, 536]]\n[[484, 429, 562, 620]]\n[[199, 404,",
+                "hawaii shirt[[125, 198, 277, 747]]\nDRIVER\nhawaii shirt[[125, 198, 277, 747]]\n",
+                "hawaii shirt[[117, 194, 278, 747]]\n[[199, 403, 320, 923]]\nIFF this image is about a specific question, I will answer it for you.\n[[361, 384, 478, 647]]\n[[468, 431, 554, 617]]\nI'm looking for the bounding box of the person in the middle of the image.\n[[401, 429, 520, 651]]\nI'm sorry, but I can't provide the requested information.\n[[117, 194, 278, 747]]\n[[199, 403, 320, 923]]\n"
+            ],
+            "iou_scores": [
+                0.8650473148092339,
+                0.8242930837800458,
+                0.8844539093398236,
+                0.8886188986422865,
+                0.84373795761079,
+                0.8098772943920495,
+                0.846242774566474,
+                0.9028800324510698
+            ],
+            "iou_var": 0.0009368289693490945,
+            "mean_iou": 0.8581439081989717,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000158201.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>blue at bottom of pic</ref>",
+            "ground_truth": [
+                86,
+                849,
+                1000,
+                987
+            ],
+            "model_output": [
+                "blue at bottom of pic[[88, 841, 1000, 987]]\nDNA\n\nblue at bottom of pic[[10, 842, 998, 988]]\n[[0, 88, 953, 954]]\n[[0, 87, 998, 968]]\n[[867, 344, 996, 660]]\n[[540, 306, 754, 505]]\n[[690, 219, 733, 282]]\nnecklace[[267, 544, 440, 783]]\n[[229, 421, 511, 771]]",
+                "blue at bottom of pic[[11, 845, 1000, 987]]\n[[0, 83, 963, 983]]\nMore description:woman[[0, 83, 963, 983]]\n[[0, 83, 963, 983]]\nMore description:woman[[0, 83, 963, 983]]\n[[168, 85, 998, 927]]\nHere is the image and including bounding box coordinates for each part:\n[[168, 85, 998, 927]][[0, 845, 1000, 987]]\n[[11, 845, ",
+                "blue at bottom of pic[[9, 844, 1000, 987]]\nPK;\uff1bblue at bottom of pic[[9, 844, 1000, 987]];;;[[10, 86, 992, 982]]\n;[[10, 86, 992, 982]];;;[[0, 361, 245, 535]]\n;[[517, 284, 768, 458]]\n[[0, 36",
+                "blue at bottom of pic[[108, 843, 1000, 1000]]\n[[0, 90, 968, 940]]\n\u2022 what is the name of the person?\n\u2022 what is the name of the person's gender?\n\u2022 what is the name of the person's relationship to the woman?\n<answer>\nblue at bottom of pic[[108, 843, 1000, 1000]]\n</answer>\n<answer>\nblue at bottom of pic[[108, 843, 1000, 1000]]\n</body>[[0, 90, 968, 940]]\n\u2022 what is the name of the person?\n\u2022 what is the name of the person's relationship to the woman?\n\u2022 what is the name of the person's gender?\n\u2022",
+                "blue at bottom of pic[[92, 841, 1000, 987]]\n[[0, 84, 968, 951]]\n</div></div></div>\n</cite>\n[[92, 841, 1000, 987]]\n[[0, 84, 968, 951]]\n</div></div></div>\n[[0, 84, 968, 951]]\n</div></div></div>\n[[803, 423, 999, 643]]\n[[526, 286, 592, 381]]\n</div></div></div>\n[[570, 2",
+                "blue at bottom of pic[[10, 843, 1000, 987]]\n\u5bc2\u9759\u7684\u591c\u7a7a\u4e2d\u7efd\u653e\u7740\u65e0\u6570\u661f\u661f\uff0c\u7167\u4eae\u4e86\u5e73\u9759\u7684\u6c34\u9762\u3002\n",
+                "blue at bottom of pic[[78, 844, 1000, 987]]\nDRINK\nblue at bottom of pic[[78, 844, 1000, 987]]\n",
+                "blue at bottom of pic[[68, 841, 998, 986]]\n><answer>[x1,y1,x2,y2]</var>\n><anspell>\n\n[[0, 88, 965, 948]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</"
+            ],
+            "iou_scores": [
+                0.9432502922924724,
+                0.8981329839502129,
+                0.8900524299111585,
+                0.8603298853788091,
+                0.9393385108998771,
+                0.8847643097643098,
+                0.956661559698436,
+                0.10013797293705143
+            ],
+            "iou_var": 0.07277371190615346,
+            "mean_iou": 0.8090834931040409,
+            "correct_count": 7
+        }
+    ]
+}

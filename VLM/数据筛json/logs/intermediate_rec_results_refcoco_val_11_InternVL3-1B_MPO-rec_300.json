@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 11,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000391088.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>chocalate doughnut</ref>",
+            "ground_truth": [
+                458,
+                113,
+                882,
+                492
+            ],
+            "model_output": [
+                "chocalate doughnut[[491, 113, 880, 495]]\n<answer>\nchocalate doughnut[[491, 113, 880, 495]]\n<answer>\nchocalate doughnut[[491, 113, 880, 495]]\nchocolate[[277, 2, 637, 262]]\nchocolate[[277, 2, 637, 262]]\nberry[[14, 354, 432, 779]]\nberry[[14, 354, 432, 779]]\nsprinkle[[342, 577, 830, 1000]]\ndonut[[343, 573, 83",
+                "chocalate doughnut[[469, 110, 880, 500]]\n<answer>\nchocalate doughnut[[469, 110, 880, 500]]\n<answer>\nchocalate doughnut[[469, 110, 880, 500]]\nchocolate[[262, 1, 635, 261]]\nchocolate[[262, 1, 635, 261]]\nred[[25, 353, 429, 778]]\ndonut[[324, 572, 822, 1000]]\ndonut[[759, 375, 1000, 823]]\ndonut[[759, 739,",
+                "chocalate doughnut[[463, 110, 882, 488]]\nImages [12, 348, 437, 779]]\nImages [394, 578, 831, 1000]]\nImages [735, 362, 998, 821]]\nImages [262, 2, 624, 263]]",
+                "chocalate doughnut[[470, 112, 880, 504]]\n<answer>\nchocalate doughnut[[470, 112, 880, 504]]\n<answer>\n\n</answer>",
+                "chocalate doughnut[[454, 117, 879, 487]]\n><answer>[[457, 114, 878, 495]]\n<answer>chocalate doughnut[[454, 117, 879, 487]]\n<answer>chocolate[[457, 117, 879, 495]]\n<answer>chocolate[[454, 117, 879, 487]]\n[[30, 355, 421, 782]]\n[[30, 355, 421, 782]]\n[[18, 354, 419, 775]]\n[[279, 574, 8",
+                "chocalate doughnut[[472, 112, 874, 500]]\nImages: \n![Sweet Donuts](https://i.imgur.com/3wQ1cJd.jpg)\nImages: \n![Sweet Donuts](https://i.imgur.com/3wQ1cJd.jpg)\nImages: \n![Sweet Donuts](https://i.imgur.com/3wQ1cJd.jpg)\nImages: \n![Sweet Donuts](https://i.imgur.com/3wQ1cJd.jpg)\nImages: \n![Sweet Donuts](https://i.imgur.com/3wQ1cJd.jpg)",
+                "chocalate doughnut[[459, 112, 882, 501]]\nSPIKE\n[[764, 372, 1000, 813]]\n[[323, 573, 829, 998]]\n[[22, 351, 422, 773]]\n[[255, 0, 625, 259]]\n[[12, 359, 397, 772]]\n[[720, 362, 1000, 813]]\n[[292, 568, 830, 989]]\n[[32, 352, 428, 775]]\n",
+                "chocalate doughnut[[484, 115, 879, 495]]\n<answer>\nbdd\n<answer>\n[[18, 350, 412, 779]]\n[[326, 577, 821, 996]]\n[[733, 374, 1000, 815]]\n</bdd>\n[[281, 0, 631, 255]]\n[[639, 379, 998, 820]]\n[[10, 348, 426, 778]]\n[[364, 585, 824, 990]]\n[["
+            ],
+            "iou_scores": [
+                0.9108381779653163,
+                0.9428146014030033,
+                0.9701888819595809,
+                0.9359377446905907,
+                0.9604997040252565,
+                0.9272368757379165,
+                0.9720541333689049,
+                0.9199041271057135
+            ],
+            "iou_var": 0.00046915566920871987,
+            "mean_iou": 0.9424342807820353,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000037089.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right sandwich</ref>",
+            "ground_truth": [
+                536,
+                128,
+                779,
+                434
+            ],
+            "model_output": [
+                "right sandwich[[527, 126, 789, 433]]\n another great place to put the camera.\n\n\n <answer>[x1,y1,x2,y2]</answer>",
+                "right sandwich[[525, 126, 792, 437]]\n[[328, 147, 562, 471]]\n[[562, 126, 793, 434]]\n[[330, 146, 563, 470]]\n[[11, 0, 229, 518]]\n[[272, 402, 872, 772]]\n[[273, 471, 868, 766]]\n[[324, 431, 858, 770]]\n[[502, 441, 857, 768]]\n[[273, 471, ",
+                "right sandwich[[533, 127, 787, 424]]\n[[322, 152, 556, 475]]\n\u8a55\u7d1a: Good\n[[12, 1, 225, 534]]\n clich\u00e9 or made-up word: No\n[[267, 398, 867, 764]]\n[[349, 407, 859, 743]]\n[[549, 376, 868, 626]]\n[[334, 152, 551, 479]]\n[[13, 3, 226, 532]]\n",
+                "right sandwich[[530, 124, 788, 431]]\n[[328, 152, 556, 477]]\n \u2022 right[[533, 126, 788, 434]]\n \u2022 right[[533, 126, 788, 434]]\n \u2022 right[[533, 126, 788, 434]] skulls[538, 406, 861, 742]]\n \u2022 right[[533, 126, 788, 434]]\n \u2022 right[[533, 126, 788, 434]]\n \u2022 right[[533, 126, 7",
+                "right sandwich[[528, 126, 786, 444]]\n[[327, 152, 545, 474]]\n thus the bounding box coordinates are <answer>[x1,y1,[x2,y2]][[2, 6, 236, 536]]\nright sandwich[[528, 126, 786, 444]]\nright sandwich[[528, 126, 786, 444]]\n[[327, 152, 545, 474]]\n[[358, 403, 859, 767]]\n[[16, 2, 239, 517]]\n[[52",
+                "right sandwich[[530, 129, 787, 430]]\n[[322, 154, 543, 474]]\n\u8a55\u8ad6\nright sandwich[[530, 129, 787, 430]]\n[[502, 403, 873, 766]]\nbottle[[12, 0, 223, 526]]\nbaked potato[[270, 410, 863, 768]]\n[[555, 400, 861, 773]]\nbowl[[217, 155, 971, 922]]\n",
+                "right sandwich[[537, 125, 793, 431]]\n[[326, 154, 560, 475]]\n\u5bc2\u7136\nright[[533, 123, 792, 438]]\nThe bottle is located at the upper left corner of the image. Here are the bounding box coordinates for each part of the bottle:\n\n1. The upper left corner of the bottle: <answer>[x1,y1]: [18, 9, 232, 530]\n2. The top left corner of the bottle: <answer>[x2,y2]: [410, 2, 548, 256]\n3. The bottom right corner of the bottle: <answer>[x3,y3]: [690, 224, 973, 516]\nright sandwich[[537, 125, 793, 43",
+                "right sandwich[[533, 126, 787, 432]]\n[[325, 152, 567, 471]]\nither answer\nright sandwich[[533, 126, 787, 432]]\nanoth answer\nright sandwich[[533, 126, 787, 432]][[533, 126, 787, 432]][[325, 152, 567, 471]][[533, 126, 787, 432]][[325, 152, 567, 471]]"
+            ],
+            "iou_scores": [
+                0.0,
+                0.8954803280465334,
+                0.9237170596393898,
+                0.9211109026083693,
+                0.9063185607722686,
+                0.9309041388789899,
+                0.9238736014514666,
+                0.9445339470655927
+            ],
+            "iou_var": 0.09293759023588083,
+            "mean_iou": 0.8057423173078262,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000391229.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second frm left</ref>",
+            "ground_truth": [
+                183,
+                136,
+                438,
+                886
+            ],
+            "model_output": [
+                "second frm left[[187, 135, 437, 876]]\n<answer>\nsecond frm left[[187, 135, 437, 876]]\n<answer>\nsecond frm left[[187, 135, 437, 876]]\n<answer>\nsecond frm left[[187, 135, 437, 876]]\n<answer>\nsecond frm left[[383, 73, 585, 894]]\n<answer>\nsecond frm left[[383, 73, 585, 894]]\nsecond frm left[[383, 73, 585, 894]]\ndog[[595, 211, 9",
+                "second frm left[[189, 142, 433, 878]]\n<answer>\nsecond frm left[[189, 142, 433, 878]]\n<answer>\nsecond frm left[[189, 142, 433, 878]]\n<answer>\nsecond frm left[[384, 73, 580, 889]]\nsecond frm right[[384, 73, 580, 889]]\ndog[[598, 202, 976, 747]]\ndog[[598, 202, 976, 747]]\nsheep[[0, 117, 146, 860]]\nsheep[[0, ",
+                "second frm left[[193, 136, 433, 878]]\n<answer>\nsecond frm left[[193, 136, 433, 878]]\n<answer>\nsecond frm left[[193, 136, 433, 878]]\n<answer>\nsecond frm left[[384, 73, 591, 892]]\nsecond frm right[[384, 73, 591, 892]]\ndog[[592, 209, 984, 741]]\ndog[[592, 209, 984, 741]]\nsheep[[2, 122, 147, 844]]\nsheep[[193",
+                "second frm left[[191, 137, 430, 879]]\n<answer>\nsecond frm left[[191, 137, 430, 879]]\n<answer>\nsecond frm left[[191, 137, 430, 879]]\n<answer>\nsecond frm left[[379, 74, 589, 892]]\nsecond frm left[[379, 74, 589, 892]]\ndog[[598, 207, 977, 750]]\ndog[[598, 207, 977, 750]]\nsheep[[1, 122, 148, 847]]\nsheep[[191",
+                "second frm left[[190, 143, 437, 879]]\n<answer>\nsecond frm left[[190, 143, 437, 879]]\n<answer>\nsecond frm left[[190, 143, 437, 879]]\n<answer>\nsecond frm left[[383, 74, 587, 893]]\nsecond frm left[[383, 74, 587, 893]]\ndog[[592, 205, 976, 739]]\ndog[[592, 205, 976, 739]]\ndog[[592, 205, 976, 739]]\nsheep[[1,",
+                "second frm left[[192, 139, 437, 874]]\n<answer>\nsecond frm left[[192, 139, 437, 874]]\n<answer>\nsecond frm left[[192, 139, 437, 874]]\n<answer>\nsecond frm left[[192, 139, 437, 874]]\n<answer>\nsecond frm left[[192, 139, 437, 874]]\n<answer>\nsecond frm left[[371, 76, 588, 888]]\nsecond frm left[[371, 76, 588, 888]]\ndog[[598, 209, ",
+                "second frm left[[192, 137, 436, 878]]\n<answer>\u3010answer\u3011[192, 137, 436, 878]</answer>\n<answer>second frm left[[192, 137, 436, 878]]\nDBSn11266918 137 435 878\n<answer>second frm left[[387, 70, 586, 892]]\nDBSn11266918 137 435 878\nDBSn11266918 137 435 878\nDBSn11266918 137 435 878\nDBSn11266918 137 435 878\nDBSn112",
+                "second frm left[[192, 138, 428, 881]]\n<answer>\nsecond frm left[[192, 138, 428, 881]]\n<answer>\nsecond frm left[[192, 138, 428, 881]]\n<issue>\n</issue>\n<issue failed>\n</issue>\n<issue failed>\n</issue>\n\n</issue>\n`"
+            ],
+            "iou_scores": [
+                0.9660574412532638,
+                0.9390013071895424,
+                0.9311372549019608,
+                0.9272575163398693,
+                0.9505464052287582,
+                0.9415686274509804,
+                0.9453803921568628,
+                0.9168522875816993
+            ],
+            "iou_var": 0.00019984436440705655,
+            "mean_iou": 0.939725154012867,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000218863.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>top row middle teddy bear</ref>",
+            "ground_truth": [
+                378,
+                273,
+                659,
+                543
+            ],
+            "model_output": [
+                "top row middle teddy bear[[354, 274, 664, 571]]\n59[[527, 585, 808, 899]]\n</code></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div></div>\n</body>\n</selection></div",
+                "top row middle teddy bear[[344, 274, 666, 581]]\n59[[521, 584, 811, 902]]\n[[133, 286, 385, 568]]\n=> 59[[521, 584, 811, 902]]\n[[186, 561, 487, 850]]\n[[702, 279, 914, 609]]\n=> 52[[35, 726, 169, 936]]\n[[147, 289, 358, 563]]\n=> 52[[35, 726",
+                "top row middle teddy bear[[357, 270, 662, 571]]\n[[565, 282, 902, 613]]\n</solution>\n</body>\n</img>\n</div>\n</body>\n</img>\n</div>\n</body>\n</img>\n</div>\n</div>\n</body>\n</img>\n</div>\n</img>\n</div>\n</body>\n</img>\n</div>\n</img>\n</div>\n</body>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>\n</div>\n</img>",
+                "top row middle teddy bear[[355, 272, 661, 573]]\n[[141, 285, 367, 563]]\n[[552, 584, 810, 901]]\n59[[535, 587, 804, 899]]\n[[672, 278, 897, 612]]\npolo shirt[[679, 278, 895, 609]]\npolo shirt[[350, 271, 660, 570]]\nstuffed bear[[172, 559, 487, 850]]\nstuffed animal[[550, 600",
+                "top row middle teddy bear[[351, 273, 658, 573]]\nImages [240, 562, 495, 850]]\nImages [654, 278, 918, 612], [137, 289, 373, 566]]\nImages [506, 594, 809, 902]]\nImages [575, 866, 716, 998], [749, 743, 894, 969], [759, 861, 908, 1000]]\nImages [445, 824, 561, 950]]\nImages [496, 885, 653, 998]]\nImages [655, 281, 892, 61",
+                "top row middle teddy bear[[358, 267, 664, 572]]\nteddy bear[[526, 586, 805, 901]]\n[[148, 292, 368, 568]]\n[[700, 279, 906, 612]]\n<img>\n[[366, 276, 644, 571]]\n[[164, 565, 481, 849]]\n[[507, 693, 802, 902]]\n[[229, 563, 490, 847]]\n[[463, 818, 56",
+                "top row middle teddy bear[[353, 267, 665, 573]]\n[[136, 288, 375, 567]]\nWikimedia: 59[[519, 586, 808, 898]]\nWikimedia: 52[[163, 562, 483, 849]]\nWikimedia: 59[[512, 642, 802, 899]]\n[[665, 278, 895, 610]]\n[[766, 128, 1000, 314]]\n[[313, 562, 491, 849]]\n[[142",
+                "top row middle teddy bear[[359, 274, 660, 573]]\n59[[524, 583, 806, 904]]\n[[133, 288, 374, 568]]\n[[639, 275, 903, 613]]\n[[204, 562, 481, 848]]\n\n[[439, 270, 662, 575]]\n\n[[137, 562, 487, 850]]\n\n[[428, 597, 805, 902]]\n\n[[756, 122"
+            ],
+            "iou_scores": [
+                0.8184968219077217,
+                0.7624854995712916,
+                0.8264255759490224,
+                0.8237248387727184,
+                0.818447547905164,
+                0.8129218900675024,
+                0.794683257918552,
+                0.8372729286663713
+            ],
+            "iou_var": 0.00047752221085567117,
+            "mean_iou": 0.811807295094793,
+            "correct_count": 8
+        }
+    ]
+}

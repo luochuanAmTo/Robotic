@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 3,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000435076.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>empty chair next to man</ref>",
+            "ground_truth": [
+                466,
+                768,
+                725,
+                988
+            ],
+            "model_output": [
+                "empty chair next to man[[256, 776, 513, 998]]\n<answer>empty chair[[506, 767, 731, 990]]\n<answer>empty chair[[10, 754, 190, 1000]]\n</answer>\n<answer>empty chair[[256, 776, 513, 998]]\n</answer>\n</div><div><div>empty chair[[10, 754, 190, 1000]]</div><div>empty chair[[506, 767, 731, 990]]</div><div>empty chair[[10, 754, 190, 1000]]</div><div>empty chair[[256, 77",
+                "empty chair next to man[[255, 777, 447, 1000]]\n<answer>empty chair[[0, 756, 179, 1000]]\nittch empty chair[[1, 451, 157, 762]]\nittch empty chair[[164, 403, 482, 642]]\nittch empty chair[[499, 515, 641, 623]]\nittch empty chair[[617, 539, 827, 703]]\nittch empty chair[[825, 333, 874, 495]]\nittch empty chair[[692, 533, 828, 713]]\nittch empty chair",
+                "empty chair next to man[[256, 778, 452, 989]]\nDNA\n[[855, 202, 996, 808]]\n[[19, 753, 186, 985]]\n[[252, 421, 495, 903]]\n[[493, 768, 728, 1000]]\n[[593, 539, 824, 988]]\n[[347, 437, 458, 616]]\n[[18, 446, 150, 790]]\n",
+                "empty chair next to man[[256, 778, 450, 1000]]\n<answer>empty chair[[0, 752, 178, 1000]]\n at the end of the table.\n<answer>empty chair[[640, 538, 823, 769]]\n at the end of the table.\n<answer>empty chair[[506, 520, 645, 624]]\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table.\n at the end of the table",
+                "empty chair next to man[[257, 778, 455, 1000]]\nAnonymous: \nempty chair next to man[[462, 764, 735, 996]]\nAnonymous: \nempty chair[[12, 450, 151, 780]]\nAnonymous: \nempty chair[[0, 752, 179, 997]]\nAnonymous: \nempty chair[[0, 754, 181, 1000]]\nAnonymous: \nempty chair[[10, 449, 148, 749]]\nAnonymous: \nempty chair[[255, 418, 502, 844]]\nAnonymous: \nempty chair[[525, 514, 660, 624]]\nAnonymous: \nempty chair[[",
+                "empty chair next to man[[253, 778, 436, 998]]\nIdentify the character in the image: \nempty chair next to man[[445, 770, 723, 1000]]\nIdentify the character in the image: \nempty chair[[1, 755, 182, 1000]]\nIdentify the character in the image: \nempty chair[[690, 537, 832, 723]]\nIdentify the character in the image: \nempty chair[[353, 444, 495, 608]]\nIdentify the character in the image: \nempty chair[[485, 515, 647, 625]]\nIdentify the character in the image: \nempty chair[[162, 417, 339, 636]]\n",
+                "empty chair next to man[[256, 774, 444, 1000]]\n<answer>\nimagen:empty chair next to man[[256, 774, 444, 1000]]\n</image>\n<answer>\nimagen:empty chair next to man[[256, 774, 444, 1000]][[399, 447, 506, 608]]\n</image>\n</body}</body>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection>\n</selection",
+                "empty chair next to man[[252, 776, 447, 987]]\nDNA[[493, 766, 727, 997]]\n[[260, 413, 501, 897]]\n[[70, 412, 269, 990]]\nwoman[[853, 202, 996, 814]]\n[[659, 342, 797, 549]]\n{'location': [653, 345, 798, 545], 'boundingbox': [[6"
+            ],
+            "iou_scores": [
+                0.8169563374311148,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.07299880626378173,
+            "mean_iou": 0.10211954217888936,
+            "correct_count": 1
+        },
+        {
+            "image": "train2014/COCO_train2014_000000146584.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>chef on left</ref>",
+            "ground_truth": [
+                94,
+                279,
+                243,
+                980
+            ],
+            "model_output": [
+                "chef on left[[80, 285, 244, 985]]\n><answer>[x1,y1,x2,y2]</value>\n><answer>chef[[412, 305, 573, 701]]\nsource: <assumed>\n><answer>\n><answer>chef[[244, 265, 414, 945]]\nsource: <assumed>\n[[602, 83, 808, 991]]\n[[492, 306, 588, 538]]\n[[130, 368, 185, 940]]\n[[37, 369, 152, 963]]\n",
+                "chef on left[[83, 285, 234, 989]]\n<answer>chef on left[[83, 285, 234, 989]]\n<answer>chef[[413, 308, 582, 711]]\n</answer><answer>chef[[250, 268, 402, 937]]\n</answer><answer>chef[[422, 307, 555, 699]]\n</answer><image</image>\n</image>",
+                "chef on left[[94, 286, 244, 989]]\n<answer>\nHere is the requested bounding box for the region mentioned in the sentence:\nchef on left[[244, 271, 409, 946]]\n<answer>\nHere is the requested bounding box for the region mentioned in the sentence:\nchef on left[[244, 271, 409, 946]]\n<answer>\nHere is the requested bounding box for the region mentioned in the sentence:\nchef[[404, 306, 573, 707]]\n<answer>\nHere is the requested bounding box for the region mentioned in the sentence:\nchef[[404, 306, 573, 707]]\n<answer>\nHere is the requested bounding box for the region mentioned in the sentence:\nchef[[555, 84, 80",
+                "chef on left[[178, 273, 392, 941]]\n[[602, 85, 806, 998]]\nDB[[371, 307, 580, 707]]\nDBperson[[56, 369, 178, 982]]\nDB[[48, 283, 222, 984]]\nDB[[482, 306, 580, 696]]\nDB[[161, 267, 426, 634]]\nDB[[371, 332, 446, 696]]\nDB[[451, 301, ",
+                "chef on left[[80, 288, 234, 986]]\n><answer>[x1,y1,x2,y2]</whitehat></answer>",
+                "chef on left[[74, 281, 234, 983]]\n><answer>[x1,y1,x2,y2]</within>\n><answer>chef[[408, 308, 574, 705]]\nsource: <answer>[0, 0, 999, 998]</within>\n2.chef on left[[247, 273, 404, 943]]\nsource: <answer>[0, 0, 999, 998]</within>\n3.[[585, 82, 802, 987]]\nsource: <answer>[0, 0, 999, 998]</within>\n4.",
+                "chef on left[[92, 284, 241, 982]]\n<answer>\nHere is the bounding box coordinate for the statue: \nstatue[[616, 83, 809, 989]]\n<answer>\nHere is the bounding box coordinate for the chef in the back: \nchef[[408, 308, 580, 701]]\n<answer>\nHere is the bounding box coordinate for the chef in the foreground: \nchef[[256, 265, 404, 930]]\n<answer>\nHere is the bounding box coordinate for the chef in the background: \nchef[[363, 334, 464, 704]]\n<answer>\nHere is the bounding box coordinate for the chef in the back: \nchef[[355, 328, 448, 657",
+                "chef on left[[78, 287, 241, 986]]\n><answer>[x1,y1,x2,y2]</white>[[242, 265, 401, 948]]\n><answer>[x1,y1,x2,y2]</white>[[408, 309, 576, 700]]\n><answer>[x1,y1,x2,y2]</white>[[612, 84, 809, 989]]\nHere is the output as per your instructions:\n[[453, 305, 576, 699]]\nAnd for the statue: chef[[612, 8"
+            ],
+            "iou_scores": [
+                0.8950766677615088,
+                0.8576238618635029,
+                0.971012179204267,
+                0.21054846333383895,
+                0.0,
+                0.8229822805674928,
+                0.963943508041342,
+                0.8743166115950736
+            ],
+            "iou_var": 0.12263564584645847,
+            "mean_iou": 0.6994379465458782,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000270369.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>top left woman</ref>",
+            "ground_truth": [
+                41,
+                200,
+                332,
+                632
+            ],
+            "model_output": [
+                "top left woman[[40, 198, 348, 626]]\nImages: \ntop left woman[[40, 198, 348, 626]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop left woman[[262, 127, 448, 494]]\nImages: \ntop",
+                "top left woman[[34, 197, 344, 624]]\nAnswers:\ntop left woman[[34, 197, 344, 624]]\nI'm sorry, but I can't provide the bounding box coordinates for the region where the top left woman is located.\nText from image:<answer>\n.drawImage: <image>\n[[532, 99, 705, 412]]\n[[0, 354, 999, 989]]\n[[687, 162, 998, 999]]\n[[261, 126, 448, 495]]\n[[512, 131",
+                "top left woman[[45, 199, 345, 626]]\n[[691, 158, 999, 998]]\nThe region bounding box for the woman in the blue shirt is: <answer>[x1,y1,x2,y2]</answer>\n[[275, 124, 452, 497]]\nThe region bounding box for the man in the blue shirt is: <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the man in the white apron is: <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the plate of food is: <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the plate of food is: <answer>[x1,y1,x2,y2]</answer>\nThe region bounding box for the container is: <answer>[x1,y1,x2,y2]</answer>\nThe region",
+                "top left woman[[43, 197, 360, 625]]\n again in the same coordinates.\n more coordinates: <answer>[x1,y1,x2,y2]</answer>\n again in the same coordinates.\n another tags: <answer>[x1,y1,x2,y2]</answer>\n another tags: <answer>[x1,y1,x2,y2]</answer>\n another tags: <answer>[x1,y1,x2,y2]</answer>\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n again in the same coordinates.\n",
+                "top left woman[[40, 198, 336, 628]]\n[[724, 165, 998, 988]]\nMore like this:top left woman[[254, 128, 432, 499]]\n[[73, 200, 337, 618]]\n[[526, 128, 731, 416]]\nAnd the fourth one:top left woman[[254, 128, 432, 499]]\n[[733, 153, 823, 436]]\n1. output the coordinates of the region describing the woman in the blue apron on the right: <answer>[x1,y1,x2,y2]</answer>\n2. output the coordinates of the region",
+                "top left woman[[32, 194, 339, 625]]\n[[639, 171, 1000, 984]]\nHere is the updated drawing based on the incorrect coordinates provided:\n\ntop left woman[[32, 194, 339, 625]]\ntop left woman[[32, 194, 339, 625]]\n[[251, 130, 439, 499]]\nHere is the corrected drawing based on the updated coordinates:\n\ntop left woman[[251, 130, 439, 499]]\n[[639, 171, 1000, 984]]\n[[32, 194, 339, 625]]",
+                "top left woman[[35, 197, 353, 622]]\nImages:\ntop left woman[[35, 197, 353, 622]]\ntop left woman[[252, 130, 447, 499]]\ntop left woman[[252, 130, 447, 499]]\ntop left woman[[252, 130, 447, 499]]\nwoman[[692, 159, 1000, 991]]\nwoman[[692, 159, 1000, 991]]\napron[[577, 128, 734, 413]]\napron[[260, 128, 448, 496]]",
+                "top left woman[[46, 198, 362, 623]]\n[[662, 159, 1000, 985]]\n</answer></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></"
+            ],
+            "iou_scores": [
+                0.9280976267125851,
+                0.9160046919776091,
+                0.0,
+                0.0,
+                0.0,
+                0.9205159503996904,
+                0.8894828335506302,
+                0.870132485579067
+            ],
+            "iou_var": 0.19218793423990713,
+            "mean_iou": 0.5655291985274478,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000112040.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>black truck</ref>",
+            "ground_truth": [
+                179,
+                420,
+                847,
+                802
+            ],
+            "model_output": [
+                "black truck[[198, 415, 843, 803]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ablack truck[[198, 415, 843, 803]][[182, 421, 840, 800]]\n<answer>\n\n<answer>\n[[851, 348, 1000, 922]]\n</select>\n<question>What is the main color of the truck in the image?</question>\n</select>\n<answer>\nThe main color of the truck in the image is black. This is evident from the image description provided. The black truck is prominently featured in the center of the image, with its body having a dark color scheme. This is further supported by the text \"Cambridge\" visible on the",
+                "black truck[[194, 415, 840, 807]]\n<issue>\nblack truck[[194, 415, 840, 807]]\nblack truck[[194, 415, 840, 807]]\ntire[[319, 715, 425, 805]]\ntire[[372, 678, 423, 761]]\nclothing[[837, 343, 1000, 881]]\nflag[[381, 100, 441, 356]]\nwindow[[0, 436, 747, 496]]\nbuilding[[3, 431, 1000, 462]]\ntire",
+                "black truck[[200, 421, 844, 803]]\nKnow the name of the building? stadium[[0, 396, 1000, 464]]\nI will keep the coordinate of the region specified <answer>[x1,y1,x2,y2]</answer>\nI will keep the coordinate of the region specified <answer>[x1,y1,x2,y2]</answer>\nI will keep the coordinate of the region specified <answer>[x3,y3,x5,y5]</answer>\nI will keep the coordinate of the region specified <answer>[x4,y4,x6,y6]</answer>",
+                "black truck[[194, 420, 838, 802]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ablack truck[[194, 420, 838, 802]]\n<issue>\n<answer>I'm unable to directly view images, but I can provide you with the bounding box coordinates based on the description you provided. Here are the approximate coordinates:\n\n1. The black truck: [194, 420, 838, 802]\n2. The white truck: [862, 353, 1000, 924]\n3. The blue truck: [0, 494, 222, 770]\n\nThese coordinates are approximate and based on the bounding box definition.\n<answer>Based on the bounding box definition provided, the coordinates for the black truck are:\n\n[194, 420, 838, 802]\n\nThe coordinates for the white truck are:\n\n[862",
+                "black truck[[189, 420, 837, 806]]\nKnow the image in terms of its comprehensiveness: does it include any people?\npeople[[838, 349, 1000, 928]]\nBounding box coordinate of the region that this sentence describes: people[[838, 349, 1000, 928]]\nImages that include this sentence: black truck[[189, 420, 837, 806]]\nImages that include this sentence: people[[838, 349, 1000, 928]]\n",
+                "black truck[[196, 415, 841, 807]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<ans>\n</answer><answer>\n</answer>",
+                "black truck[[189, 418, 841, 803]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a<answer>black truck[[189, 418, 841, 803]]\n<issue> What is the region that this sentence describes: black truck[[189, 418, 841, 803]]\n<answer>black truck[[189, 418, 841, 803]]\n</issue>",
+                "black truck[[199, 420, 842, 807]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1ablack truck[[199, 420, 842, 807]]\n<issue>\n</issue>\n<question>What is the brand of the truck in the foreground?<br/></question>\n</issue>\n<answer>the brand of the truck in the foreground[[199, 420, 842, 807]]\n</issue>"
+            ],
+            "iou_scores": [
+                0.9511438122958856,
+                0.9431882462658044,
+                0.0,
+                0.9640718562874252,
+                0.9603053908941374,
+                0.0,
+                0.9686231196428293,
+                0.9505981245476817
+            ],
+            "iou_var": 0.17153578440572714,
+            "mean_iou": 0.7172413187417204,
+            "correct_count": 6
+        }
+    ]
+}

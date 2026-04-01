@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 12,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000040130.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom sandwich</ref>",
+            "ground_truth": [
+                155,
+                322,
+                556,
+                895
+            ],
+            "model_output": [
+                "bottom sandwich[[159, 318, 568, 946]]\nUnknown\n[[158, 25, 590, 412]]\n[[159, 25, 590, 412]]\nbottom sandwich[[159, 318, 568, 946]]\nbowl[[515, 22, 849, 463]]\nfork[[759, 364, 1000, 506]]\npaper[[561, 580, 829, 933]]\npaper[[561, 580, 829, 933]]\npaper[[561, 580, 829, 933]]\npiece of cloth",
+                "bottom sandwich[[158, 317, 562, 939]]\n[[156, 24, 597, 412]]\nRNA\n[[475, 22, 844, 456]]\npaper[[533, 582, 827, 932]]\n[[466, 0, 843, 454]]\n[[710, 367, 999, 510]]\n[[33, 17, 999, 989]]\n[[156, 24, 597, 412]]\n[[156, 316, 563, 937]]",
+                "bottom sandwich[[163, 319, 570, 948]]\nAnonymous text on paper tag: bottom[[161, 22, 588, 412]]\nAnonymous text on paper tag: bottom[[474, 89, 846, 460]]\nAnonymous text on paper tag: bottom[[474, 89, 846, 460]][[471, 580, 830, 935]][[471, 580, 830, 935]]\nAnonymous text on paper tag: bottom[[471, 580, 830, 935]]",
+                "bottom sandwich[[154, 317, 563, 938]]\nAnonymous text from the receipt: bottom[[154, 317, 563, 938]]\nAnonymous text from the receipt: bottom[[443, 37, 849, 456]]\nAnonymous text from the receipt: bottom[[443, 37, 849, 456]][[438, 44, 850, 454]]\nAnonymous text from the receipt: bottom[[443, 37, 849, 456]][[438, 44, 850, 454]]\nAnonymous text from the receipt: bottom[[443, ",
+                "bottom sandwich[[154, 316, 562, 945]]\n[[156, 24, 594, 412]]\n\u5c31\u5f88\u68d2\u4e86\uff0c\u7528\u8349\u836f\u505a\u7684\u6c99\u62c9\u3002\n[[430, 81, 848, 456]]\n[[154, 316, 562, 945]]\n[[435, 0, 848, 458]]\n[[497, 576, 824, 930]]\n[[790, 371, 999, 506]]\n[[738, 367, 996, 496]]\n[[2, 3, 998, 989]]",
+                "bottom sandwich[[164, 300, 573, 939]]\n[[162, 20, 592, 413]]\n[[458, 81, 846, 456]]\n${\\displaystyle 500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "bottom sandwich[[161, 316, 567, 939]]\n[[162, 21, 587, 413]]\n</div></div></div>\n <b>Image 2</b>\n <b>Image 1</b>\n</div></div></div>\n</div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "bottom sandwich[[158, 306, 557, 937]]\n[[157, 25, 589, 417]]\nDBA 498000000000000 842 1072 962[[533, 366, 842, 466]]\n[[147, 26, 562, 414]]\n[[141, 26, 570, 423]]\n[[442, 44, 849, 375]]\n[[503, 581, 842, 933]]\n[[760, 360, 998, 501]]"
+            ],
+            "iou_scores": [
+                0.8778169666285925,
+                0.9013742702771069,
+                0.8641605298806156,
+                0.9046572883077614,
+                0.895340409613766,
+                0.8428114728263316,
+                0.8828244453458982,
+                0.8996638894148835
+            ],
+            "iou_var": 0.00040385736293164327,
+            "mean_iou": 0.8835811590368694,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000228215.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>partial couch on right</ref>",
+            "ground_truth": [
+                483,
+                632,
+                1000,
+                988
+            ],
+            "model_output": [
+                "partial couch on right[[531, 635, 1000, 987]]\n[[0, 587, 241, 939]]\n[[463, 653, 1000, 895]]\n[[284, 374, 531, 491]]\n[[2, 584, 241, 880]]\n[[531, 633, 1000, 991]]\n[[462, 650, 998, 896]]",
+                "partial couch on right[[522, 689, 1000, 998]]\n[[4, 589, 242, 935]]\n</solution>\n\n\n\n\n\n\n\n\n\n[[269, 373, 529, 493]]\n</solution>\n</body>\n\n</html>\n\n</div>\n</body>\n\n</html>\n\n</div>\n</body>\n\n</html>\n\n\n\n",
+                "partial couch on right[[528, 689, 1000, 987]]\n[[0, 579, 237, 944]]\n \u2022 television set[[288, 373, 521, 492]]\n \u2022 blanket[[499, 632, 1000, 896]]\n \u2022 floor cover[[2, 732, 656, 1000]]\n \u2022 curtain[[661, 301, 859, 645]]\n \u2022 window[[0, 294, 54, 646]]\n \u2022 lamp[[0, 455, 92, 604]]\n \u2022 pillow[[220, 638, 325, 7",
+                "partial couch on right[[525, 685, 998, 1000]]\n[[452, 644, 1000, 898]]\nHere is your best effort at literal mind mapping:\n- The coordinates for the region that describes the partial couch on the right: <answer>[x1,y1,x2,y2]</answer>\n- The coordinates for the region that describes the television: <answer>[x33, 373, 518, 491]</answer>\n- The coordinates for the region that describes the blanket: <answer>[x, 633, 997, 984]</answer>\n- The coordinates for the region that describes the lamp: <answer>[x, 290, 102, 460]</answer>\n- The coordinates for the region that describes the door: <answer>[x, 581, 190, 695]</answer>\n- The coordinates for the region that describes the",
+                "partial couch on right[[528, 690, 1000, 987]]\nDNA[[0, 586, 246, 940]]\nDNA[[477, 652, 997, 984]]\nDNA[[282, 371, 534, 490]]",
+                "partial couch on right[[522, 690, 1000, 989]]\n[[441, 647, 1000, 902]]\nThe rest of the sentence is skipped: television[[288, 373, 537, 492]]\n[[2, 583, 224, 934]]\nThe rest of the sentence is skipped: couch[[441, 647, 1000, 989]]\nThe rest of the sentence is skipped: couch[[522, 690, 1000, 989]]\nThe rest of the sentence is skipped: couch[[441, 647, 1000, 989]]\nThe rest of the sentence is skipped: couch",
+                "partial couch on right[[532, 685, 1000, 998]]\n[[0, 587, 248, 943]]\nWikimedia: partial couch[[532, 685, 1000, 998]]\nThis is a large room with a sofa, a TV, and a fireplace. The TV is mounted on the wall between the two sofas. The room is well-lit with a lamp on the left side of the image. The room is mostly beige with white trim around the ceiling. The floor is wooden and features a zebra-striped carpet. There is a glass coffee table below the TV. The fireplace is dark, and there is a doorway to the right of the room.\npartial couch[[532, 685, 1000, 998]]\n[[0, 587, 248, 943]]\n",
+                "partial couch on right[[535, 634, 1000, 984]]\n\u5bc2\u7136\u65e0\u8bed\u7684\u591c\u665a\uff0c\u5979\u6216\u4ed6\u5728\u4eab\u53d7\u7740\u6e29\u6696\u7684\u706f\u5149\u4e0e\u8212\u9002\u7684\u73af\u5883\uff0c\u4eab\u53d7\u7740\u751f\u6d3b\u7684\u7f8e\u597d\u3002\n"
+            ],
+            "iou_scores": [
+                0.8969639015060961,
+                0.7568738349432299,
+                0.7642188077282507,
+                0.0,
+                0.7616543150848674,
+                0.77192868368287,
+                0.7513511222262256,
+                0.884260969725947
+            ],
+            "iou_var": 0.07271214807315826,
+            "mean_iou": 0.6984064543621858,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000310518.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left woman</ref>",
+            "ground_truth": [
+                0,
+                298,
+                185,
+                799
+            ],
+            "model_output": [
+                "left woman[[0, 297, 208, 827]]\n><answer>[x1,y1,x2,y2]</loadmore>\n[[784, 296, 1000, 1000]]\n```json\n{\n  \"boundingRect\": {\n    \"x\": 0,\n    \"y\": 0,\n    \"width\": 264,\n    \"height\": 263\n  }\n}\n```\n[[676, 313, 840, 762]]\n```json\n{\n  \"boundingRect\": {\n    \"x\": 676,\n    \"y\": 324,\n    \"width\": 245,\n    \"height\": 263\n  }\n}\n```\n```json\n{\n  \"boundingRect\": {\n    \"x\": 232,\n    \"y\": 462,\n    \"width\": 311,\n    \"height",
+                "left woman[[0, 295, 208, 867]]\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place\n again in the same place",
+                "left woman[[0, 298, 217, 854]]\nSPIKE\n[[780, 297, 1000, 987]]\n[[624, 319, 841, 778]]\n[[542, 236, 727, 585], [404, 229, 541, 443], [287, 262, 419, 445], [198, 282, 359, 620], [175, 281, 277, 505], [5, 222, 155, 474], [2, 295, 219, 866]]\n[[2, 295, 219, 866]]\n",
+                "left woman[[0, 297, 212, 822]]\nPROBE\n[[765, 296, 1000, 999]]\nano[[602, 236, 750, 714]]\nano[[517, 228, 676, 581]]\nano[[236, 255, 368, 482]]\nano[[187, 282, 306, 643]]\nano[[12, 227, 152, 476]]\n\nwoman[[24, 297, 211, 822]]\nano[[531, 236, ",
+                "left woman[[0, 294, 220, 827]]\nAI[[769, 294, 998, 989]]\nAI[[640, 318, 840, 763]]\nAI[[515, 231, 723, 620]]\nAI[[226, 260, 359, 450]]\nAI[[374, 229, 531, 459]]\nAI[[170, 282, 314, 648]]\n\n; AI[[18, ",
+                "left woman[[2, 297, 206, 818]]\nAI\n[[743, 302, 1000, 998]]\nAI[[0, 297, 203, 819]]\nAI[[563, 237, 746, 699]]\nAI[[583, 312, 809, 747]]\nAI[[229, 261, 365, 483]]\nAI[[343, 231, 518, 454]]\nAI[[286, 2",
+                "left woman[[0, 297, 218, 837]]\n again in the same coordinates as the first sentence.\n another woman[[772, 295, 998, 987]]\n again in the same coordinates as the first sentence.\n yet another woman[[651, 316, 827, 771]]\n yet another woman[[651, 316, 827, 771]]\n yet another woman[[507, 229, 741, 692]]\n yet another woman[[507, 229, 741, 692]]\n yet another woman[[507, 229, 741, 692]]\n yet another woman[[374, 233, 511, 467]]",
+                "left woman[[0, 295, 218, 828]]\n><answer>\nuserThe table has a pizza on it. Is the pizza being eaten or is it just on the table?\npizza[[138, 502, 776, 984]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>"
+            ],
+            "iou_scores": [
+                0.8407565312046444,
+                0.7790226600322754,
+                0.7682011073169115,
+                0.8327493261455525,
+                0.7904229916425038,
+                0.8545662994239696,
+                0.7873343527013251,
+                0.0361405543674691
+            ],
+            "iou_var": 0.06596750316315007,
+            "mean_iou": 0.7111492278543314,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000348382.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>giraffe on left</ref>",
+            "ground_truth": [
+                211,
+                270,
+                617,
+                763
+            ],
+            "model_output": [
+                "giraffe on left[[222, 271, 611, 766]]\nKnow the coordinates of an image element?\n\u00a0giraffe[[541, 2, 924, 611]]\nI will be happy to help! However, I'm a text-based AI and don't have the ability to view images directly. Nonetheless, I can provide guidance on how to identify objects or their bounding boxes in an image using computer vision libraries like OpenCV or TensorFlow. Could you please describe the image or provide more details?\n[[741, 122, 1000, 996]]\n[[213, 597, 252, 685]]\n[[71, 478, 171, 685]]\n",
+                "giraffe on left[[224, 267, 612, 766]]\nImages: \ngiraffe[[536, 2, 938, 621]]\nImages: \ngiraffe[[224, 267, 612, 766]]\nImages: \ngiraffe[[536, 2, 938, 621]]\nImages: \ngiraffe[[224, 267, 612, 766]]\nImages: \ngiraffe[[224, 267, 612, 766]]\nImages: \ngiraffe[[536, 2, 938, 621]][[734, 125, 1000, 989]]",
+                "giraffe on left[[227, 274, 612, 768]]\nKnow the file type if there are multiple images in the file?\n\nPhotosynthesis in the desert ecosystem is a crucial process for plants, which can be triggered by various factors such as...\nThe image depicts a giraffe standing behind a wooden fence at a zoo enclosure. The giraffe is extending its long neck to eat green leaves from a person's hand, which is offering the giraffe the leaves. The giraffe's face is partially covered with the leaves, and its body is visible with its distinctive brown and white patterned coat. The setting appears to be an outdoor area of a zoo, with other visitors in the background.\n\nThe giraffe's posture indicates it is in the process of eating, and it seems to be enjoying the greens offered by the person's hand. The wooden fence behind the giraffe separates it from the rest of the zoo visitors, who can be seen in the background, walking along a path. The background also includes some greenery and a stone structure, which adds to the natural ambiance of the enclosure.\n\nThe person offering the giraffe the leaves is wearing a sleeveless",
+                "giraffe on left[[222, 275, 606, 766]]\nUnknownMore below:giraffe on right[[530, 0, 932, 602]]\nUnknown[[735, 126, 1000, 988]]\n[[32, 474, 171, 698]]\n[[189, 269, 608, 768]]\n[[719, 509, 869, 772]]\n[[13, 582, 212, 734]]\n[[0, 690, 283, 999]]\n[[3",
+                "giraffe on left[[222, 269, 613, 768]]\nImages: \ngiraffe[[547, 0, 920, 602]]\nImages: \ngiraffe[[222, 269, 613, 768]]\nImages: \ngiraffe[[547, 0, 920, 602]]\nImages: \ngiraffe[[222, 269, 613, 768]]",
+                "giraffe on left[[224, 272, 609, 766]]\nA person is feeding the giraffe. The person is standing on the right side of the image, wearing a sleeveless top. The woman's back is visible, facing the giraffes. The giraffe is approaching the woman to eat some leaves.\nwoman is standing on the right side of the image, wearing a sleeveless top. The woman's back is visible, facing the giraffes. The giraffe is approaching the woman to eat some leaves.\n1. giraffe[[536, 2, 942, 615]]\n2. giraffe[[224, 272, 609, 766]]\nThe woman is facing the giraffes. The giraffe is approaching the woman to eat some leaves.\nThe woman is standing on the right side of the image, wearing a sleeveless top. The woman's back is visible, facing the giraffes. The giraffe is",
+                "giraffe on left[[221, 271, 612, 764]]\n<answer>giraffe on left[[522, 2, 928, 613]]\n ent\u00e3o, if you need any further assistance, such as more specific questions or explanations about the image, feel free to ask!\n<answer>\n[[745, 131, 998, 989]]\n</answer>[[745, 131, 998, 989]]\n</div></div>\n</div>[[108, 474, 197, 688]]\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "giraffe on left[[225, 267, 612, 766]]\nAI\n[[535, 1, 953, 607]]\nAI\n[[748, 135, 1000, 998]]\nAI\n[[81, 474, 178, 681]]\n[[718, 512, 880, 712]]\n[[225, 267, 612, 766]]\n[[535, 1, 9"
+            ],
+            "iou_scores": [
+                0.9506419967713895,
+                0.9446776567268849,
+                0.9316221552530396,
+                0.9308628483433511,
+                0.9518972464741438,
+                0.9390103967453667,
+                0.07839735924684642,
+                0.942270841564599
+            ],
+            "iou_var": 0.08154392599625782,
+            "mean_iou": 0.8336725626407027,
+            "correct_count": 7
+        }
+    ]
+}

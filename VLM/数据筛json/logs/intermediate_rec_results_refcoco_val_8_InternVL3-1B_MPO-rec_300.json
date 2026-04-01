@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 8,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000276417.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man leaning on fence</ref>",
+            "ground_truth": [
+                452,
+                17,
+                607,
+                692
+            ],
+            "model_output": [
+                "man leaning on fence[[459, 2, 608, 697]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aman[[459, 2, 608, 697]]\n</answer>\nAnother person: <answer>[x1,y1,x2,y2]</answer>\nAnother person: <answer>[x1,y1,x2,y2]</answer>\nBarefoot boy: <answer>[x1,y1,x2,y2]</answer>\nBarefoot boy: <answer>[x1,y1,x2,y2]</answer>\nBaseball bat: <answer>[x1,y1,x2,y2]</answer>\nBaseball bat: <answer>[x1,y1,x2,y2]</answer>\nBaseball bat: <answer>[x1,y1,x2,y2]</answer>",
+                "man leaning on fence[[453, 10, 606, 690]]\nAnonymous: man[[453, 10, 606, 690]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\nAnonymous: baseball uniform[[484, 234, 820, 953]]\n",
+                "man leaning on fence[[453, 0, 609, 697]]\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> format: `<box><si></box>` \n```\nthis sentence describes[[482, 236, 829, 948]]\n```\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> format: `<box><si></box>` \n```\nthis sentence describes[[482, 236, 829, 948]]\n```\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes\" in <box> format: `<box><si></box>` \n```\nthis sentence describes[[482, 236, 829, 948]]\n```\n<answer>\nhere is the bounding box coordinate of the region described as \"this sentence describes",
+                "man leaning on fence[[449, 11, 610, 688]]\n<answer>man[[449, 11, 610, 688]]\n</answer>\n<answer>boy[[480, 234, 832, 951]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "man leaning on fence[[456, 9, 616, 689]]\n again\n The coordinate is calculated as follows:\n[x1,y1,x2,y2] \n<answer>[z,24,447,467]</z>\n again\n again again\n again again again again again again again again again again again again again again again",
+                "man leaning on fence[[453, 13, 607, 694]]\n<answer>\nHere is the location of the region described by the sentence after determining the bounding box coordinates: \nman leaning on fence[[453, 13, 607, 694]]\n<issue>\n</issue>\nOutput: The region description \"the man leaning on fence\" in the context of the bounding box coordinates should be replaced with the corresponding coordinates.\n<answer>the man leaning on fence[[453, 13, 607, 694]]\n</issue>\nOutput: The region description \"the man leaning on fence\" in the context of the bounding box coordinates should be replaced with the corresponding coordinates.\n<br>\n<issue>\n</issue>\nOutput: The region description \"the man leaning on fence\" in the context of the bounding box coordinates should be replaced with the corresponding coordinates.\n",
+                "man leaning on fence[[453, 14, 608, 700]]\nAI",
+                "man leaning on fence[[455, 0, 610, 701]]\n<answer>man[[455, 0, 610, 701]]\nAnother boy is batting in the foreground of the image. He is wearing a green jersey, grey pants, and a green helmet with a yellow design. He is swinging the bat with his right hand. His left hand is on the helmet. He is standing on the dirt field with his knees slightly bent. The background shows a chain-link fence, a crate of apples, and a person standing behind the fence. There are several baseball bats leaning against the fence. The batter is wearing black shoes. The batter is wearing a blue and gold helmet. The batter is positioned to hit the ball. The batter is wearing a dark blue shirt and white shorts. The batter is positioned to hit the ball. The batter is positioned to hit the ball. The batter is wearing a blue and gold helmet. The batter is positioned to hit the ball. The batter is wearing a blue and gold helmet. The batter is positioned to hit the ball. The batter is wearing a blue and gold helmet. The"
+            ],
+            "iou_scores": [
+                0.9226080531954193,
+                0.9741995912806539,
+                0.9501220214428693,
+                0.9488035614913745,
+                0.9063803560422677,
+                0.9848506380922605,
+                0.9714499322461567,
+                0.9269967473798337
+            ],
+            "iou_var": 0.0006771587044451473,
+            "mean_iou": 0.9481763626463544,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000450457.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front most zebra</ref>",
+            "ground_truth": [
+                111,
+                146,
+                772,
+                848
+            ],
+            "model_output": [
+                "front most zebra[[135, 148, 928, 836]]\n<answer>\n\n<answer>\n\n####\n\ni\n####\n####\n<brsup>\n</div><br>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "front most zebra[[123, 144, 851, 840]]\n<answer>front most zebra[[123, 144, 851, 840]]\n<image>\n<answer>\n\u5f97\u5f88\u68d2\uff01\u8fd8\u6709\u5176\u4ed6\u9700\u8981\u6807\u6ce8\u7684\u7269\u4f53\u5417\uff1f\n</image></tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n</tag>\n",
+                "front most zebra[[134, 146, 886, 840]]\n<answer>\n</response><answer>front most zebra[[134, 146, 886, 840]]\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</response><answer>\n</",
+                "front most zebra[[132, 145, 884, 843]]\nImages: \nfront most zebra[[132, 145, 884, 843]]white deer[[2, 380, 354, 863]]\nImages: \nwhite deer[[2, 380, 354, 863]]\nImages: \nwhite deer[[2, 380, 354, 863]]\nImages: \nwhite deer[[2, 380, 354, 863]]\nImages: \nwhite deer[[2, 380, 354, 863]]\nImages: \nwhite deer[[2, 380, 354, 863]]white deer",
+                "front most zebra[[137, 146, 863, 843]]\n><answer>[x1,y1,x2,y2]</warn></cite>\n><answer>front most zebra[[137, 146, 863, 843]]\n;<answer>[x1,y1,x2,y2]</warn></cite>\n2012-08-14 12:34:14 +05:30\n</select>\n</strong>\n</select>\n",
+                "front most zebra[[136, 147, 862, 833]]\n<image>\nfront most zebra[[728, 169, 997, 788]]\n</image>\n</body>\n</html>\n</body>\n</html>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "front most zebra[[132, 145, 866, 833]]\n<answer>\nfront most zebra[[132, 145, 866, 833]]\n<answer>\n\n<answer>\n\n[[0, 384, 353, 865]]\n</answer>\n</body>\n</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</body>\n</iview</",
+                "front most zebra[[128, 145, 862, 830]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1afront most zebra[[128, 145, 862, 830]]\n<image>\n\nitt tags of the region front most zebra[[128, 145, 862, 830]] and its bounding box coordinates in <answer></value>\n<answer>\nfront most zebra[[128, 145, 862, 830]]\n<image>\n\n</pre></div></td></tr></table></div></div>\n</pre></div>\n</body></html>\n"
+            ],
+            "iou_scores": [
+                0.7670534698521047,
+                0.8656593068667549,
+                0.8152108672197489,
+                0.8217552934761384,
+                0.839123782583719,
+                0.8298355529688338,
+                0.8306286767900796,
+                0.8369420652231739
+            ],
+            "iou_var": 0.0006887093224863688,
+            "mean_iou": 0.8257761268725692,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000440820.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>yellow shirt</ref>",
+            "ground_truth": [
+                77,
+                179,
+                516,
+                913
+            ],
+            "model_output": [
+                "yellow shirt[[86, 190, 522, 915]]\n><answer>[[463, 121, 811, 908]]\n><answer>yellow shirt[[86, 190, 522, 915]][[86, 190, 522, 915]]\n><answer>yellow shirt[[86, 190, 522, 915]][[86, 190, 522, 915]]\n><answer>yellow shirt[[86, 190, 522, 915]][[86, ",
+                "yellow shirt[[80, 187, 513, 922]]\n><answer>[x1,y1,x2,y2]</value></div>\n><answer>&#x1176;&#x247;white shirt[[440, 122, 818, 907]]\n\n[[421, 130, 818, 908]]\nHere is the image description for the bounding box coordinates of the region [#1 woman] within the image: <answer>[x1,y1,x2,y2]</value></div>\n><answer>&#x1176;man[[421, 130, 818, 908]]\n><answer>&#x1176;man[[80, 187, 513, 922]]",
+                "yellow shirt[[84, 189, 524, 922]]\n><answer>[x1,y1,x2,y2]</waiting><answer>man[[435, 122, 815, 908]]\n</answer>\n<answer>man[[435, 122, 815, 908]]\n</answer>\n</body></div>\n</div>\n</body></div>\n</body></div>\n</html>\n</body></div>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n",
+                "yellow shirt[[85, 192, 515, 919]]\n><answer>[x1,y1,x2,y2]</warning>\n><answer>yellow shirt[[85, 192, 515, 919]]\n[[441, 117, 815, 909]]\n<answer>[[416, 221, 815, 897]]\n</answer>\n[[122, 536, 443, 813]]\n[[416, 142, 779, 311]]\n[[0, 433, 1000, 1000]];'\n",
+                "yellow shirt[[76, 193, 519, 919]]\n><answer>[x1,y1,x2,y2]</warn><answer>man[[436, 121, 816, 909]]\n><answer>[x1,y1,x2,y2]</answer><answer>tennis ball[[495, 439, 562, 480]]\n><answer>[x1,y1,x2,y2]</answer><answer>tennis racket[[127, 531, 426, 807]]\n><answer>[x1,y1,x2,y2]</answer>[[404, 139, 773, 300]]\n</coordinate>\n,[[6",
+                "yellow shirt[[83, 190, 521, 924]]\n><answer>[x1,y1,x2,y2]</structure></answer>\n[[440, 117, 815, 908]]\n<answer>&#931;</answer>\n[[141, 136, 512, 798]]\n</image>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+                "yellow shirt[[83, 188, 522, 914]]\n<answer>\nHere is the relevant tag from the image: \nyellow shirt[[83, 188, 522, 914]]\n<image>\n<answer>\nyellow shirt[[83, 188, 522, 914]]\n<answer>\nHere is the relevant tag from the image: \nman[[436, 121, 814, 910]]\n<answer>\nHere is the relevant tag from the image: \nman[[436, 121, 814, 910]]\n####\n[[436, 121, 814, 910]]\nif any\n[[83, 188, 52",
+                "yellow shirt[[82, 187, 524, 926]]\n><answer>[x1,y1,x2,y2]</value></div>[[447, 123, 819, 908]]\n[[86, 193, 519, 913]]\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</"
+            ],
+            "iou_scores": [
+                0.9494679876372787,
+                0.9639246541948897,
+                0.10509613656143824,
+                0.9545082295277797,
+                0.1036810316972798,
+                0.0,
+                0.9599712551412015,
+                0.9439870573431601
+            ],
+            "iou_var": 0.1844168973931792,
+            "mean_iou": 0.6225795440128785,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000043892.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>peach in middle</ref>",
+            "ground_truth": [
+                513,
+                357,
+                756,
+                691
+            ],
+            "model_output": [
+                "peach in middle[[398, 274, 721, 643]]\nAI",
+                "peach in middle[[419, 276, 720, 593]]\n[[404, 579, 711, 989]]\nClose tag: <answer>[x1,y1,x2,y2]</answer>\n[[699, 403, 964, 780]]\nThe peach in the middle is not as close as the peach on the right. The coordinates for the peach on the right are [699, 402, 964, 777].\nThe peach in the middle is not as close as the peach on the right. The coordinates for the peach on the right are [419, 276, 720, 593].\nThe peach in the middle is not as close as the peach on the left. The coordinates for the peach on the left are [213, 248, 417, 980].\nThe peach in the middle",
+                "peach in middle[[479, 358, 765, 702]]\n[[369, 579, 707, 984]]\nThe rest of the sentence is not necessary to describe.\n[[174, 260, 461, 982]]\nThe rest of the sentence is not necessary to describe.\n[[78, 117, 419, 893]]\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\nThe rest of the sentence is not necessary to describe.\n",
+                "peach in middle[[450, 356, 761, 698]]\nImages: \nThere are multiple apples in the image. Please identify the apple image in the image and provide its coordinates. \napple[[408, 583, 710, 986]]\nImages: \nThere are multiple apples in the image. Please identify the apple image in the image and provide its coordinates. \napple[[373, 225, 682, 578]]\nImages: \nThere are multiple apples in the image. Please identify the apple image in the image and provide its coordinates. \napple[[206, 270, 418, 998]]\nImages: \nThere are multiple apples in the image. Please identify the apple image in the image and provide its coordinates. \napple[[519, 362, 750, 694]]\nImages: \nThere are multiple apples in the image. Please identify the apple image in the",
+                "peach in middle[[396, 273, 721, 639]]\n[[402, 578, 707, 988]]\nIf the fruit in the bowl is yellow, what color is the peach?\nyellow[[239, 256, 437, 987]]\nIf the fruit in the bowl is red, what color is the peach?\nred[[492, 363, 765, 699]]\nIf the fruit in the bowl is green, what color is the peach?\ngreen[[714, 406, 961, 785]]\nIf the fruit in the bowl is orange, what color is the peach?\norange[[352, 215, 504, 457]]\nIf the fruit in the bowl is yellow, what color is the peach?\nyellow",
+                "peach in middle[[427, 363, 762, 711]]\nA:\npeach[[427, 363, 762, 711]]\nThe peach is located at [419, 582, 714, 982]\nThe peach is located at [421, 274, 748, 585]\nThe peach is located at [418, 225, 699, 460]\nThe peach is located at [421, 38, 719, 305]\nThe peach is located at [421, 363, 762, 711]\nThe peach is located at [421, 274, 748, 585]\nThe peach is located at [419, 582, 714, ",
+                "peach in middle[[474, 359, 764, 696]]\n[[369, 580, 710, 987]]\nThe bounding box coordinate of the region that this sentence describes: lime[[726, 400, 962, 780]]\n[[70, 123, 516, 938]]\nThe bounding box coordinate of the region that this sentence describes: apple[[364, 272, 740, 631]]\nThe bounding box coordinate of the region that this sentence describes: apple[[383, 212, 589, 456]]\nThe bounding box coordinate of the region that this sentence describes: banana[[70, 119, 391, 919]]\nThe bounding box coordinate of the",
+                "peach in middle[[387, 278, 712, 632]]\n[[423, 577, 710, 987]]\n soo[[483, 362, 744, 696]]\n [[173, 261, 419, 990]]\n [[734, 400, 963, 784]]\n [[66, 119, 483, 954]]\n[[471, 30, 710, 309]]\n[[362, 213, 487, 447]]\n [[690, "
+            ],
+            "iou_scores": [
+                0.42231703594323483,
+                0.0,
+                0.8204548450221542,
+                0.7630732780504316,
+                0.4146589752290465,
+                0.6752401768921873,
+                0.8214140262279058,
+                0.3867846515934326
+            ],
+            "iou_var": 0.071312841767114,
+            "mean_iou": 0.5379928736197991,
+            "correct_count": 4
+        }
+    ]
+}

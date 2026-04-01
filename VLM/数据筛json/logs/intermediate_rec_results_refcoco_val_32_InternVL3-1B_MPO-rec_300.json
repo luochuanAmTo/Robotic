@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 32,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000420183.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle broccoli</ref>",
+            "ground_truth": [
+                293,
+                273,
+                684,
+                700
+            ],
+            "model_output": [
+                "middle broccoli[[412, 265, 688, 699]]\n<answer>[[620, 683, 850, 987]]\n<answer>middle broccoli[[366, 423, 680, 705]]\n<answer>broccoli[[12, 0, 533, 999]]\n<answer>spoon[[728, 217, 998, 796]]\n<issue> spoon[[728, 217, 998, 796]]\n</issue>\nResults: \n\nThere is no region in the image that matches the given description.\n<answer>spoon[[728, 217, 998, 796]]\n</issue>\nResults: \n\n",
+                "middle broccoli[[378, 262, 689, 701]]\n<answer>[[604, 687, 850, 998]]\n\u90fd\u4e0d\u6562\u63a5\u8fd1\u7684\u4eba\uff0c\u4f46\u4f60\u4ecd\u7136\u53ef\u4ee5\u4eab\u53d7\u751f\u6d3b\u7684\u4e50\u8da3\u3002\nSample text: The sentence describes a dish containing broccoli, carrots, and browned tofu. The dish is presented on a white plate with a spoon placed next to it. The vegetables appear to be cooked and coated in a sauce, giving them a glossy appearance. The texture of the vegetables looks tender and juicy, while the browned tofu adds a savory element to the dish. The overall presentation is simple yet visually appealing, highlighting the vibrant colors and textures of the ingredients.\n<answer>Based on the image, the region that the sentence describes is the broccoli and carrots. The broccoli is located towards the top left of the image, and the carrots are located towards the center and bottom of the image. The bounding box coordinates for these regions",
+                "middle broccoli[[384, 265, 678, 705]]\n<answer>To provide a more detailed description of the region you mentioned, I will describe it step by step:\n\n1. **Bounding Box Coordinates:**\n   - The bounding box coordinates for the region in the middle section of the image are [384, 265, 678, 705].\n\n2. **Bounding Box Description:**\n   - The bounding box includes the leftmost point (x1,y1), the rightmost point (x2,y2), and the bottommost point (y1,y2) of the region. These coordinates define the rectangular area within the image.\n\n3. **Region Description:**\n   - The region in the middle section of the image is dominated by green broccoli florets and is situated within the bounding box.\n   - The broccoli florets are positioned from approximately the mid-left to the mid-right of the bounding box.\n   - The bounding box encompasses the entire broccoli florets, making it the central part of the image.\n\nThis step-by-step description provides a clear and detailed view of the region specified in the sentence.",
+                "middle broccoli[[392, 265, 678, 697]]\nAI-2: The image shows a dish of stir-fried vegetables, including broccoli and carrots. The vegetables are cooked and appear to have a sauce on top. The dish is served on a white plate. The region of interest is the area containing the broccoli, carrots, and other ingredients. The bounding box coordinates are: [111, 721, 534, 984], [548, 686, 852, 989], [343, 647, 576, 726], [18, 165, 347, 703], [669, 499, 907, 693], [718, 396, 896, 531], [344, 0, 661, 346], [515, 781, 670, 937], [325, ",
+                "middle broccoli[[401, 264, 685, 697]]\n[[225, 643, 532, 835]]\n</div></td></tr>\n<td>2</td></tr>\n<tr><td>2</td></tr>\n</table>\n[[598, 693, 852, 998]]\n[[585, 453, 900, 692]]\n[[362, 2, 661, 252]]\n</table>\n</div></td></tr>\n<tr><td>2</td></tr>\n<tr><td>2</td></tr>\n<tr><td>2</td></tr>\n<tr><td>3</td></tr>\n<tr><td>2</td></tr>\n<tr><td>2</td></tr>\n<tr><td>",
+                "middle broccoli[[392, 265, 679, 697]]\n[[578, 686, 843, 998]]\n[[209, 712, 539, 999]]\n[[14, 164, 369, 721]]\n[[352, 0, 647, 311]]\nspoon[[702, 217, 999, 799]]\n[[208, 640, 572, 734]]\n[[576, 778, 883, 955]]\n[[214, 802, 498, 974]]\n[[49",
+                "middle broccoli[[389, 262, 678, 699]]\n[[585, 688, 855, 995]]\n[[206, 642, 534, 952]]\n[[177, 720, 506, 990]]\n[[24, 0, 861, 724]]\n[[691, 236, 898, 406]]\n[[869, 217, 998, 796]]\n[[859, 512, 943, 689]]\n[[858, 467, 926, 632]]\n[[",
+                "middle broccoli[[399, 265, 680, 697]]\n[[110, 326, 367, 718]]\n${{533, 244, 874, 695]}\n${{237, 640, 531, 726]}\n${{245, 659, 540, 726]}\n${{567, 863, 651, 934]}\n${{631, 683, 849, 994]}\n[[211, 721, 504, 961]]\n[[209, 595, 502, 737]]\n${{109, 487, 334, 701"
+            ],
+            "iou_scores": [
+                0.6781335408997536,
+                0.7560408276628247,
+                0.7350903799647498,
+                0.7164997488847529,
+                0.7060969653459812,
+                0.7189710078994168,
+                0.723621103117506,
+                0.7041399485830797
+            ],
+            "iou_var": 0.00046168001712548523,
+            "mean_iou": 0.717324190294758,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000073999.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>player on left</ref>",
+            "ground_truth": [
+                46,
+                144,
+                380,
+                930
+            ],
+            "model_output": [
+                "player on left[[45, 142, 374, 933]]\n><answer>[x1,y1,x2,y2]</warn></div></div>\n[[547, 140, 874, 933]]\n[[45, 142, 373, 933]]\n[[547, 140, 874, 933]]\n[[45, 142, 373, 933]]\n[[547,",
+                "player on left[[42, 137, 379, 935]]\n><answer>[x1,y1,x2,y2]</warn></div>\n1. The image shows a tennis player.\n2. The player is preparing to hit a tennis ball.\n3. The player is wearing a white shirt and black shorts.\n4. The player is holding a tennis racket in both images.\n5. The player is on a tennis court.\n\nPlease note that the bounding box coordinates are approximate and based on the given image. The exact coordinates may vary slightly depending on the image's resolution and cropping.\n\n3. The player is swinging the tennis racket.\n4. The player is hitting a tennis ball with the racket.\n5. The player is wearing white tennis shoes.\n6. The player is on a tennis court.\n\nThe image shows a tennis player who is swinging the tennis racket with the ball in front of him. The player is wearing white tennis shoes and black shorts. The player is on a tennis court. The image is divided into two parts, each showing the player in a different pose and angle. The player is preparing to",
+                "player on left[[41, 138, 375, 936]]\n><answer>\nuserAre the two images side by side, or are they different scenes?\nialis are different scenes.\n520, 11, 964, 939 - <answer>[c]\n71, 3, 980, 939 - <answer>[c]\n9, 3, 989, 939 - <answer>[c]\n22, 3, 978, 939 - <answer>[c]\n20, 3, 973, 939 - <answer>[c]\n90, 3, 977, 939 - <answer>[c]\n33, 3, 974, 939 - <answer>[c]\n47, 3, 976, 939",
+                "player on left[[47, 141, 378, 942]]\n><answer>[x1,y1,x2,y2]</structure>[[548, 138, 869, 934]]\n[[47, 141, 379, 942]]\n[[548, 138, 869, 934]]\n[[410, 97, 476, 404]]\n[[552, 91, 889, 930]]\n[[51, 715, 984, 976]]\n[[410, 97, 476, 404",
+                "player on left[[41, 139, 376, 934]]\n><answer>[x1,y1,x2,y2]</choose>\nCreative translation of the coordinates: \"player on the left\" in <answer></answer>\nplayer on the left[[544, 138, 871, 936]]\n<answer>&#x12;&#x12;player on the left&#x12;[[41, 139, 376, 934]]</answer>\n<answer>&#x12;player on the left&#x12;[[41, 139, 376, 934]]</answer>\n<answer>&#x12;player on the left&#x12;[[544, 138, 871, 936]]</answer>\n<answer>&#x12;player on the left&#x1",
+                "player on left[[48, 136, 374, 930]]\n><answer>\n</code></div></p>\nplayer on left[[540, 136, 873, 934]]\n</code></div></p>\nplayer[[48, 136, 374, 930]]\n</code></div></p>\nplayer[[540, 136, 873, 934]]\n</code></div></p>\ntennis ball[[761, 266, 809, 308]]\n</code></div></p>\ntennis racket[[343, 94, 470, 423]]\n</code></div></p>\ntennis court[[33, 611, 980, 952]]\n</code></div></p>\n",
+                "player on left[[44, 142, 382, 932]]\n><answer>[x1,y1,x2,y2]</warn></div></p>\n\n<answer>\nplayer on left[[540, 142, 871, 933]]\n</div></p>\n</div></m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>\n</m:alert>",
+                "player on left[[40, 140, 377, 934]]\n><answer>[x1,y1,x2,y2]</warning>\n><answer>player on left[[547, 138, 866, 937]]\n[[40, 140, 377, 934]]\n[[547, 138, 866, 937]]\n[[43, 142, 379, 932]]\n[[549, 138, 867, 934]]\n[[43, 142, 379, 932]]\n[[547, 138, 866, 934]]"
+            ],
+            "iou_scores": [
+                0.9730256081221339,
+                0.9704351308061933,
+                0.9561195288062648,
+                0.9726231732893689,
+                0.0,
+                0.9664469019205528,
+                0.9831623099393304,
+                0.9638062355521309
+            ],
+            "iou_var": 0.10283197587091715,
+            "mean_iou": 0.8482023610544969,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000470618.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>large white vehicle left lower corner</ref>",
+            "ground_truth": [
+                52,
+                756,
+                359,
+                986
+            ],
+            "model_output": [
+                "large white vehicle left lower corner[[45, 750, 367, 989]]\n<answer>large white vehicle left lower corner[[45, 750, 367, 989]]\n<answer>bus[[605, 457, 813, 881]]\n<answer>bus[[378, 401, 586, 837]]\n</answer>\n</body></div>\n<comment>It appears that the bounding box tags provided do not correspond to any specific region or object in the image. The tags are placed around different parts of the image, but they do not describe a specific region or object. The image shows a busy city street with multiple buses, cars, and pedestrians, but there is no clear bounding box that matches any of these objects.</c\n",
+                "large white vehicle left lower corner[[45, 753, 371, 987]]\n\n\n[[625, 772, 879, 1000]]\nThe bounding box for the region describing the bus on the right: bus[[602, 443, 809, 880]]\nThe bounding box for the region describing the bus on the left: person[[375, 515, 406, 568]]\nThe bounding box for the region describing the bus on the left: person[[135, 586, 180, 704]]\nThe bounding box for the region describing the bus on the right: bus[[391, 419, 569, 699]]\nThe bounding box for the region describing the bus on the left: person[[113, 586",
+                "large white vehicle left lower corner[[35, 745, 395, 1000]]\n\n\n```yaml\n:\nbbox_coords:\n  - [129, 303, 180, 492]\n  - [195, 310, 227, 491]\n  - [238, 348, 309, 694]\n  - [362, 394, 470, 686]\n  - [529, 447, 788, 892]\n  - [708, 774, 887, 1000]\n  - [814, 494, 936, 679]\n  - [681, 184, 744, 307]\n  - [691, 203, 746, 307]\n  - [738, 213, 79",
+                "large white vehicle left lower corner[[43, 745, 378, 989]]\n<answer>\nlarge white vehicle left lower corner[[43, 745, 378, 989]]\n<issue>\n</issue>\n<answer>\nlarge white vehicle left lower corner[[43, 745, 378, 989]]\n<issue> large white vehicle left lower corner[[668, 776, 876, 1000]]\n<answer>\n</issue> large white vehicle left lower corner[[668, 776, 876, 1000]]\n<issue> large white vehicle left lower corner[[668, 776, 876, 1000]]\n<issue> large white vehicle",
+                "large white vehicle left lower corner[[45, 752, 383, 1000]]\n<answer>large white vehicle left lower corner[[45, 752, 383, 1000]]\n<answer>bus[[400, 410, 571, 943]][[397, 436, 574, 712]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "large white vehicle left lower corner[[37, 736, 398, 989]]\n<answer>large white vehicle left lower corner[[37, 736, 398, 989]]\n<answer>large white vehicle[[672, 770, 878, 1000]]\n<answer>large white vehicle[[672, 770, 878, 1000]]\n<answer>bus[[351, 406, 585, 945]]\n[[525, 457, 790, 880]]\n[[528, 448, 789, 679], [709, 474, 871, 652]]\n[[509, 279, 62",
+                "large white vehicle left lower corner[[43, 751, 385, 1000]]\n[[671, 774, 878, 1000]]\nHere is the coordinates of the region found in the image text \"Am\" in <mark>text>Am</mark>:\n\nAm[[671, 774, 878, 1000]]\nlarge white vehicle right[[591, 458, 809, 879]]\nlarge white vehicle[[807, 455, 940, 626]]\ncar[[839, 651, 935, 804]]\n[[839, 651, 935, 804]]\n{'top': 31",
+                "large white vehicle left lower corner[[0, 749, 287, 989]]\n<answer>large white vehicle left lower corner[[0, 749, 287, 989]]<answer>\n<answer>large white vehicle left lower corner[[693, 771, 886, 1000]]\n<answer>large white vehicle left lower corner[[693, 771, 886, 1000]]\n[[658, 463, 843, 875]]\n\n\n\n[[680, 655, 875, 872]]\nif you could give me one thing to do in this world, where would you choose to do it?\n\n</answer\u4ef7\n</body>\n</image>\n"
+            ],
+            "iou_scores": [
+                0.917513448894202,
+                0.9256200513869226,
+                0.7691721132897603,
+                0.8638365549302667,
+                0.8423601832410765,
+                0.7731050113321581,
+                0.8291646116630264,
+                0.6326076779026217
+            ],
+            "iou_var": 0.007882887150702367,
+            "mean_iou": 0.8191724565800044,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000417006.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle long black controller</ref>",
+            "ground_truth": [
+                490,
+                107,
+                626,
+                766
+            ],
+            "model_output": [
+                "middle long black controller[[456, 95, 602, 755]]\n[[164, 148, 280, 750]]\n${{526, 73, 593, 750}}\n${{447, 63, 526, 750]}\n${{328, 224, 435, 748]}\nwhite[[405, 229, 490, 748]]\nwhite[[266, 273, 361, 751]]\nremote[[33, 129, 160, 795]]\nremote[[13, 125, 157, 796]]\nremote[[168, 148, 280, ",
+                "middle long black controller[[454, 96, 597, 758]]\n another-answer: middle long black controller[[312, 227, 461, 747]]\n another-answer: middle long black controller[[536, 92, 668, 755]]\n another-answer: middle long black controller[[552, 157, 756, 748]]\n another-answer: middle long black controller[[539, 72, 667, 754]]\n another-answer: middle long black controller[[543, 72, 668, 754]]\n another-answer: middle long black controller[[312, 227, 461, 747]]\n another-answer: middle long black controller[[536, 92, 668, ",
+                "middle long black controller[[461, 97, 609, 757]]\nBeneath is a list of regions:\n\nThe image shows a collection of various remote controls on a black surface. The remote controls are arranged in two rows, with two rows of three remote controls each. The first row has two remote controls: one white Wii remote and one black Toshiba remote. The second row has three remote controls: one white RCA remote, one silver Panasonic remote, and one black RCA remote. The remote controls are placed next to each other, with the Wii remote connected to one of the black RCA remote. The background is a plaid-patterned fabric, likely a couch or bed.\n\n<answer>middle long black controller[[461, 97, 609, 757]]\n[[461, 97, 609, 757]]\n<answer>\n[[623, 161, 760, 7",
+                "middle long black controller[[469, 98, 612, 757]]\n[[260, 273, 364, 747]]\nDNA\n[[23, 130, 161, 791]]\n[[789, 140, 906, 747]]\n[[172, 146, 286, 795]]\n[[388, 229, 495, 744]]\n[[629, 160, 760, 738]]\n[[782, 143, 904, 747]]\n[[32, 124, 168, 793]]\n",
+                "middle long black controller[[474, 96, 612, 757]]\n[[156, 152, 272, 725]]\n[[16, 130, 154, 796]]\n[[16, 130, 154, 796]]\nmiddle long black controller[[361, 228, 474, 744]]\nmiddle long black controller[[474, 93, 612, 757]]\nRCA[[608, 160, 756, 744]]\nRCA[[155, 143, 273, 722]]\nremote[[16, 130, 154, 796]]\nremote[[16",
+                "middle long black controller[[472, 96, 612, 756]]\nMore like this, but the white one is placed differently? <answer>[x1,y1,x2,y2]</answer>\nwhite one[[472, 96, 612, 756]]\nmiddle long black controller[[394, 228, 492, 744]]\nwhite controller[[305, 274, 397, 747]]\nTV\u9065\u63a7\u5668[[33, 132, 145, 796]]\nTV[[22, 129, 147, 794]]\nTV remote[[15, 136, 151, 795]]\nremote[[611, 160, 763, 744]]\nremote[[7",
+                "middle long black controller[[462, 96, 612, 758]]\nImages:\nmiddle long black controller[[282, 228, 453, 745]]\nwhite Wii remote[[27, 132, 159, 797]]\nwhite remote[[282, 227, 453, 744]]\nPanasonic[[777, 142, 907, 749]]\nRCA[[610, 163, 760, 743]]\nTV remote[[741, 155, 906, 745]]\nPlastic[[2, 180, 1000, 984]]\nremote[[21, 130, 160, 797]]\nremote",
+                "middle long black controller[[463, 98, 606, 755]]\n[[15, 132, 160, 798]]\n[[248, 276, 361, 754]]\n{{227, 226, 441, 747}}\n{{427, 65, 562, 723}}\n{{386, 60, 471, 731}}\n{{585, 159, 750, 743}}\n{{51, 145, 224, 795}}\n[[749, 144, 903, 743]]\n[[455, 643, 495, 762]]\n"
+            ],
+            "iou_scores": [
+                0.6399548532731377,
+                0.6076522467352333,
+                0.7034759990541499,
+                0.75840896701447,
+                0.7809576332945973,
+                0.0,
+                0.7253018209713065,
+                0.6933869584067449
+            ],
+            "iou_var": 0.05664175810435224,
+            "mean_iou": 0.6136423098437049,
+            "correct_count": 7
+        }
+    ]
+}

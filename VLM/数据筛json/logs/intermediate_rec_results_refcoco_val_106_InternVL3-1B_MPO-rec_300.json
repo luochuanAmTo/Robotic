@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 106,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000513643.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>rightmost broccoli piece</ref>",
+            "ground_truth": [
+                734,
+                453,
+                970,
+                738
+            ],
+            "model_output": [
+                "rightmost broccoli piece[[699, 455, 965, 733]]\n[[706, 624, 875, 858]]\nWould you mind me if I added some information about the image?: In the image, there is a plate of food that appears to be a healthy meal consisting of steamed rice mixed with broccoli and meat. The dish includes pieces of steamed rice, chunks of meat, and a serving of cooked broccoli florets. The plate is placed on a wooden surface, and there are chopsticks visible in the image.\n\nThe food is presented on a beige paper plate, and the broccoli is garnished with translucent slices of onions. The meat appears to be cooked, with a brown crust on top, suggesting it might be beef or pork. The rice is white and appears to be cooked, with some pieces of broccoli scattered throughout.\n\nThe image is focused on the food, with no other objects or people in the frame. The composition highlights the freshness and variety of the ingredients, making it an appetizing dish.\nrightmost broccoli piece",
+                "rightmost broccoli piece[[699, 446, 967, 795]]\n[[680, 622, 849, 862]]\nIf the item containing the image can be identified, then only the bounding box for that item will be described. If not possible, it will simply state the item's presence.\nchopsticks[[575, 0, 1000, 552]]\n[[255, 43, 721, 990]]\n[[67, 65, 974, 987]]\n[[675, 461, 968, 655]]\n\n[[255, 43, 721, 990]]\n[[675, 46",
+                "rightmost broccoli piece[[702, 452, 963, 853]]\n><answer>[x1, 33, 1000, 546]][[267, 60, 713, 611]]\n<answer><str>200</str>\n",
+                "rightmost broccoli piece[[704, 452, 964, 858]]\n[[334, 330, 634, 937]]\n[[73, 52, 256, 524]]\n[[190, 66, 333, 378]]\n[[272, 59, 373, 272]]\n[[334, 60, 605, 412]]\n[[352, 129, 680, 379]]\n[[66, 189, 267, 746], [252, 327, 441, 822], [704, 453, 964, 856], [675, 624, 852, ",
+                "rightmost broccoli piece[[685, 453, 963, 858]]\n[[335, 330, 631, 933]]\n33\n\n[[261, 60, 360, 282]]\n45\n\n[[69, 186, 251, 736]]\n67\n\n[[348, 129, 678, 381]]\n8[[703, 624, 827, 855]]\n9[[313, 63, 584, 43",
+                "rightmost broccoli piece[[703, 449, 964, 852]]\nAnother bounding box for the region described in the sentence: <answer>[x1,y1,x2,y2]</answer>\n[[335, 326, 626, 942]]\nAnother bounding box for the region described in the sentence: <answer>[x1,y1,x2,y2]</answer>\nanother region[[59, 53, 256, 523]]\nAnother bounding box for the region described in the sentence: <answer>[x1,y1,x2,y2]</answer>\nanother region[[319, 53, 664, 502]]\nchopsticks[[595, 0, 1000, 553]]\n[[319,",
+                "rightmost broccoli piece[[703, 449, 961, 857]]\n><answer>[x1,y1,x2,y2]</warn>\n><answer>rightmost broccoli piece[[690, 622, 843, 856]]\n tastes like : <answer>[taste]</warn>\n><answer>rightmost broccoli piece[[690, 449, 961, 857]]\n><answer>rightmost broccoli piece[[703, 449, 961, 857]]\n><answer>rightmost broccoli piece[[690, 622, 843, 856]]\n><answer>rightmost broccoli piece[[703, 449, 961, 857]]\n><answer>rightmost broccoli piece[[",
+                "rightmost broccoli piece[[699, 453, 963, 860]]\n[[321, 328, 623, 937]]\nThe bounding box coordinates for the region describing the piece of broccoli on the right side of the plate: <answer>[x1,y1,x2,y2]</answer>\n[[305, 61, 718, 503]]\nThe bounding box coordinates for the region describing the piece of broccoli in the middle: <answer>[x1,y1,x2,y2]</answer>\n[[235, 60, 344, 313]]\nThe bounding box coordinates for the region describing the piece of broccoli on the left side of the plate: <answer>[x1,y1,x2,y2]</answer>\n[[62, 188, 246, 730]]\nThe bounding box coordinates for the region"
+            ],
+            "iou_scores": [
+                0.8341083257565918,
+                0.703539682371513,
+                0.6119205670567057,
+                0.6110748578353687,
+                0.5695771697866213,
+                0.0,
+                0.5999777425367944,
+                0.0
+            ],
+            "iou_var": 0.08651851383717307,
+            "mean_iou": 0.49127479316794936,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000352892.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bride</ref>",
+            "ground_truth": [
+                0,
+                1,
+                692,
+                988
+            ],
+            "model_output": [
+                "bride[[0, 2, 616, 1000]]\n<answer>\nbride[[0, 0, 569, 984]]\n<answer>\nbride's hand[[540, 252, 742, 979]]\n[[268, 14, 534, 989]]\n<answer>\nwoman[[540, 252, 742, 979]]\n[[719, 438, 870, 600]]\n[[905, 405, 992, 772]]\n</select>\n<answer>\nwoman[[905, 405, 992, 772]]\n[[462, 329,",
+                "bride[[0, 2, 605, 1000]]\nAPIarcher's coordinates: [704, 438, 864, 584]\nPICTOGRAM a man and a woman are standing next to each other and cutting a cake together . cake[[608, 434, 858, 862]]\n[[605, 433, 862, 864]]\n[[555, 817, 926, 1000]]\n[[556, 808, 927, 1000]]",
+                "bride[[0, 2, 613, 1000]]\nauthority\nbride[[0, 2, 613, 1000]]\nMRI",
+                "bride[[0, 2, 615, 1000]]\nauthority<br>bride[[0, 2, 615, 1000]]\nIdentifying \"the camera\" in the image: \nthe camera[[736, 4, 999, 991]]\n<br>the camera[[736, 4, 999, 991]]\n<br;tags on the image: wedding cake, wedding, groom, bride, woman, man, camera, event, outdoor, green, tree, yellow, wedding dress, woman, man, white, white, wedding cake, bouquet, wedding veil, yellow, yellow, blue, blue, white, white, white, white, white, groom, bride, camera, stand, bride, woman, man, white, wedding, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white",
+                "bride[[0, 2, 618, 1000]]\n<answer>\nbride[[0, 2, 618, 1000]]\n</answer>\nuser<answer>\nbride[[507, 253, 748, 984]]\n</answer>\nwoman1<answer>woman1[[507, 253, 748, 984]]\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>\n</woman1>",
+                "bride[[0, 0, 602, 1000]]\n<answer>\nbride[[0, 0, 602, 1000]]\n</answer>\nuser\nis the woman on the right or the man on the left cutting the cake?\nwoman on the right[[515, 254, 746, 998]]\n<answer>\nwoman on the right[[515, 254, 746, 998]]\n</answer>\nwoman on the right\n<answer>\nwoman[[515, 254, 746, 998]]\n</body>>\nuser\nhow many people are there in the image?\npeople[[0, 0, 602, 1000]]\n</body>>\nuser\nhow many cakes are there on the cake",
+                "bride[[0, 2, 607, 1000]]\n<answer>\nbride[[0, 2, 607, 1000]]\n<answer>\nbride's hair[[517, 252, 749, 975]]\n[[514, 434, 841, 855]]\n<answer>\nbride's hair[[2, 1, 552, 791]]\n</selected answer>\n<answer>\nbride's hair[[2, 1, 552, 791]]\n[[2, 1, 552, 791]]\n</selected answer><answer>\nwoman[[517, 252, 749, 975]]",
+                "bride[[0, 2, 612, 988]]\nwoman1 coordinates of the region described as \"woman2\" in <answer>[x1,y1,x2,x3]</answer>\n<answer>woman2[[509, 257, 752, 986]]\n\u90a3\u5c31\u8fd9\u5427\uff1awoman2[[509, 257, 752, 986]][[509, 257, 752, 986]]\n[[0, 2, 590, 987]]\nThis object is not accurate. Please specify.\n<answer>woman2[[509, 257, 752, 986]]\nThis object is not accurate. Please specify.\n<answer>woman2[[509, 257, 75"
+            ],
+            "iou_scores": [
+                0.8797501723648457,
+                0.8642055793145811,
+                0.8755113274233733,
+                0.8783372731697142,
+                0.8825758234118363,
+                0.8600871415543622,
+                0.8670323111512875,
+                0.0
+            ],
+            "iou_var": 0.08331864235635639,
+            "mean_iou": 0.76343745354875,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000351397.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bear on top faced down</ref>",
+            "ground_truth": [
+                252,
+                391,
+                598,
+                813
+            ],
+            "model_output": [
+                "bear on top faced down[[432, 286, 727, 612]]\nImages [24, 393, 386, 695], [326, 486, 760, 989], [644, 615, 874, 778], [191, 300, 439, 763]]\nImages [373, 613, 534, 898], [715, 344, 998, 686], [329, 799, 527, 984]]\nImages [483, 583, 746, 909]]\nImages [679, 347, 750, 414]]\nImages [532, 360, 669, 617]]\nImages [271,",
+                "bear on top faced down[[473, 83, 702, 613]]\nA sample answer: \"<answer> [473, 83, 702, 613]</answer>\"\n\nPlease note that this is a sample answer and the actual coordinates may vary slightly.\nThe image shows a cardboard box filled with stuffed teddy bears. The bears are wearing red outfits, and each bear has a tag on its head. There are also some cards attached to some of the bears.\nThe image shows a cardboard box filled with stuffed teddy bears. The bears are wearing red outfits, and each bear has a tag on its head. There are also some cards attached to some of the bears.\nThe image shows a cardboard box filled with stuffed teddy bears. The bears are wearing red outfits, and each bear has a tag on its head. There are also some cards attached to some of the bears.\nThe image shows a cardboard box filled with stuffed teddy bears. The bears are wearing red outfits, and each bear has a tag on its head. There are also some cards attached to some of the bears.\nThe image shows",
+                "bear on top faced down[[488, 83, 715, 611]]\nImages: \nbear[[422, 581, 802, 912]]\nImages: \nbear[[27, 382, 414, 917]]\nImages: \nbear[[351, 286, 660, 803]]\nImages: \nbear[[363, 631, 845, 948]]\nImages: \nbear[[523, 349, 998, 768]]\nImages: \nbear[[483, 595, 877, 941]]\nImages: \nbear[[325, 85, 576, 462]]\nImages: \nbear[[23, 398, 3",
+                "bear on top faced down[[465, 85, 696, 613]]\n<answer>\n\u0e1e\u0e23\u0e30\u0e1e\u0e34\u0e1e\u0e34\u0e18\u0e20\u0e31\u0e13\u0e11\u0e4c\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07\u0e27\u0e31\u0e14\u0e2a\u0e16\u0e32\u0e19\u0e28\u0e36\u0e01\u0e29\u0e32\nbear[[27, 398, 442, 989]]\n<answer>\nbear[[313, 579, 805, 915]]\nbear[[434, 284, 743, 615]]\nbear[[667, 341, 999, 715]]\nperson[[460, 0, 792, 326]]\nblanket[[0, 39, 1000, 989]]\ncardboard[[0, 0, 1000, 989]]\n",
+                "bear on top faced down[[487, 82, 715, 610]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u718a\u4f4d\u7f6e\uff1a<answer>[x1,y1,z1]:<answer></answer>\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u718a\u4f4d\u7f6e\uff1a<answer>[x1,y1,z2]:<answer></answer>\n<br><answer>\u718a[[356, 576, 802, 987]]\n<br><answer>\u718a[[30, 390, 427, 919]]\n[[253, 308, 452, 752]]\n</select>\n```html\n\u718a[[459, 613, 854, 935]]\n```\n```[[463, 680, 8",
+                "bear on top faced down[[480, 83, 698, 610]]\n<answer>\n\n</response><answer>bear[[28, 396, 750, 987]]\n</response><answer>bear[[333, 565, 802, 927]]\n</response><answer>bear[[489, 622, 882, 844]]\n</response><answer>bear[[21, 383, 487, 814]]\n</response><answer>bear[[186, 301, 446, 763]]\n</response><answer>bear[[22, 356, 189, 680]]\n</response><answer>bear[[537, 294, 775, 61",
+                "bear on top faced down[[430, 81, 696, 616]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u533a\u57df\u5750\u6807\uff1a<answer>[x1,y1]{[430, 81], [430, 81, 696, 616]}\n<answer>\n\nMRI of the image: A teddy bear lying in a cardboard box with a red shirt on. There are several other teddy bears in the box, some wearing red shirts. The bear on the left has a tag that says \"BEAR WOULD DO GOOD.\" The bear in the center has a tag that says \"HAPPY.\" The bear on the right has a tag that says \"POTATO.\" The background shows some chairs and a person standing nearby. The image has a warm, indoor feel with a cardboard box on top of which the teddy bears are lying. The teddy bears are mostly white and brown in color. The bear on the left has a tag that says \"BEAR WOULD DO GOOD.\" The bear in the center has a tag that says \"HAPPY.\" The bear on",
+                "bear on top faced down[[463, 83, 712, 615]]\n<answer>\n ashes\nbear[[35, 380, 422, 860]]\n</answer><answer>bear[[215, 300, 464, 781]]\n</answer><image>\nbear[[278, 579, 816, 928]]\n</image>[[453, 289, 767, 770]]\n</image>[[723, 342, 1000, 696]]\n</image>[[35, 338, 422, 863]]"
+            ],
+            "iou_scores": [
+                0.178524156187955,
+                0.11580256393136142,
+                0.1001373785523942,
+                0.12382262407005125,
+                0.0,
+                0.10993975903614457,
+                0.15088495221976514,
+                0.27588912133891214
+            ],
+            "iou_var": 0.005310025024627244,
+            "mean_iou": 0.13187506941707297,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000440389.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>batter</ref>",
+            "ground_truth": [
+                366,
+                177,
+                773,
+                844
+            ],
+            "model_output": [
+                "batter[[369, 175, 775, 847]]\n[[0, 427, 299, 870]]\nIdentify the player in the image and describe his appearance including his position and accessories.\nplayer[[369, 175, 775, 847]]\n[[0, 427, 299, 870]]\n[[363, 187, 776, 844]]\n[[0, 424, 297, 788]]\n[[0, 427, 299, 870]]\n[[369, 175, 775, 847]]\n[[363, 187, 776",
+                "batter[[371, 175, 777, 842]]\nROO[[0, 430, 299, 872]]\n[[371, 175, 777, 842]]\n[[473, 246, 759, 847]]\n[[4, 429, 298, 785]]\n[[473, 246, 759, 847]]\n[[0, 0, 997, 999]]\n[[4, 429, 298, 785]]\n[[371, 175,",
+                "batter[[373, 172, 773, 843]]\n[[0, 427, 288, 872]]\nPlease specify the latitude and longitude of the point batter[[373, 172, 773, 843]]\n[[0, 427, 288, 872]]\nHere is map coordinates for the point XML tag: <coordinates>[::54, 537, 269, 642]]\n[[0, 427, 288, 872]]\nHere is a bounding box in the format of leftmargin, topmargin, rightmargin, bottommargin in <box> tags: <box><center><img src=\"https://example.com/path-to-your-image.jpg\" alt=\"description\"></center></tag>\n[[373, 172,",
+                "batter[[371, 174, 771, 843]]\n[[0, 425, 292, 870]]\n[[371, 174, 771, 843]]\n[[2, 426, 289, 794]]\n[[2, 426, 289, 794]]\n[[371, 174, 771, 843]]\n[[0, 0, 1000, 527]]\n[[371, 174, 771, 843]]\n[[371, 174, 771, 843]]\n[[2, 426, 289, 79",
+                "batter[[368, 176, 774, 843]]\nAnonymous: I'm sorry, but I cannot provide bounding box coordinates for this image.\n",
+                "batter[[370, 175, 776, 843]]\ncatcher[[0, 424, 287, 873]]\n[[370, 174, 778, 845]]\n[[370, 175, 776, 843]]\n[[0, 425, 287, 872]]\n[[370, 175, 776, 843]]\n[[442, 761, 609, 806]]\n[[489, 454, 632, 553]]\uff1b\uff1b",
+                "batter[[373, 175, 774, 843]]\n[[0, 428, 298, 871]]\n`[[373, 175, 771, 851]]\n`[[0, 428, 298, 871]]\n`[[373, 175, 771, 851]]\n`[[0, 428, 298, 871]]\n`[[373, 175, 771, 851]]\n[[373, 175, 771, 851]]\n`[[0, 428, 298, 871]]",
+                "batter[[367, 176, 775, 842]]\ncatcher[[0, 427, 294, 874]]\n[[366, 176, 775, 842]]\n[[3, 421, 289, 788]]\n[[3, 421, 289, 788]]\n[[483, 236, 743, 843]]\n[[483, 236, 743, 843]]\n[[0, 427, 294, 874]]\n[[3, 421, 289, 788]]"
+            ],
+            "iou_scores": [
+                0.9804790545531287,
+                0.9723176972514103,
+                0.9741506349897063,
+                0.9770087542038148,
+                0.9896859555076117,
+                0.9785583292924358,
+                0.9760494179975598,
+                0.9882250454783369
+            ],
+            "iou_var": 3.500140129026087e-05,
+            "mean_iou": 0.9795593611592506,
+            "correct_count": 8
+        }
+    ]
+}

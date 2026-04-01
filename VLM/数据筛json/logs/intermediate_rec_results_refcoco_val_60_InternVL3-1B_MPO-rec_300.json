@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 60,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000323108.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>kid on left</ref>",
+            "ground_truth": [
+                0,
+                107,
+                547,
+                984
+            ],
+            "model_output": [
+                "kid on left[[0, 107, 547, 1000]]\n[[101, 609, 488, 989]]\n[[101, 609, 488, 989]]\n[[103, 424, 536, 989]]\n[[103, 424, 536, 989]]\n[[598, 475, 998, 691]]\n[[103, 609, 488, 989]]\n[[101, 609, 488, 989]]",
+                "kid on left[[3, 109, 525, 984]]\n[[111, 619, 474, 987]]\n[[578, 474, 1000, 691]]\n<br><image>\nkid[[578, 474, 1000, 691]]\n[[111, 619, 474, 987]]\n[[0, 113, 526, 1000]]\n<br><image>\nkid[[0, 113, 526, 1000]]\n[[578, 474, 1000, 691]]\n[[111, 619, 474, ",
+                "kid on left[[0, 112, 526, 1000]]\n[[116, 613, 513, 1000]]\n[[116, 424, 525, 989]]\n[[630, 478, 1000, 696]]\n[[244, 124, 627, 958]]\n[[0, 115, 1000, 988]]\n[[0, 109, 527, 1000]]",
+                "kid on left[[2, 109, 519, 986]]\n[[109, 608, 485, 987]]\n[[635, 477, 999, 693]]\n[[0, 116, 518, 989]]\n[[108, 129, 617, 996]]\n[[590, 489, 1000, 990]]\n[[26, 481, 476, 987]]\n[[262, 120, 627, 949]]\n[[630, 459, 1000, 773]]",
+                "kid on left[[0, 106, 522, 986]]\n[[116, 618, 464, 1000]]\n[[116, 618, 464, 1000]]\n[[620, 475, 1000, 698]]\n[[231, 123, 626, 995]]\n[[20, 425, 520, 1000]]\n[[550, 493, 1000, 989]]\n[[0, 111, 112, 462]]\n[[0, 111, 112, 462]]\n[[0, 111, 11",
+                "kid on left[[2, 112, 547, 989]]\n[[113, 617, 497, 989]]\ngiraffe[[254, 123, 627, 987]]\n[[616, 478, 999, 691]]\n[[2, 106, 548, 988]]\n[[115, 617, 495, 989]]\n[[113, 617, 497, 989]]\n[[2, 106, 548, 988]]\n[[115, 617, 495, 989]]\n[[2, ",
+                "kid on left[[3, 109, 530, 982]]\n[[109, 615, 504, 987]]\n[[109, 615, 504, 987]]\n[[216, 124, 623, 998]]\n[[614, 479, 998, 695]]\n[[109, 615, 504, 987]]\n[[3, 109, 530, 982]]\n[[109, 615, 504, 987]]\n[[216, 124, 623, 998]]\n[[109, 615, ",
+                "kid on left[[2, 106, 528, 1000]]\n[[114, 610, 486, 986]]\n[[114, 425, 547, 987]]\n[[610, 474, 1000, 694]]\n[[23, 584, 452, 989]]\n[[232, 126, 623, 997]]\n[[635, 496, 998, 982]]\n[[23, 584, 452, 989]]\n[[114, 610, 486, 986]]\n[[114, 425, "
+            ],
+            "iou_scores": [
+                0.9820828667413214,
+                0.952119886850427,
+                0.9396416974812296,
+                0.9409717672068609,
+                0.9511910822070083,
+                0.9850676969762293,
+                0.9590426895745218,
+                0.9440123111932402
+            ],
+            "iou_var": 0.0002756419110633634,
+            "mean_iou": 0.9567662497788548,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000152273.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom cellphone</ref>",
+            "ground_truth": [
+                314,
+                535,
+                715,
+                859
+            ],
+            "model_output": [
+                "bottom cellphone[[328, 552, 718, 870]]\n[[424, 364, 780, 633]]\nThe table is described as a marble table with a white and brown pattern. The coordinates for the region that this object is located are: <answer>[x1,y1,[x2,y2],[x3,y3]]\n[[118, 266, 421, 519]]\nThe image shows a marble table with a white and brown pattern. The coordinates for the region that this object is located are: <answer>[x1,y1,[x2,y2],[x3,y3]]\nThe image shows a marble table with a white and brown pattern. The coordinates for the region that this object is located are: <answer>[x1,y1,[x2,y2],[x3,y3]]\nThe image shows a marble table with a white and brown pattern. The coordinates for the region that this object is located are: <answer",
+                "bottom cellphone[[329, 550, 716, 867]]\n[[424, 369, 780, 630]]\n[[117, 261, 423, 520]]\n{{440, 213, 820, 388]}\n[[117, 261, 423, 520]]\n[[424, 367, 783, 633]]\n[[329, 552, 718, 869]]\n[[736, 108, 999, 988]]\n[[117, 261, 423, 520]]\n[[440,",
+                "bottom cellphone[[329, 552, 716, 871]]\n[[434, 367, 783, 636]]\nThe rest of the text is obscured by the phones.\n[[116, 262, 422, 513]]\n[[491, 214, 814, 386]]\n[[413, 370, 779, 633]]\n[[301, 546, 711, 867]]\n[[518, 114, 820, 355]]\n[[749, 100, 998, 989]]\n[[295, 2, 421, 131]]",
+                "bottom cellphone[[325, 550, 715, 872]]\n[[418, 368, 778, 634]]\n[[117, 261, 421, 524]]\nblack cellphone[[418, 368, 778, 634]]\nblack cellphone[[325, 550, 715, 872]]\nJeans[[615, 0, 999, 1000]]\nblanket[[683, 643, 999, 987]]\ncup[[211, 0, 397, 134]]\ncell phone[[505, 212, 817, 387]]\ncell phone",
+                "bottom cellphone[[322, 548, 723, 871]]\n[[415, 366, 782, 631]]\n[[119, 260, 428, 517]]\n${\\display your name} can you recognize this image? What is it?[[502, 212, 819, 384]]\nImages\nimage[[324, 543, 723, 869]]\nImages\nimage[[414, 369, 784, 634]]\nImages\nimage[[324, 543, 723, 869]]\nImages\nimage[[118, 2, 441, 136]]\nImages\nimage[[416, 3",
+                "bottom cellphone[[333, 550, 722, 874]]\n[[434, 366, 779, 630]]\n[[118, 261, 424, 526]]\n anyway, the answer is: <answer>[x1,y1,x2,y2]</answer>\n[[510, 212, 818, 387]]\n{\n[[416, 362, 780, 629]]\n{\n[[307, 557, 720, 867]]\n[[121, 0, 393, 136]]\n[[742, 102, 1000, 989]]\n",
+                "bottom cellphone[[328, 550, 720, 869]]\n[[430, 369, 783, 630]]\n[[118, 265, 425, 536]]\n\u8709\u8763[[510, 211, 815, 387]]\n[[457, 367, 776, 632]]\n[[273, 607, 717, 867]]\n[[118, 262, 424, 519]]\n[[490, 213, 813, 382]]\n[[657, 117, 998, 987]]\n[[363",
+                "bottom cellphone[[328, 551, 716, 872]]\n[[430, 366, 776, 635]]\n[[453, 215, 819, 388]]\n${\\displaystyle\\text{region}}<answer>[x1,y1,x2,y2]</assy]\n[[116, 264, 424, 514]]\n[[142, 2, 421, 134]]\n[[466, 191, 812, 388]]\n[[338, 548, 712, 874]]\n[[325, 535, 721, 915]]\n[[452, "
+            ],
+            "iou_scores": [
+                0.8791874791874792,
+                0.8945840739824045,
+                0.8786061167747915,
+                0.8927063425041113,
+                0.8906823879204804,
+                0.0,
+                0.8832549173123371,
+                0.8811319080989976
+            ],
+            "iou_var": 0.08584186413097118,
+            "mean_iou": 0.7750191532225752,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000504878.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>fridge just to the left of the man</ref>",
+            "ground_truth": [
+                87,
+                286,
+                207,
+                834
+            ],
+            "model_output": [
+                "fridge just to the left of the man[[84, 286, 230, 832]]\nfridge[[0, 133, 166, 803]]\n[[143, 139, 348, 834]]\n[[282, 253, 436, 872], [420, 148, 571, 451], [343, 46, 477, 288], [645, 20, 826, 380], [594, 316, 750, 910], [757, 60, 927, 920], [916, 200, 998, 927]]\n[[143, 139, ",
+                "fridge just to the left of the man[[84, 287, 199, 832]]\n[[277, 253, 430, 872]]\n3[[352, 147, 555, 452]]\n4[[174, 141, 339, 450]]\n5 man[[173, 366, 354, 923]]\n6 man[[173, 366, 354, 923]]\n7 man[[173, 366, 354, 923]]\n8 man[[173, 366, 354, 923]]",
+                "fridge just to the left of the man[[103, 584, 199, 831]]\n;[[178, 139, 321, 409]]\n<img id=\"image\" src=\"https://www.example.com/0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "fridge just to the left of the man[[85, 288, 225, 833]]\nfridge[[0, 130, 168, 807]]\n[[276, 253, 440, 872]]\n[[331, 148, 564, 451], [623, 20, 898, 922]]\n[[142, 42, 365, 585]]\n[[563, 317, 729, 908], [712, 55, 930, 919]]\n[[245, 44, 376, 284]]\n[[73, 588, 203, 834]]\n[[41",
+                "fridge just to the left of the man[[81, 284, 245, 832]]\n[[270, 254, 429, 872]]\nThe rest of the region around the woman is:\naround the woman[[362, 145, 556, 462]]\nThe rest of the region of the refrigerator is:\nthe refrigerator[[610, 313, 755, 909]]\nThe rest of the region of the man is:\nwoman[[184, 369, 354, 920]]\nThe rest of the region of the refrigerator is:\n[[731, 52, 922, 920]]\nThe rest of the region of the man is:\n[[166",
+                "fridge just to the left of the man[[94, 288, 236, 831]]\nImages: \nfridge[[251, 254, 434, 875]]\nImages: \nfridge[[436, 152, 578, 451]]\nImages: \nfridge[[606, 27, 850, 921]]\nImages: \nfridge[[844, 200, 1000, 930]][[251, 43, 458, 569]]\nImages: \nfridge[[401, 457, 604, 896]]\nImages: \nfridge[[108, 131, 194, 370]]",
+                "fridge just to the left of the man[[86, 283, 217, 836]]\n[[272, 252, 432, 874]]\nThe rest of the sentence is like this: \"fridge[[363, 151, 555, 446]]\"\nThe rest of the sentence is like this: \"fridge[[121, 138, 272, 577]]\"\nThe rest of the sentence is like this: \"man[[169, 360, 365, 922]]\"\nThe rest of the sentence is like this:man[[169, 360, 365, 922]]\nThe rest of the sentence is like this:man[[169, 360, 365, 922]]",
+                "fridge just to the left of the man[[84, 285, 183, 834]]\n[[66, 289, 202, 829]]\n</answer></div></li>\n[[301, 246, 426, 871]]\n</body></div></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml:annotation></mml"
+            ],
+            "iou_scores": [
+                0.8194506978838361,
+                0.9057051710067513,
+                0.3605839416058394,
+                0.8531176624054265,
+                0.7270951704545454,
+                0.7528065074165409,
+                0.9077481606228345,
+                0.7793431403048754
+            ],
+            "iou_var": 0.027027886068446003,
+            "mean_iou": 0.7632313064625812,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000043892.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red fruit in back up high</ref>",
+            "ground_truth": [
+                482,
+                28,
+                701,
+                314
+            ],
+            "model_output": [
+                "red fruit in back up high[[482, 27, 723, 317]]\n[[424, 275, 719, 582]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1ared fruit in back up high[[482, 27, 723, 317]]\n1 image description: \u8fd9\u4e2a\u6c34\u679c\u7bee\u91cc\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u82f9\u679c\u548c\u4e00\u4e2a\u9ec4\u8272\u7684\u9999\u8549\u3002\n1 image description: \u8fd9\u4e2a\u6c34\u679c\u7bee\u91cc\u6709\u4e00\u4e2a\u7ea2\u8272\u7684\u82f9\u679c\u548c\u4e00\u4e2a\u9ec4\u8272\u7684\u9999\u8549\u3002\n2 images in total: 1\n2 images in total: 1[[71, 117, 963, 991]]\n3 images in total: 1\n[[424, 275, 719, 582]]",
+                "red fruit in back up high[[495, 30, 726, 311]]\n; region description of the region: [639, 257, 824, 480] tags: <answer>[x1,y1,x2,y2]</answer>\n[[639, 257, 824, 480]]\n${{717, 399, 961, 783]}\n[[391, 574, 703, 982]]\n[[218, 258, 438, 989]]\n[[505, 359, 758, 693]]\n[[409, 277, 702, 598]]",
+                "red fruit in back up high[[468, 26, 720, 313]]\n[[362, 213, 504, 453]]\n[[338, 274, 702, 652]]\n[[425, 579, 707, 989]]\n\n[[200, 174, 430, 988]]\n\n[[69, 114, 296, 924]]\n\n[[660, 404, 963, 791]]\n\n[[453, 361, 754, 699]]\n\n[[",
+                "red fruit in back up high[[477, 27, 721, 320]]\n[[351, 212, 504, 449]]\n[[195, 254, 415, 985]]\n[[411, 579, 707, 989]]\n[[692, 402, 962, 787]]\n[[551, 359, 748, 697]]\n[[73, 115, 353, 893]]\n\n[[363, 273, 696, 655]]\n",
+                "red fruit in back up high[[474, 29, 722, 326]]\n; description of the region that the image is describing missing: apple[[397, 275, 743, 643]]\n[[394, 585, 704, 987]]\n; description of the region that the image is describing missing: banana[[73, 121, 361, 894]]\n; description of the region that the image is describing missing: orange[[341, 215, 504, 457]]\n; description of the region that the image is describing missing: apple[[437, 359,",
+                "red fruit in back up high[[472, 25, 723, 315]]\n[[472, 25, 723, 315]]\n anyway, i don't think so, it's ok.\n[[68, 123, 568, 982]]\n[[420, 577, 707, 987]]\n[[338, 209, 480, 444]]\n[[338, 209, 480, 444]]\n[[214, 260, 417, 989]]\n[[454, 362, 754, 714]]\n[[6",
+                "red fruit in back up high[[480, 32, 720, 310]]\n;[[491, 359, 755, 695]]\n[[585, 363, 775, 696]]\nImage description: a bunch of bananas and two apples in a glass bowl\nImage:\n[[361, 583, 716, 987]]\nImage:\nImage:\nImage:[[675, 405, 960, 780]]\nImage:banana[[62, 117, 393, 972]]\nImage:[[400, 279, 707,",
+                "red fruit in back up high[[475, 29, 722, 312]]\n; Describe the region inside the bounding box <answer>[x1,y1,x2,y2]</answer>\nred fruit in back up high[[475, 29, 722, 312]]\n[[388, 213, 525, 443]]\nAnd\n[[205, 272, 451, 988]]\nThis image features a bunch of bananas, a red fruit, an apple, a lime, and a mango in a bowl. The red fruit is the mango. The bounding box for the red fruit in the image is [474, 361, 757, 699]. The coordinates for the bounding box of the red fruit are [474, 3"
+            ],
+            "iou_scores": [
+                0.8961797109743883,
+                0.0,
+                0.8603862536702369,
+                0.876098024953841,
+                0.8448730964467005,
+                0.8604753400192334,
+                0.8891517700665965,
+                0.0
+            ],
+            "iou_var": 0.1425454834529814,
+            "mean_iou": 0.6533955245163746,
+            "correct_count": 6
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 19,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000317659.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>pink sofa</ref>",
+            "ground_truth": [
+                0,
+                442,
+                512,
+                827
+            ],
+            "model_output": [
+                "pink sofa[[0, 440, 497, 821]]\n[[320, 452, 514, 635]]\n\u5c31\u5f88\u5438\u5f15\u4eba\uff01\npink sofa[[0, 440, 497, 821]]\npink sofa[[0, 440, 497, 821]]\npillow[[292, 722, 762, 989]]\npillow[[655, 633, 919, 912]]\npillow[[320, 452, 514, 635]]\n[[320, 452, 514, 635]]\n[[292, 722, 7",
+                "pink sofa[[0, 441, 506, 825]]\n[[1, 441, 508, 826]]\n[[275, 662, 774, 984]]\n\u5c31\u5f88\u8212\u9002\uff0c\u6446\u653e\u5f97\u5f53\uff0c\u663e\u5f97\u5f88\u6709\u54c1\u4f4d\u548c\u683c\u8c03\u3002\n[784, 431, 922, 688]]\npillow[[708, 631, 922, 875]]\npillow[[333, 726, 741, 948]]\nwindow[[109, 130, 198, 441]]\n[[42, 452, 593, 753]]\nwindow[[56, ",
+                "pink sofa[[2, 441, 499, 822]]\n[[699, 433, 920, 690]]\n331, 727, 764, 983\npillow[[315, 724, 767, 989]]\npillow[[699, 627, 919, 872]]\nwindow[[96, 128, 199, 451]]\nfloor cover[[55, 607, 998, 989]]\nartifact[[681, 219, 753, 408]]\nbook[[174, 551, 350, 741]]\nlamp[[492, 348, 5",
+                "pink sofa[[1, 441, 492, 827]]\nAnonymous person[[440, 602, 831, 925]]\nAnonymous person[[713, 433, 922, 691]][[714, 430, 922, 694]]\nAnonymous person[[713, 433, 922, 694]]\n[[278, 727, 766, 987]]\n[[0, 444, 495, 824]]\n[[345, 456, 492, 62",
+                "pink sofa[[3, 442, 513, 823]]\npillow[[306, 728, 759, 1000]]\n[[309, 445, 497, 610]]\n[[692, 431, 921, 690]]\n[[666, 633, 916, 871]]\n[[313, 497, 523, 659]]\ncouch[[692, 431, 921, 690]]\ncouch[[3, 442, 513, 823]]\nartifact[[326, 124, 461, 462]]\n",
+                "pink sofa[[0, 442, 498, 823]]\npillow[[300, 725, 774, 989]]\n[[706, 429, 920, 693]]\n\u4ece\u6b64\u56fe\u7247\u63cf\u8ff0\u56fe\u7247\u4e2d\u7684\u573a\u666f\uff1apillow[[300, 725, 774, 989]]\n[[291, 448, 497, 613]]\n\u4ece\u6b64\u56fe\u7247\u63cf\u8ff0\u56fe\u7247\u7684\u4e0a\u534a\u90e8\u5206\uff1apillow[[706, 429, 920, 693]]\n\u4ece\u6b64\u56fe\u7247\u63cf\u8ff0\u56fe\u7247\u7684\u4e0a\u534a\u90e8\u5206\uff1apillow[[291, 448, 497, 613]]\n\u4ece\u6b64\u56fe\u7247\u63cf\u8ff0\u56fe\u7247\u7684\u4e0a\u534a\u90e8\u5206\uff1apillow[[300, 725, 7",
+                "pink sofa[[0, 439, 525, 822]]\n[[0, 440, 527, 822]]\n\u52ab[[288, 725, 762, 1000]]\n[[696, 432, 922, 689]]\nThe region tag [762, 432, 922, 573] is not a region of the bounding box, but rather the position of the armchair. So, the correct answer is [762, 432, 922, 573].\n[225, 553, 363, 598]]\nThe region tag [225, 553, 363, 598] is not a region of the bounding box, but rather the position of the",
+                "pink sofa[[0, 441, 492, 822]]\n[[3, 438, 507, 818]]\n[[272, 725, 762, 1000]]\nHere is your image, question is: where is the orange cup on the table?\norange cup on the table[[498, 608, 547, 694]]\n[[491, 605, 523, 660]]\nAnd here is your image, question is: what is the color of the table?\ntable[[250, 566, 669, 799]]\nAnd here is your image, question is: how many books are there on the table?\nbooks[[175, 559, 380, 742]]\nAnd"
+            ],
+            "iou_scores": [
+                0.9507808635432125,
+                0.9806300790381832,
+                0.9556870107328823,
+                0.9566016061858904,
+                0.9819140156252374,
+                0.9625507305194805,
+                0.9554349694305989,
+                0.9460963909074348
+            ],
+            "iou_var": 0.00015373412620158108,
+            "mean_iou": 0.9612119582478651,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000061951.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy on red scooter</ref>",
+            "ground_truth": [
+                650,
+                507,
+                894,
+                982
+            ],
+            "model_output": [
+                "guy on red scooter[[656, 516, 867, 989]]\nAI\n[[552, 497, 652, 822]]\nAI[[409, 523, 485, 802]]\nAI[[308, 513, 404, 822]]\nAI[[202, 449, 334",
+                "guy on red scooter[[661, 523, 881, 989]]\n then\nguy on red scooter[[597, 492, 703, 832]]\n then\n then\n then\n then\n then\n then\n then\n then\n then[[356, 526, 481, 813]]\n then\n then\n then\n then\n then\n then[[201, 454, 330, 1000]]\n then\n then\n then\n then\n then[[178, 530, 286, 1000]]\n then\n then[[680, 517, 875, 984]]",
+                "guy on red scooter[[645, 519, 876, 987]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": the region is described as the region in the image: \"this sentence is about a group of men on scooters\". The bounding box coordinates are as follows:\n- Lower left corner: (193, 589)\n- Upper left corner: (236, 690)\n- Lower right corner: (424, 981)\n- Upper right corner: (548, 786)\n&lt;/answer>\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": \"this sentence is about a group of men on scooters\". The bounding box coordinates are as follows:\n- Lower left corner: (188, 624)\n- Upper left corner: (229, 733)\n- Lower right corner: (335, 879)\n- Upper right corner: (418, 820)\n&lt;/answer>",
+                "guy on red scooter[[646, 523, 873, 983]]\n<answer>\nHere is the extracted information for the region specified in the sentence:\n\nguy on red scooter[[646, 523, 873, 983]]\n<issue>\nguy on red scooter[[576, 496, 675, 827]]\n<answer>\nHere is the extracted information for the region specified in the sentence:\n\nguy on red scooter[[646, 523, 873, 983]]\n<issue>\nguy on red scooter[[576, 496, 675, 827]]\n<answer>\nHere is the extracted information for the region specified in the sentence:\n\nguy on red scooter[[646, 523, 873, 983]]\n",
+                "guy on red scooter[[654, 517, 869, 984]]\n<answer>\nHere is the bounding box coordinates for the region describing the object:\n\nguy on red scooter[[595, 499, 702, 818]]\n<answer>\nHere is the bounding box coordinates for the region describing the object:\n\nguy on red scooter[[714, 517, 874, 843]]\n<answer>\nHere is the bounding box coordinates for the region describing the object:\n\nguy on red scooter[[553, 494, 665, 823]]\n<answer>\nHere is the bounding box coordinates for the region describing the object:\n\nguy on red scooter[[426, 523, 509, 804]]\n<answer>\nHere is the bounding box coordinates for the region describing the object:\n\nguy on red scooter",
+                "guy on red scooter[[663, 518, 872, 984]]\nBounded by: [0, 0, 1000, 987]\nguy on red scooter[[615, 498, 687, 821]]\nBounded by: [578, 555, 664, 800]\nBounded by: [471, 495, 574, 795]]\nBounded by: [327, 517, 378, 820]\nBounded by: [299, 504, 340, 822], [349, 513, 418, 799], [652, 503, 727, 734]]\nBounded by: [214, 449, ",
+                "guy on red scooter[[655, 515, 870, 978]]\n<answer>\nHere is the coordinates of the region described by the sentence after determining the bounding box: \n\nguy on red scooter[[655, 515, 870, 978]]\n<issue>\n<answer>MIKIMOTO KIRIN TAKAI</i></small</answer>\n<answer>guy on red scooter[[591, 497, 699, 833]][[652, 518, 772, 984]]\n<answer>guy on red scooter[[655, 515, 870, 9",
+                "guy on red scooter[[648, 519, 877, 987]]\n<answer>\nHere is the requested bounding box coordinates for the region they describe: guy on red scooter[[580, 492, 680, 829]]\n<answer>\nWhere are the people riding the red scooter? guy on red scooter[[580, 492, 680, 829]]\n<answer>\nThe region provided is too small to box accurately. Here is a better estimation: guy on red scooter[[648, 519, 877, 987]]\n<answer>\nThe region provided is too small to box accurately. Here is a better estimation: guy on red scooter[[580, 492, 680, 829]][[6"
+            ],
+            "iou_scores": [
+                0.8376939264080697,
+                0.8598433242506812,
+                0.876585406718606,
+                0.867704280155642,
+                0.8594085790423794,
+                0.8337144723946422,
+                0.8588869715271786,
+                0.8909053920031194
+            ],
+            "iou_var": 0.000309608338025187,
+            "mean_iou": 0.8605927940625397,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000180179.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>baby zeb</ref>",
+            "ground_truth": [
+                6,
+                644,
+                832,
+                985
+            ],
+            "model_output": [
+                "baby zeb[[3, 637, 819, 989]]\n[[58, 227, 1000, 989]]\n[[566, 21, 998, 498]]\n[[0, 616, 802, 1000]]\n[[15, 144, 106, 198]]\n[[24, 176, 73, 208]]\n{{321, 393, 1000, 988}}\n[[373, 671, 850, 1000]]\n[[71, 64, 1000, 655]]\n",
+                "baby zeb[[0, 630, 825, 1000]]\n[[95, 22, 999, 988]]\n[[548, 24, 1000, 500]]\nHere is your best effort: \"A black and white zebra calf with a zebra nursing from its mother\". Estimated by the bounding boxes [0, 630, 825, 1000], [95, 22, 999, 988]]\n[[0, 630, 825, 1000]]\nHere is your best effort: \"A black and white zebra calf with a zebra nursing from its mother\". Estimated by the bounding boxes [0, 630, 825, 1000], [95, 22, 999, 988]]\n",
+                "baby zeb[[0, 631, 820, 1000]]\n[[0, 253, 1000, 989]]\n[[572, 18, 1000, 496]]\n[[83, 253, 1000, 988]]\n[[68, 626, 998, 987]]\n[[29, 641, 846, 1000]]\n[[2, 630, 449, 989]]\n[[421, 395, 998, 999]]\n[[108, 255, 999, 653]]\n[[59",
+                "baby zeb[[0, 627, 814, 1000]]\n[[0, 252, 999, 989]]\n[[567, 17, 1000, 495]]\n[[75, 255, 997, 659]]\n[[450, 392, 999, 988]]\n[[10, 639, 811, 989]][[457, 887, 997, 1000]]\n[[362, 679, 844, 1000]]\n[[362, 679, 844,",
+                "baby zeb[[0, 626, 810, 1000]]\n[[111, 257, 1000, 989]]\n[[566, 12, 1000, 496]]\n[[37, 642, 842, 989]]\n[[25, 621, 998, 989]]\n[[110, 257, 998, 652]]",
+                "baby zeb[[0, 623, 802, 1000]]\n[[34, 247, 1000, 1000]]\n[[574, 21, 998, 501]]\nThe given image does not contain any text.\n[[0, 621, 818, 1000]]\nThe given image does not contain any text.\n[[335, 679, 851, 1000]]\nThe given image does not contain any text.\n[[579, 392, 1000, 676]]\nThe given image does not contain any text.\n[[10, 148, 127, 200]]\nThe given image does not contain any text",
+                "baby zeb[[0, 627, 818, 1000]]\n[[2, 238, 1000, 987]]\n[[555, 16, 1000, 500]]\n[[69, 256, 1000, 989]]\n[[10, 637, 810, 987]]\n[[35, 61, 1000, 553]]\n[[512, 396, 1000, 678]]\n[[10, 61, 1000, 553]]\n[[35, 61, 1000, 553]]\n[[512,",
+                "baby zeb[[0, 629, 813, 1000]]\n[[49, 253, 999, 989]]\n[[560, 18, 1000, 500]]\n[[82, 625, 822, 999]]\n[[487, 396, 999, 988]]\n[[398, 690, 856, 996]]\n[[61, 2, 1000, 685]]\n[[0, 627, 826, 988]]"
+            ],
+            "iou_scores": [
+                0.9505185743918537,
+                0.9078199306325312,
+                0.9051168675327386,
+                0.8894886363636364,
+                0.883140812132379,
+                0.8683617843523661,
+                0.8935228211482859,
+                0.8931684961473798
+            ],
+            "iou_var": 0.0005142454895571746,
+            "mean_iou": 0.8988922403376463,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000510977.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>main girl</ref>",
+            "ground_truth": [
+                71,
+                91,
+                785,
+                992
+            ],
+            "model_output": [
+                "main girl[[82, 88, 775, 987]]\n<answer><sep>main girl[[820, 35, 999, 998]]\n</answer>\n<question>What is the woman in the foreground holding?<sep>the woman in the foreground[[82, 88, 775, 987]]\n</question>\n</answer>\n</body></mark>\n</body></mark>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n</dose>\n",
+                "main girl[[76, 90, 770, 989]]\n[[814, 33, 1000, 989]]\n[[0, 513, 80, 637]]\n</solution>\n[[79, 92, 771, 611]]\n[[793, 289, 999, 984]]\n[[113, 162, 322, 273]]\n[[322, 14, 426, 138]]\n[[528, 56, 842, 262]]\n[[337, 449, 423, 607]]\n[[292, 451, 4",
+                "main girl[[78, 92, 770, 984]]\n<answer>\n\u526f\u4e3b\u5e2d<answer>[x1,y1,x2,y2]",
+                "main girl[[82, 92, 778, 984]]\n<answer><list><str>main girl</str></list></div>\n <answer><list>[821, 31, 1000, 988]</list></answer>",
+                "main girl[[78, 88, 773, 988]]\n[[823, 32, 1000, 1000]]\nComments\nmain girl[[78, 88, 773, 988]]\nComments\nmain girl[[78, 88, 773, 988]]\nComments\nmain girl[[78, 88, 773, 988]]\n[[823, 32, 1000, 1000]]\n[[78, 88, 773, 988]]\n[[823, 32, 1000, 1000]]\n[[274, 6, 448, 132]]\n",
+                "main girl[[78, 90, 768, 984]]\n<answer>\nHere is the requested bounding box for the region described by the sentence: \nmain girl[[78, 90, 768, 984]]\n\nCoordinates (in pixels): \n[[855, 37, 1000, 998]]\n<answer>\nmain girl[[78, 90, 768, 984]]\n\nCoordinates (in pixels): \n[[78, 90, 768, 984]]\n<answer>\nwoman[[78, 90, 768, 984]]\n\nCoordinates (in pixels): \n[[78, 90, 768, 984]]\n<answer>\nwoman[[78, 90, 768, 984]]\n\nCoordinates (in pixels): \n[[78,",
+                "main girl[[76, 86, 770, 988]]\n[[818, 34, 998, 998]]\n[[76, 86, 770, 988]]\n=>\n[[76, 86, 770, 988]]\n[[818, 34, 998, 998]]\n[[76, 86, 770, 988]]\n[[351, 0, 446, 125]]\n[[351, 0, 446, 125]]\n[[351, 0, 446, 125]]",
+                "main girl[[76, 92, 775, 1000]]\n[[818, 31, 1000, 987]]\n[[76, 92, 775, 1000]]\n\u65b0\u5a18[[76, 92, 775, 1000]]\n[[818, 31, 1000, 987]]\n[[786, 43, 1000, 998]]\n[[0, 516, 65, 640]]\n[[258, 13, 396, 120]]\n[[316, 12, 449, 134]]\n[[534, 58,"
+            ],
+            "iou_scores": [
+                0.0,
+                0.9677084756711096,
+                0.959506555119273,
+                0.0,
+                0.9659373503832512,
+                0.9567797715542139,
+                0.9624820651098357,
+                0.9694778596591802
+            ],
+            "iou_var": 0.17413119573414015,
+            "mean_iou": 0.7227365096871079,
+            "correct_count": 6
+        }
+    ]
+}

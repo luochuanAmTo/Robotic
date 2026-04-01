@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 98,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000319644.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>kid in middle between mustaches</ref>",
+            "ground_truth": [
+                450,
+                184,
+                623,
+                861
+            ],
+            "model_output": [
+                "kid in middle between mustaches[[472, 490, 653, 960]]\n[[565, 302, 726, 697]]\nNIKE[[738, 463, 856, 985]]\n[[849, 517, 991, 979]]\n[[663, 456, 793, 984]]\n[[475, 178, 631, 657]]\n[[355, 432, 486, 934]]\nbaseball bat[[387, 621, 623, 977]]\n[[368, 595, 604, 984]]",
+                "kid in middle between mustaches[[488, 494, 664, 954]]\n[[714, 457, 849, 964]]\nIFF the sentence describes the region, then name the sport: Baseball\n[[0, 440, 156, 939]]\n[[138, 444, 308, 971]]\n[[320, 426, 469, 941]]\n[[457, 182, 608, 733]]\n[[608, 140, 717, 731]]\n[[727, 133, 878, 718]]\n[[870, 297, 97",
+                "kid in middle between mustaches[[444, 190, 619, 711]]\nImages: \nkid[[524, 478, 674, 963]]\nImages: \nkid[[714, 461, 844, 975]]\nImages: \nkid[[818, 294, 948, 676]]\nImages: \nkid[[676, 460, 817, 972]]\nImages: \nkid[[456, 397, 624, 954]]\nImages: \nboy[[270, 249, 452, 930]]\nImages: \nboy[[131, 442, 307, 964]]\nImages: \nboy[[3, 441",
+                "kid in middle between mustaches[[477, 188, 645, 749]]\n another kid in middle between mustaches[[477, 188, 645, 749]]\n another kid between mustaches[[477, 188, 645, 749]]\n another kid in middle between mustaches[[477, 188, 645, 749]]\n another kid between mustaches[[477, 188, 645, 749]]\n another kid in middle between mustaches[[477, 188, 645, 749]]\n another kid between mustaches[[477, 188, 645, 749]]\n another kid in middle between mustaches[[477, 188, 645, 749]]\n another kid between mustaches",
+                "kid in middle between mustaches[[482, 484, 656, 956]]\n[[655, 459, 812, 979]]\nStock image\nkid in middle between mustaches[[463, 185, 625, 796]]\nStock image\nkid[[143, 440, 316, 959]]\nStock image\nkid[[802, 295, 927, 671]]\nStock image\nkid[[1, 441, 149, 943]]\nStock image\nbaseball bat[[397, 621, 611, 962]]\nStock image\nbaseball bat[[397, 621, 611, 962]]\nStock image\nbaseball",
+                "kid in middle between mustaches[[446, 184, 621, 740]]\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08More images of the kid in middle between mustaches as described above\uff09\nImages: \n\uff08",
+                "kid in middle between mustaches[[444, 188, 616, 790]]\n[[602, 278, 750, 799]]\nWould you please remove the bounding box for the region of interest (like a statue or a person)?\nfor interest (like a statue or a person)[[821, 299, 972, 668]]\nkid[[720, 459, 846, 996]]\nkid[[561, 462, 707, 966]]\nbaseball bat[[385, 625, 619, 979]]\nshirt[[502, 478, 663, 958]]\nbaseball player[[1, 441, 159, 935]]",
+                "kid in middle between mustaches[[491, 478, 663, 960]]\n[[704, 458, 841, 969]]\nI'm sorry, but I can't generate that specific image.\nkid in middle between mustaches[[491, 478, 663, 960]]\n[[704, 458, 841, 969]]\n[[825, 296, 970, 674]]\n[[641, 288, 781, 626]]\n[[586, 288, 728, 617]]\n[[444, 183, 603, 538]]\n[[323"
+            ],
+            "iou_scores": [
+                0.38325921871793117,
+                0.3335555016965584,
+                0.7322344840203914,
+                0.6326595243428624,
+                0.3638597596035375,
+                0.7966483723658302,
+                0.8277107336022462,
+                0.33823736025530377
+            ],
+            "iou_var": 0.0415168319554742,
+            "mean_iou": 0.5510206193255827,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000008436.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>girl in blue</ref>",
+            "ground_truth": [
+                853,
+                537,
+                1000,
+                967
+            ],
+            "model_output": [
+                "girl in blue[[864, 537, 1000, 960]]\n[[670, 438, 867, 835]]\n<img id=\"image_id_1\" src=\"data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAABCAQEAAACNhtyAAAAEAAACBwAAAAAsU1B...\" style=\"width:100%;height:100%;float:left;overflow:hidden;visibility:hidden;\"></image_id_1>\n[[435, 378, 644, 618]]\nimgur image id=\"image_id_2\" data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAABCAQEAAACNhtyAAAAEAAACBwAAAAAsU1B...\" style=\"width:100%;height:100%;float:left;overflow:hidden;visibility:hidden;\"></imgur image id=\"image_id_2",
+                "girl in blue[[866, 536, 1000, 960]]\n<answer>girl in blue[[866, 536, 1000, 960]]\n<issue>\n<answer>girl in blue[[866, 536, 1000, 960]]\n<question>What is the main activity or group activity in this image?</question>\n\u693d<answer>main activity[[429, 461, 697, 842]]\n<issue> main activity[[429, 461, 697, 842]]\n<answer>main activity[[429, 461, 697, 842]]\n<issue> main activity[[429, 4",
+                "girl in blue[[867, 537, 1000, 964]]\n[[659, 391, 795, 771]]\nDRY\n[[406, 384, 608, 620]]\n[[65, 387, 351, 741], [328, 376, 460, 762], [470, 465, 651, 833], [721, 441, 890, 837]]\n[[477, 511, 652, 806], [672, 513, 727, 727]]\n[[490, 525, 574, 806]]\n[[279, 399, 403,",
+                "girl in blue[[875, 538, 1000, 963]]\n[[631, 391, 782, 768]]\n[[665, 440, 874, 836]]\n[[546, 461, 683, 841]]\n[[468, 526, 605, 809]]\n[[391, 380, 493, 763]]\n[[241, 398, 400, 748], [49, 395, 308, 736]]\n[[373, 367, 491, 769]]\n[[46, 83, 387, 520]]\n[[690, 398, 7",
+                "girl in blue[[865, 536, 1000, 962]]\n<answer>girl in blue[[865, 536, 1000, 962]]\n<issue>\n<answer>girl in blue[[818, 537, 999, 964]]\n</issue>\n<issue> girl in blue[[818, 537, 999, 964]]\n</issue>\n<issue> girl in green[[234, 394, 402, 745]]\n</issue>\n<issue> girl in green[[453, 461, 629, 813]]\n</issue>\n<issue> girl in green[[540, ",
+                "girl in blue[[873, 539, 1000, 962]]\n[[718, 440, 896, 839]]\nNS[[605, 460, 703, 840]]\nNS[[468, 459, 614, 815]]\nNS[[512, 507, 617, 810]]\nNS[[344, 381, 468, 762]]\nNS[[37, 394, 333, 742]]\n[[47, 80, 371, 605]]\nNS[[628, 392, 777, ",
+                "girl in blue[[873, 540, 1000, 962]]\n><image> girl in blue[[873, 540, 1000, 962]]\n<answer>girl in blue[[835, 535, 998, 960]]\n<code>\n<answer>\n[[619, 461, 750, 783]][[455, 464, 639, 837]]\n<answer>girl in blue[[835, 535, 998, 960]]\n<answer>girl[[476, 457, 622, 809]]\n[[59",
+                "girl in blue[[876, 537, 1000, 961]]\n<answer>girl in blue[[876, 537, 1000, 961]]\n<image>\n<answer>\n\u964d\u4f4e\u6807\u7b7e\u4e3a<answer>\n<question>How many people are standing in the image? </question>\n<answer>There are eight people standing in the image.</answer><question>What is the person holding the red umbrella in front of? </question>\n<br><question>What is the person holding the red umbrella in front of? </question>There is a teepee with the word \"HOPE\" written on it in the background.\n<question>What is the group of people posing for the photo with? </question>\n&gt;There is a red umbrella in the center of the group and they are posing for the photo"
+            ],
+            "iou_scores": [
+                0.910109159943047,
+                0.8948282394544077,
+                0.8984496124031007,
+                0.8404524600537889,
+                0.9057542031730997,
+                0.8498813478879924,
+                0.8478721721246638,
+                0.8317671254548331
+            ],
+            "iou_var": 0.0009370588452897891,
+            "mean_iou": 0.8723892900618666,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000554699.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>farthest left tray hot dogs</ref>",
+            "ground_truth": [
+                0,
+                86,
+                210,
+                655
+            ],
+            "model_output": [
+                "farthest left tray hot dogs[[0, 134, 219, 415]]\n><answer>[x1,y1,x2,y2]</body>\n><image>farthest left tray hot dogs[[0, 134, 219, 415]]\n><answer>\n><image>farthest left tray hot dogs[[0, 134, 219, 415]]\n><image>farthest left tray hot dogs[[0, 134, 219, 415]]\n[[2, 130, 533, 795]]\n[[2, 130, 533, 795]]\n[[525, 206, 995, 902]]\n[[525, 206, 9",
+                "farthest left tray hot dogs[[0, 144, 187, 413]]\n[[0, 134, 528, 797]]\n anyway, the ham is in the left tray, the sausage is in the right tray. the ham is on the left side of the sausage tray. the sausage tray is on the right side. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the ham is in the left tray, the sausage is in the right tray. the",
+                "farthest left tray hot dogs[[0, 128, 245, 407]]\n[[19, 130, 509, 796], [511, 207, 990, 908]]\nA\n[[19, 130, 509, 796]]\nfarthest left tray hot dogs[[0, 128, 245, 407]]\nfarthest left tray hot dogs[[0, 128, 245, 407]]\n\n[[511, 207, 990, 908]]\nfarthest left tray hot dogs[[0, 128, 245, 407]]\nfarthest left tray hot dogs[[0, 128, 245, 407]]",
+                "farthest left tray hot dogs[[0, 137, 213, 422]]\n[[0, 132, 209, 420]]\n\u90a3\u9ebc\uff0c\u9019\u500b\u53e5\u5b50\u63cf\u8ff0\u7684\u5340\u57df\u5728\u5716\u7247\u4e2d\u6700\u6709\u53ef\u80fd\u662f\u4ec0\u9ebc\uff1f\n\u9019\u500b\u53e5\u5b50\u63cf\u8ff0\u7684\u5340\u57df[[0, 132, 209, 420]]\n\u90a3\u9ebc\uff0c\u9019\u500b\u53e5\u5b50\u63cf\u8ff0\u7684\u5340\u57df\u5728\u5716\u7247\u4e2d\u6700\u6709\u53ef\u80fd\u662f\u4ec0\u9ebc\uff1f\n\u9019\u500b\u53e5\u5b50\u63cf\u8ff0\u7684\u5340\u57df[[0, 137, 213, 422]]\n\u90a3\u9ebc\uff0c\u9019\u500b\u53e5\u5b50\u63cf\u8ff0\u7684\u5340\u57df\u5728\u5716\u7247\u4e2d\u6700\u6709\u53ef\u80fd\u662f\u4ec0\u9ebc\uff1f\n\n",
+                "farthest left tray hot dogs[[0, 139, 202, 415]]\n[[27, 126, 520, 797], [485, 208, 993, 897]]\n```\nfarthest left tray hot dogs[[0, 139, 202, 415]]\n```\n``````[[485, 208, 993, 897]]\n```\n```[[27, 126, 520, 797]]\n```\n```[[485, 208, 993, 897]]\n[[0, 139, 202, 415]]\n```\n",
+                "farthest left tray hot dogs[[0, 148, 188, 410]]\n[[3, 124, 504, 798], [501, 208, 986, 901]]\n```\nfarthest left tray hot dogs[[0, 148, 188, 410]]\n```\n[[3, 124, 504, 798]]\n```\n```[[501, 208, 986, 901]]\n```\n```[[3, 124, 504, 798]]\n```\n```[[501, 208, 986, 901]]\n[[9, 134, 50",
+                "farthest left tray hot dogs[[0, 135, 238, 412]]\n\n[[0, 135, 238, 412]]\n</td><td><insert image here></insert>\n</td><td><insert image here></insert></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></tr></td></",
+                "farthest left tray hot dogs[[0, 143, 166, 407]]\n[[12, 128, 520, 796], [511, 209, 988, 905]]\n`[[12, 129, 522, 794]]\n`[[511, 209, 988, 906]]\n[[12, 129, 522, 794]]\n`[[511, 209, 988, 906]]\n`[[12, 129, 522, 794]]\n`[[511, 209, 988, 906]]"
+            ],
+            "iou_scores": [
+                0.48361320777911637,
+                0.4209808352163361,
+                0.45329000812347686,
+                0.4973202044123146,
+                0.46658297765503387,
+                0.4122185956983848,
+                0.4571460006601386,
+                0.36675872457946274
+            ],
+            "iou_var": 0.0015853937871544198,
+            "mean_iou": 0.444738819265533,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000090830.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bowl with a red paste</ref>",
+            "ground_truth": [
+                699,
+                221,
+                1000,
+                626
+            ],
+            "model_output": [
+                "bowl with a red paste[[694, 220, 999, 628]]\n[[534, 52, 830, 375]]\nHere is the image of the bounding box coordinates of the region that this sentence describes: bowl with a red paste[[694, 220, 999, 628]]\n[[697, 220, 1000, 622]]\nHere is the image of the region that this sentence describes: cucumber[[386, 663, 999, 989]]\n[[173, 181, 792, 966]]\nHere is the image of the region that this sentence describes: bowl[[694, 220, 999, 622]]\n",
+                "bowl with a red paste[[694, 220, 1000, 628]]\n",
+                "bowl with a red paste[[688, 218, 998, 628]]\nAnonymous: I'm sorry, I can't provide the bounding box coordinates for the region that contains the red paste.\n[[538, 50, 826, 393]]\n538, 50, 826, 393\nbowl[[688, 218, 998, 628]]\n58, 0, 726, 978\n[[563, 54, 832, 238]]\n148, 0, 739, 987\ncucumber[[398, 665, 99",
+                "bowl with a red paste[[689, 219, 1000, 627]]\n[[549, 54, 836, 378]]\nHere is the location of the top left corner of the bounding box: \nbowl with a red paste[[689, 219, 1000, 627]]\nHere is the location of the bottom right corner of the bounding box: \nbowl with a red paste[[689, 219, 1000, 627]]\n[[689, 219, 1000, 627]]\nHere is the location of the top left corner of the bounding box: \nsandwich[[39, 170, 784, 966]]\nHere is the top right corner of the bounding box: \nsandwich[[39, 1",
+                "bowl with a red paste[[684, 220, 1000, 624]]\n[[544, 53, 831, 379]]\nWikimedia: bowl[[684, 220, 1000, 624]]\nWikimedia: bowl[[684, 220, 1000, 624]]\nWikimedia: bowl[[544, 53, 831, 379]]\nWikimedia: bowl[[684, 220, 1000, 624]]\nWikimedia: bowl[[544, 53, 831, 379]]\nWikimedia: bowl[[684, 220, 1000, 624]]",
+                "bowl with a red paste[[694, 220, 1000, 627]]\n[[547, 49, 830, 387]]\nHere is the location of the bounding box for the region described as \"bowl with a red paste\": \n\n```markdown\n<strong>Box 1:</strong> <pastries>: <pred>in front of</pred> <pastries>: <pred>on</pred> <pastries>: <pred>the</pred> <pastries>: <pred>of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>on</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred> <pastries>: <pred>in front of</pred",
+                "bowl with a red paste[[691, 217, 1000, 625]]\n[[535, 50, 828, 396]]\nBrowsing through the list of things that should not be there, consider removing them if any are present in the image.\nshould not be there[[16, 92, 233, 330]]\n[[16, 92, 233, 330]]\n[[415, 662, 999, 987]]\n[[357, 543, 729, 881]]\n[[686, 66, 999, 306]]\n\n[[691, 217, 1000, 625",
+                "bowl with a red paste[[691, 218, 998, 625]]\n[[543, 48, 824, 393]]\n[[38, 0, 727, 976]]\n[[526, 606, 998, 990]]\n[[460, 660, 998, 990]]\n[[470, 661, 998, 1000]]"
+            ],
+            "iou_scores": [
+                0.9732067764027394,
+                0.9764273356401384,
+                0.9467203502462669,
+                0.9607291469642519,
+                0.9457143748148379,
+                0.9788264200028906,
+                0.9622625086054775,
+                0.9582573101270844
+            ],
+            "iou_var": 0.00014081628960685002,
+            "mean_iou": 0.9627680278504609,
+            "correct_count": 8
+        }
+    ]
+}

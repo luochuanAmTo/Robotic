@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 79,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000552617.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy whose upper body is visible</ref>",
+            "ground_truth": [
+                496,
+                384,
+                892,
+                1000
+            ],
+            "model_output": [
+                "guy whose upper body is visible[[298, 76, 922, 989]]\nguy whose upper body is visible[[159, 147, 384, 989]]\nguy[[159, 147, 384, 989]]\n[[307, 87, 918, 1000]]\n[[691, 457, 896, 987]]\n[[691, 736, 868, 1000]]\n[[873, 617, 999, 844]]\n[[865, 810, 999, 999]]\n[[941, 818, 99",
+                "guy whose upper body is visible[[287, 80, 927, 1000]]\n[[151, 143, 378, 998]]\nguy whose upper body is visible[[151, 143, 378, 998]]\nfrisbee[[639, 655, 738, 902]]\n[[678, 89, 926, 989]]\n[[863, 82, 932, 327]]\n[[935, 748, 999, 1000]]\n[[658, 739, 906, 987]]\n[[903, 79",
+                "guy whose upper body is visible[[292, 73, 921, 989]]\n[[158, 150, 394, 989]]\nguy whose upper body is visible[[158, 150, 394, 989]]\n[[292, 73, 921, 1000]]\n[[292, 73, 921, 1000]]\n[[158, 150, 394, 989]]\n[[158, 150, 394, 989]][[",
+                "guy whose upper body is visible[[295, 85, 926, 989]]\n[[163, 152, 381, 989]]\n[[163, 152, 381, 989]]\n[[306, 382, 929, 990]]\n[[306, 382, 929, 990]]\n[[163, 152, 381, 989]]\n[[306, 382, 929, 990]]\n[[163, 152, 381, 989]]\n[[163, 152, 381, 989]]\n[[306",
+                "guy whose upper body is visible[[303, 83, 925, 988]]\n[[161, 147, 386, 1000]]\n[[274, 437, 468, 995]]\n[[391, 455, 917, 988]]\n[[907, 621, 998, 849]]\n[[912, 814, 998, 1000]]\n[[955, 813, 998, 1000]]\n[[711, 83, 922, 603]]\n[[683, 655, 756, 901]]\n[[6",
+                "guy whose upper body is visible[[282, 91, 925, 989]]\n[[188, 151, 375, 988]]\n[[188, 151, 375, 988]]\n[[302, 379, 926, 984]]\n[[633, 475, 913, 1000]]\n[[789, 622, 874, 813]]\n[[884, 617, 999, 855]]\nfrisbee[[638, 653, 734, 903]]\nperson[[633, 475, 913, 1000]]",
+                "guy whose upper body is visible[[295, 78, 923, 1000]]\n[[295, 78, 923, 1000]]\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</",
+                "guy whose upper body is visible[[293, 81, 923, 989]]\n[[156, 152, 385, 984]]\n[[324, 86, 922, 989]]\n[[827, 620, 998, 852]]\n[[855, 809, 998, 989]]\n[[747, 735, 838, 982]]\nhand[[294, 435, 400, 985]]\nshirt[[159, 522, 383, 989]]\nshirt[[324, 515, 766, 1000]]"
+            ],
+            "iou_scores": [
+                0.41733731892389053,
+                0.41429347826086954,
+                0.4126989595535038,
+                0.4168203486551376,
+                0.4213493240696048,
+                0.41181222820014785,
+                0.4212940575044558,
+                0.41565173942914246
+            ],
+            "iou_var": 1.1155641615557724e-05,
+            "mean_iou": 0.416407181824594,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000328969.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>submit</ref>",
+            "ground_truth": [
+                704,
+                383,
+                1000,
+                538
+            ],
+            "model_output": [
+                "submit[[425, 588, 924, 879]]\nDRINK\nsubmit[[2, 609, 459, 899]]\nThe region in the image that represents the submit tag: \n\nsubmit[[2, 609, 459, 899]][[2, 609, 459, 899]]\nThe region in the image that represents the submit tag: \n\nsubmit[[425, 588, 924, 879]][[425, 588, 924, 879]]\nThe region in the image that represents the submit tag: \n\nsubmit[[425, 588, 924, 879]]",
+                "submit[[0, 612, 466, 897]]\n[[418, 589, 927, 876]]\n\u5c31\u5f88\u68d2\uff01\u8fd8\u6709\u5176\u4ed6\u9700\u8981\u7279\u522b\u6ce8\u610f\u7684\u5730\u65b9\u5417\uff1f submit[[748, 325, 1000, 547]]\nI'm sorry, but I cannot provide bounding boxes on images. However, I can describe the objects in the image.\nsubmit[[748, 325, 1000, 547]]\nI'm sorry, but I cannot provide bounding boxes on images. However, I can describe the objects in the image.\n[[315, 297, 990, 531]]\nI can't provide bounding boxes on images.\nI'm sorry, but I cannot provide bounding boxes on images.\n[[679, 329, 946,",
+                "submit[[0, 607, 453, 903]]\n[[406, 588, 925, 877]]\n[[736, 330, 998, 536]]\nHere is a proposed box for the region in the image: <image>\n[[36, 439, 449, 654]]\nHere is a proposed box for the region in the image: <image> \n[[690, 519, 1000, 758]]\nHere is a proposed box for the region in the image: <image> \nHere is a proposed box for the region in the image: <image> \nHere is a proposed box for the region in the image: <image> \n[[10, 398, 155, ",
+                "submit[[42, 441, 471, 649]]\n[[343, 466, 531, 564]]\n[[428, 433, 819, 599]]\n\u4ece\u6b64\u53e5\u5b50\u63cf\u8ff0\u7684\u533a\u57df\u5305\u542b\u7269\u4f53\uff1adonuts\n[[728, 332, 998, 536], [747, 518, 1000, 755], [744, 390, 999, 504], [736, 323, 953, 414], [658, 346, 745, 433], [312, 298, 501, 419], [6, 445, 478, 643], [350, 589, 92",
+                "submit[[0, 610, 446, 905]]\n[[406, 587, 924, 877]]\n[[738, 520, 1000, 760]]\n anyway, the answer is: <pred>[x1,y1</pred>[[271, 297, 521, 417]][[12, 294, 315, 437]]\n[[645, 332, 961, 456]]\n{[[367, 432, 818, 604]]\n{[[70, 440, 453, 654]]\n{['[12, 614, 446, 895], [409, 591, ",
+                "submit[[38, 440, 466, 649]]\n[[425, 589, 933, 875]]\n\u5bc2[[707, 331, 998, 497]]\nsubmit[[734, 522, 1000, 757]]\n[[1, 613, 438, 896]]\n[[402, 434, 809, 602]]\n[[305, 297, 531, 419]]\n[[654, 330, 937, 494]]\n[[682, 387, 997, 525]]",
+                "submit[[25, 441, 470, 665]]\n[[424, 591, 924, 875]]\nThe region tag list: \nsubmit[[424, 591, 924, 875]]\n[[688, 331, 1000, 537]]\nThe region tag list is: \nsubmit[[688, 331, 1000, 537]]\nThe region tag list is: \nsubmit[[688, 331, 1000, 537]]\nThe region tag list is: \nsubmit[[372, 430, 801, 606]]\nThe region tag list is: \nsubmit[[372, 430, 801, 606]]",
+                "submit[[5, 612, 460, 895]]\n[[0, 441, 470, 652]]\n[[440, 589, 927, 879]]\ndonut[[399, 430, 812, 600]]\ndonut[[768, 521, 1000, 758]]\nchocolate donut[[758, 334, 996, 505]]\ndoughnut[[805, 378, 1000, 503]]\ndonut[[746, 367, 1000, 463]]\ndonut[[342, 296, 543, 409]]\n"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000053304.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left man</ref>",
+            "ground_truth": [
+                1,
+                213,
+                204,
+                611
+            ],
+            "model_output": [
+                "far left man[[0, 211, 199, 612]]\n><answer>[[0, 212, 198, 612]]\n><answer>&#x1209;;[148, 591, 333, 794]</answer>\n><answer>&#x1209;;[448, 592, 628, 766]</answer>\n><answer>&#x1209;;[143, 598, 458, 697]</answer>\n><answer>&#x1209;;[378, 390, 425, 445]</answer>\n><answer>&#x1209;;[108, 504, 394, 563]</answer>\n[[902, 27",
+                "far left man[[10, 213, 196, 610]]\n[[434, 222, 986, 987]]\n[[464, 403, 607, 481]]\n-Fiore[[464, 403, 607, 481]]\n-Fiore[[831, 281, 998, 526]]\n-Fiore[[15, 484, 858, 820]]\n[[0, 389, 109, 613]]\n[[0, 665, 284, 839]]\n[[0, 714, 249, 842]]\n-Fiore[[2, 7",
+                "far left man[[0, 211, 203, 611]]\n[[423, 223, 983, 989]]\nNIKE\n[[422, 221, 993, 990]]\n[[4, 380, 113, 619]]\n[[0, 375, 77, 547]]\n[[149, 505, 471, 600]]\n[[377, 573, 631, 708]]\n[[348, 610, 554, 729]]\n[[42, 664, 289, 840]]\n[[",
+                "far left man[[2, 214, 204, 608]]\n[[423, 222, 984, 986]]\n</div></div></div>\n[[816, 276, 1000, 547]]\n</div></div></div>\n</div>\n</div>[[221, 589, 518, 700]]\n</div></div>\n</div>[[4, 629, 852, 882]]\n</div></div>\n</div>[[379, 565, 577, 706]]\n</div></div>\n</div>[[432, 521, ",
+                "far left man[[0, 211, 203, 609]]\n<answer>\nfar left man[[0, 211, 203, 609]]\n<answer>\nfar left man[[0, 211, 203, 609]]\n<answer>\nfar left man[[11, 374, 138, 620]]\nfar left man[[11, 374, 138, 620]]\nfar left man[[11, 374, 138, 620]]\nchef[[407, 219, 982, 982]]\nchef[[407, 219, 982, 982]]\nchef[[407, 219, 982,",
+                "far left man[[2, 212, 209, 612]]\n><answer>\n[[415, 222, 986, 989]]\n[[2, 209, 209, 609]]\n<answer>\n[[233, 585, 520, 702]]\n[[238, 585, 520, 702]]\n[[433, 590, 597, 734]]\n[[161, 646, 276, 806]]\n[[94, 619, 261, 786]]\n[[0, 675, 293, 844]]\n[[2",
+                "far left man[[0, 212, 198, 615]]\n[[395, 221, 984, 986]]\n[[479, 402, 582, 478]]\n[[853, 282, 1000, 647]]\n[[15, 599, 844, 860]]\n[[24, 467, 260, 850]]\n[[0, 381, 123, 615]][[0, 382, 122, 447]]\n[[236, 590, 458, 699]]\n[[144, 65",
+                "far left man[[0, 213, 206, 611]]\n[[431, 220, 989, 998]]\n[[462, 409, 604, 485]]\nglasses[[462, 409, 604, 485]]\nglasses[[462, 409, 604, 485]]\nspoon[[387, 576, 600, 751]]\nglass[[167, 647, 286, 803]]\ndishware[[0, 598, 843, 897]]\nclothing[[839, 281, 1000, 538]]\nshort sleeve T-shirt"
+            ],
+            "iou_scores": [
+                0.9609991665440997,
+                0.9139540064856301,
+                0.9852692467952646,
+                0.9850731489962126,
+                0.9803421736359625,
+                0.9663213058006203,
+                0.9540531989973473,
+                0.9854368932038835
+            ],
+            "iou_var": 0.0005242144554049423,
+            "mean_iou": 0.9664311425573776,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000306267.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman lower left corner</ref>",
+            "ground_truth": [
+                0,
+                269,
+                256,
+                989
+            ],
+            "model_output": [
+                "woman lower left corner[[0, 268, 252, 984]]\nAI[[217, 62, 524, 624]]\nAI[[528, 335, 934, 1000]]\nAI[[871, 395, 1000, 972]]\nAI[[557, 317, 918, 880]]\n[[215, 4, 398, 337]]\n[[383, 0, 643,",
+                "woman lower left corner[[0, 265, 248, 1000]]\n[[529, 330, 922, 1000]]\n</solution>\n</body>\n</textarea><image><image>\n[[225, 46, 535, 645]]\n[[540, 0, 665, 128]]\n</textarea><image><image>\n</solution>\n[[440, 0, 566, 130]]\n</textarea><image><image>\n</solution>\n[[495, 617, 922, 987]]\n</textarea><image><image>\n</solution>\n[[903, 403,",
+                "woman lower left corner[[0, 270, 256, 989]]\n[[0, 270, 256, 989]]\n[[228, 57, 515, 627]]\n{|[[261, 431, 466, 568]]\n[[530, 332, 919, 989]]\n[[899, 383, 1000, 999]]\n[[524, 0, 634, 121]]\n[[386, 0, 511, 221]]\n[[158, 0, 367, 412]]\n[[363, 0, 482, 182]]\n[[476",
+                "woman lower left corner[[0, 269, 248, 989]]\n[[528, 330, 917, 987]]\nAlright, let's break down the image and identify the relevant regions described in the input sentence \"this sentence is describing a bounding box coordinates\" for each object in the image:\n\n1. **Woman pouring orange juice (positioned at the top left):**\n   - **Bounding Box Coordinates:** [0, 269, 248, 989]\n\n2. **Customer (positioned at the top center):**\n   - **Bounding Box Coordinates:** [528, 330, 917, 987]\n\n3. **Customer (positioned at the bottom center):**\n   - **Bounding Box Coordinates:** [541, 650, 852, 988]\n\n4. **Customer (positioned at the bottom right):**\n   - **Bounding Box Coordinates:** [926, 400, 1000, 989]\n\n5",
+                "woman lower left corner[[0, 273, 253, 1000]]\nImages: \nwoman lower left corner[[0, 273, 253, 1000]]\nImages: \nwoman lower left corner[[537, 335, 924, 987]]\nImages: \nwoman lower left corner[[537, 335, 924, 987]]\nImages: \nwoman[[221, 51, 543, 624]]\nImages: \nwoman[[221, 51, 543, 624]]\nImages: \nwoman[[221, 51, 543, 624]][[537, 335, 924, 987]]\n",
+                "woman lower left corner[[0, 267, 255, 989]]\n[[224, 55, 508, 635]]\nMore like this:woman lower left corner[[515, 328, 934, 989]]\nwoman lower left corner[[0, 267, 255, 989]]\nwoman lower left corner[[0, 267, 255, 989]]\nwoman lower left corner[[515, 328, 934, 989]]\n[[479, 340, 926, 697]]\n[[222, 55, 508, 636]]\n[[178, 0",
+                "woman lower left corner[[0, 269, 253, 1000]]\nKnow the background: woman lower left corner[[0, 269, 253, 1000]]\nKnow the background: woman[[216, 67, 525, 644]]\nThis image description is not yet complete. Please user text \"216, 67, 525, 644\" to complete the identification of this bounding box\nThis image description is not yet complete. Please user text \"216, 67, 525, 644\" to complete the identification of this bounding box\n",
+                "woman lower left corner[[0, 275, 255, 1000]]\n[[0, 275, 255, 1000]]\n=>woman lower left corner[[525, 335, 923, 984]]\n=>[[215, 57, 534, 651]]\n=>[[536, 332, 944, 1000]]\n=>[[900, 384, 999, 961]]\n[[215, 57, 534, 651]]\n=>[[215, 57, 534, 651]]\n=>[[525, 335, "
+            ],
+            "iou_scores": [
+                0.9762044080358885,
+                0.9495851946394385,
+                0.9986111111111111,
+                0.96875,
+                0.9681726108079507,
+                0.9933452361629606,
+                0.9735813963431906,
+                0.9729859719438878
+            ],
+            "iou_var": 0.00020411859205730557,
+            "mean_iou": 0.9751544911305535,
+            "correct_count": 8
+        }
+    ]
+}

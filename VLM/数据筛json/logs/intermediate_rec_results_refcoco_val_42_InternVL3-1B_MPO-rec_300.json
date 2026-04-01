@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 42,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000447424.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red car</ref>",
+            "ground_truth": [
+                363,
+                0,
+                1000,
+                389
+            ],
+            "model_output": [
+                "red car[[383, 2, 999, 388]]\n[[582, 190, 975, 990]]\ndog[[581, 196, 968, 989]]\nroll-up window[[3, 0, 1000, 984]]\ndice[[27, 181, 186, 414]]\nroll-up window[[3, 0, 1000, 984]]\ndog[[581, 196, 975, 990]]\nroll-up window[[3, 0, 1000, 984]]\n",
+                "red car[[374, 0, 1000, 383]]\n[[621, 192, 976, 989]]\nred car[[374, 0, 1000, 383]]\ndog[[621, 192, 976, 989]]\n[[680, 80, 983, 386]]\n[[2, 2, 1000, 990]]\n[[3, 2, 1000, 990]]",
+                "red car[[359, 0, 999, 393]]\n[[554, 195, 972, 984]]\ndog[[554, 195, 972, 984]]\ndog[[560, 199, 981, 984]]\ndice[[21, 179, 187, 414]]\ndice[[21, 179, 187, 414]]\ncar[[359, 0, 999, 393]]\ncar[[554, 195, 999, 984]]\n",
+                "red car[[375, 0, 1000, 398]]\n[[571, 196, 973, 1000]]\ndog[[571, 196, 973, 1000]]\ndog[[571, 196, 973, 1000]]\ndice[[19, 0, 224, 416]]\n[[348, 166, 425, 285]]\n[[30, 186, 174, 416]]\n[[19, 0, 224, 416]]\n[[348, 166, 425, 285",
+                "red car[[369, 0, 1000, 393]]\n[[567, 190, 977, 1000]]\n[[5, 2, 999, 984]];[[12, 182, 179, 415]]\n[[178, 0, 290, 212]]\n[[483, 179, 967, 717]]\n[[17, 190, 179, 414]]\n[[12, 182, 179, 415]]\n[[178, 0, 290, 212]]\n[[",
+                "red car[[373, 3, 998, 398]]\n[[0, 0, 999, 1000]]\n[[0, 188, 999, 1000]]\ndog[[580, 192, 971, 1000]]\n[[18, 184, 193, 414]]\n[[2, 2, 999, 989]][[582, 195, 969, 649]]\n[[0, 0, 581, 1000]]",
+                "red car[[375, 0, 999, 393]]\n[[571, 197, 977, 989]]\n[[0, 0, 1000, 1000]]\n[[571, 197, 977, 989]]\n[[11, 184, 177, 417]]\n[[10, 186, 175, 413]]\n[[573, 185, 976, 678]]",
+                "red car[[374, 2, 1000, 393]]\n[[579, 189, 976, 984]]\ndog[[579, 189, 976, 984]]\ndog[[579, 189, 976, 984]]\nroll cage[[0, 0, 1000, 1000]]\ndice[[20, 187, 186, 419]]\nroll cage[[20, 187, 186, 419]]\ndinner table[[0, 0, 409, 1000]]\n"
+            ],
+            "iou_scores": [
+                0.959575129240939,
+                0.9675737409854193,
+                0.9821165579633916,
+                0.9593833113669905,
+                0.9805926085723303,
+                0.9519844683487361,
+                0.9698228847452345,
+                0.9678981370132282
+            ],
+            "iou_var": 9.49871499876456e-05,
+            "mean_iou": 0.9673683547795338,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000445392.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second sink from the left</ref>",
+            "ground_truth": [
+                577,
+                582,
+                929,
+                925
+            ],
+            "model_output": [
+                "second sink from the left[[584, 591, 904, 923]]\n[[720, 404, 831, 703]]\n[[828, 408, 999, 851]]\nsecond sink[[384, 540, 681, 932]]\npaper towel dispenser[[216, 165, 424, 620]]\nsink[[634, 634, 893, 882]]\nartifact[[894, 413, 999, 678]]\npaper[[323, 556, 705, 635]]\nwall socket[[586, 348, 821, 451]]\n",
+                "second sink from the left[[598, 594, 908, 881]]\n[[658, 598, 886, 882]]\nStock image\n\nsecond sink from the left[[414, 535, 665, 928]]\nStock image\n\nsecond sink from the left[[598, 594, 908, 881]]\nStock image\n\nsecond sink from the left[[658, 598, 886, 882]]\nStock image\n\nsecond sink from the left[[414, 535, 665, 928]]\nStock image\n[[598, 594, 908, 882]]\nStock image\n\nsecond sink from the left[[658, 598, 8",
+                "second sink from the left[[588, 591, 913, 929]]\n[[591, 643, 921, 874]]\n[[672, 407, 803, 719]]\n[[404, 539, 673, 927]]\n[[675, 396, 821, 661]]\n[[819, 382, 999, 663]]\n[[429, 409, 678, 650]]\n[[230, 162, 384, 614]]\n[[385, 415, 682, 928]]\n[[681, 407, 999, 935]]\n",
+                "second sink from the left[[597, 595, 915, 879]]\n[[614, 599, 906, 875]]\nTHE END\n[[368, 533, 625, 929]]\n[[715, 400, 817, 706]]\n[[824, 415, 997, 933]]\n[[847, 646, 998, 924]]\n[[571, 545, 827, 926]]\n[[338, 548, 627, 933]]\n[[52, 548, 338, 928]]\n",
+                "second sink from the left[[587, 593, 908, 894]]\n identify the object tags: second sink from the left[[667, 406, 842, 708]]\n identify the object tags: second sink from the left[[375, 543, 664, 927]]\n identify the object tags: second sink from the left[[375, 543, 664, 927]]\n identify the object tags: second sink from the left[[667, 406, 842, 708]]\n identify the object tags: second sink from the left[[667, 406, 842, 708]]\n identify the object tags: second sink from the left[[375, 543, 664, 927]]\n identify the object",
+                "second sink from the left[[591, 588, 897, 893]]\n[[712, 546, 901, 728]]\nif any, what do you mean by 'second sink from the right'?\nsecond sink from the right[[395, 540, 662, 926]]\npaper[[225, 161, 409, 929]]\npaper[[225, 161, 409, 929]]\nsink[[591, 588, 897, 893]]\nsink[[712, 546, 901, 728]]\npaper[[225, 161, 409, 929]]\nmirror[[607, 0",
+                "second sink from the left[[577, 593, 906, 916]]\n[[624, 591, 907, 883]]\n\u88fd\u9020\u50cf\uff1a<answer><p>OCR</p></answer>\n[[743, 411, 880, 611]]\n<img src=\"https://i.imgur.com/9L5F0Z3.jpg\" alt=\"public restroom\">\n[[341, 346, 997, 923]]\n[[199, 163, 416, 616]]\n[[601, 382, 879, 613]]\n[[585, 376, 752, 616]]",
+                "second sink from the left[[572, 593, 898, 886]]\n[[643, 599, 887, 882]]\nStock image\nsecond sink from the left[[391, 539, 645, 929]]\nStock image\nsecond sink from the left[[572, 593, 898, 886]]\nStock image\nsecond sink from the left[[643, 599, 887, 882]]\nStock image\nsecond sink from the left[[391, 539, 645, 929]]\nStock image\nsecond sink from the left[[572, 593, 898, 886]]\nStock image\nsecond sink from the left[[643, 599, 88"
+            ],
+            "iou_scores": [
+                0.8799363901404718,
+                0.7368970315398887,
+                0.8894916254220067,
+                0.7480121918897429,
+                0.8002666975881262,
+                0.7730088788762258,
+                0.0,
+                0.7696581861032233
+            ],
+            "iou_var": 0.07277322263881172,
+            "mean_iou": 0.6996588751949606,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000140733.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>furthest left plane</ref>",
+            "ground_truth": [
+                64,
+                208,
+                377,
+                597
+            ],
+            "model_output": [
+                "furthest left plane[[72, 200, 397, 598]]\n<answer>furthest left plane[[72, 200, 397, 598]]\n<answer>furthest left plane[[286, 42, 573, 442]]\n</answer><answer>furthest left plane[[286, 42, 573, 442]]\n</body></body>\n\n</selected><answer>furthest left plane[[401, 313, 703, 637]]\n</body><answer>furthest left plane[[401, 313, 703, 637]]\n</body><answer>furthest left plane[[72",
+                "furthest left plane[[68, 202, 395, 601]]\n<answer>\nfurthest left plane[[113, 35, 559, 437]]\n</answer>\nuser\nwhat is the US NAVY blue jets flying in the sky?\nUS NAVY blue jets flying in the sky[[378, 314, 700, 641]]\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>",
+                "furthest left plane[[75, 200, 389, 598]]\n<answer>furthest left plane[[75, 200, 389, 598]]\n<answer>furthest left plane[[261, 36, 564, 394]]\n<answer>furthest left plane[[75, 200, 389, 598]]\n<answer>furthest left plane[[383, 311, 701, 644]]\n<answer>furthest left plane[[75, 200, 389, 598]]\n[[261, 316, 703, 638]]\n[[249, 512, 535, 917]]",
+                "furthest left plane[[67, 200, 362, 598]]\n><answer>[x1,y1,x2,y2]</warning>\n><answer>furthest left plane[[67, 200, 362, 598]]\nDNA</code></div></mml:annotation>\n<span id=\"1\"><mml:annotation</mml:annotation> tags</code></span>\n</div></mml:annotation>\n</span></span>",
+                "furthest left plane[[74, 200, 393, 598]]\n<answer>\nfurthest left plane[[74, 200, 393, 598]]\n<answer>\nfurthest left plane[[269, 37, 563, 441]]\nHillary Clinton\nfurthest left plane[[386, 315, 703, 639]]\n<answer>\nfurthest left plane[[74, 200, 393, 598]]\n<answer>\nfurthest left plane[[386, 315, 703, 639]]\n<answer>\nfurthest left plane[[74, 200, 393, 598]]\n<answer>\nfurthest left plane[[386",
+                "furthest left plane[[68, 200, 378, 602]]\n<answer>\nfurthest left plane[[68, 200, 378, 602]]\n<answer>\nfurthest left plane[[274, 41, 564, 437]]\nAnother bounding box for the fourth plane in the group: <pastel> [384, 315, 700, 637]\n[384, 315, 700, 637]]\nAnother bounding box for the first plane in the group: <pastel> [68, 200, 378, 602]\n[68, 200, 378, 602][[68, 200, 378, 602]]\nAnother bounding box for the second plane in the group: <pastel> [",
+                "furthest left plane[[76, 200, 394, 603]]\n<answer&gt;&nbsp;&lt;/answer.html&gt;\nfurthest left plane[[76, 200, 394, 603]]\n<issuealength&gt;&lt;/issuealength.html&gt;\nfurthest left plane[[263, 39, 568, 442]]\n<answer&gt;&lt;/answer.html&gt;\nfurthest left plane[[263, 39, 568, 442]]\n<issuealength&gt;&lt;/issuealength.html&gt;\nfurthest left plane[[263, 39, 568, 442]]\n<answer&gt;&lt;/answer.html&gt;\nfurthest left plane[[76, 200, 394, 603]]\n<issuealength",
+                "furthest left plane[[76, 200, 395, 607]]\n<answer>\nfurthest left plane[[76, 200, 395, 607]]\n</answer>\n<answer>\nfurthest left plane[[276, 34, 566, 435]]\n</answer>\n</body>\nhttps://www.navy.mil/sports/\n[[400, 311, 702, 637]]\n</body>\nhttps://www.navy.mil/sports/snapshots/1538397089-2014-01-08-152044-2014-01-08-152045-01-08-152044-01-08-152045-01-08-152044-01-"
+            ],
+            "iou_scores": [
+                0.895690839637028,
+                0.25127913114679146,
+                0.908913664110916,
+                0.9223788702054464,
+                0.90076575061902,
+                0.952645511032209,
+                0.8815482374907772,
+                0.8705437134296399
+            ],
+            "iou_var": 0.04724372400159378,
+            "mean_iou": 0.8229707147089785,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000399880.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>very center fur coat lady</ref>",
+            "ground_truth": [
+                515,
+                272,
+                656,
+                951
+            ],
+            "model_output": [
+                "very center fur coat lady[[467, 259, 636, 943]]\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nvery center fur coat lady[[467, 259, 636, 943]]\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>woman[[275, 279, 438, 956]]\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2",
+                "very center fur coat lady[[497, 273, 662, 943]]\nAnother solution: The bounding box tags are: <answer>[x1,y1,[x2,x3]]\n\nThe region description is: very center fur coat lady[[497, 273, 662, 943]]\nAnother solution: The bounding box tags are: <answer>[x1,y1,[x2,x3]]\n\nThe region description is: very center fur coat lady[[497, 273, 662, 943]]\nAnother solution: The bounding box tags are: <answer>[x1,y1,[x2,x3]]\n\nThe region description is: very center fur coat lady[[497, 273, 662, 943]]\nAnother solution: The bounding box tags are: <answer>[x1,y1,[x2,x3]]\n\nThe region description is: very center fur coat lady[[497",
+                "very center fur coat lady[[454, 265, 629, 948]]\n[[779, 218, 892, 948]]\nWould you describe the image: a woman in the image is wearing a fur coat?\na woman in the image[[277, 281, 438, 955]]\n[[350, 233, 543, 944]]\n[[565, 273, 669, 940]]\nwoman[[549, 275, 644, 949]]\nwoman[[624, 223, 832, 972]]\nman[[852, 205, 984, 972]]\nman[[78",
+                "very center fur coat lady[[492, 269, 655, 951]]\nKnow the bounding box coordinates for? \nvery center fur coat lady[[492, 269, 655, 951]]\nWhat is the label of the woman in the center? \nwoman[[492, 269, 655, 951]]\nWhat is the name of the black hat the man is wearing? \nblack hat[[696, 223, 852, 967]]\nWhat is the name of the man standing on the right? \nman[[854, 206, 987, 969]]\nWhat is the name of the person standing on the right? \nman[[854, 206, 987, 969]]\nWhat is the name of the black hat the man is wearing? \nblack hat[[696, ",
+                "very center fur coat lady[[453, 279, 640, 946]]\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>\nAnother answer: <answer>[x1,y1,x2,x2]</answer>",
+                "very center fur coat lady[[463, 265, 636, 945]]\nHow many people are in the image?\n\nRest of the people: 7\nI will describe the region specified within the text: \"PHOTO BY NO. STICK\"\n\n",
+                "very center fur coat lady[[482, 267, 656, 952]]\n again the same coordinates in <answer>[x1,y1,x2,y2]</answer>\n at what coordinates shown in the bounding boxes [14, 143, 205, 948] tags: <answer>[x1,y1,x2,y2]</answer>\n for the region '14,143,145,946' tags: <answer></answer>\n for the region '14,143,145,946' tags: <answer></answer>\n for the region '14,143,145,946' tags: <answer></answer>\n for the region '14,143,145,946' tags: <answer></answer>\n for the region '14,143,145,946' tags: <answer></answer>\n for the region '14,143,145,946'",
+                "very center fur coat lady[[484, 274, 648, 948]]\nanother woman in the group: <answer>[x1,y1,x2,y2]</answer>\nAnother woman in the group: <answer>[x1,y1,x2,y2]</answer>\nAnother man in the group: <answer>[x1,y1,x2,y2]</answer>\nAnother man in the group: <answer>[x1,y1,x2,y2]</answer>\nOther people in the group: <answer>[x1,y1,x2,y2]</answer>\nOther people in the group: <answer>[x1,y1,x2,y2]</answer>\nOther people in the group: <answer>[x1,y1,x2,y2]</answer>\nOther people in the group: <answer>[x1,y1,x2,y2]</answer>\nOther people in the group: <answer>[x1,y1,x2,y2]</answer>"
+            ],
+            "iou_scores": [
+                0.0,
+                0.8448474767257801,
+                0.5576266280752532,
+                0.8499262372032724,
+                0.0,
+                0.6171691449532385,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.13733543092219952,
+            "mean_iou": 0.358696185869693,
+            "correct_count": 4
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 21,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000149921.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>very front girl</ref>",
+            "ground_truth": [
+                181,
+                335,
+                578,
+                980
+            ],
+            "model_output": [
+                "very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173, 342, 577, 989]]\nComments on the image: very front girl[[173,",
+                "very front girl[[171, 342, 585, 990]]\n another girl <answer>[x1,y1,x2,y2]</answer>\n another girl <answer>[x2,y1,x3,y3]</answer>\n another girl <answer>[x3,y1,x47,132]</answer>\n another girl <answer>[x47,y1,x59,149]</answer>\n other woman <answer>[x59,y1,x68,153]</answer>\n other woman <answer>[x68,y1,x78,165]</answer>\n other woman <answer>[x78,y1,x86,179]</answer>\n woman <answer>[x86,y1,x94,184]</answer>\n other man <answer>[x94,y1,x109,192]</answer>\n other man <answer>[x109,y1,x124,193]</answer>\n other man <answer>[x124,y1,x13",
+                "very front girl[[173, 344, 575, 984]]\n\u662d\u548c\n[[603, 277, 846, 784]]\n[[509, 213, 588, 433]]\n[[361, 266, 464, 503]]\n[[332, 306, 422, 519]]\n[[600, 679, 813, 998]]\n[[571, 448, 727, 564]]\n[[2, 378, 236, 554]]\n[[844, 381, 888, 588]]",
+                "very front girl[[171, 341, 583, 990]]\n\u662d\u548c\n[[599, 279, 843, 785]]\n[[665, 284, 837, 786]]\n[[452, 215, 552, 446]]\n[[324, 306, 443, 531]]\n[[403, 253, 457, 458]]\n[[2, 377, 258, 693]]\n[[147, 622, 453, 1000]]\n[[543, 670, 782, 999]]\n",
+                "very front girl[[173, 340, 578, 985]]\nPROS\nvery front girl[[173, 340, 578, 985]][[166, 338, 574, 989]]\n=>\n=>\n=>\n=>\n=>\n[[615, 280, 853, 781]]\n=>\n=>[[547, 284, 873, 575]]\n=>\n=>[[361, 261, 471, 524]]\n=>\n[[471, 214, 561, 440]]\n=>\n=>[[15",
+                "very front girl[[175, 345, 578, 982]]\nDNA[[619, 282, 848, 781]]\n[[562, 362, 837, 990]]\n[[324, 260, 453, 540]]\n[[151, 620, 435, 987]]\n[[456, 214, 564, 457]]\n[[271, 303, 428, 511]]\n[[585, 371, 801, 697]]\n",
+                "very front girl[[167, 340, 573, 989]]\nPROBLEM: The sentence is about a region, but the image contains only coordinates. Could you please provide the bounding box coordinates instead?\n\n[[165, 617, 424, 1000]]\n\n[[563, 676, 824, 989]]\n\n[[602, 278, 850, 776]]\n\n[[363, 465, 670, 715]]\n\n[[337, 300, 456, 522]]\n\n[[293, 267, 440, 508]]\n\n[[475, 212, 569,",
+                "very front girl[[176, 340, 572, 987]]\n again , please very front girl[[176, 340, 572, 987]]\n again , please very front girl[[176, 340, 572, 987]][[155, 339, 562, 847]]\n again , please very front girl[[155, 339, 562, 847]]"
+            ],
+            "iou_scores": [
+                0.9540907460206567,
+                0.0,
+                0.9536575062509276,
+                0.9403677206509249,
+                0.9653128680521257,
+                0.9670631921774122,
+                0.9337536614324157,
+                0.9549796402798079
+            ],
+            "iou_var": 0.09939307306156969,
+            "mean_iou": 0.8336531668580338,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000416651.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>confused blue shirt on right</ref>",
+            "ground_truth": [
+                743,
+                74,
+                1000,
+                955
+            ],
+            "model_output": [
+                "confused blue shirt on right[[740, 65, 1000, 958]]\n[[465, 125, 650, 987]]\nIdentify the person in the image and enclose the keyword \"person\".\nperson[[546, 602, 714, 1000]]\n[[510, 669, 730, 1000]]\nconfused blue shirt on right[[783, 73, 1000, 956]]\nconfused blue shirt on right[[783, 73, 1000, 956]]\nman[[27, 299, 287, 989]]\nman[[452, 121, 651, 989]]\nfootwear",
+                "confused blue shirt on right[[740, 70, 1000, 957]]\n[[533, 600, 721, 989]]\n thus the bounding box coordinates are <answer>[x1,y1,[x2,y2]]\n[[437, 121, 626, 997]]\n[[40, 302, 284, 989]]\n[[533, 538, 721, 989]]\n[[748, 72, 1000, 954]]\n[[967, 815, 1000, 907]]\n[[922, 313, 999, 493]]\n",
+                "confused blue shirt on right[[740, 74, 1000, 959]]\n again output the bounding box coordinates of the region that this sentence describes: 'man in black shirt with number 36' confused blue shirt on right[[740, 74, 1000, 959]]\n again output the bounding box coordinates of the region that this sentence describes: 'man in black shirt with number 36' confused blue shirt on right[[740, 74, 1000, 959]]\n again output the bounding box coordinates of the region that this sentence describes: 'man in black shirt with number 36' confused blue shirt on right[[505, 603, 717, 998]]\n again output the bounding box coordinates of the region that this sentence describes: 'man in black shirt with number 36' confused blue shirt on right[[505, 603, 717,",
+                "confused blue shirt on right[[743, 72, 1000, 955]]\n[[462, 125, 650, 988]]\nNS[[533, 602, 708, 987]]\n[[31, 295, 281, 989]]\n[[25, 364, 252, 666]]\n\n[[290, 601, 490, 990]]\n\n[[562, 622, 734, 989]]\n\n[[727, 74, 999, 959]]\n",
+                "confused blue shirt on right[[735, 72, 1000, 963]]\n[[514, 603, 706, 1000]]\nNSbasa[[406, 124, 640, 984]]\n[[32, 297, 278, 989]]\n[[660, 464, 758, 555]]\n[[776, 870, 893, 976]]\n[[961, 810, 999, 903]]\n[[158, 692, 202, 764]]",
+                "confused blue shirt on right[[730, 73, 1000, 962]]\n[[485, 124, 651, 987]]\nWikimedia:\n[[531, 603, 717, 989]]\n[[33, 300, 279, 989]]\n[[266, 637, 310, 760]]\n[[700, 462, 776, 555]]\n[[960, 814, 999, 905]]\n[[771, 869, 892, 974]]\n[[896, 806, 999, 90",
+                "confused blue shirt on right[[742, 72, 1000, 961]]\n[[499, 603, 708, 998]]\n anyway, there's a man in the middle wearing a light blue shirt with a whistle around his neck. He's standing with his arms crossed. The man on the right side of the image, wearing a light blue shirt and navy shorts, has his hands on his hips and is holding a soccer ball. The man on the left, wearing a black and yellow jersey with the number 36, is smiling and looking to his left.\n[[42, 298, 288, 998]]\n[[431, 121, 637, 984]]\n[[676, 463, 760, 555]]\n[[765, 8",
+                "confused blue shirt on right[[736, 72, 1000, 958]]\n\u5bc2\u7136\nconfused blue shirt on right[[409, 123, 635, 988]]\n\n[[555, 602, 719, 987]]\n[[691, 693, 824, 971]]\n[[27, 297, 288, 1000]]\n[[284, 331, 395, 715]]\n[[390, 342, 498, 602]]\n[[23, 346, 254, 649]]\n[[252, 693, 28"
+            ],
+            "iou_scores": [
+                0.9751787406322681,
+                0.9817752146387998,
+                0.983993915688831,
+                0.9977349943374858,
+                0.95892679414692,
+                0.9432862558846811,
+                0.9871600352281547,
+                0.9679911416649566
+            ],
+            "iou_var": 0.00026285660596115615,
+            "mean_iou": 0.9745058865277622,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000515401.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>siutcase on right</ref>",
+            "ground_truth": [
+                699,
+                284,
+                996,
+                987
+            ],
+            "model_output": [
+                "siutcase on right[[723, 290, 1000, 984]]\n[[170, 300, 672, 984]]\nMore tags:\n[[666, 229, 998, 712]]\n\n[[132, 203, 675, 926]]\n\n[[73, 0, 305, 154]]\n\n[[182, 0, 316, 166]]\n\n[[283, 212, 560, 647]]\n\n[[692, 296, 1000, 999]]",
+                "siutcase on right[[713, 296, 1000, 989]]\n[[173, 292, 672, 987]]\n```\n[[173, 292, 672, 987]]\n```\n```[[170, 304, 673, 998]]\n```\n```[[714, 296, 999, 988]]\n[[714, 296, 999, 988]]\n[[173, 292, 672, 987]]\n```\n```[[170, 304, 673, 9",
+                "siutcase on right[[722, 295, 999, 987]]\n[[175, 300, 666, 984]]\n\u2022\n\u2022\n[[122, 206, 1000, 989]]\n[[733, 279, 1000, 685]]\n[[178, 300, 668, 985]]\n[[122, 206, 1000, 989]]\n[[733, 279, 1000, 685]]\n[[175, 300, 666, 984]]\n[[122, 206, 1",
+                "siutcase on right[[718, 292, 1000, 996]]\n[[177, 281, 666, 986]]\n\u52ab\u76d7[[319, 207, 559, 649]]\n[[179, 205, 664, 989]]\n[[708, 234, 998, 536]]\n[[140, 200, 340, 438]]\n[[719, 296, 999, 989]]\n[[0, 56, 256, 984]]",
+                "siutcase on right[[722, 297, 999, 989]]\n[[173, 304, 673, 1000]]\n[[131, 202, 672, 999]]\n[[720, 293, 999, 995]]\n[[131, 202, 672, 999]]\n[[173, 304, 673, 1000]]\n[[720, 293, 999, 995]]\n[[735, 234, 999, 570]]\n[[131, 202, 672, 999]]\n[[131",
+                "siutcase on right[[723, 292, 1000, 987]]\n[[177, 303, 670, 982]]\n[[138, 203, 667, 988]]\n[[733, 295, 999, 708]]\n[[2, 54, 388, 798]]\n[[207, 218, 673, 654]]\n[[141, 0, 379, 164]][[141, 0, 379, 164]][[733, 295, ",
+                "siutcase on right[[725, 288, 1000, 987]]\n[[170, 294, 667, 987]]\n`[[137, 199, 726, 987]]\n`[[138, 28, 1000, 989]]\n`[[137, 28, 1000, 989]]\n`[[137, 28, 1000, 989]]\n`[[138, 28, 1000, 989]]\n`[[725, 288, 1000, 987]]\n`[[725, 28",
+                "siutcase on right[[723, 289, 1000, 989]]\n[[177, 302, 669, 998]]\n[[143, 204, 682, 982]]\n[[723, 289, 1000, 989]]\n[[143, 204, 682, 982]]\n[[177, 302, 669, 998]]\n[[723, 289, 1000, 989]]\n[[143, 204, 682, 982]]\n[[177, 302, 669, 998]]\n[["
+            ],
+            "iou_scores": [
+                0.8955177319714323,
+                0.9218588688958134,
+                0.8991828972764824,
+                0.9023908383113274,
+                0.8942601045337369,
+                0.8967911481252157,
+                0.8952771200499086,
+                0.8982591438551502
+            ],
+            "iou_var": 7.141242446698435e-05,
+            "mean_iou": 0.9004422316273832,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000066236.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>umbrella lady</ref>",
+            "ground_truth": [
+                433,
+                101,
+                599,
+                966
+            ],
+            "model_output": [
+                "umbrella lady[[442, 103, 606, 966]]\n><answer>[x1,y1,x2,y2]</statement>\n<comment>The bounding box coordinates provided do not correspond to any visible elements in the image. The image does not show any specific object or region that can be described with the given coordinates. Therefore, I cannot provide the bounding box coordinates for the region described in the sentence.\n",
+                "umbrella lady[[438, 99, 609, 967]]\n another great description!\n another great description!\n another great description!\n another great description!\n another great description!\n another great description!\n another great description!\n\u63cf\u8ff0\u8fd9\u4e2a\u4eba\u7684\u4f4d\u7f6e\uff1aumbrella lady[[438, 99, 609, 967]]\n at least one of the tags is valid <answer>[x1,y1,x2,y2]</answer>\numbrella lady[[438, 99, 609, 967]]\n at least one of the tags is valid <answer>[x1,y1,x2,y2]</answer>\n\uff1bMore than one of the tags is valid <answer>[x",
+                "umbrella lady[[432, 100, 607, 962]]\nI'm sorry, but I can't provide the bounding box coordinates for the woman walking under the umbrella.\n",
+                "umbrella lady[[431, 101, 605, 968]]\nAnother question: What is the woman holding in her hand?\n; caption: woman[[431, 101, 605, 968]]\nAnother question: What is the woman wearing?\nAnswer: <answer>[x1,y1]{[431, 101, 605, 968]}>\n[[19, 75, 246, 981]]\nAnd for the woman: woman[[431, 101, 605, 968]]\nAnother question: What does the woman with the umbrella do?\nAnswer: <answer>[x1,y1]{[431, 101, 605, 968]}>\n",
+                "umbrella lady[[444, 104, 608, 969]]\nwoman[[444, 104, 608, 969]]\n[[19, 81, 246, 981]]\n${\\displaystyle190, 58, 998, 686}}\n[[354, 30, 665, 248]]\n[[352, 41, 669, 236]]\n[[0, 578, 1000, 1000]]\n[[354, 41, 669, 236]]\n[[0, 578, 1000, 1000",
+                "umbrella lady[[439, 101, 611, 969]]\n[[24, 75, 253, 978]]\nNR\n[[329, 31, 668, 276]]\n[[26, 332, 1000, 1000]]\n[[426, 482, 471, 564]]\n[[251, 429, 324, 509]]\n[[29, 126, 212, 985]]\n[[25, 124, 214, 984]]\n[[305, 33, 664",
+                "umbrella lady[[436, 105, 605, 964]]\n[[24, 73, 243, 979]]\nDBZ[[24, 73, 243, 979]]\n[[354, 36, 664, 253]]\n[[359, 384, 418, 495]]\n[[343, 479, 435, 553]]\n[[449, 452, 476, 557]]\n[[647, 341, 794, 543]]\n[[227, 382, 298, 532]]\n",
+                "umbrella lady[[443, 106, 607, 965]]\n another great way to describe the region of interest: umbrella lady[[443, 106, 607, 965]]\n another great way to describe the region of interest: umbrella lady[[443, 106, 607, 965]][[16, 71, 251, 977]]\n another great way to describe the region of interest: umbrella lady[[443, 106, 607, 965]]\n[[16, 71, 251, 977]]\n[[341, 33, 662, 257]]\n another great way to describe the region of"
+            ],
+            "iou_scores": [
+                0.9055008654623707,
+                0.0,
+                0.9433187692226461,
+                0.951822243434223,
+                0.8799394099051633,
+                0.8958740597853527,
+                0.9413287258645727,
+                0.8906168999481596
+            ],
+            "iou_var": 0.09230990621098843,
+            "mean_iou": 0.801050121702811,
+            "correct_count": 7
+        }
+    ]
+}

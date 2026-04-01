@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 80,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000370505.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>farthest bed</ref>",
+            "ground_truth": [
+                37,
+                419,
+                655,
+                627
+            ],
+            "model_output": [
+                "farthest bed[[5, 557, 572, 772]]\n><answer>[[5, 557, 572, 772]]\n<answer>farthest bed[[3, 547, 563, 727]]\n<answer>man[[699, 276, 824, 593]]\n<answer>man[[263, 315, 356, 477]]\n<answer>curtain[[383, 180, 773, 479]]\n[[10, 434, 568, 571]]\n[[2, 709, 430, 1000]]\n[[376, 482, 63",
+                "farthest bed[[0, 555, 607, 781]]\n<answer>farthest bed[[0, 555, 607, 781]]\uff1b[0, 553, 607, 781]\n<answer>farthest bed[[0, 553, 607, 781]]\n<answer>farthest bed[[12, 427, 635, 571]]\n<answer>woman[[262, 319, 356, 475]]\n[[701, 275, 825, 595]]\n[[0, 713, 445, 1000]]\n[[3, 714,",
+                "farthest bed[[0, 554, 603, 780]]\n<answer>farthest bed[[0, 554, 603, 780]]\n<answer>woman[[254, 320, 358, 473]]\n<answer>woman[[254, 320, 358, 473]]\n[[694, 275, 823, 593]]\n[[0, 716, 448, 1000]]\n[[5, 549, 465, 735]]\n[[0, 554, 603, 780]]\n[[0, 554, 603, 780]]\n[[",
+                "farthest bed[[10, 555, 627, 772]]\n><answer>[[415, 489, 628, 618]]\n\u4e0b\u53bb\u7684\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[3, 543, 555, 729]]\n\u63a5\u7740\u7684\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[3, 716, 473, 1000]]\n\u63a5\u4e0b\u6765\u7684\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[0, 552, 549, 777]]\n\u63a5\u4e0b\u6765\u7684\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[0, 561, 568, 773]]\n\u623f\u95f4\u5185\u7684\u5e8a\u4e0a\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[0, 555, 627, 772]]\n\u623f\u95f4\u5185\u7684\u5e8a\u4e0a\u533a\u57df\u7684\u63cf\u8ff0\uff1afarthest bed[[10, 555, 627, 772]]",
+                "farthest bed[[3, 548, 549, 775]]\n><answer>[[3, 548, 549, 775]]\n><image><answer>farthest bed[[0, 554, 551, 707]]\n><answer>farthest bed[[0, 554, 551, 707]]\n><image><answer>farthest bed[[3, 548, 549, 775]]\n><answer>farthest bed[[0, 565, 547, 775]]\n><image><answer>farthest bed[[0, 565, 547, 775]]\n[[11, 716, 463, 1000]]\n",
+                "farthest bed[[5, 553, 579, 774]]\n[[1, 547, 376, 730]]\nDNA[[0, 716, 457, 1000]]\nDNA\nDNA[[0, 559, 576, 773]]\n[[1, 422, 617, 625]]\nDNA[[0, 559, 578, 775]]\nDNA[[0, 717, 463, 1000]]\n[[1, 422, 617, 625]]\nDNA[[0, 559, 579, 773]]\nDNA",
+                "farthest bed[[2, 556, 536, 775]]\n<answer>farthest bed[[2, 556, 536, 775]]\n<answer>farthest bed[[2, 556, 536, 775]]\n<answer>woman[[268, 319, 363, 477]]\n[[711, 276, 827, 591]]\n[[0, 714, 443, 1000]]\n[[0, 552, 538, 774]]\n[[0, 425, 587, 601]]\n<answer>\n</answer>\n<answer>\n</answer>",
+                "farthest bed[[0, 557, 602, 772]]\n[[0, 557, 602, 772]]\n[[0, 557, 602, 772]]\nman[[703, 277, 827, 593]]\nman[[257, 316, 358, 469]]\nclothing[[257, 316, 358, 469]]\nlamp[[0, 501, 112, 557]]\nbed[[42, 430, 614, 628]]\nbed[[0, 557, 602, 772]]\nbed[[0, 557, 602"
+            ],
+            "iou_scores": [
+                0.17582242170151033,
+                0.18265490506751644,
+                0.1848647004080464,
+                0.1931321691452265,
+                0.1907582603118309,
+                0.18629755213897534,
+                0.16866053194072197,
+                0.18106984580449034
+            ],
+            "iou_var": 5.476457425584097e-05,
+            "mean_iou": 0.18290754831478978,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000369805.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bike closer than red</ref>",
+            "ground_truth": [
+                0,
+                570,
+                1000,
+                988
+            ],
+            "model_output": [
+                "bike closer than red[[37, 254, 1000, 960]]\n[[27, 522, 1000, 988]]\n[[129, 256, 997, 651]]\n[[122, 256, 1000, 981]]\n[[32, 768, 998, 987]]\n[[519, 243, 1000, 631]]\n[[572, 242, 631, 386]]\n[[399, 319, 633, 460]]\n*[[349, 299, 557, 466]]",
+                "bike closer than red[[29, 257, 1000, 978]]\n[[0, 525, 1000, 989]]\n[[0, 256, 1000, 984]]\nHere is the revised description for the bounding box: bike[[0, 256, 1000, 984]]\nThe given information: \"bike closer than red\" bike[[68, 254, 1000, 694]]\nThe given information: \"bike closer than red\" bike[[68, 254, 1000, 694]]\nThe given information: \"bike closer than red\" bike[[68, 254, 1000, 694]]\nThe given information: \"bike closer than red\" bike[[",
+                "bike closer than red[[29, 253, 1000, 978]]\n[[0, 763, 998, 988]]\nbike closer than red[[29, 253, 1000, 978]]\n[[0, 512, 998, 998]]\n[[0, 260, 1000, 842]]\n[[0, 260, 1000, 842]]\n[[29, 253, 1000, 978]]\n[[29, 253, 1000, 978]]\n[[29, 253, 1000, 978]]\n[[0, ",
+                "bike closer than red[[21, 254, 1000, 990]]\n[[0, 769, 1000, 1000]]\n[[0, 533, 1000, 984]]\n[[122, 259, 757, 649]]\n[[740, 230, 1000, 552]]\n[[922, 264, 1000, 551]]\n[[397, 275, 741, 542]]\n[[512, 272, 601, 404]]\n*[[247, 272, 525, 494]]\n",
+                "bike closer than red[[33, 254, 1000, 987]]\n[[37, 255, 1000, 983]]\n[[3, 537, 998, 989]]\n[[386, 285, 998, 564]]\nHere is the bold text that appears on the image:\n[[187, 252, 377, 376]]\nThe above rectangle is too small to be determined correctly.\n[[387, 285, 998, 564]]\nThe above rectangle is too small to be determined correctly.\nThe above rectangle is too small to be determined correctly.\nThe above rectangle is too small to be determined correctly.\nThe above rectangle is too small to be determined correctly.\nThe above",
+                "bike closer than red[[0, 251, 1000, 999]]\n",
+                "bike closer than red[[30, 260, 1000, 953]]\n[[1, 771, 1000, 1000]]\nThe rest of the text in the image: \n- \"JE\"\n- \"P\"\n- \"FREE\"\n- \"EVERY\"\n[[51, 258, 1000, 985]]\nbike[[1, 260, 1000, 998]]\nbike[[30, 260, 1000, 953]]\n[[25, 254, 999, 696]]\nbike[[30, 260, 1000, 953]]\nperson",
+                "bike closer than red[[27, 265, 998, 983]]\n[[55, 260, 1000, 900]]\n[[55, 260, 1000, 900]]\n[[0, 764, 1000, 1000]]\n[[0, 256, 1000, 846]]\n[[165, 259, 829, 530]]\n[[63, 531, 1000, 924]]\n[[869, 261, 1000, 548]]"
+            ],
+            "iou_scores": [
+                0.519958244959214,
+                0.5487676663577694,
+                0.5458310542609812,
+                0.5610992126934331,
+                0.5572893920715561,
+                0.5588235294117647,
+                0.516919437873939,
+                0.5615349608978443
+            ],
+            "iou_var": 0.0002865171424586595,
+            "mean_iou": 0.5462779373158128,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000022890.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bed by window</ref>",
+            "ground_truth": [
+                211,
+                471,
+                705,
+                745
+            ],
+            "model_output": [
+                "bed by window[[235, 484, 754, 772]]\n<answer>\nbed by window[[16, 648, 544, 975]]\n<answer>\nbed by window[[167, 474, 714, 664]]\n<issue>\n</issue>\n*There is a chair near the bed on the right.*\nchair[[735, 693, 876, 1000]]\n<issue>\n</issue>\n*There are two lamps on each side of the bed.*\ntwo lamps[[129, 466, 192, 544]]\n</issue>\n*There is a ceiling fan in the room.*\nceiling fan[[148, 0, 603, 64]]",
+                "bed by window[[236, 490, 758, 764]]\n<answer> <text>answer</text> \n bed by window[[236, 490, 758, 764]]\n</answer>\n<answer> <text>answer</text> \n bed by window[[16, 651, 531, 976]]\n</answer>\n<answer> <text>answer</text> \n bed by window[[236, 490, 758, 764]]\n</answer>\n<answer> <text>answer</text> \n bed[[16, 651, 531, 976]]\n</answer>\n<answer> <text>answer</text> \n bed[[236, 490, 758, 764]]",
+                "bed by window[[231, 482, 760, 769]]\n[[27, 645, 535, 998]]\nDB\n[[660, 695, 864, 998]]\n[[27, 645, 535, 998]]\n[[27, 645, 535, 998]]\n[[231, 482, 760, 769]]\nDB[[231, 482, 760, 769]]\n[[660, 695, 864, 998]]\n[[27, 645, 535, ",
+                "bed by window[[226, 493, 756, 769]]\n[[16, 481, 546, 978]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1abed[[14, 481, 546, 978]]\n[[14, 481, 546, 978]]\n256, 478, 302, 573\n[[14, 481, 546, 978]]\n415, 233, 830, 577\n16, 478, 214, 746\n<answer>\n[[14, 481, 546, 978]]\n328, 234, 484, 579\n",
+                "bed by window[[246, 488, 760, 773]]\n[[34, 471, 532, 989]]\n[[35, 649, 535, 989]]\n[[246, 488, 760, 773]]\n[[34, 471, 532, 989]]\n[[35, 649, 535, 989]]\n[[246, 488, 760, 773]]\n[[34, 471, 532, 989]]\n[[35, 649, 535, 989]]\n[[246, 488, 760, 773]]",
+                "bed by window[[238, 493, 753, 775]]\n[[3, 475, 564, 978]]\n[[3, 649, 547, 989]]\n${{238, 493, 753, 775}}\n${{3, 475, 564, 978}}\n${{238, 493, 753, 775}}\n[[3, 649, 547, 989]]\n${{3, 475, 564, 978}}\n${{238, 493, 753, 775}}\n[[3, 649, 547, 989]]\n",
+                "bed by window[[234, 483, 757, 769]]\n[[18, 644, 540, 987]]\n[[18, 468, 509, 745]]\n${\\bf213, 235, 831, 584}}\n[[18, 468, 509, 745]]\n${\\bf584, 236, 832, 580}}\n[[688, 694, 884, 998]]\n[[234, 483, 757, 769]]\n[[18, 644, 540, 987]]\n${\\bf561, 771",
+                "bed by window[[213, 490, 765, 773]]\n[[3, 643, 526, 977]]\n[[216, 487, 759, 663]]\nThe rest of the sentence about the room was not described. Here is the corrected tag for the room:\n[[216, 487, 759, 663]]\n[[21, 472, 435, 742]]\nThe rest of the sentence about the room was not described. Here is the corrected tag for the bed:\n[[21, 472, 435, 742]]\nThe rest of the sentence about the room was not described. Here is the corrected tag for the chair:\n[[722, 691, 878, 99"
+            ],
+            "iou_scores": [
+                0.7564844164333552,
+                0.7531693001404379,
+                0.7670705218530984,
+                0.750074567508451,
+                0.7198001012917752,
+                0.7224220697106236,
+                0.7639477007651735,
+                0.7552735503756501
+            ],
+            "iou_var": 0.00027764306970928706,
+            "mean_iou": 0.7485302785098207,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000018370.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>the motorcycle on the left the largercloser one</ref>",
+            "ground_truth": [
+                171,
+                2,
+                729,
+                979
+            ],
+            "model_output": [
+                "the motorcycle on the left the largercloser one[[178, 142, 737, 984]]\n[[171, 154, 737, 989]]\nNS",
+                "the motorcycle on the left the largercloser one[[169, 157, 730, 989]]\n[[684, 97, 937, 601]]\n3345678[[749, 69, 944, 327]]\n34",
+                "the motorcycle on the left the largercloser one[[168, 155, 732, 990]]\nPK",
+                "the motorcycle on the left the largercloser one[[173, 153, 733, 987]]\nI'm sorry, but I can't provide the specific coordinates of the region you mentioned as it may not be within the scope of the image.\n; I need a description of the region that you think is important. the motorcycle[[173, 153, 733, 987]]\n;;;;;;;;;;;;;;;;;;;;;;[[173, 153, 733, 987]]\n; I'm sorry, but I can't provide the specific coordinates of the region you mentioned as it may not be within the",
+                "the motorcycle on the left the largercloser one[[177, 147, 732, 989]]\n[[664, 89, 935, 602]]\n</answer></div>\n[[177, 147, 732, 989]]\n</select>\n</answer></div>\n</select>\n</answer></div>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</select>\n</",
+                "the motorcycle on the left the largercloser one[[169, 162, 732, 987]]\n[[169, 162, 732, 987]]\n[[168, 160, 734, 982]]\n</answer></div>\n</body>\n\n</select>\n</body>\n\n</html>\n[[655, 90, 940, 605]]\n[[847, 204, 998, 356]]\n</select>\n[[655, 90, 940, 605]]\n</body>\n\n</html>\n[[37, 47, 274, 247]]",
+                "the motorcycle on the left the largercloser one[[175, 161, 736, 987]]\nthe motorcycle on the right[[647, 104, 935, 600]]\n</answer></div></m</answer tags>\n</answer tags>\n</div></answer tags>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle>\n</motorcycle",
+                "the motorcycle on the left the largercloser one[[175, 155, 730, 991]]\nthe motorcycle[[175, 155, 730, 991]]\nthe motorcycle[[646, 88, 931, 601]]\nHere is the bounding box coordinates of the region that this is located within: the motorcycle[[646, 88, 931, 601]]\nHere is the bounding box coordinates of the region that this is located within: the motorcycle[[175, 155, 730, 991]]\nHere is the bounding box coordinates of the region that this is located within: the motorcycle[[175, 155, 730, 991]]\nHere is"
+            ],
+            "iou_scores": [
+                0.8314814380779473,
+                0.8290693765115447,
+                0.8264972659325489,
+                0.8305561081472104,
+                0.8301772195830893,
+                0.8232629953679876,
+                0.8159674457128453,
+                0.8260128471908079
+            ],
+            "iou_var": 2.2863668988749872e-05,
+            "mean_iou": 0.8266280870654976,
+            "correct_count": 8
+        }
+    ]
+}

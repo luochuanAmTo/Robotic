@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 58,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000276417.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>center guy behind fence</ref>",
+            "ground_truth": [
+                452,
+                17,
+                607,
+                692
+            ],
+            "model_output": [
+                "center guy behind fence[[457, 11, 612, 698]]\n<answer>center guy behind fence[[457, 11, 612, 698]]\uff1b[[490, 226, 816, 953]]\n</answer><answer>bat[[776, 332, 928, 785]]\n</body><image>:\n</image>[[852, 576, 921, 800]]\n</body><image>:\n</image>[[625, 747, 929, 820]]\n</image>[[522, 751, 957, ",
+                "center guy behind fence[[457, 2, 606, 699]]\n another tag: center guy[[457, 2, 606, 699]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135, 336, 220, 683]]\n another tag: tag[[135",
+                "center guy behind fence[[462, 10, 613, 700]]\nAnother detail of the description: guy[[479, 234, 835, 957]]\nAnother detail of the description: guy[[479, 234, 835, 957]] holding a bat with both hands <br>output the final answer [714, 327, 927, 791]] tags\nAnother detail of the description: guy[[479, 234, 835, 957]] holding a bat with both hands <br>output the final answer [714, 327, 927, 791]] tags",
+                "center guy behind fence[[456, 11, 609, 701]]\n materia\n[[480, 231, 828, 955]]\n[[322, 492, 352, 757]]\n[[626, 756, 936, 823]]\n[[699, 770, 915, 826]]\n[[2, 580, 67, 751]]\n[[15, 481, 48, 755]]\n[[85, 578, 18",
+                "center guy behind fence[[460, 11, 617, 695]]\n<answer>center guy[[478, 226, 826, 957]]\nAnother person wearing a helmet and a shirt with a logo, standing behind the fence.\nanother person[[146, 337, 223, 686]]\nclothing[[146, 337, 223, 686]]\nclothing[[460, 11, 617, 695]]\nbaseball bat[[803, 330, 924, 782]]\nbaseball bat[[851, 579, 923, 798]]\nbat[[613, 751, 896, 813]]\nperson[[4",
+                "center guy behind fence[[456, 0, 604, 689]]\n<answer>center guy behind fence[[456, 0, 604, 689]]</body>\n<image>\n<answer>\n<image>\n[[492, 233, 826, 952]]\n</image>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "center guy behind fence[[457, 11, 608, 700]]\nImages: \ncenter guy behind fence[[457, 11, 608, 700]]\nImages: \ncenter guy behind fence[[457, 11, 608, 700]]\nImages: \ncenter guy behind fence[[457, 11, 608, 700]]\nImages: \ncenter guy behind fence[[457, 11, 608, 700]]\nImages: \ncenter guy behind fence[[457, 11, 608, 700]][[485, 236, 826, 954]]\nImages: \ncenter guy behind fence[[457, 11, 608, ",
+                "center guy behind fence[[457, 13, 605, 701]]\n<answer>center guy behind fence[[457, 13, 605, 701]]\n<answer>boy[[476, 236, 819, 948]]\n<answer>boy[[476, 236, 819, 948]]\n<answer>bat[[767, 335, 926, 822]]\n<answer>bat[[705, 421, 847, 937]]\n[[866, 579, 930, 801]]\n[[159, 581, 206, 762]]\n[[0, "
+            ],
+            "iou_scores": [
+                0.9216275259421082,
+                0.9320871523497957,
+                0.8822336398053001,
+                0.9413965087281796,
+                0.8797478455154804,
+                0.9282720900495609,
+                0.9426145567616884,
+                0.9375967864550583
+            ],
+            "iou_var": 0.0005673373133773399,
+            "mean_iou": 0.9206970132008965,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000405520.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left lady</ref>",
+            "ground_truth": [
+                43,
+                125,
+                734,
+                986
+            ],
+            "model_output": [
+                "left lady[[48, 130, 568, 998]]\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n again in the same coordinates\n[[412, 25, 737, 989]]\n again in the same coordinates again in the same coordinates again in the same coordinates again in the same coordinates again in the same coordinates again in the same coordinates again in the same coordinates",
+                "left lady[[49, 130, 730, 989]]\n<answer><sep>left lady[[442, 29, 746, 989]]\n<answer>cupcake[[494, 658, 972, 1000]]\n<answer>cupcake[[219, 543, 467, 804]]\n<answer>cake[[219, 543, 467, 804]]\n<pre>and I[[442, 29, 746, 989]]\n[[196, 499, 457, 789]]\n[[494, 658, 972, 1000]]\n</pre>",
+                "left lady[[49, 129, 738, 1000]]\nDNA[[425, 24, 751, 989]]\n[[47, 130, 534, 1000]]\n[[509, 656, 984, 989]]\n[[30, 0, 362, 197]]\n[[0, 763, 103, 998]]\n[[426, 365, 751, 988]]\n[[509, 656, 984",
+                "left lady[[49, 130, 732, 989]]\n<answer><meghan></meghan></meghan>\n[[424, 25, 735, 986]]\n<answer><meghan></meghan></meghan>\n[[223, 539, 465, 837]]\n[[374, 366, 687, 1000]]\n<answer><meghan></meghan></meghan>\n[[284, 639, 855, 989]]\n<answer><meghan></meghan></meghan>\n[[834, 493, 853, 563]]\n<answer><meghan></meghan></meghan>\n",
+                "left lady[[48, 130, 729, 999]]\n<answer>\nhere is the bounding box coordinate of the region describing the cake: \ncake[[213, 541, 472, 829]]\n<answer>\nhere is the bounding box coordinate of the region describing the woman on the right: \nwoman[[422, 22, 747, 987]]\n<answer>\nhere is the bounding box coordinate of the region describing the tray of cupcakes: \ntray[[497, 654, 981, 984]]\n<answer>\nhere is the bounding box coordinate of the region describing the woman on the left: \nwoman[[48, 130, 729, 999]]\n<answer>\nhere is the bounding box coordinate of the region describing the woman on the right: \nwoman[[422, 2",
+                "left lady[[46, 130, 441, 989]]\n<answer>\nleft lady[[444, 27, 734, 990]]\n</answer>\nuser\nwhat is the chef's hat? a white chef hat with a paper cone on top.\nchef's hat[[444, 27, 734, 990]]\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</skillai>:\n</",
+                "left lady[[47, 133, 740, 989]]\n<answer><mesa>left lady[[47, 133, 740, 989]]\n<answer><list><polyline><mi>left lady</mi><mesa>clothing</mesa>:[[388, 26, 737, 1000]]</polyline></list>\n<answer><list><polyline><mi>cake</mi><mesa>cake</mesa>:[[215, 537, 473, 820]]</polyline></list>\n</answer>",
+                "left lady[[54, 130, 453, 1000]]\n><answer>[x1,y1,x2,y2]</answer>[[435, 26, 744, 987]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>&#x1176;802&#x1176;&#x291c</code></statement>\n><image</code></statement>\n<comment>the image shows:</p>\n<details>\n<summary>Smiling women</summary>\n<details>\n<summary>One woman in a floral dress</summary>\n<details>\n<summary>One woman wearing a chef's hat</summary>\n<details>\n<summary>Cake on a plate</summary>\n<details>\n<summary>Box of cupcakes</summary>\n</caption></details>\n"
+            ],
+            "iou_scores": [
+                0.7403969786640185,
+                0.9764520246434637,
+                0.9654948398503351,
+                0.9793098827470686,
+                0.9654391160045313,
+                0.39980401293130363,
+                0.9732009406325355,
+                0.0
+            ],
+            "iou_var": 0.11647046082238573,
+            "mean_iou": 0.750012224434157,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000351654.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>batter 2ns up on left</ref>",
+            "ground_truth": [
+                0,
+                505,
+                477,
+                844
+            ],
+            "model_output": [
+                "batter 2ns up on left[[0, 508, 472, 841]]\nImages [2, 0, 998, 987]\nImages [3, 0, 998, 987]]\n[[525, 499, 982, 842]]\nImages [484, 209, 658, 475]\nImages [654, 2, 998, 256]]\nImages [44, 3, 394, 208]\nImages [318, 1, 664, 265]]\nImages [596, 506, 979, 839]]\nImages [40, 898, 422, 980]",
+                "batter 2ns up on left[[3, 507, 467, 836]]\n more like this: <answer>[x1,y1,x2,y2]</answer>\n more like this: <answer>[x1,y1,x2,y2]</answer>\n more like this: <answer>[x1,y1,x2,y2]</answer>\n more like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\n more like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this: <answer>[x1,y1,x2,y2]</answer>\nmore like this:",
+                "batter 2ns up on left[[2, 507, 474, 838]]\n<answer>batter 2ns up on left[[2, 507, 474, 838]]\n<answer>cake aux Lardons[[2, 497, 475, 839]][[518, 510, 982, 840]]\n</answer><image>\ncake aux Lardons[[2, 497, 475, 839]]\n<answer>cake aux Lardons[[2, 497, 475, 839]]\n<answer>batter 2ns up on left[[2, 507, 474, 838]]\n</answer><answer>batter 2ns up on",
+                "batter 2ns up on left[[0, 509, 493, 840]]\n<answer>batter 2ns up on left[[0, 509, 493, 840]]\n<answer>batter 2ns up on left[[0, 509, 493, 840]]\n<answer>cake aux Lardons[[502, 511, 982, 842]]\naplha-3d\n<answer>cake aux Lardons[[11, 508, 492, 837]]\n<answer>batter 2ns up on left[[0, 509, 493, 840]]\n[[12, 511, 493, 841]]\n<",
+                "batter 2ns up on left[[1, 504, 473, 843]]\n<answer>batter 2ns up on left[[1, 504, 473, 843]]\n<answer>cake aux Lardons[[523, 509, 982, 836]]\n</code></div>\n</div></p>\ncake aux Lardons[[0, 497, 467, 792]]\n</code></div></p>\nchopped tomato[[39, 45, 394, 206]]\n</code></div></p>\nchopped tomato[[39, 45, 394, 206]]\nchopped tomato[[39, 45, 394, 206]]\nchopped tomato[[39, 45",
+                "batter 2ns up on left[[2, 507, 475, 839]]\n-X1000; X1010; Y100; Y1010\n-X1000; X1010; Y1010; Y1010\n-X1000; X1010; Y1011; Y1011\n-X1000; X1010; Y1012; Y1012\n-X1000; X1010; Y1013; Y1013\n-X1000; X1010; Y1014; Y1014\n-X1000; X1010; Y1015; Y1015\n-X1000; X1010; Y1016; Y1016\n-X1000; X1010; Y1017; Y1017",
+                "batter 2ns up on left[[18, 507, 472, 839]]\n<answer>batter 2ns up on left[[18, 507, 472, 839]]\n<answer>cake aux Lardons[[516, 510, 984, 840]]\n</answer>\n<answer>cake aux Lardons[[0, 504, 482, 840]]\n</answer>\n<answer>batter 2ns up on left[[0, 504, 482, 840]]\n</answer>\n<answer>batter 2ns up on left[[0, 504, 482, 840]]\n</answer>\n<answer>batter 2ns up on left",
+                "batter 2ns up on left[[1, 505, 472, 841]]\n<answer>batter 2ns up on left[[1, 505, 472, 841]]\n<answer>batter 2ns up on left[[1, 505, 472, 841]]\n<answer>Cake aux Lardons[[525, 507, 976, 841]]\n</answer>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</"
+            ],
+            "iou_scores": [
+                0.9720042299771804,
+                0.0,
+                0.9661663667340742,
+                0.9454367990227487,
+                0.9837274549098196,
+                0.9711384451741774,
+                0.9321286556217262,
+                0.9786831413146324
+            ],
+            "iou_var": 0.10194104516272759,
+            "mean_iou": 0.8436606365942949,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000550760.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>kid</ref>",
+            "ground_truth": [
+                348,
+                186,
+                768,
+                946
+            ],
+            "model_output": [
+                "kid[[322, 193, 775, 947]]\n[[815, 193, 999, 881]]\nNC\n[[284, 304, 404, 503]]\n[[0, 141, 879, 984]]\n[[815, 193, 1000, 880]]\n[[347, 454, 506, 816]]\n[[322, 193, 775, 947]]\n[[0, 142, 877, 1000]]\n[[283, 301, 401, 502]]",
+                "kid[[327, 195, 771, 955]]\n[[826, 187, 1000, 883]]\n\u65b0\u6d6a\u6f6e\u6587\u5b57\uff1akid[[327, 195, 771, 955]]\n[[2, 140, 872, 989]]\n[[849, 383, 952, 771]]\n[[223, 304, 375, 512]]\n[[328, 456, 574, 953]]\n[[359, 187, 778, 949]]\n[[0, 144, 881, 1000]]\n",
+                "kid[[323, 193, 777, 946]]\nDRAMA\nwoman[[816, 188, 999, 881]]\nwoman[[816, 188, 999, 881]]\nchild[[323, 193, 777, 946]]\nadult[[0, 139, 883, 989]]\nman[[181, 307, 404, 709]]\nshirt[[0, 142, 883, 989]]\nbracelet[[674, 602, 733, 705]]\nfootwear[[872, 544, 1000, 879]]",
+                "kid[[324, 187, 780, 950]]\n[[821, 191, 1000, 884]]\n[[0, 140, 878, 989]]\n[[212, 304, 364, 601]]\n[[364, 460, 577, 945]]\n[[357, 194, 790, 731]]\n[[357, 194, 790, 731]]\n[[813, 397, 952, 757]]\n[[923, 401, 1000, 878]]\n",
+                "kid[[323, 195, 782, 961]]\n[[827, 190, 998, 883]]\n[[0, 141, 878, 1000]]\n${\\rm bounding box coordinates of the person in the background}$\n[[220, 301, 379, 547]]\n[[340, 457, 512, 643]]\n[[868, 400, 998, 768]]\n[[340, 458, 511, 645]]\n[[0, 140, 872, 1000]]\n[[322, ",
+                "kid[[324, 192, 774, 956]]\n[[823, 188, 1000, 883]]\nNIKE\n[[0, 141, 876, 989]]\n[[324, 192, 774, 956]]\n[[823, 188, 1000, 883]]\n[[229, 301, 395, 535]]\n[[337, 454, 528, 644]]\n[[857, 391, 996, 768]]\n[[2, 142, 877, 989]]",
+                "kid[[323, 192, 776, 946]]\n[[0, 144, 873, 987]]\n\u5bc2\u7136\u7684\u623f\u95f4\u4e2d\u7684\u5973\u4eba\u5750\u5728\u53f3\u8fb9\u3002\n\u5bc2\u7136\u7684\u623f\u95f4\u4e2d\u7684\u7537\u4eba\u5750\u5728\u4e2d\u95f4\u3002\n\u5bc2\u7136\u7684\u623f\u95f4\u4e2d\u7684\u7537\u4eba\u5728\u5de6\u8fb9\u3002\n\u5bc2\u7136\u7684\u623f\u95f4\u4e2d\u7684\u5973\u4eba\u5750\u5728\u5de6\u8fb9\u3002\n[[812, 188, 998, 884]]\n[[312, 301, 444, 505]]\n[[2, 303, 845, 1000]]\n[[339, 458, 501, 637]]\n[[2, 141, 878, 989]]\n",
+                "kid[[326, 187, 774, 948]]\n[[819, 188, 1000, 882]]\n[[0, 143, 880, 1000]]\n[[214, 302, 403, 783]]\n[[337, 452, 443, 944]]\n[[337, 452, 443, 944]]\n[[0, 143, 880, 1000]]\n[[819, 188, 1000, 882]]\n[[337, 452, 443, 944]]\n[[214, 30"
+            ],
+            "iou_scores": [
+                0.9180207952348608,
+                0.9243889572709689,
+                0.9172220578766944,
+                0.9151193633952255,
+                0.8875719664353611,
+                0.9144144144144144,
+                0.9203620067309537,
+                0.9338856533508326
+            ],
+            "iou_var": 0.00015315051223874275,
+            "mean_iou": 0.916373151838664,
+            "correct_count": 8
+        }
+    ]
+}

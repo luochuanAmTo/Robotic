@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 66,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000226348.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>cut out</ref>",
+            "ground_truth": [
+                1,
+                439,
+                183,
+                987
+            ],
+            "model_output": [
+                "cut out[[0, 440, 162, 987]]\n<answer>\nHere is the relevant tag from the image:woman[[92, 87, 497, 875]]\n\nSo, the bounding box coordinates for the region that describes the woman are:\nwoman[[92, 87, 497, 875]]\n<answer>\nHere is the relevant tag from the image:woman[[476, 0, 1000, 977]]\n\nSo, the bounding box coordinates for the region that describes the woman are:\nwoman[[476, 0, 1000, 977]]\n<answer>\nHere is the relevant tag from the image:bottle[[580, 327, 705, 987]]\n\nSo, the bounding box coordinates for the region that describes the bottle are:\nbottle[[580, 32",
+                "cut out[[0, 446, 175, 985]]\n[[0, 446, 175, 985]]\n[[94, 88, 500, 875]]\n=> [486, 1, 998, 988]]\n[[102, 715, 280, 1000]]\n=> [388, 679, 532, 1000]]\n=> [546, 723, 667, 999]]\n=> [667, 756, 865, 1000]]\n=> [290, 847, 433, 1000]][[669, 480,",
+                "cut out[[0, 444, 186, 988]]\n[[0, 450, 165, 987]]\n\u52ab <answer>[z,x=13,999,y=1053]</z>x</assistant: <boxed>[86, 784, 257, 989]</box>`",
+                "cut out[[0, 445, 188, 1000]]\n[[85, 83, 487, 884]]\nwoman[[479, 4, 1000, 982]]\nwoman[[75, 90, 485, 885]]\nglasses[[479, 4, 1000, 986]]\nmoney[[679, 483, 971, 990]]\nwine glass[[103, 785, 257, 1000]]\nwine[[430, 679, 551, 1000]]\nbottle[[585, 326, 705,",
+                "cut out[[0, 447, 188, 1000]]\nDRINK Bottle[[577, 329, 706, 989]]\nDRINK Glass[[69, 784, 255, 991]]\nDRINK Wine[[619, 724, 697, 1000]]\nWINE Lady[[89, 90, 498, 875]]\nWINE Glass[[425, 678, 562, 989]]\nWINE Bottle[[577, 327, 708, 989]]\n",
+                "cut out[[3, 446, 185, 987]]\nPK[[95, 83, 491, 881]]\nPK[[481, 2, 1000, 988]]\nPK[[186, 81, 521, 885]]\n301[[76, 780, 246, 1000]]\nPK[[553, 324, 697, 999]]\nPK[[556, 723, 679, 998]]\nPK[[623, 760, 8",
+                "cut out[[0, 447, 177, 989]]\n[[82, 88, 515, 877]]\nWikimedia: cut out[[827, 497, 1000, 1000]]\nWikimedia: cut out[[827, 497, 1000, 1000]]\nWikimedia: cut out[[82, 88, 515, 877]]\n[[526, 324, 697, 1000]]\n[[643, 721, 725, 998]]\nWikimedia: cut out[[688, 755, 870, 987]]\n[[4",
+                "cut out[[0, 452, 171, 1000]]\n<answer>\nhere you can see the woman in the middle?\nwoman in the middle[[87, 94, 496, 877]]\nwoman[[477, 2, 1000, 989]]\n<answer>\nwhere is the money in the bucket?\nmoney[[679, 761, 877, 987]]\n<answer>\nwhere is the cash in the bucket?\ncash[[679, 761, 877, 987]]\n<answer>\nwhere is the woman holding the shot glass?\nwoman holding the shot glass[[87, 94, 491, 877]]\n<answer>\nwhat's in the bucket?\nin the bucket[[717,"
+            ],
+            "iou_scores": [
+                0.8781847371937417,
+                0.9352879581151833,
+                0.9679902834642584,
+                0.9356172698990819,
+                0.9322709163346613,
+                0.9658989466166756,
+                0.9444499652191195,
+                0.8873690167229301
+            ],
+            "iou_var": 0.000937680808529116,
+            "mean_iou": 0.9308836366957065,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000081317.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>a car sitting at an intersection</ref>",
+            "ground_truth": [
+                429,
+                782,
+                656,
+                983
+            ],
+            "model_output": [
+                "a car sitting at an intersection[[432, 772, 653, 989]]\n\n\n```markdown\n1.rectangle coordinate: [152, 486, 173, 554]\n2.rectangle coordinate: [171, 489, 195, 552]\n3.rectangle coordinate: [198, 488, 220, 554]\n4.rectangle coordinate: [228, 490, 248, 553]\n5.rectangle coordinate: [266, 544, 284, 615]\n6.rectangle coordinate: [297, 548, 316, 612]\n7.rectangle coordinate: [326, 547, 344, 611]\n8.rectangle coordinate: [353, 545, 370, 611]\n9.rectangle coordinate: [375, 546, 395, 611]\n10",
+                "a car sitting at an intersection[[431, 770, 652, 985]]\n\n\n<answer>a car[[431, 770, 652, 985]]\nI <pred>am</pred>[[431, 770, 652, 985]][[0, 631, 999, 999]]\n<object>a car[[431, 770, 652, 985]]\n<answer>a car[[0, 760, 73, 809]]\n[[757, 705, 1000, 989]]\n<answer>a car[[431, 770, 652, 985]]\n[[431, 770",
+                "a car sitting at an intersection[[427, 773, 651, 997]]\n[[427, 773, 651, 997]]\n[[444, 771, 642, 997]]\na car[[427, 773, 651, 997]]\n[[745, 711, 1000, 997]]\ntraffic light[[100, 407, 127, 502], [190, 486, 209, 558], [274, 488, 294, 611], [398, 563, 408, 663], [412, 609, 426, 678], [50",
+                "a car sitting at an intersection[[437, 773, 651, 1000]]\na car[[437, 773, 651, 1000]]\n[[762, 712, 1000, 986]]\n[[427, 775, 651, 1000]]\na car[[427, 775, 651, 1000]]\n[[0, 758, 60, 808]]\ntraffic light[[124, 491, 153, 559], [185, 487, 206, 557], [162, 487, 183, 553], [250, ",
+                "a car sitting at an intersection[[429, 769, 654, 989]]\n[[760, 708, 999, 988]]\n</answer></div></div>\n</body></select>\n</option>\n</s>\n</header>\n</footer>\n</main>\n</article>\n</body</form>\n</river>\n</sheet>\n</head>\n</head>\n</head>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>",
+                "a car sitting at an intersection[[435, 771, 656, 985]]\n[[752, 708, 999, 987]]\n</script>\n<issue>\n</issue>\nSecond image: \na car[[435, 771, 656, 985]]\n<issue> a car[[435, 771, 656, 985]]\n<issue> a car[[752, 708, 999, 987]]\n<issue> a car[[435, 771, 656, 985]]\n<issue> a car[[3, 760, 76, 810]]\n<issue> a car[[173, 771,",
+                "a car sitting at an intersection[[428, 772, 651, 989]]\n[[757, 711, 999, 987]]\nThus, the coordinates of the region with the text \"KC 7796\" are <answer>[x1,y1],[x2,y3]</answer>\na car sitting at an intersection[[428, 772, 651, 989]]\nThus, the coordinates of the region with the text \"KC 7796\" are <answer>[x1,y1],[x2,y3]</answer>\na car[[449, 772, 650, 988]]\nThus, the coordinates of the region with the text \"KC 7796\" are <answer>[x1,y1],[x2,y3]</answer>\na car[[4",
+                "a car sitting at an intersection[[432, 774, 654, 986]]\n[[433, 774, 654, 990]]\nPlease specify the coordinates of the word 'sky' in the image.\niological tag: The word 'sky' in the image.\nThe word 'sky'[[43, 0, 1000, 756]]\n[[433, 774, 654, 990]]\na car sitting at an intersection[[432, 774, 654, 990]]\na car[[749, 705, 1000, 1000]]\n[[432, 774, 654, 990]]\n"
+            ],
+            "iou_scores": [
+                0.903545349144682,
+                0.9117423698199955,
+                0.8718469744631797,
+                0.8402648903127503,
+                0.90627630155104,
+                0.9158969072164949,
+                0.0,
+                0.928290582287961
+            ],
+            "iou_var": 0.08866397439367114,
+            "mean_iou": 0.7847329218495129,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000153827.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>guy right</ref>",
+            "ground_truth": [
+                281,
+                211,
+                983,
+                988
+            ],
+            "model_output": [
+                "guy right[[341, 216, 977, 989]]\n[[188, 260, 429, 989]]\n[[188, 260, 429, 989]]\n[[341, 216, 977, 989]]\n[[188, 260, 429, 989]]\n[[341, 216, 977, 989]]\n[[188, 260, 429, 989]]\n[[537, 144, 1000, 497]]\n[[178, 259, 199, 344]]",
+                "guy right[[362, 211, 979, 989]]\n[[188, 219, 387, 998]]\n[[188, 219, 387, 998]]\n[[361, 215, 976, 989]]\n[[187, 204, 388, 524]]\n[[361, 215, 976, 989]]\n[[187, 204, 388, 524]]\n[[361, 215, 976, 989]]\n[[187, 204, 388, 524]]\n[[361, ",
+                "guy right[[360, 211, 976, 987]]\n[[195, 218, 444, 998]]\n[[196, 216, 447, 998]]\n[[361, 208, 984, 988]]\n[[361, 211, 976, 987]]\n[[195, 218, 444, 998]]\n[[196, 216, 447, 998]]\n[[361, 208, 976, 987]]\n[[195, 218, 444, 998]]\n[[",
+                "guy right[[261, 209, 979, 1000]]\n[[207, 234, 562, 987]]\n[[207, 234, 562, 987]]\n[[261, 209, 979, 1000]]\n[[207, 234, 562, 987]]\n[[522, 153, 548, 293]]\n[[569, 153, 600, 294]]\n*\n[[616, 141, 752, 492]]\n[[750, 145, 998, 502]]\n",
+                "guy right[[376, 211, 979, 989]]\n[[195, 227, 462, 995]]\n[[195, 227, 462, 995]]\n[[376, 211, 979, 989]]\n[[195, 227, 462, 995]]\n[[377, 217, 976, 989]]\n[[567, 138, 999, 501]]\n[[637, 127, 996, 503]]\n[[567, 127, 999, 501]]\n[[637,",
+                "guy right[[343, 209, 979, 990]]\n[[190, 213, 455, 998]]\n[[190, 213, 455, 998]]\n[[343, 212, 979, 996]]\n[[190, 213, 455, 998]]\n[[343, 209, 979, 996]]\n[[190, 213, 455, 998]]\n[[343, 209, 979, 996]]\n[[190, 213, 455, 998]]\n[[343, ",
+                "guy right[[361, 209, 979, 1000]]\n[[188, 242, 411, 989]]\n${{190, 239, 234, 524}}\n${{414, 162, 445, 274]}\nuser\nCan you describe the person on the right in detail?  \nDetails: clothing[[188, 242, 411, 989]]\nclothing[[188, 242, 411, 989]]\n[[361, 209, 979, 1000]]\n[[188, 242, 411, 989]]\n[[41",
+                "guy right[[336, 206, 979, 1000]]\n[[205, 276, 374, 944]]\nguy right[[205, 276, 374, 944]]\n[[336, 206, 979, 1000]]\n[[168, 268, 356, 941]]\n[[168, 268, 356, 941]]"
+            ],
+            "iou_scores": [
+                0.8991045432071637,
+                0.8779242992211636,
+                0.8763635430302097,
+                0.9497413518350536,
+                0.8580258104923112,
+                0.9017770137847219,
+                0.8665959220798909,
+                0.8979591469935386
+            ],
+            "iou_var": 0.0007186034375475951,
+            "mean_iou": 0.8909364538305066,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000390963.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>person left</ref>",
+            "ground_truth": [
+                0,
+                192,
+                199,
+                1000
+            ],
+            "model_output": [
+                "person left[[0, 187, 195, 998]]\n><answer>\nuser\nWhat is the giraffe reaching for? the person or the man?\ngiraffe[[415, 236, 688, 929]]\n</answer>\n</body></div>\n</div>\n</body></div>\n</body></div>\n</body></div>\n</body></div>\n</body></div>\n</div>\n</div>\n</body></div>\n</div>",
+                "person left[[0, 184, 201, 989]]\n><answer>\n</body><image</p>\n</body>\n</html>\n\n<question>\nIs there any text on the person's shirt in the image?\n\n</question>\n\nAnswer with: <answer>Yes</answer>\n\n</body>\n\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html></body>\n[[221, 235, 521, 987]]\n</html>[[221, 235, 521, 987]][[0, 184, 201, 989]]\n[[644, 82, 999, 989",
+                "person left[[0, 186, 206, 990]]\n<answer>person left[[0, 186, 206, 990]]\n<answer>person[[653, 75, 999, 987]]\n</answer><answer>person[[218, 245, 521, 987]]\n</answer><answer>person[[657, 83, 999, 989]]\n</answer>[[6, 303, 166, 522]]\n</answer>[[171, 332, 213, 457]]\n</select><answer>person[[171, 3",
+                "person left[[0, 180, 203, 989]]\n><answer>\n[[221, 249, 489, 987]]\n><answer>[U, 229, 1000, 1000]]\n</select>\n><answer>\n</select>\n</select>\n<select>\n</select>\n</select>\n</select>",
+                "person left[[0, 182, 195, 985]]\n><answer>\n</body><solution>\n</body>\n</select></mark>\n</solution>\n</solution>\n</select></mark>\n</body>\n</select></mark>\n",
+                "person left[[0, 184, 200, 1000]]\n><answer>\nuserIs there a yellow tent in the image?\nyellow tent[[0, 0, 1000, 990]]\n><answer>Yes</answer>\nuserAre there any people standing behind the fence?\npeople[[634, 77, 1000, 989]]\n</answer>\n</body>\n\n</html>\n",
+                "person left[[0, 184, 201, 989]]\n<answer>person left[[0, 184, 201, 989]]\n<answer>person[[659, 84, 999, 989]]\n</answer><br><answer>person[[216, 249, 488, 989]]\n</answer>[[124, 324, 152, 445]]\n</answer>[[157, 355, 190, 453]]\n</answer>[[541, 385, 615, 466]]\n</answer>[[622, 80, 1000, 9",
+                "person left[[0, 178, 198, 989]]\n[[199, 243, 490, 989]]\n${\\text{Person in floral shirt and red hair}}[[199, 243, 490, 989]]\n${\\text{Person on the right}}[[639, 83, 1000, 987]]\n${\\text{Person on the left}}[[0, 179, 197, 984]]\n[[630, 80, 1000, 989]]\n[[12, 327, 84, 502]]\n${\\text{Person in white shirt and blue shorts}}[[606, 381, 703, 604]]\n"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.9474268259214624,
+                0.9530513892894914,
+                0.9501849553280652,
+                0.1600842750430952,
+                0.9671268461041258,
+                0.9647966545205546
+            ],
+            "iou_var": 0.1933525470337361,
+            "mean_iou": 0.6178338682758493,
+            "correct_count": 5
+        }
+    ]
+}

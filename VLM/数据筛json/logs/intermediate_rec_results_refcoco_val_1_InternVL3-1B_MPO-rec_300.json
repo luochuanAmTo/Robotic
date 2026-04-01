@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 1,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000157239.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right girl in pic</ref>",
+            "ground_truth": [
+                639,
+                60,
+                947,
+                952
+            ],
+            "model_output": [
+                "right girl in pic[[622, 61, 947, 954]]\n[[157, 67, 453, 957]]\n[[622, 61, 947, 954]]\n[[157, 67, 453, 957]]\n[[453, 60, 958, 954]]\n[[44, 177, 99, 401]][[44, 177, 99, 401]]\n[[502, 171, 965, 989]]\n[[502, 171, 965, 989]]\n",
+                "right girl in pic[[625, 63, 949, 954]]\n<answer>\nansson\n<answer>\n[[159, 65, 465, 957]]\n<answer>[[627, 62, 948, 955]]\n<answer>[[156, 63, 465, 957]]\n[[624, 62, 948, 955]]\n[[43, 16, 995, 976]]\n[[510, 140, 966, 987]]\n[[139, 14,",
+                "right girl in pic[[621, 64, 945, 955]]\n[[153, 66, 460, 955]]\n[[539, 60, 946, 946]]\n[[3, 15, 994, 985]]\n[[156, 366, 944, 952]]\n[[3, 15, 994, 985]]\n[[539, 60, 946, 946]]\n[[156, 366, 944, 952]]\n[[3, 15, 994, 985]]",
+                "right girl in pic[[626, 64, 945, 959]]\n[[153, 62, 465, 958]]\n[[567, 66, 945, 948]]\n[[215, 684, 462, 957]]\n[[524, 140, 958, 983]]\n[[42, 196, 384, 979]]\n[[524, 140, 958, 983]]\n[[151, 61, 465, 958]]\n[[215, 684, 462, 957]]\n",
+                "right girl in pic[[626, 64, 949, 957]]\n[[155, 61, 465, 956]]\nright girl in pic[[626, 64, 949, 957]][[155, 61, 465, 956]]\n[[183, 69, 459, 960]]\n[[553, 67, 950, 951]]\n[[553, 67, 950, 951]]\n[[183, 69, 459, 960]]\n[[553, 67, 950, 951]]",
+                "right girl in pic[[623, 63, 947, 955]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aright girl[[153, 65, 451, 954]]\n<question>What is the girl in the image wearing?<br> - A purple sleeveless top?<br> - A white skirt?<br> - A white cap?<br> - Black socks?<br> - White tennis shoes?<br> - A tennis racket?<br> - A tennis court?<br> - Chain-link fence?<br> - Yellow tennis ball?<br> - Green tennis ball?<br> - A net?<br> - Clear sky?<br> - Light skin?<br> - Dark hair?<br> - Black shoes?<br> - Blue shoes?</answer>\n<answer>\n</body>\n</html>\nright girl[[623, 63, 947, 955]]\n</body>\n</html>\n<question>What is the girl in the image doing?<br>",
+                "right girl in pic[[623, 66, 946, 955]]\n<answer>\n$I'm sorry, but I can't provide the bounding box coordinates for the region described in the sentence. However, I can describe the image for you. </i>\n<answer>\n  \n\nright girl in pic[[157, 61, 451, 958]]\n<answer>\n[[157, 61, 451, 958]]\n[[623, 66, 946, 955]]\n[[623, 66, 946, 955]]\n</answer>\n</li></div></tt></tr></dt></div></div></dt></tr></dt></tr></dt></tr></dt></tr></dt></tr></dt></",
+                "right girl in pic[[620, 60, 947, 955]]\n<answer>\nrightness</answer>\n<answer>right girl[[154, 65, 463, 955]]\n</answer></div>\n</div><answer>right girl[[154, 65, 463, 955]]\n</answer></div>\n</div><answer>right girl[[620, 60, 947, 955]]\n</answer></div>\n</div><image>\n</image></div>"
+            ],
+            "iou_scores": [
+                0.9445673985399249,
+                0.9454573078091766,
+                0.9315579446813762,
+                0.9418223788876064,
+                0.9441884068477687,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.20777986760467104,
+            "mean_iou": 0.5884491795957316,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000487602.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left kite</ref>",
+            "ground_truth": [
+                169,
+                395,
+                483,
+                961
+            ],
+            "model_output": [
+                "left kite[[165, 405, 505, 974]]\n[[652, 204, 934, 886]]\nA boy wearing an orange shirt and gray shorts is holding a kite in his left hand. The kite is adorned with colorful ribbons and has a blue, green, and orange kite tail.\nA boy wearing an orange shirt and gray shorts is holding a kite in his right hand. The kite is adorned with colorful ribbons and has a blue, green, and orange kite tail.\nA boy wearing a white shirt and black pants is holding a kite in his left hand. The kite is adorned with colorful ribbons and has a blue, green, and orange kite tail.\nA boy wearing a white shirt with a green design and black pants is holding a kite in his right hand. The kite is adorned with colorful ribbons and has a blue, green, and orange kite tail.\nA boy wearing an orange shirt and gray shorts is holding a kite in his right hand. The kite is adorned with colorful ribbons and has a blue, green,",
+                "left kite[[178, 410, 491, 966]]\n[[151, 280, 498, 976]]\nThe rest of the description: boy[[359, 101, 953, 892]]\nThe rest of the description: boy[[359, 101, 953, 892]]\nThe rest of the description: boy[[359, 101, 953, 892]]\nThe rest of the description: kite[[644, 202, 927, 887]]\nThe rest of the description: kite[[644, 202, 927, 887]]\nThe rest of the description: kite[[644, 202, 927",
+                "left kite[[157, 417, 516, 966]]\nAI[[660, 202, 929, 887]]\n[[203, 282, 479, 978]]\n[[455, 105, 942, 899]]\n[[4, 96, 86, 342]]\n[[0, 512, 230, 797]]\n[[771, 577, 878, 810]]",
+                "left kite[[171, 410, 487, 964]]\n[[657, 204, 938, 885]]\nIf the sentence was \"How tall is the boy in the image?\" then what is the answer?\nHow tall is the boy in the image?[[345, 101, 953, 892]]\nIf the sentence was \"How many objects are in the image?\" then there are 6 objects.\nIf the sentence was \"How many books are on the shelf?\" then there are 26 books.\nboy[[345, 101, 953, 892]]\nIf the sentence was \"Where is the boy on the left?\" then the answer is <location>[395, 272, 492, 967]</location>\nIf the sentence was \"What is the boy wearing?\" then the answer is <description>white",
+                "left kite[[167, 404, 482, 965]]\n[[655, 206, 942, 888]]\nAnother boy holding a kite\n[[341, 106, 945, 897]]\n[[0, 106, 87, 342]]\n[[216, 283, 502, 979]]\n[[502, 331, 559, 434]]\n[[396, 346, 437, 386]]\n[[327, 859, 518, 952]]\n[[50, 299, 364,",
+                "left kite[[171, 405, 505, 966]]\nKnow the name of the kite?\n\nI'll describe the kite first.\nI'll describe the kite.\n\nHow many colors are the ribbons in the second kite?\n\nAlright, let's count the colors of the ribbons in the second kite.\n\nHow many ribbons are there in the second kite?\n\nI'm sorry, but I can't provide the number of ribbons in the second kite. However, I can describe the colors.\n\nHow many children are in the image?\n\nHow many children are in the image?\n\nHow many people are in the image?\n\nWhat do the objects in the image that are not related to the boy?\n\nobjects[[457, 105, 946, 898]]\nI'm sorry, but I can't provide the coordinates of the objects in the image. However, I can describe the objects.\n\nHow many children are",
+                "left kite[[171, 400, 510, 968]]\nAI[[650, 205, 932, 887]][[240, 282, 512, 984]]",
+                "left kite[[176, 401, 516, 964]]\n[[660, 203, 934, 888]]\nHere is the location of the top right boy and the kite: \n<img src=\"https://www.shutterstock.com/shutterstock-image/2191689845/boy-bonfire-kite-1800px\" width=\"1\" height=\"1\">\n\nAnd the top left boy: \n<img src=\"https://www.shutterstock.com/shutterstock-image/2191689845/boy-bonfire-kite-1800px\" width=\"1\" height=\"1\">\n\nThe bounding box coordinates for the region described as \"this sentence\" are:\n[[382, 102, 949, 892]]\n[[382, 102, 949, 892]]\n"
+            ],
+            "iou_scores": [
+                0.8880162767039674,
+                0.9148489088009059,
+                0.8373374379286173,
+                0.9504411862270284,
+                0.9680340703394819,
+                0.9052633776209909,
+                0.8964782528528406,
+                0.8716991846834057
+            ],
+            "iou_var": 0.001521966883639865,
+            "mean_iou": 0.9040148368946548,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000124030.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>loest</ref>",
+            "ground_truth": [
+                27,
+                378,
+                1000,
+                983
+            ],
+            "model_output": [
+                "loest[[28, 393, 1000, 956]]\n[[319, 99, 1000, 563]]\n \u2022\n \u2022person[[0, 746, 126, 1000]]\n \u2022[[3, 745, 121, 1000]]\n \u2022[[0, 743, 119, 1000]]\n \u2022[[159, 438, 998, 762]]\n \u2022[[157, 94, 998, 465]]\n \u2022[[157, 438, 998, 762]]\n \u2022[[0, ",
+                "loest[[30, 393, 1000, 969]]\n[[315, 99, 1000, 566]]\n```\n[[315, 99, 1000, 566]]\n```\n```[[316, 95, 1000, 569]]\n```\n```[[30, 394, 1000, 974]]\n```\n``````",
+                "loest[[28, 386, 1000, 966]]\n[[315, 96, 1000, 567]]\n\u6df3[[33, 398, 998, 766]]\n[[0, 747, 136, 1000]]\n[[0, 853, 617, 999]]\n[[27, 97, 997, 974]]\n[[0, 853, 617, 999]]\n[[27, 97, 997, 974]]\n[[0, 747, 136,",
+                "loest[[27, 393, 1000, 975]]\n[[322, 103, 1000, 575]]\nMore tags:\n[[0, 745, 128, 1000]]\nMore tags:\n[[371, 91, 1000, 464]]\nMore tags:\n[[0, 643, 811, 987]]\nMore tags:\n[[0, 2, 997, 680]]\nMore tags:\n[[0, 843, 613, 996]]\n[[321, 445, 997, 761]]",
+                "loest[[32, 396, 1000, 962]]\n[[317, 94, 1000, 572]]\n\u6df3[[33, 410, 992, 766]]\n\u6df3[[317, 94, 1000, 572]]\n[[0, 746, 125, 1000]]\n[[0, 842, 626, 1000]]\n[[698, 639, 854, 854]]\n[[770, 0, 1000, 323]]\n[[440, 91, 99",
+                "loest[[26, 395, 1000, 960]]\n[[320, 99, 1000, 564]]\nMore tags:\n[[0, 743, 123, 1000]]\n[[16, 403, 998, 760]]\n[[0, 867, 621, 1000]]\n[[639, 633, 1000, 864]]\n[[22, 417, 999, 760]]",
+                "loest[[31, 393, 1000, 964]]\n[[312, 102, 1000, 562]]\nDBug[[2, 745, 138, 1000]]",
+                "loest[[31, 396, 1000, 971]]\n[[319, 94, 1000, 569]]\n\u5bc2[[0, 748, 139, 1000]]\nloest[[31, 396, 1000, 971]]\n[[316, 96, 1000, 567]]\nloest[[31, 396, 1000, 971]]\n[[0, 748, 139, 1000]]\n[[0, 0, 1000, 989]]\n[[18, 432, "
+            ],
+            "iou_scores": [
+                0.9296221110478795,
+                0.9491306600528314,
+                0.9576924056976379,
+                0.9619834710743802,
+                0.9307297019527235,
+                0.9329888159122923,
+                0.9399216872074949,
+                0.9465060773105246
+            ],
+            "iou_var": 0.0001328410281402086,
+            "mean_iou": 0.9435718662819705,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000314065.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>animal far right</ref>",
+            "ground_truth": [
+                588,
+                453,
+                798,
+                874
+            ],
+            "model_output": [
+                "animal far right[[547, 454, 804, 872]]\n[[450, 414, 604, 802]]\n[[226, 454, 387, 882]]\n[[500, 430, 574, 563]]\n[[372, 494, 473, 909]]\n[[473, 419, 547, 737]]\n[[557, 533, 585, 609]]\n[[465, 505, 533, 764]]\n[[543, 540, 589, 612]]\n[[508",
+                "animal far right[[540, 451, 798, 883]]\n[[464, 414, 600, 798]]\nAnother answer: animal far left[[231, 449, 391, 890]]\nAnother answer: animal far left[[392, 491, 493, 903]]\nAnother answer: animal far left[[227, 472, 272, 535]]\nAnother answer: animal far left[[267, 451, 395, 872]];;[[392, 415, 519, 812]]\nAnother answer: animal far left",
+                "animal far right[[538, 453, 794, 881]]\n[[448, 416, 591, 813]]\n clich\u00e9, but this image is so black and white, it's almost impossible to describe, and it's definitely not possible to answer the question without additional context.\nanimal far right[[538, 453, 794, 881]]\nanimal far left[[215, 449, 398, 898]]\n[[219, 154, 488, 978]]\n[[499, 91, 794, 975]]\n\n[[595, 269, 730, 614]]\n\n[[3",
+                "animal far right[[540, 449, 804, 876]]\n[[429, 415, 609, 905]]\n\u6df3\u6734\u7684\u9ed1\u767d\u7167\u7247\u4e2d\uff0c\u4e24\u4e2a\u4eba\u624b\u4e2d\u62b1\u7740\u7684\u5c0f\u7f8a\u7f94\uff0c\u4e00\u53ea\u7f94\u7f8a\u7684\u6bdb\u53d1\u662f\u6df1\u8272\u7684\uff0c\u53e6\u4e00\u53ea\u7f94\u7f8a\u7684\u6bdb\u53d1\u662f\u6d45\u8272\u7684\uff0c\u770b\u8d77\u6765\u50cf\u662f\u6210\u5e74\u7ef5\u7f8a\uff0c\u5176\u4e2d\u4e24\u53ea\u7f94\u7f8a\u88ab\u7d27\u7d27\u5730\u62b1\u7740\uff0c\u663e\u5f97\u975e\u5e38\u53ef\u7231\u3002\nman[[494, 91, 806, 978]]\n[[216, 153, 509, 977]]\nB\u7f8a\u7f94[[540, 449, 804, 876]]\nwoman[[216, 153, 509, 977]]\n[[42",
+                "animal far right[[544, 453, 801, 877]]\nanimal[[422, 415, 576, 944]]\n[[221, 449, 397, 907]]\n[[392, 413, 564, 933]]\n[[219, 153, 477, 982]]\n[[506, 85, 798, 984]]\n[[220, 151, 477, 985]]\n[[422, 415, 576, 944]]\n[[392, 415, 564, 933",
+                "animal far right[[524, 451, 794, 878]]\nanimal[[427, 414, 590, 803]]\n[[222, 450, 385, 898]]\n[[248, 155, 486, 979]]\n[[493, 86, 805, 979]]\n[[459, 422, 555, 795]]\n[[561, 450, 643, 834]]\n[[376, 508, 473, 908]]\n[[508, 501, 578, 911]]",
+                "animal far right[[543, 452, 800, 876]]\n[[439, 413, 591, 802]]\n</code></midwidth>\n\n<image>\nanimal[[222, 451, 404, 908]]\n</image></div></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small",
+                "animal far right[[538, 452, 798, 882]]\n[[221, 455, 408, 894]]\n\u6df3\u6734\u81ea\u7136\u7684\u4e61\u6751\u751f\u6d3b\n[[502, 87, 795, 979]]\n[[419, 416, 591, 933]]\n[[221, 153, 481, 977]]\n[[454, 271, 670, 473]]\n[[594, 261, 734, 451]]\n[[519, 444, 599, 604]]\n[[401, 481, 508, "
+            ],
+            "iou_scores": [
+                0.8123565558599245,
+                0.7932278208440999,
+                0.7795455362600223,
+                0.7842771982116244,
+                0.8113391087291681,
+                0.7414126216082206,
+                0.8113391087291681,
+                0.7907871198568873
+            ],
+            "iou_var": 0.0004902566851081695,
+            "mean_iou": 0.7905356337623894,
+            "correct_count": 8
+        }
+    ]
+}

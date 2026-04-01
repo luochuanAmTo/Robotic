@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 63,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000010727.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>girl pink tank</ref>",
+            "ground_truth": [
+                459,
+                18,
+                921,
+                908
+            ],
+            "model_output": [
+                "girl pink tank[[454, 18, 915, 865]]\n<issue>&amp;lt;b&gt;Image&lt;/b&gt; describes: girl[[454, 18, 915, 865]]\n<issue>&amp;lt;b&gt;Image&lt;/b&gt; describes: girl[[454, 18, 915, 865]]\n<issue>&amp;lt;b&gt;Image&lt;/b&gt; describes: girl[[454, 18, 915, 865]]\n</iframe>",
+                "girl pink tank[[457, 21, 917, 890]]\n again , the sentence describes: girl pink tank[[457, 21, 917, 890]]\n again , the sentence describes: girl pink tank[[457, 21, 917, 890]]\n again , the sentence describes: woman[[37, 0, 446, 821]]\n again , the sentence describes: woman[[37, 0, 446, 821]]",
+                "girl pink tank[[464, 16, 918, 893]]\nAnother person is standing behind the woman and the man. The coordinates for this person are: <br/>[[833, 39, 1000, 654]]\nAnother person is standing behind the man and the woman. The coordinates for this person are: <br/>[[35, 0, 272, 290]]\nThe woman is standing behind the man. The coordinates for this person are: <br/>[[1, 157, 138, 796]]\nThe woman is standing behind the man. The coordinates for this person are: <br/>[[273, 5, 549, 501]]\nThe woman is standing behind the man and the man is wearing a",
+                "girl pink tank[[459, 20, 915, 890]]\n<answer to the above question>:\nuser <sep>girl pink tank[[459, 20, 915, 890]]\n<answer to the above question>:\nuser <sep>girl pink tank[[459, 20, 915, 890]]\nWhat is the man's cap? <answer to the above question>:\n\u5f29\n<answer to the above question>:\n\u5f29",
+                "girl pink tank[[453, 18, 917, 855]]\n<issue_id>\nwoman[[453, 18, 917, 855]]\nwoman[[453, 18, 917, 855]]\nman[[59, 2, 449, 821]]\nperson[[823, 39, 1000, 655]]\nperson[[359, 0, 583, 312]]\nadult[[359, 0, 583, 312]]\nman[[35, 0, 264, 300]]\nhat[[258, 0, 458, 239]]\nshort sleeve T-shirt[[39, 97, 275",
+                "girl pink tank[[464, 20, 916, 877]]\n<answer to the question: This sentence describes: girl pink tank[[464, 20, 916, 877]]</mi> output the final answer in <pre> <pre>[x1,y1,x2,y2]</pre> tags </answer>\n\ngirl pink tank[[464, 20, 916, 877]]\n<answer to the question: girl pink tank[[464, 20, 916, 877]]</mi> output the final answer in <pre> <pre>[x1,y1,x2,y2]</pre> tags </answer>\n\n<answer to the question: girl pink tank[[464, 20, 916, 877]]</mi> output the final answer in <pre> <pre>[[170, 5, 551, 82",
+                "girl pink tank[[457, 20, 926, 888]]\n[[36, 0, 341, 292]]\n[[39, 1, 437, 820]]\nHere is the location of the center tag: \ngirl pink tank[[457, 20, 926, 888]]\nAnd that's the tag for the center tag: \ngirl pink tank[[457, 20, 926, 888]]\nThe coordinates of the center tag: \ngirl pink tank[[457, 20, 926, 888]]\nThe coordinates of the first tag: \ngirl pink tank[[457, 20, 926, 888]]\n[[36, 1, 437, 820]]\n",
+                "girl pink tank[[464, 16, 920, 874]]\n[[53, 4, 499, 823]]\n[[783, 36, 996, 658]]\n clich\u00e9 - girl[[464, 16, 920, 874]]\n clich\u00e9 - girl[[464, 16, 920, 874]][[427, 28, 605, 307]]\n clich\u00e9 - woman[[464, 16, 920, 874]]\n clich\u00e9 - woman[[464, 16, 920, 874]]\n clich\u00e9 - man[[53, 4, 499, 82"
+            ],
+            "iou_scores": [
+                0.9297497683039851,
+                0.9638766050402259,
+                0.963993127681466,
+                0.9648329198890997,
+                0.9210575633946978,
+                0.9420788948878837,
+                0.9610790497919742,
+                0.94720596371684
+            ],
+            "iou_var": 0.0002555905703753529,
+            "mean_iou": 0.9492342365882716,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000450457.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>third zebra</ref>",
+            "ground_truth": [
+                355,
+                150,
+                960,
+                751
+            ],
+            "model_output": [
+                "third zebra[[437, 171, 954, 834]]\nAnother zebra's head is shown in the image.\nanother zebra[[303, 137, 953, 836]]\nanother zebra[[123, 142, 721, 839]]\nanimal[[0, 383, 345, 865]]\nblack zebra[[711, 173, 1000, 784]]\nfossa[[122, 140, 999, 829]]\nanimal[[0, 0, 69, 241]]\nantelope[[0, 383, 346, 864]]\nfossa[[303, 137, 953, 834]]",
+                "third zebra[[490, 172, 959, 830]]\n<answer>\nHere is the bounding box coordinate for the region described by \"this sentence\":\n\nthis sentence[[126, 143, 863, 834]]\n<issue>\n<answer>\n\u5c71\u5761\u4e0a\u7684\u6591\u9a6c\u5728\u559d\u6c34\uff0c\u524d\u666f\u4e2d\u7684\u89d2\u9a6c\u5728\u9644\u8fd1\u884c\u8d70\uff0c\u80cc\u666f\u4e2d\u7684\u6591\u9a6c\u4e5f\u5728\u559d\u6c34\u3002\u5b83\u4eec\u7684\u80cc\u666f\u662f\u4e00\u7247\u6c99\u5730\u3002\u8fd9\u4e2a\u533a\u57df\u7684\u5730\u9762\u770b\u8d77\u6765\u5f88\u5e72\u71e5\uff0c\u6709\u4e00\u4e9b\u5c0f\u77f3\u5b50\u3002\u6591\u9a6c\u7684\u6761\u7eb9\u975e\u5e38\u660e\u663e\uff0c\u6392\u5217\u6574\u9f50\uff0c\u4e0e\u5b83\u4eec\u7684\u9ed1\u767d\u76f8\u95f4\u989c\u8272\u5f62\u6210\u9c9c\u660e\u5bf9\u6bd4\u3002\u6591\u9a6c\u4eec\u4f3c\u4e4e\u6b63\u5728\u4eab\u53d7\u6c34\u6e90\uff0c\u800c\u524d\u666f\u4e2d\u7684\u89d2\u9a6c\u5219\u5728\u89c2\u5bdf\u5468\u56f4\u73af\u5883\u3002\u6574\u4f53\u6c1b\u56f4\u663e\u5f97\u5f88\u5b81\u9759\uff0c\u6591\u9a6c\u4eec\u4f3c\u4e4e\u5f88\u653e\u677e\u3002\u8fd9\u4e2a\u533a\u57df\u7684\u5929\u7a7a\u6674\u6717\uff0c\u6ca1\u6709\u660e\u663e\u7684\u4e91\u5f69\uff0c\u5149\u7ebf\u5145\u8db3\uff0c\u4e3a\u6574\u4e2a\u573a\u666f\u589e\u6dfb\u4e86\u660e\u4eae\u7684\u611f\u89c9\u3002\u8fd9\u4e2a\u533a\u57df\u7684\u690d\u88ab\u975e\u5e38\u7a00\u758f\uff0c\u4e3b\u8981\u662f\u6c99\u5730\u548c\u4e00\u4e9b\u96f6\u6563\u7684\u77f3\u5757\u3002\u603b\u4f53\u6765\u770b\uff0c\u8fd9\u662f\u4e00\u4e2a\u5178\u578b\u7684\u975e\u6d32\u8349\u539f\u6216\u7a00\u6811\u8349\u539f\u73af\u5883\uff0c\u52a8\u7269\u4eec\u5728\u8fd9\u4e2a\u533a\u57df\u6d3b\u52a8\u3002\n",
+                "third zebra[[447, 169, 959, 830]]\n<answer>third zebra[[447, 169, 959, 830]]\n<answer>deer[[2, 383, 352, 868]]\n<answer>deer[[2, 383, 352, 868]]\n<answer>third zebra[[299, 139, 925, 834]]\n<answer>deer[[132, 144, 736, 839]]\n<answer>deer[[0, 0, 69, 237]]\n[[709, 173, 1000, 780]]\n[[40",
+                "third zebra[[461, 171, 953, 826]]\nthird zebra[[461, 171, 953, 826]]\nthird zebra[[461, 171, 953, 826]]\nanimal[[123, 146, 791, 843]]\narabian wild dog[[0, 383, 342, 868]]\nhippotigris[[0, 149, 999, 794]]\nhippotigris[[0, 149, 999, 794]]\nblack panther[[753, 0, 998, 235]]\nhippotigris[[753, 0, 998, 235",
+                "third zebra[[446, 171, 954, 828]]\nthird zebra[[446, 171, 954, 828]]\n2.third zebra[[446, 171, 954, 828]]\n3.third zebra[[446, 171, 954, 828]]\n4.[[133, 148, 857, 837]]\nDNA\nthird zebra[[446, 171, 954, 828]]\nthird zebra[[446, 171, 954, 828]]\n[[133, 148, 857, 83",
+                "third zebra[[430, 175, 946, 829]]\n</script>\n\n[[131, 140, 776, 832]]\n```\n[[916, 155, 1000, 235]]\n```\n```[[609, 170, 998, 781]]\n```\n```[[0, 384, 354, 864]]\n```\n```[[338, 137, 595, 404]]\n```\n```[[719, 167, 1000, 783]]\n```\n```[[141, 142, ",
+                "third zebra[[415, 180, 935, 835]]\nAnother question: Could you describe the third zebra in the image?\n",
+                "third zebra[[429, 164, 964, 827]]\n<image>\nAnswer: <answer>\n<image>\nAnswer: <answer>\n<image>\nAnswer: <answer>\n<span></span><image>\n<image>\nAnswer:<image>\nAnswer:<image>\nAnswer:</li><image>\n<span></span><image>\n<span></span><image><image>\nAnswer: <answer>\n<span></span><image></li><image>\n<span></span><image></li><image>\n</li><image>\n</li><image></li><image></"
+            ],
+            "iou_scores": [
+                0.7376339430674316,
+                0.6777659638193363,
+                0.7374874088300297,
+                0.7125004681589493,
+                0.7316231336334584,
+                0.7359509524505203,
+                0.7290226745399413,
+                0.7665691947871809
+            ],
+            "iou_var": 0.000563612373485315,
+            "mean_iou": 0.728569217410856,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000118848.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>batter</ref>",
+            "ground_truth": [
+                484,
+                201,
+                770,
+                874
+            ],
+            "model_output": [
+                "batter[[483, 206, 777, 867]]\nbatter[[0, 436, 293, 856]]\n[[0, 439, 293, 854]]\n[[517, 454, 778, 860]]\n[[1, 275, 76, 576]]\n[[216, 33, 314, 332]]\n[[318, 0, 475, 175]]\n[[476, 135, 562, 174]]\n*CoT: The player is in the middle of a swing, with the bat at an angle and the ball visible in front of them. The catcher is crou",
+                "batter[[487, 208, 777, 866]]\n[[0, 436, 294, 853]]\nbatter[[487, 208, 777, 866]]\n[[0, 436, 294, 853]]\n[[0, 434, 276, 851]]\n[[224, 35, 327, 330]]\n[[328, 0, 517, 181]]\n[[319, 0, 459, 178]]\n[[279, 1, 424, 326]]\n[[452, 121, 556, 170]]",
+                "batter[[480, 211, 775, 864]]\n[[0, 436, 295, 854]]\n[[0, 437, 295, 853]]\n[[216, 30, 320, 331], [320, 0, 494, 176], [363, 0, 509, 172], [393, 0, 520, 143], [480, 205, 776, 864]]\n[[0, 436, 295, 854]]\n[[0, 295, 76, 570]][[0, 437, 295, 853]]\n[[21",
+                "batter[[480, 213, 779, 861]]\n[[0, 436, 299, 853]]\n[[0, 440, 296, 852]]\n[[227, 2, 339, 329]]\n<img src=\"https://i.imgur.com/5mLh3w6.jpg\" width=\"560\" height=\"376\" />\nbatter[[480, 213, 779, 861]]\n[[560, 437, 786, 863]]\n[[0, 294, 73, 796]]\n[[227, 2, 339, 329]]\n[[3",
+                "batter[[482, 209, 772, 861]]\n[[0, 435, 292, 855]]\n[[0, 433, 293, 856]]\n${\\displaystyle}1990[[482, 206, 773, 867]]\uff1b[3, 56, 110, 326]]\n[[0, 435, 292, 855]]\n[[0, 433, 293, 856]]\n[[3, 56, 110, 326]]\n[[116, 34, 209, 326]]\n[[205,",
+                "batter[[477, 208, 778, 863]]\n[[0, 436, 301, 856]]\n[[498, 442, 779, 862]]\n[[224, 36, 336, 326]]\n[[10, 50, 164, 328]]\n[[169, 34, 255, 328]]\n[[282, 0, 466, 179]]\n[[385, 111, 546, 188]]\n[[658, 160, 1000, 697]]\n[[396, 440, 632",
+                "batter[[481, 209, 774, 863]]\n[[0, 436, 285, 856]]\n[[0, 286, 62, 793]]\n'''batter[[0, 286, 62, 793]]\ncatcher[[0, 436, 285, 856]]\ncatcher's mitt[[180, 505, 297, 628]]\nbaseball bat[[426, 428, 703, 543]]\nbaseball glove[[187, 504, 297, 621]]\nshirt[[208, 34, 307, 331]]\nshort sleeve T-shirt[[",
+                "batter[[482, 207, 775, 865]]\n[[1, 435, 297, 851]]\nbatter[[482, 207, 775, 865]]\n[[1, 435, 297, 851]]\n[[0, 294, 59, 571]]\n[[0, 567, 158, 797]]\n[[207, 31, 312, 330]]\n[[325, 2, 498, 174]]\n[[539, 139, 596, 174]]\n[[388, 163, 53"
+            ],
+            "iou_scores": [
+                0.9559074866256081,
+                0.9448458525298857,
+                0.9415341181215497,
+                0.9224796169276562,
+                0.9558451144623397,
+                0.9259872567386543,
+                0.9491921078272166,
+                0.9548618863022873
+            ],
+            "iou_var": 0.00015264859078536385,
+            "mean_iou": 0.9438316799418998,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000072629.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>food on the right</ref>",
+            "ground_truth": [
+                581,
+                594,
+                1000,
+                826
+            ],
+            "model_output": [
+                "food on the right[[567, 581, 1000, 828]]\n[[2, 530, 451, 797]]\n```\nfood on the right[[567, 581, 1000, 828]]\n```\n``````[[0, 524, 448, 792]]\n```\n```[[567, 581, 1000, 828]]\n```\n```[[0, 524, 448, 792]]\n```\n```[[567, 581, 1000, 828]]\n```\n```[[2,",
+                "food on the right[[565, 579, 1000, 827]]\n[[1, 533, 455, 793]]\nWould you advise someone to try to cook the food in the oven?\nsomeone to try to cook the food in the oven?[[565, 579, 1000, 827]]\n<answer>[[1, 533, 455, 793]]\n<answer>\n\nfood[[565, 579, 1000, 827]]\n<answer>\n\n[[0, 528, 459, 794]]\n</solution>\n</option>\n</option>\n</script>\n</script>\n</script>\n</script>",
+                "food on the right[[568, 576, 1000, 827]]\n[[0, 527, 455, 786]]\n\u2022\n\u2022\u2022\n\u2022\u2022\n\u2022\u2022\n\u2022[[571, 580, 1000, 824]]\n\u2022[[568, 576, 1000, 827]]\n\u2022 \n[[568, 576, 1000, 824]]",
+                "food on the right[[567, 580, 1000, 824]]\n[[0, 531, 452, 790]]\nIf the sentence was \"What is the text on the bread?\" then the answer is: <answer> </answer>\n[[567, 581, 1000, 824]]\nIf the sentence was \"What is the text on the bread?\" then the answer is: <answer> </answer>\n[[0, 531, 452, 790]]\nIf the sentence was \"What is the text on the bread?\" then the answer is: <answer> </answer>\n[[567, 581, 1000, 824]]\nIf the sentence was \"What is the text on the bread?\" then the answer is: <answer> </answer>\n",
+                "food on the right[[568, 579, 1000, 824]]\n[[0, 527, 445, 793]]\nThe rest of the text in the image:\n\n\nI'm sorry, I can't provide the bounding box coordinates for the region that contains the text \"food on the right\". However, I can describe the objects in the image.\n\n\nfood on the right[[568, 579, 1000, 824]]\nThe rest of the text in the image:\n\n\nfood on the right[[568, 579, 1000, 824]]\nThe rest of the text in the image:\n\n\nthe rest of the text in the image[[3, 528, 504, 789]]\nThe rest of the text in the image:\n\n\nthe rest of the text in",
+                "food on the right[[560, 580, 1000, 828]]\n[[0, 529, 463, 791]]\n\u2022\nfood[[560, 580, 1000, 828]]\n\u2022 food[[0, 529, 463, 791]]\n\u2022 oven[[2, 2, 1000, 986]]\n\u2022 oven[[2, 2, 1000, 986]]\n\u2022 chocolate chip[[0, 529, 463, 791]]\n\u2022 chocolate chip[[560, 580, 1000, 828]]\n[[0, 529, 463, 791]]",
+                "food on the right[[561, 580, 1000, 826]]\n[[0, 533, 456, 790]]\nDB[[565, 586, 1000, 827]]\nDB[[0, 527, 459, 792]]\n[[565, 586, 1000, 827]]\nDB[[0, 531, 462, 795]]\nDB[[563, 586, 1000, 827]]\n[[0, 528, 458, 792]]\n[[565, 58",
+                "food on the right[[560, 584, 1000, 828]]\n[[0, 532, 453, 791]]\n`[[576, 581, 1000, 825]]\n`[[0, 525, 461, 784]]\n`[[573, 646, 1000, 827]]\n[[0, 524, 464, 784]]\n`\n[[576, 581, 1000, 825]]\n`[[0, 525, 461, 784]]\n`[[573, 646, "
+            ],
+            "iou_scores": [
+                0.9089022075529916,
+                0.9010752688172043,
+                0.8964881215877232,
+                0.0,
+                0.9033727666435442,
+                0.8908357771260997,
+                0.9001240809674611,
+                0.9054396423248883
+            ],
+            "iou_var": 0.08879579477402892,
+            "mean_iou": 0.7882797331274891,
+            "correct_count": 7
+        }
+    ]
+}

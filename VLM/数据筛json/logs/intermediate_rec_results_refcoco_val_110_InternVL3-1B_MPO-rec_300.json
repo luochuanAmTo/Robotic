@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 110,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000035995.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>truck behind men shaking hands</ref>",
+            "ground_truth": [
+                41,
+                0,
+                757,
+                865
+            ],
+            "model_output": [
+                "truck behind men shaking hands[[182, 2, 752, 861]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1atruck behind men shaking hands[[0, 0, 248, 987]]\n</answer><issue> where is the man in military uniform <answer>[u]\nman in military uniform[[185, 227, 591, 989]]\n</issue><answer>man in military uniform[[185, 227, 591, 989]]\n</answer><issue> where is the man in suit and tie <answer>[u][[730, 483, 999, 989]]\nman in suit and tie[[730, 483, 999, 989]]\n</issue><answer>man[[585, 24",
+                "truck behind men shaking hands[[188, 0, 750, 861]]\nAI-derived information: The image shows a military personnel and a man in a suit shaking hands with a decorated white van. The man in the suit is smiling and appears to be greeting the military personnel. The man in the suit is dressed in a suit and tie. The decorated white van has a ribbon and a purple banner. The background includes a few other people and military personnel.\nperson of interest - the man in the green beret - coordinates of their bounding box: <answer>[x, y]</answer>\n",
+                "truck behind men shaking hands[[195, 0, 755, 857]]\n<answer>\n\u526f\u4e3b\u5e2d[[182, 224, 601, 990]]\n</answer><br/>",
+                "truck behind men shaking hands[[198, 0, 735, 861]]\n\n\n\n\n<answer><div>truck behind men shaking hands[[198, 0, 735, 861]]\n</div>\n\n\n\n\ntruck behind men shaking hands[[198, 0, 735, 861]]\ntruck[[0, 0, 243, 1000]]\n</answer>\n[[0, 5, 243, 1000]]\ntruck[[198, 0, 735, 861]]\nman[[196, 221, 617, 988]]\n[[568,",
+                "truck behind men shaking hands[[172, 0, 729, 862]]\n\n\n[[630, 241, 865, 989]]\nHere is the location of the bounding box for the region describing the object \"truck behind men shaking hands\": `<box [630, 241, 865, 989]]>`\n[[171, 222, 592, 998]]\nHere is the location of the bounding box for the region describing the object \"man in military uniform\": `<box [172, 221, 595, 987]]>`\n[[656, 468, 997, 984]]\nHere is the location of the bounding box for the region describing the object \"man in military uniform\": `<box [172, 221, 595, 98",
+                "truck behind men shaking hands[[197, 2, 740, 861]]\nIdentify the first person in the image. man[[193, 220, 591, 989]]\nIdentify the first person in the image. man[[583, 240, 854, 990]]\nIdentify the first person in the image. man[[722, 483, 1000, 987]]\n",
+                "truck behind men shaking hands[[190, 2, 741, 863]]\nKnow the name of the military group?\nthe military group[[194, 216, 595, 989]]\nWhat is the color of the tie?[[650, 464, 717, 771]]\nWhat is the color of the cap?[[289, 221, 427, 357]]\nWhat language is written on the truck?[[487, 42, 615, 110]]\nWhat is the nationality of the man in the background?[[814, 309, 968, 945]]\nWhat is the nationality of the man in the background?[[814, 309, 968, 945]]\nWhat is the man in the suit and tie talking to?[[185",
+                "truck behind men shaking hands[[193, 0, 738, 857]]\n<answer>\nansson den h\u00e4r flotten: <answer>[c]AFCER[[564, 240, 847, 984]]\n<answer>\n</answer><answer>"
+            ],
+            "iou_scores": [
+                0.2613708852204402,
+                0.0,
+                0.39984070625190743,
+                0.7465317919075144,
+                0.7752349275034714,
+                0.7531194497368167,
+                0.7659944457002615,
+                0.1700699454507259
+            ],
+            "iou_var": 0.08689268196586702,
+            "mean_iou": 0.48402026897139216,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000509555.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>green at the top</ref>",
+            "ground_truth": [
+                61,
+                0,
+                563,
+                294
+            ],
+            "model_output": [
+                "green at the top[[0, 0, 497, 499]]\n[[663, 2, 999, 343]]\n\u2022\ncell phone[[743, 419, 820, 532]]\n\n[[353, 276, 433, 452]]\n```\ncell phone[[743, 419, 820, 532]]\n```\n```[[761, 424, 820, 517]]\n\n```\n[[357, 280, 432, 449]]\n```\n```\n```[[387, 263,",
+                "green at the top[[0, 0, 428, 557]]\n\n[[52, 247, 892, 845]]\n[[687, 0, 998, 340]]\n[[0, 0, 428, 555]]\n[[52, 247, 892, 845]]\n[[52, 247, 892, 845]]\n[[52, 247, 892, 845]]\n[[0, 0, 428, 557]]\n[[0, 0, 428, 557]]\n[[52, 247, 892, 845",
+                "green at the top[[2, 2, 502, 490]]\n\n[[52, 283, 886, 839]]\n[[675, 0, 999, 342]]\n[[168, 119, 292, 479]]\n[[281, 281, 352, 450]]\n[[352, 280, 407, 452]]\n[[404, 262, 504, 446]]\n[[523, 364, 606, 466]]\ncell phone[[764, 422, 835, 531]]\n",
+                "green at the top[[0, 2, 437, 400]]\n\n[[53, 276, 889, 839]]\n[[672, 0, 999, 338]]\n</div></div></div>\n</pre></div></div>\n</li>\n</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olaithe</olait",
+                "green at the top[[2, 4, 478, 435]]\n\n[[55, 260, 897, 839]]\n[[686, 0, 1000, 338]]\n</div></div>\n</div>",
+                "green at the top[[0, 0, 539, 543]]\n[[679, 0, 1000, 339]]\n```\ngreen at the top[[0, 0, 539, 543]]\n```\n```[[51, 273, 886, 838]]\n```\n```[[678, 0, 1000, 339]]\n```\n```[[452, 264, 527, 450]]\n```\n```[[212, 170, 298, 478]]\n```\n```[[252, 290, 336",
+                "green at the top[[0, 0, 499, 557]]\n\n[[45, 253, 886, 843]]\n[[678, 2, 996, 343]]\n[[204, 167, 304, 485]]\n</script>\n[[204, 167, 304, 485]]\n[[204, 167, 304, 485]]\n[[157, 120, 255, 475]]\n[[157, 120, 255, 475]]\n[[251, 171, 304, 458]]\n",
+                "green at the top[[0, 2, 524, 403]]\n\n[[50, 264, 889, 840]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this: green at the top[[0, 2, 524, 403]]\nMore like this:"
+            ],
+            "iou_scores": [
+                0.4793591790790817,
+                0.3880022726782362,
+                0.48997016924388165,
+                0.518566799860194,
+                0.5216682340152018,
+                0.46885728298185386,
+                0.43392786739408074,
+                0.607578780851714
+            ],
+            "iou_var": 0.003716670354866389,
+            "mean_iou": 0.4884913232630305,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000324923.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man left bottome corner</ref>",
+            "ground_truth": [
+                0,
+                493,
+                266,
+                1000
+            ],
+            "model_output": [
+                "man left bottome corner[[0, 658, 186, 1000]]\n<answer>man[[0, 658, 186, 1000]]\n<answer>woman[[134, 401, 420, 738]]\n<answer>woman[[134, 401, 420, 738]]\n[[251, 403, 370, 683]]\n[[251, 403, 370, 683]]\n[[236, 391, 374, 682]]\n[[236, 391, 374, 682]]\n[[134, 401, 420, 738]]\n[[134, 401",
+                "man left bottome corner[[0, 643, 237, 987]]\n<answer to the question above> <sep><answerer>man left bottome corner[[0, 643, 237, 987]]\n<answer to the question above> <sep><answerer>man[[0, 643, 237, 987]]\n<answer to the question above> <sep><answerer>man[[363, 60, 677, 620]]\n\u7167\u7247\u4e2d\u6ca1\u6709\u63cf\u8ff0\uff0c\u65e0\u6cd5\u56de\u7b54\n</answer> <sep> <answer to the question above> <answerer>man[[363, 60, 677, 620]]\n[[347, 373, 502, 685]]\n</answer> <sep> <answer to the question above> <answerer>man",
+                "man left bottome corner[[0, 416, 256, 989]]\n<answer>man left bottome corner[[0, 416, 256, 989]]\n<answer>woman[[148, 417, 536, 989]][[148, 417, 536, 989]]\n<answer>woman[[148, 417, 536, 989]]\n<answer>woman[[417, 374, 608, 689]][[417, 374, 608, 689]]\n[[433, 448, 544, 770]]\n[[433, 448, 544, 77",
+                "man left bottome corner[[0, 673, 187, 1000]]\n<answer>man[[0, 673, 187, 1000]]\n<answer>woman[[178, 439, 506, 803]]\n<answer>woman[[178, 439, 506, 803]]\n[[445, 321, 701, 667]]\n=>\n</answer>\n<answer>woman[[445, 321, 701, 667]]\n[[269, 456, 445, 683]]\n=>\n</answer>\n[[358, 546, 461, 712]]\n",
+                "man left bottome corner[[0, 728, 207, 1000]]\n<answer>man[[0, 728, 207, 1000]]\n<answer>woman[[150, 436, 473, 771]]\n<answer>woman[[150, 436, 473, 771]]\n[[344, 432, 536, 698]]\n</answer>\n<answer>woman[[344, 432, 536, 698]]\n[[502, 435, 665, 687]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "man left bottome corner[[0, 720, 215, 989]]\n<answer>man[[0, 720, 215, 989]]\n<answer>woman[[156, 361, 531, 794]][[156, 361, 531, 794]]\n<answer>woman[[366, 299, 494, 634]]\n<answer>woman[[366, 299, 494, 634]]\n<answer>heart[[456, 216, 632, 611]][[456, 216, 632, 611]]\n[[618, 374, 731, ",
+                "man left bottome corner[[0, 725, 209, 987]]\n<answer>man[[0, 725, 209, 987]]\n<answer>\n.[[215, 412, 511, 853]]\n</answer>\nAnswers:\nman left bottome corner[[0, 725, 209, 987]]\n<answer>man[[215, 412, 511, 853]]\n</answer>\nAnswers:\nman[[215, 412, 511, 853]]\n<answer>\n</answer>[[366, 427, 506,",
+                "man left bottome corner[[0, 675, 227, 987]]\n<answer>man[[0, 675, 227, 987]]\n<answer>woman[[176, 393, 471, 742]]\n<answer>woman[[474, 305, 650, 671]]\n[[477, 404, 565, 718]]\n[[456, 535, 583, 684]]\nhairband[[197, 546, 250, 688]]\ntissue[[262, 624, 473, 986]]\nheaddress[[199, 64, 285, 379]]"
+            ],
+            "iou_scores": [
+                0.4716821639898563,
+                0.6045290741647017,
+                0.8214576836984228,
+                0.4534190505850425,
+                0.4174934377363527,
+                0.4288457830967952,
+                0.4060298675683291,
+                0.525159051474841
+            ],
+            "iou_var": 0.01706236380697964,
+            "mean_iou": 0.5160770140392926,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000053672.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>green jersey</ref>",
+            "ground_truth": [
+                335,
+                275,
+                524,
+                821
+            ],
+            "model_output": [
+                "green jersey[[352, 282, 520, 828]]\n<answer>\ngreen jersey[[352, 282, 520, 828]]\n<answer>\n<answer>\n[[17, 251, 305, 774]]\n</select><sep>green jersey[[352, 282, 520, 828]]\n</answer<answer>\n</select><sep>green jersey[[352, 282, 520, 828]]\n</select><sep>green jersey[[352, 282, 520, 828]]\n</select><sep>green jersey[[352, 282, 520, 828]]\n</select><sep>",
+                "green jersey[[354, 282, 523, 827]]\n[[11, 246, 294, 769]]\nDNAleleAzzarelli\uff1b[711, 396, 891, 720]]\n[[893, 374, 1000, 716]]\n[[14, 295, 299, 774]]\n[[228, 296, 346, 833]]\n[[349, 349, 482, 826]]\n[[288, 386, 353, 680]]\n[[",
+                "green jersey[[345, 282, 523, 825]]\n><answer>[x1,y1,x2,y2]</white>\ngreen jersey[[345, 282, 523, 825]]\n<answer>green jersey[[345, 282, 523, 825]]\n<image>\n<image>\n<answer>\n[[21, 250, 293, 770]]\n[[216, 296, 351, 833]]\n<answer>\n</image>\nMorphing into a text is a circle with a white circle in the middle.\n[[676, 496, 890, 719",
+                "green jersey[[351, 279, 518, 828]]\n<answer>\nHere is the detailed coordinates for the region in the image described by the sentence: \n\ngreen jersey[[351, 279, 518, 828]]\n<issuealength>\ngreen jersey[[351, 279, 518, 828]]\n<issueWidth>\ngreen jersey[[3, 245, 288, 770]]\n<answer>\ngreen jersey[[351, 279, 518, 828]]\n<issueHeight>\ngreen jersey[[351, 279, 518, 828]]\n<answer>\ngreen jersey[[351, 279, 518, 828]]\n",
+                "green jersey[[350, 274, 520, 828]]\nAnother player in green is jumping and looking towards the ball.[[17, 245, 302, 835]]\nAnother player in green is catching the ball.\ngreen jersey[[17, 245, 302, 835]]\nAnother player in black and white is running towards the ball.\ngreen jersey[[350, 274, 520, 828]]\ngreen jersey[[350, 274, 520, 828]]\nsoccer player[[682, 392, 888, 721]]\nsoccer player[[811, 375, 998, 715]]\nclothing[[8",
+                "green jersey[[345, 277, 523, 832]]\nsource\ngreen jersey[[345, 277, 523, 832]]\nuser\nHow many people are wearing black and white striped jerseys? golfer[[345, 277, 523, 832]]\nsource\ngolfer[[345, 277, 523, 832]]\nsource\ngolfer[[20, 252, 283, 837]]\nsource\ngolfer[[20, 252, 283, 837]]\nsource\ngolfer[[703, 397, 888, 731]]\nsource\ngolfer[[703, 397, 888, 731]]\n",
+                "green jersey[[354, 280, 524, 826]]\nAnother player in the foreground: green jersey[[354, 280, 524, 826]]\nPlayer in the background: green jersey[[25, 242, 318, 835]]\nPlayer in the background: green jersey[[25, 242, 318, 835]]\nPlayer in the background: green jersey[[714, 395, 896, 721]]\nPlayer in the background: green jersey[[714, 395, 896, 721]]\nPlayer in the background: green jersey[[714, 395, 896, 721]]",
+                "green jersey[[351, 279, 524, 828]]\n<offer>\nWhere are the players on the field?\nplayers on the field[[11, 250, 288, 835]]\nplayers[[11, 250, 288, 835]]\ngreen jersey[[351, 279, 524, 828]]\ngreen jersey[[351, 279, 524, 828]]\nperson[[694, 397, 890, 732]]\nperson[[818, 378, 1000, 722]]\nshort sleeve T-shirt[[188, 291, 347, 831]]\nsock[[198, 774, 3"
+            ],
+            "iou_scores": [
+                0.8676056338028169,
+                0.8741267465069861,
+                0.9233538005504975,
+                0.8672997134999952,
+                0.8877709126384452,
+                0.920876445526476,
+                0.88395294298566,
+                0.8980987500598631
+            ],
+            "iou_var": 0.00043006719886332177,
+            "mean_iou": 0.8903856181963425,
+            "correct_count": 8
+        }
+    ]
+}

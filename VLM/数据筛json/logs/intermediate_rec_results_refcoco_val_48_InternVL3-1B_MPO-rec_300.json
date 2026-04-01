@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 48,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000214563.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>laptop next to purple one</ref>",
+            "ground_truth": [
+                370,
+                244,
+                584,
+                525
+            ],
+            "model_output": [
+                "laptop next to purple one[[569, 415, 888, 692]]\nI'm sorry, but I can't provide the bounding box coordinates for the region that contains the region you mentioned.\n[[3, 155, 358, 670]]\n[[143, 438, 522, 986]]\n[[367, 241, 575, 521]]\n[[378, 4, 667, 337]]\n[[656, 237, 986, 597]]\n[[159, 154, 377, 663]]\n[[574, 386, 887, 688",
+                "laptop next to purple one[[573, 415, 893, 686]]\nAnonymous one[[354, 242, 586, 520]]\nwhite one[[0, 155, 367, 664]]\nlaptop[[146, 444, 540, 1000]]\nchair[[694, 234, 990, 644]]\nlaptop[[420, 6, 689, 339]]\nlaptop[[2, 430, 447, 989]]\nlaptop[[253, 236, 524, 521]]",
+                "laptop next to purple one[[579, 416, 888, 690]]\n[[138, 439, 540, 987]]\n[[2, 153, 364, 667]]\n{{389, 0, 672, 342}}\n[[331, 239, 591, 520]]\n[[414, 372, 587, 517]]\nlaptop[[419, 2, 685, 343]]\n[[369, 379, 566, 521]]\nlaptop[[624, 243, 986, 582]]\nlaptop[[58",
+                "laptop next to purple one[[584, 413, 890, 686]]\nImages: \nlaptop[[142, 439, 536, 1000]]\nImages: \nlaptop[[383, 3, 672, 340]]\nImages: \nlaptop[[325, 245, 561, 524]]\nImages: \nlaptop[[3, 153, 378, 668]]\nImages: \nlaptop[[147, 447, 528, 1000]]\nImages: \nlaptop[[531, 364, 884, 689]]\nImages: \nlaptop[[561, 345, 878, 689]]",
+                "laptop next to purple one[[566, 412, 882, 690]]\nlaptop[[151, 438, 548, 1000]]\n</code></div></div></div>\n</pre><attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl>\n</attabyl",
+                "laptop next to purple one[[571, 409, 894, 691]]\n[[146, 442, 535, 1000]]\nBrowsing tags:\nlaptop[[383, 1, 679, 343]]\n[[1, 153, 363, 663]]\n*caption* - region around this location on the laptop: laptop[[383, 1, 679, 343]]\n*caption* - region around this location on the laptop: keyboard[[381, 243, 564, 519]]\n*caption* - region around this location on the laptop: pen holder[[605, 235, 989, 581]]\n*caption* - region around this location on the laptop: ",
+                "laptop next to purple one[[582, 408, 887, 686]]\nlaptop[[357, 2, 682, 340]]\n[[144, 436, 553, 1000]]\n[[1, 153, 357, 671]]\n[[319, 243, 573, 520]]\n[[521, 260, 617, 339]]\n[[665, 236, 984, 621]]\n[[166, 611, 517, 987]]\n[[2, 157, 359, 666]]\n[[",
+                "laptop next to purple one[[569, 408, 885, 691]]\nImages: \n<img src=\"https://via.placeholder.com/800x500?text=...\" alt=\"Placeholder Image\">\n\n---\n[[2, 154, 365, 670]]\nImages: \n<img src=\"https://via.placeholder.com/800x500?text=...\" alt=\"Placeholder Image\">\n\n---\nImages: \nlaptop[[139, 437, 539, 989]]\nImages: \nlaptop[[385, 2, 678, 344]]\nImages: \nlaptop[[315, 242, 564, 519]]\nImages: \nlaptop[[572, 403, 889, 688]]\nImages: \nlaptop[["
+            ],
+            "iou_scores": [
+                0.01123618460029827,
+                0.008307928922578341,
+                0.0037780319572978407,
+                0.0,
+                0.013936470523748185,
+                0.010072672865234583,
+                0.0016172506738544475,
+                0.011873591913779456
+            ],
+            "iou_var": 2.3301528430368317e-05,
+            "mean_iou": 0.00760276643209889,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000480576.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>leftmost chair</ref>",
+            "ground_truth": [
+                10,
+                296,
+                186,
+                986
+            ],
+            "model_output": [
+                "leftmost chair[[4, 290, 210, 986]]\n<answer>leftmost chair[[4, 290, 210, 986]]\n<answer>woman[[352, 226, 654, 890]]\n<answer>woman[[352, 226, 654, 890]]\n<answer>chair[[315, 470, 426, 931]]\n[[174, 304, 294, 800]]\n[[174, 304, 294, 800]]\n[[275, 769, 1000, 989]]\n[[275, 769, 100",
+                "leftmost chair[[7, 291, 216, 1000]]\n<answer>leftmost chair[[146, 308, 279, 778]]\nIFFound what the region describes: woman[[349, 227, 652, 895]]\nIFFound what the region describes: woman[[349, 227, 652, 895]]\nIFFound what the region describes: person[[857, 173, 1000, 773]]\nIFFound what the region describes: person[[857, 173, 1000, 773]]\nIFFound what the region describes: hand[[857, 173, 1000, 773]]\nIFFound what the region describes: hand[[84",
+                "leftmost chair[[14, 288, 254, 998]]\nA more detailed bounding box for the region of the woman in the center: \nwoman[[351, 227, 654, 894]]\nA more detailed bounding box for the woman in the center: \nwoman[[351, 227, 654, 894]]\nA more detailed bounding box for the person on the right: \nperson[[849, 171, 1000, 766]]\nA more detailed bounding box for the tea kettle: \ntea kettle[[683, 739, 946, 1000]]\nA more detailed bounding box for the woman in the center: \nwoman[[351, 227, 654, 894]]",
+                "leftmost chair[[15, 290, 244, 1000]]\n<answer>leftmost chair[[15, 290, 244, 1000]]\n<answer>woman[[351, 229, 643, 908]]\n<answer>woman[[351, 229, 643, 908]]\n<answer>table[[255, 753, 999, 1000]]\n</answer>\n358, 763, 999, 985</div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+                "leftmost chair[[12, 289, 230, 989]]\nAI-generated image: <image>\n[[836, 175, 1000, 766]]\nImages: \nleftmost chair[[12, 289, 230, 989]]\nImages: \nleftmost chair[[12, 289, 230, 989]]\nImages: \nleftmost chair[[12, 289, 230, 989]]\nImages: \nleftmost chair[[12, 289, 230, 989]]\nImages: \nleftmost chair[[12, 289, 230, 989]]\nImages: \nleftmost chair[[12, 289",
+                "leftmost chair[[3, 289, 203, 985]]\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted as [<start_x], [<end_x], [<start_y>, <end_y>] for each bounding box coordinate]:\n\nleftmost chair[[3, 289, 203, 985]]\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted as [<start_x], [<end_x>, <start_y>, <end_y>] for each bounding box coordinate):\n\nleftmost chair[[3, 289, 203, 985]]\n<answer>\nHere is the coordinates of the region mentioned in the sentence, formatted as [<start_x], [<end_x>, <start_y>, <end_y>] for each bounding box coordinate):\n\nleftmost chair[[118, 310, 288, 989]]\n",
+                "leftmost chair[[2, 291, 220, 1000]]\nAI\n[[2, 409, 140, 989]]\nAI\n[[341, 226, 655, 905]]\nAI\n[[841, 170, 1000, 770]]\ncell phone[[415, 867, 507, 930]]\n[[634, 774, 722, 933]]\n[[680, 742, 762, 934]]\n[[697, 742, 965",
+                "leftmost chair[[15, 288, 220, 1000]]\nAI\n[[342, 523, 441, 893]]\nAI[[859, 176, 999, 769]]\nAI[[348, 226, 650, 885]]\n\nAI[[0, 403, 131, 989]]\n\n[[573, 761, 707, 1000]]\n\n[[686, 737, 955, 100"
+            ],
+            "iou_scores": [
+                0.847003682624707,
+                0.8195382673892064,
+                0.6853776853776854,
+                0.710611900746808,
+                0.7797116508637485,
+                0.8700493628745265,
+                0.7857041187355236,
+                0.7897061776320192
+            ],
+            "iou_var": 0.0034715164221873424,
+            "mean_iou": 0.785962855780528,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000335066.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left umbre</ref>",
+            "ground_truth": [
+                89,
+                196,
+                352,
+                643
+            ],
+            "model_output": [
+                "left umbre[[98, 249, 353, 640]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aleft umbre[[98, 249, 353, 640]]\n<answer>\n<answer>\n<question>What is the umbrellas in the image? Are they open or closed?</question>\n</answer><answer>umbrellas[[334, 320, 660, 639]]\n</answer><answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "left umbre[[91, 247, 365, 641]]\n<answer>\n\n><answer>\n</answer>\n<answer>left umbre[[91, 247, 365, 641]]\n</body>\n   ></body>\n   left umbre[[91, 247, 365, 641]]\n   \n   <answer>left umbre[[340, 316, 667, 639]]\n   \n   [[340, 316, 667, 639]]\n   \n   &lt;/answer>\n   left umbre[[91, 247, 365, 641]]\n   \n   &lt;image&gt;<img src=\"https://i.imgur.com",
+                "left umbre[[91, 246, 355, 643]]\n><answer>[x1,y1,x2,y2]</threats>\n><answer>\n[[343, 289, 665, 638]]\n</answer></div></div></div>\n</body>\n</html>\n",
+                "left umbre[[95, 238, 369, 634]]\n><answer>[x1,y1,x2,y2]</warn>\n><answer> [317, 319, 665, 641]</answer>\n<answer> [245, 569, 530, 987]</warn>\n<answer> [395, 552, 646, 989]</warn>\n<answer> [120, 553, 270, 725]</answer>\n[[120, 193, 311, 632]]\n[[311, 118, 506, 583]]\n[[364, 242, 6",
+                "left umbre[[99, 236, 370, 636]]\n[[134, 252, 670, 641]]\n[[123, 555, 647, 989]]\n[[398, 576, 652, 987]]\n[[136, 193, 243, 631]]\n[[397, 253, 657, 637]]\n[[131, 182, 241, 609]]\n[[393, 434, 652, 988]]\n[[123, 555,",
+                "left umbre[[100, 254, 367, 633]]\n[[141, 251, 662, 641]]\n```\nleft umbre[[141, 251, 662, 641]]\n```\n[[395, 273, 664, 640]]\n```\n```[[151, 567, 663, 988]]\n```\n```[[435, 555, 666, 988]]\n```\n```[[140, 195, 363, 634]]\n```\n```[[140, 195, 363, 634]]\n```\n```",
+                "left umbre[[98, 237, 372, 634]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1aleft umbre[[98, 237, 372, 634]]\n<question>Where are the umbrellas and sticks in the image?</question>\nAnswers:\numbrellas[[331, 288, 663, 640]]\n<question>Where are the sticks in the image?</question>\nAnswers:\nsticks[[331, 288, 663, 640]]\n<question>Are the umbrellas and sticks visible in the image?</question>\nAnswers:\numbrellas[[331, 288, 663, 640]]\n<question>Are there any other objects besides the umbrellas and sticks in the image?</question>\nAnswers:\nother objects[[13",
+                "left umbre[[98, 234, 373, 633]]\n[[336, 297, 663, 637]]\nif any[[135, 578, 638, 987]]\n[[122, 195, 231, 622]]\n[[274, 117, 405, 598]]\n[[462, 592, 663, 997]]\n[[668, 0, 998, 413]]\n[[449, 446, 619, 897]]\n[[134, 582, 2"
+            ],
+            "iou_scores": [
+                0.8419865708084645,
+                0.0,
+                0.013849328477323434,
+                0.051615089742474134,
+                0.811150920560111,
+                0.7749379290200088,
+                0.8034836375805771,
+                0.8047165316817532
+            ],
+            "iou_var": 0.1450515852837815,
+            "mean_iou": 0.512717500983839,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000080471.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>boy walking hands in pockets</ref>",
+            "ground_truth": [
+                647,
+                391,
+                840,
+                1000
+            ],
+            "model_output": [
+                "boy walking hands in pockets[[626, 396, 840, 1000]]\n<answer>boy walking hands in pockets[[787, 437, 905, 942]]\nIFFood<answer>[z]\n<answer>boy[[858, 419, 1000, 989]]\n<answer>boy[[91, 428, 368, 874]]\n<answer>clothing[[858, 416, 1000, 987]]\n<answer>person[[626, 396, 840, 1000]]\n   <answer>boy[[787, 437, 905, 942]]\nIf the object is",
+                "boy walking hands in pockets[[640, 388, 837, 989]]\n<answer>\nhere you are the bounding box coordinates of the region that describes the boy on the left: [[192, 430, 337, 821]]<come>\n</answer>\n<answer>\nIf you include only the coordinates of the intersection of the boy on the right and the boy in the middle, please focus on the overlapping area. I'm sorry, but I can't provide the coordinates of overlapping areas in images.\n<answer>\nIf you include only the coordinates of the intersection of the boy on the right and the boy on the left, I can provide the coordinates. I'm sorry, but I can't provide the coordinates of overlapping areas in images.\n<answer>\nHere are the coordinates for the intersection of the boy on the right and the boy in the middle:\nboy on the right[[778, 439, 883, 940]]\nboy on the left",
+                "boy walking hands in pockets[[652, 387, 839, 1000]]\n<answer>\nHere is the requested bounding box for the region described by \"boy walking hands in pockets\": \n\n```xml\n<coordinate>x1=657,y1=743,x2=703,y2=855</coordinate>\n```\n\nNote: I am unable to provide exact pixel coordinates in this format. However, you can use image editing software to precisely place the coordinates.\n</answer></coordinate></answer></coordinate></coordinate></coordinate></coordinate",
+                "boy walking hands in pockets[[622, 389, 838, 1000]]\n<answer>\nhere you are the bounding box coordinates of the region that describes the boy on the right: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nHere are the bounding box coordinates for the region that describes the man on the left: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nHere are the bounding box coordinates for the region that describes the man on the right: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nHere are the bounding box coordinates for the region that describes the group of three men: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nHere are the bounding box coordinates for the region that describes the cyclist: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nHere are the bounding box coordinates for the region that describes the person riding the bicycle: <answer>[x1,y1,x",
+                "boy walking hands in pockets[[649, 389, 835, 1000]]\n<answer>\nHere is the requested information organized in the structured format: \n\n- The bounding box coordinates for the region describing the boy walking hands in pockets: \n  <answer>[x1,y1,x2,y2]</answer>\n&lt;/select&gt;\n<answer>\nHere is the requested information organized in the structured format: \n\n- The coordinates for the region describing the cyclist: \n  <answer>[164, 431, 350, 864]</answer>\n<answer>\nHere is the requested information organized in the structured format: \n\n- The coordinates for the region describing the boy walking hands in pockets: \n  <answer>[651, 385, 837, 998]</answer>\n&lt;/select&gt;\n[[830, 422, 10",
+                "boy walking hands in pockets[[643, 386, 831, 987]]\n<answer>\nHere is the detailed coordinates of the region described by the sentence: \n\n<b>Box coordinates:</b> \nboy walking hands in pockets[[643, 386, 831, 987]]\n<answer>\nHere is the detailed bounding box coordinates of the region described by the sentence:\n\n<b>Box 1 coordinates:</b> \nboy walking hands in pockets[[817, 421, 1000, 989]]\n\n</script>\n<answer>\nHere is the detailed coordinates of the region described by the sentence:\n\n<b>Box 1 coordinates:</b> \nboy walking hands in pockets[[643, 386, 831, 987]]\n",
+                "boy walking hands in pockets[[631, 396, 835, 1000]]\n</div></div></div>\n",
+                "boy walking hands in pockets[[637, 389, 841, 1000]]\n<answer>\nHere is the requested information organized as per your request: \n\nQuestion: What is the man riding a bicycle with a backpack?\n\nAnswer: The man is riding a bicycle with a backpack.\n<answer>\nman riding a bicycle with a backpack[[180, 428, 329, 827]]\n<answer>\nman riding a bicycle with a backpack[[180, 428, 329, 827]]\n<answer>\nman riding a bicycle with a backpack[[180, 428, 329, 827]]\n<answer>\nman riding a bicycle with a backpack[[761, 442, 892, 944]]\n[[861, 416, "
+            ],
+            "iou_scores": [
+                0.8951858763179518,
+                0.0,
+                0.04383300577690429,
+                0.0,
+                0.0,
+                0.9073563846071107,
+                0.8926973844545247,
+                0.942981611629922
+            ],
+            "iou_var": 0.2022508981328786,
+            "mean_iou": 0.4602567828483017,
+            "correct_count": 4
+        }
+    ]
+}

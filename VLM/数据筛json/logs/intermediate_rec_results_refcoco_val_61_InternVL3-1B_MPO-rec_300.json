@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 61,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000462957.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>sitting with white hat</ref>",
+            "ground_truth": [
+                367,
+                614,
+                665,
+                991
+            ],
+            "model_output": [
+                "sitting with white hat[[379, 614, 669, 997]]\nSuddenly, I didn't get the bounding box coordinates for the region of interest. Please provide more detail if you have any.\nsitting with white hat[[608, 555, 773, 988]]\nSuddenly, I didn't get the bounding box coordinates for the region of interest. Please provide more detail if you have any.\nsitting with white hat[[377, 98, 512, 989]]\nSuddenly, I didn't get the bounding box coordinates for the region of interest. Please provide more detail if you have any.\nwoman[[268, 103, 498, 989]]\nSuddenly, I didn't get the bounding box coordinates for the region of interest. Please provide more detail if you have any.\nwoman[[268, 103, 498, 989]]\nSuddenly,",
+                "sitting with white hat[[378, 616, 674, 990]]\n<answer>\nRESPONSE: <list> <var>[[593, 548, 769, 988]]</var>\n<question>What is the man in the background wearing?<br>\nclothing[[898, 1, 1000, 715]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "sitting with white hat[[386, 616, 673, 989]]\n<answer>\nimagen0<answer>[u]\n</image>\nRate the sentiment of the sentiment word or phrase 'wearing' in the description?\n</image>\n</statement>Warmer\n</statement>Yes\n</statement>Positive\n</statement>Neutral\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement>Positive\n</statement",
+                "sitting with white hat[[373, 613, 665, 996]]\n another person sitting[[604, 557, 779, 986]]\n another person woman[[513, 48, 707, 748]]\n another person man[[292, 100, 501, 987]]\n another person woman[[624, 212, 947, 825]]\n another person man[[887, 7, 1000, 714]]\n another person boy[[723, 209, 941, 816]]\n",
+                "sitting with white hat[[378, 613, 665, 990]]\nAnother question: What is the person wearing a white hat on?\n;'s what is the person wearing a white hat on? <answer>[x1,y1,x2,y3]</answer>\n[[587, 553, 766, 999]]\nThis appears to be a close-up of the person. <answer>[x1,y1,x2,y3]</answer>\nThis person is wearing a white hat on their head. <answer>[x1,y1,x2,y3]</answer>\nThis person is wearing a white hat on their head. <answer>[x1,y1,x2,y3]</answer>\nThis person is wearing a white hat on their head. <answer>[x1,y1,x2,y3]</answer>\n[[898, 6,",
+                "sitting with white hat[[376, 608, 666, 998]]\n<answer><measuring</measuring> sitting with white hat[[596, 547, 773, 989]]\n</answer>\nwoman standing with man[[273, 101, 495, 987]]\n<answer><measuring</measuring> woman standing[[273, 101, 495, 987]]\n</answer>\n<answer>man[[880, 2, 998, 726]]\n</answer>\n</body></div>\nwoman[[273, 101, 495, 987]]\n</body></div>\nperson[[495, 49, 714, 763]]\n</",
+                "sitting with white hat[[379, 611, 670, 998]]\nAI:\n<br><image><br>\nsitting with white hat[[602, 555, 773, 998]]\nAI: I couldn't find the person wearing a white hat clearly in the image. However, there's a person sitting on a chair to the right side of the image, who might be wearing a white hat. Please check the image again for more details.\n<br><image><br><answer>sitting with white hat[[379, 611, 670, 998]]\nAI: Based on the given image, there's a person sitting on a chair to the right side of the image, wearing a white hat. They appear to be in the foreground, and their head is visible. Please check the image again for more details.\n<br)<image><br><answer>sitting with white hat[[379, 611, 6",
+                "sitting with white hat[[382, 613, 666, 989]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1asitting[[597, 549, 785, 989]]\n</answer>><answer>\n</answer>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n</image>><image>\n"
+            ],
+            "iou_scores": [
+                0.9327646763672856,
+                0.16534649817632538,
+                0.9023411081245123,
+                0.964819716384161,
+                0.0,
+                0.1570990558877994,
+                0.9204462997584109,
+                0.1503839213049786
+            ],
+            "iou_var": 0.1673919595906165,
+            "mean_iou": 0.5241501595004341,
+            "correct_count": 4
+        },
+        {
+            "image": "train2014/COCO_train2014_000000056738.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom half body on top left</ref>",
+            "ground_truth": [
+                164,
+                0,
+                352,
+                385
+            ],
+            "model_output": [
+                "bottom half body on top left[[188, 2, 352, 373]]\n[[23, 19, 988, 984]]\nReview\nbottom half body on top left[[188, 2, 352, 373]]\nReview\nbottom half body on top left[[755, 4, 1000, 557]]\nReview\nbottom half body on top left[[755, 4, 1000, 557]]\nReview\nbottom half body on top left[[188, 2, 352, 373]]\nReview\nbottom half body on top left[[188, 2, 352, 373]]\nReview\nbottom half body on top left[[755, 4, 1000, 557]]\nReview\nbottom half",
+                "bottom half body on top left[[189, 2, 344, 377]]\n<answer>\nHere is the relevant tag from the image: \nbottom half body on top left[[228, 11, 1000, 1000]]\n<answer>\nWhere is the person wearing a red scarf?  \nin the image[[768, 3, 996, 566]]\n</answer>\n<answer>\nin the image[[768, 3, 996, 566]]\n<answer>\nHere is the relevant tag from the image: \nskis[[72, 798, 404, 1000]]\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body",
+                "bottom half body on top left[[197, 2, 345, 376]]\n[[18, 22, 993, 1000]]\n</div>>\nuser\nWhat is the person in the foreground wearing? A woman? Yes glove[[781, 219, 992, 365]]\nglove[[781, 219, 992, 365]]\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</",
+                "bottom half body on top left[[193, 0, 356, 379]]\n<answer>\nHere is the reconstructed text from the image:\n\nbottom half body on top left[[193, 0, 356, 379]]\n[[234, 24, 990, 989]]\n[[758, 0, 1000, 561]]\n[[650, 0, 704, 110]]\n[[12, 27, 984, 984]]\n[[762, 0, 987, 551]]\n[[95, 798, 462, 1000]]\n",
+                "bottom half body on top left[[188, 2, 348, 375]]\n<answer>\nHere is the relevant tag from the image: \nbottom half body on top left[[237, 20, 993, 1000]]\n</answer>\n<answer>\nbottom half body on top left[[188, 2, 348, 375]]\n<answer>\nHere is the relevant tag from the image: \nskis[[45, 799, 382, 1000]]\n</answer>\n<answer>\nskis[[45, 799, 382, 1000]]\n</answer>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</",
+                "bottom half body on top left[[189, 2, 349, 381]]\n[[17, 24, 985, 989]]\nMore tags: skis[[79, 803, 366, 1000]]\n[[652, 2, 826, 110]]\nAnd\nskis[[777, 227, 983, 771]]\nFor the person on the right, please specify their location tags.\nskis[[77, 797, 392, 999]]\nFor the person on the left, please specify their location tags.\nskis[[77, 797, 392, 999]]\nFor the person on the right, please specify their location tags.\nFor the person",
+                "bottom half body on top left[[185, 2, 344, 380]]\n<answer>\nHere is the relevant tag from the image: \nbottom half body on top left[[216, 13, 995, 989]]\n<answer>\nHow would you describe the region labeled as skier[[216, 13, 995, 989]] in the image?\n\u8709\u8763\nskier[[216, 13, 995, 989]]\n<answer>\nHow many people are visible in the image?  \nmany[[185, 2, 344, 380]]\n[[185, 2, 344, 380]]\n[[745, 0, 1000, 561]]\n[[216, 13, 9",
+                "bottom half body on top left[[184, 5, 343, 379]]\n<answer>\nHere is the relevant tag from the image:person[[216, 12, 995, 990]]\n}</div></div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+            ],
+            "iou_scores": [
+                0.8406189555125725,
+                0.05874008248133024,
+                0.764741641337386,
+                0.8154839233517376,
+                0.05442216560674718,
+                0.8378004973749654,
+                0.83036750483559,
+                0.821580547112462
+            ],
+            "iou_var": 0.10931824756046474,
+            "mean_iou": 0.6279694147015988,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000208075.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle man</ref>",
+            "ground_truth": [
+                461,
+                312,
+                675,
+                942
+            ],
+            "model_output": [
+                "middle man[[449, 312, 694, 926]]\n[[719, 144, 948, 946]]\nWould you happen to know what the date August 12th refers to?\nAugust 12th[[43, 222, 949, 953]]\n[[638, 330, 803, 454]]\n[[194, 345, 447, 941]]\n[[192, 344, 445, 938]]\n[[716, 319, 784, 365]]\n[[653, 328, 720, 369]]\n[[172, ",
+                "middle man[[449, 309, 699, 923]]\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\nAnother person's bounding box: <answer>[x1,y1,x2,y2]</answer>\n",
+                "middle man[[447, 309, 693, 930]]\n<answer>\nawah[[697, 149, 953, 948]]\n<answer>\n[[248, 218, 480, 949]]\n[[481, 309, 694, 930]]\n[[694, 145, 949, 955]]\n</select>\n[[10, 148, 963, 953]][[212, 344, 439, 579]]\n</select>\n[[654, 332,",
+                "middle man[[447, 307, 697, 921]]\n another man in the photo is standing on the right side.\n another man in the photo is standing on the right side. <answer>[r]\n another man in the photo is standing on the right side. <answer>[r]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]\n another man in the photo is standing on the right side. <answer>[r.]",
+                "middle man[[445, 311, 704, 927]]\nAnother man on the right side of the image, holding a tennis racket.\nanother man[[689, 148, 952, 958]]\nAnother man, standing on the right side of the image, holding a tennis racket.\nracket[[682, 333, 876, 570]]\nracket[[682, 333, 876, 570]]\nman[[244, 219, 476, 949]]\nman[[445, 311, 704, 927]]\nfootwear[[521, 797, 656, 924]]\nt-shirt[[445, 311, 704, 927]]",
+                "middle man[[445, 303, 695, 923]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]\n[[709, 152, 954, 946]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]\n\u5f29\u5c04\u9776\u56fe\u7247\nmiddle man[[445, 303, 695, 923]]",
+                "middle man[[449, 306, 694, 930]]\n<answer>\n\u526f\u4e3b\u5e2d\u7684\u7537\u4eba\u5750\u5728\u4e00\u4e2a\u680f\u6746\u4e0a\uff0c\u4ed6\u624b\u91cc\u62ff\u7740\u4e00\u4e2a\u5c0f\u52fa\u5b50\uff0c\u5fae\u7b11\u7740\u3002\n",
+                "middle man[[442, 311, 698, 923]]\nAnother man in the image is sitting on the bench. The coordinates for this region are: <answer>[x1,y1,[x2,x3]]\nAnswers:\nmiddle man[[442, 311, 698, 923]]\nanother man[[724, 152, 950, 953]]\nanother man[[246, 221, 476, 940]]\nclothing[[245, 347, 473, 932]]\nfootwear[[519, 806, 652, 921]]\nbowl[[537, 526, 609, 566]]\nartifact[[83, 500, 818, 963]]"
+            ],
+            "iou_scores": [
+                0.8540304444473332,
+                0.0,
+                0.8514040712271621,
+                0.8248794258009798,
+                0.808643719970016,
+                0.8220109891491583,
+                0.8507796819515208,
+                0.8134604138411576
+            ],
+            "iou_var": 0.07602518581481298,
+            "mean_iou": 0.728151093298416,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000287575.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front vase</ref>",
+            "ground_truth": [
+                249,
+                495,
+                625,
+                900
+            ],
+            "model_output": [
+                "front vase[[259, 509, 632, 895]]\n[[656, 562, 981, 857]]\n[[101, 490, 378, 813]]\n[[105, 180, 345, 639]]\n[[256, 508, 636, 867]]\n[[653, 217, 980, 633]]\n[[339, 435, 660, 635]]\n[[256, 508, 636, 867]]\n[[653, 217, 980, 633]]\n[[25",
+                "front vase[[259, 510, 628, 895]]\n[[664, 557, 986, 854]]\n[[102, 486, 387, 810]]\n[[608, 215, 984, 647]]\n[[248, 506, 624, 867]]\n[[82, 175, 339, 639]][[456, 439, 669, 636]]\n[[447, 433, 562, 628]]",
+                "front vase[[249, 512, 631, 888]]\n[[106, 494, 374, 804]]\n[[249, 512, 631, 888]]\nfront vase[[249, 512, 631, 888]]\nwindow[[687, 0, 997, 615]]\nflower[[576, 213, 973, 652]]\nvessel[[249, 512, 631, 888]]\nvase[[106, 494, 374, 804]]\nwindow[[687, 0, 997, 615]]\nblanket[[4",
+                "front vase[[249, 509, 631, 899]]\n[[646, 558, 984, 857]]\n[[106, 486, 384, 811]]\n[[106, 178, 362, 643]]\n[[262, 216, 639, 743]]\n[[263, 508, 635, 886]]\n[[646, 558, 984, 856]]\n[[106, 178, 362, 643]]\n[[262, 216, 639, 743]]\n",
+                "front vase[[254, 512, 636, 898]]\n[[650, 558, 983, 847]]\n[[72, 489, 367, 806]]\n[[252, 509, 634, 849]]\n[[643, 216, 980, 641]]\n[[420, 442, 690, 644]]\n[[91, 175, 341, 637]][[421, 439, 689, 6",
+                "front vase[[258, 510, 634, 899]]\n[[236, 508, 625, 893]]\n[[100, 492, 366, 802]]\n[[643, 218, 982, 850]]\n[[369, 438, 656, 633]]\n[[70, 181, 336, 640]]\n[[341, 437, 987, 853]]\n[[340, 437, 987, 853]]\n[[340, 437, 987, 853]]",
+                "front vase[[258, 509, 630, 897]]\n[[640, 213, 980, 850]]\n[[91, 492, 377, 802]]\n[[266, 496, 636, 845]]\n[[627, 545, 981, 850]]",
+                "front vase[[254, 508, 629, 892]]\n[[236, 508, 632, 897]]\n[[649, 560, 982, 851]]\n[[101, 176, 370, 809]]\n[[655, 219, 982, 634]]\n[[237, 506, 628, 894]]\n[[103, 174, 369, 809]]"
+            ],
+            "iou_scores": [
+                0.9115639235524126,
+                0.9183693420666732,
+                0.9148418491484185,
+                0.9483896003104385,
+                0.9149023165480495,
+                0.916433968198946,
+                0.9233303073531319,
+                0.9261975347168045
+            ],
+            "iou_var": 0.00012125058118999989,
+            "mean_iou": 0.9217536052368593,
+            "correct_count": 8
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 16,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000453620.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>cat on right</ref>",
+            "ground_truth": [
+                513,
+                117,
+                746,
+                874
+            ],
+            "model_output": [
+                "cat on right[[519, 114, 746, 865]]\n[[380, 164, 526, 924]]\n[[0, 174, 352, 665]]\n anyway, and then the first sentence, what does it mean?\nwhat does it mean?[[61, 47, 537, 592]]\n[[519, 114, 746, 865]]\n[[380, 164, 526, 924]]\n[[0, 631, 789, 739]]\n[[662, 822, 1000, 1000]]\n[[540, 930, 676,",
+                "cat on right[[517, 116, 749, 865]]\n<answer>cat[[380, 167, 530, 934]]\n<answer>cat[[2, 174, 362, 661]]\n</answer><issue>Image link:<br></issue>\n</issue>",
+                "cat on right[[519, 116, 752, 870]]\n<answer>\nHere is the bounding box coordinates for the region describing the cat on the right:\n\ncat on right[[370, 169, 535, 920]]\n<answer>\nHere is the original description with the corrected coordinates:\n\ncat on right[[519, 116, 752, 870]]\n<answer>\nHere is the corrected bounding box coordinates:\n\ncat on right[[519, 116, 752, 870]]\n<answer>\nHere is the final bounding box coordinates:\n\ncat on right[[370, 169, 535, 920]]\n<answer>\nHere is the corrected bounding box coordinates:\n\ncat on right[[370, 169, 535, 920]]\n",
+                "cat on right[[515, 118, 751, 870]]\n<answer>\nhere you to find the region described as \"cat on right\" in this sentence <answer>[x1,y1,x2,y2]</answer>\n<answer>\ncat on right[[373, 169, 526, 925]]\n</answer><br>\n<answer>\ncat[[0, 175, 364, 661]]\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code></div></div></div>\n</code",
+                "cat on right[[507, 113, 747, 864]]\n<answer>\nHere is the bounding box coordinates for the region describing the cat on the left: \ncat on the left[[0, 177, 360, 665]]\n\nAnd here is the bounding box coordinates for the region describing the cat on the right: \ncat on the right[[364, 168, 529, 925]]\n<answer>\nHere is the bounding box coordinates for the region describing the butterfly on the monitor: \nbutterfly[[0, 177, 360, 665]]\n\nAnd here is the bounding box coordinates for the region describing the butterfly on the monitor: \nbutterfly[[364, 168, 529, 925]]\n\nAnd here is the bounding box coordinates for the region describing the cat in front of the monitor: \ncat in front of monitor[[507, ",
+                "cat on right[[512, 112, 747, 870]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \ncat on right[[368, 169, 524, 921]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \ncat[[0, 175, 369, 667]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \ncat[[0, 175, 369, 667]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \ncat[[512, 112, 747, 870]]\n<answer>\nHere is the bounding box coordinates for the region described by the sentence: \ncat[[512, 112",
+                "cat on right[[515, 116, 747, 861]]\n<answer>cat[[379, 163, 537, 921]]\n again in the previous answer\n another cat[[3, 173, 369, 658]]\n another cat[[379, 163, 537, 921]]\n another cat[[515, 116, 747, 861]]\n another cat[[379, 163, 537, 921]]\n another cat[[379, 163, 537, 921]]\n another cat[[515, 116, 747, 861]]\n<answer>\n[[515",
+                "cat on right[[519, 116, 748, 870]]\n<answer>\ncat on right[[353, 166, 529, 918]]\n}</div></div></div>\n</pre><br/>\n</li><li><span class=\"mw-label\">Region of interest</span>: <span class=\"mw-skip\"><b>1</b></span></span></li><li><span class=\"mw-label\">Region of interest</span>: <span class=\"mw-skip\"><b>2</b></span></span></li><li><span class=\"mw-label\">Region of interest</span>: <span class=\"mw-skip\"><b>3</b></span></span></li></ul></div></div></div></div>\n</pre><p></p></div></div></div>\n</li><li><span class=\"mw-label\">Region of interest</span>: <span class=\"mw-skip\"><b>4</b></span></span></li><li><span class=\"mw-label"
+            ],
+            "iou_scores": [
+                0.9589635269001818,
+                0.04301533219761499,
+                0.9436819557008149,
+                0.0,
+                0.9533384455277428,
+                0.9798226312673822,
+                0.9690285694954245,
+                0.9596611197197332
+            ],
+            "iou_var": 0.16562132084445175,
+            "mean_iou": 0.7259389476011118,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000524710.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>butterknife second from bottom</ref>",
+            "ground_truth": [
+                280,
+                832,
+                966,
+                921
+            ],
+            "model_output": [
+                "butterknife second from bottom[[191, 745, 895, 962]]\n[[174, 747, 837, 861]]\n[[186, 887, 682, 962]]\n${{86, 886, 965, 964]}\n[[174, 747, 837, 962]]\n${{177, 886, 693, 963}}\n${{190, 892, 733, 961}}\n[[191, 745, 895, 962]]\n[[174, 887, 682, 962]]\n",
+                "butterknife second from bottom[[230, 746, 860, 922]]\n<answer>see the stack of pancakes? </see>\n<answer>yes</answer>\n<answer>in the middle of the image, on the plate with pancakes? </see> \n<answer>yes</answer>\n<answer>:\n<answer>on the plate with pancakes, next to the butter?</see> \n</li>\n</ul><answer>:\n</li>\n</ul><answer>on the left side, between the butter and the pancakes? </see> \n</li>\n</ol><answer>:\n</li>\n</ol><question>What is the object on top of the plate with pancakes?</object> \n</li>\n</ul><object>on top of the plate with pancakes?</",
+                "butterknife second from bottom[[199, 747, 906, 962]]\n[[181, 747, 863, 964]]\nDRINK\nbutter[[544, 105, 740, 324]]\nPLATE\nbutter[[170, 330, 900, 797]]\nSAVORY\npan[[128, 27, 492, 175]]\nSAVORY\npan[[578, 40, 962, 239]]\nSAVORY\napple[[179, 32, 499, 169]]\n[[42, 100, 117, 202]]\nSAVORY\napple[[17",
+                "butterknife second from bottom[[214, 745, 911, 961]]\n[[209, 893, 964, 961]]\nPK\n[[174, 746, 864, 809]]\nPK[[173, 748, 865, 806]][[170, 891, 957, 960]]\nPK[[184, 747, 861, 809]][[171, 748, 864, 806]]",
+                "butterknife second from bottom[[221, 748, 874, 957]]\n[[166, 749, 868, 964]]\n[[172, 332, 634, 656]]\n[[172, 332, 634, 656]]\n[[166, 749, 868, 957]]\n[[221, 748, 874, 957]]\n[[221, 748, 874, 957]]\n[[166, 749, 868, 964]]\n[[172, 332, 634, 656]]\n",
+                "butterknife second from bottom[[202, 745, 923, 960]]\n[[202, 745, 923, 960]]\n[[174, 752, 834, 858]]\n[[172, 886, 814, 960]]\n[[172, 886, 814, 960]]\n[[159, 333, 898, 794]]\n[[159, 333, 898, 794]]\n[[160, 141, 495, 344]]\n[[493, 106, 961, 322]]",
+                "butterknife second from bottom[[180, 746, 886, 958]]\n[[164, 888, 669, 964]]\n[[161, 879, 655, 964]]\n[[193, 334, 606, 652]]\n[[241, 324, 624, 652]]\n[[67, 111, 1000, 970]]\n[[161, 888, 669, 958]]\n[[164, 888, 655, 964]]\n[[193, 879, 669, 9",
+                "butterknife second from bottom[[202, 747, 851, 964]]\n[[162, 748, 866, 926]]\n[[166, 872, 963, 962]]\n[[229, 330, 632, 664]]\n[[228, 334, 632, 649]]\n[[69, 103, 971, 967]]\n[[531, 46, 969, 234]]\n[[158, 30, 477, 170]]\n[[165, 343, 563,"
+            ],
+            "iou_scores": [
+                0.3440570254011956,
+                0.0,
+                0.35408815024309637,
+                0.3612742606804892,
+                0.3654373898316801,
+                0.36027624935470465,
+                0.3439843869585183,
+                0.3363981783038102
+            ],
+            "iou_var": 0.013657409876477894,
+            "mean_iou": 0.3081894550966868,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000463505.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman</ref>",
+            "ground_truth": [
+                64,
+                134,
+                567,
+                983
+            ],
+            "model_output": [
+                "woman[[65, 129, 556, 998]]\n[[456, 446, 895, 989]]\n[[443, 449, 895, 989]]\n[[55, 135, 556, 1000]]\n[[549, 136, 906, 743]]\n[[674, 14, 858, 460]]\n[[575, 678, 713, 836]]\n[[331, 0, 534, 421]]\n[[296, 497, 553, 999]]\n[[750, 445, ",
+                "woman[[58, 128, 563, 989]]\n[[442, 449, 901, 989]]\n[[442, 448, 902, 988]]\n[[57, 117, 565, 1000]]\n[[570, 716, 703, 839]]\n[[674, 16, 849, 803]]\n[[941, 464, 999, 948]]\n[[645, 715, 707, 824]]\n[[491, 504, 560, 750]]\n[[442, 505",
+                "woman[[61, 138, 542, 1000]]\n[[440, 445, 900, 989]]\n[[440, 444, 900, 990]]\n[[56, 116, 535, 989]]\n[[545, 704, 722, 844]]\n[[702, 13, 863, 243]]\n[[819, 444, 964, 637]]\n[[946, 455, 999, 998]]\n[[814, 628, 999, 978]]\n[[712, 699, 75",
+                "woman[[61, 134, 550, 989]]\n[[438, 445, 901, 984]]\n[[439, 455, 900, 985]]\n[[43, 127, 535, 1000]]\n[[641, 16, 852, 804]]\n[[641, 16, 852, 804]]\n[[438, 447, 901, 984]]\n[[439, 455, 900, 985]]\n[[61, 134, 550, 989]]\n[[438, 445, 901",
+                "woman[[67, 135, 565, 989]]\n[[439, 449, 903, 989]]\n[[561, 697, 699, 830]]\n[[389, 449, 617, 717]]\n[[71, 131, 520, 1000]]\n[[513, 446, 904, 987]]\n[[733, 14, 863, 242]]\n[[730, 445, 996, 636]]\n[[727, 441, 805, 594]]\n[[816, 4",
+                "woman[[59, 142, 543, 989]]\n[[444, 448, 900, 989]]\n[[531, 452, 898, 989]]\n[[80, 130, 543, 1000]]\n[[607, 707, 689, 818]][[620, 657, 719, 786]]\n[[720, 15, 860, 464]]\n[[736, 439, 1000, 978]]\n[[552, 439, 628, 603]][[",
+                "woman[[66, 127, 563, 997]]\n[[442, 446, 901, 989]]\n[[510, 443, 898, 726]]\n[[60, 133, 560, 1000]]\n[[637, 703, 706, 813]]\n[[765, 353, 954, 624]]\n[[725, 17, 874, 243]][[725, 17, 874, 243]]\n[[724, 14, 877, 245]]\n",
+                "woman[[64, 143, 561, 1000]]\n[[452, 452, 905, 989]]\n[[549, 448, 895, 894]]\n[[55, 122, 568, 1000]]\n[[548, 641, 713, 846]]\n[[712, 6, 862, 241]]\n[[836, 444, 963, 636]]\n[[923, 461, 1000, 960]]"
+            ],
+            "iou_scores": [
+                0.9542011641987149,
+                0.9667960593426305,
+                0.9226766325763719,
+                0.953959050049939,
+                0.9820223935261083,
+                0.9278669418365749,
+                0.9644992731162739,
+                0.9586310781270092
+            ],
+            "iou_var": 0.0003430725719504226,
+            "mean_iou": 0.9538315740967027,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000377609.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>dog in center of photo</ref>",
+            "ground_truth": [
+                340,
+                404,
+                898,
+                793
+            ],
+            "model_output": [
+                "dog in center of photo[[319, 409, 875, 780]]\n[[48, 240, 514, 600]]\nHere is the updated room image with the box coordinates of the second dog:\nsecond dog[[48, 240, 514, 600]]\nHere is the updated room image with the box coordinates of the first dog:\n[[48, 240, 514, 600]]\nHere is the updated room image with the box coordinates of the first dog: (254, 402, 548, 605)]\nHere is the updated room image with the box coordinates of the second dog: (254, 402, 548, 605)]\n[[319, 409, 875, 780]]",
+                "dog in center of photo[[285, 397, 875, 784]]\n[[46, 243, 504, 603]]\nHere is the broken and fragmented text from the image:\n\n- The image shows two black dogs on a bed with a white bedspread.\n- One dog is standing on its hind legs, while the other is sitting on the bed.\n- There is a gray pillow behind the dogs.\n- The background includes a white pillow and a white bedsheet.\n- The dogs are facing each other.\n\nThe bounding box coordinates for the region described are:\n\n- (x1,y1): [43, 674, 324, 988]\n- (x2,y2): [324, 663, 491, 993]\n\nThese coordinates define the position of the dog in the image within the given bounding box.\n[[285, 397, 875, 784]]",
+                "dog in center of photo[[314, 404, 880, 782]]\n[[49, 241, 510, 601]]\n[[433, 427, 862, 790]]\nHere is the expanded information about the dog image:\n[[33, 679, 337, 986]]\nAnd the bounding box for the dog in the back: dog[[433, 427, 862, 790]]\n[[33, 241, 510, 601]]\nAnd the bounding box for the dog in the front: tail[[49, 241, 510, 601]]\nAnd the bounding box for the dog in the back: dog[[",
+                "dog in center of photo[[304, 405, 875, 793]]\n[[57, 242, 492, 600]]\n[[304, 405, 875, 793]]\nHere is the sentence again for context: dog[[57, 242, 492, 600]]\nAt the end of the sentence: dog[[304, 405, 875, 793]]\nAt the end of the sentence: dog[[57, 242, 492, 600]]\nAt the end of the sentence: dog[[304, 405, 875, 793]]\n[[304, 405, 875, 79",
+                "dog in center of photo[[319, 409, 867, 784]]\n[[45, 244, 504, 604]]\ndog[[452, 421, 872, 788]]\ndog[[45, 244, 504, 604]]\n[[452, 421, 872, 788]]\n[[45, 675, 331, 984]]\n[[45, 244, 504, 604]]\n[[319, 409, 867, 784]]\n[[319, 409, 867, 784]]\n",
+                "dog in center of photo[[315, 408, 879, 781]]\n[[54, 242, 497, 600]]\n${{564, 437, 876, 784}}\ndog[[564, 437, 876, 784]]\n[[316, 408, 570, 580]]\n[[34, 243, 493, 603]]\n[[2, 2, 997, 990]]\n[[2, 2, 997, 990]]\n[[34, 243, 493, 603]]\n[[34, 243, 49",
+                "dog in center of photo[[304, 404, 885, 783]]\n[[55, 243, 507, 600]]\n \u2022 dog[[55, 243, 507, 600]]\n \u2022 dog[[304, 404, 885, 783]]\n \u2022 dog[[304, 404, 885, 783]]\uff1b\n \u2022 dog[[55, 243, 507, 600]]\n \u2022 dog[[55, 243, 507, 600]];\n \u2022 dog[[304, 404, 885, 783",
+                "dog in center of photo[[314, 406, 872, 787]]\n[[56, 243, 512, 601]]\n\u00b7[[45, 674, 334, 986]]\n\u00b7[[306, 401, 626, 675]]\n\u00b7[[60, 242, 456, 595]]\n[[603, 434, 875, 782]]\n[[442, 418, 875, 789]]\n[[502, 447, 879, 785]]\n"
+            ],
+            "iou_scores": [
+                0.8827322739745522,
+                0.8397633957338533,
+                0.899642998809996,
+                0.8984980305588018,
+                0.8785793355472866,
+                0.8880677777434217,
+                0.8953169835201512,
+                0.8930421909696521
+            ],
+            "iou_var": 0.00033343592767236116,
+            "mean_iou": 0.8844553733572144,
+            "correct_count": 8
+        }
+    ]
+}

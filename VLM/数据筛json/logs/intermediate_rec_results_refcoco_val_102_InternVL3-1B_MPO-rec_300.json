@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 102,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000139728.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>food left</ref>",
+            "ground_truth": [
+                0,
+                454,
+                337,
+                911
+            ],
+            "model_output": [
+                "food left[[0, 439, 381, 948]]\n[[333, 140, 1000, 802]]\n\u52ab\u63a0\u8005.jpg\n[[0, 440, 377, 939]]\n[[333, 140, 1000, 802]]\n[[0, 440, 377, 939]]\n[[333, 140, 1000, 802]]\n[[0, 440, 377, 939]]\n[[333, 140, 1000, 802]]\n[[333, 140, 1000, 802]]",
+                "food left[[0, 440, 365, 937]]\n[[331, 144, 996, 790]]\nWikimedia: https://commons.wikimedia.org/wiki/File:McDonald's_Super_Burger.jpg\n[[331, 144, 996, 790]]\n[[3, 189, 442, 493]]\n[[330, 440, 1000, 836]]\n[[0, 440, 365, 937]]\n[[331, 144, 996, 790]]\n[[331, 144, 996, 790]]\n[[3, 189, 4",
+                "food left[[0, 439, 369, 945]]\n[[331, 141, 1000, 795]]\nfood[[0, 439, 369, 945]]\n[[331, 141, 1000, 795]]\n[[325, 439, 1000, 832]]\n[[325, 439, 1000, 832]]\n[[0, 0, 1000, 467]]\n[[0, 373, 1000, 989]][[0, 373, 1000, 989]]",
+                "food left[[0, 442, 370, 942]]\n[[331, 138, 999, 793]]\n[[326, 435, 999, 838]]\n[[0, 362, 999, 1000]]\n[[331, 435, 999, 838]]\n[[326, 435, 999, 838]]\n[[0, 362, 999, 1000]]\n[[331, 435, 999, 838]]\n[[326, 435, 999, 838]]\n[[0, 362, 999,",
+                "food left[[2, 445, 378, 940]]\n[[336, 142, 994, 798]]\n</div></small]]\n</p></div></small></p></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></",
+                "food left[[2, 440, 370, 938]]\n[[0, 445, 359, 947]]\n[[323, 136, 999, 796]]\n[[0, 363, 999, 989]]\n[[356, 43, 1000, 838]]\n[[411, 0, 634, 255]]\n[[501, 521, 971, 786]]",
+                "food left[[2, 439, 375, 942]]\n[[340, 137, 999, 836]]\n anyway, the salad is in a glass bowl, not a plate.\n<br><i>output</i>: <answer>[x1,y1,x2,y2]</answer>\n<br><i>coordinates</i>: [10, 119, 387, 937]\n<br><i>text</i>: food left[[2, 439, 375, 942]]\n</div></small></div></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small></small",
+                "food left[[2, 442, 382, 941]]\n[[330, 145, 1000, 797]]\n anyway, that's not one of the options. I'm sorry but I can't help with that.\nuser\nwhat is the food on the plate? two sandwiches and a bowl of macaroni salad?\n\u7684\u4eba\u6765\u8bf4\uff0c\u8fd9\u4e2a\u56fe\u7247\u4e2d\u663e\u793a\u4e86\u4e24\u4e2a\u5939\u7740\u8089\u7684\u4e09\u660e\u6cbb\uff0c\u4ee5\u53ca\u4e00\u76d8\u610f\u5927\u5229\u9762\uff1f\n</script>\nWhat are the two sandwiches in the image, and what type of meat are they made of?</div></div></div></div>\nThe image shows two sandwiches that are made of beef, with melted cheese on top.\nWhat is in the bowl? A dish of macaroni salad with various vegetables?</div></div></div></div>\nYes, there is a bowl of macaroni salad with various vegetables in it.\nThe sentence is about a sandwich with a plate of salad and a drink. Based on the image, are there any other items"
+            ],
+            "iou_scores": [
+                0.7941514678052277,
+                0.8489788043328464,
+                0.8248390586672665,
+                0.8324810810810811,
+                0.8185410139332956,
+                0.8312339150169944,
+                0.0,
+                0.803504886267018
+            ],
+            "iou_var": 0.07415358268989548,
+            "mean_iou": 0.7192162783879662,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000432372.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left hand row of hot dogs fifth from the front</ref>",
+            "ground_truth": [
+                12,
+                437,
+                474,
+                640
+            ],
+            "model_output": [
+                "left hand row of hot dogs fifth from the front[[11, 434, 480, 746]]\n<answer>left hand row of hot dogs fifth from the front[[11, 434, 480, 746]][[134, 515, 681, 783]]\n<answer>left hand row of hot dogs fifth from the front[[134, 515, 681, 783]]\n[[130, 580, 698, 939]][[173, 521, 709, 786]]\n[[600, 400, 1000, 589]]\n<img src=\"https://i.imgur.com/3",
+                "left hand row of hot dogs fifth from the front[[84, 508, 550, 746]]\n<answer>left hand row of hot dogs fifth from the front[[84, 508, 550, 746]]\n<answer>left hand row of hot dogs[[16, 436, 477, 629]]\n<answer>left hand row of hot dogs[[16, 436, 477, 629]]\n</select>\nRating: 4 | 4/5\n<answer>*This image features a variety of hot dogs being grilled on a barbecue grill. The hot dogs are arranged in rows on the grill, with some of them showing grill marks. The grill is placed on a burner, and there are flames visible underneath the hot dogs. The hot dogs are being cooked, and some are already cooked to a golden brown color. The image captures the process of grilling hot dogs,",
+                "left hand row of hot dogs fifth from the front[[15, 363, 473, 587]]\n<answer>left hand row of hot dogs fifth from the front[[15, 363, 473, 587]]</select>\n<answer>left hand row of hot dogs fifth from the front[[15, 363, 473, 587]]\n<answer>left hand row of hot dogs fifth from the front[[129, 510, 578, 750]]\n</select> left hand row of hot dogs fifth from the front[[129, 510, 578, 750]]\n<answer>left hand row of hot dogs fifth from the front[[129, 510, 578, 750]]\n[[54, 4",
+                "left hand row of hot dogs fifth from the front[[39, 434, 477, 624]]\n<answer>left hand row of hot dogs fifth from the front[[39, 434, 477, 624]]</select>\nisinga<answer>left hand row of hot dogs fifth from the front[[39, 434, 477, 624]]\n<answer>left hand row of hot dogs fifth from the front[[39, 434, 477, 624]]\n<issue>\n<answer>left hand row of hot dogs fifth from the front[[15, 437, 494, 624]]\n</select> left hand row of hot dogs fifth from the front[[15, 437, 494, 62",
+                "left hand row of hot dogs fifth from the front[[2, 436, 494, 632]]\n<answer>%0l</code></answer>\n<answer>[x1,y1,x2,y2]</x1</answer>\n<answer>-29, 485, 499, 699</div></div>",
+                "left hand row of hot dogs fifth from the front[[0, 441, 486, 737]]\n<answer>\nleft hand row of hot dogs fifth from the front[[0, 441, 486, 737]]\n<answer>\n\n<answer>\n\n</answer>\n<p>\n</p><answer>\n</p></div></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div",
+                "left hand row of hot dogs fifth from the front[[39, 433, 483, 627]]\n<answer>>\n<question>Identify the objects in the image that are located inside the grill.\nundry",
+                "left hand row of hot dogs fifth from the front[[23, 436, 478, 734]]\n><answer>[[[23, 436, 478, 734]]</answer>\n><answer></answer>\n><answer></answer>\n><answer>[115, 512, 706, 935]]\n><answer></answer>\n[[542, 355, 1000, 588]]\n[[622, 457, 1000, 639]]\n[[594, 401, 999, 587]]\n[[23, 206, 781, 457]]\n[[31, 512, 590, 736]]"
+            ],
+            "iou_scores": [
+                0.6409299655568312,
+                0.336000626574595,
+                0.5380723382258494,
+                0.8503465362059773,
+                0.0,
+                0.630991599407017,
+                0.8496792499383173,
+                0.6642795469551527
+            ],
+            "iou_var": 0.06935258134885795,
+            "mean_iou": 0.5637874828579675,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000272299.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>boy</ref>",
+            "ground_truth": [
+                213,
+                134,
+                865,
+                782
+            ],
+            "model_output": [
+                "boy[[213, 139, 842, 783]]\n[[387, 144, 953, 698]]\n[[42, 525, 264, 698]]\n[[503, 693, 722, 791]]\n[[252, 510, 537, 717]]\n[[32, 547, 217, 701]]\n[[270, 463, 953, 771]]\n[[12, 132, 1000, 710]]\n[[42, 522, 264, 698]]",
+                "boy[[211, 132, 865, 777]]\n[[393, 145, 955, 764]]\n[[277, 394, 890, 774]]\n[[27, 509, 265, 697]]\n[[280, 509, 889, 773]]\n[[391, 175, 480, 299]]\n[[391, 175, 480, 299]]\n[[32, 583, 275, 699]]\n[[32, 583, 275, 699]]\n[[32, 583,",
+                "boy[[214, 135, 852, 784]]\n<issue>are the coordinates of the region this sentence describes: boy[[214, 135, 852, 784]] and the woman [[378, 143, 951, 710]]?\n\u65b0\u6d6a\u5fae\u535a\nboy[[214, 135, 852, 784]]\n<issue>are the coordinates of the region this sentence describes: woman[[378, 143, 951, 710]] and the man boy[[214, 135, 852, 784]]?\n\u65b0\u6d6a\u5fae\u535a\nwoman[[378, 143, 951, 710]]\n<issue>are the coordinates of the region this sentence describes: man[[214,",
+                "boy[[211, 137, 845, 789]]\n[[371, 145, 953, 728]]\n[[44, 521, 270, 699]]\n[[467, 693, 727, 792]]\n[[259, 511, 504, 715]]\n[[292, 404, 634, 720]]\n[[351, 175, 475, 323]]\n[[25, 542, 278, 699]]\n[[371, 511, 953, 789]]\n[[44, 521",
+                "boy[[213, 137, 858, 793]]\n<answer>&#x1227;</answer>\n[[384, 146, 951, 704]]\nThe rest of the text in the image:\n[[32, 570, 262, 697]]\n<answer>\nboy[[384, 146, 951, 704]]\n\n<answer>\nboy[[213, 137, 858, 793]]\n\n<answer>\nboy[[213, 137, 858, 793]]\n\n</answer>\n</body></mark>\n</body></mark>",
+                "boy[[213, 137, 860, 790]]\n[[393, 147, 955, 697]]\n[[32, 510, 272, 695]]\n[[489, 697, 724, 790]]\n[[288, 493, 885, 722]]\n[[29, 566, 254, 699]]\n[[32, 566, 254, 699]]\n[[385, 184, 484, 292]]\n[[288, 493, 885, 722]]\n[[48",
+                "boy[[203, 138, 843, 778]]\n[[388, 144, 954, 718]]\n[[232, 508, 863, 786]]\n[[34, 568, 248, 701]]\n[[244, 508, 585, 727]]\n[[490, 692, 715, 792]]\n[[44, 590, 223, 698]]\n[[142, 138, 840, 774]]\n[[232, 508, 863, 786]]\n",
+                "boy[[213, 142, 857, 783]]\n[[213, 142, 857, 783]]\nRP\n[[415, 144, 953, 696]]\n[[298, 388, 882, 781]]\n[[32, 547, 264, 703]]\n[[321, 186, 493, 731]]\n[[277, 511, 515, 716]]\n[[362, 197, 471, 300]]\n[[375, 182, 428, 253"
+            ],
+            "iou_scores": [
+                0.9558570162481537,
+                0.9862287986073537,
+                0.9740756822064696,
+                0.9519316992975639,
+                0.0,
+                0.9757828429263548,
+                0.9400880399910467,
+                0.9740511414661814
+            ],
+            "iou_var": 0.10214429546345319,
+            "mean_iou": 0.8447519025928905,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000444348.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right above knife blade big carrot on right the fat one</ref>",
+            "ground_truth": [
+                534,
+                236,
+                736,
+                619
+            ],
+            "model_output": [
+                "right above knife blade big carrot on right the fat one[[735, 101, 989, 702]]\n[[90, 785, 1000, 982]]\n```\nright above knife[[735, 101, 989, 702]]\n```\n```[[570, 252, 747, 718]]\n```\n```[[444, 0, 694, 332]]\n```\n```[[0, 0, 250, 499]]\n```\n```[[216, 182, 514, 740]]\n```\n```[[727, ",
+                "right above knife blade big carrot on right the fat one[[753, 108, 951, 674]]\n[[624, 0, 806, 412]]\n```markdown\n| x1 | y1 | x2 | y2 |\n|------:|-----:|-----:|-----:|\n|  75  | 190 | 257 | 299 |\n|  75  | 508 | 613 | 646 |\n|  75  | 870 | 938 | 978 |\n```\n[[76, 790, 998, 981]]\n```markdown\nright above knife blade big carrot on right the fat one[[753, 108, 951, 674]]\n```\n```[[624, 0, 80",
+                "right above knife blade big carrot on right the fat one[[720, 109, 956, 672]]\n[[402, 2, 582, 283]]\n[[557, 250, 751, 719]]\n[[611, 0, 822, 412]]\n[[426, 196, 542, 333]]\n[[1, 84, 224, 497]]\n[[184, 180, 340, 608]]\n[[271, 182, 525, 742]]\n[[0, 84, 208, 498]]\n[[567, 251, 736, 713]]\n[[700, 81, ",
+                "right above knife blade big carrot on right the fat one[[723, 108, 951, 676]]\n[[555, 251, 750, 721]]\n anyway, I couldn't find the exact coordinates of the knife in the image. However, I can describe the knife based on its position. The knife is positioned in the center of the image, with its blade pointing to the right. The handle is visible on the right side of the knife. The blade appears to be a standard kitchen knife with a metallic finish.\nuser\nwhat is the size of the carrots?\n\uff1a\nthe size of the carrots[[1, 83, 202, 499]]\n<answer>\n</select>[[204, 183, 396, 615]]\n<answer>\n</select>\n<answer>",
+                "right above knife blade big carrot on right the fat one[[725, 108, 949, 672]]\nI'm sorry, but I can't provide the specific coordinates of the region mentioned in the sentence. However, I can describe the bounding boxes based on the image description provided. \n\nFor instance, if the region of interest was the top part of the knife blade, the bounding box would be:\n\ntop part of knife blade[[725, 108, 949, 672]]\n\nuser\nWhat is the size of the knife?  \nknife[[81, 789, 999, 982]]\n]\n[[81, 789, 999, 982]]\n[[81, 789, 999, 982]]\n",
+                "right above knife blade big carrot on right the fat one[[746, 108, 959, 674]]\nright above knife big carrot on right the fat one[[746, 108, 959, 674]]\n[[866, 218, 999, 676]]\nThe given sentence is about the carrot. Here are the coordinates for each carrot:\n\n1. (0, 0, 140, 498) - top left\n2. (203, 0, 498, 610) - top left\n3. (280, 182, 523, 743) - middle left\n4. (418, 0, 742, 618) - middle left\n5. (728, 0, 869, 425) - middle right\n6. (8",
+                "right above knife blade big carrot on right the fat one[[706, 106, 955, 679]]\n[[518, 254, 745, 726]]\n'));\n[[341, 304, 529, 737]]\n[[0, 83, 227, 497]]\n[[87, 788, 998, 982]]\n[[65, 788, 998, 985]]\n[[65, 789, 998, 985]]\n[[65, 790, 998, 989]]\n[[92, 784, 998, 983]]\n[[92",
+                "right above knife blade big carrot on right the fat one[[743, 108, 952, 667]]\nI'm sorry, but I can't provide the bounding box coordinates for the region described in the sentence.\n[[1, 87, 234, 497]]\n2.98\n3.41\n4.39\n5.62\n6.82\n7.24\n8.34\n9.47\n10.59\n11.72\n12.86\n13.99\n24.37\n35.33\n46.51\n57.67\n68.83\n79.96\n"
+            ],
+            "iou_scores": [
+                0.00166784969321146,
+                0.0,
+                0.030023615180347466,
+                0.024661822468559767,
+                0.021118958940091935,
+                0.0,
+                0.05509390898236899,
+                0.0
+            ],
+            "iou_var": 0.0003496288402542831,
+            "mean_iou": 0.016570769408072453,
+            "correct_count": 0
+        }
+    ]
+}

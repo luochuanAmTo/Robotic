@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 13,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000269890.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>red left moto</ref>",
+            "ground_truth": [
+                0,
+                51,
+                183,
+                367
+            ],
+            "model_output": [
+                "red left moto[[0, 56, 199, 369]]\n<answer>red left moto[[0, 56, 199, 369]];<answer>\n<answer>red left moto[[0, 56, 199, 369]];[[5, 45, 196, 365]]\n[[421, 180, 988, 970]]\n</answer:\n<answer>person[[414, 81, 617, 774]]\n</answer:\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "red left moto[[0, 54, 182, 367]]\n<answer>\n\u526f\u4e3b\u5e2d\u4e0a\u7684\u4eba</answer>\n<answer>/riding[[409, 83, 664, 771]][[152, 5, 424, 690]]\n<answer>\n</answer>\n<question>What is the primary color of the motorcycle?</answer>\n\u7ed3\u675f\u3002\n<answer>primary color[[195, 160, 988, 974]]\n</answer>\n<question>What are the people on the motorcycle?</answer>\n\u7ed3\u675f\u3002\n<answer>people[[409, 83, 664, 771]]\n</answer>\n[[152, 5, 424, 690]]\n</answer>",
+                "red left moto[[0, 53, 191, 366]]\n<answer>\nred left moto[[0, 53, 191, 366]]\n<answer>\nman[[410, 81, 652, 778]]\n[[171, 10, 411, 674]]\n[[171, 10, 411, 674]]\n[[410, 81, 652, 778]]\n[[171, 10, 411, 674]]\n[[171, 10, 411, 674]]\n[[410, 81, 652, 778]]\n[[171, 10,",
+                "red left moto[[0, 55, 187, 367]]\n<answer>red left moto[[0, 55, 187, 367]]\uff1b[[194, 162, 989, 974]]\n</answer><answer>man[[409, 80, 641, 768]]\n</answer><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image><image",
+                "red left moto[[0, 51, 192, 368]]\n<answer>\n</answer><answer>\n</answer><answer>A region containing the text 'CHAMPION' is visible on the motorcycle's side panel. Coordinates for this text would be (220, 469, 255, 498).</answer>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</",
+                "red left moto[[0, 54, 190, 367]]\n<answer>red left moto[[0, 54, 190, 367]];<answer>\n<answer>red left moto[[0, 54, 190, 367]][[210, 5, 393, 678]]\n</answer>\n</bodytags>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</bodytag>\n</body",
+                "red left moto[[0, 56, 191, 368]]\n<answer>\n\u526f\u4e3b\u5e2d: <answer>[x1,y1,x2,y2]</x1,y1,x2,y2]</y1></answer>\n<answer>red left moto[[0, 56, 191, 368]]\n<answer>red left moto[[0, 56, 191, 368]]\n<answer>red helmet[[143, 9, 414, 680]]\n</answer>\n<answer>red helmet[[143, 9, 414, 680]]\n</answer>\n</table>\nred helmet[[143, 9, 414, 680]]\n</table>\n<answer>red helmet[[143, 9, 41",
+                "red left moto[[0, 54, 187, 369]]\n<answer>red left moto[[0, 54, 187, 369]];<answer>\niffound <answer>[x1,y1,x2,x3]</answer>\n<answer>red left moto[[0, 54, 187, 369]];[[177, 154, 989, 978]]\n[[175, 7, 409, 684]]\nIf the sentence was \"The man is riding the motorcycle\", what would be the CoR of the bounding box coordinates?\nThe man is riding the motorcycle[[175, 7, 409, 684]]\nIf the sentence was \"The woman is waving a flag\", what would be the CoR"
+            ],
+            "iou_scores": [
+                0.9004936552640739,
+                0.0,
+                0.9493966717496519,
+                0.9664838513101767,
+                0.0,
+                0.9543477898665422,
+                0.0,
+                0.9634170955696841
+            ],
+            "iou_var": 0.21047212725314335,
+            "mean_iou": 0.5917673829700161,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000276460.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man light yellow shirt</ref>",
+            "ground_truth": [
+                420,
+                191,
+                601,
+                685
+            ],
+            "model_output": [
+                "man light yellow shirt[[408, 191, 609, 693]]\n<answer>\nHere is the requested bounding box coordinates for the region describing the man in the black sweater: \nman in the black sweater[[0, 403, 185, 1000]]\n<answer>\nHere is the requested bounding box coordinates for the region describing the woman in the black jacket: \nwoman in the black jacket[[519, 16, 895, 987]]\n<answer>\nHere is the requested bounding box coordinates for the region describing the woman in the white shirt: \nwoman in the white shirt[[265, 257, 441, 998]]\n<answer>\nHere is the requested bounding box coordinates for the region describing the person standing behind the woman: \nperson[[265, 257, 441, 998]]\n\u4f5c\u7b54\uff1aWhat is the",
+                "man light yellow shirt[[412, 189, 606, 692]]\nsource: image\n[[0, 413, 194, 1000]]\n[[530, 12, 908, 1000]]\nsource: image\n[[266, 261, 425, 998]]\n[[272, 647, 681, 896]]\n[[103, 679, 293, 996]]\n[[162, 667, 256, 740]]\n[[433, 583, 502, 838]]\n- A",
+                "man light yellow shirt[[409, 190, 606, 694]]\n then\n then\n then",
+                "man light yellow shirt[[404, 191, 605, 697]]\n againwoman[[266, 260, 418, 994]]\n againwoman[[0, 408, 175, 1000]]\n againperson[[501, 16, 895, 984]]\n againcake[[292, 600, 698, 896]]\n againcandle[[403, 587, 424, 688]]\n againcake stand[[107, 690, 298,",
+                "man light yellow shirt[[408, 191, 603, 695]]\nI'm sorry, but I can't provide the bounding box coordinates for that specific region.\n[[521, 18, 893, 984]]\nWould you mind me if I added a photo of a cake?\na photo of a cake[[295, 582, 685, 892]]\n[[791, 128, 999, 763]]\n[[294, 586, 689, 892]]\n[[294, 586, 689, 892]]\n[[294, 586, 689, 892]]\n",
+                "man light yellow shirt[[404, 194, 605, 694]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [404, 194, 605, 694] tags:\nthis sentence[[509, 19, 891, 1000]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [306, 260, 424, 647] tags:\n[306, 260, 424, 647]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\": [306, 260, 424, 647] tags:\n[306, 260, 424, 647]]\n<answer>\nHere is the requested bounding box for the region described by \"this sentence\":",
+                "man light yellow shirt[[409, 191, 606, 693]]\nAI-generated question: What is the woman holding a cake with on her tray?\n[[285, 596, 688, 896]]\nAI-generated question: What is the woman holding a cake with on her tray?\nwoman holding a cake with on her tray[[485, 18, 893, 989]]\nAI-generated question: What is the woman holding a cake with on her tray?\nAI-generated question: What is the woman holding a cake with on her tray?\n",
+                "man light yellow shirt[[412, 192, 613, 693]]\n<answer>\nHere is the bounding box coordinates for the woman holding the cake: \nwoman holding the cake[[517, 15, 891, 987]]\n<answer>\nHere is the original bounding box coordinates of the man looking at the cake: \nman looking at the cake[[12, 234, 178, 516]]\n<answer>\nHere is the original bounding box coordinates of the woman in the middle ground: \nwoman[[268, 258, 428, 989]]\n fourth item: woman[[15, 415, 186, 989]][[15, 415, 186, 989]]\n<answer>\nHere is the original bounding box coordinates of the man in the back: \nman"
+            ],
+            "iou_scores": [
+                0.8861469544706745,
+                0.916296038203767,
+                0.900551929739747,
+                0.8791418402060842,
+                0.9097883597883598,
+                0.879536434983126,
+                0.9041397860335308,
+                0.8845284589916933
+            ],
+            "iou_var": 0.0001831508745262601,
+            "mean_iou": 0.8950162253021228,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000425063.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>donut in middle on left side</ref>",
+            "ground_truth": [
+                171,
+                394,
+                372,
+                643
+            ],
+            "model_output": [
+                "donut in middle on left side[[169, 615, 396, 890]]\n[[103, 209, 301, 446]]\n contenu for the region of image 2 answer:\n[[337, 189, 523, 418]]\nifique answer:\n[[541, 335, 772, 636]]\nifugue answer:\n[[371, 589, 595, 917]]\nifugue answer:\n[[597, 582, 917, 912]]\nifugue answer:\n[[0, 536, 207, 824]]\nifugue answer:\n[[751, 4",
+                "donut in middle on left side[[176, 394, 375, 638]]\n[[150, 616, 387, 890]]\n\u8709\u8763[[371, 584, 607, 916]]\nchocolate donut[[591, 577, 918, 913]]\ndonut[[2, 540, 218, 829], [0, 683, 144, 824], [722, 464, 979, 694], [669, 100, 788, 363], [504, 332, 764, 636], [382, 394, 545, 621], [401, 397, ",
+                "donut in middle on left side[[167, 391, 387, 634]]\n[[178, 616, 386, 892]]\n anyway, this is a box of donuts. it contains 12 donuts. some are chocolate glazed, some have sprinkles, and one has a ring design. there are also some plain glazed donuts.\nuser\nwhat is the number of donuts in the box?\nuser\nWhat is the donut with the most sprinkles is the largest in size?\ndonut in middle on left side[[361, 188, 546, 420]]\n[[361, 188, 546, 420]]\n</solution>\n</solution>\n[[361, 188, 546, 420]]",
+                "donut in middle on left side[[171, 620, 396, 890]]\ndonut in middle on left side[[202, 391, 381, 638]]\n<img id=\"image11\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC0lFAkAAAABHNCSVLtBAZwDgAAAB3pybS5yZgAAAAAB3RMT0AAAACmAAAEoAAAGAAR0AAAABnpg/f3lA...\" style=\"width:100%;height:100%;\")\ndonut in middle on left side[[104, 208, 296, 445]]\n<img id=\"image2\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC0lFAkAAAABHNCSV",
+                "donut in middle on left side[[159, 391, 381, 640]]\ndonut in middle on left side[[186, 615, 394, 891]]\n\u6829\u6829\u5982\u751f\u5730\u5448\u73b0\u51fa\u5404\u79cd\u751c\u751c\u5708\u7684\u5916\u89c2\uff0c\u5305\u62ec\u5de7\u514b\u529b\u3001\u7cd6\u971c\u548c\u87ba\u65cb\u5f62\u751c\u751c\u5708\uff0c\u6240\u6709\u8fd9\u4e9b\u751c\u751c\u5708\u90fd\u6574\u9f50\u5730\u6446\u653e\u5728\u4e00\u4e2a\u7eb8\u677f\u76d2\u5b50\u91cc\u3002\n[[657, 582, 918, 906]]\n[[539, 335, 772, 636]]\n<img src=\"https://i.imgur.com/9XfDz3n.jpg\" width=\"600\" height=\"600\" alt=\"Donuts in a box\"></img>\n[[0, 537, 204, 824]]\n[[107,",
+                "donut in middle on left side[[162, 393, 378, 635]]\n[[0, 536, 204, 829]]\n\u5bc2\u7136\u672a\u5b9a\uff0c\u4e00\u65c1\u7684\u7cd6\u971c\u751c\u751c\u5708\u4e5f\u6563\u843d\u4e86\u4e00\u90e8\u5206\uff0c\u589e\u6dfb\u4e86\u89c6\u89c9\u4e0a\u7684\u4e30\u5bcc\u6027\u3002\nThe rest of the doughnuts in the box are spread across the box, with some on the left, some on the right, and others in the middle.[[353, 188, 533, 420]]\nThe image shows a variety of doughnuts with different toppings, including chocolate glaze, orange and black sprinkles, and a chocolate swirl.\nThe image shows a variety of doughnuts with different toppings, including chocolate glaze, orange and black sprinkles, and a chocolate swirl.\nThe image shows a variety of doughnuts with different toppings, including chocolate glaze, orange and black sprinkles, and a chocolate swirl.\nThe image shows a variety of doughnuts with different",
+                "donut in middle on left side[[163, 619, 398, 891]]\n><answer>[x1,y1,x2,y2]</value>\n><answer>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n</html>\n</body>\n",
+                "donut in middle on left side[[161, 394, 375, 636]]\n[[185, 618, 388, 889]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1adonut in middle on left side[[161, 394, 375, 636]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1adonut in middle on left side[[161, 394, 375, 636]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1adonut in middle on left side[[362, 396, 566, 612]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1adonut in middle on left side[[362, 396, 566, 612]]\n\u6829\u6829\u5982\u751f\u7684\u63cf\u8ff0\uff1adonut in middle on left side[[161, 394, 375, "
+            ],
+            "iou_scores": [
+                0.05267394193512158,
+                0.9417695594809082,
+                0.872822015958313,
+                0.04354091320072333,
+                0.8848445804477372,
+                0.8990534521158129,
+                0.044198085116129916,
+                0.9144092489895667
+            ],
+            "iou_var": 0.17201243517072332,
+            "mean_iou": 0.5816639746555391,
+            "correct_count": 5
+        },
+        {
+            "image": "train2014/COCO_train2014_000000474123.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman with tattoos on her left forearm playing wii</ref>",
+            "ground_truth": [
+                3,
+                283,
+                1000,
+                986
+            ],
+            "model_output": [
+                "woman with tattoos on her left forearm playing wii[[6, 285, 1000, 1000]]\n\n\n<object><details><summary>Region names</summary><p>woman with tattoos on her left forearm playing wii</p></details></structure>\n<object><details><summary>Text</summary><p>g <i>ring</i> on her left wrist</p></details></object>\n</body>\n\n</select>\n</style></body></html>",
+                "woman with tattoos on her left forearm playing wii[[10, 284, 1000, 984]]\n",
+                "woman with tattoos on her left forearm playing wii[[0, 280, 1000, 1000]]\n\n\n<object></object>\nwoman[[0, 280, 1000, 1000]]\n</object>\n</body></html>\n\uff1cimage&gt;</span>\n</body>\n\n</html>\n\uff1cend_body\uff1e\n\uff1cend_body&gt;\n[[2, 19, 627, 984]]\n</body>\n\n</html>\n[[2, 19, 627, 984]]\n[[547, 44, 774, 299]]\n[[545, 42, 777, 299]][[2",
+                "woman with tattoos on her left forearm playing wii[[6, 283, 1000, 987]]\n<answer>\nUILayoutative text from the image: woman[[0, 20, 632, 1000]]\n<answer>\n<answer>\n[[0, 20, 632, 1000]]\n[[6, 282, 1000, 1000]]\n[[2, 29, 611, 1000]]\n<answer>\n[[528, 283, 998, 989]]\n[[6, 28, 632, 1000]]",
+                "woman with tattoos on her left forearm playing wii[[9, 281, 1000, 988]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1awoman[[9, 281, 1000, 988]]\n<question>What is the man's hair color?</question>\n}</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</",
+                "woman with tattoos on her left forearm playing wii[[3, 282, 1000, 986]]\n\n\nwoman[[3, 282, 1000, 986]]\n[[10, 26, 631, 988]]\n${\\displaystyle}372,0,114,119,843,233,140,122,829,222,136,204,119,204,215,220,199,210,196,186,191,193,181,180,176,166,160,158,148,139,134,126,121,114,106,102,96,91,",
+                "woman with tattoos on her left forearm playing wii[[6, 279, 1000, 986]]\n",
+                "woman with tattoos on her left forearm playing wii[[0, 285, 1000, 986]]\n\u63cf\u8ff0\u8fd9\u4e2a\u533a\u57df\u7684\u5185\u5bb9\uff1awoman[[0, 285, 1000, 986]]\n[[3, 24, 632, 986]]\n hence, the full bounding box coordinate of the woman's tattooed arm: <answer>[x1,y1][x2,y2]</answer>\n[[10, 326, 168, 743]]\n\u56e0\u6b64\uff0cBounding box of the man playing wii game is: <answer>[x1,y1][x2,y2]</answer>\n[[10, 326, 168, 743]]\n\u56e0\u6b64\uff0cBounding box of the man's arm is: <"
+            ],
+            "iou_scores": [
+                0.974800190820739,
+                0.9887414733532033,
+                0.9734597222222222,
+                0.995579047849719,
+                0.9883919387675479,
+                0.9985795454545454,
+                0.9913671657206253,
+                0.0
+            ],
+            "iou_var": 0.1066793564279597,
+            "mean_iou": 0.8638648855235753,
+            "correct_count": 7
+        }
+    ]
+}

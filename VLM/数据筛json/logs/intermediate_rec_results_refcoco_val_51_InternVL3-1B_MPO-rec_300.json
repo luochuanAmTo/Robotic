@@ -1,0 +1,139 @@
+{
+    "accuracy": 50.0,
+    "processed_count": 4,
+    "batch_num": 51,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000272729.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>car in front</ref>",
+            "ground_truth": [
+                841,
+                402,
+                1000,
+                739
+            ],
+            "model_output": [
+                "car in front[[2, 385, 486, 909]]\n[[714, 420, 1000, 744]]\nReply\nAnother question: If the zebra eats from the person's hand, what is the action being performed?\n[[258, 324, 884, 861]]\nReply\nAnother question: How is the zebra interacting with the driver in the image?\n[[25, 402, 297, 635]]\nReply\nAnother question: What is happening in the image?\n[[258, 324, 884, 861]]\nReply\nThe image shows a zebra interacting with a person who is inside a car. What is the zebra doing?\nI'm sorry, but I can't provide the answer based on the given image.\nReply",
+                "car in front[[0, 390, 483, 917]]\n[[0, 390, 483, 917]]\nReply\n[[0, 389, 512, 918]]\n[[682, 421, 1000, 740]]\n[[261, 321, 897, 867]]\n[[441, 839, 1000, 986]]\n[[11, 841, 1000, 989]]\n[[10, 841, 1000, 989]]\n[[1, 389, 484, 918]]\n[[",
+                "car in front[[0, 384, 481, 912]]\n[[702, 416, 1000, 740]]\n[[261, 312, 903, 866]]\n[[0, 386, 481, 918]]\n[[260, 320, 916, 871]]\n[[0, 842, 1000, 1000]]\n[[16, 455, 255, 634]]\n[[25, 459, 1000, 884]]",
+                "car in front[[0, 387, 480, 908]]\n[[688, 418, 997, 741]]\nHere is your translated image description question: What is the zebra doing in the image?\n[[262, 317, 898, 862]]\nSource: <answer>\n[[262, 317, 898, 862]]\n[[0, 387, 480, 908]]\nHere is your translated image description question: How many cars are there",
+                "car in front[[0, 384, 486, 917]]\n[[0, 386, 486, 918]]\n[[0, 413, 1000, 874]]\n[[0, 413, 1000, 874]]\n[[258, 317, 899, 862]][[0, 841, 1000, 1000]]\n[[651, 420, 999, 745]]\n[[258, 316, 898, 869]][[257, 324, 898,",
+                "car in front[[0, 388, 480, 910]]\n><answer>[x1,y1,x2,y2]</value>[[705, 420, 1000, 744]]\nThe zebra is standing on the right side of the image. The coordinates for the bounding box of the zebra are as follows: <answer>[x1,y1,x2,y2]</value>\n><answer>[x1,y1,x2,y2]</guide>[[264, 318, 899, 862]]\nHow far is the zebra from the camera? zebra[[264, 318, 899, 862]]\nHow far is the zebra from the car? zebra[[264, 318, 899, 862]]\nHow far is the zebra from the car",
+                "car in front[[0, 387, 482, 917]]\n[[694, 423, 999, 740]]\nHere is the location of the zebra: \n<img src=\"https://www.shutterstock.com/image-photo/zebra-in-the-middle-of-the-road-280x280-1000-11-12-100-15-1.jpg\" alt=\"Zebra in the middle of the road\" style=\"div\">\n\nNote: I can't provide a precise bounding box as it's too small to draw, but the zebra is indeed in the middle of the road.\nuser\nCan you describe the zebra's behavior towards the man? Is it friendly or aggressive?\nzebra's behavior towards the man[[270, 323, 887, 866]]\nzebra[[270, 323, 887, 866]]\nHere is a description of",
+                "car in front[[0, 389, 476, 912]]\nzebra[[267, 319, 912, 874]]\n[[678, 417, 1000, 742]]\n[[254, 315, 909, 609]]\n[[2, 842, 1000, 1000]]; [2, 842, 1000, 1000]]\n[[0, 388, 476, 917]]\n[[678, 415, 1000, 740]]\n[[267, 319, 912, 874]]"
+            ],
+            "iou_scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "iou_var": 0.0,
+            "mean_iou": 0.0,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000170483.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front red right couch</ref>",
+            "ground_truth": [
+                445,
+                712,
+                988,
+                985
+            ],
+            "model_output": [
+                "front red right couch[[453, 707, 990, 989]]\n[[328, 417, 613, 778]]\n[[206, 409, 389, 606]]\n${\\bfp723}}\n[[501, 705, 982, 984]]\n[[296, 757, 576, 984]]\n[[204, 375, 355, 662]]\n[[354, 417, 620, 785]]\n[[560, 564, 929, 772]]\n[[12, 35, 1000, 976",
+                "front red right couch[[442, 706, 988, 989]]\n[[324, 415, 614, 787]]\n[[201, 407, 377, 600]]\n[[385, 697, 988, 986]]\n[[339, 419, 613, 773]]\n[[152, 378, 315, 658]]\n[[558, 585, 929, 772]]\n[[11, 135, 202, 598]]\n[[123, 300, 210, 390]]\n[[2",
+                "front red right couch[[459, 705, 988, 987]]\nKnow the bounding box coordinates for? front red right couch[[459, 705, 988, 987]]\nuser\nwhat is the width of the room? living room[[10, 2, 993, 989]]\nwoman\nThe bounding box coordinates for the room's ceiling? living room[[10, 2, 993, 989]]\nuser\nwhat is the name of the room? living room[[10, 2, 993, 989]]\nuser\nwhat is the name of the object that is on the floor of the room?\nobject[[599, 578, 924, 777]]\nI find the object name red in the room? yes\nuser\nwhat is the name of the",
+                "front red right couch[[457, 705, 988, 987]]\n[[328, 417, 615, 790]]\n</solution>\n[[177, 378, 387, 660]]\n</solution>\n</body></html>\ncouch[[328, 417, 615, 790]]\n</body></html>\ncouch[[457, 705, 988, 987]]\n</body></html>\nchandelier[[102, 140, 412, 324]]\n</body></html>\nwindow[[25, 142, 169, 425]]\n</body></html>\nwindow[[25, 142, 169, 4",
+                "front red right couch[[461, 705, 989, 989]]\nwindow[[22, 146, 202, 415]]\n2.\n3. chairs[[172, 378, 286, 661], [334, 409, 428, 621], [424, 408, 502, 622]]\n${\\displaystyle\\text{bounding box of the region describing the region of the red couch}}\n4. table[[212, 409, 378, 628]]\n5. couch[[341, 416, 616, 778]]\n${\\displaystyle\\text{bounding box of the region describing the region of the red couch}}\n",
+                "front red right couch[[454, 702, 988, 989]]\nKnow the bounding box coordinates for? front red right couch[[454, 702, 988, 989]][[453, 707, 993, 987]]\nThis is the first answer tag.\n-Arthur\n[[454, 707, 993, 987]]",
+                "front red right couch[[459, 705, 988, 989]]\nIdentify and provide the coordinates of the terms \"lamp\" and \"chandelier\" in the image. \nlamp[[379, 26, 482, 298]]\nThis object is not \"lamp\". Please specify the details if you want me to calculate its coordinate tags.\nlamp[[379, 26, 482, 298]]\n",
+                "front red right couch[[454, 706, 993, 988]]\n[[327, 416, 621, 777]]\n310, 318, 345, 357\n310, 318, 345, 357[[327, 416, 621, 777]]\n426, 573, 948, 771\n466, 563, 942, 765\n477, 564, 943, 758\n342, 579, 474, 765\n426, 268, 478, 389\n497, 568, 932, 763\n430, 272, 4"
+            ],
+            "iou_scores": [
+                0.9507674881849784,
+                0.9593639575971732,
+                0.9439019607843138,
+                0.9473591342195036,
+                0.9322900466562986,
+                0.9362103843560351,
+                0.9374196731101273,
+                0.9438477226376615
+            ],
+            "iou_var": 6.677254631335406e-05,
+            "mean_iou": 0.9438950459432613,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000383512.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bus on the left</ref>",
+            "ground_truth": [
+                40,
+                154,
+                776,
+                502
+            ],
+            "model_output": [
+                "bus on the left[[49, 157, 1000, 488]]\n<answer>\nbus on the left[[49, 157, 1000, 488]]\n<answer>\n\n<answer>\n\n[[49, 157, 1000, 488]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>",
+                "bus on the left[[37, 157, 711, 495]]\n><answer>[x1,y1,x2,y2]</threat> <answer>[37, 157, 711, 495]</answer>\n><answer>\n><image>\n><object>bus[[717, 174, 1000, 475]]\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>\n</object>",
+                "bus on the left[[48, 157, 1000, 492]]\n><answer>[x1,y1,x2,y2]</warn><br/>[[51, 196, 997, 498]]\n<answer>\n</answer>",
+                "bus on the left[[58, 155, 1000, 494]]\n<answer>\n}</div></div>\n</div></div>\n</div>\n</div>\n</div>",
+                "bus on the left[[25, 156, 998, 495]]\n[[10, 203, 119, 335]]\n`[[114, 122, 278, 185]]\n`[[114, 122, 278, 185]]\n`[[25, 156, 998, 495]]\n`[[10, 203, 119, 335]]\n`[[114, 122, 278, 185]]\n`[[25, 156, 998, 495]]\n[[10, 203, 119, 335]]\n",
+                "bus on the left[[39, 157, 655, 499]]\nAnonymous\n[[625, 206, 999, 470]]\n[[49, 189, 265, 397]]\n[[5, 195, 71, 334]]\n[[683, 208, 999, 381]]\n[[40, 172, 1000, 443]]\n[[73, 130, 274, 206]]\n[[596, 53, 631, 101]]\n[[708, 55, 744, 101]]\n[[639, 5",
+                "bus on the left[[41, 155, 1000, 488]]\n><answer>[x1,y1,x2,y2]</threat> <answer>[417, 171, 999, 489]</answer>\n><answer>bus[[707, 184, 998, 464]]\n><answer>bus[[16, 166, 720, 499]]\n[[17, 201, 102, 343]]\n><answer>bus[[16, 166, 720, 499]]\n[[707, 184, 998, 464]]\n[[17, 201, 10",
+                "bus on the left[[37, 155, 1000, 485]]\n<answer>\n\n<answer>\n\n><answer>bus on the left[[37, 155, 1000, 485]]\n</answer>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>"
+            ],
+            "iou_scores": [
+                0.7286024852242999,
+                0.8819951622060962,
+                0.6781367113699012,
+                0.7329972535414859,
+                0.7415319596636857,
+                0.8200959176511873,
+                0.3490744308070523,
+                0.733692204520327
+            ],
+            "iou_var": 0.02192405414707235,
+            "mean_iou": 0.7082657656230045,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000217799.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left elephant</ref>",
+            "ground_truth": [
+                49,
+                288,
+                749,
+                991
+            ],
+            "model_output": [
+                "left elephant[[47, 285, 762, 984]]\nKnow the bounding box coordinates when the image description is provided about it? \n\n\nleft elephant[[348, 182, 854, 979]]\nKnow the bounding box coordinates when the image description is provided about it? \n\n\nleft elephant[[47, 285, 762, 984]][[47, 285, 762, 984]]\nleft elephant[[47, 285, 762, 984]]\nleft elephant[[47, 285, 762, 984]]\n[[348, 182, 854, 979]]\n",
+                "left elephant[[46, 276, 774, 990]]\n<answer>&#931;The bounding box coordinates for the region described as \"left elephant\" are <start_x>, <start_y>, <end_x>, and <end_y>. Do not include any units in your answer. Also, ensure that the output format matches the description you provided. If the description is too detailed, you can omit the units if not applicable.</answer>\n\n\nleft elephant[[46, 276, 774, 990]]\n<answer>&#931;The bounding box coordinates for the region described as \"left elephant\" are <start_x>, <start_y>, <end_x>, and <end_y>. Do not include any units in your answer. Also, ensure that the output format matches the description you provided. If the description is too detailed, you can omit the units if not applicable.</answer>\n<answer>&#931;The bounding box coordinates for the region described as \"left elephant\" are <start_x>, <start",
+                "left elephant[[49, 303, 774, 989]]\n<answer>left elephant[[355, 184, 863, 977]]\n<answer>\n</select>\n\u2022[[356, 184, 863, 977]]\n\u2022 left elephant[[49, 303, 774, 989]]\n</select>\n\u2022 left elephant[[49, 303, 774, 989]]\n\u2022 left elephant[[49, 303, 774, 989]]\n</select>\n\u2022 left elephant[[49, 303, 774, 989]]\n\u2022 left elephant[[49, ",
+                "left elephant[[49, 321, 757, 987]]\n><answer>[x1,y1,x2,y2]</answer><br><image>left elephant[[360, 184, 858, 987]]\n><answer>[x1,y1,x2,y2]</answer>",
+                "left elephant[[46, 277, 766, 989]]\n><answer>[x1,y1,x2,y2]</answer><csup></sup>",
+                "left elephant[[47, 298, 767, 987]]\n<image>\nAnswer\nleft elephant[[385, 184, 864, 978]]\n</image>\n<image>\nAnswer\nleft elephant[[47, 298, 767, 987]]\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>\n</image>",
+                "left elephant[[42, 296, 756, 986]]\n><answer>[x1,y1,x2,y2]</warn>\n><answer>&#x12;&#x11;580, 289, 768, 699</answer>",
+                "left elephant[[47, 292, 770, 984]]\n><answer>[x1,y1,x2,y2]</answer>\n><answer>&#x1226;&#x1215;thailand</answer>\n><answer>&#x1226;thailand</answer>\n><answer>&#x1215;ngorian</answer>\n><answer>&#x1217;ngorian</answer>\n><answer>&#x1214;ngorian</answer>\n><answer>&#x1218;ngorian</answer>\n><answer>&#x1207;ngorian</answer>\n><answer>&#x1208;ngorian</answer>\n><answer>&#x1209;ngorian</answer>\n><answer>&#x120a;ngorian</answer>\n><answer>&"
+            ],
+            "iou_scores": [
+                0.9653546271436638,
+                0.0,
+                0.9429553264604811,
+                0.0,
+                0.0,
+                0.9533881552937455,
+                0.13861049430874792,
+                0.0
+            ],
+            "iou_var": 0.20300058541566623,
+            "mean_iou": 0.3750385754008298,
+            "correct_count": 3
+        }
+    ]
+}

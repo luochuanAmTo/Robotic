@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 7,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000564676.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right baseball player</ref>",
+            "ground_truth": [
+                695,
+                148,
+                930,
+                825
+            ],
+            "model_output": [
+                "right baseball player[[697, 161, 930, 832]]\n[[410, 229, 699, 800]]\nThe rest of the bounding boxes coordinates are:\n[[112, 146, 399, 899]]\n[[393, 355, 698, 830]]\n[[693, 537, 801, 813]]\n[[121, 146, 397, 892]]\n[[553, 353, 640, 833]]\n[[393, 358, 442, 828]]\n[[431, 230, 698, 798",
+                "right baseball player[[697, 159, 930, 830]]\n[[408, 227, 700, 800]]\n[[114, 148, 404, 898]]\n{{602, 357, 652, 828}}\n[[501, 351, 643, 831]]\n[[165, 352, 322, 888]]\n[[548, 354, 602, 826]]\n[[696, 573, 811, 812]]\n[[199, 519, 304, 889]]\n[[500, 59",
+                "right baseball player[[699, 155, 933, 830]]\n[[405, 231, 699, 800]]\n anyway, in the black and white photo, who are the men wearing boston baseball uniforms? they are the baseball players.\n[[111, 143, 409, 892]]\n[[406, 227, 696, 795]]\n[[699, 155, 933, 830]]\n[[111, 143, 409, 892]]\n[[500, 356, 637, 829]]\n[[406, 227, 696, 795]]\n[[6",
+                "right baseball player[[697, 159, 935, 830]]\nKnow the coordinates of the region? \nright baseball player[[697, 159, 935, 830]]\nKnow the coordinates of the region? \nright player[[399, 231, 694, 800]]\nKnow the coordinates of the region? \nright player[[399, 231, 694, 800]]\nKnow the coordinates of the region? \nright player[[697, 159, 935, 830]]\nMore information about the player wearing a cap with the letter 'B'[[111, 144, 410, 895]]\n[[411, ",
+                "right baseball player[[699, 163, 931, 833]]\nKnow the context or background for this image description?\nauthority: The image shows three baseball players in old-style uniforms, each holding a baseball bat and posing for a photo on a baseball field. The players are wearing baseball caps with the letter \"B\" on them. The uniforms have the word \"BOSTON\" on them. The players are squatting and appear to be posing for a photograph. The background shows a fence and a dugout.\nuser\nextract the coordinates for the players' heads: heads[[115, 144, 398, 891]]\n",
+                "right baseball player[[699, 161, 934, 830]]\n[[412, 228, 697, 800]]\n[[112, 148, 404, 892]]\n[[451, 228, 698, 801]]\n[[591, 353, 650, 831]]\n[[215, 362, 312, 888]][[698, 573, 815, 812]]\n[[190, 354, 299, 885]]\n[[511, 598, 573, 833]]",
+                "right baseball player[[699, 166, 932, 833]]\n[[403, 227, 699, 802]]\n[[112, 146, 408, 897]]\n{{555, 355, 640, 833}}\n[[320, 349, 697, 799]]\n[[666, 556, 802, 816]]\n[[197, 539, 325, 891]]\n[[342, 557, 405, 799]]\n[[501, 593, 573, 831]]\n[[696, 57",
+                "right baseball player[[694, 157, 932, 828]]\n[[409, 229, 696, 800]]\nNIKOLAY\n[[111, 141, 412, 895]]\n[[409, 226, 698, 801]]\n[[685, 575, 811, 815]]\n[[196, 358, 311, 886]]\n[[534, 355, 628, 831]]\n[[121, 147, 411, 894]]"
+            ],
+            "iou_scores": [
+                0.9625822828913804,
+                0.9682890303257207,
+                0.9537513480203359,
+                0.9484338233047093,
+                0.9462233854949788,
+                0.9414335342425395,
+                0.9380811821761555,
+                0.970132189626297
+            ],
+            "iou_var": 0.00012996795347146735,
+            "mean_iou": 0.9536158470102646,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000264502.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>baby</ref>",
+            "ground_truth": [
+                64,
+                164,
+                232,
+                710
+            ],
+            "model_output": [
+                "baby[[125, 160, 293, 575]]\n[[0, 2, 306, 991]]\n vuelta\nbaby[[0, 162, 292, 989]]\n[[0, 100, 370, 988]]\n[[389, 60, 1000, 989]]\n[[119, 288, 199, 725]]\n[[169, 263, 229, 362]]\n\n[[190, 234, 262, 351]]\n[[197, 258, 271, 394]]\n[[1",
+                "baby[[101, 159, 265, 620]]\n[[0, 0, 409, 998]]\n\u6829\u6829\u5982\u751f\u5730\u5c55\u793a\u4e86\u5728\u52a8\u7269\u820d\u6216\u9a6c\u53a9\u91cc\uff0c\u4e00\u4f4d\u6bcd\u4eb2\u62b1\u7740\u5b69\u5b50\uff0c\u65c1\u8fb9\u6709\u4e00\u5934\u725b\u3002\ncow[[428, 67, 999, 987]]\nwoman[[0, 0, 409, 998]]\n[[0, 0, 409, 998]]\n[[425, 55, 1000, 612]]\n[[0, 0, 409, 998]]\n[[101, 159, 265, 620]]\n[[101, 159,",
+                "baby[[109, 159, 267, 714]]\n[[0, 0, 318, 1000]]\n${{539, 63, 1000, 500}}\n[[0, 0, 318, 1000]]\n[[0, 165, 281, 1000]]\n[[271, 61, 998, 989]]\n[[0, 0, 318, 1000]]\n[[0, 165, 281, 1000]]\n[[271, 61, 998, 989]]\n[[0, 0, 318, 1000]]",
+                "baby[[0, 163, 247, 987]]\n[[99, 135, 312, 863]]\n[[99, 157, 268, 515]]\n\u8a3a[[2, 3, 248, 989]]\n[[430, 63, 998, 991]]\n[[98, 0, 1000, 996]]\n[[11, 1, 248, 989]]\n[[0, 112, 246, 995]]\n[[0, 112, 246, 995]]\n[[99, 157, 26",
+                "baby[[133, 162, 275, 547]]\n[[0, 0, 365, 1000]]\n'''[[362, 61, 998, 986]]\n```\n[[133, 162, 275, 547]]\n```\n```[[0, 0, 365, 1000]]\n```\n```[[362, 61, 998, 986]]\n```\n``````[[0, 0, 365, 1000]]\n</script>\n```[[3",
+                "baby[[116, 155, 271, 742]]\n[[1, 0, 307, 985]]\nReply\nAnother question: What is the brown cow lying on?\nAnswer: The brown cow is lying on straw.\nReply\n[[442, 64, 1000, 989]];[[1, 0, 307, 985]]\nReply\n[[116, 155, 271, 742]]\nReply\n[[1, 0, 307, 985]]\nReply\n[[442, 64, 1000, 989]]\n",
+                "baby[[0, 163, 282, 984]]\n[[137, 158, 285, 541]]\n[[137, 158, 285, 541]]\nwoman[[0, 0, 265, 998]]\n[[137, 158, 285, 541]]\n[[2, 0, 267, 1000]]\n[[2, 0, 267, 1000]]\n[[2, 0, 267, 1000]]\n[[2, 0, 267, 1000]]",
+                "baby[[0, 163, 270, 987]]\n[[0, 3, 287, 998]]\n\u52ab  \ncow[[468, 62, 1000, 989]]\n[[0, 110, 271, 989]]\n[[252, 163, 355, 392]]\n[[24, 1, 1000, 1000]]\n[[0, 0, 1000, 1000]]\n[[0, 163, 270, 987]]\n[[0, 110, 271, 989]]\n[[252, 163, 3"
+            ],
+            "iou_scores": [
+                0.3743647368286641,
+                0.5551879252016804,
+                0.5982362373062533,
+                0.4506898313745529,
+                0.3495266452189784,
+                0.5305544619147742,
+                0.3961956099204395,
+                0.4122977346278317
+            ],
+            "iou_var": 0.007387240495499988,
+            "mean_iou": 0.4583816477991468,
+            "correct_count": 3
+        },
+        {
+            "image": "train2014/COCO_train2014_000000075590.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>old man</ref>",
+            "ground_truth": [
+                331,
+                146,
+                997,
+                988
+            ],
+            "model_output": [
+                "old man[[415, 120, 1000, 1000]]\nDNA\uff1b\n[[0, 236, 457, 1000]]\n[[0, 126, 1000, 989]]\n[[696, 212, 783, 440]]\n[[786, 331, 820, 373]]\n[[859, 286, 902, 384]]\n[[762, 329, 817, 424]]\n[[726, 326, 762, 4",
+                "old man[[291, 116, 1000, 1000]]\n<answer>\nhere you are the bounding box coordinates of the region which describes the old man's face: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nhere you are the bounding box coordinates of the region which describes the man's hands: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nhere you are the bounding box coordinates of the region which describes the man's head: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nhere you are the bounding box coordinates of the region which describes the woman's face: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nhere you are the bounding box coordinates of the region which describes the woman's body: <answer>[x1,y1,x2,y2]</answer>\n<answer>\nhere you are the bounding box coordinates of the region which describes the chocolate cake: <answer>[x1,y1,x",
+                "old man[[413, 120, 999, 981]]\n[[2, 231, 479, 989]]\n\u52ab[[2, 231, 479, 989]][[413, 121, 999, 989]]\n[[2, 231, 479, 989]]\n[[250, 534, 598, 787]]\n[[460, 542, 603, 638]]\n[[363, 130, 998, 989]]",
+                "old man[[431, 124, 1000, 984]]\n<answer>\nHere is the bounding box coordinate for the region described as \"this sentence describes\": old man[[431, 124, 1000, 984]]\n\n</answer>\n<answer>\nHere is the bounding box coordinate for the region described as \"this sentence describes\": woman[[2, 228, 478, 987]]\n\n</answer>\n<answer>\nHere is the bounding box coordinate for the region described as \"this sentence describes\": woman[[2, 228, 478, 987]]\n\n</answer>\n<answer>\nHere is the bounding box coordinate for the region described as \"this sentence describes\": man[[431, 124, 1000, 984]]\n\n</answer>\n<answer>\nHere is the bounding box coordinate",
+                "old man[[294, 126, 1000, 989]]\n[[0, 236, 456, 1000]]\n nr[[0, 235, 458, 987]]\n[[3, 238, 388, 989]]\n[[3, 238, 388, 989]]\n[[3, 238, 388, 989]]\n[[3, 238, 388, 989]]\n[[250, 532, 591, 783]]\n[[250, 532, 591, 783]]\n[[250",
+                "old man[[407, 126, 999, 989]]\n[[3, 236, 487, 987]]\n[[3, 236, 487, 987]]\n[[247, 537, 590, 778]]\n[[570, 610, 650, 819]]\n[[238, 538, 581, 780]]\n[[279, 539, 583, 768]]\n[[1, 5, 998, 527]]\n[[962, 260, 999, 370]]\n[[759, 211, 799, 3",
+                "old man[[425, 129, 1000, 987]]\n[[2, 238, 464, 1000]]\n[[428, 216, 999, 989]]\n[[245, 535, 596, 783]]\n[[259, 534, 586, 783]]\n[[326, 517, 594, 721]]\n[[119, 366, 316, 459]]\n[[688, 214, 757, 423]]\n[[876, 283, 925, 376]]",
+                "old man[[433, 135, 999, 984]]\nKnow the context or background for this image description\n\u00a0old man[[433, 135, 999, 984]]\nI'm sorry, but I can't provide the bounding box coordinates for the old man in this image.\nold man[[433, 135, 999, 984]]\nI'm sorry, but I can't provide the bounding box coordinates for the woman in this image.\n[[3, 236, 468, 1000]]\nI'm sorry, but I can't provide the bounding box coordinates for the woman in this image.\n[[137, 267, 397, 989]]\nI'm sorry, but I can't provide the bounding box coordinates for the"
+            ],
+            "iou_scores": [
+                0.8369266713120466,
+                0.0,
+                0.8441380838460181,
+                0.8237316864766483,
+                0.920387737617311,
+                0.8641335355756251,
+                0.8394297380773728,
+                0.8311123772143618
+            ],
+            "iou_var": 0.08009856541435229,
+            "mean_iou": 0.744982478764923,
+            "correct_count": 7
+        },
+        {
+            "image": "train2014/COCO_train2014_000000453602.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle upper broccoi</ref>",
+            "ground_truth": [
+                497,
+                12,
+                734,
+                326
+            ],
+            "model_output": [
+                "middle upper broccoi[[454, 10, 743, 394]]\n[[98, 2, 409, 394]]\nDB\n[[437, 321, 802, 818]]\n[[541, 331, 827, 698]]\n[[637, 547, 1000, 907]]\n[[267, 371, 596, 970]]\n[[568, 895, 940, 997]]\n[[402, 8, 661, 394]]\n[[652, 85, 1000, 563]]",
+                "middle upper broccoi[[448, 16, 742, 390]]\n[[90, 29, 399, 419]]\n anyway, the image is too small to describe the exact coordinates precisely.\n[[427, 319, 797, 818]]\n[[577, 335, 798, 707]]\n[[303, 317, 931, 969]]\n[[623, 545, 1000, 907]]\n[[551, 882, 941, 1000]]\n[[335, 465, 618, 970]]\n[[22",
+                "middle upper broccoi[[444, 2, 752, 409]]\nImages: \n- It is a close-up of a meal.\n- The meal consists of rice, mushrooms, and broccoli.\n- The broccoli is placed on top of the mushrooms and the rice.\n- There are also some crispy noodles scattered around the broccoli and mushrooms.\n22\n2415\n3603\n4791\n[[276, 320, 801, 826]]\n5766\n[[568, 865, 942, 998]]\n6767\n\n",
+                "middle upper broccoi[[450, 12, 745, 396]]\n[[77, 22, 399, 383]]\n<answer><sep>\n[[422, 320, 799, 818]]\n${\\displaystyle}[[512, 890, 922, 1000]]\n${\\displaystyle}[[284, 317, 786, 963]]\n${\\displaystyle}[[290, 0, 505, 317]]\n${\\displaystyle}[[573, 0, 859, 148]]\n${\\displaystyle}[[575, 77, 1000, 904]]\n${\\displaystyle}[[292",
+                "middle upper broccoi[[445, 9, 743, 399]]\n[[445, 9, 743, 399]]\n anyway, the top is close up, the bottom is close up.\nmiddle upper broccoi[[445, 9, 743, 399]]\n[[100, 25, 402, 396]]\n[[461, 321, 794, 824]]\n[[560, 892, 934, 999]]\n[[361, 471, 583, 967]]\n   [[600, 1, 843, 393]]\n[[577",
+                "middle upper broccoi[[445, 7, 742, 396]]\n[[90, 19, 418, 409]]\n[[424, 322, 794, 817]]\n\u65b0\u5a18[[478, 318, 819, 789]]\n[[252, 398, 998, 990]]\n[[575, 544, 1000, 913]]\n[[1, 413, 384, 716]]\n[[253, 465, 554, 964]]\n[[356, 2, 687, 426]]\n[[61",
+                "middle upper broccoi[[450, 10, 745, 398]]\n[[443, 320, 801, 820]]\n[[100, 19, 406, 419]]\n${{716, 85, 998, 570]}\n[[563, 896, 937, 1000]]\n[[262, 325, 847, 974]]\n[[331, 1, 842, 445]]\n[[318, 281, 536, 512]]\n[[527, 555, 998, 909]]\n",
+                "middle upper broccoi[[440, 13, 746, 409]]\n[[77, 16, 396, 398]]\n```\nmiddle upper broccoi[[440, 13, 746, 409]]\n```\n[[442, 318, 805, 820]]\n```\n```[[386, 3, 686, 397]]\n```\n```[[518, 870, 924, 1000]]\n```\n```[[263, 324, 857, 963]]\n```\n```[[607, 669, 921, 100"
+            ],
+            "iou_scores": [
+                0.6705774221453287,
+                0.6624648344514175,
+                0.5936532754714573,
+                0.6569385593220339,
+                0.6403200826019618,
+                0.6441276518397341,
+                0.6501659968547965,
+                0.6109807022312272
+            ],
+            "iou_var": 0.0006033178233775394,
+            "mean_iou": 0.6411535656147447,
+            "correct_count": 8
+        }
+    ]
+}

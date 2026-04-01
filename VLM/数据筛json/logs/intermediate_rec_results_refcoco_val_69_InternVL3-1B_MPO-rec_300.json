@@ -1,0 +1,139 @@
+{
+    "accuracy": 75.0,
+    "processed_count": 4,
+    "batch_num": 69,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000139728.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left sandwhich middle of pic</ref>",
+            "ground_truth": [
+                342,
+                143,
+                960,
+                792
+            ],
+            "model_output": [
+                "left sandwhich middle of pic[[338, 148, 717, 649]]\n[[633, 142, 999, 750]]\n\u2022\n\u2022\nbowl[[0, 447, 362, 935]]\n\u2022\n\u2022\n\u2022\n\u2022pickles[[462, 530, 970, 790]]\n\u2022\n\u2022\n\u2022\n\u2022[[0, 0, 1000, 447]]\n\u2022[[0, 365, 1000, 987]]\n[[336, 144, 999, 834]]\n\n[[338",
+                "left sandwhich middle of pic[[343, 143, 697, 647]]\n[[639, 121, 998, 729]]\nHere is the response as generated based on the initial input: \n\n```json\n[\n    {\n        \"bbox\": [1, 441, 363, 932]\n    }\n]\n```\nleft sandwhich middle of pic[[343, 143, 697, 647]]\n```\n``````\n```[[639, 121, 998, 729]]\n```\n``````\n```[[343, 143, 697, 647]]\n```\n``````\n```",
+                "left sandwhich middle of pic[[335, 140, 722, 647]]\n[[650, 133, 995, 706]]\nHere is the coordinates of the bounding box for the salad in the image:\n\nleft sandwhich middle of pic[[335, 140, 722, 647]]\n[[0, 444, 382, 946]]\n[[391, 445, 998, 838]]\nHere is the coordinates of the bounding box for the pickle in the image:\n\npickle[[453, 516, 966, 795]]\n[[0, 444, 382, 946]]\n[[650, 133,",
+                "left sandwhich middle of pic[[339, 148, 725, 648]]\n[[633, 134, 999, 729]]\nWould you recommend this to someone who wants to learn more about photography?\nthis to learn more about photography?[[390, 0, 640, 247]]\n[[0, 441, 367, 948]]\nthis sandwhich middle of pic[[337, 148, 674, 641]]\nthis pic[[637, 137, 997, 737]]\nthis pic[[0, 441, 367, 948]]\n[[637, 137, 9",
+                "left sandwhich middle of pic[[341, 148, 718, 647]]\n[[634, 126, 998, 735]]\nWould you suggest serving this food at home?\nthis food[[341, 148, 718, 647]]\n[[634, 126, 998, 735]]\nHow many patties are in the sandwiches?\npatties[[341, 148, 718, 647]]\nWhat is the color of the sandwich on the left?\nsandwich[[634, 126, 998, 735]]\nWhat is in the bowl? Macaroni salad with tomatoes and onions\nmacaroni salad[[0, 440, 384, 940]]\n",
+                "left sandwhich middle of pic[[341, 139, 695, 656]]\n[[341, 139, 997, 787]]\nWould you suggest eating the food today? Why or why not?\nyou[[341, 139, 695, 656]]\n[[342, 139, 997, 787]]\nHow many hands are touching the plate? no hands[[341, 139, 695, 656]]\n[[342, 139, 695, 656]]\nHow many ingredients are there in the food? vegetable[[473, 607, 958, 793]]\n[[0, 440, 369, ",
+                "left sandwhich middle of pic[[345, 146, 715, 647]]\n[[655, 143, 1000, 742]]\nWould you order this food?\nyou[[0, 435, 375, 944]]\nAnd what's the color of the sauce?\nthe sauce[[0, 435, 375, 944]]\nAnd what's the color of the pickles?\npickles[[454, 525, 967, 796]]\nAnd what's the color of the salad?\nsalad[[0, 435, 375, 944]]\nAnd what's the color of the food?\nfood[[657, 143, 1000, 742]]\nAnd what's the color of",
+                "left sandwhich middle of pic[[346, 146, 711, 644]]\n[[635, 141, 996, 735]]\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n[[0, 434, 372, 943]]\n\u2022\n\u2022\n\u2022\n\u2022[[457, 523, 969, 790]]\n\u2022\n\u2022\n\u2022\n\u2022[[321, 436, 1000, 834]]\n\u2022\n\u2022\n\u2022\n\u2022[[0, 3, 1000, 989]]\n\u2022\n\u2022\n\u2022\n\u2022[[379, 0, 630, 257]]\n\u2022\n\u2022"
+            ],
+            "iou_scores": [
+                0.4660916032806895,
+                0.44483671668137686,
+                0.47199035909416887,
+                0.47567948889915596,
+                0.4672133392765096,
+                0.4493400924540521,
+                0.4621748171196912,
+                0.45319909644411865
+            ],
+            "iou_var": 0.00010743094778954283,
+            "mean_iou": 0.46131568915622034,
+            "correct_count": 0
+        },
+        {
+            "image": "train2014/COCO_train2014_000000353146.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>hotdog left</ref>",
+            "ground_truth": [
+                0,
+                120,
+                267,
+                655
+            ],
+            "model_output": [
+                "hotdog left[[0, 116, 312, 695]]\n[[0, 331, 393, 990]]\n`[[387, 238, 999, 977]]\n`[[261, 0, 868, 461]]\n`[[1, 0, 999, 1000]]\n[[1, 11, 304, 693]]\n[[385, 240, 999, 975]]\n[[261, 0, 868, 461]]\n[[1, 11, 304, 693",
+                "hotdog left[[0, 117, 307, 664]]\n[[0, 332, 394, 985]]\n[[0, 10, 998, 987]]\n[[412, 222, 999, 979]]\n[[317, 0, 881, 465]]\n<answer>{{439, 1, 600, 215}}\n[[314, 0, 458, 160]]\n[[314, 0, 458, 160]]\n[[314, 0, 458, 160]]\n[[314, 0, 458, 160]]",
+                "hotdog left[[0, 117, 320, 698]]\n[[0, 336, 397, 988]]\n[[395, 239, 998, 981]]\n[[276, 0, 876, 460]]\n[[1, 0, 1000, 988]]\n[[370, 242, 999, 969]][[0, 1, 1000, 989]]",
+                "hotdog left[[0, 112, 313, 697]]\n[[0, 334, 393, 986]]\n[[0, 117, 318, 657]]\n[[372, 240, 998, 973]]\uff1b\n</style>\n</div></div></div>\n[[372, 240, 998, 973]]\n[[370, 0, 873, 461]]\n[[372, 240, 998, 973]]\n[[372, 0, 873, 461]]\n[[37",
+                "hotdog left[[0, 119, 320, 696]]\n[[0, 332, 402, 990]]\n[[0, 11, 443, 658]]\n\u6829\u6829\u5982\u751f\u5730\u5448\u73b0\u4e86\u65e9\u9910\u7684\u591a\u6837\u6027\u548c\u4e30\u5bcc\u6027\u3002\nhotdog left[[0, 332, 402, 990]]\n[[0, 332, 402, 990]]\n[[389, 239, 998, 979]]\n[[389, 239, 998, 979]]\n[[386, 247, 998, 982]]\n[[392, 250, 99",
+                "hotdog left[[2, 119, 378, 654]]\n[[2, 332, 397, 984]]\n[[2, 1, 998, 982]]\n</div></div>\n[[2, 332, 397, 984]]\nhot dog left[[2, 119, 378, 654]]\n[[2, 332, 397, 984]]\n[[398, 233, 997, 981]]\n[[398, 233, 997, 981]]",
+                "hotdog left[[0, 117, 300, 695]]\n[[0, 331, 406, 998]]\n[[0, 1, 998, 982]]\n</div></option>\n</body>\n</initiator>\n</body></initiator>\n</html>\n</html>\n</div></initiator>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>\n</html>",
+                "hotdog left[[0, 116, 306, 699]]\n[[2, 330, 393, 988]]\nDNA molecules[[384, 234, 998, 973]]\n[[0, 0, 1000, 1000]]\n[[383, 231, 998, 979]]\n[[374, 0, 865, 465]]\n[[280, 0, 885, 339]]\n[[274, 0, 379, 177]]\n[[341, 235, 998,"
+            ],
+            "iou_scores": [
+                0.7907366812807227,
+                0.8506273484627432,
+                0.7683143287435457,
+                0.7801261571229622,
+                0.7736405979202773,
+                0.6988320699276526,
+                0.8237889273356401,
+                0.800709649211314
+            ],
+            "iou_var": 0.0017427009541667359,
+            "mean_iou": 0.7858469700006072,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000547348.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>her</ref>",
+            "ground_truth": [
+                292,
+                317,
+                777,
+                988
+            ],
+            "model_output": [
+                "her[[312, 334, 738, 1000]]\n[[3, 33, 820, 795]]\n volcanic: her[[312, 334, 738, 1000]]\n[[0, 679, 232, 1000]]\n[[540, 346, 740, 595]]\n[[740, 360, 831, 604]]\n[[920, 128, 998, 378]]\n[[368, 472, 524, 618]]\n[[521, 421, ",
+                "her[[318, 332, 743, 989]]\n[[3, 0, 831, 722]]\nher[[318, 332, 743, 989]]\n[[3, 0, 831, 722]]\n[[3, 689, 234, 989]][[3, 689, 234, 989]]",
+                "her[[308, 326, 722, 998]]\n[[0, 676, 224, 998]]\n\u6829\u6829\u5982\u751f\u7684\u7ffb\u8bd1\nher[[0, 676, 224, 998]]\n[[308, 326, 722, 998]]\n[[0, 0, 833, 722]]\nher[[308, 326, 722, 998]]\n[[0, 676, 224, 998]]\n[[0, 0, 833, 722]]\nher[[0, 0, 833, 722]]\n[[30",
+                "her[[319, 336, 747, 988]]\n[[0, 686, 237, 1000]]\n[[264, 348, 744, 989]]\n[[0, 0, 830, 743]]\n[[0, 351, 816, 745]]\n[[0, 351, 816, 745]]\n[[264, 348, 744, 989]]\n[[0, 686, 237, 1000]]\n[[264, 348, 744, 989]]\n[[0, 0, 830, 7",
+                "her[[318, 330, 735, 989]]\n[[0, 681, 233, 989]]\n[[0, 329, 1000, 1000]]\n[[0, 329, 1000, 1000]]\n[[319, 343, 736, 989]]\n[[0, 681, 233, 989]]\n[[0, 329, 1000, 1000]][[0, 329, 1000, 1000]]\n[[319, 343, 736, 989]]",
+                "her[[325, 333, 754, 997]]\n[[0, 683, 231, 1000]]\nher[[325, 333, 754, 997]]\n[[0, 683, 231, 1000]]\n[[371, 516, 481, 623]]\n[[0, 186, 216, 636]][[2, 1, 830, 731]]\n[[2, 1, 830, 731]]\n[[325, 333, 754, 997]]\n[[371, 516, 481, 623",
+                "her[[323, 337, 736, 989]]\n[[3, 0, 830, 733]]\nDB\n[[3, 684, 224, 990]]\n[[322, 331, 736, 989]]\n[[3, 0, 830, 733]]\n[[3, 684, 224, 990]]\n[[3, 684, 224, 990]]\n[[323, 337, 736, 989]]\n[[322, 331, 736, 989]]\n[[3, 684, 224",
+                "her[[334, 330, 752, 997]]\n[[2, 335, 1000, 1000]]\n[[334, 330, 752, 997]]\n[[0, 0, 832, 713]]\n[[0, 683, 231, 988]]\n[[0, 33, 252, 624]]\n[[0, 683, 231, 988]]\n[[2, 33, 252, 624]]\n[[0, 683, 231, 988]]\n[[334, 330, 752, 997"
+            ],
+            "iou_scores": [
+                0.8428574453859814,
+                0.8555821518443504,
+                0.8315800652355306,
+                0.8574861339437982,
+                0.8420571302309023,
+                0.853320416889364,
+                0.825117846357811,
+                0.8354997159755405
+            ],
+            "iou_var": 0.0001227485505183957,
+            "mean_iou": 0.8429376132329098,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000392180.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bus on the right</ref>",
+            "ground_truth": [
+                446,
+                414,
+                756,
+                732
+            ],
+            "model_output": [
+                "bus on the right[[422, 416, 750, 725]]\n<answer>\n\u0e1e\u0e23\u0e30\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48\u0e19\u0e31\u0e49\u0e19\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e2d\u0e22\u0e39\u0e48\u0e17\u0e35\u0e48 where?\n\u0e1e\u0e23\u0e30\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48\u0e19\u0e31\u0e49\u0e19\u300d[[859, 512, 982, 676]]\n<answer>\nbus[[265, 439, 479, 719]]\nOkay, \u0e04\u0e38\u0e13\u0e44\u0e14\u0e49\u0e22\u0e34\u0e19\u0e2b\u0e23\u0e37\u0e2d\u0e23\u0e39\u0e49\u0e27\u0e48\u0e32 \u0e0a\u0e34\u0e49\u0e19\u0e2a\u0e48\u0e27\u0e19\u0e17\u0e35\u0e48 2 \u0e02\u0e2d\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e19\u0e35\u0e49\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e1a\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e2b\u0e23\u0e37\u0e2d\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e2d\u0e30\u0e44\u0e23\u8fd8\u662f\uff1f\n\u0e0a\u0e34\u0e49\u0e19\u0e2a\u0e48\u0e27\u0e19\u0e17\u0e35\u0e48 2 \u0e02\u0e2d\u0e07\u0e02\u0e49\u0e2d\u0e04\u0e27\u0e32\u0e21\u0e19\u0e35\u0e49\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e02\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e1a\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48\u0e2b\u0e23\u0e37\u0e2d\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e2d\u0e30\u0e44\u0e23\uff1f\u300d[[0, 166, 168, 247]]\n<answer>\n\u0e0a",
+                "bus on the right[[439, 417, 747, 727]]\n\u5bc2\u7136\nbus[[258, 444, 487, 720]]\nbus[[439, 417, 747, 727]]\nbus[[190, 438, 490, 717]]\nbus[[12, 452, 267, 644]]\nperson[[521, 561, 567, 722]]\nwoman[[843, 585, 870, 668]]\nsignage[[0, 154, 145, 326]]\nsignage[[0, 137, 999, 429]]",
+                "bus on the right[[426, 420, 750, 731]]\n<|> </| >\n><|> </| >\nAnother great shot of the city with a busy street and buses, a one-way sign, street lamps, and commercial buildings in the background.\n",
+                "bus on the right[[428, 414, 748, 727]]\n<answer>\nimagen0<come after>bus on the right[[261, 445, 480, 719]]\n</image>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n</body>\n",
+                "bus on the right[[412, 421, 748, 728]]\n<answer>\n\n</answer><answer>\n</li></ol>\n</li></ol>",
+                "bus on the right[[432, 416, 747, 730]]\n<offer>\nI'm sorry, but I can't provide the bounding box coordinates for this image. However, I can describe the objects in the image for you. There are three buses on the street, two of which have \"VLM\" written on them. There's a police car on the left side of the street. There are also several traffic lights and signs, a red booth, and buildings with various signs. The street appears to be a city street with a one-way sign visible.\n<offer>\nbus[[258, 443, 484, 720]]\n</offer>",
+                "bus on the right[[437, 415, 748, 728]]\nA person is standing on the right side of the bus. The coordinates of this person are: <answer>[x1,y1,x2,y2]</answer>\n\n\nbus on the right[[262, 445, 493, 723]]\nI'm sorry, but I can't provide the bounding box coordinates for the bus on the left. However, I can describe the scene.\n\n\nbus on the right[[437, 415, 748, 728]]\nI'm sorry, but I can't provide the bounding box coordinates for the bus on the left. However, I can describe the scene.\n\n\nbus on the right[[437, 415, 748, 728]]\nI'm sorry, but I can't provide the bounding box coordinates for the bus on the left. However, I can describe the scene.\n",
+                "bus on the right[[434, 417, 747, 729]]\n<answer>\n\u526f\u4e3b\u5e2d\uff1a\u56fe\u7247\u4e2d\u7684\u533a\u57df\u88ab\u6807\u8bb0\u4e3a\u516c\u4ea4\u8f66\u9053\u7684\u533a\u57df\u3002\u5b83\u4f4d\u4e8e\u56fe\u7247\u7684\u53f3\u4e0a\u89d2\uff0c\u4ece\u4e0a\u5230\u4e0b\u5927\u7ea6\u4ece(432, 417)\u5230(744, 417)\u3002\u8fd9\u4e2a\u533a\u57df\u5305\u542b\u4e86\u51e0\u8f86\u516c\u4ea4\u8f66\u505c\u9760\u5728\u8def\u8fb9\u3002\n\n\n<answer>\n</option><answer>\n</option>"
+            ],
+            "iou_scores": [
+                0.886222121589494,
+                0.9261538461538461,
+                0.9021374045801527,
+                0.9070374421862706,
+                0.0,
+                0.9178255127408328,
+                0.0,
+                0.9177905476721003
+            ],
+            "iou_var": 0.15523484843132562,
+            "mean_iou": 0.6821458593653371,
+            "correct_count": 6
+        }
+    ]
+}

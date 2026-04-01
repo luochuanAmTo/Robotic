@@ -1,0 +1,139 @@
+{
+    "accuracy": 100.0,
+    "processed_count": 4,
+    "batch_num": 109,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000420183.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>brakley left side front</ref>",
+            "ground_truth": [
+                206,
+                728,
+                561,
+                1000
+            ],
+            "model_output": [
+                "brakley left side front[[188, 726, 528, 999]]\n[[600, 684, 849, 995]]\n[[208, 646, 540, 814]]\n[[516, 783, 849, 996]]\n[[333, 264, 674, 710]]\n[[615, 241, 895, 407]]\n[[373, 259, 644, 645]]\n[[44, 164, 358, 389]]\n[[420, 0, 650, 212]]\n[[27",
+                "brakley left side front[[206, 720, 526, 967]]\n<answer>\nbrakley left side front[[206, 720, 526, 967]]\n<answer>\nbrakley left side front[[206, 720, 526, 967]]\n<answer>\nbrakley left side front[[206, 720, 526, 967]]\n<answer>\nbrakley left side front[[61, 340, 366, 721]]\nbrakley[[61, 340, 366, 721]]\nbroccoli[[466, 263, 693, 515]]\nbroccoli[[466",
+                "brakley left side front[[205, 721, 517, 987]]\n<answer><l>brakley left side front[[205, 721, 517, 987]]\n</l><answer></answer>\n<answer>[[600, 685, 853, 989]][[207, 5, 642, 535]]\n</l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l></l>",
+                "brakley left side front[[206, 722, 546, 987]]\n<answer>[[202, 350, 402, 699]]\n<answer>brakley left side front[[106, 326, 347, 701]]\n<answer>brakley right side front[[583, 681, 864, 988]]\n<answer>broccoli[[630, 443, 894, 694]]\n<answer>broccoli[[398, 259, 673, 693]]\n[[399, 2, 663, 236]]\n[[411, 375, 662, 701]]",
+                "brakley left side front[[211, 721, 527, 987]]\nAnswers:\nbrakley left side front[[211, 721, 527, 987]][[265, 647, 570, 785]]",
+                "brakley left side front[[214, 726, 529, 974]]\n<answer>```json\n{\n  \"boundingBox\": {\n    \"left\": 57,\n    \"top\": 457,\n    \"right\": 183,\n    \"bottom\": 127\n  }\n}\n```\n<answer>\nresolution=\n \n<answer>\n{```json\n{\n  \"boundingBox\": {\n    \"left\": 57,\n    \"top\": 457,\n    \"right\": 183,\n    \"bottom\": 127\n  }\n}\n```\n",
+                "brakley left side front[[213, 719, 532, 989]]\n[[213, 719, 532, 989]]\n[[290, 420, 684, 697]]\n[[601, 687, 845, 996], [616, 497, 906, 696]]\n[[20, 0, 912, 731]]\n[[725, 443, 913, 696]]\n[[664, 243, 878, 405]]\n[[501, 266, 689, 446]]\n[[39, 163, 362, 391]]\n[[290",
+                "brakley left side front[[216, 721, 540, 999]]\n<answer>[[574, 687, 851, 989]]\n<answer>brakley[[206, 165, 423, 394]]\n<answer>brakley[[436, 262, 683, 601]]\n<answer>brakley[[686, 447, 902, 697]]\n<answer>brakley[[338, 419, 685, 703]]\n[[17, 1, 612, 678]]\n*Note: The image shows a plate with cooked vegetables, but I cannot provide bounding box coordinates for individual elements as I'm an AI visualizer and cannot"
+            ],
+            "iou_scores": [
+                0.8545212401339627,
+                0.7715899919289749,
+                0.8136016080320798,
+                0.8931034482758621,
+                0.8286153970760944,
+                0.7973042494083753,
+                0.8373545473745613,
+                0.8884526652365726
+            ],
+            "iou_var": 0.0015697117347593906,
+            "mean_iou": 0.8355678934333104,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000205250.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle gray reader</ref>",
+            "ground_truth": [
+                250,
+                353,
+                454,
+                988
+            ],
+            "model_output": [
+                "middle gray reader[[269, 357, 445, 987]]\nmore_tags: <more_tags></more_tags>\nMore tags: <more_tags></more_tags>\n",
+                "middle gray reader[[268, 358, 436, 998]]\n[[2, 396, 231, 989]]\n[[672, 4, 988, 989]]\n\u8a3a\u65b7[[524, 472, 630, 643]]\n[[255, 493, 334, 1000]]\n[[0, 487, 105, 1000]]\n[[163, 493, 260, 989]]\n[[339, 473, 525, 989]]\n[[521, 456, 599, 641]]",
+                "middle gray reader[[268, 355, 440, 989]]\nDB\n[[631, 7, 993, 987]]\n[[2, 400, 232, 989]]\n[[4, 462, 266, 987]]\n[[268, 355, 440, 989]]\n[[631, 7, 993, 987]]\n[[268, 355, 440, 989]]\n[[4, 462, 266, 987]]\n[[2, 462, 266, 987]]\n[[631",
+                "middle gray reader[[263, 354, 443, 984]]\n[[672, 0, 986, 987]]\nHow many people are standing in the airport?\npeople[[0, 397, 228, 987]]\nHow many people are in the airport?\npeople[[0, 397, 228, 987]]\nHow many people are looking at the baggage carousel?\npeople[[227, 495, 313, 1000]]\nHow many monitors are visible in the background?\nmonitors[[437, 418, 545, 650]]\nHow many people are standing near the baggage carousel?\npeople[[227, 495, 313, 1000]]\nWhat is the man in the leather jacket",
+                "middle gray reader[[262, 355, 436, 989]]\n[[2, 392, 229, 989]]\n[[653, 5, 985, 987]]\nman[[644, 1, 989, 987]]\nman[[262, 355, 436, 989]]\nchild[[189, 495, 286, 984]]\nclothing[[2, 488, 152, 1000]]\nleather clothing[[3, 401, 232, 1000]]\nTV[[278, 415, 406, 647]]\nshirt[[521, 4",
+                "middle gray reader[[272, 355, 436, 989]]\n[[666, 4, 986, 987]]\nHere are the results:\n[[2, 401, 237, 1000]]\nAnd there is a region that does not match the description: man[[2, 401, 237, 1000]]\n[[2, 401, 237, 1000]]\nAnd the region that does not match the description: man[[272, 355, 436, 989]]\nAnd the region that does not match the description: man[[272, 355, 436, 989]]\nAnd the region that does not match the description: man[[272, 3",
+                "middle gray reader[[270, 362, 435, 984]]\nDB\n[[647, 5, 992, 988]]\n[[0, 397, 229, 998]]\n[[2, 496, 336, 1000]]\n[[327, 709, 590, 999]]\n[[572, 789, 804, 998]][[283, 708, 329, 806]]\n[[572, 789, 804, 998]]\n[[283, 708, 329",
+                "middle gray reader[[269, 359, 440, 987]]\n[[2, 400, 240, 989]]\n[[2, 400, 240, 989]]\nman[[642, 1, 991, 987]]\nman[[269, 359, 440, 987]]\ncoat[[17, 553, 240, 1000]]\ncoat[[2, 400, 240, 989]]\nclothing[[2, 400, 240, 989]]\nleather[[642, 1, 992, 987]]\nTV[[292, 419, 4"
+            ],
+            "iou_scores": [
+                0.8559518295507179,
+                0.8065843621399177,
+                0.839367213519181,
+                0.8754052802223251,
+                0.849114205097368,
+                0.8003762412878554,
+                0.7922649374710514,
+                0.8289949050486336
+            ],
+            "iou_var": 0.0007538650509812133,
+            "mean_iou": 0.8310073717921312,
+            "correct_count": 8
+        },
+        {
+            "image": "train2014/COCO_train2014_000000289282.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>soup cup way right</ref>",
+            "ground_truth": [
+                736,
+                579,
+                989,
+                928
+            ],
+            "model_output": [
+                "soup cup way right[[729, 586, 986, 919]]\n[[477, 582, 720, 928]]\n```json\nconsole\n```\n[[248, 595, 461, 946]]\n```json\n```\n```[[495, 583, 722, 923]]\n```json\nsoup cup way right[[749, 583, 986, 921]]\n```\n```[[0, 586, 246, 943]]\n``````\n```[[17, 584, 255, 935]]\n```[[249, 602, 47",
+                "soup cup way right[[731, 584, 989, 919]]\n[[509, 582, 734, 926]]\n anyway, the soup is in the same row as the bowl.\nsoup cup way right[[758, 621, 984, 885]]\n[[444, 605, 691, 899]]\nsoup[[1, 585, 272, 939]]\n\nsoup cup[[16, 587, 276, 938]]\n\nsoup cup[[241, 600, 462, 946]]\n\nsoup[[2, 6, 466, 593]]\nHere is",
+                "soup cup way right[[728, 584, 989, 923]]\nImages: \nsoup cup[[482, 580, 721, 923]]\nImages: \nsoup cup[[253, 600, 481, 947]]\nImages: \nsoup[[6, 587, 264, 938]]\nImages: \nsoup[[2, 585, 270, 936]]\nImages: \nsoup[[2, 584, 270, 936]]\nImages: \nsoup[[482, 580, 721, 923]][[481, 580, 722, 923]]\nImages: \nsoup[[722",
+                "soup cup way right[[735, 584, 988, 924]]\n[[481, 581, 715, 923]]\n anyway, in the middle of the image, the soup is in the box, to the right.\nsoup cup way right[[752, 580, 988, 926]]\nsoup cup way left[[5, 588, 272, 942]]\n\nI see a box of pizza and four bowls of soup.\nsoup cup[[481, 581, 715, 923]]\nsoup cup[[752, 580, 988, 926]]\n\nsoup cup[[735, 584, 988, 924]]\n",
+                "soup cup way right[[728, 583, 989, 919]]\n><answer>[x1,y1,x2,y2]</guess]</answer>\nsoup cup way right[[483, 583, 729, 924]]\n><answer>[x1,y1,x2,y2]</guess></answer>\nsoup cup[[256, 602, 472, 944]]\n><answer>[x1,y1,x2,y2]</guess></answer>\nsoup cup[[683, 581, 986, 922]]\n><answer>[x1,y1,x2,y2]</guess></answer>\npizza[[39, 64, 482, 590]]\n><answer>[x1,y1,x2,y2]</guess></answer>\npizza[[37, 587, 404, 9",
+                "soup cup way right[[740, 584, 988, 920]]\n<answer>\n</body>\n</body>>\n</body>>\n</body>>\n</body>>\n[[492, 580, 723, 923]]\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>>\n</body>",
+                "soup cup way right[[738, 584, 988, 919]]\n[[473, 581, 722, 921]]\nIf we need to describe the position of the soup cup with the soup in it in relation to the tablecloth, it would be: <answer>[x1,y1,x2,y2]</answer>\n[[6, 587, 267, 939]]\nHere are the coordinates of the soup cup with the soup in it: <answer>[x1,y1,x2,y2]</answer>\n[[2, 585, 267, 939]]\nHere are the coordinates of the soup cup with the soup in it: <answer>[x1,y1,x2,y2]</answer>\n[[199, 594, 468, 943]]\nHere are the coordinates of the soup",
+                "soup cup way right[[726, 584, 988, 924]]\n[[501, 580, 725, 923]]\n[[246, 600, 462, 944]]\n{{515, 28, 943, 569]}\n{{543, 110, 685, 495], [656, 92, 825, 524], [635, 346, 748, 547], [725, 142, 843, 437], [801, 228, 937, 414]]\n[[2, 583, 261, 941]]\n[[2, 585, 263,"
+            ],
+            "iou_scores": [
+                0.9185902811493136,
+                0.9420152936469124,
+                0.9424013009702337,
+                0.9666392138723107,
+                0.0,
+                0.9437240223337147,
+                0.0,
+                0.9343817136874707
+            ],
+            "iou_var": 0.16628239145316387,
+            "mean_iou": 0.7059689782074945,
+            "correct_count": 6
+        },
+        {
+            "image": "train2014/COCO_train2014_000000373251.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man on left</ref>",
+            "ground_truth": [
+                48,
+                77,
+                495,
+                818
+            ],
+            "model_output": [
+                "man on left[[57, 80, 474, 820]]\n[[421, 102, 633, 710]]\n[[544, 119, 787, 680]]\nendif\n[[271, 124, 485, 780]]\n[[294, 665, 940, 973]]\n[[780, 647, 1000, 719]]\n[[756, 667, 996, 801]]\n[[1, 117, 998, 671]]\n[[770, 37, 820, 343]]\n{{77",
+                "man on left[[59, 85, 471, 816]]\n[[471, 96, 644, 698]]\n contenu the bounding box for the region that this sentence describes: man on left[[527, 112, 777, 680]]\n again man on left[[395, 106, 581, 573]]\n again man on left[[62, 62, 476, 814]]\n again man on left[[655, 17, 810, 402]]\n again man on left[[391, 121, 596, 721]]\n again man on left[[39, 62, 473, 819]]\n again man on left",
+                "man on left[[56, 83, 466, 820]]\n[[401, 97, 644, 709]]\n anyway, a little bit, but i think this sentence is wrong in this context.\n[[537, 118, 787, 684]]\n[[70, 115, 575, 783]]\n[[323, 663, 935, 966]]\n[[725, 657, 998, 708]]\n[[906, 389, 1000, 652]]\n[[750, 574, 998, 664]]\n[[739, 29, 825,",
+                "man on left[[55, 81, 477, 824]]\nROBOT[[406, 101, 635, 713]]\nROBOT[[513, 121, 783, 678]]\nROBOT[[367, 126, 556, 771]]\nROBOT[[635, 17, 813, 691]]\ncake[[320, 662, 936, 969]]\nROBOT[[19, 77, 475, 824]]\n[[626, 5, 808, 674",
+                "man on left[[56, 83, 473, 820]]\n[[363, 126, 492, 770]]\nDNA of the sentence\nman on left[[501, 115, 786, 682]]\nDNA of the sentence\nman on left[[396, 99, 637, 711]]\nDNA of the sentence\nman on left[[56, 83, 473, 820]]\nDNA of the sentence\nman on left[[551, 21, 806, 679]]\nDNA of the sentence\nman[[501, 115, 786, 682]]\nDNA of the sentence\nman[[363, 126, 492, 770]]\nDNA of",
+                "man on left[[60, 77, 464, 816]]\n><answer>[x1,y1,x2,y2]</select>\n><answer>man on left[[60, 77, 464, 816]]\nitt is man on left[[345, 126, 480, 774]]\nitt is man on left[[345, 126, 480, 774]]\nitt is man[[404, 99, 635, 699]]\nitt is man[[526, 116, 778, 678]]\nitt is man[[600, 19, 818, 458]]\nitt is man[[356, 134, 478, 76",
+                "man on left[[57, 81, 465, 820]]\n[[374, 103, 626, 714]]\nDNA[[282, 127, 480, 780]]\n[[275, 664, 939, 970]]\n[[686, 11, 823, 387]]\n[[424, 197, 581, 702]]\n[[439, 94, 635, 706]]\n[[636, 117, 794, 679]]\n[[787, 668, 998, 708]]\n[[88,",
+                "man on left[[53, 75, 454, 819]]\nDNA[[434, 100, 636, 711]]\n[[533, 118, 774, 682]]\n[[273, 127, 475, 771]]\n[[287, 663, 945, 968]]\n[[2, 1, 999, 825]]\n[[736, 667, 1000, 712]]\n[[2, 1, 999, 825]]\n[[2, 1, 999, "
+            ],
+            "iou_scores": [
+                0.9267755020914832,
+                0.9092616242033409,
+                0.9075522441100206,
+                0.9318520249641208,
+                0.9230081220016804,
+                0.901363717329807,
+                0.9055935526422783,
+                0.8938453208194206
+            ],
+            "iou_var": 0.00015541522108699157,
+            "mean_iou": 0.9124065135202689,
+            "correct_count": 8
+        }
+    ]
+}
