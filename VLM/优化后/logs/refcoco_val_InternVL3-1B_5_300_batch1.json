@@ -1,0 +1,767 @@
+{
+    "accuracy": 90.0,
+    "processed_count": 40,
+    "batch_num": 1,
+    "results": [
+        {
+            "image": "train2014/COCO_train2014_000000326092.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>hands</ref>",
+            "ground_truth": [
+                669,
+                366,
+                1000,
+                792
+            ],
+            "model_output": "hands[[680, 370, 1000, 790]]\n[[39, 20, 800, 633]]\n\u2022\n\u2022\n[[320, 510, 838, 870]]\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022[[800, 660, 1000, 989]]\n[[320, 510, 838, 870]]\n[[320, 510, 838, 870]]\n\n[[320, 510, 838, 870]]\n\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022",
+            "extracted_answer": [
+                680,
+                370,
+                1000,
+                790
+            ],
+            "iou": 0.9531509297476704,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000307242.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>fully visible wine glass on right</ref>",
+            "ground_truth": [
+                686,
+                469,
+                883,
+                988
+            ],
+            "model_output": "fully visible wine glass on right[[700, 475, 889, 989]]\n[[130, 465, 309, 948]]\n[[130, 465, 309, 948]]\n[[700, 475, 889, 989]]\n[[130, 465, 309, 948]]\n[[0, 800, 1000, 1000]]\n[[130, 465, 309, 948]]\n[[130, 465, 309, 948]]\n[[700, 475, 889, 989]]",
+            "extracted_answer": [
+                700,
+                475,
+                889,
+                989
+            ],
+            "iou": 0.8897640034119989,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000296614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                0,
+                329,
+                223,
+                1000
+            ],
+            "model_output": "catcher[[0, 328, 188, 989]]\n[[100, 18, 578, 989]]\n[[689, 269, 939, 930]]\n[[0, 328, 188, 989]]\n[[100, 18, 578, 989]]\n[[689, 269, 939, 930]]",
+            "extracted_answer": [
+                0,
+                328,
+                188,
+                989
+            ],
+            "iou": 0.8281883047102876,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000504566.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>senator john kerry</ref>",
+            "ground_truth": [
+                375,
+                114,
+                636,
+                877
+            ],
+            "model_output": "senator john kerry[[330, 117, 608, 870]]\n[[540, 193, 800, 955]]\n[[700, 238, 1000, 989]]\n[[100, 134, 240, 548]]\n[[200, 128, 400, 684]]\n[[30, 140, 1000, 948]]\n[[100, 134, 240, 548]]\n[[200, 128, 400, 684]]\n[[30, 140, 1000, 948]]",
+            "extracted_answer": [
+                330,
+                117,
+                608,
+                870
+            ],
+            "iou": 0.7529095216025542,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000157239.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right girl in pic</ref>",
+            "ground_truth": [
+                639,
+                60,
+                947,
+                952
+            ],
+            "model_output": "right girl in pic[[620, 63, 959, 954]]\n[[140, 63, 450, 954]]\n[[620, 63, 959, 954]]\n[[140, 63, 450, 954]]\n[[620, 63, 959, 954]]\n[[140, 63, 450, 954]]\n[[620, 63, 959, 954]]\n[[140, 63, 450, 954]]\n[[620, 63, 959, 954]]\n[[14",
+            "extracted_answer": [
+                620,
+                63,
+                959,
+                954
+            ],
+            "iou": 0.9037504992194024,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000487602.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left kite</ref>",
+            "ground_truth": [
+                169,
+                395,
+                483,
+                961
+            ],
+            "model_output": "left kite[[148, 399, 480, 867]]\n[[660, 204, 940, 884]]\nThe rest of the text in the image:\nRUSTY[[350, 100, 954, 890]]\n[[240, 280, 508, 978]]\n[[0, 513, 190, 798]]\n[[0, 100, 70, 339]]\n[[0, 100, 70, 339]]\n[[0, 100, 70, 339]]\n[[0, 100, 70, 339]]",
+            "extracted_answer": [
+                148,
+                399,
+                480,
+                867
+            ],
+            "iou": 0.776040778024228,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000124030.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>loest</ref>",
+            "ground_truth": [
+                27,
+                378,
+                1000,
+                983
+            ],
+            "model_output": "loest[[29, 393, 1000, 960]]\n[[29, 99, 1000, 940]]\nMore details: What the image is about: giraffe[[29, 393, 1000, 960]]\n[[29, 99, 1000, 940]]\nMore details: A person in the background, wearing a white shirt, sitting on a bench.\n[[0, 745, 110, 1000]]\nMore details: The giraffe in the foreground is licking the neck of the giraffe in the background.\n[[29, 99, 1000, 940]]\nMore details: The giraffe in the foreground is licking the neck of the giraffe in the background.\n[[29,",
+            "extracted_answer": [
+                29,
+                393,
+                1000,
+                960
+            ],
+            "iou": 0.9352636898745467,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000314065.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>animal far right</ref>",
+            "ground_truth": [
+                588,
+                453,
+                798,
+                874
+            ],
+            "model_output": "animal far right[[530, 449, 800, 870]]\n[[430, 413, 600, 830]]\n[[200, 449, 430, 901]]\n[[430, 413, 600, 830]]\n[[530, 449, 800, 870]]\n[[430, 413, 600, 830]]\n[[200, 449, 430, 901]]\n[[430, 413, 600, 830]]\n[[530, 449, 800, 870]]\n[[430, ",
+            "extracted_answer": [
+                530,
+                449,
+                800,
+                870
+            ],
+            "iou": 0.7647367042179722,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000208612.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left most chair</ref>",
+            "ground_truth": [
+                1,
+                143,
+                175,
+                507
+            ],
+            "model_output": "left most chair[[0, 145, 170, 659]]\n\n\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]\n[[200, 180, 699, 920]]",
+            "extracted_answer": [
+                0,
+                145,
+                170,
+                659
+            ],
+            "iou": 0.6832629721459045,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000105685.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>woman</ref>",
+            "ground_truth": [
+                202,
+                192,
+                793,
+                740
+            ],
+            "model_output": "woman[[130, 200, 660, 739]]\n[[100, 370, 798, 894]]\nThe rest of the sentence is incomplete. Here is the complete sentence:\n[[880, 548, 1000, 1000]]\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is incomplete. Here is the complete sentence:\nThe rest of the sentence is",
+            "extracted_answer": [
+                130,
+                200,
+                660,
+                739
+            ],
+            "iou": 0.6806681445698088,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000495528.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>glass of milk</ref>",
+            "ground_truth": [
+                105,
+                35,
+                295,
+                331
+            ],
+            "model_output": "glass of milk[[98, 44, 280, 330]]\n[[700, 0, 952, 344]]\n[[98, 44, 280, 330]]\n</div></div>\n[[49, 260, 999, 989]]\n[[700, 0, 952, 344]]\n[[98, 44, 280, 330]]\n[[49, 260, 999, 989]]\n[[700, 0, 952, 344]]\n[[98, 44, 280, 330]]\n[[49, ",
+            "extracted_answer": [
+                98,
+                44,
+                280,
+                330
+            ],
+            "iou": 0.8593454895092888,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000005614.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>catcher</ref>",
+            "ground_truth": [
+                292,
+                467,
+                532,
+                861
+            ],
+            "model_output": "catcher[[280, 464, 509, 862]]\n[[799, 200, 979, 880]]\n[[1, 192, 230, 836]]\n[[280, 464, 509, 862]]\n[[799, 200, 979, 880]]\n[[280, 464, 509, 862]]\n[[1, 192, 230, 836]]\n[[799, 200, 979, 880]]\n[[280, 464, 509, 862]]\n[[1, 192, 230,",
+            "extracted_answer": [
+                280,
+                464,
+                509,
+                862
+            ],
+            "iou": 0.8532393916410522,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000435076.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>empty chair next to man</ref>",
+            "ground_truth": [
+                466,
+                768,
+                725,
+                988
+            ],
+            "model_output": "empty chair next to man[[234, 770, 709, 989]]\n[[234, 770, 709, 989]]\n<img src=\"https://i.pinimg.com/564x/0a/0a/0a/0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a",
+            "extracted_answer": [
+                234,
+                770,
+                709,
+                989
+            ],
+            "iou": 0.49035924873415965,
+            "correct": false
+        },
+        {
+            "image": "train2014/COCO_train2014_000000146584.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>chef on left</ref>",
+            "ground_truth": [
+                94,
+                279,
+                243,
+                980
+            ],
+            "model_output": "chef on left[[70, 282, 210, 980]]\n[[230, 265, 408, 934]]\nchef[[400, 306, 560, 699]]\nchef[[390, 303, 549, 699]]\nstatue[[598, 83, 819, 989]]\nclothing[[400, 303, 549, 699]]\ndoor[[30, 270, 1000, 998]]\npot[[800, 558, 880, 650]]\ndoor[[30, 270, 1000, 998]]\nartifact[[39",
+            "extracted_answer": [
+                70,
+                282,
+                210,
+                980
+            ],
+            "iou": 0.6680472933391639,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000270369.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>top left woman</ref>",
+            "ground_truth": [
+                41,
+                200,
+                332,
+                632
+            ],
+            "model_output": "top left woman[[30, 195, 330, 628]]\nImages: \nwoman[[680, 155, 1000, 989]]\nwoman[[30, 195, 330, 628]]\nwoman[[30, 195, 330, 628]]\nperson[[259, 128, 440, 499]]\nman[[529, 130, 720, 410]]\nman[[529, 130, 720, 410]]\nglasses[[680, 155, 1000, 989]]\npizza[[0, 396, 808, 989]]\npizza[[600, ",
+            "extracted_answer": [
+                30,
+                195,
+                330,
+                628
+            ],
+            "iou": 0.9376288659793814,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000112040.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>black truck</ref>",
+            "ground_truth": [
+                179,
+                420,
+                847,
+                802
+            ],
+            "model_output": "black truck[[170, 416, 859, 800]]\n[[830, 348, 1000, 920]]\n[[170, 416, 859, 800]]\n[[0, 488, 170, 768]]\nflag[[330, 100, 400, 350], [360, 100, 430, 348]]\nflag[[330, 100, 400, 350]]\nwindow[[0, 155, 1000, 490]]\ntire[[280, 720, 409, 800]]\ntire[[170, 72",
+            "extracted_answer": [
+                170,
+                416,
+                859,
+                800
+            ],
+            "iou": 0.954601522308132,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000034616.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>truck left behind guys</ref>",
+            "ground_truth": [
+                307,
+                2,
+                566,
+                404
+            ],
+            "model_output": "truck left behind guys[[280, 0, 509, 399]]\n[[280, 0, 509, 399]]\n[[28, 240, 330, 904]]\n[[330, 250, 580, 630]]\nskateboard[[30, 760, 240, 908]]\nskateboard[[30, 760, 240, 908]]\nskateboard[[30, 760, 240, 908]]\nskateboard[[30, 760, 240, 908]]\nskateboard[[30, 760, 240, 908]]\nperson",
+            "extracted_answer": [
+                280,
+                0,
+                509,
+                399
+            ],
+            "iou": 0.6955548809575437,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000163394.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>the suitcase handle bottom right under cat</ref>",
+            "ground_truth": [
+                265,
+                378,
+                1000,
+                962
+            ],
+            "model_output": "the suitcase handle bottom right under cat[[390, 800, 1000, 950]]\n\n\n[[0, 320, 1000, 1000]]\n[[0, 320, 1000, 1000]]\n[[0, 320, 1000, 1000]]\n[[0, 320, 1000, 1000]]",
+            "extracted_answer": [
+                390,
+                800,
+                1000,
+                950
+            ],
+            "iou": 0.21316745876432766,
+            "correct": false
+        },
+        {
+            "image": "train2014/COCO_train2014_000000249429.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>second bench from left</ref>",
+            "ground_truth": [
+                33,
+                654,
+                498,
+                852
+            ],
+            "model_output": "second bench from left[[38, 620, 480, 852]]\n[[38, 620, 480, 852]]\nsecond bench[[38, 620, 480, 852]]\nchair[[38, 620, 480, 852]]\nchair[[38, 620, 480, 852]]\nsun[[0, 0, 1000, 640]]\nchair[[38, 620, 480, 852]]\nchair[[38, 620, 480, 852]]\nchair[[38, 620, 480, 852]]\nchair[[38, 620, 48",
+            "extracted_answer": [
+                38,
+                620,
+                480,
+                852
+            ],
+            "iou": 0.8171581168649275,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000053672.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man in green</ref>",
+            "ground_truth": [
+                335,
+                275,
+                524,
+                821
+            ],
+            "model_output": "man in green[[319, 279, 499, 822]]\nman[[10, 249, 280, 834]]\n[[10, 249, 280, 834]]\nman[[730, 392, 908, 720]]\nperson[[730, 392, 908, 720]]\nperson[[790, 378, 1000, 719]]\nclothing[[0, 0, 999, 600]]\nfootwear[[10, 249, 280, 834]]\nball[[140, 74, 190, 149]]\nshirt",
+            "extracted_answer": [
+                319,
+                279,
+                499,
+                822
+            ],
+            "iou": 0.7933170305053282,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000282142.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>girl in middle</ref>",
+            "ground_truth": [
+                298,
+                498,
+                548,
+                988
+            ],
+            "model_output": "girl in middle[[298, 490, 548, 984]]\n[[580, 439, 999, 989]]\n[[320, 73, 738, 533]]\n[[298, 490, 548, 984]]\n[[580, 439, 999, 989]]\n[[320, 73, 738, 533]]\n[[298, 490, 548, 984]]\n[[580, 439, 999, 989]]\n[[320, 73, 738, 533]]\n[[",
+            "extracted_answer": [
+                298,
+                490,
+                548,
+                984
+            ],
+            "iou": 0.9759036144578314,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000384836.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle giraffe of the three</ref>",
+            "ground_truth": [
+                36,
+                604,
+                417,
+                968
+            ],
+            "model_output": "middle giraffe of the three[[180, 36, 988, 984]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600, 399, 956]]\n[[30, 600,",
+            "extracted_answer": [
+                180,
+                36,
+                988,
+                984
+            ],
+            "iou": 0.10541055718475073,
+            "correct": false
+        },
+        {
+            "image": "train2014/COCO_train2014_000000140738.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>white seat cover far left</ref>",
+            "ground_truth": [
+                1,
+                300,
+                271,
+                1000
+            ],
+            "model_output": "white seat cover far left[[0, 299, 220, 989]]\n[[0, 300, 220, 989]]\n</div></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></",
+            "extracted_answer": [
+                0,
+                299,
+                220,
+                989
+            ],
+            "iou": 0.7945437025101496,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000504878.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>bottom right</ref>",
+            "ground_truth": [
+                906,
+                531,
+                1000,
+                940
+            ],
+            "model_output": "bottom right[[580, 583, 1000, 934]]\n[[138, 365, 348, 920]]\n\u2022 woman[[138, 365, 348, 920]]\n\u2022 woman[[138, 365, 348, 920]]\n[[138, 365, 348, 920]]\n[[100, 282, 140, 824]]\n[[100, 282, 140, 824]]\n[[138, 365, 348, 920]]\n[[100, ",
+            "extracted_answer": [
+                580,
+                583,
+                1000,
+                934
+            ],
+            "iou": 0.21582762049296142,
+            "correct": false
+        },
+        {
+            "image": "train2014/COCO_train2014_000000289482.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>left most guy</ref>",
+            "ground_truth": [
+                58,
+                189,
+                186,
+                963
+            ],
+            "model_output": "left most guy[[48, 196, 180, 960]]\n[[48, 196, 180, 960]]\nman[[180, 243, 440, 840]]\nman[[380, 211, 580, 880]]\nman[[580, 230, 740, 998]]\nperson[[689, 173, 984, 989]]\nchocolate cake[[110, 760, 648, 998]]\nchocolate cake[[110, 760, 648, 998]]\nbracelet[[180, 600, 280, 864]]\nbackpack[[1",
+            "extracted_answer": [
+                48,
+                196,
+                180,
+                960
+            ],
+            "iou": 0.8734537821425894,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000160906.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>boat on right</ref>",
+            "ground_truth": [
+                526,
+                359,
+                1000,
+                989
+            ],
+            "model_output": "boat on right[[470, 335, 1000, 989]]\n[[110, 700, 484, 880]]\n[[470, 335, 1000, 989]]\n[[0, 500, 1000, 1000]]\n[[0, 500, 1000, 1000]]\n[[0, 500, 1000, 1000]]\n[[0, 500, 1000, 1000]]\n[[0, 500, 1000, 1000]]\n[[0, 500, 1000, 10",
+            "extracted_answer": [
+                470,
+                335,
+                1000,
+                989
+            ],
+            "iou": 0.861519819975766,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000444348.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>far left</ref>",
+            "ground_truth": [
+                0,
+                10,
+                257,
+                500
+            ],
+            "model_output": "far left[[0, 85, 160, 500]]\n[[0, 85, 160, 500]]\n<img src=\"https://i.pinimg.com/564x/0a/0a/0a/0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a",
+            "extracted_answer": [
+                0,
+                85,
+                160,
+                500
+            ],
+            "iou": 0.5272770586833956,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000121938.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>police woman in middle</ref>",
+            "ground_truth": [
+                586,
+                600,
+                775,
+                984
+            ],
+            "model_output": "police woman in middle[[580, 597, 778, 989]]\n[[0, 339, 300, 989]]\n</div></div></div>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>\n</body></html>",
+            "extracted_answer": [
+                580,
+                597,
+                778,
+                989
+            ],
+            "iou": 0.935064935064935,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000564676.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>right baseball player</ref>",
+            "ground_truth": [
+                695,
+                148,
+                930,
+                825
+            ],
+            "model_output": "right baseball player[[694, 158, 939, 828]]\n[[399, 232, 699, 793]]\n[[400, 232, 699, 793]]\nbaseball player[[100, 143, 408, 890]]\n[[400, 232, 699, 793]]\n[[100, 143, 408, 890]]\n[[400, 232, 699, 793]]\n[[100, 143, 408, 890]]\n[[400, 232, 699, 793]]\n[[10",
+            "extracted_answer": [
+                694,
+                158,
+                939,
+                828
+            ],
+            "iou": 0.9414114114114114,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000264502.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>baby</ref>",
+            "ground_truth": [
+                64,
+                164,
+                232,
+                710
+            ],
+            "model_output": "baby[[60, 159, 230, 713]]\n[[450, 65, 1000, 989]]\n[[0, 0, 240, 998]]\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+            "extracted_answer": [
+                60,
+                159,
+                230,
+                713
+            ],
+            "iou": 0.9513393232009405,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000075590.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>old man</ref>",
+            "ground_truth": [
+                331,
+                146,
+                997,
+                988
+            ],
+            "model_output": "old man[[408, 126, 1000, 989]]\n[[0, 233, 480, 989]]\n[[0, 233, 480, 989]]\n[[408, 126, 1000, 989]]\n[[0, 233, 480, 989]]\n[[0, 233, 480, 989]]\n[[408, 126, 1000, 989]]\n[[0, 233, 480, 989]]\n[[0, 233, 480, 989]]\n[[408, 126, ",
+            "extracted_answer": [
+                408,
+                126,
+                1000,
+                989
+            ],
+            "iou": 0.8614072568738819,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000453602.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>middle upper broccoi</ref>",
+            "ground_truth": [
+                497,
+                12,
+                734,
+                326
+            ],
+            "model_output": "middle upper broccoi[[439, 10, 750, 390]]\n\n\n<answer>middle upper broccoi[[439, 10, 750, 390]]\n</answer>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></div></div>\n</div></",
+            "extracted_answer": [
+                439,
+                10,
+                750,
+                390
+            ],
+            "iou": 0.6297004569301066,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000276417.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man leaning on fence</ref>",
+            "ground_truth": [
+                452,
+                17,
+                607,
+                692
+            ],
+            "model_output": "man leaning on fence[[450, 10, 609, 684]]\nbaseball player[[475, 232, 829, 948]]\n[[475, 232, 829, 948]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000, 798]]\n[[0, 0, 1000",
+            "extracted_answer": [
+                450,
+                10,
+                609,
+                684
+            ],
+            "iou": 0.9536833754589229,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000450457.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>front most zebra</ref>",
+            "ground_truth": [
+                111,
+                146,
+                772,
+                848
+            ],
+            "model_output": "front most zebra[[110, 148, 919, 834]]\n[[0, 382, 330, 860]]\n[[0, 0, 56, 175]]\n<img src=\"https://i.imgur.com/0zJZ0zg.jpg\" width=\"1000\" height=\"1000\" />\n[[600, 168, 1000, 828]]\n[[110, 148, 919, 834]]\n[[0, 0, 56, 175]]\n[[0, 382, 330, 860]]\n[[0, 0, 56, 175]]\n",
+            "extracted_answer": [
+                110,
+                148,
+                919,
+                834
+            ],
+            "iou": 0.8017787993988154,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000440820.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>yellow shirt</ref>",
+            "ground_truth": [
+                77,
+                179,
+                516,
+                913
+            ],
+            "model_output": "yellow shirt[[70, 184, 512, 915]]\n[[430, 120, 820, 908]]\nThe rest of the description is too small.\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[70, 184, 512, 915]]\nyellow shirt[[7",
+            "extracted_answer": [
+                70,
+                184,
+                512,
+                915
+            ],
+            "iou": 0.9661865922434517,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000043892.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>peach in middle</ref>",
+            "ground_truth": [
+                513,
+                357,
+                756,
+                691
+            ],
+            "model_output": "peach in middle[[440, 359, 768, 693]]\n[[370, 573, 720, 984]]\nHere is the refined bounding box coordinates for the peach in the middle: peach in middle[[440, 359, 768, 693]]\nHere is the refined bounding box coordinates for the apple in the middle: apple[[370, 573, 720, 984]]\nHere is the refined bounding box coordinates for the banana in the left: banana[[100, 117, 480, 984]]\nHere is the refined bounding box coordinates for the peach in the right: peach[[440, 359, 768, 693]]\nHere is the refined bounding box coordinates for the lime in the right: lime[[72",
+            "extracted_answer": [
+                440,
+                359,
+                768,
+                693
+            ],
+            "iou": 0.7331649066686053,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000097504.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>man next to horse head with hat</ref>",
+            "ground_truth": [
+                232,
+                458,
+                680,
+                998
+            ],
+            "model_output": "man next to horse head with hat[[200, 454, 700, 989]]\n[[430, 240, 1000, 989]]\nman[[430, 240, 1000, 989]]\n[[200, 454, 700, 989]]\n[[200, 454, 700, 989]]\n[[430, 240, 1000, 989]]\n[[200, 454, 700, 989]]\n[[430, 240, 1000, 989]]\n[[200, 454, 700, 989",
+            "extracted_answer": [
+                200,
+                454,
+                700,
+                989
+            ],
+            "iou": 0.8760956351369268,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000142299.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>horse on left</ref>",
+            "ground_truth": [
+                188,
+                208,
+                542,
+                945
+            ],
+            "model_output": "horse on left[[159, 204, 538, 940]]\n[[430, 204, 730, 870]]\nThe rest of the text in the image: AJ BAXTER\nCALGARY STAMPEDE[[88, 358, 1000, 989]]\n[[100, 148, 430, 720]]\n[[88, 358, 1000, 989]]\n[[88, 358, 1000, 989]]\n[[100, 148, 430, 720]]\n[[430, 204, 730, 870]]",
+            "extracted_answer": [
+                159,
+                204,
+                538,
+                940
+            ],
+            "iou": 0.9032512815450462,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000018290.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>batter</ref>",
+            "ground_truth": [
+                184,
+                354,
+                410,
+                951
+            ],
+            "model_output": "batter[[150, 349, 408, 950]]\n[[0, 557, 209, 989]]\n[[150, 349, 408, 950]]\n[[0, 557, 209, 989]]\n[[140, 300, 300, 510]]\n[[400, 318, 450, 488]]\n[[450, 340, 470, 408]]\n*Image description: A baseball player in a white and yellow jersey, number 24, is in the process of swinging a bat at a baseball. The batter is wearing a black cap, black gloves, and white shoes. The catcher, wearing a gray shirt and black helmet, is crouched behind him. The scene",
+            "extracted_answer": [
+                150,
+                349,
+                408,
+                950
+            ],
+            "iou": 0.8531915437511184,
+            "correct": true
+        },
+        {
+            "image": "train2014/COCO_train2014_000000532505.jpg",
+            "question": "Please provide the bounding box coordinate of the region this sentence describes: <ref>couch on right</ref>",
+            "ground_truth": [
+                559,
+                227,
+                977,
+                494
+            ],
+            "model_output": "couch on right[[550, 205, 982, 490]]\n[[120, 300, 580, 908]]\nMore details: woman[[330, 240, 669, 816]]\n[[330, 240, 669, 816]]\nMore details: woman[[330, 240, 669, 816]]\n[[330, 240, 669, 816]]\n[[0, 299, 120, 604]]\n[[550, 205, 982, 490]]\n[[120, 300, 580, 908",
+            "extracted_answer": [
+                550,
+                205,
+                982,
+                490
+            ],
+            "iou": 0.880937880633374,
+            "correct": true
+        }
+    ]
+}
